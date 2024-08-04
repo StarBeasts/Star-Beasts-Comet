@@ -1,4 +1,3 @@
-	map_header Route4, ROUTE_4, OVERWORLD, SOUTH | EAST
-	connection south, Route3, ROUTE_3, -25
-	connection east, CeruleanCity, CERULEAN_CITY, -4
+	map_header Route4, ROUTE_4, OVERWORLD, WEST
+	connection west, Route2, ROUTE_2, 0
 	end_map_header

@@ -126,7 +126,22 @@ _MtMoon1AfterBattleText8::
 	cont "catch one."
 	done
 
-_MtMoon1Text14::
+_MtMoon1Text8::
+	text "Hoy, there!"
+
+	para "There's been a"
+	line "cave-in!"
+
+	para "Me 'n the boys"
+	line "are just cleaning"
+	cont "up the wreckage."
+
+	para "Give us a bit and"
+	line "we'll be outta"
+	cont "your way!"
+	done
+
+_MtMoon1Text15::
 	text "Beware!"
 	line "EPILEPSIA have"
 	cont "been known to"
