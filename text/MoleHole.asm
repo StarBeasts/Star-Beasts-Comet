@@ -2,8 +2,9 @@ _SlashopperBattleText::
 	text "This strange"
 	line "insect seems to"
 	cont "have gotten lost"
-	cont "and dug this cave"
-	cont "in an attempt to"
+	cont "in this forest"
+	cont "clearing while"
+	cont "attempting to"
 	cont "get back home."
 
 	para "In a desperate"

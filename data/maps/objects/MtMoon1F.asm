@@ -2,8 +2,8 @@ MtMoon1F_Object:
 	db $3 ; border block
 
 	def_warp_events
-	warp_event  2, 52, LAST_MAP, 1
-	warp_event 37, 53, ROUTE_2, 1
+	warp_event  2, 52, ROUTE_1, 1
+	warp_event 37, 53, ROUTE_2, 2
 	warp_event  5, 25, MT_MOON_B1F, 1
 	warp_event 17, 31, MT_MOON_B1F, 3
 	warp_event 25, 35, MT_MOON_B1F, 4

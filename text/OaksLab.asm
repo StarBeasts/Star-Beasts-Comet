@@ -108,10 +108,29 @@ _OaksLabDeliverParcelText1::
 
 _OaksLabDeliverParcelText2::
 	text_start
-	para "Ah! This is the"
+	para "Oh! This is the"
 	line "custom # BALL"
 	cont "I ordered!"
-	cont "Thanks!"
+
+	para "I totally forgot,"
+	line "sorry!"
+
+	para "Ah, geez..."
+
+	para "That means you"
+	line "went through"
+	cont "COBALT CAVE and"
+	cont "everything?"
+	
+	para "Well, maybe the"
+	line "GIFT I have for"
+	cont "you will make it"
+	cont "up to you."
+
+	para "Now, we just have"
+	line "to wait for"
+	cont "<RIVAL> to make"
+	cont "it here..."
 	done
 
 _OaksLabAroundWorldText::
@@ -299,16 +318,17 @@ _OaksLabRivalToughenUpText::
 	done
 
 _OaksLabText21::
-	text "<RIVAL>: CHERRY!"
+	text "<RIVAL>: Somebody"
+	line "call for a badass?"
 	done
 
 _OaksLabText22::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "CHERRY: Ahaha!"
+	line "Nice entrance!"
 	done
 
 _OaksLabText23::
-	text "CHERRY: Oh, yeah!"
+	text "CHERRY: Anyways!"
 	line "I need you two to"
 	cont "do me a favor..."
 	done

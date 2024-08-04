@@ -600,6 +600,9 @@ OaksLabScript16:
 	call DisplayTextID
 	SetEvent EVENT_GOT_POKEDEX
 	SetEvent EVENT_OAK_GOT_PARCEL
+	ld a, HS_COBALT_CAVE_GUY
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, HS_LYING_OLD_MAN
 	ld [wMissableObjectIndex], a
 	predef HideObject

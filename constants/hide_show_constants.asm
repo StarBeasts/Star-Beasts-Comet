@@ -113,6 +113,7 @@ DEF SHOW EQU $15
 	const HS_VIRIDIAN_FOREST_ITEM_1        ; 64 X
 	const HS_VIRIDIAN_FOREST_ITEM_2        ; 65 X
 	const HS_VIRIDIAN_FOREST_ITEM_3        ; 66 X
+	const HS_COBALT_CAVE_GUY		       ; 
 	const HS_MT_MOON_1F_ITEM_1             ; 67 X
 	const HS_MT_MOON_1F_ITEM_2             ; 68 X
 	const HS_MT_MOON_1F_ITEM_3             ; 69 X
@@ -248,5 +249,4 @@ DEF SHOW EQU $15
 	const HS_DIGLETTS_CAVE_BOULDER_2
 	const HS_ANGEL
 	const HS_DEVIL
-	const HS_COBALT_CAVE_GUY
 DEF NUM_HS_OBJECTS EQU const_value

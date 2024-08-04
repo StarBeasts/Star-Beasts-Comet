@@ -1,7 +1,21 @@
 _Route4Text1::
-	text "Ouch! I bumped"
-	line "into a metal"
-	cont "BEAST, WHIRLIE!"
+	text "Ooh, a traveler!"
+
+	para "Welcome to EMERALD"
+	line "ACRES, kid."
+
+	para "'Fraid there isn't"
+	line "much to do here,"
+	cont "but the old folks"
+	cont "always like some"
+	cont "company."
+
+	para "You should drop in"
+	line "and say hi!"
+
+	para "Bet you'd make"
+	line "their whole day!"
+	cont "Aheh!"
 	done
 
 _Route4BattleText1::
@@ -24,12 +38,12 @@ _Route4AfterBattleText1::
 	done
 
 _Route4Text5::
-	text "MT.MOON"
-	line "Tunnel Entrance"
+	text "EMERALD ACRES -"
+	line "LEGRANDITO"
 	done
 
 _Route4Text6::
-	text "ROUTE 4"
-	line "MT.MOON -"
-	cont "CERULEAN CITY"
+	text "EMERALD ACRES"
+	line "ASSISTED LIVING"
+	cont "FACILITY"
 	done
