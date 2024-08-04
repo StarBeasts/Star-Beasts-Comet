@@ -1,15 +1,15 @@
 MtMoon1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 8,HORSEA
-	db 7,HORSEA
-	db 9,HORSEA
-	db 8,MACHOP
-	db 6,MACHOP
-	db 10,MACHOP
-	db 10,NIDORAN_F
-	db 8,PARAS
-	db 11,ZUBAT
-	db 8,GEODUDE
+	db 3,HORSEA
+	db 2,HORSEA
+	db 4,HORSEA
+	db 3,MACHOP
+	db 2,MACHOP
+	db 4,MACHOP
+	db 5,NIDORAN_F
+	db 4,PARAS
+	db 6,ZUBAT
+	db 3,GEODUDE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

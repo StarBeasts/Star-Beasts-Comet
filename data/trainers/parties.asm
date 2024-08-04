@@ -75,8 +75,8 @@ YoungsterData:
 	db 19, SANDSHREW, ZUBAT, 0
 	db 17, PSYDUCK, GOLDUCK, 0
 	db 18, NIDORAN_M, NIDORINO, 0
-; Unused
-	db 17, SPEAROW, PSYDUCK, PSYDUCK, SPEAROW, 0
+; Cobalt Cave
+	db 3, HORSEA, 0
 
 BugCatcherData:
 ; Viridian Forest

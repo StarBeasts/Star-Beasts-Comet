@@ -2,7 +2,7 @@ Route1_Object:
 	db $b ; border block
 
 	def_warp_events
-	warp_event 32,  7, VIRIDIAN_FOREST, 3
+	warp_event 32,  7, MT_MOON_1F, 1
 
 	def_bg_events
 	bg_event  11, 5, 3 ; Route1Text3
