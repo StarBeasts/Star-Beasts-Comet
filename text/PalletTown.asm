@@ -49,9 +49,9 @@ _PalletTownText4::
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "ZIRCONIA"
+	line "A bright new"
+	cont "future awaits!"
 	done
 
 _PalletTownText6::

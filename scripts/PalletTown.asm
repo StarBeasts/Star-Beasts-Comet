@@ -81,7 +81,7 @@ PalletTownScript2:
 	ld a, 1 ; oak
 	ldh [hSpriteIndex], a
 	call MoveSprite
-	ld a, $FF
+	ld a, $EE
 	ld [wJoyIgnore], a
 
 	; trigger the next script

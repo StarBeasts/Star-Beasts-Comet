@@ -76,7 +76,7 @@ PalletMovementScript_OakMoveLeft:
 ; Prof. Oak is below.
 ; Prof. Oak is already where he needs to be.
 .playerOnLeftTile
-	ld a, $3
+	ld a, $2
 	ld [wNPCMovementScriptFunctionNum], a
 .done
 	ld hl, wFlags_D733
@@ -128,19 +128,17 @@ PalletMovementScript_WalkToLab:
 	ret
 
 RLEList_ProfOakWalkToLab:
-	db NPC_MOVEMENT_DOWN, 5
-	db NPC_MOVEMENT_LEFT, 1
-	db NPC_MOVEMENT_DOWN, 5
-	db NPC_MOVEMENT_RIGHT, 3
+	db NPC_MOVEMENT_DOWN, 9
+	db NPC_MOVEMENT_DOWN, 3
+	db NPC_MOVEMENT_RIGHT, 4
 	db NPC_MOVEMENT_UP, 1
 	db NPC_CHANGE_FACING, 1
 	db -1 ; end
 
 RLEList_PlayerWalkToLab:
 	db D_UP, 2
-	db D_RIGHT, 3
-	db D_DOWN, 5
-	db D_LEFT, 1
+	db D_RIGHT, 4
+	db D_DOWN, 7
 	db D_DOWN, 6
 	db -1 ; end
 
