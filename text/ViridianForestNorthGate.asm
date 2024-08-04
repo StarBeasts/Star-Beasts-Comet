@@ -1,19 +1,28 @@
 _ViridianForestExitText1::
-	text "A magical pink"
-	line "creature that"
-	cont "lives in the"
-	cont "forest?"
+	text "Visiting family?"
 
-	para "Pish-posh. Just a"
-	line "bunch of hogwash."
+	para "Just stay out"
+	line "of my way in"
+	cont "case anybody"
+	cont "needs anything."
+
+	para "I'm a therapist,"
+	line "and I've got"
+	cont "enough to deal"
+	cont "with as it is."
 	done
 
 _ViridianForestExitText2::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Well hey, sug."
 
-	para "They can be cut"
-	line "down by a special"
-	cont "# BEAST move."
+	para "Are you like,"
+	line "someone here's"
+	cont "grandkid?"
+
+	para "Well, we're not"
+	line "supposed to let"
+	cont "guests in with"
+	cont "no appointment,"
+	cont "but nobody ever"
+	cont "visits, so..."
 	done
