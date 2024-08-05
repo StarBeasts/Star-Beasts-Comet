@@ -845,7 +845,7 @@ UndergroundPathRoute6_Blocks:
 UndergroundPathRoute5_Blocks: INCBIN "maps/UndergroundPathRoute5.blk"
 
 Route2Gate_Blocks:
-ViridianForestSouthGate_Blocks:
+ViridianForestSouthGate_Blocks:INCBIN "maps/ViridianForestSouthGate.blk"
 ViridianForestNorthGate_Blocks: INCBIN "maps/ViridianForestNorthGate.blk"
 
 INCLUDE "data/maps/headers/RedsHouse2F.asm"
