@@ -4,7 +4,7 @@ Route4_Object:
 	def_warp_events
 	warp_event 11,  5, MT_MOON_POKECENTER, 1
 	warp_event 32,  5, MOLE_HOLE, 1
-	warp_event 48, 11, VIRIDIAN_FOREST_NORTH_GATE, 1
+	warp_event 48, 11, VIRIDIAN_FOREST_NORTH_GATE, 9
 	warp_event 63, 11, VIRIDIAN_POKECENTER, 1
 	warp_event 31, 11, VIRIDIAN_MART, 1
 
