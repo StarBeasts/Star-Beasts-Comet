@@ -190,7 +190,7 @@ SetPal_Overworld:
 .townOrRoute
 	cp NUM_CITY_MAPS
 	jr c, .town
-	ld a, PAL_ROUTE - 1
+	ld a, PAL_GREENMON - 1
 .town
 	inc a ; a town's palette ID is its map ID + 1
 	ld hl, wPalPacket + 1
@@ -203,7 +203,7 @@ SetPal_Overworld:
 	ld a, PAL_GREYMON - 1
 	jr .town
 .caveOrBruno
-	ld a, PAL_BLUEMON - 1
+	ld a, PAL_CYANMON - 1
 	jr .town
 .Lorelei
 	xor a

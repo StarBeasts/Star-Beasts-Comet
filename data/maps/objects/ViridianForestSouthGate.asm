@@ -22,8 +22,8 @@ ViridianForestSouthGate_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  5, SPRITE_GIRL, STAY, LEFT, 1 ; person
-	object_event 26,  5, SPRITE_LITTLE_GIRL, WALK, UP_DOWN, 2 ; person
+	object_event  4,  4, SPRITE_GRANNY, STAY, DOWN, 1 ; person
+	object_event 26,  5, SPRITE_CHANNELER, WALK, UP_DOWN, 2 ; person
 	object_event 14,  5, SPRITE_GRAMPS, STAY, UP, 3 ; SLIMOGG trade
 
 	def_warps_to VIRIDIAN_FOREST_SOUTH_GATE
