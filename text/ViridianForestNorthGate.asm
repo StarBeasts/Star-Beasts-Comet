@@ -28,56 +28,79 @@ _ViridianForestExitText2::
 	done
 
 _ViridianForestExitText3::
-	text "old fuck 1"
+	text "Alright, BEVERLY!"
+	
+	para "I'm going all in!"
+	line "Gramma needs a"
+	cont "new knitting set!"
 	done
 
 _ViridianForestExitText4::
-	text "old fuck 2"
+	text "Consarn it,"
+	line "GERTRUDE!"
+	
+	para "We're playing"
+	line "Go Fish,"
+	cont "not Poker!"
 	done
 
 _ViridianForestExitText5::
-	text "old fuck 3"
+	text "Poker?"
+	
+	para "Is this like that"
+	line "'Pokermans' thing"
+	cont "the kids are into?"
 	done
 
 _ViridianForestExitText6::
-	text "Speakers."
+	text "Quiet old-timey"
+	line "jazz music flows"
+	cont "from the speakers."
 	done
 
 _ViridianForestExitText7::
-	text "PC Keyboard."
+	text "This PC looks like"
+	line "it's used for"
+	cont "record-keeping."
 	done
 
 _ViridianForestExitText8::
-	text "Portrait."
+	text "It's a picture of"
+	line "of the founder of"
+	cont "EMERALD ACRES,"
+	cont "with text under"
+	cont "him that says:"
+
+	para "Founded in 1897."
 	done
 
 _ViridianForestExitText9::
-	text "Room Sign 1."
+	text "FREDERICA's room."
 	done
 
 _ViridianForestExitText10::
-	text "Room Sign 2."
+	text "SILVERSTEIN's room."
 	done
 
 _ViridianForestExitText11::
-	text "Room Sign 3."
+	text "SANDRA's room."
 	done
 _ViridianForestExitText12::
-	text "Room Sign 4."
+	text "KENNETH's room."
 	done
 _ViridianForestExitText13::
-	text "Room Sign 5."
+	text "Rec room."
 	done
 
 _ViridianForestExitText14::
-	text "Room Sign 6."
+	text "GERTRUDE's room."
 	done
 
 _ViridianForestExitText15::
-	text "Room Sign 7."
+	text "BEVERLY's room."
 	done
 _ViridianForestExitText16::
-	text "Room Sign 8."
+	text "ALBERT's room."
 	done
 
 
