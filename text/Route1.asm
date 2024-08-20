@@ -6,7 +6,7 @@ _Route1ViridianMartSampleText::
 	para "It's a convenient"
 	line "shop, so please"
 	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	cont "EMERALD ACRES."
 
 	para "But you'll have"
 	line "go through COBALT"

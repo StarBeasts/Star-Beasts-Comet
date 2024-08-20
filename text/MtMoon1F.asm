@@ -111,7 +111,7 @@ _MtMoon1AfterBattleText7::
 _MtMoon1BattleText8::
 	text "Go through this"
 	line "cave to get to"
-	cont "CERULEAN CITY!"
+	cont "EMERALD ACRES!"
 	done
 
 _MtMoon1EndBattleText8::
@@ -120,10 +120,10 @@ _MtMoon1EndBattleText8::
 	prompt
 
 _MtMoon1AfterBattleText8::
-	text "WHIRLIE is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "DUHZLUGG stinks!"
+	line "I need a useful"
+	cont "BEAST, like a"
+	cont "WHIRLIE!"
 	done
 
 _MtMoon1Text8::

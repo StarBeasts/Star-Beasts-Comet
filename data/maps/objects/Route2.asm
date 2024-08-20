@@ -6,16 +6,16 @@ Route2_Object:
 	warp_event  6,  3, MT_MOON_1F, 2
 	warp_event 19,  7, ROUTE_2_TRADE_HOUSE, 1
 	warp_event 15, 11, HAND_HOUSE, 2
-	warp_event 15,  8, HAND_HOUSE, 3
+	warp_event 15,  8, HAND_HOUSE, 1
 	warp_event 11,  2, VIRIDIAN_FOREST_SOUTH_GATE, 3
 
 	def_bg_events
-	bg_event  9, 41, 3 ; Route2Text3
+	bg_event  27, 9, 3 ; Route2Text3
 	bg_event  5,  5, 4 ; Route2Text4
 
 	def_object_events
-	object_event 17, 30, SPRITE_POKE_BALL, STAY, NONE, 1, MOON_STONE
-	object_event  5, 16, SPRITE_POKE_BALL, STAY, NONE, 2, HP_UP
+	object_event 4, 19, SPRITE_POKE_BALL, STAY, NONE, 1, MOON_STONE
+	object_event  4,  4, SPRITE_POKE_BALL, STAY, NONE, 2, HP_UP
 
 	def_warps_to ROUTE_2
 

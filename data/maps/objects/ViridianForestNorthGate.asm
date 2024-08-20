@@ -29,8 +29,8 @@ ViridianForestNorthGate_Object:
 	def_object_events
 	object_event  1, 13, SPRITE_HIKER, WALK, UP_DOWN, 1 ; person
 	object_event  8, 25, SPRITE_BEAUTY, STAY, UP, 2 ; person
-	object_event  15, 22, SPRITE_GRANNY, STAY, DOWN, 3 ; person
+	object_event  13, 22, SPRITE_GRANNY, STAY, DOWN, 3 ; person
 	object_event  13, 25, SPRITE_CHANNELER, STAY, UP, 4 ; person
-	object_event  15, 25, SPRITE_MR_FUJI, STAY, UP, 5 ; person
+	object_event  15, 22, SPRITE_MR_FUJI, STAY, DOWN, 5 ; person
 
 	def_warps_to VIRIDIAN_FOREST_NORTH_GATE

@@ -10,7 +10,7 @@ Route4_Object:
 
 	def_bg_events
 	bg_event 64, 11, 4 ; PokeCenterSignText
-	bg_event 71,  7, 5 ; Route4Text5
+	bg_event 69,  7, 5 ; Route4Text5
 	bg_event 49, 13, 6 ; Route4Text6
 
 	def_object_events
