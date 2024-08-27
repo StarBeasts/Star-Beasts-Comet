@@ -7,6 +7,8 @@ Route4_Object:
 	warp_event 48, 11, VIRIDIAN_FOREST_NORTH_GATE, 9
 	warp_event 63, 11, VIRIDIAN_POKECENTER, 1
 	warp_event 31, 11, VIRIDIAN_MART, 1
+	warp_event 87, 8, ROUTE_2_GATE, 2
+	warp_event 87, 9, ROUTE_2_GATE, 1
 
 	def_bg_events
 	bg_event 64, 11, 4 ; PokeCenterSignText

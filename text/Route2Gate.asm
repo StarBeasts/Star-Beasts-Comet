@@ -1,12 +1,20 @@
 _Route2GateText_5d616::
 	text "The HM FLASH"
 	line "lights even the"
-	cont "darkest dungeons."
+	cont "darkest caverns."
 	done
 
 _Route2GateText2::
-	text "Once a BEAST"
-	line "learns FLASH, you"
-	cont "can get through"
-	cont "ROCK TUNNEL."
+	text "They say there's"
+	line "an island, far"
+	cont "away from here."
+
+	para "On that island,"
+	line "is a pitch black"
+	cont "cave that holds"
+	cont "a legendary"
+	cont "treasure."
+
+	para "Or so they say,"
+	line "anyway."
 	done
