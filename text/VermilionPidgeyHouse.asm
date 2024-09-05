@@ -1,22 +1,24 @@
 _VermilionHouse1Text1::
-	text "I'm getting my"
-	line "THUNDRHAWK to fly"
-	cont "a letter to"
-	cont "SAFFRON!"
+	text "See? Isn't this"
+	line "better? Now I"
+	cont "don't have to"
+	cont "spend half my day"
+	cont "commuting to work!"
 	done
 
 _VermilionHouse1Text2::
-	text "THUNDRHAWK: Reaah!@"
+	text "SLOBBIX: ZZZzzz...@"
 	text_end
 
 _VermilionHouse1Text3::
-	text "Dear GRACE, I hope"
-	line "to see you soon."
+	text "I don't see how"
+	line "you can stand the"
+	cont "air here..."
 
-	para "I heard SAFFRON"
-	line "has problems with"
-	cont "TEAM ROCKET."
+	para "Every time I open"
+	line "my mouth, I taste"
+	cont "the SEA..."
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "...You're lucky"
+	line "I love you."
 	done

@@ -14,7 +14,7 @@ VermilionHouse1Text1:
 VermilionHouse1Text2:
 	text_far _VermilionHouse1Text2
 	text_asm
-	ld a, OMASTAR
+	ld a, SNORLAX
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
