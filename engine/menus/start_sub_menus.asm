@@ -146,6 +146,7 @@ StartMenu_Pokemon::
 	bit 3, a ; did the player decide to fly?
 	jp nz, .goBackToMap
 	call LoadFontTilePatterns
+	call ReloadMapData
 	ld hl, wd72e
 	set 1, [hl]
 	jp StartMenu_Pokemon
@@ -274,6 +275,7 @@ StartMenu_Pokemon::
 	text_end
 .goBackToMap
 	call RestoreScreenTilesAndReloadTilePatterns
+	call ReloadMapData
 	jp CloseTextDisplay
 .newBadgeRequired
 	ld hl, .newBadgeRequiredText
