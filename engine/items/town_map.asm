@@ -273,7 +273,7 @@ LoadTownMap:
 	call DisableLCD
 	ld hl, WorldMapTileGraphics
 	ld de, vChars2 tile $30
-	ld bc, WorldMapTileGraphicsEnd - WorldMapTileGraphics
+	ld bc, 71 tiles
 	ld a, BANK(WorldMapTileGraphics)
 	call FarCopyData2
 	ld hl, MonNestIcon
