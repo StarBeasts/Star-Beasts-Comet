@@ -13,7 +13,7 @@ DisplayTownMap:
 	push af
 	ld b, $0
 	call DrawPlayerOrBirdSprite ; player sprite
-	hlcoord 1, 0
+	hlcoord 1, 16
 	ld de, wcd6d
 	call PlaceString
 	ld hl, wShadowOAM
@@ -30,8 +30,8 @@ DisplayTownMap:
 	jr .enterLoop
 
 .townMapLoop
-	hlcoord 0, 0
-	lb bc, 1, 20
+	hlcoord 1, 16
+	lb bc, 1, 18
 	call ClearScreenArea
 	ld hl, TownMapOrder
 	ld a, [wWhichTownMapLocation]
@@ -57,7 +57,7 @@ DisplayTownMap:
 	inc de
 	cp $50
 	jr nz, .copyMapName
-	hlcoord 1, 0
+	hlcoord 1, 16
 	ld de, wcd6d
 	call PlaceString
 	ld hl, wShadowOAMSprite04
@@ -69,13 +69,13 @@ DisplayTownMap:
 	call JoypadLowSensitivity
 	ldh a, [hJoy5]
 	ld b, a
-	and A_BUTTON | B_BUTTON | D_UP | D_DOWN
+	and A_BUTTON | B_BUTTON | D_LEFT | D_RIGHT
 	jr z, .inputLoop
 	ld a, SFX_TINK
 	call PlaySound
-	bit 6, b
+	bit 4, b
 	jr nz, .pressedUp
-	bit 7, b
+	bit 5, b
 	jr nz, .pressedDown
 	xor a
 	ld [wTownMapSpriteBlinkingEnabled], a
@@ -120,14 +120,14 @@ LoadTownMap_Nest:
 	push hl
 	call DisplayWildLocations
 	call GetMonName
-	hlcoord 1, 0
+	hlcoord 1, 16
 	call PlaceString
 	ld h, b
 	ld l, c
 	ld de, MonsNestText
 	call PlaceString
 	call WaitForTextScrollButtonPress
-	call ExitTownMap
+	call ExitTownMapNest
 	pop hl
 	pop af
 	ld [hl], a
@@ -145,45 +145,38 @@ LoadTownMap_Fly::
 	ld hl, vSprites tile $04
 	lb bc, BANK(BirdSprite), 12
 	call CopyVideoData
-	ld de, TownMapUpArrow
-	ld hl, vChars1 tile $6d
-	lb bc, BANK(TownMapUpArrow), (TownMapUpArrowEnd - TownMapUpArrow) / $8
-	call CopyVideoDataDouble
 	call BuildFlyLocationsList
 	ld hl, wUpdateSpritesEnabled
 	ld a, [hl]
 	push af
 	ld [hl], $ff
 	push hl
-	hlcoord 0, 0
-	ld de, ToText
-	call PlaceString
 	ld a, [wCurMap]
 	ld b, $0
 	call DrawPlayerOrBirdSprite
 	ld hl, wFlyLocationsList
-	decoord 18, 0
+	decoord 1, 16
 .townMapFlyLoop
 	ld a, " "
 	ld [de], a
 	push hl
 	push hl
-	hlcoord 3, 0
+	hlcoord 2, 16
 	lb bc, 1, 15
 	call ClearScreenArea
 	pop hl
 	ld a, [hl]
 	ld b, $4
 	call DrawPlayerOrBirdSprite ; draw bird sprite
-	hlcoord 3, 0
+	hlcoord 2, 16
 	ld de, wcd6d
 	call PlaceString
 	ld c, 15
 	call DelayFrames
-	hlcoord 18, 0
-	ld [hl], "▲"
-	hlcoord 19, 0
-	ld [hl], "▼"
+	hlcoord 1, 16
+	ld [hl], "◀"
+	hlcoord 18, 16
+	ld [hl], "▶"
 	pop hl
 .inputLoop
 	push hl
@@ -192,15 +185,15 @@ LoadTownMap_Fly::
 	ldh a, [hJoy5]
 	ld b, a
 	pop hl
-	and A_BUTTON | B_BUTTON | D_UP | D_DOWN
+	and A_BUTTON | B_BUTTON | D_LEFT | D_RIGHT
 	jr z, .inputLoop
 	bit 0, b
 	jr nz, .pressedA
 	ld a, SFX_TINK
 	call PlaySound
-	bit 6, b
+	bit 4, b
 	jr nz, .pressedUp
-	bit 7, b
+	bit 5, b
 	jr nz, .pressedDown
 	jr .pressedB
 .pressedA
@@ -221,7 +214,7 @@ LoadTownMap_Fly::
 	ld [hl], a
 	ret
 .pressedUp
-	decoord 18, 0
+	decoord 18, 16
 	inc hl
 	ld a, [hl]
 	cp $ff
@@ -233,7 +226,7 @@ LoadTownMap_Fly::
 	ld hl, wFlyLocationsList
 	jp .townMapFlyLoop
 .pressedDown
-	decoord 19, 0
+	decoord 1, 16
 	dec hl
 	ld a, [hl]
 	cp $ff
@@ -244,9 +237,6 @@ LoadTownMap_Fly::
 .wrapToEndOfList
 	ld hl, wFlyLocationsList + NUM_CITY_MAPS
 	jr .pressedDown
-
-ToText:
-	db "To@"
 
 BuildFlyLocationsList:
 	ld hl, wFlyAnimUsingCoordList
@@ -272,10 +262,6 @@ BuildFlyLocationsList:
 	ld [hl], $ff
 	ret
 
-TownMapUpArrow:
-	INCBIN "gfx/town_map/up_arrow.1bpp"
-TownMapUpArrowEnd:
-
 LoadTownMap:
 	call GBPalWhiteOutWithDelay3
 	call ClearScreen
@@ -286,7 +272,7 @@ LoadTownMap:
 	call TextBoxBorder
 	call DisableLCD
 	ld hl, WorldMapTileGraphics
-	ld de, vChars2 tile $60
+	ld de, vChars2 tile $30
 	ld bc, WorldMapTileGraphicsEnd - WorldMapTileGraphics
 	ld a, BANK(WorldMapTileGraphics)
 	call FarCopyData2
@@ -295,26 +281,10 @@ LoadTownMap:
 	ld bc, MonNestIconEnd - MonNestIcon
 	ld a, BANK(MonNestIcon)
 	call FarCopyDataDouble
-	hlcoord 0, 0
-	ld de, CompressedMap
-.nextTile
-	ld a, [de]
-	and a
-	jr z, .done
-	ld b, a
-	and $f
-	ld c, a
-	ld a, b
-	swap a
-	and $f
-	add $60
-.writeRunLoop
-	ld [hli], a
-	dec c
-	jr nz, .writeRunLoop
-	inc de
-	jr .nextTile
-.done
+	ld hl, CompressedMap
+	decoord 0, 0
+	ld bc, CompressedMapEnd - CompressedMap
+	call CopyData
 	call EnableLCD
 	ld b, SET_PAL_TOWN_MAP
 	call RunPaletteCommand
@@ -326,10 +296,20 @@ LoadTownMap:
 	ld [wTownMapSpriteBlinkingEnabled], a
 	ret
 
-CompressedMap:
-	INCBIN "gfx/town_map/town_map.rle"
-
 ExitTownMap:
+; clear town map graphics data and load usual graphics data
+	xor a
+	ld [wTownMapSpriteBlinkingEnabled], a
+	call GBPalWhiteOut
+	call ClearScreen
+	call ClearSprites
+	call LoadPlayerSpriteGraphics
+	call LoadFontTilePatterns
+	call UpdateSprites
+	call RunDefaultPaletteCommand
+	jp ReloadMapData
+
+ExitTownMapNest:
 ; clear town map graphics data and load usual graphics data
 	xor a
 	ld [wTownMapSpriteBlinkingEnabled], a
@@ -618,3 +598,7 @@ TownMapSpriteBlinkingAnimation::
 .done
 	ld [wAnimCounter], a
 	jp DelayFrame
+
+CompressedMap:
+	INCBIN "gfx/town_map/town_map.tilemap"
+CompressedMapEnd:

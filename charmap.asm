@@ -80,6 +80,10 @@
 	charmap "′",         $60 ; gfx/pokedex/pokedex.png
 	charmap "″",         $61 ; gfx/pokedex/pokedex.png
 
+	charmap "<DOUBLE_ARROW>",         $e9
+	charmap "<UP_HALFARROW>",         $ea
+	charmap "<DOWN_HALFARROW>",       $eb
+
 	; needed for LoadTownMap_Fly (see engine/items/town_map.asm)
 	charmap "▲",         $ed ; gfx/town_map/up_arrow.1bpp
 
@@ -170,7 +174,7 @@
 
 	charmap "ァ",         $e9 ; katakana small a, unused
 	charmap "ゥ",         $ea ; katakana small u, unused
-	charmap "ェ",         $eb ; katakana small e, unused
+	charmap "◀",         $eb ; katakana small e, unused
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed
