@@ -13,6 +13,7 @@ VermilionCity_Object:
 	warp_event 53, 11, VERMILION_OLD_ROD_HOUSE, 3
 	warp_event  8,  2, ROUTE_2_GATE, 3
 	warp_event  4,  2, ROUTE_2_GATE, 4
+	warp_event 22, 3, MOLE_HOLE, 5
 
 	def_bg_events
 	bg_event 47,  9,  7 ; VermilionCityText7

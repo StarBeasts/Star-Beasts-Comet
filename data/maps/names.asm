@@ -52,7 +52,7 @@ SafariZoneName:      db "SAFARI ZONE@"
 CeruleanCaveName:    db "CERULEAN CAVE@"
 PowerPlantName:      db "POWER PLANT@"
 SecretGardenName:    db "SECRET GARDEN@"
-MoleHoleName:        db "???@"
+MoleHoleName:        db "UNDERGROUND@"
 VultMazeName:        db "@"
 VillaName:           db "@"
 

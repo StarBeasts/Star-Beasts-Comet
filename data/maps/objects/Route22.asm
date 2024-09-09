@@ -3,6 +3,7 @@ Route22_Object:
 
 	def_warp_events
 	warp_event  8,  5, ROUTE_22_GATE, 1
+	warp_event 28, 13, MOLE_HOLE, 6
 
 	def_bg_events
 	bg_event  7, 11, 3 ; Route22FrontGateText
