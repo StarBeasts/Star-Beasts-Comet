@@ -53,3 +53,18 @@ _VermilionHouse2Text_560ca::
 	para "You have no room"
 	line "for my gift!"
 	done
+
+_VermilionHouse2Text2::
+	text "Oh, my husband..."
+
+	para "Whenever he isn't"
+	line "working, he's"
+	cont "fishing!"
+
+	para "Simple life for"
+	line "a simple man."
+
+	para "Simple but good,"
+	line "though."
+	done
+

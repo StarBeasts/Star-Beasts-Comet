@@ -30,7 +30,7 @@ ENDM
 DEF NUM_CITY_MAPS EQU const_value
 	map_const UNUSED_MAP_0B,                  0,  0 ; $0B
 DEF FIRST_ROUTE_MAP EQU const_value
-	map_const ROUTE_1,                       20, 10 ; $0C
+	map_const ROUTE_1,                       24, 10 ; $0C
 	map_const ROUTE_2,                       15, 12 ; $0D
 	map_const ROUTE_3,                       35,  9 ; $0E
 	map_const ROUTE_4,                       45,  9 ; $0F
@@ -51,7 +51,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_19,                      10, 27 ; $1E
 	map_const ROUTE_20,                      50,  9 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
-	map_const ROUTE_22,                      20,  9 ; $21
+	map_const ROUTE_22,                      20,  10 ; $21
 	map_const ROUTE_23,                      10, 72 ; $22
 	map_const ROUTE_24,                      10, 18 ; $23
 	map_const ROUTE_25,                      30,  9 ; $24
@@ -182,7 +182,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SEAFOAM_ISLANDS_B2F,           15,  9 ; $A0
 	map_const SEAFOAM_ISLANDS_B3F,           15,  9 ; $A1
 	map_const SEAFOAM_ISLANDS_B4F,           15,  9 ; $A2
-	map_const VERMILION_OLD_ROD_HOUSE,        4,  4 ; $A3
+	map_const VERMILION_OLD_ROD_HOUSE,        6,  4 ; $A3
 	map_const FUCHSIA_GOOD_ROD_HOUSE,         4,  4 ; $A4
 	map_const POKEMON_MANSION_1F,            15, 14 ; $A5
 	map_const CINNABAR_GYM,                  10,  9 ; $A6

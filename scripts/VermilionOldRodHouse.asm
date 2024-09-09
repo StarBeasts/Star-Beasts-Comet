@@ -3,6 +3,7 @@ VermilionOldRodHouse_Script:
 
 VermilionOldRodHouse_TextPointers:
 	dw VermilionHouse2Text1
+	dw VermilionHouse2Text2
 
 VermilionHouse2Text1:
 	text_asm
@@ -55,3 +56,8 @@ VermilionHouse2Text_560c5:
 VermilionHouse2Text_560ca:
 	text_far _VermilionHouse2Text_560ca
 	text_end
+
+VermilionHouse2Text2:
+	text_far _VermilionHouse2Text2
+	text_end
+
