@@ -8,4 +8,9 @@ LoadPokedexTilePatterns:
 	ld de, PokeballTileGraphics
 	ld hl, vChars2 tile $72
 	lb bc, BANK(PokeballTileGraphics), 1
-	jp CopyVideoData ; load pokeball tile for marking caught mons
+	call CopyVideoData ; load pokeball tile for marking caught mons
+
+	ld de, Pokedex2TileGraphics
+	ld hl, vChars2 tile $40
+	lb bc, BANK(Pokedex2TileGraphics), 24
+	jp CopyVideoData

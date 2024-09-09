@@ -25,14 +25,25 @@ TrackPlayTime::
 	ld [wPlayTimeMinutes], a
 	cp 60
 	ret nz
+	ld a, [wPlayTimeHours]
+	cp 99
+	jr nz, .UpdateMinute
+	ld a, 59
+	ld [wPlayTimeMinutes], a
+	jr .UpdateHour
+.UpdateMinute
 	xor a
 	ld [wPlayTimeMinutes], a
+.UpdateHour
 	ld a, [wPlayTimeHours]
+	ld [wPlayTimeHours], a
+	cp 99
+	jr z, .NoMoreHour
 	inc a
 	ld [wPlayTimeHours], a
-	cp $ff
-	ret nz
-	ld a, $ff
+	ret
+.NoMoreHour
+	ld a, 99
 	ld [wPlayTimeMaxed], a
 	ret
 
