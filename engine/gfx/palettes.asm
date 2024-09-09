@@ -121,6 +121,11 @@ SetPal_Generic:
 	ld de, BlkPacket_WholeScreen
 	ret
 
+SetPal_Border:
+	ld hl, PalPacket_Border
+	ld de, BlkPacket_PokedexFrontPage
+	ret
+
 SetPal_NidorinoIntro:
 	ld hl, PalPacket_NidorinoIntro
 	ld de, BlkPacket_NidorinoIntro
@@ -258,7 +263,7 @@ SetPal_PokemonWholeScreen:
 SetPal_TrainerCard:
 	ld hl, BlkPacket_TrainerCard
 	ld de, wTrainerCardBlkPacket
-	ld bc, $40
+	ld bc, $48
 	call CopyData
 	ld de, BadgeBlkDataLengths
 	ld hl, wTrainerCardBlkPacket + 2
@@ -311,6 +316,7 @@ SetPalFunctions:
 	dw SetPal_PokemonWholeScreen
 	dw SetPal_GameFreakIntro
 	dw SetPal_TrainerCard
+	dw SetPal_Border
 
 ; The length of the blk data of each badge on the Trainer Card.
 ; The Rainbow Badge has 3 entries because of its many colors.

@@ -12,7 +12,7 @@ ShowPokedexMenu:
 	ld [wd11e], a
 	ldh [hJoy7], a
 .setUpGraphics
-	ld b, SET_PAL_GENERIC
+	ld b, SET_PAL_BORDER
 	call RunPaletteCommand
 	callfar LoadPokedexTilePatterns
 .doPokemonListMenu
@@ -178,30 +178,48 @@ HandlePokedexListMenu:
 	ld a, $6e ; lower right corner tile
 	ldcoord_a 9, 1
 
-	; Draw Seen/Owned border
-	hlcoord 15, 1
-	ld de, 1
-	lb bc, $64, 4
-	call DrawTileLine ; draw top border
-	hlcoord 15, 7
-	ld b, $6f
-	call DrawTileLine ; draw bottom border
-	hlcoord 14, 2
-	ld de, 20
-	lb bc, $66, 5
-	call DrawTileLine ; draw left border
-	hlcoord 19, 2
-	ld b, $67
-	call DrawTileLine ; draw right border
-
-	ld a, $63 ; upper left corner tile
-	ldcoord_a 14, 1
-	ld a, $65 ; upper right corner tile
+	; Draw Seen/Owned Tiles
+	ld a, $54 ; lower right corner tile
+	ldcoord_a 15, 1
+	ld a, $55 ; lower right corner tile
+	ldcoord_a 16, 1
+	ld a, $56 ; lower right corner tile
+	ldcoord_a 17, 1
+	ld a, $57 ; lower right corner tile
+	ldcoord_a 18, 1
+	ld a, $44 ; lower right corner tile
 	ldcoord_a 19, 1
-	ld a, $6c ; lower left corner tile
-	ldcoord_a 14, 7
-	ld a, $6e ; lower right corner tile
-	ldcoord_a 19, 7
+	ld a, $45 ; lower right corner tile
+	ldcoord_a 15, 2
+	ld a, $46 ; lower right corner tile
+	ldcoord_a 16, 2
+	ld a, $47 ; lower right corner tile
+	ldcoord_a 17, 2
+	ld a, $48 ; lower right corner tile
+	ldcoord_a 18, 2
+	ld a, $49 ; lower right corner tile
+	ldcoord_a 19, 2
+
+	ld a, $4a ; lower right corner tile
+	ldcoord_a 15, 5
+	ld a, $4b ; lower right corner tile
+	ldcoord_a 16, 5
+	ld a, $4c ; lower right corner tile
+	ldcoord_a 17, 5
+	ld a, $4d ; lower right corner tile
+	ldcoord_a 18, 5
+	ld a, $4e ; lower right corner tile
+	ldcoord_a 19, 5
+	ld a, $4f ; lower right corner tile
+	ldcoord_a 15, 6
+	ld a, $50 ; lower right corner tile
+	ldcoord_a 16, 6
+	ld a, $51 ; lower right corner tile
+	ldcoord_a 17, 6
+	ld a, $52 ; lower right corner tile
+	ldcoord_a 18, 6
+	ld a, $53 ; lower right corner tile
+	ldcoord_a 19, 6
 
 	; Draw Detail border
 	hlcoord 15, 9
@@ -227,21 +245,21 @@ HandlePokedexListMenu:
 	call CountSetBits
 	ld de, wNumSetBits
 	hlcoord 16, 3
-	lb bc, 1, 3
+	lb bc, LEADING_ZEROES | 1, 3
 	call PrintNumber ; print number of seen pokemon
 	ld hl, wPokedexOwned
 	ld b, wPokedexOwnedEnd - wPokedexOwned
 	call CountSetBits
 	ld de, wNumSetBits
-	hlcoord 16, 6
-	lb bc, 1, 3
+	hlcoord 16, 7
+	lb bc, LEADING_ZEROES | 1, 3
 	call PrintNumber ; print number of owned pokemon
-	hlcoord 15, 2
-	ld de, PokedexSeenText
-	call PlaceString
-	hlcoord 15, 5
-	ld de, PokedexOwnText
-	call PlaceString
+;	hlcoord 15, 2
+;	ld de, PokedexSeenText
+;	call PlaceString
+;	hlcoord 15, 5
+;	ld de, PokedexOwnText
+;	call PlaceString
 	hlcoord 1, 0
 	ld de, PokedexContentsText
 	call PlaceString
@@ -668,8 +686,10 @@ ShowPokedexDataInternal:
 	ret
 
 HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+	db $40, $41, $42
+	db   " ?′??″"
+	next $43, $41, $42
+	db "  ???lb@"
 
 ; XXX does anything point to this?
 PokeText:
