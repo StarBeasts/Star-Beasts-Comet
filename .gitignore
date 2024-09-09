@@ -8,6 +8,7 @@
 
 # compiled roms
 *.gbc
+*.sgb
 *.gb
 *.patch
 
