@@ -24,10 +24,10 @@ ViridianCityScript_1900b:
 	ret
 .gym_closed
 	ld a, [wYCoord]
-	cp 8
+	cp 16
 	ret nz
 	ld a, [wXCoord]
-	cp 32
+	cp 30
 	ret nz
 	ld a, $e
 	ldh [hSpriteIndexOrTextID], a
@@ -117,7 +117,7 @@ ViridianCityScript_190cf:
 	call StartSimulatingJoypadStates
 	ld a, $1
 	ld [wSimulatedJoypadStatesIndex], a
-	ld a, D_DOWN
+	ld a, D_LEFT
 	ld [wSimulatedJoypadStatesEnd], a
 	xor a
 	ld [wSpritePlayerStateData1FacingDirection], a

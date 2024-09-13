@@ -47,10 +47,10 @@ _ViridianCityText_19157::
 	done
 
 _ViridianCityText_19175::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Ooh, I hope my"
+	line "great aunt in"
+	cont "EMERALD ACRES"
+	cont "is alright..."
 	done
 
 _ViridianCityText_1917a::
@@ -62,11 +62,25 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "You can't go"
-	line "through here!"
+	text "Some criminals"
+	line "are trying to"
+	cont "access the DAM"
+	cont "up the road"
+	cont "from here."
 
-	para "This is private"
-	line "property!"
+	para "As a RANGER, it"
+	line "is my duty to"
+	cont "protect civilians"
+	cont "such as yourself"
+	cont "until the proper"
+	cont "authorities"
+	cont "arrive."
+
+	para "The matter should"
+	line "be resolved soon."
+
+	para "I hope you"
+	line "understand."
 	done
 
 _ViridianCityText_191ca::
