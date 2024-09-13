@@ -153,7 +153,7 @@ SetPal_Overworld:
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
 	cp VIRIDIAN_FOREST
-	jr z, .blueMon
+	jr z, .invertColors
 	cp MT_MOON_1F
 	jr z, .mewMon
 	cp CELAGONE_CITY

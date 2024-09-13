@@ -10,7 +10,7 @@ Route2_Object:
 	warp_event 11,  2, VIRIDIAN_FOREST_SOUTH_GATE, 3
 
 	def_bg_events
-	bg_event  27, 9, 3 ; Route2Text3
+	bg_event 27, 11, 3 ; Route2Text3
 	bg_event  5,  5, 4 ; Route2Text4
 
 	def_object_events

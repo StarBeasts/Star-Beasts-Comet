@@ -70,7 +70,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_2_TRADE_HOUSE,            4,  4 ; $30
 	map_const ROUTE_2_GATE,                   5,  4 ; $31
 	map_const VIRIDIAN_FOREST_SOUTH_GATE,   46,  5 ; $32
-	map_const VIRIDIAN_FOREST,               17, 24 ; $33
+	map_const VIRIDIAN_FOREST,               26, 24 ; $33
 	map_const MUSEUM_1F,                     10,  4 ; $34
 	map_const MUSEUM_2F,                      7,  4 ; $35
 	map_const PEWTER_GYM,                     5,  7 ; $36
