@@ -1196,6 +1196,11 @@ INCLUDE "data/maps/headers/CinnabarMart.asm"
 INCLUDE "scripts/CinnabarMart.asm"
 INCLUDE "data/maps/objects/CinnabarMart.asm"
 
+INCLUDE "data/maps/headers/GasStation.asm"
+INCLUDE "scripts/GasStation.asm"
+INCLUDE "data/maps/objects/GasStation.asm"
+GasStation_Blocks: INCBIN "maps/GasStation.blk"
+
 INCLUDE "data/maps/headers/CopycatsHouse1F.asm"
 INCLUDE "scripts/CopycatsHouse1F.asm"
 INCLUDE "data/maps/objects/CopycatsHouse1F.asm"

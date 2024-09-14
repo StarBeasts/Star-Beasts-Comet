@@ -2,7 +2,7 @@ Route4_Object:
 	db $0F ; border block
 
 	def_warp_events
-	warp_event 17,  9, MT_MOON_POKECENTER, 1
+	warp_event 17, 11, CINNABAR_MART, 1
 	warp_event 20,  3, MOLE_HOLE, 1
 	warp_event 36, 11, VIRIDIAN_FOREST_NORTH_GATE, 9
 	warp_event 23,  9, CINNABAR_LAB_FOSSIL_ROOM, 1
@@ -11,7 +11,7 @@ Route4_Object:
 	warp_event 64,  0, ROUTE_2_GATE, 1
 
 	def_bg_events
-	bg_event 18,  9, 4 ; PokeCenterSignText
+	bg_event 20, 11, 4 ; PokeCenterSignText
 	bg_event 57,  7, 5 ; Route4Text5
 	bg_event 37, 13, 6 ; Route4Text6
 
