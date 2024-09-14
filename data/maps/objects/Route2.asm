@@ -3,7 +3,7 @@ Route2_Object:
 
 	def_warp_events
 	warp_event 15,  1, DIGLETTS_CAVE_ROUTE_2, 1
-	warp_event  6,  3, MT_MOON_1F, 2
+	warp_event  6,  3, VIRIDIAN_FOREST, 2
 	warp_event 19,  7, PEWTER_SPEECH_HOUSE, 1
 	warp_event 15, 11, HAND_HOUSE, 2
 	warp_event 15,  8, HAND_HOUSE, 1
