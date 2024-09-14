@@ -15,6 +15,6 @@ Route3_Object:
 	object_event 23,  4, SPRITE_COOLTRAINER_F, STAY, LEFT, 6, OPP_LASS, 2
 	object_event 22,  9, SPRITE_YOUNGSTER, STAY, LEFT, 7, OPP_YOUNGSTER, 2
 	object_event 24,  6, SPRITE_YOUNGSTER, STAY, RIGHT, 8, OPP_BUG_CATCHER, 6
-	object_event 33, 10, SPRITE_COOLTRAINER_F, STAY, UP, 9, OPP_LASS, 3
+	object_event 28,  7, SPRITE_COOLTRAINER_F, STAY, UP, 9, OPP_LASS, 3
 
 	def_warps_to ROUTE_3

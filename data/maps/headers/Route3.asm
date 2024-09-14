@@ -1,4 +1,4 @@
-	map_header Route3, ROUTE_3, OVERWORLD, NORTH | WEST
-	connection north, Route4, ROUTE_4, 25
-	connection west, PewterCity, PEWTER_CITY, -4
+	map_header Route3, ROUTE_3, OVERWORLD, WEST | EAST
+	connection west, ViridianCity, VIRIDIAN_CITY, 5
+	connection east, Route4, ROUTE_4, 0
 	end_map_header
