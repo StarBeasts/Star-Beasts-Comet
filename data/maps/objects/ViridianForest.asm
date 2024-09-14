@@ -2,12 +2,12 @@ ViridianForest_Object:
 	db $3 ; border block
 
 	def_warp_events
-	warp_event  0, 42, ROUTE_1, 1
-	warp_event  0, 43, ROUTE_1, 1
+	warp_event 10, 43, ROUTE_1, 1
+	warp_event 38, 42, ROUTE_2, 2
+	warp_event  8, 37, ROUTE_1, 1
 	warp_event 51, 35, VIRIDIAN_FOREST_NORTH_GATE, 3
 	warp_event 51, 34, VIRIDIAN_FOREST_NORTH_GATE, 4
 	warp_event 51, 42, VIRIDIAN_FOREST_SOUTH_GATE, 2
-	warp_event 51, 43, VIRIDIAN_FOREST_SOUTH_GATE, 2
 
 	def_bg_events
 	bg_event 24, 33, 12 ; ViridianForestText9
