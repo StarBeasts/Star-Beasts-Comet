@@ -2,22 +2,22 @@ Route4_Object:
 	db $0F ; border block
 
 	def_warp_events
-	warp_event 11,  5, MT_MOON_POKECENTER, 1
-	warp_event 32,  3, MOLE_HOLE, 1
-	warp_event 48, 11, VIRIDIAN_FOREST_NORTH_GATE, 9
-	warp_event 35,  9, CINNABAR_LAB_FOSSIL_ROOM, 1
-	warp_event 64,  7, DAYCARE, 1
-	warp_event 75,  0, ROUTE_2_GATE, 2
-	warp_event 76,  0, ROUTE_2_GATE, 1
+	warp_event 17,  9, MT_MOON_POKECENTER, 1
+	warp_event 20,  3, MOLE_HOLE, 1
+	warp_event 36, 11, VIRIDIAN_FOREST_NORTH_GATE, 9
+	warp_event 23,  9, CINNABAR_LAB_FOSSIL_ROOM, 1
+	warp_event 52,  7, DAYCARE, 1
+	warp_event 63,  0, ROUTE_2_GATE, 2
+	warp_event 64,  0, ROUTE_2_GATE, 1
 
 	def_bg_events
-	bg_event 30,  9, 4 ; PokeCenterSignText
-	bg_event 69,  7, 5 ; Route4Text5
-	bg_event 49, 13, 6 ; Route4Text6
+	bg_event 18,  9, 4 ; PokeCenterSignText
+	bg_event 57,  7, 5 ; Route4Text5
+	bg_event 37, 13, 6 ; Route4Text6
 
 	def_object_events
-	object_event 45, 14, SPRITE_HIKER, WALK, ANY_DIR, 1 ; person
-	object_event 27,  5, SPRITE_COOLTRAINER_F, STAY, ANY_DIR, 2, OPP_LASS, 4
-	object_event 58,  8, SPRITE_POKE_BALL, STAY, NONE, 3, TM_FLASH_CANNON
+	object_event 33, 14, SPRITE_HIKER, WALK, ANY_DIR, 1 ; person
+	object_event 25,  4, SPRITE_COOLTRAINER_F, STAY, ANY_DIR, 2, OPP_LASS, 4
+	object_event 46,  8, SPRITE_POKE_BALL, STAY, NONE, 3, TM_FLASH_CANNON
 
 	def_warps_to ROUTE_4
