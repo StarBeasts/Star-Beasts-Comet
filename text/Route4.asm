@@ -39,7 +39,7 @@ _Route4AfterBattleText1::
 
 _Route4Text5::
 	text "EMERALD ACRES -"
-	line "LEGRANDITO"
+	line "DOLOMITE DAM"
 	done
 
 _Route4Text6::
@@ -47,3 +47,21 @@ _Route4Text6::
 	line "ASSISTED LIVING"
 	cont "FACILITY"
 	done
+
+_Route4Text7::
+	text "EMERALD ACRES"
+	line "STAR BEAST CENTER"
+	cont "AND CONVENIENCE"
+	cont "STORE"
+	done
+
+
+_Route4Text8::
+	text "STAR BEAST DAYCARE"
+	done
+
+_Route4Text9::
+	text "SOUL RESURRECTION"
+	line "LABORATORY"
+	done
+

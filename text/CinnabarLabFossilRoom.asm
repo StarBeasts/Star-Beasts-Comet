@@ -84,3 +84,20 @@ _Lab4Text_610bd::
 	text "Please do come"
 	line "again!"
 	done
+	
+_Lab4Text2::
+	text "I'm here for"
+	line "BEAST ability"
+	cont "enhancers."
+
+	para "PROTEIN increases"
+	line "ATTACK power."
+
+	para "IRON increases"
+	line "DEFENSE!"
+	done
+; note to self, trade NPC removed from here to not overwhelm new players, put in metronome room
+;
+;
+;
+

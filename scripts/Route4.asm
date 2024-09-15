@@ -5,6 +5,7 @@ Route4_Script:
 	ld a, [wRoute4CurScript]
 	call ExecuteCurMapScriptInTable
 	ld [wRoute4CurScript], a
+	ResetEvent EVENT_LAB_STILL_REVIVING_FOSSIL
 	ret
 
 Route4_ScriptPointers:
@@ -16,9 +17,11 @@ Route4_TextPointers:
 	dw Route4Text1
 	dw Route4Text2
 	dw PickUpItemText
-	dw PokeCenterSignText
 	dw Route4Text5
 	dw Route4Text6
+	dw Route4Text7
+	dw Route4Text8
+	dw Route4Text9
 
 Route4TrainerHeaders:
 	def_trainers 2
@@ -55,3 +58,16 @@ Route4Text5:
 Route4Text6:
 	text_far _Route4Text6
 	text_end
+
+Route4Text7:
+	text_far _Route4Text7
+	text_end
+
+Route4Text8:
+	text_far _Route4Text8
+	text_end
+
+Route4Text9:
+	text_far _Route4Text9
+	text_end
+

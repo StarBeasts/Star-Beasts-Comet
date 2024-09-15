@@ -76,7 +76,7 @@ Lab4Text1:
 	SetEvent EVENT_LAB_HANDING_OVER_FOSSIL_MON
 	ld a, [wFossilMon]
 	ld b, a
-	ld c, 30
+	ld c, 15
 	call GivePokemon
 	jr nc, .asm_75d93
 	ResetEvents EVENT_GAVE_FOSSIL_TO_LAB, EVENT_LAB_STILL_REVIVING_FOSSIL, EVENT_LAB_HANDING_OVER_FOSSIL_MON
@@ -99,11 +99,8 @@ Lab4Text_75dd5:
 	text_end
 
 Lab4Text2:
-	text_asm
-	ld a, TRADE_FOR_ARIEL
-	ld [wWhichTrade], a
-	predef DoInGameTradeDialogue
-	jp TextScriptEnd
+	text_far _Lab4Text2
+	text_end
 
 LoadFossilItemAndMonNameBank1D:
 	farjp LoadFossilItemAndMonName
