@@ -31,7 +31,8 @@ _Route4EndBattleText1::
 _Route4AfterBattleText1::
 	text "I just wish I"
 	line "could burn this"
-	cont "whole place to"
+	cont "town and all the"
+	cont "people in it to"
 	cont "the ground..."
 
 	para "Tee-hee!"

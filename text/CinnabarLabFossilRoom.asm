@@ -86,15 +86,29 @@ _Lab4Text_610bd::
 	done
 	
 _Lab4Text2::
-	text "I'm here for"
-	line "BEAST ability"
-	cont "enhancers."
+	text "We relocated from"
+	line "NAME GOES HERE"
+	cont "fairly recently."
 
-	para "PROTEIN increases"
-	line "ATTACK power."
+	para "We had a bit of a"
+	line "falling out with"
+	cont "the other members"
+	cont "of our research"
+	cont "team."
 
-	para "IRON increases"
-	line "DEFENSE!"
+	para "Apparently, SOUL"
+	line "RESURRECTION:"
+	
+	para "'Violates the"
+	line "natural order',"
+	cont "or some nonsense"
+	cont "like that!"
+
+	para "We're SCIENTISTS!"
+
+	para "Defying the laws"
+	line "of nature is our"
+	cont "whole thing!"
 	done
 ; note to self, trade NPC removed from here to not overwhelm new players, put in metronome room
 ;
