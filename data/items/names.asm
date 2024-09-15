@@ -62,7 +62,7 @@ ItemNames::
 	li "ALOE JUICE"
 	li "ASH COFFEE"
 	li "TABASCODA"
-	li "S.S.TICKET"
+	li "EMPLOYEE ID"
 	li "GOLD TEETH"
 	li "X ATTACK"
 	li "X DEFEND"

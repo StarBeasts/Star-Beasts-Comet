@@ -6,7 +6,7 @@ MoleHole_Object:
 	warp_event  0, 52, LAST_MAP, 2
 	warp_event  4, 59, LAST_MAP, 2
 	warp_event  5, 59, LAST_MAP, 2
-	warp_event  6, 17, VERMILION_CITY, 12
+	warp_event  6, 17, VERMILION_CITY, 10
 	warp_event  8,  6, ROUTE_22, 2
 
 

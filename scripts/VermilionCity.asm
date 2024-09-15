@@ -68,7 +68,7 @@ VermilionCityScript0:
 	ret
 
 SSAnneTicketCheckCoords:
-	dbmapcoord 42, 16
+	dbmapcoord 22, 16
 	db -1 ; end
 
 VermilionCityScript4:

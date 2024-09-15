@@ -5,65 +5,84 @@ _VermilionCityText1::
 	para "We've heard toxic"
 	line "sludge attracts"
 	cont "slime monsters!"
+
+	para "We want to keep"
+	line "our waters"
+	cont "beautiful."
 	done
 
 _VermilionCityTextDidYouSee::
 	text "Did you see S.S."
-	line "ANNE moored in"
+	line "RUBIN moored in"
 	cont "the harbor?"
 	done
 
 _VermilionCityTextSSAnneDeparted::
-	text "So, S.S.ANNE has"
-	line "departed!"
+	text "So, S.S.RUBIN has"
+	line "finally departed!"
 
 	para "She'll be back in"
-	line "about a year."
+	line "after the next"
+	cont "shipping run."
 	done
 
 _SSAnneWelcomeText4::
 	text "Welcome to S.S."
-	line "ANNE!"
+	line "RUBIN!"
 	done
 
 _SSAnneWelcomeText9::
 	text "Welcome to S.S."
-	line "ANNE!"
+	line "RUBIN!"
 
 	para "Excuse me, do you"
-	line "have a ticket?"
+	line "have ID?"
 	prompt
 
 _SSAnneFlashedTicketText::
 	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	line "the EMPLOYEE ID!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "Works for me!"
+
+	para "Welcome to the"
+	line "S.S.RUBIN!"
 	done
 
 _SSAnneNoTicketText::
 	text "<PLAYER> doesn't"
 	line "have the needed"
-	cont "S.S.TICKET."
+	cont "EMPLOYEE ID."
 
 	para "Sorry!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Employees only!"
 	done
 
 _SSAnneNotHereText::
-	text "The ship set sail."
+	text "The ship was"
+	line "hijacked by"
+	cont "a bunch of"
+	cont "criminals,"
+	cont "you say?"
+
+	para "Wild."
+
+	para "It's set sail"
+	line "now, though."
 	done
 
 _VermilionCityText4::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Bridge to the GYM"
+	line "and MART's out."
 
-	para "My BEAST is"
-	line "tamping the land."
+	para "They hired me to"
+	line "fix it, but where"
+	cont "the hell would I"
+	cont "even start?"
+
+	para "What do you think,"
+	line "CROMAG?"
 	done
 
 _VermilionCityText5::
@@ -73,15 +92,16 @@ _VermilionCityText5::
 
 _VermilionCityText14::
 	text_start
-	para "A CROMAG is"
-	line "stomping the land"
-	cont "flat."
+	para "CROMAG tensely"
+	line "gazes at the"
+	cont "water, unsure of"
+	cont "what it should do."
 	done
 
 _VermilionCityText6::
 	text "I came here all"
 	line "the way from"
-	cont "CINNABAR to see"
+	cont "NAME HERE to see"
 	cont "ELEKSI perform,"
 	cont "only to find that"
 	cont "she's on the fritz"
@@ -92,23 +112,35 @@ _VermilionCityText6::
 	done
 
 _VermilionCityText7::
-	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	text "LEGRANDITO"
+	line "The Big Little"
+	cont "City"
+
+	para "Trading Port of"
+	line "RELAS and home"
+	cont "to the famous"
+	cont "popstar, ELEKSI."
+
+	para "That's ELEKSI,"
+	line "not ELESKI."
 	done
 
 _VermilionCityText8::
 	text "NOTICE!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping BEAST."
+	para "All ROUTEs to"
+	line "METAL METROPOLIS"
+	cont "are currently"
+	cont "blocked off by"
+	cont "sleeping BEASTs."
 
-	para "Detour through"
-	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	para "We are looking"
+	line "into the matter,"
+	cont "and hope to"
+	cont "restore order"
+	cont "shortly."
 
-	para "VERMILION POLICE"
+	para "LEGRANDITO POLICE"
 	done
 
 _VermilionCityText11::
@@ -118,7 +150,7 @@ _VermilionCityText11::
 	done
 
 _VermilionCityText12::
-	text "VERMILION CITY"
+	text "LEGRANDITO"
 	line "# BEAST GYM"
 	cont "LEADER: ELEKSI"
 
@@ -127,5 +159,6 @@ _VermilionCityText12::
 	done
 
 _VermilionCityText13::
-	text "VERMILION HARBOR"
+	text "LEGRANDITO"
+	line "TRADE HARBOR"
 	done
