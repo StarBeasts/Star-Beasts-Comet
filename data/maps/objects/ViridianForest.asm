@@ -3,7 +3,7 @@ ViridianForest_Object:
 
 	def_warp_events
 	warp_event 10, 43, ROUTE_1, 1
-	warp_event 38, 42, ROUTE_2, 2
+	warp_event 38, 42, ROUTE_2, 1
 	warp_event  8, 37, ROUTE_1, 1
 	warp_event 51, 35, VIRIDIAN_FOREST_NORTH_GATE, 3
 	warp_event 51, 34, VIRIDIAN_FOREST_NORTH_GATE, 4

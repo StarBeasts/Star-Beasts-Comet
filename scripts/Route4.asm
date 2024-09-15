@@ -17,6 +17,7 @@ Route4_TextPointers:
 	dw Route4Text1
 	dw Route4Text2
 	dw PickUpItemText
+	dw Route4Text4
 	dw Route4Text5
 	dw Route4Text6
 	dw Route4Text7
@@ -49,6 +50,10 @@ Route4EndBattleText1:
 
 Route4AfterBattleText1:
 	text_far _Route4AfterBattleText1
+	text_end
+
+Route4Text4:
+	text_far _Route4Text4
 	text_end
 
 Route4Text5:

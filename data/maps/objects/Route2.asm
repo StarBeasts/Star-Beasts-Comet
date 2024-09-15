@@ -2,12 +2,10 @@ Route2_Object:
 	db $f ; border block
 
 	def_warp_events
-	warp_event 15,  1, DIGLETTS_CAVE_ROUTE_2, 1
 	warp_event  6,  3, VIRIDIAN_FOREST, 2
 	warp_event 19,  7, PEWTER_SPEECH_HOUSE, 1
 	warp_event 15, 11, HAND_HOUSE, 2
 	warp_event 15,  8, HAND_HOUSE, 1
-	warp_event 11,  2, VIRIDIAN_FOREST_SOUTH_GATE, 3
 
 	def_bg_events
 	bg_event 27, 11, 3 ; Route2Text3

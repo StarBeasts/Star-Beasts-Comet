@@ -38,6 +38,19 @@ _Route4AfterBattleText1::
 	para "Tee-hee!"
 	done
 
+_Route4Text4::
+	text "It's a beautiful"
+	line "sight, isn't it?"
+
+	para "If I do have to"
+	line "be put in a home,"
+	cont "one day..."
+
+	para "A place like this"
+	line "wouldn't be that"
+	cont "bad, would it?"
+	done
+
 _Route4Text5::
 	text "EMERALD ACRES -"
 	line "DOLOMITE DAM"
