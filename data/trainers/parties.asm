@@ -441,7 +441,7 @@ JugglerData:
 ; Victory Road 2F
 	db 48, MR_MIME, 0
 ; Route 3
-	db 8, MAGIKARP, 0
+	db 6, MAGIKARP, 0
 ; Fuchsia Gym
 	db 38, MAGMAR, 0
 	db 34, GOLDUCK, NIDORINO, 0
