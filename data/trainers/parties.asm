@@ -107,7 +107,7 @@ LassData:
 	db 10, PIKACHU, NIDORAN_M, 0
 	db 14, RATICATE, 0
 ; Route 4
-	db 31, MEOWTH, PERSIAN, 0
+	db 6, MEOWTH, OMANYTE, 0
 ; Mt. Moon 1F
 	db 11, ODDISH, BELLSPROUT, 0
 	db 14, NIDORAN_F, 0
@@ -440,8 +440,8 @@ JugglerData:
 	db 34,BUTTERFREE,SCYTHER,0
 ; Victory Road 2F
 	db 48, MR_MIME, 0
-; Unused
-	db 33, HYPNO, 0
+; Route 3
+	db 8, MAGIKARP, 0
 ; Fuchsia Gym
 	db 38, MAGMAR, 0
 	db 34, GOLDUCK, NIDORINO, 0

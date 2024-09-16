@@ -78,19 +78,29 @@ _Route3AfterBattleText4::
 	done
 
 _Route3BattleText5::
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "HE-HEY, KIDS!"
+
+	para "IT'S BOZO THE"
+	line "CLOWN, HERE TO"
+	cont "MAKE YOU SMILE!"
 	done
 
 _Route3EndBattleText5::
-	text "Be nice!"
+	text "You sure"
+	line "made me look like"
+	cont "a bozo..."
 	prompt
 
 _Route3AfterBattleText5::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "I come up here"
+	line "to cheer up the"
+	cont "old folks every"
+	cont "now and then!"
+
+	para "Really feels like"
+	line "I'm doin' some"
+	cont "good in the world,"
+	cont "y'know?"
 	done
 
 _Route3BattleText6::

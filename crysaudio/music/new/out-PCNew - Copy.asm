@@ -15,10 +15,10 @@ Music_Placeholder_Ch1:
 	note_type 12, 10, 7
 	tempo 185
 ;Bar 5
-	octave 5
+	octave 4
 	volume_envelope 12, 7
 	note A_, 8
-	octave 6
+	octave 5
 	note A_, 4
 	note G_, 4
 ;Bar 6
@@ -34,12 +34,12 @@ Music_Placeholder_Ch1:
 	note D_, 4
 ;Bar 10
 	note C_, 8
-	octave 5
+	octave 4
 	note B_, 4
-	octave 6
+	octave 5
 	note C_, 4
 ;Bar 11
-	octave 5
+	octave 4
 	note A_, 16
 	note A_, 12
 ;Bar 12
@@ -50,16 +50,16 @@ Music_Placeholder_Ch1:
 ;Bar 14
 	note A_, 8
 	note B_, 4
-	octave 6
+	octave 5
 	note C_, 4
 ;Bar 15
 	note D_, 8
 	note C_, 4
 	note D_, 4
 ;Bar 16
-	octave 5
+	octave 4
 	note B_, 8
-	octave 6
+	octave 5
 	note F_, 8
 ;Bar 17
 	note E_, 16
@@ -67,11 +67,11 @@ Music_Placeholder_Ch1:
 	note E_, 4
 	note D_, 4
 	note C_, 4
-	octave 5
+	octave 4
 	note B_, 4
 ;Bar 19
 	note A_, 8
-	octave 6
+	octave 5
 	note A_, 4
 	note G_, 4
 ;Bar 20
@@ -87,12 +87,12 @@ Music_Placeholder_Ch1:
 	note D_, 4
 ;Bar 24
 	note C_, 8
-	octave 5
+	octave 4
 	note B_, 4
-	octave 6
+	octave 5
 	note C_, 4
 ;Bar 25
-	octave 5
+	octave 4
 	note A_, 16
 	note A_, 16
 	sound_ret
