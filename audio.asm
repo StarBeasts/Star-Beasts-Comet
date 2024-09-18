@@ -529,6 +529,7 @@ INCLUDE "crysaudio/music/new/wildbeast.asm"
 INCLUDE "crysaudio/music/new/svictory.asm"
 INCLUDE "crysaudio/music/new/chala.asm"
 INCLUDE "crysaudio/music/new/ezio.asm"
+INCLUDE "crysaudio/music/new/miserite.asm"
 
 
 SECTION "Sound Effects", ROMX
