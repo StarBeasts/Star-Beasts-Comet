@@ -150,6 +150,8 @@ SetPal_Overworld:
 	cp CAVERN
 	jr z, .caveOrBruno
 	ld a, [wCurMap]
+	cp ROUTE_5
+	jp z, .grey
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
 	cp VIRIDIAN_FOREST

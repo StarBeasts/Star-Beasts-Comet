@@ -6,8 +6,8 @@ _Route2GateText_5d616::
 
 _Route2GateText2::
 	text "They say there's"
-	line "an island, far"
-	cont "away from here."
+	line "an island, far to"
+	cont "the west from here."
 
 	para "On that island,"
 	line "is a pitch black"
