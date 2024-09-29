@@ -7,7 +7,7 @@ ENDM
 ExternalMapEntries:
 	table_width 3, ExternalMapEntries
 	; x, y, name
-	external_map  2, 11, PalletTownName
+	external_map  8, 3, PalletTownName
 	external_map  2,  8, ViridianCityName
 	external_map  2,  3, PewterCityName
 	external_map 10,  2, CeruleanCityName
