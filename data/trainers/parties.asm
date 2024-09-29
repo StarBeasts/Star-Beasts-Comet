@@ -76,7 +76,7 @@ YoungsterData:
 	db 17, PSYDUCK, GOLDUCK, 0
 	db 18, NIDORAN_M, NIDORINO, 0
 ; Cobalt Cave
-	db 3, HORSEA, 0
+	db 3, HORSEA, 0 ; used, Cobalt Cave
 
 BugCatcherData:
 ; Viridian Forest

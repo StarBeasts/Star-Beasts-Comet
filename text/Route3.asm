@@ -1,28 +1,37 @@
 _Route3Text1::
-	text "Whew... I better"
-	line "take a rest..."
-	cont "Groan..."
+	text "Lots of cops"
+	line "ran by here a"
+	cont "while ago..."
 
-	para "That tunnel from"
-	line "CERULEAN takes a"
-	cont "lot out of you!"
+	para "Why would bad"
+	line "guys want to"
+	cont "come out here?"
+
+	para "All there is out"
+	line "here is the"
+	cont "retirement home"
+	cont "and some kids"
+	cont "training their"
+	cont "# BEASTS..."
 	done
 
 _Route3BattleText1::
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text "Isn't nature"
+	line "beautiful?"
 	done
 
 _Route3EndBattleText1::
-	text "You"
-	line "beat me again!"
+	text "I"
+	line "guess winning"
+	cont "isn't in my"
+	cont "nature..."
 	prompt
 
 _Route3AfterBattleText1::
 	text "There are other"
 	line "kinds of BEASTS"
 	cont "than those found"
-	cont "in the forest!"
+	cont "out here!"
 	done
 
 _Route3BattleText2::
@@ -44,19 +53,18 @@ _Route3AfterBattleText2::
 	done
 
 _Route3BattleText3::
-	text "You looked at me,"
-	line "didn't you?"
+	text "You're not mean,"
+	line "are you?"
 	done
 
 _Route3EndBattleText3::
-	text "You're"
-	line "mean!"
+	text "You're mean!"
 	prompt
 
 _Route3AfterBattleText3::
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "Don't beat up"
+	line "my pets for fun,"
+	cont "you meanie!"
 	done
 
 _Route3BattleText4::
@@ -66,7 +74,7 @@ _Route3BattleText4::
 
 _Route3EndBattleText4::
 	text "If I"
-	line "had better bugs,"
+	line "had a tough team,"
 	cont "I would've won!"
 	prompt
 
@@ -99,8 +107,8 @@ _Route3AfterBattleText5::
 
 	para "Really feels like"
 	line "I'm doin' some"
-	cont "good in the world,"
-	cont "y'know?"
+	cont "good in the"
+	cont "world, y'know?"
 	done
 
 _Route3BattleText6::
@@ -122,42 +130,45 @@ _Route3AfterBattleText6::
 	done
 
 _Route3BattleText7::
-	text "My fully evolved"
-	line "BUGs, you must:"
-
-	para "kill."
+	text "Tag! You're it!"
 	done
 
 _Route3EndBattleText7::
-	text "Sent"
-	line "to the next"
-	cont "dimension!"
+	text "Ooop!"
+	line "Now, I'm it!"
 	prompt
 
 _Route3AfterBattleText7::
-	text "Evolved BEASTS"
-	line "are stronger than"
-	cont "basic ones!"
+	text "What do you mean,"
+	line "that's not how"
+	cont "tag works?"
 	done
 
 _Route3BattleText8::
-	text "Eek! Stranger"
-	line "danger!"
-	
-	para "Protect me, ROBBY!"
+	text "My grandpa lives"
+	line "just up the road!"
 	done
 
 _Route3EndBattleText8::
-	text "ROBBY, no..."
+	text "Hey!"
+
+	para "Don't be mean"
+	line "to my SLIMOGG!"
 	prompt
 
 _Route3AfterBattleText8::
-	text "That ROBBY was a"
-	line "present from my"
-	cont "Mom!"
+	text "There's this girl"
+	line "who likes fire"
+	cont "waaaaay too much."
+
+	para "She's a total"
+	line "creep, so we"
+	cont "don't let her"
+	cont "play with us,"
+	cont "any more."
 	done
 
 _Route3Text10::
-	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	text "ROUTE 3 - "
+	line "EMERALD ACRES"
 	done

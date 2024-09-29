@@ -105,7 +105,7 @@ _ViridianForestBattleText5::
 	done
 
 _ViridianForestEndBattleText5::
-	text "You meanie!"
+	text "Aww, heck."
 	prompt
 
 _ViridianFrstAfterBattleText5::
