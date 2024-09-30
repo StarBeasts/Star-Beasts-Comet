@@ -7,8 +7,8 @@ Route4_Object:
 	warp_event 36, 11, VIRIDIAN_FOREST_NORTH_GATE, 9
 	warp_event 23,  9, CINNABAR_LAB_FOSSIL_ROOM, 1
 	warp_event 52,  7, DAYCARE, 1
-	warp_event 73,  8, ROUTE_2_GATE, 1
-	warp_event 73,  9, ROUTE_2_GATE, 2
+	warp_event 73,  8, ROUTE_2_GATE, 2
+	warp_event 73,  9, ROUTE_2_GATE, 1
 
 	def_bg_events
 	bg_event 57,  7, 5 ; Route4Text5

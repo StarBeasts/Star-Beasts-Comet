@@ -4,8 +4,8 @@ Route2Gate_Object:
 	def_warp_events
 	warp_event  0,  5, ROUTE_4, 7
 	warp_event  0,  4, ROUTE_4, 6
-	warp_event  9,  5, VERMILION_CITY, 11
-	warp_event  9,  4, VERMILION_CITY, 11
+	warp_event  9,  5, ROUTE_5, 1
+	warp_event  9,  4, ROUTE_5, 2
 
 	def_bg_events
 
