@@ -76,7 +76,7 @@ FlyWarpDataPtr:
 	fly_warp_spec ROUTE_4,         .Route4
 	fly_warp_spec ROUTE_10,        .Route10
 
-.PalletTown:     fly_warp PALLET_TOWN,      5,  6
+.PalletTown:     fly_warp PALLET_TOWN,      17, 8
 .ViridianCity:   fly_warp VIRIDIAN_CITY,   23, 26
 .PewterCity:     fly_warp PEWTER_CITY,     13, 26
 .CeruleanCity:   fly_warp CERULEAN_CITY,   19, 18

@@ -8,9 +8,9 @@ ExternalMapEntries:
 	table_width 3, ExternalMapEntries
 	; x, y, name
 	external_map  8, 3, PalletTownName
-	external_map  2,  8, ViridianCityName
-	external_map  2,  3, PewterCityName
-	external_map 10,  2, CeruleanCityName
+	external_map  10, 3, ViridianCityName
+	external_map  9,  6, PewterCityName
+	external_map  7,  6, CeruleanCityName
 	external_map 14,  5, LavenderTownName
 	external_map 10,  9, VermilionCityName
 	external_map  7,  5, CeladonCityName
@@ -18,13 +18,13 @@ ExternalMapEntries:
 	external_map  2, 15, CinnabarIslandName
 	external_map  0,  2, IndigoPlateauName
 	external_map 10,  5, SaffronCityName
-	external_map  0,  0, PalletTownName ; unused
-	external_map  2, 10, Route1Name
-	external_map  2,  6, Route2Name
-	external_map  4,  3, Route3Name
-	external_map  8,  2, Route4Name
-	external_map 10,  3, Route5Name
-	external_map 10,  8, Route6Name
+	external_map  8,  3, PalletTownName ; unused
+	external_map  7, 3, Route1Name
+	external_map  9,  3, Route2Name
+	external_map  11,  2, Route3Name
+	external_map  12, 2, Route4Name
+	external_map 14,  2, Route5Name
+	external_map 8,  6, Route6Name
 	external_map  8,  5, Route7Name
 	external_map 13,  5, Route8Name
 	external_map 13,  2, Route9Name
@@ -56,14 +56,14 @@ ENDM
 ; the appearance of buildings and dungeons in the town map
 InternalMapEntries:
 	; maximum map id subject to this rule, x, y, name
-	internal_map OAKS_LAB,                       2, 11, PalletTownName
+	internal_map OAKS_LAB,                       8, 3, PalletTownName
 	internal_map VIRIDIAN_GYM,                   2,  8, ViridianCityName
 	internal_map VIRIDIAN_FOREST_SOUTH_GATE,     2,  6, Route2Name
-	internal_map VIRIDIAN_FOREST,                2,  4, ViridianForestName
-	internal_map PEWTER_POKECENTER,              2,  3, PewterCityName
-	internal_map MT_MOON_B2F,                    6,  2, MountMoonName
+	internal_map VIRIDIAN_FOREST,                9,  4, ViridianForestName
+	internal_map PEWTER_POKECENTER,              9,  6, PewterCityName
+	internal_map MT_MOON_B2F,                    9,  5, MountMoonName
 	internal_map CERULEAN_MART,                 10,  2, CeruleanCityName
-	internal_map MT_MOON_POKECENTER,             5,  2, Route4Name
+	internal_map MT_MOON_POKECENTER,             9,  6, Route4Name
 	internal_map ANCIENT_CAVE, 	3,  4, DiglettsCaveName	
 	internal_map DAYCARE,                       10,  4, Route5Name
 	internal_map UNDERGROUND_PATH_ROUTE_6_COPY, 10,  6, Route6Name
