@@ -58,8 +58,8 @@ TrainerDataPointers:
 
 YoungsterData:
 ; Route 3
-	db 11, VOLTORB, EKANS, 0
-	db 14, SPEAROW, 0
+	db 4, VOLTORB, 0
+	db 4, SPEAROW, 0
 ; Mt. Moon 1F
 	db 10, PSYDUCK, VOLTORB, ZUBAT, 0
 ; Route 24
@@ -77,6 +77,9 @@ YoungsterData:
 	db 18, NIDORAN_M, NIDORINO, 0
 ; Cobalt Cave
 	db 3, HORSEA, 0 ; used, Cobalt Cave
+; Route 3 overflow
+	db 3, EKANS, 0
+	db 5, DIGLETT, 0
 
 BugCatcherData:
 ; Viridian Forest
@@ -86,7 +89,7 @@ BugCatcherData:
 ; Route 3
 	db 10, CATERPIE, WEEDLE, KRABBY, 0
 	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
-	db 12, BUTTERFREE, BEEDRILL, 0
+	db 3, CATERPIE, WEEDLE, 0 ; used
 ; Mt. Moon 1F
 	db 15, WEEDLE, CATERPIE, 0
 	db 10, CATERPIE, METAPOD, BUTTERFREE, 0
@@ -103,9 +106,9 @@ BugCatcherData:
 
 LassData:
 ; Route 3
-	db 9, PIDGEY, SPEAROW, 0
-	db 10, PIKACHU, NIDORAN_M, 0
-	db 14, RATICATE, 0
+	db 3, PIDGEY, BELLSPROUT, 0
+	db 4, NIDORAN_M, 0
+	db 14, RATICATE, 0 ; not actually used for route 3
 ; Route 4
 	db 6, MEOWTH, OMANYTE, 0
 ; Mt. Moon 1F

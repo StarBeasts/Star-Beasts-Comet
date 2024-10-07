@@ -27,13 +27,13 @@ Route3_TextPointers:
 Route3TrainerHeaders:
 	def_trainers 2
 Route3TrainerHeader0:
-	trainer EVENT_BEAT_ROUTE_3_TRAINER_0, 2, Route3BattleText1, Route3EndBattleText1, Route3AfterBattleText1
+	trainer EVENT_BEAT_ROUTE_3_TRAINER_0, 3, Route3BattleText1, Route3EndBattleText1, Route3AfterBattleText1
 Route3TrainerHeader1:
 	trainer EVENT_BEAT_ROUTE_3_TRAINER_1, 3, Route3BattleText2, Route3EndBattleText2, Route3AfterBattleText2
 Route3TrainerHeader2:
 	trainer EVENT_BEAT_ROUTE_3_TRAINER_2, 2, Route3BattleText3, Route3EndBattleText3, Route3AfterBattleText3
 Route3TrainerHeader3:
-	trainer EVENT_BEAT_ROUTE_3_TRAINER_3, 1, Route3BattleText4, Route3EndBattleText4, Route3AfterBattleText4
+	trainer EVENT_BEAT_ROUTE_3_TRAINER_3, 3, Route3BattleText4, Route3EndBattleText4, Route3AfterBattleText4
 Route3TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_3_TRAINER_4, 4, Route3BattleText5, Route3EndBattleText5, Route3AfterBattleText5
 Route3TrainerHeader5:
