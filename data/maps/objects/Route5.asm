@@ -8,8 +8,10 @@ Route5_Object:
 	warp_event 26, 43, POWER_PLANT, 1
 
 	def_bg_events
-	bg_event 33, 43, 1 ; Route5Text1
+	bg_event 33, 43, 3 ; Route5Text3
+	bg_event 31, 13, 4 ; Route5Text3
 
 	def_object_events
-
+	object_event  32,  10, SPRITE_SCIENTIST, STAY, DOWN, 1 ; person
+	object_event  25,  44, SPRITE_SCIENTIST, STAY, DOWN, 2 ; person
 	def_warps_to ROUTE_5
