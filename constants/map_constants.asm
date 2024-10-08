@@ -76,7 +76,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const PEWTER_GYM,                     5,  7 ; $36
 	map_const PEWTER_NIDORAN_HOUSE,           4,  4 ; $37
 	map_const PEWTER_MART,                    4,  4 ; $38
-	map_const PEWTER_SPEECH_HOUSE,            4,  4 ; $39
+	map_const PEWTER_SPEECH_HOUSE,            11,  4 ; $39
 	map_const PEWTER_POKECENTER,              7,  4 ; $3A
 	map_const MT_MOON_1F,                    20, 28 ; $3B
 	map_const MT_MOON_B1F,                   14, 14 ; $3C

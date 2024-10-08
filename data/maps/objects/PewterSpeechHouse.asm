@@ -4,6 +4,8 @@ PewterSpeechHouse_Object:
 	def_warp_events
 	warp_event  2,  7, LAST_MAP, 2
 	warp_event  3,  7, LAST_MAP, 2
+	warp_event  16,  7, LAST_MAP, 3
+	warp_event  17,  7, LAST_MAP, 3
 
 	def_bg_events
 

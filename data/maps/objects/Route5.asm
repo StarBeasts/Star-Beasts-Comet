@@ -4,11 +4,11 @@ Route5_Object:
 	def_warp_events
 	warp_event  2,  9, ROUTE_2_GATE, 3
 	warp_event  2,  8, ROUTE_2_GATE, 4
-	warp_event 17, 27, UNDERGROUND_PATH_ROUTE_5, 1
-	warp_event 10, 21, DAYCARE, 1
+	warp_event 30, 11, PEWTER_SPEECH_HOUSE, 4
+	warp_event 26, 43, POWER_PLANT, 1
 
 	def_bg_events
-	bg_event 15, 27, 1 ; Route5Text1
+	bg_event 33, 43, 1 ; Route5Text1
 
 	def_object_events
 

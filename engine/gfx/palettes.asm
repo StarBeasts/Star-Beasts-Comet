@@ -156,6 +156,8 @@ SetPal_Overworld:
 	jr c, .townOrRoute
 	cp VIRIDIAN_FOREST
 	jr z, .invertColors
+	cp PEWTER_SPEECH_HOUSE
+	jr z, .mewMon
 	cp MT_MOON_1F
 	jr z, .mewMon
 	cp CELAGONE_CITY

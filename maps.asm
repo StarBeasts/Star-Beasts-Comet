@@ -95,7 +95,7 @@ VermilionPidgeyHouse_Blocks:
 LavenderCuboneHouse_Blocks:
 CeruleanTradeHouse_Blocks:
 PewterNidoranHouse_Blocks:
-PewterSpeechHouse_Blocks:
+PewterSpeechHouse_Blocks: INCBIN "maps/PewterSpeechHouse.blk"
 ViridianNicknameHouse_Blocks: INCBIN "maps/ViridianNicknameHouse.blk"
 
 CeladonMansionRoofHouse_Blocks:
