@@ -36,3 +36,47 @@ _PewterHouse2Text3::
 	cont "now wouldja?"
 	done
 
+_PewterHouse2Text4::
+	text "Why must we"
+	line "all wear these"
+	cont "ridiculous ties?"
+	done
+
+_PewterHouse2Text5::
+	text "Who's bright idea"
+	line "was it to make it"
+	cont "so that we have"
+	cont "to SURF to work?"
+
+	para "What a hassle!"
+	done
+
+_PewterHouse2Text6::
+	text "We used to have a"
+	line "microwave, but"
+	cont "one of our,"
+	cont "ahem..."
+
+	para "'Brighter.'"
+
+	para "Colleagues,"
+	line "broke it."
+
+	para "Perhaps we could"
+	line "at least get a"
+	cont "coffee maker?"
+
+	para "Or maybe even a"
+	line "CUPPACAF?"
+
+	done
+
+_PewterHouse2Text7::
+	text "GORDON!"
+	done
+
+_PewterHouse2Text8::
+	text "What a gorgeous"
+	line "waterside view!"
+	done
+
