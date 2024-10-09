@@ -10,7 +10,7 @@ ViridianCity_Object:
 	warp_event  2,  0, MOLE_HOLE, 1
 
 	def_bg_events
-	bg_event  5, 17,  8 ; ViridianCityText8
+	bg_event  7, 17,  8 ; ViridianCityText8
 	bg_event  7,  5,  9 ; ViridianCityText9
 	bg_event 13, 21, 10 ; ViridianCityText10
 	bg_event 14,  9, 11 ; MartSignText
