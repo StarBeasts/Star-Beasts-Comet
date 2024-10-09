@@ -4,6 +4,7 @@ PowerPlant_Object:
 	def_warp_events
 	warp_event 18, 35, LAST_MAP, 4
 	warp_event 19, 35, LAST_MAP, 4
+	warp_event  0, 12, LAST_MAP, 4
 	warp_event  0, 13, LAST_MAP, 4
 
 	def_bg_events

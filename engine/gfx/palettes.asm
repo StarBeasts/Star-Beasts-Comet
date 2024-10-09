@@ -151,7 +151,7 @@ SetPal_Overworld:
 	jr z, .caveOrBruno
 	ld a, [wCurMap]
 	cp ROUTE_5
-	jp z, .grey
+	jp z, .mewMon
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
 	cp VIRIDIAN_FOREST
@@ -159,6 +159,8 @@ SetPal_Overworld:
 	cp PEWTER_SPEECH_HOUSE
 	jr z, .mewMon
 	cp MT_MOON_1F
+	jr z, .mewMon
+	cp POWER_PLANT
 	jr z, .mewMon
 	cp CELAGONE_CITY
 	jr z, .grey

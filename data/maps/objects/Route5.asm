@@ -1,11 +1,11 @@
 Route5_Object:
-	db $a ; border block
+	db $43 ; border block
 
 	def_warp_events
 	warp_event  2,  9, ROUTE_2_GATE, 3
 	warp_event  2,  8, ROUTE_2_GATE, 4
 	warp_event 30, 11, PEWTER_SPEECH_HOUSE, 4
-	warp_event 26, 43, POWER_PLANT, 1
+	warp_event 26, 43, POWER_PLANT, 2
 
 	def_bg_events
 	bg_event 33, 43, 3 ; Route5Text3

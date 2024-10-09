@@ -72,7 +72,7 @@ Plateau_Coll::
 Overworld2_Coll::
 	coll_tiles $00, $10, $1b, $20, $21, $23, $2c, $2d, $2e, $30, $31, $33, $39, $3c, $3e, $52, $54, $58, $5b
 
-Powerplant_Coll::
+PowerPlant_Coll::
 	coll_tiles $01, $10, $11, $20, $21, $30, $31, $40, $41, $42, $43, $44, $52, $53, $54
 
 SaffronTileset_Coll::
