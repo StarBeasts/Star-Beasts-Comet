@@ -8,9 +8,9 @@ _Route1ViridianMartSampleText::
 	cont "visit us in"
 	cont "EMERALD ACRES."
 
-	para "But you'll have"
-	line "go through COBALT"
-	cont "CAVE, first."
+	para "But first, you'll"
+	line "have to go into"
+	cont "OLIVINE ORCHARD."
 
 	para "It's a bit of a"
 	line "dangerous place"
@@ -65,10 +65,10 @@ _Route1Text2::
 _Route1Text3::
 	text "ROUTE 1"
 	line "ZIRCONIA -"
-	cont "COBALT CAVE"
+	cont "OLIVINE ORCHARD"
 	done
 
 _Route1Text4::
-	text "COBALT CAVE"
+	text "OLIVINE ORCHARD"
 	done
 

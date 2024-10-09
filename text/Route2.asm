@@ -1,9 +1,9 @@
 _Route2Text3::
 	text "ROUTE 2"
-	line "COBALT CAVE -"
-	cont "EMERALD ACRES"
+	line "OLIVINE ORCHARD -"
+	cont "AMETHYST AVENUE"
 	done
 
 _Route2Text4::
-	text "COBALT CAVE"
+	text "OLIVINE ORCHARD"
 	done

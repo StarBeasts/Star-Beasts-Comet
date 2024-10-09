@@ -101,11 +101,11 @@ _VermilionCityText14::
 _VermilionCityText6::
 	text "I came here all"
 	line "the way from"
-	cont "NAME HERE to see"
-	cont "ELEKSI perform,"
-	cont "only to find that"
-	cont "she's on the fritz"
-	cont "again!"
+	cont "KUNZITE KEY to"
+	cont "watch ELEKSI"
+	cont "perform, only to"
+	cont "find that she's on"
+	cont "the fritz again!"
 
 	para "I took a week off"
 	line "work for nothing!"

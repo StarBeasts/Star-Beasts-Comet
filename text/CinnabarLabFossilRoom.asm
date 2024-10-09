@@ -86,8 +86,8 @@ _Lab4Text_610bd::
 	done
 	
 _Lab4Text2::
-	text "We relocated from"
-	line "NAME GOES HERE"
+	text "We relocated here"
+	line "from KUNZITE KEY"
 	cont "fairly recently."
 
 	para "We had a bit of a"

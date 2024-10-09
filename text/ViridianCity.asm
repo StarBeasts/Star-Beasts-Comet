@@ -1,12 +1,16 @@
 _ViridianCityText1::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have BEASTS!"
+	text "See that rock"
+	line "formation over"
+	cont "there?"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use BEASTS any"
-	cont "time, anywhere!"
+	para "That's our famous"
+	line "SPECTACLE ROCK,"
+	cont "so called because"
+	cont "it looks just"
+	cont "like a pair of"
+	cont "glasses!"
+
+	para "Neat, huh?"
 	done
 
 _ViridianCityText_19122::
@@ -18,8 +22,8 @@ _ViridianCityText_19122::
 	done
 
 _ViridianCityText_19127::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "The GYM LEADER"
+	line "returned!"
 	done
 
 _ViridianCityText_1914d::
@@ -157,9 +161,9 @@ _ViridianCityText_19219::
 	done
 
 _ViridianCityText8::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "AMETHYST AVENUE"
+	line "A Purple Piece"
+	cont "of Paradise"
 	done
 
 _ViridianCityText9::
@@ -189,7 +193,7 @@ _ViridianCityText10::
 	done
 
 _ViridianCityText13::
-	text "VIRIDIAN CITY"
+	text "AMETHYST AVENUE"
 	line "# BEAST GYM"
 	done
 

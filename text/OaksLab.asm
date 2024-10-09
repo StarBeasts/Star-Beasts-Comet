@@ -119,8 +119,8 @@ _OaksLabDeliverParcelText2::
 
 	para "That means you"
 	line "went through"
-	cont "COBALT CAVE and"
-	cont "everything?"
+	cont "OLIVINE ORCHARD"
+	cont "and everything?"
 	
 	para "Well, maybe the"
 	line "GIFT I have for"
