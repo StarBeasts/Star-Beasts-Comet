@@ -206,7 +206,7 @@ ColosseumHiddenObjects:
 RedsHouse2FHiddenObjects:
 	hidden_object  0,  1, SPRITE_FACING_UP, OpenRedsPC
 	hidden_object  1,  1, SPRITE_FACING_UP, PrintBookcaseText
-	hidden_object  3,  2, ANY_FACING, PrintRedSNESText
+	hidden_object  3,  4, ANY_FACING, PrintRedSNESText
 	db -1 ; end
 
 BluesHouseHiddenObjects:

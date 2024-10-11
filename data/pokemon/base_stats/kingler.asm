@@ -19,7 +19,7 @@
 	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   \
 	     COUNTER,      SHADOW_CLAW,         \
 	     MEGA_DRAIN,   DRAGONBREATH, \
-	     EARTHQUAKE,   FISSURE,      DIG,             \
+	     DIG,             \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
 	     SWIFT,        SKULL_BASH,   \
 	     REST,         THUNDER_WAVE, \

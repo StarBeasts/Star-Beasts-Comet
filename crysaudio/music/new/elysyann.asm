@@ -17,6 +17,7 @@ Music_Elysyann_Ch1:
 	duty_cycle 2
 	note_type 12, 10, 7
 	tempo 106
+.mainloop
 ;Bar 1
 	octave 1
 	volume_envelope 7, 7
@@ -326,13 +327,30 @@ Music_Elysyann_Ch1:
 	note E_, 2
 	octave 1
 	note B_, 1
-	sound_ret
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Elysyann_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	octave 3
 	volume_envelope 6, 7
@@ -733,12 +751,13 @@ Music_Elysyann_Ch2:
 	note G_, 2
 	note A_, 4
 	note B_, 5
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Elysyann_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
 	octave 2
 	volume_envelope 2, 0
@@ -903,13 +922,14 @@ Music_Elysyann_Ch3:
 	rest 1
 	note E_, 2
 	note B_, 7
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Elysyann_Ch4:
 	toggle_noise 1
 	drum_speed 12
+.mainloop
 ;Bar 1
 	rest 16
 	rest 16
@@ -1011,8 +1031,8 @@ Music_Elysyann_Ch4:
 	drum_note 12, 16
 ;Bar 40
 	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 8, 16
-	sound_ret
+	drum_note 8, 15
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
