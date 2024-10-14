@@ -279,14 +279,14 @@ ViridianCityText7:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr z, .refused
+	ld hl, ViridianCityText_19214
+	call PrintText
+	jr .done
+.refused
 	ld hl, ViridianCityText_1920f
 	call PrintText
 	ld a, $1
 	ld [wViridianCityCurScript], a
-	jr .done
-.refused
-	ld hl, ViridianCityText_19214
-	call PrintText
 .done
 	jp TextScriptEnd
 

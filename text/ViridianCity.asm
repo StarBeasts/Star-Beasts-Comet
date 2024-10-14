@@ -58,11 +58,19 @@ _ViridianCityText_19175::
 	done
 
 _ViridianCityText_1917a::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "Aren't the"
+	line "flowers that grow"
+	cont "here pretty?"
+
+	para "My great aunt in"
+	line "EMERALD ACRES"
+	cont "showed me how to"
+	cont "make TEA out of"
+	cont "them!"
+
+	para "I wonder if it"
+	line "outdoes the TEA"
+	cont "in GARNET GARDENS?"
 	done
 
 _ViridianCityText_19191::
@@ -121,19 +129,25 @@ _TM42NoRoomText::
 	done
 
 _ViridianCityText_1920a::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Cave's all clear,"
+	line "so I'm done"
+	cont "working for a"
+	cont "while, I reckon!"
 
-	para "Sure you can go"
-	line "through!"
+	para "Say..."
 
-	para "Are you in a"
-	line "hurry?"
+	para "I've seen you"
+	line "before, haven't I?"
+
+	para "You're a trainer,"
+	line "right?"
 	done
 
 _ViridianCityText_1920f::
-	text "I see you're using"
+	text "Of course, of"
+	line "course!"
+
+	para "I see you're using"
 	line "a #DEX."
 
 	para "When you catch a"
@@ -150,8 +164,11 @@ _ViridianCityText_1920f::
 	done
 
 _ViridianCityText_19214::
-	text "Time is money..."
-	line "Go along then."
+	text "Psshh..."
+
+	para "Guess my senses"
+	line "ain't what they"
+	cont "used to be..."
 	done
 
 _ViridianCityText_19219::

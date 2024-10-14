@@ -24,10 +24,10 @@ _Route5Text1::
 _Route5Text2::
 	text "Zerre vas terrible"
 	line "monster in zerre"
-	cont "last time"
-	cont "I vent in."
+	cont "last time I"
+	cont "vent inside."
 
-	para "So verrry loud,"
+	para "So verry loud,"
 	line "and skarry."
 
 	para "I vould trread"
