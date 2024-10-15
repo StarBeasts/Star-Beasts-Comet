@@ -31,7 +31,7 @@ DEF NUM_CITY_MAPS EQU const_value
 	map_const UNUSED_MAP_0B,                  0,  0 ; $0B
 DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_1,                       24, 10 ; $0C
-	map_const ROUTE_2,                       15, 12 ; $0D
+	map_const ROUTE_2,                       15, 16 ; $0D
 	map_const ROUTE_3,                       17, 24 ; $0E
 	map_const ROUTE_4,                       39,  9 ; $0F
 	map_const ROUTE_5,                       25, 30 ; $10
@@ -79,7 +79,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const PEWTER_SPEECH_HOUSE,            11,  4 ; $39
 	map_const PEWTER_POKECENTER,              7,  4 ; $3A
 	map_const MT_MOON_1F,                    20, 28 ; $3B
-	map_const MT_MOON_B1F,                   14, 14 ; $3C
+	map_const MT_MOON_B1F,                   17, 14 ; $3C
 	map_const MT_MOON_B2F,                   20, 18 ; $3D
 	map_const CERULEAN_TRASHED_HOUSE,         4,  4 ; $3E
 	map_const CERULEAN_TRADE_HOUSE,           4,  4 ; $3F

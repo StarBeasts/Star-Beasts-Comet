@@ -4,6 +4,7 @@ MtMoonPokecenter_Object:
 	def_warp_events
 	warp_event  3,  7, VIRIDIAN_FOREST, 3
 	warp_event  4,  7, VIRIDIAN_FOREST, 3
+	warp_event  10, 0, MT_MOON_B1F, 1
 
 	def_bg_events
 

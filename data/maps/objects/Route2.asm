@@ -6,6 +6,7 @@ Route2_Object:
 	warp_event 19,  7, PEWTER_SPEECH_HOUSE, 1
 	warp_event 15, 11, HAND_HOUSE, 2
 	warp_event 15,  8, HAND_HOUSE, 1
+	warp_event 12,  25, MT_MOON_POKECENTER, 2
 
 	def_bg_events
 	bg_event 27, 11, 3 ; Route2Text3
@@ -18,8 +19,8 @@ Route2_Object:
 	def_warps_to ROUTE_2
 
 	; unused
-	warp_to  8,  2, 4
+	warp_to 15,  2, 4
 	db $12, $c7, $9, $7
-	warp_to  6,  1, 4
-	warp_to  5,  2, 4
-	warp_to  7,  1, 4
+	warp_to 13,  2, 4
+	warp_to 12,  2, 4
+	warp_to 14,  2, 4
