@@ -1,13 +1,29 @@
 _ViridianForestEntranceText1::
-	text "Are you going to"
-	line "VIRIDIAN FOREST?"
-	cont "Be careful, it's"
-	cont "a natural maze!"
+	text "ZZZzzz..."
+
+	para "...Hnh?"
+
+	para "You..."
+
+	para "You aren't one of"
+	line "my kin or the"
+	cont "staff."
+
+	para "Leave an old"
+	line "woman be."
 	done
 
 _ViridianForestEntranceText2::
-	text "MULCRUNCH has a"
-	line "nasty bite for a"
-	cont "caterpillar!"
-	cont "Did you get one?"
+	text "Oh, hello dearie!"
+	
+	para "Did you come to"
+	line "get your fortune"
+	cont "told?"
+
+	para "..."
+
+	para "No...?"
+
+	para "Perhaps another"
+	line "time, then."
 	done
