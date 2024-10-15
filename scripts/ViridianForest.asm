@@ -29,6 +29,7 @@ ViridianForest_TextPointers:
 	dw ViridianForestText14
 	dw ViridianForestText15
 	dw ViridianForestText16
+	dw ViridianForestText17
 
 ViridianForestTrainerHeaders:
 	def_trainers 2
@@ -37,7 +38,7 @@ ViridianForestTrainerHeader0:
 ViridianForestTrainerHeader1:
 	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_1, 4, ViridianForestBattleText2, ViridianForestEndBattleText2, ViridianForestAfterBattleText2
 ViridianForestTrainerHeader2:
-	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_2, 1, ViridianForestBattleText3, ViridianForestEndBattleText3, ViridianForestAfterBattleText3
+	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_2, 3, ViridianForestBattleText3, ViridianForestEndBattleText3, ViridianForestAfterBattleText3
 ViridianForestTrainerHeader3:
 	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_3, 2, ViridianForestBattleText4, ViridianForestEndBattleText4, ViridianForestAfterBattleText4
 ViridianForestTrainerHeader4:
@@ -164,4 +165,8 @@ ViridianForestText15:
 
 ViridianForestText16:
 	text_far _ViridianForestText16
+	text_end
+
+ViridianForestText17:
+	text_far _ViridianForestText17
 	text_end

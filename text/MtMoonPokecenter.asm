@@ -75,6 +75,20 @@ _MtMoonPokecenterText5::
 	done
 
 _MtMoonPokecenterText6::
-	text "CHEPPI: Chepperii!@"
-	text_end
+	text "Be careful!"
+
+	para "You still have"
+	line "to get through"
+	cont "COBALT CAVE to"
+	cont "finally make it"
+	cont "to QUARTZ QUARRY."
+
+	para "Come back here and"
+	line "heal if your"
+	cont "BEASTs get too"
+	cont "banged up, okay?"
+
+	para "Take care, now!"
+	done
+
 

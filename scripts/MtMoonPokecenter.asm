@@ -8,7 +8,6 @@ MtMoonPokecenter_TextPointers:
 	dw MtMoonPokecenterText3
 	dw MagikarpSalesmanText
 	dw MtMoonPokecenterText5
-	dw MtMoonTradeNurseText
 	dw MtMoonPokecenterText6
 
 MtMoonHealNurseText:
@@ -90,9 +89,6 @@ MagikarpSalesmanText:
 MtMoonPokecenterText5:
 	text_far _MtMoonPokecenterText5
 	text_end
-
-MtMoonTradeNurseText:
-	script_cable_club_receptionist
 
 MtMoonPokecenterText6:
 	text_far _MtMoonPokecenterText6

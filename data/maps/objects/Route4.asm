@@ -3,7 +3,7 @@ Route4_Object:
 
 	def_warp_events
 	warp_event 17, 11, GAS_STATION, 1
-	warp_event 20,  3, MOLE_HOLE, 1
+	warp_event 20,  3, MOLE_HOLE, 4
 	warp_event 36, 11, VIRIDIAN_FOREST_NORTH_GATE, 9
 	warp_event 23,  9, CINNABAR_LAB_FOSSIL_ROOM, 1
 	warp_event 52,  7, DAYCARE, 1

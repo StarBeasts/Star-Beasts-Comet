@@ -72,6 +72,12 @@ _ViridianFrstAfterBattleText3::
 	line "use to catch"
 	cont "# BEASTS,"
 	cont "that is."
+
+	para "Last place I"
+	line "looked was the"
+	cont "big patch of"
+	cont "grass to the"
+	cont "southwest..."
 	done
 
 _ViridianForestBattleText4::
@@ -129,6 +135,21 @@ _ViridianForestText10::
 	done
 
 _ViridianForestText11::
+	text "Hoy, there!"
+
+	para "There's been a"
+	line "cave-in!"
+
+	para "Me 'n the boys"
+	line "are just cleaning"
+	cont "up the wreckage."
+
+	para "Give us a bit and"
+	line "we'll be outta"
+	cont "your way!"
+	done
+
+_ViridianForestText12::
 	text "TRAINER TIPS"
 
 	para "If you want to"
@@ -137,16 +158,16 @@ _ViridianForestText11::
 	cont "grassy areas!"
 	done
 
-_ViridianForestText12::
+_ViridianForestText13::
 	text "Local trainers"
 	line "report sightings"
 	cont "of an unusually"
 	cont "powerful pink"
 	cont "# BEAST in"
-	cont "VIRIDIAN FOREST."
+	cont "OLIVINE ORCHARD."
 	done
 
-_ViridianForestText13::
+_ViridianForestText14::
 	text "TRAINER TIPS"
 
 	para "Reach PROF.CHERRY"
@@ -155,7 +176,7 @@ _ViridianForestText13::
 	cont "evaluated!"
 	done
 
-_ViridianForestText14::
+_ViridianForestText15::
 	text "TRAINER TIPS"
 
 	para "No stealing of"
@@ -165,7 +186,7 @@ _ViridianForestText14::
 	cont "# BEASTS!"
 	done
 
-_ViridianForestText15::
+_ViridianForestText16::
 	text "TRAINER TIPS"
 
 	para "Weaken BEASTS"
@@ -176,8 +197,9 @@ _ViridianForestText15::
 	line "they may escape!"
 	done
 
-_ViridianForestText16::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+_ViridianForestText17::
+	text "OLIVINE ORCHARD"
+	line "REST STOP"
+
+	para "COBALT CAVE AHEAD"
 	done
