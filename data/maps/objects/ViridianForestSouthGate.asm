@@ -25,5 +25,7 @@ ViridianForestSouthGate_Object:
 	object_event  4,  4, SPRITE_GRANNY, STAY, DOWN, 1 ; person
 	object_event 26,  5, SPRITE_CHANNELER, WALK, UP_DOWN, 2 ; person
 	object_event 14,  5, SPRITE_GRAMPS, STAY, UP, 3 ; SLIMOGG trade
-
+	object_event 50,  5, SPRITE_GRANNY, STAY, RIGHT, 4 ; person
+	object_event 53,  5, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 5 ; person
+	object_event 76,  4, SPRITE_CHANNELER, STAY, RIGHT, 6 ; person
 	def_warps_to VIRIDIAN_FOREST_SOUTH_GATE

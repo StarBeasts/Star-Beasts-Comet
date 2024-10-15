@@ -86,7 +86,7 @@ _ViridianForestExitText11::
 	text "SANDRA's room."
 	done
 _ViridianForestExitText12::
-	text "KENNETH's room."
+	text "BEVERLY's room."
 	done
 _ViridianForestExitText13::
 	text "Rec room."
@@ -97,7 +97,7 @@ _ViridianForestExitText14::
 	done
 
 _ViridianForestExitText15::
-	text "BEVERLY's room."
+	text "MARIANNA's room."
 	done
 _ViridianForestExitText16::
 	text "ALBERT's room."
