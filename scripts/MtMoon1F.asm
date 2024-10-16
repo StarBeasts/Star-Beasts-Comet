@@ -20,14 +20,13 @@ MtMoon1F_TextPointers:
 	dw MtMoon1Text5
 	dw MtMoon1Text6
 	dw MtMoon1Text7
-	dw MtMoon1Text8
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
-	dw MtMoon1Text15
+	dw MtMoon1Text14
 
 MtMoon1TrainerHeaders:
 	def_trainers
@@ -173,10 +172,6 @@ MtMoon1AfterBattleText8:
 	text_far _MtMoon1AfterBattleText8
 	text_end
 
-MtMoon1Text8:
-	text_far _MtMoon1Text8
-	text_end
-
-MtMoon1Text15:
-	text_far _MtMoon1Text15
+MtMoon1Text14:
+	text_far _MtMoon1Text14
 	text_end
