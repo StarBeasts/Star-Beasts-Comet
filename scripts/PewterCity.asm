@@ -37,10 +37,6 @@ ENDC
 	jp DisplayTextID
 
 CoordsData_19277:
-	dbmapcoord 35, 17
-	dbmapcoord 36, 17
-	dbmapcoord 37, 18
-	dbmapcoord 37, 19
 	db -1 ; end
 
 PewterCityScript1:
@@ -219,19 +215,6 @@ PewterCityText3:
 .playerDidNotGoIntoMuseum
 	ld hl, PewterCityText_193fb
 	call PrintText
-	xor a
-	ldh [hJoyPressed], a
-	ldh [hJoyHeld], a
-	ld [wNPCMovementScriptFunctionNum], a
-	ld a, $2
-	ld [wNPCMovementScriptPointerTableNum], a
-	ldh a, [hLoadedROMBank]
-	ld [wNPCMovementScriptBank], a
-	ld a, $3
-	ld [wSpriteIndex], a
-	call GetSpritePosition2
-	ld a, $1
-	ld [wPewterCityCurScript], a
 .done
 	jp TextScriptEnd
 
@@ -284,18 +267,6 @@ PewterCityText5:
 	text_asm
 	ld hl, PewterCityText_1945d
 	call PrintText
-	xor a
-	ldh [hJoyHeld], a
-	ld [wNPCMovementScriptFunctionNum], a
-	ld a, $3
-	ld [wNPCMovementScriptPointerTableNum], a
-	ldh a, [hLoadedROMBank]
-	ld [wNPCMovementScriptBank], a
-	ld a, $5
-	ld [wSpriteIndex], a
-	call GetSpritePosition2
-	ld a, $4
-	ld [wPewterCityCurScript], a
 	jp TextScriptEnd
 
 PewterCityText_1945d:

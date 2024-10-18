@@ -18,7 +18,7 @@ ENDM
 	const_def
 	map_const PALLET_TOWN,                   13, 10 ; $00
 	map_const VIRIDIAN_CITY,                 20, 18 ; $01
-	map_const PEWTER_CITY,                   20, 18 ; $02
+	map_const PEWTER_CITY,                   20, 23 ; $02
 	map_const CERULEAN_CITY,                 20, 18 ; $03
 	map_const LAVENDER_TOWN,                 10, 15 ; $04
 	map_const VERMILION_CITY,                30, 12 ; $05

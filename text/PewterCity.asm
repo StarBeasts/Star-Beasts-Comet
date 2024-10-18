@@ -25,20 +25,43 @@ _PewterCityText2::
 	done
 
 _PewterCityText_193f1::
-	text "Did you check out"
-	line "the MUSEUM?"
+	text "Welcome to"
+	line "QUARTZ QUARRY!"
+
+	para "Have you seen"
+	line "our MUSEUM?"
 	done
 
 _PewterCityText_193f6::
 	text "Weren't those"
-	line "souls from MT."
-	cont "MOON amazing?"
+	line "souls we got out"
+	cont "of COBALT CAVE"
+	cont "amazing?"
 	done
 
 _PewterCityText_193fb::
-	text "Really?"
-	line "You absolutely"
-	cont "have to go!"
+	text "Well, you"
+	line "really ought"
+	cont "to go there!"
+
+	para "It's the big"
+	line "building in the"
+	cont "middle of town,"
+	cont "can't miss it!"
+
+	para "..."
+
+	para "Why are you"
+	line "staring at me"
+	cont "like that?"
+
+	para "..."
+
+	para "You want me to"
+	line "take you there?"
+
+	para "What do I look"
+	line "like, your mother?"
 	done
 
 _PewterCityText13::
@@ -84,11 +107,42 @@ _PewterCityText_19431::
 	done
 
 _PewterCityText_1945d::
-	text "You're a trainer"
-	line "right? BIG DAVE's"
-	cont "looking for new"
-	cont "challengers!"
-	cont "Follow me!"
+	text "Howdy there,"
+	line "stranger!"
+	
+	para "My name's LISBETH!"
+
+	para "Me 'n the girls"
+	line "'r conducting a"
+	cont "little survey"
+	cont "'bout the plant"
+	cont "life here in"
+	cont "RELAS!"
+
+	para "There's flowers"
+	line "growin' here,"
+	cont "'n we gotta ask"
+	cont "the guy growin'"
+	cont "'em what his"
+	cont "secret is!"
+
+	para "But don't you"
+	line "worry none!"
+
+	para "We'll be outta"
+	line "yer hair in no"
+	cont "time, or yer hat,"
+	cont "as the case may"
+	cont "be! Aheheh!"
+
+	para "Why don'tcha go"
+	line "'n take on the"
+	cont "GYM LEADER here,"
+	cont "test yer mettle?"
+
+	para "But heck, I'm one"
+	line "of 'em, so maybe"
+	cont "I'm a li'l biased!"
 	done
 
 _PewterCityText14::
