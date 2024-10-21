@@ -8,8 +8,9 @@ _BrockPostBattleAdviceText::
 	cont "as a trainer!"
 
 	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	line "SAPPHIRE SANDS"
+	cont "and test your"
+	cont "abilities!"
 	done
 
 _BeforeReceivedTM34Text::

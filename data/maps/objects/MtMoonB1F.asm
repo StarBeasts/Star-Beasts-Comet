@@ -8,8 +8,8 @@ MtMoonB1F_Object:
 	warp_event 17, 17, MT_MOON_1F, 4
 	warp_event 29, 13, MT_MOON_1F, 5
 	warp_event 13, 25, MT_MOON_B2F, 3
-	warp_event 25,  5, MT_MOON_B2F, 4
-	warp_event 31,  5, LAST_MAP, 3
+	warp_event 31,  5, MT_MOON_B2F, 4
+	warp_event 25,  5, LAST_MAP, 3
 
 	def_bg_events
 

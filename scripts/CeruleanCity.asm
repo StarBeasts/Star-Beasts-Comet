@@ -49,8 +49,8 @@ ENDC
 	ld a, PLAYER_DIR_UP
 	ld b, SPRITE_FACING_DOWN
 	jr nz, .playerBelowRocketThief
-	ld a, PLAYER_DIR_DOWN
-	ld b, SPRITE_FACING_UP
+	ld a, PLAYER_DIR_LEFT
+	ld b, SPRITE_FACING_RIGHT
 .playerBelowRocketThief
 	ld [wPlayerMovingDirection], a
 	ld a, b
@@ -101,13 +101,13 @@ ENDC
 	ret
 
 CeruleanCityCoords1:
-	dbmapcoord 30,  7
-	dbmapcoord 30,  9
+	dbmapcoord 21,  6
+	dbmapcoord 20,  7
 	db -1 ; end
 
 CeruleanCityCoords2:
-	dbmapcoord 20,  6
-	dbmapcoord 21,  6
+	dbmapcoord 20,  4
+	dbmapcoord 21,  4
 	db -1 ; end
 
 CeruleanCityMovement1:
@@ -404,7 +404,6 @@ CeruleanCityText8:
 	call PrintText
 	ld a, IVYSAUR
 	call PlayCry
-	call WaitForSoundToFinish
 	jr .end
 .notFirstText
 	cp 120 ; 60/256 chance of 2nd dialogue
@@ -413,7 +412,6 @@ CeruleanCityText8:
 	call PrintText
 	ld a, IVYSAUR
 	call PlayCry
-	call WaitForSoundToFinish
 	jr .end
 .notSecondText
 	cp 60 ; 60/256 chance of 3rd dialogue
@@ -422,7 +420,6 @@ CeruleanCityText8:
 	call PrintText
 	ld a, IVYSAUR
 	call PlayCry
-	call WaitForSoundToFinish
 	jr .end
 .notThirdText
 	; 60/256 chance of 4th dialogue
@@ -430,7 +427,6 @@ CeruleanCityText8:
 	call PrintText
 	ld a, IVYSAUR
 	call PlayCry
-	call WaitForSoundToFinish
 .end
 	jp TextScriptEnd
 

@@ -58,13 +58,22 @@ _CeruleanCityText_19677::
 	done
 
 _CeruleanCityText_196d9::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "C'mon, NEEDOLF!"
+	line "This isn't that-"
 
+	para "What the-"
+
+	para "Who are you!?"
+
+	para "Who am I?"
+	
+	para "Uhh..."
+	
+	para "I'm just..."
+	
 	para "I'm an innocent"
 	line "bystander! Don't"
-	cont "you believe me?"
+	cont "I look the part?"
 	done
 
 _ReceivedTM28Text::
@@ -76,7 +85,7 @@ _ReceivedTM28Text2::
 	text_start
 
 	para "I better get"
-	line "moving! Bye!@"
+	line "outta here! Bye!@"
 	text_end
 
 _TM28NoRoomText::
@@ -89,8 +98,8 @@ _TM28NoRoomText::
 
 _CeruleanCityText_196ee::
 	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	line "Okay, okay!"
+	cont "I'm going!"
 	prompt
 
 _CeruleanCityText_196f3::
@@ -110,19 +119,30 @@ _CeruleanCityText3::
 	done
 
 _CeruleanCityText4::
-	text "That bush in"
-	line "front of the shop"
-	cont "is in the way."
+	text "I used to be a"
+	line "longshoreman, but"
+	cont "that was 'fore"
+	cont "my knee injury."
 
-	para "There might be a"
-	line "way around."
+	para "Now, I'm thinkin'"
+	line "if I heal up"
+	cont "good, I'll apply"
+	cont "for the POLICE"
+	cont "FORCE."
 	done
 
 _CeruleanCityText5::
-	text "You're making an"
-	line "encyclopedia on"
-	cont "# BEASTS? That"
-	cont "sounds amusing."
+	text "You're traveling"
+	line "the world to get"
+	cont "every kind of"
+	cont "# BEAST?"
+
+	para "Heh, braver soul"
+	line "than I am."
+		
+	para "I love the scenery"
+	line "too much to ever"
+	cont "leave here."
 	done
 
 _CeruleanCityText6::
@@ -213,10 +233,11 @@ _CeruleanCityText10::
 	done
 
 _CeruleanCityText12::
-	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	text "SAPPHIRE SANDS"
+	line "All the beauty"
+	cont "of the beach,"
+	cont "without the"
+	cont "Summer heat"
 	done
 
 _CeruleanCityText13::

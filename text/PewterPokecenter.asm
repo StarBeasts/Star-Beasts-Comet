@@ -2,7 +2,7 @@ _PewterPokecenterText2::
 	text "What!?"
 
 	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
+	line "at COBALT? Huh?"
 	cont "I'm on the phone!"
 
 	para "Scram!"

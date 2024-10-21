@@ -1,6 +1,6 @@
 _BrockPreBattleText::
 	text "'Sup, little dude?"
-	line "I'm PEWTER's GYM"
+	line "I'm QQ's GYM"
 	cont "LEADER!"
 
 	para "People call me"

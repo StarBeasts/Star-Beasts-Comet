@@ -45,9 +45,9 @@ _MtMoon1AfterBattleText3::
 	done
 
 _MtMoon1BattleText4::
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "Oh, gosh!"
+	line "It's so cold"
+	cont "in here!"
 	done
 
 _MtMoon1EndBattleText4::
@@ -56,8 +56,10 @@ _MtMoon1EndBattleText4::
 	prompt
 
 _MtMoon1AfterBattleText4::
-	text "How do you get"
-	line "out of here?"
+	text "I need to head"
+	line "back home before"
+	cont "my Mom starts to"
+	cont "worry about me."
 	done
 
 _MtMoon1BattleText5::
@@ -76,9 +78,9 @@ _MtMoon1AfterBattleText5::
 	done
 
 _MtMoon1BattleText6::
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "What? I'm looking"
+	line "for a crystal to"
+	cont "take home with me."
 	done
 
 _MtMoon1EndBattleText6::
@@ -111,7 +113,7 @@ _MtMoon1AfterBattleText7::
 _MtMoon1BattleText8::
 	text "Go through this"
 	line "cave to get to"
-	cont "EMERALD ACRES!"
+	cont "QUARTZ QUARRY!"
 	done
 
 _MtMoon1EndBattleText8::

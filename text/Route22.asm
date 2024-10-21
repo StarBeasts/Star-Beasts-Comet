@@ -23,7 +23,7 @@ _Route22RivalBeforeBattleText1::
 _Route22RivalAfterBattleText1::
 	text "I heard the first"
 	line "BADGE is in"
-	cont "PEWTER CITY, so"
+	cont "QUARTZ QUARRY, so"
 	cont "that's where I'm"
 	cont "headed." 
 

@@ -566,9 +566,9 @@ RocketData:
 	db 13, PARAS, VOLTORB, 0
 	db 11, SANDSHREW, PSYDUCK, NIDORAN_F, 0
 	db 12, ZUBAT, EKANS, 0
-	db 16, NIDORINO, 0
+	db 16, NIDORAN_M, 0
 ; Cerulean City
-	db 17, NIDORAN_F, KADABRA, 0
+	db 17, NIDORINO, KADABRA, 0
 ; Route 24
 	db 16, VENONAT, GOLDUCK, 0
 ; Game Corner

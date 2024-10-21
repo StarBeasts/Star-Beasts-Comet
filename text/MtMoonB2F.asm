@@ -113,12 +113,12 @@ _MtMoon3BattleText5::
 	text "You're somewhere"
 	line "you shouldn't be."
 
-	para "Sic 'em, NEEDOLF!"
+	para "Sic 'em, SLIMOGG!"
 	done
 
 _MtMoon3EndBattleText5::
 	text "D'oh!"
-	line "My NEEDOLF!"
+	line "My SLIMOGG!"
 	prompt
 
 _MtMoon3AfterBattleText5::

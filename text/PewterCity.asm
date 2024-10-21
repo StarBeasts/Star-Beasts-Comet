@@ -1,11 +1,15 @@
 _PewterCityText1::
-	text "It's rumored that"
-	line "DRAGLEAM came"
-	cont "from the stars!"
+	text "Amazing..."
 
-	para "They appeared "
-	line "after a METEOR"
-	cont "hit the EARTH."
+	para "Even with how"
+	line "cold it is out"
+	cont "here, and how"
+	cont "hostile the"
+	cont "soil here is..."
+
+	para "Somehow, life"
+	line "still manages"
+	cont "to find a way..."
 	done
 
 _PewterCityText2::
@@ -167,17 +171,17 @@ _PewterCityText7::
 	line "stealing BEAST"
 	cont "souls at MT."
 	cont "MOON! Please call"
-	cont "PEWTER POLICE"
-	cont "with any info!"
+	cont "QQ POLICE with"
+	cont "any info!"
 	done
 
 _PewterCityText10::
-	text "PEWTER MUSEUM"
-	line "OF SCIENCE"
+	text "QUARTZ QUARRY"
+	line "MUSEUM OF SCIENCE"
 	done
 
 _PewterCityText11::
-	text "PEWTER CITY"
+	text "QUARTZ QUARRY"
 	line "# BEAST GYM"
 	cont "LEADER: BIG DAVE"
 
@@ -186,13 +190,14 @@ _PewterCityText11::
 	done
 
 _PewterCityText12::
-	text "PEWTER CITY"
-	line "A Hard Rock"
+	text "QUARTZ QUARRY"
+	line "A Hard Rocking,"
+	cont "Hard Working"
 	cont "City"
 	done
 
 _PewterCityText15::
-	text "PEWTER CITY"
+	text "QUARTZ QUARRY"
 	line "GARDEN"
 
 	para "NOTICE"

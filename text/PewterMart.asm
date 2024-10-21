@@ -1,10 +1,10 @@
 _PewterMartText2::
 	text "There's this guy"
-	line "up the road that"
-	cont "catches stray"
-	cont "dogs and sells"
-	cont "them to people"
-	cont "for ¥500!"
+	line "a town or two"
+	cont "over that catches"
+	cont "stray dogs and"
+	cont "sells them to"
+	cont "people for ¥500!"
 
 	para "Kinda scummy, but"
 	line "at least they're"
