@@ -35,7 +35,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_3,                       17, 24 ; $0E
 	map_const ROUTE_4,                       39,  9 ; $0F
 	map_const ROUTE_5,                       25, 30 ; $10
-	map_const ROUTE_6,                       10, 18 ; $11
+	map_const ROUTE_6,                       24, 13 ; $11
 	map_const ROUTE_7,                       10,  9 ; $12
 	map_const ROUTE_8,                       30,  9 ; $13
 	map_const ROUTE_9,                       30,  9 ; $14
@@ -250,7 +250,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CERULEAN_CAVE_1F,              15,  9 ; $E4
 	map_const NAME_RATERS_HOUSE,              4,  4 ; $E5
 	map_const CERULEAN_BADGE_HOUSE,           4,  4 ; $E6
-	map_const UNUSED_MAP_E7,                  0,  0 ; $E7
+	map_const GOLDEN_GATE,                  12,  3 ; $E7
 	map_const ROCK_TUNNEL_B1F,               20, 18 ; $E8
 	map_const SILPH_CO_9F,                   13,  9 ; $E9
 	map_const SILPH_CO_10F,                   8,  9 ; $EA

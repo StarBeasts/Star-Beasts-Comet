@@ -3,7 +3,7 @@ CeruleanCity_Object:
 
 	def_warp_events
 	warp_event 21, 11, CERULEAN_TRASHED_HOUSE, 1
-	warp_event 13, 15, CERULEAN_TRADE_HOUSE, 1
+	warp_event 13, 15, FUCHSIA_GOOD_ROD_HOUSE, 1
 	warp_event 23, 17, CERULEAN_POKECENTER, 1
 	warp_event 14, 25, CERULEAN_GYM, 1
 	warp_event 17, 19, BIKE_SHOP, 1
@@ -12,7 +12,7 @@ CeruleanCity_Object:
 	warp_event 21,  9, CERULEAN_TRASHED_HOUSE, 3
 	warp_event  9, 11, CERULEAN_BADGE_HOUSE, 2
 	warp_event  9,  9, CERULEAN_BADGE_HOUSE, 1
-	warp_event 30,  5, MT_MOON_B2F, 4
+	warp_event 32,  5, MT_MOON_B2F, 4
 
 	def_bg_events
 	bg_event 29,  7, 12 ; CeruleanCityText12

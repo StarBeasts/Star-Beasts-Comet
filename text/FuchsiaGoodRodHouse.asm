@@ -35,10 +35,14 @@ _FuchsiaHouse3Text_56217::
 	para "How are the fish"
 	line "biting?"
 
-	para "Did you know the"
-	line "WARDEN breeds"
-	cont "DRAGONs in the"
-	cont "pond outside?"
+	para "Did you know"
+	line "there's a special"
+	cont "fishing spot in"
+	cont "GARNET GARDENS?"
+
+	para "I heard it has"
+	line "some pretty rare"
+	cont "# BEASTS!"
 
 	para "A GOOD ROD might"
 	line "not be sturdy"

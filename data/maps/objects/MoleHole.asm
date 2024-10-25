@@ -8,7 +8,8 @@ MoleHole_Object:
 	warp_event  5, 59, ROUTE_4, 2
 	warp_event  6, 17, VERMILION_CITY, 10
 	warp_event  8,  6, ROUTE_22, 2
-
+	warp_event 46, 41, ROUTE_6, 1
+	warp_event 24, 26, ROUTE_6, 2
 
 	def_bg_events
 

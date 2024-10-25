@@ -285,6 +285,7 @@ INCLUDE "text/SecretPath.asm"
 INCLUDE "text/AncientCave.asm"
 INCLUDE "text/DevilsCanyon.asm"
 INCLUDE "text/GasStation.asm"
+INCLUDE "text/GoldenGate.asm"
 
 SECTION "Pokédex Text", ROMX
 

@@ -1313,3 +1313,8 @@ INCLUDE "scripts/DevilsCanyon.asm"
 INCLUDE "data/maps/objects/DevilsCanyon.asm"
 DevilsCanyon_Blocks: INCBIN "maps/DevilsCanyon.blk"
 
+INCLUDE "data/maps/headers/GoldenGate.asm"
+INCLUDE "scripts/GoldenGate.asm"
+INCLUDE "data/maps/objects/GoldenGate.asm"
+GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
+
