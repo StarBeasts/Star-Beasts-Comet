@@ -6,7 +6,7 @@ Route6_Object:
 	warp_event 38, 19, GOLDEN_GATE, 3
 	warp_event 39, 19, GOLDEN_GATE, 4
 	warp_event 18,  7, DIGLETTS_CAVE, 1
-	warp_event  4, 13, GOLDEN_GATE, 8
+	warp_event  2, 13, GOLDEN_GATE, 8
 
 	def_bg_events
 	bg_event 39, 15, 7 ; Route6Text7

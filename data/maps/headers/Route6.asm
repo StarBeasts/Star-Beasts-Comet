@@ -1,4 +1,4 @@
-	map_header Route6, ROUTE_6, OVERWORLD, NORTH | SOUTH
-	connection north, SaffronCity, SAFFRON_CITY, -5
-	connection south, VermilionCity, VERMILION_CITY, -5
+	map_header Route6, ROUTE_6, OVERWORLD, SOUTH | WEST
+	connection south, CeruleanCity, CERULEAN_CITY, 9
+	connection west, Route8, ROUTE_8, 0
 	end_map_header
