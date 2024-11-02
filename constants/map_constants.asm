@@ -20,7 +20,7 @@ ENDM
 	map_const VIRIDIAN_CITY,                 20, 18 ; $01
 	map_const PEWTER_CITY,                   20, 23 ; $02
 	map_const CERULEAN_CITY,                 24, 18 ; $03
-	map_const LAVENDER_TOWN,                 10, 15 ; $04
+	map_const LAVENDER_TOWN,                 12, 17 ; $04
 	map_const VERMILION_CITY,                30, 12 ; $05
 	map_const CELADON_CITY,                  25, 18 ; $06
 	map_const FUCHSIA_CITY,                  20, 18 ; $07
