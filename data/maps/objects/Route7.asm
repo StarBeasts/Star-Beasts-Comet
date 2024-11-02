@@ -2,14 +2,14 @@ Route7_Object:
 	db $f ; border block
 
 	def_warp_events
-	warp_event 19,  0, ROUTE_7_GATE, 3
-	warp_event 19,  0, ROUTE_7_GATE, 4
-	warp_event 13,  9, ROUTE_7_GATE, 1
-	warp_event 13, 10, ROUTE_7_GATE, 2
-	warp_event  5, 13, UNDERGROUND_PATH_ROUTE_7, 1
+	warp_event 29, 17, BILLS_HOUSE, 1
+	warp_event 30, 29, BILLS_HOUSE, 1
+	warp_event  3, 22, ROUTE_7_GATE, 1
+	warp_event  3, 23, ROUTE_7_GATE, 2
+	warp_event 29, 29, SECRET_PATH, 1
 
 	def_bg_events
-	bg_event  3, 13, 1 ; Route7Text1
+	bg_event 31, 19, 1 ; Route7Text1
 
 	def_object_events
 

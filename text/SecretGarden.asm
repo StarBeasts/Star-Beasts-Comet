@@ -48,7 +48,9 @@ _SecretGardenText4::
 
 
 _FlewnicornBattleText::
-	text "Aww..."
+	text "A horse of some"
+	line "sort is drinking"
+	cont "from the pond."
 
 	para "It appears to"
 	line "be a FLEWNICORN."

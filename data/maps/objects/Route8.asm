@@ -2,7 +2,7 @@ Route8_Object:
 	db $2c ; border block
 
 	def_warp_events
-	warp_event 57, 13, ROUTE_8_GATE, 1
+	warp_event 57, 13, GOLDEN_GATE, 6
 	warp_event 48,  2, ROUTE_8_GATE, 2
 	warp_event  2, 12, ROUTE_8_GATE, 3
 	warp_event  2, 13, ROUTE_8_GATE, 4

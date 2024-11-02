@@ -192,8 +192,7 @@ _PewterCityText11::
 _PewterCityText12::
 	text "QUARTZ QUARRY"
 	line "A Hard Rocking,"
-	cont "Hard Working"
-	cont "City"
+	cont "Hard Working Town"
 	done
 
 _PewterCityText15::

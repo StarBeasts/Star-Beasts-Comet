@@ -6,10 +6,10 @@ GoldenGate_Object:
 	warp_event  4,  7, ROUTE_6, 1
 	warp_event  3,  0, ROUTE_6, 2
 	warp_event  4,  0, ROUTE_6, 3
-	warp_event 12,  7, VERMILION_CITY, 10
-	warp_event 13,  7, ROUTE_22, 2
-	warp_event 23,  4, ROUTE_6, 1
-	warp_event 23,  5, ROUTE_6, 2
+	warp_event 12,  7, ROUTE_8, 1
+	warp_event 13,  7, ROUTE_8, 1
+	warp_event 23,  4, ROUTE_6, 5
+	warp_event 23,  5, ROUTE_6, 5
 
 	def_bg_events
 
