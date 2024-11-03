@@ -604,9 +604,13 @@ _Route15UpstairsBinocularsText::
 	text "Looked into the"
 	line "binoculars..."
 
-	para "A skeletal black"
-	line "dragon is flying"
-	cont "toward the sea."
+	para "Over the hills"
+	line "and far away..."
+
+	para "There's a black"
+	line "dragon circling"
+	cont "around a distant"
+	cont "island."
 	done
 
 _AerodactylFossilText::

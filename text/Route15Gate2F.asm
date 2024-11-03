@@ -5,11 +5,6 @@ _Route15GateUpstairsText_4968c::
 	cont "you, even if they"
 	cont "don't fight."
 
-	para "It does, however,"
-	line "reduce the amount"
-	cont "of EXP for each"
-	cont "BEAST."
-
 	para "If you don't need"
 	line "it, you should "
 	cont "store it via PC."
@@ -19,6 +14,8 @@ _Route15GateUpstairsText_49698::
 	text "Looked into the"
 	line "binoculars."
 
-	para "It looks like a"
-	line "small island!"
+	para "There's a big"
+	line "building in the"
+	cont "middle of the"
+	cont "ocean!"
 	done

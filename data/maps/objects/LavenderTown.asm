@@ -6,8 +6,11 @@ LavenderTown_Object:
 	warp_event 12,  5, POKEMON_TOWER_1F, 1
 	warp_event 11, 13, MR_FUJIS_HOUSE, 1
 	warp_event  5,  9, LAVENDER_MART, 1
-	warp_event 11, 17, LAVENDER_CUBONE_HOUSE, 1
+	warp_event 11, 19, LAVENDER_CUBONE_HOUSE, 1
 	warp_event  9, 27, NAME_RATERS_HOUSE, 1
+	warp_event  21, 14, ROUTE_15_GATE_1F, 1
+	warp_event  21, 15, ROUTE_15_GATE_1F, 2
+
 
 	def_bg_events
 	bg_event 15, 13, 4 ; LavenderTownText4
