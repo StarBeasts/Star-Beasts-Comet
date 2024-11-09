@@ -7,6 +7,10 @@ Route15Gate1F_Object:
 	warp_event  7,  4, ROUTE_7, 4
 	warp_event  7,  5, ROUTE_7, 4
 	warp_event  6,  8, ROUTE_15_GATE_2F, 1
+	warp_event  4,  18, ROUTE_8, 3
+	warp_event  5,  18, ROUTE_8, 3
+	warp_event  4,  23, ROUTE_8, 2
+	warp_event  5,  23, ROUTE_8, 2
 
 	def_bg_events
 

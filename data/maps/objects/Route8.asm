@@ -3,9 +3,10 @@ Route8_Object:
 
 	def_warp_events
 	warp_event 57, 13, GOLDEN_GATE, 6
-	warp_event 48,  2, ROUTE_8_GATE, 2
-	warp_event  2, 12, ROUTE_8_GATE, 3
-	warp_event  2, 13, ROUTE_8_GATE, 4
+	warp_event 27, 19, ROUTE_15_GATE_1F, 8
+	warp_event 27, 17, ROUTE_15_GATE_1F, 6
+	warp_event  0, 13, ROUTE_2_TRADE_HOUSE, 1
+	warp_event  0, 13, ROUTE_2_TRADE_HOUSE, 1
 	warp_event 27,  7, UNDERGROUND_PATH_ROUTE_8, 1
 
 	def_bg_events

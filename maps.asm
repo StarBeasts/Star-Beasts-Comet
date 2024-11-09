@@ -402,7 +402,7 @@ RockTunnelPokecenter_Blocks:
 MtMoonPokecenter_Blocks: INCBIN "maps/MtMoonPokecenter.blk"
 
 Route18Gate1F_Blocks:
-Route15Gate1F_Blocks:
+Route15Gate1F_Blocks: INCBIN "maps/Route15Gate1F.blk"
 Route11Gate1F_Blocks: INCBIN "maps/Route11Gate1F.blk"
 
 Route18Gate2F_Blocks:
