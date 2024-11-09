@@ -89,7 +89,6 @@ MrPsychicsHouse_Blocks:
 NameRatersHouse_Blocks:
 MrFujisHouse_Blocks:
 Route16FlyHouse_Blocks:
-Route2TradeHouse_Blocks:
 SaffronPidgeyHouse_Blocks:
 VermilionPidgeyHouse_Blocks:
 LavenderCuboneHouse_Blocks:
@@ -198,6 +197,8 @@ INCLUDE "data/maps/objects/DiglettsCaveRoute2.asm"
 INCLUDE "data/maps/headers/Route2TradeHouse.asm"
 INCLUDE "scripts/Route2TradeHouse.asm"
 INCLUDE "data/maps/objects/Route2TradeHouse.asm"
+Route2TradeHouse_Blocks: INCBIN "maps/Route2TradeHouse.blk"
+
 
 INCLUDE "data/maps/headers/Route5Gate.asm"
 INCLUDE "scripts/Route5Gate.asm"
