@@ -66,6 +66,7 @@ Music:
 	dba Music_HotDrinks ; loops properly, ???
 	dba Music_SafariRoute ; loops properly
 	dba Music_Miserite ;
+	dba Music_Thousand
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 

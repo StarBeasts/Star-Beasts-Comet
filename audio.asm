@@ -531,6 +531,9 @@ INCLUDE "crysaudio/music/new/chala.asm"
 INCLUDE "crysaudio/music/new/ezio.asm"
 INCLUDE "crysaudio/music/new/miserite.asm"
 
+SECTION "New Songs 5", ROMX
+
+INCLUDE "crysaudio/music/new/thousand.asm"
 
 SECTION "Sound Effects", ROMX
 
