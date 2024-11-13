@@ -1,6 +1,6 @@
 _CeladonCityText1::
-	text "I got my NEEDOLF"
-	line "in CINNABAR!"
+	text "My pappy got"
+	line "me a NEEDOLF!"
 
 	para "It's nice, but it"
 	line "makes me itchy"
@@ -17,23 +17,21 @@ _CeladonCityText2::
 	done
 
 _CeladonCityText3::
-	text "I was sent here"
-	line "to investigate"
-	cont "reports of a "
-	cont "haunted building,"
-	cont "but..."
-	
-	para "I'm scared!"
+	text "Being posted here"
+	line "is pretty boring,"
+	cont "but it's an easy"
+	cont "enough job."
 
-	para "If I listen close,"
-	line "I can hear a"
-	cont "voice screaming"
-	cont "about a bird!"
+	para "About all that"
+	line "ever happens is"
+	cont "poachers trying"
+	cont "to break into"
+	cont "BLOODSTONE BAY."
 
-	para "I'm not putting my"
-	line "precious ROC in"
-	cont "harm's way,"
-	cont "no way, no how!"
+	para "I certainly don't"
+	line "envy the OFFICERs"
+	cont "that are out"
+	cont "stopping BIKERs."
 	done
 
 _CeladonCityText4::
@@ -104,42 +102,83 @@ _CeladonCityText7::
 	text_end
 
 _CeladonCityText8::
-	text "The hell you"
-	line "gawkin' at?"
+	text "I live here with"
+	line "my grandma since"
+	cont "my parents..."
+
+	para "You know..."
+
+	para "Huh?"
+
+	para "Oh, they're not"
+	line "dead! Haha!"
+
+	para "They're just broke"
+	line "and divorced!"
 	done
 
 _CeladonCityText9::
-	text "Gambling's legal"
-	line "here, kid!"
+	text "Our MART here is"
+	line "one of the only"
+	cont "ones that doesn't"
+	cont "belong to a major"
+	cont "corporation."
 	
-	para "Go play at the"
-	line "GAME CORNER!"
+	para "But because of"
+	line "that, we can't"
+	cont "legally put the"
+	cont "sign on the"
+	cont "building."
+	
+	para "What can you do?"
 	done
 
 _CeladonCityText10::
-	text "TRAINER TIPS"
+	text "Permit or badge?"
 
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
+	para "Huh?"
+	
+	para "Don't have any?"
 
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
+	para "Well, you're not"
+	line "entering, then."
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Don't take it too"
+	line "personal. It's"
+	cont "just a precaution"
+	cont "to keep out"
+	cont "poachers."
 	done
 
 _CeladonCityText11::
-	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	text "Hey, I heard the"
+	line "news!"
+
+	para "Congrats on"
+	line "beating LISBETH!"
+
+	para "You can head in"
+	line "any time you want!"
 	done
 
 _CeladonCityText13::
-	text "CELADON CITY"
+	text "TOP SECRET"
+	line "RESEARCH FACILITY"
+
+	para "KEEP OUT"
+
+	para "Huh. Wonder what"
+	line "that's about."
+	done
+
+_CeladonCityText14::
+	text "GARNET GARDENS"
+	line "The Town of love"
+	cont "and prosperity"
+	done
+
+_CeladonCityText15::
+	text "GARNET GARDENS"
 	line "# BEAST GYM"
 	cont "LEADER: LISBETH"
 
@@ -147,38 +186,26 @@ _CeladonCityText13::
 	line "Gardening Buff!"
 	done
 
-_CeladonCityText14::
-	text "CELADON MANSION"
-	done
-
-_CeladonCityText15::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
-	done
-
 _CeladonCityText16::
-	text "TRAINER TIPS"
+	text "TEA SHOP"
 
-	para "GUARD SPEC."
-	line "protects BEASTS"
-	cont "against SPECIAL"
-	cont "attacks such as"
-	cont "fire and water!"
-
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "WE ALSO SELL"
+	line "MEDICINE"
 	done
 
 _CeladonCityText17::
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+	text "MUNICIPAL SWIMMING"
+	cont "POOL"
 	done
 
 _CeladonCityText18::
-	text "ROCKET GAME CORNER"
-	line "Forget your woes"
-	cont "and come have fun!"
+	text "BLOODSTONE BAY"
+	line "FISHING SPOT"
+
+	para "PERMIT REQUIRED"
+
+	para "A PRIDEBADGE WILL"
+	line "ALSO BE ACCEPTED"
+	cont "IN LIEU OF A"
+	cont "LEGAL PERMIT."
 	done
