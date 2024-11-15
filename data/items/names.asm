@@ -85,6 +85,7 @@ ItemNames::
 	li "MAX ELIXER"
 	li "DARK SOUL"
 	li "HOLY SOUL"
+	li "TEA"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"

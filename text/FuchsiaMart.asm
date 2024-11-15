@@ -1,15 +1,24 @@
 _FuchsiaMartText2::
-	text "Hey-hey! If you"
-	line "wanna catch an"
-	cont "EMBRAIN, you can"
-	cont "find 'em in the"
-	cont "WESTERN part of"
-	cont "the SAFARI ZONE!"
+	text "I came down with"
+	line "a terrible case"
+	cont "of strep a week"
+	cont "or two ago."
+
+	para "Nothing quite like"
+	line "the TEA here to"
+	cont "soothe my poor"
+	cont "old throat!"
+
+	para "Hahaha!"
+
+	para "Ahh, it still"
+	line "hurts to laugh."
 	done
 
 _FuchsiaMartText3::
-	text "Did you try X"
-	line "SPEED? It speeds"
-	cont "up a BEAST in"
-	cont "battle!"
+	text "The TEA here is"
+	line "a bit of an"
+	cont "acquired taste,"
+	cont "but it really"
+	cont "does energize you!"
 	done

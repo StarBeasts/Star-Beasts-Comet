@@ -35,7 +35,7 @@ CeladonMart5Clerk2Text::
 	script_mart HP_UP, PROTEIN, IRON, CARBOS, CALCIUM
 
 FuchsiaCashierText::
-	script_mart FRESH_WATER, HP_UP, PROTEIN, IRON, CARBOS, CALCIUM, FULL_HEAL
+	script_mart TEA, FULL_HEAL, HP_UP, PROTEIN, IRON, CARBOS, CALCIUM
 
 UnusedCashierText:: ; unreferenced
 	script_mart GREAT_BALL, HYPER_POTION, SUPER_POTION, FULL_HEAL, REVIVE

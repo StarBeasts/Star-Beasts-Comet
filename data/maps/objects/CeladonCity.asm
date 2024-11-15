@@ -4,6 +4,7 @@ CeladonCity_Object:
 	def_warp_events
 	warp_event  47, 25, ROUTE_2_TRADE_HOUSE, 4
 	warp_event  41, 9, FUCHSIA_MART, 1
+	warp_event  35, 9, CELADON_MART_ROOF, 1
 
 	def_bg_events
 	bg_event 36,  9, 12 ; PokeCenterSignText

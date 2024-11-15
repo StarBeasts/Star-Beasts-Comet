@@ -38,4 +38,5 @@ UsableItems_PartyMenu:
 	db MAX_ELIXER
 	db DARK_SOUL
 	db HOLY_SOUL
+	db TEA
 	db -1 ; end

@@ -85,4 +85,5 @@ KeyItemFlags:
 	dbit FALSE ; MAX_ELIXER
 	dbit FALSE ; DARK_SOUL
 	dbit FALSE ; HOLY_SOUL
+	dbit FALSE ; TEA
 	end_bit_array NUM_ITEMS

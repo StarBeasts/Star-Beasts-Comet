@@ -102,6 +102,8 @@ ItemUsePtrTable:
 	dw ItemUsePPRestore  ; MAX_ELIXER
 	dw ItemUseEvoStone   ; DARK_SOUL
 	dw ItemUseEvoStone   ; HOLY_SOUL
+	dw ItemUseMedicine   ; TEA
+
 
 ItemUseBall:
 
@@ -1094,6 +1096,9 @@ ItemUseMedicine:
 	jr nc, .addHealAmount
 	cp FRESH_WATER
 	ld b, 50 ; Fresh Water heal amount
+	jr z, .addHealAmount
+	cp TEA
+	ld b, 60 ; Tea heal amount
 	jr z, .addHealAmount
 	cp SUPER_POTION
 	ld b, 200 ; Hyper Potion heal amount

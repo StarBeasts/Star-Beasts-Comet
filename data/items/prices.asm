@@ -85,6 +85,7 @@ ItemPrices::
 	bcd3 0     ; MAX_ELIXER
 	bcd3 2100  ; DARK_SOUL
 	bcd3 2100  ; HOLY_SOUL
+	bcd3 300   ; TEA
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F

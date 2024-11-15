@@ -9,7 +9,7 @@ FuchsiaMart_Object:
 
 	def_object_events
 	object_event  3,  2, SPRITE_GRANNY, STAY, DOWN, 1 ; person
-	object_event  2,  4, SPRITE_MIDDLE_AGED_MAN, STAY, NONE, 2 ; person
-	object_event  5,  5, SPRITE_COOLTRAINER_F, WALK, UP_DOWN, 3 ; person
+	object_event  2,  4, SPRITE_GENTLEMAN, STAY, NONE, 2 ; person
+	object_event  5,  5, SPRITE_GIRL, WALK, UP_DOWN, 3 ; person
 
 	def_warps_to FUCHSIA_MART
