@@ -1,23 +1,5 @@
 _SecretGardenText1::
-	text "Sorry, kid."
-
-	para "I'm not letting"
-	line "anybody in as"
-	cont "long as that"
-	cont "shady guy is"
-	cont "still lurking"
-	cont "in CERULEAN CITY."
-
-	para "I can't leave"
-	line "until things"
-	cont "go back to normal"
-	cont "around here."
-
-	para "Or, well."
-
-	para "Normal by"
-	line "CERULEAN CITY"
-	cont "standards, anyway."
+	text "!"
 	done
 
 _SecretGardenText2::

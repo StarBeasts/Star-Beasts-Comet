@@ -9,7 +9,7 @@ MapHSPointers:
 	dw CeruleanCityHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw CeladonCityHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -276,6 +276,9 @@ CeruleanCityHS:
 	db CERULEAN_CITY, $06, HIDE
 	db CERULEAN_CITY, $0A, SHOW
 	db CERULEAN_CITY, $0B, SHOW
+CeladonCityHS:
+	db CELADON_CITY, $0A, SHOW
+	db CELADON_CITY, $0B, HIDE
 SaffronCityHS:
 	db SAFFRON_CITY, $01, SHOW
 	db SAFFRON_CITY, $02, SHOW
@@ -575,8 +578,7 @@ Route20HS:
 Villa2FHS:
 	db VILLA_2F, $01, SHOW ; mon gift
 SecretGardenHS:
-	db SECRET_GARDEN, $01, SHOW ; guard
-	db SECRET_GARDEN, $02, SHOW ; mon gift
+	db SECRET_GARDEN, $01, SHOW ; mon gift
 DiglettsCaveHS:
 	db DIGLETTS_CAVE, $01, SHOW ; immovable boulder
 	db DIGLETTS_CAVE, $02, SHOW ; immovable boulder

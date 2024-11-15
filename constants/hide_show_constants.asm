@@ -19,6 +19,8 @@ DEF SHOW EQU $15
 	const HS_CERULEAN_GUARD_1              ; 07
 	const HS_CERULEAN_CAVE_GUY             ; 08
 	const HS_CERULEAN_GUARD_2              ; 09
+	const HS_GARNET_GARDEN_GUARD_1
+	const HS_GARNET_GARDEN_GUARD_2
 	const HS_SAFFRON_CITY_1                ; 0A
 	const HS_SAFFRON_CITY_2                ; 0B
 	const HS_SAFFRON_CITY_3                ; 0C
@@ -242,8 +244,7 @@ DEF SHOW EQU $15
 	const HS_OWAI					  ; E4
 	const HS_VULTURNUS			       ; E5
 	const HS_ROUTE_20_GUARD			  ; E6
-	const HS_VILLA_LAPRAS_GIFT		        ; E7
-	const HS_SECRET_GARDEN_GUARD
+	const HS_VILLA_LAPRAS_GIFT		       ; E7
 	const HS_FLEWNICORN
 	const HS_DIGLETTS_CAVE_BOULDER_1
 	const HS_DIGLETTS_CAVE_BOULDER_2

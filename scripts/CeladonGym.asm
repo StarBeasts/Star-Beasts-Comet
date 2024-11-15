@@ -65,6 +65,14 @@ CeladonGymReceiveTM21:
 	ld hl, wBeatGymFlags
 	set BIT_RAINBOWBADGE, [hl]
 
+	ld a, HS_GARNET_GARDEN_GUARD_1
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_GARNET_GARDEN_GUARD_2
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+
+
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_CELADON_GYM_TRAINER_0, EVENT_BEAT_CELADON_GYM_TRAINER_6
 
