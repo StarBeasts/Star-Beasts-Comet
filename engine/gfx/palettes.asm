@@ -146,9 +146,9 @@ SetPal_Overworld:
 	call CopyData
 	ld a, [wCurMapTileset]
 	cp CEMETERY
-	jr z, .PokemonTowerOrAgatha
+	jp z, .PokemonTowerOrAgatha
 	cp CAVERN
-	jr z, .caveOrBruno
+	jp z, .caveOrBruno
 	ld a, [wCurMap]
 	cp ROUTE_5
 	jp z, .mewMon
@@ -160,6 +160,8 @@ SetPal_Overworld:
 	jr z, .mewMon
 	cp MT_MOON_1F
 	jr z, .mewMon
+	cp BLOODSTONE_BAY
+	jr z, .bloodstone
 	cp POWER_PLANT
 	jr z, .mewMon
 	cp CELAGONE_CITY
@@ -182,6 +184,8 @@ SetPal_Overworld:
 	jr z, .black
 	cp VILLA_5F
 	jr z, .pallet
+	cp CELADON_MANSION_ROOF
+	jr z, .garnet
 	cp SECRET_GARDEN
 	jr z, .blueMon
 	cp CERULEAN_CAVE_2F
@@ -227,6 +231,12 @@ SetPal_Overworld:
 	jr .town
 .blueMon
 	ld a, PAL_CYANMON - 1
+	jr .town
+.bloodstone
+	ld a, PAL_BLOODSTONE - 1
+	jr .town
+.garnet
+	ld a, PAL_CELADON - 1
 	jr .town
 .brownMon
 	ld a, PAL_BROWNMON - 1

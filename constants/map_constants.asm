@@ -94,7 +94,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const DAYCARE,                        4,  4 ; $48
 	map_const ROUTE_6_GATE,                   4,  3 ; $49
 	map_const UNDERGROUND_PATH_ROUTE_6,       4,  4 ; $4A
-	map_const UNDERGROUND_PATH_ROUTE_6_COPY,  4,  4 ; $4B
+	map_const BLOODSTONE_BAY,  		   23,  13 ; $4B
 	map_const ROUTE_7_GATE,                   3,  4 ; $4C
 	map_const UNDERGROUND_PATH_ROUTE_7,       4,  4 ; $4D
 	map_const UNDERGROUND_PATH_ROUTE_7_COPY,  4,  4 ; $4E
@@ -150,7 +150,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CELADON_MANSION_1F,             4,  6 ; $80
 	map_const CELADON_MANSION_2F,             4,  6 ; $81
 	map_const CELADON_MANSION_3F,             4,  6 ; $82
-	map_const CELADON_MANSION_ROOF,           4,  6 ; $83
+	map_const CELADON_MANSION_ROOF,           10,  4 ; $83
 	map_const CELADON_MANSION_ROOF_HOUSE,     4,  4 ; $84
 	map_const CELADON_POKECENTER,             7,  4 ; $85
 	map_const CELADON_GYM,                    5,  9 ; $86

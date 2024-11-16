@@ -66,7 +66,7 @@ InternalMapEntries:
 	internal_map MT_MOON_POKECENTER,             9,  6, Route4Name
 	internal_map ANCIENT_CAVE, 	3,  4, DiglettsCaveName	
 	internal_map DAYCARE,                       10,  4, Route5Name
-	internal_map UNDERGROUND_PATH_ROUTE_6_COPY, 10,  6, Route6Name
+	internal_map BLOODSTONE_BAY, 10,  6, Route6Name
 	internal_map UNDERGROUND_PATH_ROUTE_7_COPY,  9,  5, Route7Name
 	internal_map UNDERGROUND_PATH_ROUTE_8,      11,  5, Route8Name
 	internal_map ROCK_TUNNEL_1F,                14,  3, RockTunnelName

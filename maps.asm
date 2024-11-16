@@ -964,6 +964,7 @@ INCLUDE "data/maps/headers/UndergroundPathRoute7Copy.asm"
 INCLUDE "scripts/UndergroundPathRoute7Copy.asm"
 INCLUDE "data/maps/objects/UndergroundPathRoute7Copy.asm"
 
+
 INCLUDE "data/maps/headers/SilphCo9F.asm"
 INCLUDE "scripts/SilphCo9F.asm"
 INCLUDE "data/maps/objects/SilphCo9F.asm"
@@ -1318,4 +1319,10 @@ INCLUDE "data/maps/headers/GoldenGate.asm"
 INCLUDE "scripts/GoldenGate.asm"
 INCLUDE "data/maps/objects/GoldenGate.asm"
 GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
+
+INCLUDE "data/maps/headers/BloodstoneBay.asm"
+INCLUDE "scripts/BloodstoneBay.asm"
+INCLUDE "data/maps/objects/BloodstoneBay.asm"
+BloodstoneBay_Blocks: INCBIN "maps/BloodstoneBay.blk"
+
 
