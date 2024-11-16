@@ -218,7 +218,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VERMILION_TRADE_HOUSE,          4,  4 ; $C4
 	map_const DIGLETTS_CAVE,                 20, 18 ; $C5
 	map_const VICTORY_ROAD_3F,               15,  9 ; $C6
-	map_const ROCKET_HIDEOUT_B1F,            15, 14 ; $C7
+	map_const ROCKET_HIDEOUT_B1F,            20, 14 ; $C7
 	map_const ROCKET_HIDEOUT_B2F,            15, 14 ; $C8
 	map_const ROCKET_HIDEOUT_B3F,            15, 14 ; $C9
 	map_const ROCKET_HIDEOUT_B4F,            15, 12 ; $CA

@@ -7,7 +7,7 @@ Route8_Object:
 	warp_event 27, 17, ROUTE_15_GATE_1F, 6
 	warp_event  0, 13, ROUTE_2_TRADE_HOUSE, 1
 	warp_event  0, 13, ROUTE_2_TRADE_HOUSE, 1
-	warp_event 27,  7, UNDERGROUND_PATH_ROUTE_8, 1
+	warp_event 27,  7, ROCKET_HIDEOUT_B1F, 1
 
 	def_bg_events
 	bg_event 29,  9, 10 ; Route8Text10

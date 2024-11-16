@@ -1,5 +1,5 @@
 _RocketHideout1EndBattleText6::
-	text "Why...?@"
+	text "No!!@"
 	text_end
 
 _RocketHideout1BattleText2::
@@ -64,11 +64,15 @@ _RocketHideout1AfterBattleTxt5::
 	done
 
 _RocketHideout1BattleText6::
-	text "Are you lost, you"
-	line "little rat?"
+	text "As long as there"
+	line "is breath in my"
+	cont "body, you shall"
+	cont "not pass!"
 	done
 
 _RocketHideout1AfterBattleTxt6::
-	text "Uh-oh, that fight"
-	line "opened the door!"
+	text "Damn it! That"
+	line "fight broke my"
+	cont "focus and made me"
+	cont "drop the BARRIER!"
 	done

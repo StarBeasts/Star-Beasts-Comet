@@ -17,17 +17,17 @@ RocketHideout1Script_44be0:
 	jr nz, .asm_44c01
 	CheckEventReuseA EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_4
 	jr nz, .asm_44bf7
-	ld a, $54
+	ld a, $2D
 	jr .asm_44c03
 .asm_44bf7
 	ld a, SFX_GO_INSIDE
 	call PlaySound
 	CheckEventHL EVENT_677
 .asm_44c01
-	ld a, $e
+	ld a, $1B
 .asm_44c03
 	ld [wNewTileBlockID], a
-	lb bc, 8, 12
+	lb bc, 4, 13
 	predef_jump ReplaceTileBlock
 
 RocketHideoutB1F_ScriptPointers:

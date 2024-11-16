@@ -9,7 +9,7 @@ RocketHideoutB4F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 25,  3, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 1
+	object_event 25,  3, SPRITE_DAISY, STAY, DOWN, 1, OPP_SABRINA, 2
 	object_event 23, 12, SPRITE_ROCKET, STAY, DOWN, 2, OPP_ROCKET, 16
 	object_event 26, 12, SPRITE_ROCKET, STAY, DOWN, 3, OPP_ROCKET, 17
 	object_event 11,  2, SPRITE_ROCKET, STAY, DOWN, 4, OPP_ROCKET, 18

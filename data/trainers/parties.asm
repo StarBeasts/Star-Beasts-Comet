@@ -426,6 +426,8 @@ PsychicData:
 	db 35,MAGNETON,KADABRA,MR_MIME,DUGTRIO,0
 	db 33,CHARMELEON,FEAROW,0
 	db 38,SLOWBRO,0
+; Miserite
+	db 20, SEAKING, 0
 
 RockerData:
 ; Saffron Gym
@@ -680,6 +682,8 @@ BlaineData:
 
 SabrinaData:
 	db $FF, 49,DUGTRIO,48,KABUTOPS,49,MAGNETON,51,EXEGGUTOR,52,ALAKAZAM,0
+; Miserite
+	db $FF, 26,DIGLETT,28,KABUTO,30,KADABRA,32,FEAROW,0
 
 GentlemanData:
 ; SS Anne 1F Rooms

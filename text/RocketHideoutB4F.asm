@@ -7,9 +7,19 @@ _RocketHideout4Text_4557a::
 	para "Hahaha..."
 	line "Very well."
 
-	para "Let me show you"
-	line "how adults"
-	cont "settle disputes!"
+	para "Even if you need"
+	line "the CYBERSCOPE"
+	cont "for your own"
+	cont "purposes, I will"
+	cont "not allow you to"
+	cont "put an end to"
+	cont "the ritual."
+
+	para "I've spent too"
+	line "long tracking him"
+	cont "to be stopped now."
+
+	para "Ready yourself."
 	done
 
 _RocketHideout4Text_4557f::
