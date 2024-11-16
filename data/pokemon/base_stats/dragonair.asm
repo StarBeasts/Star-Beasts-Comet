@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/dragonair.pic", 0, 1 ; sprite dimensions
 	dw DragonairPicFront, DragonairPicBack
 
-	db BITE, WING_ATTACK, THUNDER_WAVE, DRAGONBREATH ; level 1 learnset
+	db DRAGONBREATH, WING_ATTACK, THUNDER_WAVE, BITE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

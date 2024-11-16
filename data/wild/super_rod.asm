@@ -71,7 +71,7 @@ SuperRodData:
 	db 4
 	db 17,WARTORTLE
 	db 28,ARBOK
-	db 15,DRATINI
+	db 15,EKANS
 	db 15,SQUIRTLE
 
 .Group7:
@@ -85,7 +85,7 @@ SuperRodData:
 	db 4
 	db 15,SHELLDER
 	db 15,GOLDEEN
-	db 15,WARTORTLE
+	db 15,ARBOK
 	db 15,PINSIR
 
 .Group9:
@@ -97,10 +97,10 @@ SuperRodData:
 
 .Group10:
 	db 4
-	db 20,DRAGONAIR
-	db 5,DRATINI
-	db 10,DRATINI
+	db 25,DRAGONAIR
 	db 15,DRATINI
+	db 20,DRATINI
+	db 25,DRATINI
 
 .Group11:
 	db 4
