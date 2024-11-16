@@ -155,23 +155,21 @@ SetPal_Overworld:
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
 	cp VIRIDIAN_FOREST
-	jr z, .invertColors
+	jp z, .invertColors
 	cp PEWTER_SPEECH_HOUSE
-	jr z, .mewMon
-	cp MT_MOON_1F
-	jr z, .mewMon
+	jp z, .mewMon
 	cp BLOODSTONE_BAY
-	jr z, .bloodstone
+	jp z, .bloodstone
 	cp POWER_PLANT
 	jr z, .mewMon
 	cp CELAGONE_CITY
 	jr z, .grey
 	cp GLITCH_ROOM
-	jr z, .purpleandRed
+	jp z, .purpleandRed
 	cp OWAI_HOTEL
 	jr z, .grey
 	cp VULT_MAZE
-	jr z, .caveOrBruno
+	jr z, .bloodstone
 	cp VILLA_1F
 	jr z, .pallet
 	cp VILLA_B1F
@@ -186,6 +184,14 @@ SetPal_Overworld:
 	jr z, .pallet
 	cp CELADON_MANSION_ROOF
 	jr z, .garnet
+	cp ROCKET_HIDEOUT_B1F
+	jr z, .miserite
+	cp ROCKET_HIDEOUT_B2F
+	jr z, .miserite
+	cp ROCKET_HIDEOUT_B3F
+	jr z, .miserite
+	cp ROCKET_HIDEOUT_B4F
+	jr z, .bloodstone
 	cp SECRET_GARDEN
 	jr z, .blueMon
 	cp CERULEAN_CAVE_2F
@@ -223,35 +229,38 @@ SetPal_Overworld:
 .Lorelei
 	xor a
 	jr .town
-.invertColors
-	ld a, PAL_GREENMON - 1
-	jr .town
 .mewMon
 	ld a, PAL_GREYMON - 1
 	jr .town
-.blueMon
-	ld a, PAL_CYANMON - 1
-	jr .town
-.bloodstone
-	ld a, PAL_BLOODSTONE - 1
-	jr .town
-.garnet
-	ld a, PAL_CELADON - 1
-	jr .town
-.brownMon
-	ld a, PAL_BROWNMON - 1
+.invertColors
+	ld a, PAL_GREENMON - 1
 	jr .town
 .grey
 	ld a, PAL_GREY - 1
 	jr .town
-.purpleandRed
-	ld a, PAL_PURPLEANDRED - 1
+.bloodstone
+	ld a, PAL_BLOODSTONE - 1
 	jr .town
 .pallet
 	ld a, PAL_PALLET - 1
 	jr .town
 .black
 	ld a, PAL_BLACK - 1
+	jr .town
+.garnet
+	ld a, PAL_CELADON - 1
+	jr .town
+.miserite
+	ld a, PAL_MISERITE - 1
+	jr .town
+.blueMon
+	ld a, PAL_CYANMON - 1
+	jr .town
+.brownMon
+	ld a, PAL_BROWNMON - 1
+	jr .town
+.purpleandRed
+	ld a, PAL_PURPLEANDRED - 1
 	jr .town
 
 

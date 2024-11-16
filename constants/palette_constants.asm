@@ -76,4 +76,5 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_GREY ; $27
 	const PAL_BORDER
 	const PAL_BLOODSTONE
+	const PAL_MISERITE
 DEF NUM_SGB_PALS EQU const_value

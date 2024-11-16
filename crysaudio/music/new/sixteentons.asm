@@ -1,11 +1,11 @@
-Music_Placeholder:
+Music_SixteenTons:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_SixteenTons_Ch1
+	channel 2, Music_SixteenTons_Ch2
+	channel 3, Music_SixteenTons_Ch3
+	channel 4, Music_SixteenTons_Ch4
 
-Music_Placeholder_Ch1:
+Music_SixteenTons_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 7, 7
@@ -419,7 +419,7 @@ Music_Placeholder_Ch1:
 	octave 4
 	sound_ret
 
-Music_Placeholder_Ch2:
+Music_SixteenTons_Ch2:
 	duty_cycle 1
 	note_type 12, 7, 7
 	octave 4
@@ -830,7 +830,7 @@ Music_Placeholder_Ch2:
 	rest 15
 	sound_ret
 
-Music_Placeholder_Ch3:
+Music_SixteenTons_Ch3:
 	note_type 12, 1, 0
 	octave 4
 	volume_envelope 2, 0
@@ -1153,7 +1153,7 @@ Music_Placeholder_Ch3:
 	note E_, 4
 	sound_ret
 
-Music_Placeholder_Ch4:
+Music_SixteenTons_Ch4:
 	toggle_noise 8
 	drum_speed 12
 	drum_note 5, 4

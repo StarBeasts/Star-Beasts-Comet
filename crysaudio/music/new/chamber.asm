@@ -5,15 +5,16 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
+Music_Chamber:
 	channel_count 1
-	channel 1, Music_Placeholder_Ch1
+	channel 1, Music_Chamber_Ch1
 
-Music_Placeholder_Ch1:
+Music_Chamber_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
 	tempo 185
+.mainloop:
 ;Bar 5
 	octave 4
 	volume_envelope 12, 7
@@ -94,5 +95,4 @@ Music_Placeholder_Ch1:
 ;Bar 25
 	octave 4
 	note A_, 16
-	note A_, 16
-	sound_ret
+	sound_loop 0, .mainloop
