@@ -201,7 +201,7 @@ SetPal_Overworld:
 	cp RASTA_HOUSE
 	jr z, .brownMon
 	cp LORELEIS_ROOM
-	jr z, .Lorelei
+	jr z, .pallet
 	cp BRUNOS_ROOM
 	jr z, .caveOrBruno
 .normalDungeonOrBuilding
@@ -225,9 +225,6 @@ SetPal_Overworld:
 	ld a, [wCurMap]
 	cp ROCKET_HIDEOUT_B4F
 	jr z, .bloodstone
-.Lorelei
-	xor a
-	jr .town
 .caveDefault
 	ld a, PAL_CYANMON - 1
 	jr .town

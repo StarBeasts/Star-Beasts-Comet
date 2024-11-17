@@ -1,23 +1,35 @@
 _RocketHideout4Text_4557a::
-	text "A mere child?"
-	line "You're the one"
-	cont "causing all"
-	cont "of this trouble?"
+	text "...?"
 
-	para "Hahaha..."
-	line "Very well."
+	para "You are not the"
+	line "one I am seeking."
 
-	para "Even if you need"
-	line "the CYBERSCOPE"
-	cont "for your own"
-	cont "purposes, I will"
-	cont "not allow you to"
-	cont "put an end to"
+	para "Ah, you've come"
+	line "for the device,"
+	cont "have you not?"
+
+	para "Well, this puts"
+	line "us at an impasse."
+
+	para "I seek the man"
+	line "who seeks the"
+	cont "device."
+
+	para "So, I regret"
+	line "to inform you..."
+
+	para "That even if"
+	line "you need the"
+	cont "CYBERSCOPE for"
+	cont "your own goals,"
+	cont "I cannot allow"
+	cont "you to cease"
 	cont "the ritual."
 
-	para "I've spent too"
-	line "long tracking him"
-	cont "to be stopped now."
+	para "I've spent far"
+	line "too long tracking"
+	cont "him to be"
+	cont "stopped now."
 
 	para "Ready yourself."
 	done

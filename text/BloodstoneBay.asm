@@ -77,7 +77,7 @@ _BloodstoneBayText6::
 	cont "'cause I AM"
 	cont "GONNA LOOK SO"
 	cont "COOL WITH A"
-	cont "SICKASS DRAGON!"
+	cont "SICK-ASS DRAGON!"
 	done
 
 _BloodstoneBayText7::
