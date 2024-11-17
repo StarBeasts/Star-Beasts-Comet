@@ -163,7 +163,7 @@ SetPal_Overworld:
 	cp POWER_PLANT
 	jr z, .mewMon
 	cp CELAGONE_CITY
-	jr z, .grey
+	jp z, .grey
 	cp GLITCH_ROOM
 	jp z, .purpleandRed
 	cp OWAI_HOTEL
@@ -190,8 +190,6 @@ SetPal_Overworld:
 	jr z, .miserite
 	cp ROCKET_HIDEOUT_B3F
 	jr z, .miserite
-	cp ROCKET_HIDEOUT_B4F
-	jr z, .bloodstone
 	cp SECRET_GARDEN
 	jr z, .blueMon
 	cp CERULEAN_CAVE_2F
@@ -224,10 +222,14 @@ SetPal_Overworld:
 	ld a, PAL_GREYMON - 1
 	jr .town
 .caveOrBruno
-	ld a, PAL_CYANMON - 1
-	jr .town
+	ld a, [wCurMap]
+	cp ROCKET_HIDEOUT_B4F
+	jr z, .bloodstone
 .Lorelei
 	xor a
+	jr .town
+.caveDefault
+	ld a, PAL_CYANMON - 1
 	jr .town
 .mewMon
 	ld a, PAL_GREYMON - 1
