@@ -535,6 +535,7 @@ SECTION "New Songs 5", ROMX
 
 INCLUDE "crysaudio/music/new/thousand.asm"
 INCLUDE "crysaudio/music/new/chamber.asm"
+INCLUDE "crysaudio/music/new/hill.asm"
 
 SECTION "Sound Effects", ROMX
 

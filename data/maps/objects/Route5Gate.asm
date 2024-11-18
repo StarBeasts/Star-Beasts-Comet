@@ -4,8 +4,8 @@ Route5Gate_Object:
 	def_warp_events
 	warp_event  3,  5, SAFFRON_CITY, 9
 	warp_event  4,  5, SAFFRON_CITY, 9
-	warp_event  3,  0, ROUTE_5, 2
-	warp_event  4,  0, ROUTE_5, 1
+	warp_event  3,  0, ROUTE_10, 3
+	warp_event  4,  0, ROUTE_10, 4
 
 	def_bg_events
 
