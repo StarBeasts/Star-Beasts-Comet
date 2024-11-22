@@ -121,15 +121,14 @@ BlkPacket_Slots:
 	db $00
 
 BlkPacket_Titlescreen:
-	ATTR_BLK 8
+	ATTR_BLK 7
 	ATTR_BLK_DATA %011, 0,0,0, 00,00, 19,07 ; CometVersion+GFX+BG
-	ATTR_BLK_DATA %011, 1,1,0, 02,04, 18,06 ; Logo
+	ATTR_BLK_DATA %011, 1,1,0, 02,03, 18,05 ; Logo
 	ATTR_BLK_DATA %010, 1,1,0, 00,17, 19,17 ; Year
 
-	ATTR_BLK_DATA %010, 1,1,0, 00,00, 04,01 ; Cloud1
-	ATTR_BLK_DATA %010, 1,1,0, 05,00, 06,00 ; Cloud2
-	ATTR_BLK_DATA %010, 1,1,0, 06,07, 10,07 ; Cloud3
-	ATTR_BLK_DATA %010, 1,1,0, 12,01, 18,02 ; Cloud4
+	ATTR_BLK_DATA %010, 1,1,0, 00,00, 04,00 ; Cloud1
+	ATTR_BLK_DATA %010, 1,1,0, 06,06, 10,06 ; Cloud2
+	ATTR_BLK_DATA %010, 1,1,0, 12,00, 18,01 ; Cloud3
 
 
 	ATTR_BLK_DATA %011, 2,2,0, 00,09, 19,15 ; player, mon, copyright text: pal 2

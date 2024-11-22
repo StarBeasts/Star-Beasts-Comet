@@ -70,9 +70,9 @@ DisplayTitleScreen:
 
 ; place tiles for pokemon logo (except for the last row)
 	hlcoord 0, 0
-	ld a, $80
+	ld a, $94
 	ld de, SCREEN_WIDTH
-	ld c, 6
+	ld c, 5
 .pokemonLogoTileLoop
 	ld b, 20
 	push hl
@@ -87,7 +87,7 @@ DisplayTitleScreen:
 	jr nz, .pokemonLogoTileLoop
 
 ; place tiles for the last row of the pokemon logo
-	hlcoord 0, 6
+	hlcoord 0, 5
 	ld a, $31
 	ld de, SCREEN_WIDTH
 	ld c, 2
@@ -122,7 +122,7 @@ DisplayTitleScreen:
 
 ; Places the border.
 .TopBorder
-	hlcoord 0, 8
+	hlcoord 0, 7
 	ld de, .TopBorderTiles
 	ld b, 20
 .TopBorderTilesLoop
@@ -216,8 +216,6 @@ DisplayTitleScreen:
 	call LoadScreenTilesFromBuffer1
 	ld c, 36
 	call DelayFrames
-	ld a, SFX_INTRO_WHOOSH
-	call PlaySound
 
 ; scroll game version in from the right
 	ld a, SCREEN_HEIGHT_PX
@@ -229,6 +227,7 @@ DisplayTitleScreen:
 	call LoadScreenTilesFromBuffer2
 	call Delay3
 	call WaitForSoundToFinish
+	call DelayFrame
 	ld a, MUSIC_TITLE_SCREEN
 ;	ld [wNewSoundID], a
 	call PlayMusic
