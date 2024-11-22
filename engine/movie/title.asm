@@ -118,7 +118,7 @@ DisplayTitleScreen:
 	jr nz, .tileScreenCopyrightTilesLoop
 	jr .TopBorder
 .tileScreenCopyrightTiles
-	db $58,$58,$58,$58,$58,$58,$58,$58,$59,$5a,$5b,$5c,$58,$58,$58,$58,$58,$58,$58,$58
+	db $57,$57,$57,$57,$57,$57,$57,$58,$59,$5a,$5b,$5c,$58,$57,$57,$57,$57,$57,$57,$57
 
 ; Places the border.
 .TopBorder
