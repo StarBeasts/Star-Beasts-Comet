@@ -22,6 +22,9 @@ NintendoCopyrightLogoGraphics: INCBIN "gfx/splash/copyright.2bpp"
 GamefreakLogoGraphics: INCBIN "gfx/title/gamefreak_inc.2bpp"
 GamefreakLogoGraphicsEnd:
 
+YearLogoGraphics: INCBIN "gfx/title/year.2bpp"
+YearLogoGraphicsEnd:
+
 TextBoxGraphics:: INCBIN "gfx/font/font_extra.2bpp"
 TextBoxGraphicsEnd::
 

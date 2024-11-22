@@ -53,7 +53,7 @@ _TitleScroll:
 	call .ScrollBetween
 
 	ld h, $00
-	ld l, $88
+	ld l, $80
 	call .ScrollBetween
 
 	ld a, d

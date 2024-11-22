@@ -35,40 +35,46 @@ DisplayTitleScreen:
 	call ClearScreen
 	call DisableLCD
 	call LoadFontTilePatterns
+
 	ld hl, NintendoCopyrightLogoGraphics
 	ld de, vTitleLogo2 tile 16
 	ld bc, 5 tiles
 	ld a, BANK(NintendoCopyrightLogoGraphics)
 	call FarCopyData2
+
 	ld hl, GamefreakLogoGraphics
 	ld de, vTitleLogo2 tile (16 + 5)
 	ld bc, 9 tiles
 	ld a, BANK(GamefreakLogoGraphics)
 	call FarCopyData2
+
 	ld hl, PokemonLogoGraphics
 	ld de, vTitleLogo
-	ld bc, $60 tiles
+	ld bc, $80 tiles
 	ld a, BANK(PokemonLogoGraphics)
 	call FarCopyData2          ; first chunk
-	ld hl, PokemonLogoGraphics tile $60
+
+	ld hl, PokemonLogoGraphics tile $78
 	ld de, vTitleLogo2
-	ld bc, $10 tiles
+	ld bc, $28 tiles
 	ld a, BANK(PokemonLogoGraphics)
 	call FarCopyData2          ; second chunk
-	ld hl, Version_GFX
-	ld de, vChars2 tile $60 + (10 tiles - (Version_GFXEnd - Version_GFX) * 2) / 2
-	ld bc, Version_GFXEnd - Version_GFX
-	ld a, BANK(Version_GFX)
-	call FarCopyDataDouble
+
+	ld hl, YearLogoGraphics
+	ld de, vChars2 tile $59
+	ld bc, YearLogoGraphicsEnd - YearLogoGraphics
+	ld a, BANK(YearLogoGraphics)
+	call FarCopyData2
+
 	call ClearBothBGMaps
 
 ; place tiles for pokemon logo (except for the last row)
-	hlcoord 2, 1
-	ld a, $80
+	hlcoord 0, 0
+	ld a, $94
 	ld de, SCREEN_WIDTH
-	ld c, 6
+	ld c, 5
 .pokemonLogoTileLoop
-	ld b, $10
+	ld b, 20
 	push hl
 .pokemonLogoTileRowLoop ; place tiles for one row
 	ld [hli], a
@@ -81,44 +87,74 @@ DisplayTitleScreen:
 	jr nz, .pokemonLogoTileLoop
 
 ; place tiles for the last row of the pokemon logo
-	hlcoord 2, 7
+	hlcoord 0, 5
 	ld a, $31
-	ld b, $10
+	ld de, SCREEN_WIDTH
+	ld c, 2
+.pokemonLastLineLogoTileLoop
+	ld b, 20
+	push hl
 .pokemonLogoLastTileRowLoop
 	ld [hli], a
 	inc a
 	dec b
 	jr nz, .pokemonLogoLastTileRowLoop
+	pop hl
+	add hl, de
+	dec c
+	jr nz, .pokemonLastLineLogoTileLoop
 
 	call DrawPlayerCharacter
 
-; place tiles for title screen copyright
-	hlcoord 2, 17
+; Place tiles on the bottom of the screen with the year
+	hlcoord 0, 17
 	ld de, .tileScreenCopyrightTiles
-	ld b, $10
+	ld b, 20
 .tileScreenCopyrightTilesLoop
 	ld a, [de]
 	ld [hli], a
 	inc de
 	dec b
 	jr nz, .tileScreenCopyrightTilesLoop
-
-	jr .next
-
+	jr .TopBorder
 .tileScreenCopyrightTiles
-	db $41,$42,$43,$42,$44,$42,$45,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; ©'95.'96.'98 GAME FREAK inc.
+	db $58,$58,$58,$58,$58,$58,$58,$58,$59,$5a,$5b,$5c,$58,$58,$58,$58,$58,$58,$58,$58
+
+; Places the border.
+.TopBorder
+	hlcoord 0, 7
+	ld de, .TopBorderTiles
+	ld b, 20
+.TopBorderTilesLoop
+	ld a, [de]
+	ld [hli], a
+	inc de
+	dec b
+	jr nz, .TopBorderTilesLoop
+	jr .BottomBorder
+.TopBorderTiles
+	db $5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E,$5E
+
+.BottomBorder
+	hlcoord 0, 16
+	ld de, .BottomBorderTiles
+	ld b, 20
+.BottomBorderTilesLoop
+	ld a, [de]
+	ld [hli], a
+	inc de
+	dec b
+	jr nz, .BottomBorderTilesLoop
+	jr .next
+.BottomBorderTiles
+	db $5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D,$5D
 
 .next
 	call SaveScreenTilesToBuffer2
 	call LoadScreenTilesFromBuffer2
 	call EnableLCD
 
-IF DEF(_RED)
 	ld a, STARTER2 ; which Pokemon to show first on the title screen
-ENDC
-IF DEF(_BLUE)
-	ld a, STARTER2 ; which Pokemon to show first on the title screen
-ENDC
 	ld [wTitleMonSpecies], a
 	call LoadTitleMonSprite
 
@@ -180,33 +216,18 @@ ENDC
 	call LoadScreenTilesFromBuffer1
 	ld c, 36
 	call DelayFrames
-	ld a, SFX_INTRO_WHOOSH
-	call PlaySound
 
 ; scroll game version in from the right
-	call PrintGameVersionOnTitleScreen
 	ld a, SCREEN_HEIGHT_PX
 	ldh [hWY], a
 	ld d, 144
-.scrollTitleScreenGameVersionLoop
-	ld h, d
-	ld l, 64
-	call ScrollTitleScreenGameVersion
-	ld h, 0
-	ld l, 80
-	call ScrollTitleScreenGameVersion
-	ld a, d
-	add 4
-	ld d, a
-	and a
-	jr nz, .scrollTitleScreenGameVersionLoop
 
 	ld a, HIGH(vBGMap1)
 	call TitleScreenCopyTileMapToVRAM
 	call LoadScreenTilesFromBuffer2
-	call PrintGameVersionOnTitleScreen
 	call Delay3
 	call WaitForSoundToFinish
+	call DelayFrame
 	ld a, MUSIC_TITLE_SCREEN
 ;	ld [wNewSoundID], a
 	call PlayMusic
@@ -317,7 +338,7 @@ DrawPlayerCharacter:
 	xor a
 	ld [wPlayerCharacterOAMTile], a
 	ld hl, wShadowOAM
-	lb de, $60, $5a
+	lb de, 88, 90
 	ld b, 7
 .loop
 	push de
@@ -353,7 +374,7 @@ ClearBothBGMaps:
 LoadTitleMonSprite:
 	ld [wcf91], a
 	ld [wd0b5], a
-	hlcoord 5, 10
+	hlcoord 5, 9
 	call GetMonHeader
 	jp LoadFrontSpriteByMonIndex
 
