@@ -420,8 +420,28 @@ CeladonGameCornerText11:
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
-	call EngageMapTrainer
-	call InitBattleEnemyParameters
+       ld a, OPP_RIVAL2
+       ld [wCurOpponent], a
+
+        ld a, 1
+        ld [wIsTrainerBattle], a
+
+      ; select which team to use during the encounter
+       ld a, [wRivalStarter]
+       cp STARTER2
+       jr nz, .NotSquirtle
+       ld a, $1
+       jr .done
+.NotSquirtle
+       cp STARTER3
+       jr nz, .Charmander
+       ld a, $2
+       jr .done
+.Charmander
+       ld a, $3
+.done
+      ld [wTrainerNo], a
+
 	xor a
 	ldh [hJoyHeld], a
 	ldh [hJoyPressed], a
