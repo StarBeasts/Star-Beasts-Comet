@@ -1,8 +1,10 @@
-# Star Beasts - Comet Version [![Build Status][ci-badge]][ci]
+# Star Beasts - Comet Version
 
-This is project based on pret's disassembly of Pokémon Red and Blue.
+This is project based on pret's [**Pokémon Red and Blue disassembly**][pokered].
 
-It uses rgbds v0.6.1.
+It currently uses rgbds v0.8.0.
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+To set up the repository, follow the instructions available [**here**][INSTALL.md].
 
+[pokered]: https://github.com/pret/pokered
+[INSTALL.md]: https://github.com/pret/pokered/blob/master/INSTALL.md
