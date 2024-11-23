@@ -13,9 +13,15 @@ DisplayTownMap:
 	push af
 	ld b, $0
 	call DrawPlayerOrBirdSprite ; player sprite
-	hlcoord 1, 16
+	hlcoord 2, 16
 	ld de, wcd6d
 	call PlaceString
+
+	hlcoord 1, 16
+	ld [hl], "◀"
+	hlcoord 18, 16
+	ld [hl], "▶"
+
 	ld hl, wShadowOAM
 	ld de, wTileMapBackup
 	ld bc, $10
@@ -30,9 +36,10 @@ DisplayTownMap:
 	jr .enterLoop
 
 .townMapLoop
-	hlcoord 1, 16
-	lb bc, 1, 18
+	hlcoord 2, 16
+	lb bc, 1, 16
 	call ClearScreenArea
+
 	ld hl, TownMapOrder
 	ld a, [wWhichTownMapLocation]
 	ld c, a
@@ -57,13 +64,23 @@ DisplayTownMap:
 	inc de
 	cp $50
 	jr nz, .copyMapName
-	hlcoord 1, 16
+
+	hlcoord 2, 16
 	ld de, wcd6d
 	call PlaceString
 	ld hl, wShadowOAMSprite04
 	ld de, wTileMapBackup + 16
 	ld bc, $10
 	call CopyData
+
+	ld c, 15
+	call DelayFrames
+
+	hlcoord 1, 16
+	ld [hl], "◀"
+	hlcoord 18, 16
+	ld [hl], "▶"
+
 .inputLoop
 	call TownMapSpriteBlinkingAnimation
 	call JoypadLowSensitivity
@@ -87,6 +104,8 @@ DisplayTownMap:
 	ld [hl], a
 	ret
 .pressedUp
+	decoord 18, 16
+	ld [hl], " "
 	ld a, [wWhichTownMapLocation]
 	inc a
 	cp TownMapOrderEnd - TownMapOrder ; number of list items + 1
@@ -96,6 +115,8 @@ DisplayTownMap:
 	ld [wWhichTownMapLocation], a
 	jp .townMapLoop
 .pressedDown
+	hlcoord 1, 16
+	ld [hl], " "
 	ld a, [wWhichTownMapLocation]
 	dec a
 	cp -1
