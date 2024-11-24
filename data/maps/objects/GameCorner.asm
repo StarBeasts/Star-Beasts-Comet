@@ -4,7 +4,7 @@ GameCorner_Object:
 	def_warp_events
 	warp_event 15, 17, LAST_MAP, 8
 	warp_event 16, 17, LAST_MAP, 8
-	warp_event 10,  5, ROCKET_HIDEOUT_B1F, 2
+	warp_event 10,  5, CELADON_MART_2F, 2
 
 	def_bg_events
 	bg_event  0,  0, 12 ; CeladonGameCornerText12
