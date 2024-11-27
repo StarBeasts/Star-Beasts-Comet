@@ -8,6 +8,7 @@ FuchsiaPokecenter_TextPointers:
 	dw FuchsiaPokecenterText3
 	dw FuchsiaTradeNurseText
 	dw FuchsiaPokecenterText4
+	dw FuchsiaPokecenterText5
 
 FuchsiaHealNurseText:
 	script_pokecenter_nurse
@@ -30,4 +31,8 @@ FuchsiaPokecenterText4:
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
+
+FuchsiaPokecenterText5:
+	text_far _FuchsiaPokecenterText5
+	text_end
 

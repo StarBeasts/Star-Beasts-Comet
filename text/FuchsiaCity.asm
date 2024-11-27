@@ -31,9 +31,31 @@ _FuchsiaCityText5::
 	done
 
 _FuchsiaCityText11::
-	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+	text "I was sent here"
+	line "to investigate"
+	cont "reports of a "
+	cont "haunted building,"
+	cont "but..."
+	
+	para "I'm scared!"
+
+	para "If I listen close,"
+	line "I can hear a"
+	cont "voice screaming"
+	cont "about a bird!"
+
+	para "I'm not putting my"
+	line "precious ROC in"
+	cont "harm's way,"
+	cont "no way, no how!"
+	done
+
+_FuchsiaCityText12::
+	text "RHINESTONE"
+	line "The CITY where"
+	cont "the night life"
+	cont "happens all day,"
+	cont "every day!"
 	done
 
 _FuchsiaCityText13::
@@ -47,19 +69,30 @@ _FuchsiaCityText16::
 	done
 
 _FuchsiaCityText17::
-	text "#BIE PARADISE"
-	line "SAFARI ZONE"
+	text "COME PLAY THE"
+	line "SAFARI GAME AT"
+	cont "OUR SAFARI ZONE"
+
+	para "Admissions only"
+	line "¥500!"
 	done
 
 _FuchsiaCityText18::
-	text "NEPUTAIL"
-	line "FAN CLUB"
+	text "RHINESTONE RESORT"
+
+	para "CASINO, SHOPPING"
+	line "MALL, GIFT SHOP"
+	cont "AND MORE"
+	
+	para "COME VISIT THIS"
+	line "PALACE THAT"
+	cont "YOU'RE SURE"
+	cont "TO ADORE"
 
 	para "In smaller text,"
 	line "it reads:"
 
-	para "Formerly FUCHSIA"
-	line "CITY GYM."
+	para "RHINESTONE GYM"
 
 	para "LEADER: IVY"
 
@@ -129,3 +162,15 @@ _FuchsiaCityKabutoText::
 _FuchsiaCityText_19b2a::
 	text "..."
 	done
+
+_FuchsiaCityText25::
+	text "FAJZ'S FINE FOODS"
+
+	para "THE FINEST"
+	line "ITALIAN DINING,"
+	cont "OR MY NAME ISN'T"
+	cont "FREDDY FAJZ!"
+
+	para "RESERVATIONS ONLY"
+	done
+

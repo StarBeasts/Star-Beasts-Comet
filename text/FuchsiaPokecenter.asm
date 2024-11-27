@@ -27,3 +27,17 @@ _FuchsiaPokecenterText4::
 	text "CHEPPI: Chepperii!@"
 	text_end
 
+_FuchsiaPokecenterText5::
+	text "They legalized"
+	line "gambling here"
+	cont "just a decade"
+	cont "ago, and already"
+	cont "I don't recognize"
+	cont "the city I grew"
+	cont "up in!"
+
+	para "Is there any end"
+	line "to human greed?"
+	done
+
+

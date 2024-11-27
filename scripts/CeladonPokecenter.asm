@@ -8,6 +8,8 @@ CeladonPokecenter_TextPointers:
 	dw CeladonPokecenterText3
 	dw CeladonTradeNurseText
 	dw CeladonPokecenterText4
+	dw CeladonPokecenterText5
+
 
 CeladonTradeNurseText:
 	script_cable_club_receptionist
@@ -30,4 +32,9 @@ CeladonPokecenterText4:
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
+
+CeladonPokecenterText5:
+	text_far _CeladonPokecenterText5
+	text_end
+
 

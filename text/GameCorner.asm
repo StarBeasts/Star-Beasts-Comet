@@ -4,12 +4,19 @@ _CeladonGameCornerText1::
 	para "You can exchange"
 	line "your coins for"
 	cont "fabulous prizes"
-	cont "next door."
+	cont "downstairs."
+
+	para "Eh? Why the coins?"
+
+	para "Oh, it's for the"
+	line "sake of cutting"
+	cont "down on fraud."
 	done
 
 _CeladonGameCornerText_48d22::
-	text "Welcome to ROCKET"
-	line "GAME CORNER!"
+	text "Welcome to the"
+	line "RHINESTONE"
+	cont "CASINO!"
 
 	para "Do you need some"
 	line "game coins?"
@@ -57,8 +64,22 @@ _CeladonGameCornerText3::
 	para "Oh, and also:"
 
 	para "This place here"
-	line "is run by"
-	cont "TEAM ROCKET."
+	line "is run by the"
+	cont "same people"
+	cont "that own the"
+	cont "MARTs."
+
+	para "IVY is the heir"
+	line "to the fortune,"
+	cont "so she spends"
+	cont "all day either"
+	cont "playing with"
+	cont "her BEASTs or"
+	cont "running the GYM"
+	cont "on the top floor."
+
+	para "...But you didn't"
+	line "hear that from me."
 	done
 
 _CeladonGameCornerText4::
@@ -88,8 +109,17 @@ _CeladonGameCornerText_48dac::
 	done
 
 _CeladonGameCornerText6::
-	text "I'm having a"
-	line "wonderful time!"
+	text "I'm feelin' it"
+	line "this time, baby!"
+
+	para "Woo! Ain't nothing"
+	line "like coming here"
+	cont "after work to"
+	cont "blow off some"
+	cont "steam!"
+
+	para "That ROBBY's as"
+	line "good as mine!"
 	done
 
 _CeladonGameCornerText_48dca::

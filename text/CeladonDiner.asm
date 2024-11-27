@@ -4,32 +4,40 @@ _CeladonDinerText1::
 
 	para "I'm-a Freddy Fajz!"
 
-	para "We're-a taking-a"
-	line "break now."
+	para "You got a"
+	line "reservation?"
+
+	para "No? Then we don't-a"
+	line "serve you!"
 	done
 
 _CeladonDinerText2::
-	text "All our other"
-	line "CHEFs left for"
-	cont "some fancy cruise"
-	cont "ship that pays"
-	cont "more than we can,"
-	cont "so we're pretty"
-	cont "short-staffed."
+	text "You look a little"
+	line "lost. Are you"
+	cont "sure you're not"
+	cont "looking for the"
+	cont "SHOPPING MALL?"
+
+	para "It's in the big"
+	line "building in the"
+	cont "middle of town."
 	done
 
 _CeladonDinerText3::
-	text "Psst! There's a"
-	line "basement under"
-	cont "the GAME CORNER."
+	text "Psst! The GYM here"
+	line "is at the top of"
+	cont "the RESORT."
 	done
 
 _CeladonDinerText4::
-	text "Munch..."
+	text "Slurp..."
 
 	para "The man at that"
 	line "table lost it all"
-	cont "at the slots."
+	cont "at the slots and"
+	cont "just spent the"
+	cont "last of his money"
+	cont "on a dinner here."
 	done
 
 _CeladonDinerText_491a7::

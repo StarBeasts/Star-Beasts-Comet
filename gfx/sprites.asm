@@ -94,3 +94,5 @@ SoulSprite::	    INCBIN "gfx/sprites/soul.2bpp"
 ChepperSprite::	    INCBIN "gfx/sprites/chepper.2bpp"
 YinYangSprite::	    INCBIN "gfx/sprites/yinyang.2bpp"
 ChestSprite::		INCBIN "gfx/sprites/chest.2bpp"
+FajzSprite::		INCBIN "gfx/sprites/fajz.2bpp"
+
