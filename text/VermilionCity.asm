@@ -162,3 +162,9 @@ _VermilionCityText13::
 	text "LEGRANDITO"
 	line "TRADE HARBOR"
 	done
+
+_VermilionCityText15::
+	text "BARNACLE"
+	line "BART'S BAR"
+	done
+

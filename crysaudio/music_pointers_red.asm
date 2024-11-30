@@ -70,6 +70,7 @@ Music:
 	dba Music_Chamber
 	dba Music_Hill
 	dba Music_Diner
+	dba Music_Drunken
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 

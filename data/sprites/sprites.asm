@@ -100,4 +100,6 @@ SpriteSheetPointerTable:
 	overworld_sprite YinYangSprite, 4     ; SPRITE_YINYANG
 	overworld_sprite ChestSprite, 4		  ; SPRITE_CHEST
 	overworld_sprite FajzSprite, 4		  ; SPRITE_FAJZ
+	overworld_sprite BartSprite, 4		  ; SPRITE_BART
+	overworld_sprite BeerLeftSprite, 4		  ; SPRITE_BEERLEFT
 	assert_table_length NUM_SPRITES

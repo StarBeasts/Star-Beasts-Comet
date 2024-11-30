@@ -12,6 +12,8 @@ VermilionCity_Object:
 	warp_event 41,  5, CERULEAN_TRADE_HOUSE, 1
 	warp_event 53, 11, VERMILION_OLD_ROD_HOUSE, 3
 	warp_event 22, 3, MOLE_HOLE, 5
+	warp_event 4, 11, CELADON_MART_5F, 1
+
 
 	def_bg_events
 	bg_event 47,  9,  7 ; VermilionCityText7
@@ -21,6 +23,7 @@ VermilionCity_Object:
 	bg_event 17,  7, 11 ; VermilionCityText11
 	bg_event 17, 13, 12 ; VermilionCityText12
 	bg_event 25, 13, 13 ; VermilionCityText13
+	bg_event  3, 13, 14 ; VermilionCityText14
 
 	def_object_events
 	object_event 25, 10, SPRITE_BEAUTY, WALK, LEFT_RIGHT, 1 ; person

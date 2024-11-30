@@ -287,6 +287,7 @@ INCLUDE "text/DevilsCanyon.asm"
 INCLUDE "text/GasStation.asm"
 INCLUDE "text/GoldenGate.asm"
 INCLUDE "text/BloodstoneBay.asm"
+INCLUDE "text/VermilionTradeHouse.asm"
 
 SECTION "Pokédex Text", ROMX
 

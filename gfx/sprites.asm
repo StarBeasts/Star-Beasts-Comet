@@ -95,4 +95,6 @@ ChepperSprite::	    INCBIN "gfx/sprites/chepper.2bpp"
 YinYangSprite::	    INCBIN "gfx/sprites/yinyang.2bpp"
 ChestSprite::		INCBIN "gfx/sprites/chest.2bpp"
 FajzSprite::		INCBIN "gfx/sprites/fajz.2bpp"
+BartSprite::		INCBIN "gfx/sprites/bart.2bpp"
+BeerLeftSprite::	INCBIN "gfx/sprites/beerleft.2bpp"
 

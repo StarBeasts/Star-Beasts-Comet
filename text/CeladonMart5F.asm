@@ -1,7 +1,6 @@
 _CeladonMart5Text1::
-	text "BEAST ability"
-	line "enhancers can be"
-	cont "bought only here."
+	text "Ahoy! Thar be"
+	line "some grog here!"
 
 	para "Use CALCIUM to"
 	line "increase SPECIAL"
@@ -12,15 +11,11 @@ _CeladonMart5Text1::
 	done
 
 _CeladonMart5Text2::
-	text "I'm here for"
-	line "BEAST ability"
-	cont "enhancers."
+	text "Hoy there, ya"
+	line "little scallywag!"
 
-	para "PROTEIN increases"
-	line "ATTACK power."
-
-	para "IRON increases"
-	line "DEFENSE!"
+	para "I be who they call"
+	line "BARNACLE BART!"
 	done
 
 _CeladonMart5Text5::
