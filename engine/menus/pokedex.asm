@@ -58,7 +58,7 @@ ShowPokedexMenu:
 ; 01: the player chose Quit
 ; 02: the pokemon has not been seen yet or the player pressed the B button
 HandlePokedexSideMenu:
-	call PlaceUnfilledArrowMenuCursor
+;	call PlaceUnfilledArrowMenuCursor
 	ld a, [wCurrentMenuItem]
 	push af
 	ld b, a
@@ -324,7 +324,7 @@ HandlePokedexListMenu:
 	pop hl
 	ld a, " "
 	jr z, .writeTile
-	ld a, $72 ; pokeball tile
+	ld a, $70 ; pokeball tile
 .writeTile
 	ld [hl], a ; put a pokeball next to pokemon that the player has owned
 	push hl

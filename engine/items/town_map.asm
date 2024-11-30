@@ -104,7 +104,7 @@ DisplayTownMap:
 	ld [hl], a
 	ret
 .pressedUp
-	decoord 18, 16
+	hlcoord 18, 16
 	ld [hl], " "
 	ld a, [wWhichTownMapLocation]
 	inc a
