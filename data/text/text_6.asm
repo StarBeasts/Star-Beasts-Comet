@@ -54,7 +54,7 @@ _ItemUseBallText08::
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
+	text "DATA CRYSTAL"
 	line "will be added for"
 	cont "@"
 	text_ram wEnemyMonNick
