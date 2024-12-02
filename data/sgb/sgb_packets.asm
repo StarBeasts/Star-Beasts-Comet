@@ -65,9 +65,9 @@ BlkPacket_WholeScreen:
 BlkPacket_Battle:
 	ATTR_BLK 5
 	ATTR_BLK_DATA %111, 2,2,0, 00,12, 19,17 ; message box: pal 2
-	ATTR_BLK_DATA %011, 1,1,0, 01,00, 10,03 ; enemy HP bar: pal 1
-	ATTR_BLK_DATA %011, 0,0,0, 10,07, 19,10 ; player HP bar: pal 0
-	ATTR_BLK_DATA %011, 2,2,0, 00,04, 08,11 ; player mon: pal 2
+	ATTR_BLK_DATA %011, 1,1,0, 00,00, 10,03 ; enemy HP bar: pal 1
+	ATTR_BLK_DATA %011, 0,0,0, 11,07, 19,11 ; player HP bar: pal 0
+	ATTR_BLK_DATA %011, 2,2,0, 00,04, 10,11 ; player mon: pal 2
 	ATTR_BLK_DATA %011, 3,3,0, 11,00, 19,06 ; enemy mon : pal 3
 
 ; unused
@@ -243,7 +243,7 @@ PalPacket_TrainerCard:    PAL_SET PAL_BORDER, PAL_BADGE, PAL_REDMON, PAL_YELLOWM
 PalPacket_Generic:        PAL_SET PAL_MEWMON, 0, 0, 0
 PalPacket_NidorinoIntro:  PAL_SET PAL_PURPLEMON, PAL_BLACK, 0, 0
 PalPacket_GameFreakIntro: PAL_SET PAL_GAMEFREAK, PAL_REDMON, PAL_VIRIDIAN, PAL_BLUEMON
-PalPacket_Border:         PAL_SET PAL_BORDER, PAL_REDMON, 0, 0
+PalPacket_Border:         PAL_SET PAL_BORDER, PAL_DEX_CRYSTAL, 0, 0
 
 PalTrnPacket:  PAL_TRN
 MltReq1Packet: MLT_REQ 1
