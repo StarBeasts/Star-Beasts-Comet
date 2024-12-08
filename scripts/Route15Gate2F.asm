@@ -7,23 +7,24 @@ Route15Gate2F_TextPointers:
 
 Route15GateUpstairsText1:
 	text_asm
-	CheckEvent EVENT_GOT_EXP_ALL
-	jr nz, .got_item
-	ld a, 50
+	CheckEvent EVENT_GOT_ITEMFINDER, 1
+	jr c, .got_item
+	ld a, 30
 	ldh [hOaksAideRequirement], a
-	ld a, EXP_ALL
+	ld a, ITEMFINDER
 	ldh [hOaksAideRewardItem], a
 	ld [wd11e], a
 	call GetItemName
-	ld hl, wcd6d
+	ld h, d
+	ld l, e
 	ld de, wOaksAideRewardItemName
 	ld bc, ITEM_NAME_LENGTH
 	call CopyData
 	predef OaksAideScript
 	ldh a, [hOaksAideResult]
-	cp OAKS_AIDE_GOT_ITEM
+	dec a ; OAKS_AIDE_GOT_ITEM?
 	jr nz, .no_item
-	SetEvent EVENT_GOT_EXP_ALL
+	SetEvent EVENT_GOT_ITEMFINDER
 .got_item
 	ld hl, Route15GateUpstairsText_4968c
 	call PrintText

@@ -16,33 +16,7 @@ Route11GateUpstairsScriptEnd:
 	jp TextScriptEnd
 
 Route11GateUpstairsText2:
-	text_asm
-	CheckEvent EVENT_GOT_ITEMFINDER, 1
-	jr c, .got_item
-	ld a, 10
-	ldh [hOaksAideRequirement], a
-	ld a, ITEMFINDER
-	ldh [hOaksAideRewardItem], a
-	ld [wd11e], a
-	call GetItemName
-	ld h, d
-	ld l, e
-	ld de, wOaksAideRewardItemName
-	ld bc, ITEM_NAME_LENGTH
-	call CopyData
-	predef OaksAideScript
-	ldh a, [hOaksAideResult]
-	dec a ; OAKS_AIDE_GOT_ITEM?
-	jr nz, .no_item
-	SetEvent EVENT_GOT_ITEMFINDER
-.got_item
-	ld hl, Route11GateUpstairsText_494a3
-	call PrintText
-.no_item
-	jr Route11GateUpstairsScriptEnd
-
-Route11GateUpstairsText_494a3:
-	text_far _Route11GateUpstairsText_494a3
+	text_far _BinocularsNoSnorlaxText
 	text_end
 
 Route11GateUpstairsText3:

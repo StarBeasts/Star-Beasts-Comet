@@ -51,4 +51,3 @@ _GoldenGateText4::
 	line "day to take care"
 	cont "of them!"
 	done
-
