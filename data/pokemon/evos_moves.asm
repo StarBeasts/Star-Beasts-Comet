@@ -1214,8 +1214,10 @@ KabutoEvosMoves:
 	db EV_LEVEL, 40, KABUTOPS
 	db 0
 ; Learnset
-	db 34, RECOVER
-	db 39, LOVELY_KISS
+	db 20, POWDER_SNOW
+	db 26, OMINOUS_WIND
+	db 32, RECOVER
+	db 38, LOVELY_KISS
 	db 44, DOUBLE_EDGE
 	db 49, PK_STARSTORM
 	db 0
@@ -1296,8 +1298,10 @@ OmanyteEvosMoves:
 	db EV_LEVEL, 40, OMASTAR
 	db 0
 ; Learnset
-	db 34, BODY_SLAM
-	db 39, FIRE_SPIN
+	db 20, WING_ATTACK
+	db 26, POISON_FANG
+	db 32, BODY_SLAM
+	db 38, FIRE_SPIN
 	db 44, FLAMETHROWER
 	db 49, DARK_PULSE
 	db 0

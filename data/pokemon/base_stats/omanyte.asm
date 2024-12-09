@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/omanyte.pic", 0, 1 ; sprite dimensions
 	dw OmanytePicFront, OmanytePicBack
 
-	db BITE, WING_ATTACK, EMBER, POISON_FANG ; level 1 learnset
+	db BITE, EMBER, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -76,8 +76,8 @@ _Lab4Text_610b8::
 
 	para "Why don't you"
 	line "step outside,"
-	cont "enjoy the ocean"
-	cont "air for a while?"
+	cont "maybe go visit"
+	cont "the DAM?"
 	done
 
 _Lab4Text_610bd::
