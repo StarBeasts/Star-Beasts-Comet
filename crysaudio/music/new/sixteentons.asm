@@ -10,6 +10,7 @@ Music_SixteenTons_Ch1:
 	duty_cycle 2
 	note_type 12, 7, 7
 	tempo 120
+.mainloop:
 	octave 3
 	note E_, 4
 	octave 2
@@ -413,15 +414,14 @@ Music_SixteenTons_Ch1:
 	rest 2
 	note E_, 1
 	note E_, 4
-	note E_, 16
-	rest 16
-	rest 7
+	note E_, 8
 	octave 4
-	sound_ret
+	sound_loop 0, .mainloop
 
 Music_SixteenTons_Ch2:
 	duty_cycle 1
 	note_type 12, 7, 7
+.mainloop:
 	octave 4
 	note E_, 4
 	octave 3
@@ -825,15 +825,13 @@ Music_SixteenTons_Ch2:
 	rest 2
 	note E_, 1
 	note E_, 4
-	note E_, 16
 	note E_, 8
-	rest 15
-	sound_ret
+	sound_loop 0, .mainloop
 
 Music_SixteenTons_Ch3:
-	note_type 12, 1, 0
+	note_type 12, 2, 0
+.mainloop:
 	octave 4
-	volume_envelope 2, 0
 	note E_, 4
 	octave 3
 	note B_, 4
@@ -929,7 +927,6 @@ Music_SixteenTons_Ch3:
 	note E_, 8
 	octave 2
 	note B_, 8
-	octave 3
 	octave 4
 	note E_, 4
 	octave 2
@@ -1030,7 +1027,6 @@ Music_SixteenTons_Ch3:
 	note E_, 8
 	octave 2
 	note B_, 8
-	octave 3
 	octave 4
 	note E_, 4
 	octave 2
@@ -1135,27 +1131,19 @@ Music_SixteenTons_Ch3:
 	note E_, 8
 	octave 2
 	note B_, 8
-	octave 3
 	octave 4
 	note E_, 4
 	octave 2
 	note B_, 4
 	octave 3
 	note E_, 4
-	note B_, 1
-	rest 2
-	octave 4
-	note D_, 1
-	note E_, 4
-	octave 3
-	note B_, 4
-	note G_, 4
-	note E_, 4
-	sound_ret
+	rest 4
+	sound_loop 0, .mainloop
 
 Music_SixteenTons_Ch4:
 	toggle_noise 8
 	drum_speed 12
+.mainloop:
 	drum_note 5, 4
 	drum_note 12, 4
 	drum_note 8, 4
@@ -1324,9 +1312,5 @@ Music_SixteenTons_Ch4:
 	drum_note 5, 4
 	drum_note 12, 4
 	drum_note 5, 4
-	drum_note 12, 4
-	drum_note 5, 4
-	drum_note 12, 4
-	drum_note 8, 4
-	drum_note 5, 4
-	sound_ret
+	rest 4
+	sound_loop 0, .mainloop

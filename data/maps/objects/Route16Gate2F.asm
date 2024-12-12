@@ -1,8 +1,8 @@
 Route16Gate2F_Object:
-	db $a ; border block
+	db $03 ; border block
 
 	def_warp_events
-	warp_event  7,  7, ROUTE_16_GATE_1F, 9
+	warp_event 47, 11, PEWTER_CITY, 9
 
 	def_bg_events
 	bg_event  1,  2, 3 ; Route16GateUpstairsText3

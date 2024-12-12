@@ -161,7 +161,7 @@ SetPal_Overworld:
 	cp BLOODSTONE_BAY
 	jp z, .bloodstone
 	cp POWER_PLANT
-	jr z, .mewMon
+	jp z, .mewMon
 	cp CELAGONE_CITY
 	jp z, .grey
 	cp GLITCH_ROOM
@@ -225,6 +225,8 @@ SetPal_Overworld:
 	ld a, [wCurMap]
 	cp ROCKET_HIDEOUT_B4F
 	jr z, .bloodstone
+	cp ROUTE_16_GATE_2F
+	jr z, .mewMon
 .caveDefault
 	ld a, PAL_CYANMON - 1
 	jr .town

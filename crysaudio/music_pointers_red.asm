@@ -71,6 +71,7 @@ Music:
 	dba Music_Hill
 	dba Music_Diner
 	dba Music_Drunken
+	dba Music_SixteenTons
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 

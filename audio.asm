@@ -538,6 +538,7 @@ INCLUDE "crysaudio/music/new/chamber.asm"
 INCLUDE "crysaudio/music/new/hill.asm"
 INCLUDE "crysaudio/music/new/diner.asm"
 INCLUDE "crysaudio/music/new/drunken.asm"
+INCLUDE "crysaudio/music/new/sixteentons.asm"
 
 SECTION "Sound Effects", ROMX
 

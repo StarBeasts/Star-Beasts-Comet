@@ -206,7 +206,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_15_GATE_1F,               4,  12 ; $B8
 	map_const ROUTE_15_GATE_2F,               4,  4 ; $B9
 	map_const ROUTE_16_GATE_1F,               4,  7 ; $BA
-	map_const ROUTE_16_GATE_2F,               4,  4 ; $BB
+	map_const ROUTE_16_GATE_2F,               28, 16 ; $BB
 	map_const ROUTE_16_FLY_HOUSE,             4,  4 ; $BC
 	map_const ROUTE_12_SUPER_ROD_HOUSE,       4,  4 ; $BD
 	map_const ROUTE_18_GATE_1F,               4,  5 ; $BE

@@ -211,3 +211,12 @@ _PewterCityText15::
 	
 	para "Thank you"
 	done
+
+_PewterCityText16::
+	text "QUARTZ QUARRY"
+	line "QUARRY"
+
+	para "(The town got"
+	line "the name first.)"
+	done
+

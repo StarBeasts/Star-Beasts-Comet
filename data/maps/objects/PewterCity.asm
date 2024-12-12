@@ -10,6 +10,7 @@ PewterCity_Object:
 	warp_event 34, 25, MT_MOON_1F, 2
 	warp_event 27, 19, PEWTER_POKECENTER, 1
 	warp_event 6, 19, MT_MOON_B2F, 6
+	warp_event 26, 5, ROUTE_16_GATE_2F, 1
 
 	def_bg_events
 	bg_event 11, 25,  6 ; PewterCityText6
@@ -20,6 +21,7 @@ PewterCity_Object:
 	bg_event 17, 29, 11 ; PewterCityText11
 	bg_event 29, 23, 12 ; PewterCityText12
 	bg_event 19, 33, 15 ; PewterCityText15
+	bg_event 25, 7,  16 ; PewterCityText16
 
 	def_object_events
 	object_event 21, 37, SPRITE_COOLTRAINER_F, STAY, NONE, 1 ; person

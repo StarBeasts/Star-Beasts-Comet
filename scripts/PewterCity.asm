@@ -192,6 +192,7 @@ PewterCity_TextPointers:
 	dw PewterCityText13
 	dw PewterCityText14
 	dw PewterCityText15
+	dw PewterCityText16
 
 PewterCityText1:
 	text_far _PewterCityText1
@@ -300,4 +301,9 @@ PewterCityText12:
 PewterCityText15:
 	text_far _PewterCityText15
 	text_end
+
+PewterCityText16:
+	text_far _PewterCityText16
+	text_end
+
 
