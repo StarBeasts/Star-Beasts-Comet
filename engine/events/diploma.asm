@@ -69,6 +69,7 @@ DisplayDiploma::
 	res 6, [hl]
 	call GBPalWhiteOutWithDelay3
 	call RestoreScreenTilesAndReloadTilePatterns
+	call ReloadMapData
 	call Delay3
 	jp GBPalNormal
 

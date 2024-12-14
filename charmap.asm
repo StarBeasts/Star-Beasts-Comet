@@ -37,8 +37,6 @@
 	charmap "<BOLD_G>",  $66 ; unused
 	charmap "<BOLD_H>",  $67 ; unused
 	charmap "<BOLD_I>",  $68 ; unused
-	charmap "<BOLD_V>",  $69
-	charmap "<BOLD_S>",  $6a
 	charmap "<BOLD_L>",  $6b ; unused
 	charmap "<BOLD_M>",  $6c ; unused
 	charmap "<COLON>",   $6d ; colon with tinier dots than ":"
@@ -172,8 +170,8 @@
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "ァ",         $e9 ; katakana small a, unused
-	charmap "ゥ",         $ea ; katakana small u, unused
+	charmap "<BOLD_V>",   $e9
+	charmap "<BOLD_S>",   $ea
 	charmap "◀",         $eb ; katakana small e, unused
 
 	charmap "▷",         $ec
