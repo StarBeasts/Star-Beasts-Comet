@@ -326,6 +326,7 @@ ExitTownMap:
 	call ClearSprites
 	call LoadPlayerSpriteGraphics
 	call LoadFontTilePatterns
+	call ReloadMapData
 	call UpdateSprites
 	call RunDefaultPaletteCommand
 	jp ReloadMapData
