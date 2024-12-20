@@ -12,7 +12,7 @@ Lab2Text1:
 
 Lab2Text2:
 	text_asm
-	ld a, TRADE_FOR_ZEUS
+	ld a, TRADE_FOR_ARIEL
 	ld [wWhichTrade], a
 	jr Lab2DoTrade
 

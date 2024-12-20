@@ -79,6 +79,8 @@ SpriteSheetPointerTable:
 	overworld_sprite SoulValorDudeSprite, 12	; SPRITE_SOULVALORDUDE
 	overworld_sprite SpeakoSprite, 12	; SPRITE_SPEAKO
 	overworld_sprite NoFaceSprite, 12	; SPRITE_NOFACE
+	overworld_sprite FajzSprite, 12		  ; SPRITE_FAJZ
+	overworld_sprite BartSprite, 12		  ; SPRITE_BART
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER
@@ -99,7 +101,5 @@ SpriteSheetPointerTable:
 	overworld_sprite ChepperSprite, 4     ; SPRITE_CHEPPER
 	overworld_sprite YinYangSprite, 4     ; SPRITE_YINYANG
 	overworld_sprite ChestSprite, 4		  ; SPRITE_CHEST
-	overworld_sprite FajzSprite, 4		  ; SPRITE_FAJZ
-	overworld_sprite BartSprite, 4		  ; SPRITE_BART
 	overworld_sprite BeerLeftSprite, 4		  ; SPRITE_BEERLEFT
 	assert_table_length NUM_SPRITES

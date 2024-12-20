@@ -74,6 +74,8 @@
 	const SPRITE_SOUL_VALOR_DUDE
 	const SPRITE_SPEAKO
 	const SPRITE_NOFACE
+	const SPRITE_FAJZ
+	const SPRITE_BART
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e
@@ -95,8 +97,6 @@ DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_CHEPPER
 	const SPRITE_YINYANG
 	const SPRITE_CHEST
-	const SPRITE_FAJZ
-	const SPRITE_BART
 	const SPRITE_BEERLEFT
 
 DEF NUM_SPRITES EQU const_value - 1
