@@ -3,6 +3,9 @@ Museum2F_Object:
 
 	def_warp_events
 	warp_event  7,  7, MUSEUM_1F, 5
+	warp_event  6,  0, ROUTE_16_GATE_2F, 2
+	warp_event  7,  0, ROUTE_16_GATE_2F, 3
+
 
 	def_bg_events
 	bg_event 11,  2, 6 ; Museum2FText6
