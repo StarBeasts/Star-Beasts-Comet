@@ -97,4 +97,5 @@ ChestSprite::		INCBIN "gfx/sprites/chest.2bpp"
 FajzSprite::		INCBIN "gfx/sprites/fajz.2bpp"
 BartSprite::		INCBIN "gfx/sprites/bart.2bpp"
 BeerLeftSprite::	INCBIN "gfx/sprites/beerleft.2bpp"
-
+RockySprite::	INCBIN "gfx/sprites/rocky.2bpp"
+CharkonroSprite::	INCBIN "gfx/sprites/charkonro.2bpp"
