@@ -14,8 +14,8 @@ _Route16GateUpstairsText2::
 	line "through another"
 	cont "day..."
 
-	para "This costume's so"
-	line "heavy..."
+	para "Man, this costume"
+	line "is so heavy..."
 	done
 
 _Route16GateUpstairsText3::
@@ -44,8 +44,7 @@ _Route16GateUpstairsText5::
 _Route16GateUpstairsText6::
 	text "This is X rock,"
 	line "because it's"
-	cont "shaped like an"
-	cont "X!"
+	cont "shaped like an X!"
 
 	para "..."
 
