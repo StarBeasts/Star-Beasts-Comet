@@ -1,5 +1,5 @@
 Route3_Object:
-	db $2c ; border block
+	db $57 ; border block
 
 	def_warp_events
 
