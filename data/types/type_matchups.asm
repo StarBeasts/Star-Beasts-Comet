@@ -4,7 +4,7 @@ TypeEffects:
 	db FIRE,         GRASS,        SUPER_EFFECTIVE
 	db FIRE,         ICE,          SUPER_EFFECTIVE
 	db FIRE,         STEEL,        SUPER_EFFECTIVE
-	db FIRE,         FAIRY,        SUPER_EFFECTIVE
+	db FAIRY,        FIRE,         NOT_VERY_EFFECTIVE
 	db GRASS,        WATER,        SUPER_EFFECTIVE
 	db ELECTRIC,     WATER,        SUPER_EFFECTIVE
 	db WATER,        ROCK,         SUPER_EFFECTIVE
