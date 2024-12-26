@@ -3,7 +3,7 @@
 	db  65,  60,  65, 100, 101
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, PSYCHIC_TYPE ; type
+	db FAIRY, PSYCHIC_TYPE ; type
 	db 90 ; catch rate
 	db 162 ; base exp
 

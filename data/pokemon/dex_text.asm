@@ -202,8 +202,8 @@ _MewDexEntry::
 	next "Something happened"
 	next "to it, and now"
 
-	page "it's made of ice-"
-	next "cold steel! Take"
+	page "it's made of"
+	next "magic steel! Take"
 	next "good care of it"
 	dex
 

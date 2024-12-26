@@ -3,7 +3,7 @@
 	db  80, 85,  65,  65,  75
 	;   hp  atk  def  spd  spc
 
-	db ICE, STEEL ; type
+	db FAIRY, STEEL ; type
 	db 45 ; catch rate
 	db 64 ; base exp
 

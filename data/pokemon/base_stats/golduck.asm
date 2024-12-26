@@ -3,7 +3,7 @@
 	db  70,  70,  70,  95,  90
 	;   hp  atk  def  spd  spc
 
-	db DARK, DARK ; type
+	db DARK, FAIRY ; type
 	db 75 ; catch rate
 	db 174 ; base exp
 

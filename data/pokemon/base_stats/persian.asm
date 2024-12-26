@@ -3,7 +3,7 @@
 	db  140,  50,  35, 65,  115
 	;   hp  atk  def  spd  spc
 
-	db FIRE, PSYCHIC_TYPE ; type
+	db FIRE, FAIRY ; type
 	db 45 ; catch rate
 	db 148 ; base exp
 

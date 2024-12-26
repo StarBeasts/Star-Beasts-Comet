@@ -3,7 +3,7 @@
 	db  85, 95,  75,  125,  95
 	;   hp  atk  def  spd  spc
 
-	db GRASS, NORMAL ; type
+	db GRASS, FAIRY ; type
 	db 45 ; catch rate
 	db 202 ; base exp
 
