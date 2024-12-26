@@ -106,6 +106,7 @@ TypeEffects:
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+	db DRAGON,       STEEL,       NOT_VERY_EFFECTIVE
 	db DRAGON,       FAIRY,       NO_EFFECT
 	db FAIRY,        DRAGON,       SUPER_EFFECTIVE
 	db STEEL,		 ELECTRIC,	    NOT_VERY_EFFECTIVE
