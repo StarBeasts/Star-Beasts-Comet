@@ -27,5 +27,6 @@ DEF SPECIAL EQU const_value
 	const DRAGON       ; $1A
 	const DARK		   ; $1B
 	const MYSTIC	   ; $1C
+	const FAIRY	   ; $1D
 
 DEF NUM_TYPES EQU const_value
