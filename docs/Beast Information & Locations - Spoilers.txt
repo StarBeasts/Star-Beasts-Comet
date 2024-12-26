@@ -678,7 +678,7 @@ CUT,          FLY,          FLASH
 
 #22 - Maelstro
 
-Normal / Psychic
+Fairy / Normal
 
 HP: 65
 Attack: 60
@@ -1436,7 +1436,7 @@ CUT,     STRENGTH
 
 #45 - Bagavond
 
-Ghost / Dark
+Ghost / Fairy
 
 HP: 95
 Attack: 65
@@ -1537,7 +1537,7 @@ CUT,          STRENGTH,     FLASH
 
 #48 - Dragleam
 
-Bug / Normal
+Bug / Fairy
 
 HP: 55
 Attack: 55
@@ -1575,7 +1575,7 @@ CUT,          SURF,         STRENGTH,     FLASH
 
 #49 - Ardoragon
 
-Dragon / Flying
+Dragon / Fairy
 
 HP: 85
 Attack: 100
@@ -1684,7 +1684,7 @@ FLY,          STRENGTH,     FLASH
 
 #52 - Pumajin
 
-Fire / Psychic
+Fire / Fairy
 
 HP: 125
 Attack: 30
@@ -1717,7 +1717,7 @@ CUT,          FLY,          FLASH
 
 #53 - Pyrodon
 
-Fire / Psychic
+Fire / Fairy
 
 HP: 140
 Attack: 50
@@ -1781,7 +1781,7 @@ SWIFT,  REST,  SUBSTITUTE,    CUT, FLASH
 
 #55 - Deathseer
 
-Dark
+Dark / Fairy
 
 HP: 70
 Attack: 70
@@ -2041,7 +2041,7 @@ SURF,         STRENGTH,     FLASH
 
 #63 - Rumpel
 
-Psychic
+Psychic / Fairy
 
 HP: 25
 Attack: 20
@@ -2067,7 +2067,7 @@ PSYWAVE,      SUBSTITUTE,   FLASH
 
 #64 - Majivich
 
-Psychic
+Psychic / Fairy
 
 HP: 40
 Attack: 35
@@ -2099,7 +2099,7 @@ SUBSTITUTE,    CUT,          FLY,          SURF,         FLASH
 
 #65 - Phisior
 
-Psychic
+Psychic / Fairy
 
 HP: 55
 Attack: 50
@@ -2787,7 +2787,7 @@ THUNDER_WAVE,  PSYWAVE,      SUBSTITUTE
 
 #86 - Mandolin
 
-Ice
+Ice / Normal
 
 HP: 75
 Attack: 110
@@ -3360,7 +3360,7 @@ CUT,          SURF,         STRENGTH,     FLASH
 
 Psychic / Ghost
 
-HP: 200
+HP: 160
 Attack: 1
 Defense: 1
 Special: 166
@@ -3903,7 +3903,7 @@ PSYWAVE,       SUBSTITUTE,   SURF,         FLASH
 
 #119 - Tidermaid
 
-Water / Normal
+Water / Fairy
 
 HP: 105
 Attack: 75
@@ -4081,7 +4081,7 @@ CUT,          SURF,         STRENGTH,     FLASH
 
 #124 - Cheppi
 
-Normal / Psychic
+Normal / Fairy
 
 HP: 140
 Attack: 60
@@ -4405,7 +4405,7 @@ CUT,          STRENGTH,     FLASH
 
 #134 - Aquamentus
 
-Water
+Water / Fairy
 
 HP: 115
 Attack: 75
@@ -4648,7 +4648,7 @@ CUT,          FLY,          STRENGTH,     FLASH
 
 #141 - Pheras
 
-Normal / Flying
+Fairy / Flying
 
 HP: 93
 Attack: 132
@@ -4683,7 +4683,7 @@ CUT,          FLY,          STRENGTH,     FLASH
 
 #142 - Drudeer
 
-Grass / Normal
+Grass / Fairy
 
 HP: 85
 Attack: 95
@@ -4974,7 +4974,7 @@ TM / HM
 
 #151 - Bladeberus
 
-Ice / Steel
+Fairy / Steel
 
 HP: 80
 Attack: 85
