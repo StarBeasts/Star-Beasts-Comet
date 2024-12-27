@@ -182,6 +182,11 @@ MoveNames::
 	li "GAEA'S WRATH"
 	li "STEAM CANNON"
 	li "POWDER SNOW"
+	li "F1"
+	li "F2"
+	li "F3"
+	li "F4"
+	li "F5"
 	li "METAL CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

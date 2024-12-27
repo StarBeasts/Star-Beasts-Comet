@@ -182,6 +182,11 @@ AttackAnimationPointers:
 	dw GaeasWrathAnim
 	dw SteamCannonAnim
 	dw PowderSnowAnim
+	dw SpiritBreakAnim
+	dw DrainKissAnim
+	dw LetsPlayAnim
+	dw FairyWind
+	dw PlayRoughAnim
 	dw MetalClawAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
@@ -998,7 +1003,7 @@ DeathDrownAnim:
 	battle_anim ROCK_SLIDE, SE_HIDE_ENEMY_MON_PIC
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim WRAP, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE,SE_DELAY_ANIMATION_10
 	battle_anim WRAP, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim WRAP, SE_DARK_SCREEN_FLASH
@@ -1434,6 +1439,46 @@ PowderSnowAnim:
 	battle_anim ICE_BEAM, SUBANIM_1_SAND, 1, 6
 	battle_anim STRING_SHOT, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
 	db -1 ; end
+
+SpiritBreakAnim:
+	battle_anim SMOG, SE_LIGHT_SCREEN_PALETTE
+	battle_anim POISON_GAS, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	db -1 ; end
+
+DrainKissAnim:
+	battle_anim SING, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_0_HEART_1_MUSIC, 1, 6
+	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_TOSS_BACK, 0, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+LetsPlayAnim:
+	battle_anim SING, SUBANIM_0_HEART_1_MUSIC, 1, 6
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	db -1 ; end
+
+FairyWindAnim:
+	battle_anim SING, SUBANIM_0_HEART_1_MUSIC, 1, 6
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim CONFUSION, SE_WAVY_SCREEN
+	db -1 ; end
+
+PlayRoughAnim:
+	battle_anim SING, SE_SLIDE_MON_HALF_OFF
+	battle_anim NO_MOVE, SUBANIM_0_HEART_1_MUSIC, 1, 6
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+
 
 MetalClawAnim:
 	battle_anim HARDEN, SE_LIGHT_SCREEN_PALETTE

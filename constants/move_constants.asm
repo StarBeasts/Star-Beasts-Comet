@@ -188,6 +188,11 @@
 	const GAEAS_WRATH	;
 	const STEAM_CANNON	;
 	const POWDER_SNOW	;
+	const SPIRIT_BREAK ;	
+	const DRAIN_KISS ;
+	const LETS_PLAY ;
+	const FAIRY_WIND ;
+	const PLAY_ROUGH ;
 	const METAL_CLAW   ; b1
 	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1
