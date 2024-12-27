@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/nidoranm.pic", 0, 1 ; sprite dimensions
 	dw NidoranMPicFront, NidoranMPicBack
 
-	db GROWL, LICK, SCRATCH, NO_MOVE ; level 1 learnset
+	db PLAY_ROUGH, DRAIN_KISS, LETS_PLAY, FAIRY_WIND; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
