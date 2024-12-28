@@ -193,6 +193,9 @@
 	const LETS_PLAY ;
 	const FAIRY_WIND ;
 	const PLAY_ROUGH ;
+	const MOONBLAST ;
+	const STRANGESTEAM ;
+	const SHADOW_PURGE ;
 	const METAL_CLAW   ; b1
 	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1

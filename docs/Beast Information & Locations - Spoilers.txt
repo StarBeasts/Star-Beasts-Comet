@@ -2787,7 +2787,7 @@ THUNDER_WAVE,  PSYWAVE,      SUBSTITUTE
 
 #86 - Mandolin
 
-Ice / Normal
+Ice
 
 HP: 75
 Attack: 110

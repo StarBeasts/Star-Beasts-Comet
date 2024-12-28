@@ -187,6 +187,9 @@ AttackAnimationPointers:
 	dw LetsPlayAnim
 	dw FairyWindAnim
 	dw PlayRoughAnim
+	dw MoonblastAnim
+	dw StrangesteamAnim
+	dw ShadowPurgeAnim
 	dw MetalClawAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
@@ -1497,6 +1500,50 @@ PlayRoughAnim:
 	battle_anim SKULL_BASH, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+MoonblastAnim:
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim BARRAGE, SUBANIM_1_SPHERE_BIG, 1, 1
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim RECOVER, SUBANIM_1_SPHERE_BIG_RISE, 1, 2
+	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim PSYBEAM, 	SUBANIM_0_BEAM, 0, 3
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_WAVY_SCREEN
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim FLASH, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	db -1 ; end
+
+StrangesteamAnim:
+	battle_anim SMOG, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim HYDRO_PUMP, SUBANIM_1_SAND, 1, 6
+	battle_anim NO_MOVE, SE_SHAKE_SCREEN
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim CONFUSE_RAY, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	db -1 ; end
+
+ShadowPurgeAnim:
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim DEFENSE_CURL, SUBANIM_1_BARRIER, 1, 6
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim THUNDER, SE_WAVY_SCREEN
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 

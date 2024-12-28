@@ -189,6 +189,9 @@ MoveSoundTable:
 	db SFX_BATTLE_2C,          $d8, $04 ; METAL CLAW
 	db SFX_BATTLE_2C,          $d8, $04 ; METAL CLAW
 	db SFX_BATTLE_2C,          $d8, $04 ; METAL CLAW
+	db SFX_BATTLE_2C,          $d8, $04 ; METAL CLAW
+	db SFX_BATTLE_2C,          $d8, $04 ; METAL CLAW
+	db SFX_BATTLE_2C,          $d8, $04 ; METAL CLAW
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

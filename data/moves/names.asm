@@ -187,6 +187,9 @@ MoveNames::
 	li "LET'S PLAY"
 	li "FAIRY WIND"
 	li "PLAY ROUGH"
+	li "MOONBLAST"
+	li "STRANGESTEAM"
+	li "SHADOW PURGE"
 	li "METAL CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
