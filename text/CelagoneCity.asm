@@ -23,8 +23,8 @@ _CelagoneCity1Text2::
 
 	para "..."
 
-	para "You don't like"
-	line "this sign."
+	para "That's not a"
+	line "good sign."
 	done
 
 _CelagoneCity1Text3::

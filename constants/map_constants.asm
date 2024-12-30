@@ -23,7 +23,7 @@ ENDM
 	map_const LAVENDER_TOWN,                 12, 17 ; $04
 	map_const VERMILION_CITY,                30, 12 ; $05
 	map_const CELADON_CITY,                  25, 18 ; $06
-	map_const FUCHSIA_CITY,                  20, 18 ; $07
+	map_const FUCHSIA_CITY,                  21, 18 ; $07
 	map_const CINNABAR_ISLAND,               10, 28 ; $08
 	map_const INDIGO_PLATEAU,                10,  9 ; $09
 	map_const SAFFRON_CITY,                  24, 18 ; $0A
@@ -125,7 +125,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SS_ANNE_2F_ROOMS,              12,  8 ; $67
 	map_const SS_ANNE_B1F_ROOMS,             12,  8 ; $68
 	map_const MOLE_HOLE,                      30,  30 ; $69
-	map_const CELAGONE_CITY,                  25, 18; $6A
+	map_const CELAGONE_CITY,                  21, 18; $6A
 	map_const GLITCH_ROOM,                    5,  5 ; $6B
 	map_const VICTORY_ROAD_1F,               10,  9 ; $6C
 	map_const OWAI_HOTEL,                    4,  10 ; $6D
