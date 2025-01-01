@@ -2,8 +2,8 @@ FuchsiaGoodRodHouse_Object:
 	db $c ; border block
 
 	def_warp_events
-	warp_event  2,  7, LAST_MAP, 8
-	warp_event  3,  7, LAST_MAP, 8
+	warp_event  2,  7, LAST_MAP, 2
+	warp_event  3,  7, LAST_MAP, 2
 
 	def_bg_events
 

@@ -2,8 +2,8 @@ CeladonHotel_Object:
 	db $0 ; border block
 
 	def_warp_events
-	warp_event  3,  7, CELADON_CITY, 13
-	warp_event  4,  7, CELADON_CITY, 13
+	warp_event  3,  7, CELADON_CITY, 8
+	warp_event  4,  7, CELADON_CITY,8
 
 	def_bg_events
 

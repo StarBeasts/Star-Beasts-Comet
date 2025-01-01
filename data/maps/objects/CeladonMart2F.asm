@@ -2,9 +2,11 @@ CeladonMart2F_Object:
 	db $f ; border block
 
 	def_warp_events
-	warp_event  7, 25, CELADON_MART_1F, 5
-	warp_event  8, 25, CELADON_MART_3F, 2
-	warp_event  6, 25, CELADON_MART_ELEVATOR, 1
+	warp_event  6, 25, GAME_CORNER, 3
+	warp_event  7, 25, GAME_CORNER, 3
+	warp_event  8, 25, GAME_CORNER, 3
+	warp_event  9, 25, GAME_CORNER, 3
+	warp_event  2, 1, CELADON_MART_3F, 1
 
 	def_bg_events
 	bg_event  0,  1, 12 ; CeladonMart2Text12

@@ -3,8 +3,8 @@ Route7_Object:
 
 	def_warp_events
 	warp_event 23, 17, BILLS_HOUSE, 1
-	warp_event 24, 29, BILLS_HOUSE, 1
 	warp_event 23, 29, SECRET_PATH, 1
+	warp_event 24, 29, SECRET_PATH, 1
 	warp_event  4, 23, ROUTE_15_GATE_1F, 4
 
 	def_bg_events

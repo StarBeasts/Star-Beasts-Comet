@@ -6,7 +6,10 @@ CeladonCity_Object:
 	warp_event  41, 9, FUCHSIA_MART, 1
 	warp_event  6, 25, CELADON_MANSION_ROOF, 1
 	warp_event  35, 9, CELADON_POKECENTER, 1
-
+	warp_event  24, 5, CELADON_GYM, 1
+	warp_event  7, 13, CELADON_MANSION_ROOF_HOUSE, 1
+	warp_event  35, 27, CELADON_MANSION_1F, 1
+	warp_event  30, 19, CELADON_HOTEL, 1
 
 	def_bg_events
 	bg_event 36,  9, 12 ; PokeCenterSignText

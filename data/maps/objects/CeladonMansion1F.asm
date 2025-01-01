@@ -2,8 +2,8 @@ CeladonMansion1F_Object:
 	db $f ; border block
 
 	def_warp_events
-	warp_event  4, 11, LAST_MAP, 3
-	warp_event  5, 11, LAST_MAP, 3
+	warp_event  4, 11, LAST_MAP, 7
+	warp_event  5, 11, LAST_MAP, 7
 	warp_event  4,  0, LAST_MAP, 5
 	warp_event  7,  1, CELADON_MANSION_2F, 2
 	warp_event  2,  1, CELADON_MANSION_2F, 3

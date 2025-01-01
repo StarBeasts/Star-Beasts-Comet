@@ -2,8 +2,8 @@ Route2TradeHouse_Object:
 	db $a ; border block
 
 	def_warp_events
-	warp_event 10,  7, ROUTE_8, 3
-	warp_event 11,  7, ROUTE_8, 3
+	warp_event 10,  7, ROUTE_8, 4
+	warp_event 11,  7, ROUTE_8, 4
 	warp_event  2,  7, CELADON_CITY, 1
 	warp_event  3,  7, CELADON_CITY, 1
 

@@ -2,8 +2,8 @@ RocketHideoutB1F_Object:
 	db $03 ; border block
 
 	def_warp_events
-	warp_event 2,  27, ROCKET_HIDEOUT_B2F, 1
-	warp_event 3,  27, GAME_CORNER, 3
+	warp_event 2,  27, ROUTE_8, 5
+	warp_event 3,  27, ROUTE_8, 5
 	warp_event  2, 24, ROCKET_HIDEOUT_B1F, 4
 	warp_event 26, 23, ROCKET_HIDEOUT_B1F, 3
 	warp_event 32,  6, ROCKET_HIDEOUT_B4F, 1
