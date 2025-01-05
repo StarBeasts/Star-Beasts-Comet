@@ -1,5 +1,5 @@
 RocketHideoutB3F_Object:
-	db $0F ; border block
+	db $5B ; border block
 
 	def_warp_events
 	warp_event  6, 21, ROCKET_HIDEOUT_B2F, 2
