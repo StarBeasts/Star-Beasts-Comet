@@ -1,24 +1,4 @@
 TitleMons:
-; mons on the title screen are randomly chosen from here
-IF DEF(_RED)
-	db STARTER3
-	db STARTER2
-	db STARTER1
-	db POLIWAG
-	db PONYTA
-	db MANKEY
-	db VULPIX
-	db ODDISH
-	db EKANS
-	db PIKACHU
-	db SPEAROW
-	db DIGLETT
-	db GOLEM
-	db GRAVELER
-	db SLOWPOKE
-	db MAGNETON
-ENDC
-IF DEF(_BLUE)
 	db STARTER2
 	db STARTER3
 	db STARTER1
@@ -35,4 +15,3 @@ IF DEF(_BLUE)
 	db IVYSAUR
 	db SEADRA
 	db RAICHU
-ENDC

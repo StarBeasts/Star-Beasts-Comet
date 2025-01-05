@@ -1,18 +1,5 @@
 SafariZoneEastWildMons:
 	def_grass_wildmons 30 ; encounter rate
-IF DEF(_RED)
-	db 24,NIDORAN_M
-	db 26,DODUO
-	db 22,PARAS
-	db 25,POLIWHIRL
-	db 33,DITTO
-	db 23,ARBOK
-	db 24,NIDORINO
-	db 25,PARASECT
-	db 25,JYNX
-	db 10,SQUIRTLE
-ENDC
-IF DEF(_BLUE)
 	db 24, NIDORAN_F
 	db 26, DODUO
 	db 22, PARAS
@@ -23,7 +10,6 @@ IF DEF(_BLUE)
 	db 25, PARASECT
 	db 25, KANGASKHAN
 	db 28, PINSIR
-ENDC
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
