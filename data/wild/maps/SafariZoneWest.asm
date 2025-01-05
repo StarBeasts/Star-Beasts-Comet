@@ -1,15 +1,5 @@
 SafariZoneWestWildMons:
 	def_grass_wildmons 30 ; encounter rate
-IF DEF(_RED)
-	db 25,NIDORAN_M
-	db 26,DODUO
-	db 23,DITTO
-	db 24,PERSIAN
-	db 33,NIDORINO
-	db 26,RATICATE
-	db 30,OMANYTE
-ENDC
-IF DEF(_BLUE)
 	db 25, NIDORAN_F
 	db 26, DODUO
 	db 23, VENONAT
@@ -17,7 +7,6 @@ IF DEF(_BLUE)
 	db 33, NIDORINA
 	db 26, EXEGGCUTE
 	db 25, NIDORAN_M
-ENDC
 	db 30,KABUTO
 	db 10,CHARMANDER
 	db 26,TAUROS

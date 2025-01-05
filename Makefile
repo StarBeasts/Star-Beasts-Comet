@@ -17,11 +17,9 @@ rom_obj := \
 	gfx/sprites.o \
 	gfx/tilesets.o
 
-pokered_obj        := $(rom_obj:.o=_red.o)
-comet_obj          := $(rom_obj:.o=_blue.o)
-comet_debug_obj    := $(rom_obj:.o=_blue_debug.o)
-pokered_vc_obj     := $(rom_obj:.o=_red_vc.o)
-comet_vc_obj       := $(rom_obj:.o=_blue_vc.o)
+comet_obj          := $(rom_obj:.o=_comet.o)
+comet_debug_obj    := $(rom_obj:.o=_comet_debug.o)
+comet_vc_obj       := $(rom_obj:.o=_comet_vc.o)
 
 
 ### Build tools
@@ -45,14 +43,12 @@ RGBLINK ?= $(RGBDS)rgblink
 .SECONDEXPANSION:
 .PRECIOUS:
 .SECONDARY:
-.PHONY: all red blue blue_debug clean tidy compare tools
+.PHONY: all comet comet_debug clean tidy compare tools
 
 all: $(roms)
-red:        pokered.sgb
-blue:       comet.sgb
-blue_debug: comet_debug.sgb
-red_vc:     pokered.patch
-blue_vc:    comet.patch
+comet:       comet.sgb
+comet_debug: comet_debug.sgb
+comet_vc:    comet.patch
 
 clean: tidy
 	find gfx \
@@ -70,9 +66,7 @@ tidy:
 	      $(patches:.patch=_vc.sym) \
 	      $(patches:.patch=_vc.map) \
 	      $(patches:%.patch=vc/%.constants.sym) \
-	      $(pokered_obj) \
-	      $(comet_obj) \
-	      $(pokered_vc_obj) \
+	      $(comet_obj) \\
 	      $(comet_vc_obj) \
 	      $(comet_debug_obj) \
 	      rgbdscheck.o
@@ -91,11 +85,9 @@ ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
 endif
 
-$(pokered_obj):        RGBASMFLAGS += -D _RED
-$(comet_obj):          RGBASMFLAGS += -D _BLUE
-$(comet_debug_obj):    RGBASMFLAGS += -D _BLUE -D _DEBUG
-$(pokered_vc_obj):     RGBASMFLAGS += -D _RED -D _RED_VC
-$(comet_vc_obj):       RGBASMFLAGS += -D _BLUE -D _BLUE_VC
+$(comet_obj):          RGBASMFLAGS += -D _COMET
+$(comet_debug_obj):    RGBASMFLAGS += -D _COMET -D _DEBUG
+$(comet_vc_obj):       RGBASMFLAGS += -D _COMET -D _VIRTUAL_CONSOLE
 
 %.patch: vc/%.constants.sym %_vc.sgb %.sgb vc/%.patch.template
 	tools/make_patch $*_vc.sym $^ $@
@@ -118,12 +110,10 @@ $1: $2 $$(shell tools/scan_includes $2) $(preinclude_deps) | rgbdscheck.o
 	$$(RGBASM) $$(RGBASMFLAGS) -o $$@ $$<
 endef
 
-# Dependencies for objects (drop _red and _blue from asm file basenames)
-$(foreach obj, $(pokered_obj), $(eval $(call DEP,$(obj),$(obj:_red.o=.asm))))
-$(foreach obj, $(comet_obj), $(eval $(call DEP,$(obj),$(obj:_blue.o=.asm))))
-$(foreach obj, $(comet_debug_obj), $(eval $(call DEP,$(obj),$(obj:_blue_debug.o=.asm))))
-$(foreach obj, $(pokered_vc_obj), $(eval $(call DEP,$(obj),$(obj:_red_vc.o=.asm))))
-$(foreach obj, $(comet_vc_obj), $(eval $(call DEP,$(obj),$(obj:_blue_vc.o=.asm))))
+# Dependencies for objects
+$(foreach obj, $(comet_obj), $(eval $(call DEP,$(obj),$(obj:_comet.o=.asm))))
+$(foreach obj, $(comet_debug_obj), $(eval $(call DEP,$(obj),$(obj:_comet_debug.o=.asm))))
+$(foreach obj, $(comet_vc_obj), $(eval $(call DEP,$(obj),$(obj:_comet_vc.o=.asm))))
 
 # Dependencies for VC files that need to run scan_includes
 %.constants.sym: %.constants.asm $(shell tools/scan_includes %.constants.asm) $(preinclude_deps) | rgbdscheck.o
@@ -135,16 +125,12 @@ endif
 %.asm: ;
 
 
-pokered_pad        = 0x00
 comet_pad          = 0x00
-pokered_vc_pad     = 0x00
 comet_vc_pad       = 0x00
 comet_debug_pad    = 0xff
 
-pokered_opt        = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "STAR BEASTS"
 comet_opt          = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "STAR BEASTS"
 comet_debug_opt    = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "STAR BEASTS"
-pokered_vc_opt     = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "STAR BEASTS"
 comet_vc_opt       = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "STAR BEASTS"
 
 %.sgb: $$(%_obj) layout.link
@@ -160,15 +146,11 @@ gfx/battle/move_anim_1.2bpp: tools/gfx += --trim-whitespace
 gfx/intro/blue_jigglypuff_1.2bpp: rgbgfx += -Z
 gfx/intro/blue_jigglypuff_2.2bpp: rgbgfx += -Z
 gfx/intro/blue_jigglypuff_3.2bpp: rgbgfx += -Z
-gfx/intro/red_nidorino_1.2bpp: rgbgfx += -Z
-gfx/intro/red_nidorino_2.2bpp: rgbgfx += -Z
-gfx/intro/red_nidorino_3.2bpp: rgbgfx += -Z
 gfx/intro/gengar.2bpp: tools/gfx += --remove-duplicates
 
 gfx/credits/the_end.2bpp: tools/gfx += --interleave --png=$<
 
-gfx/slots/red_slots_1.2bpp: tools/gfx += --trim-whitespace
-gfx/slots/blue_slots_1.2bpp: tools/gfx += --trim-whitespace
+gfx/slots/slots_1.2bpp: tools/gfx += --trim-whitespace
 
 gfx/tilesets/%.2bpp: tools/gfx += --trim-whitespace
 gfx/tilesets/reds_house.2bpp: tools/gfx += --preserve=0x48
