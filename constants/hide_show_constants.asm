@@ -40,6 +40,8 @@ DEF SHOW EQU $15
 	const HS_ROUTE_2_ITEM_2                ; 1A X
 	const HS_ROUTE_4_ITEM                  ; 1B X
 	const HS_ROUTE_9_ITEM                  ; 1C X
+	const HS_ROUTE_10_GUARD_1
+	const HS_ROUTE_10_GUARD_2
 	const HS_ROUTE_12_SNORLAX              ; 1D
 	const HS_ROUTE_12_ITEM_1               ; 1E X
 	const HS_ROUTE_12_ITEM_2               ; 1F X
