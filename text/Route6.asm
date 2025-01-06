@@ -107,7 +107,17 @@ _Route6AfterBattleText6::
 	done
 
 _Route6Text7::
-	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	text "ROUTE 6 -"
+	line "ROUTE 7"
 	done
+
+_Route6Text8::
+	text "CRACTURE CHASM"
+	
+	para "Connects to"
+	line "ZIRCONIA"
+
+	para "Beware of wild"
+	line "CRACTURE"
+	done
+

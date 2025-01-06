@@ -20,6 +20,7 @@ Route6_TextPointers:
 	dw Route6Text5
 	dw Route6Text6
 	dw Route6Text7
+	dw Route6Text8
 
 Route6TrainerHeaders:
 	def_trainers
@@ -143,4 +144,8 @@ Route6AfterBattleText6:
 
 Route6Text7:
 	text_far _Route6Text7
+	text_end
+
+Route6Text8:
+	text_far _Route6Text8
 	text_end

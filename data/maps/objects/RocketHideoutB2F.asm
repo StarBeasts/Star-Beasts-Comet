@@ -4,7 +4,7 @@ RocketHideoutB2F_Object:
 	def_warp_events
 	warp_event 16, 19, ROCKET_HIDEOUT_B1F, 5
 	warp_event 18,  5, ROCKET_HIDEOUT_B3F, 1
-	warp_event  8,  5, ROCKET_HIDEOUT_B1F, 4
+	warp_event  8,  5, VULT_MAZE, 4
 
 	def_bg_events
 

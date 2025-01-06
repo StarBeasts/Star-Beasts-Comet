@@ -66,7 +66,7 @@ tidy:
 	      $(patches:.patch=_vc.sym) \
 	      $(patches:.patch=_vc.map) \
 	      $(patches:%.patch=vc/%.constants.sym) \
-	      $(comet_obj) \\
+	      $(comet_obj) \
 	      $(comet_vc_obj) \
 	      $(comet_debug_obj) \
 	      rgbdscheck.o
