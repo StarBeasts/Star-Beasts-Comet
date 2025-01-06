@@ -60,9 +60,13 @@ _BillThankYouText::
 	cont "You didn't?"
 	cont "That's a bummer."
 
-	para "I've got to thank"
-	line "you... Oh here,"
-	cont "maybe this'll do."
+	para "Hmm."
+
+	para "Hey, I know we"
+	line "just met and all,"
+	cont "but y'think you"
+	cont "could do me"
+	cont "another favor?"
 	prompt
 
 _SSTicketReceivedText::
@@ -73,28 +77,43 @@ _SSTicketReceivedText::
 	text_end
 
 _SSTicketNoRoomText::
-	text "You've got too"
-	line "much stuff, kid!"
+	text "Well, you have"
+	line "to clear up"
+	cont "your bag, first!"
 	done
 
 _BillsHouseText_1e8cb::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	text "That's an ID,"
+	line "for the trade"
+	cont "ship S.S. RUBIN,"
+	cont "in LEGRANDITO."
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "rich folks. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "I was supposed to"
+	line "ship high-end"
+	cont "equipment to a"
+	cont "client, but"
+	cont "apparently my"
+	cont "items were"
+	cont "turned away."
+
+	para "You think you"
+	line "could go and see"
+	cont "what's going on?"
+
+	para "Thanks a million,"
+	line "kid."
 	done
 
 _BillsHouseText_1e8da::
-	text "BILL: Look, kid,"
-	line "just check out"
-	cont "some of my rare"
+	text "BILL: Hey, kid!"
+
+	para "Did you ever find"
+	line "out what was up"
+	cont "with my shipment?"
+
+	para "Well, in the"
+	line "meantime, just"
+	cont "check out some"
+	cont "of my rare"
 	cont "BEASTS on my PC!"
 	done

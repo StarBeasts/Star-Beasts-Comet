@@ -2088,7 +2088,8 @@ wRoute18Gate1FCurScript:: db
 wSecretGardenCurScript:: db
 wAncientCaveCurScript:: db
 wDevilsCanyonCurScript:: db
-	ds 3
+wRoute7CurScript:: db
+	ds 2
 wGameProgressFlagsEnd::
 
 UNION
