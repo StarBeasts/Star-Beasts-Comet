@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/marowak.pic", 0, 1 ; sprite dimensions
 	dw MarowakPicFront, MarowakPicBack
 
-	db WRAP, SHADOW_CLAW, SCREECH, HEADBUTT ; level 1 learnset
+	db SCREECH, SHADOW_CLAW, WRAP, HEADBUTT ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
