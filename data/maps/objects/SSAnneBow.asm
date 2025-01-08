@@ -8,10 +8,10 @@ SSAnneBow_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  5,  2, SPRITE_SUPER_NERD, STAY, UP, 1 ; person
-	object_event  4,  9, SPRITE_SAILOR, STAY, NONE, 2 ; person
-	object_event  7, 11, SPRITE_CLERK, STAY, NONE, 3 ; person
-	object_event  4,  4, SPRITE_SAILOR, STAY, DOWN, 4, OPP_SAILOR, 1
-	object_event 10,  8, SPRITE_SAILOR, STAY, UP, 5, OPP_SAILOR, 2
+	object_event  5,  5, SPRITE_SUPER_NERD, STAY, RIGHT, 1 ; person
+	object_event  5,  8, SPRITE_SAILOR, STAY, RIGHT, 2 ; person
+	object_event 11, 11, SPRITE_CLERK, STAY, ANY_DIR, 3 ; person
+	object_event 11,  5, SPRITE_SAILOR, STAY, DOWN, 4, OPP_SAILOR, 1
+	object_event 11,  8, SPRITE_SAILOR, STAY, UP, 5, OPP_SAILOR, 2
 
 	def_warps_to SS_ANNE_BOW

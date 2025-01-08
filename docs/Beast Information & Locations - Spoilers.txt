@@ -4107,7 +4107,7 @@ Speed: 80
 Location: Celadon Game Corner (Prize), Safari Zone, Cerulean Cave
 
 Starting Moves:
-LET'S_PLAY, LOVELY_KISS
+LETS_PLAY, LOVELY_KISS
 
 Learnset
 18, LOVELY_KISS

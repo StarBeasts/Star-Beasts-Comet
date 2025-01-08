@@ -12,6 +12,6 @@ SSAnneB1F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 12, 4, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 1 ; person
+	object_event 10,  4, SPRITE_ROCKET, STAY, DOWN, 1 ; person
 
 	def_warps_to SS_ANNE_B1F
