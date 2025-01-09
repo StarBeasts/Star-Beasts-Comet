@@ -763,6 +763,8 @@ ExtraWarpCheck::
 	jr z, .useFunction2
 	cp SAFFRONTILESET
 	jr z, .useFunction2
+	cp POWERPLANT_TILESET
+	jr z, .useFunction2
 .useFunction1
 	ld hl, IsPlayerFacingEdgeOfMap
 	jr .doBankswitch
