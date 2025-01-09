@@ -32,10 +32,6 @@ ForestGate_Block::
 Museum_Block::
 Gate_Block::        INCBIN "gfx/blocksets/gate.bst"
 
-Forest_GFX::        INCBIN "gfx/tilesets/forest.2bpp"
-Forest_Block::      INCBIN "gfx/blocksets/forest.bst"
-
-
 
 SECTION "Tilesets 3", ROMX
 
@@ -77,3 +73,8 @@ Cavern_GFX::        INCBIN "gfx/tilesets/cavern.2bpp"
 Cavern_Block::      INCBIN "gfx/blocksets/cavern.bst"
 SaffronTileset_GFX::        INCBIN "gfx/tilesets/saffrontileset.2bpp"
 SaffronTileset_Block::      INCBIN "gfx/blocksets/saffrontileset.bst"
+
+
+SECTION "Tileset 7", ROMX
+Forest_GFX::        INCBIN "gfx/tilesets/forest.2bpp"
+Forest_Block::      INCBIN "gfx/blocksets/forest.bst"
