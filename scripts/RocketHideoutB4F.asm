@@ -17,17 +17,17 @@ RocketHideout4Script_45473:
 	jr nz, .asm_45496
 	CheckBothEventsSet EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_0, EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_1, 1
 	jr z, .asm_4548c
-	ld a, $2d
+	ld a, $2f
 	jr .asm_45498
 .asm_4548c
 	ld a, SFX_GO_INSIDE
 	call PlaySound
 	SetEvent EVENT_ROCKET_HIDEOUT_4_DOOR_UNLOCKED
 .asm_45496
-	ld a, $e
+	ld a, $01
 .asm_45498
 	ld [wNewTileBlockID], a
-	lb bc, 5, 12
+	lb bc, 1, 2
 	predef_jump ReplaceTileBlock
 
 RocketHideout4Script_454a3:

@@ -10,6 +10,7 @@ Route6_Object:
 
 	def_bg_events
 	bg_event 39, 15, 7 ; Route6Text7
+	bg_event 21, 9, 8 ; Route6Text8
 
 	def_object_events
 	object_event 36, 10, SPRITE_COOLTRAINER_M, STAY, RIGHT, 1, OPP_JR_TRAINER_M, 4

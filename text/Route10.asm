@@ -88,7 +88,8 @@ _Route10AfterBattleText5::
 	line "SUPER ROD, ya can"
 	cont "find coffee 'n"
 	cont "slime monsters in"
-	cont "this here river!"
+	cont "that there river"
+	cont "behind me!"
 	done
 
 _Route10BattleText6::
@@ -110,15 +111,58 @@ _Route10AfterBattleText6::
 	cont "cute fan!"
 	done
 
-_Route10Text9::
 _Route10Text7::
-	text "ROCK TUNNEL"
+	text "Urgh..."
+
+	para "How do the cops"
+	line "wear these itchy"
+	cont "uniforms...?"
+
+	para "Oh!"
+
+	para "Uhh..."
+
+	para "Get lost, kid."
+
+	para "We're, umm..."
+
+	para "Doing official"
+	line "POLICE business."
+
+	para "Heheh, nailed it."
+	done
+
+_Route10Text8::
+	text "What's takin' the"
+	line "BOSS so long?"
+
+	para "Eh? Why the hell"
+	line "you eyin' me?"
+
+	para "Scram, ya"
+	line "little brat."
+
+	para "Until we get that"
+	line "CYBERSCOPE, we're"
+	cont "stuck in this"
+	cont "lame ass stupid"
+	cont "place."
+
+	para "..."
+
+	para "Wait, did I say"
+	line "that or think it?"
+
+	para "Hey, you didn't"
+	line "hear that!"
+	done
+
+_Route10Text9::
+	text "NORTH GATE TO"
+	line "METAL METROPOLIS"
 	done
 
 _Route10Text10::
-	text "POWER PLANT"
-	done
-_Route10Text11::
 	text "THE HOME OF"
 	line "THE REGGAE LEGEND"
 	cont "DJ MASTER DOUBLE"

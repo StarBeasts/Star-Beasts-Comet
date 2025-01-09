@@ -11,13 +11,13 @@ ExternalMapEntries:
 	external_map  10, 3, ViridianCityName
 	external_map  9,  6, PewterCityName
 	external_map  7,  6, CeruleanCityName
-	external_map 14,  5, LavenderTownName
-	external_map 10,  9, VermilionCityName
-	external_map  7,  5, CeladonCityName
-	external_map  8, 13, FuchsiaCityName
-	external_map  2, 15, CinnabarIslandName
-	external_map  0,  2, IndigoPlateauName
-	external_map 10,  5, SaffronCityName
+	external_map 2,  7, LavenderTownName
+	external_map 6,  3, VermilionCityName
+	external_map  3,  5, CeladonCityName
+	external_map  7, 10, FuchsiaCityName
+	external_map  14, 12, CinnabarIslandName
+	external_map  6,  0, IndigoPlateauName
+	external_map 7,  8, SaffronCityName
 	external_map  8,  3, PalletTownName ; unused
 	external_map  7, 3, Route1Name
 	external_map  9,  3, Route2Name

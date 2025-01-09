@@ -20,10 +20,9 @@ Route10_TextPointers:
 	dw Route10Text5
 	dw Route10Text6
 	dw Route10Text7
-	dw PokeCenterSignText
+	dw Route10Text8
 	dw Route10Text9
 	dw Route10Text10
-	dw Route10Text11
 
 Route10TrainerHeaders:
 	def_trainers
@@ -149,15 +148,18 @@ Route10AfterBattleText6:
 	text_far _Route10AfterBattleText6
 	text_end
 
-Route10Text9:
 Route10Text7:
-	text_far _Route10Text7 ; _Route10Text9
+	text_far _Route10Text7
+	text_end
+
+Route10Text8:
+	text_far _Route10Text8
+	text_end
+
+Route10Text9:
+	text_far _Route10Text9
 	text_end
 
 Route10Text10:
 	text_far _Route10Text10
-	text_end
-
-Route10Text11:
-	text_far _Route10Text11
 	text_end

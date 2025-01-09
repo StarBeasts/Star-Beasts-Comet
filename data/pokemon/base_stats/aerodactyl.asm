@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/aerodactyl.pic", 0, 1 ; sprite dimensions
 	dw AerodactylPicFront, AerodactylPicBack
 
-	db BODY_SLAM, SOLARBEAM, NO_MOVE, NO_MOVE ; level 1 learnset
+	db FAIRY_WIND, MEGA_DRAIN, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

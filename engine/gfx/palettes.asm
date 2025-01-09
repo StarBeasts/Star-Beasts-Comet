@@ -167,11 +167,11 @@ SetPal_Overworld:
 	cp GLITCH_ROOM
 	jp z, .purpleandRed
 	cp OWAI_HOTEL
-	jr z, .grey
+	jp z, .grey
 	cp VULT_MAZE
-	jr z, .bloodstone
+	jp z, .bloodstone
 	cp VILLA_1F
-	jr z, .pallet
+	jp z, .pallet
 	cp VILLA_B1F
 	jr z, .grey
 	cp VILLA_2F
@@ -227,6 +227,12 @@ SetPal_Overworld:
 	jr z, .bloodstone
 	cp ROUTE_16_GATE_2F
 	jr z, .mewMon
+	cp DIGLETTS_CAVE
+	jr z, .brownMon
+	cp ANCIENT_CAVE
+	jr z, .grey
+	cp DEVILS_CANYON
+	jr z, .bloodstone
 .caveDefault
 	ld a, PAL_CYANMON - 1
 	jr .town
