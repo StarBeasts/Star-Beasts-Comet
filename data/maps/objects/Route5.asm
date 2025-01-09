@@ -2,8 +2,8 @@ Route5_Object:
 	db $43 ; border block
 
 	def_warp_events
-	warp_event  2, 53, ROUTE_2_GATE, 3
-	warp_event  2, 52, ROUTE_2_GATE, 4
+	warp_event  4, 53, ROUTE_2_GATE, 3
+	warp_event  4, 52, ROUTE_2_GATE, 4
 	warp_event  8, 49, PEWTER_SPEECH_HOUSE, 4
 	warp_event 22, 13, POWER_PLANT, 2
 

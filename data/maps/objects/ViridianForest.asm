@@ -5,15 +5,15 @@ ViridianForest_Object:
 	warp_event 10, 43, ROUTE_1, 1
 	warp_event 38, 42, ROUTE_2, 1
 	warp_event 25,  5, MT_MOON_POKECENTER, 2
-	warp_event 51, 34, MOLE_HOLE, 1
-	warp_event 51, 35, MOLE_HOLE, 2
+	warp_event 49, 34, MOLE_HOLE, 1
+	warp_event 49, 35, MOLE_HOLE, 2
 
 	def_bg_events
 	bg_event 18, 28, 12 ; ViridianForestText9
-	bg_event 26, 31, 13 ; ViridianForestText10
+	bg_event 24, 32, 13 ; ViridianForestText10
 	bg_event 42, 20, 14 ; ViridianForestText11
 	bg_event 42, 12, 15 ; ViridianForestText12
-	bg_event  8, 14, 16 ; ViridianForestText13
+	bg_event 10, 12, 16 ; ViridianForestText13
 	bg_event 26,  5, 17 ; ViridianForestText14
 
 	def_object_events
@@ -27,6 +27,6 @@ ViridianForest_Object:
 	object_event 23, 17, SPRITE_POKE_BALL, STAY, NONE, 8, POTION
 	object_event  9, 19, SPRITE_POKE_BALL, STAY, NONE, 9, POKE_BALL
 	object_event 30, 28, SPRITE_YOUNGSTER, STAY, NONE, 10 ; person
-	object_event 23, 40, SPRITE_GAMBLER, STAY, DOWN, 11 ; person
+	object_event 25, 39, SPRITE_GAMBLER, STAY, DOWN, 11 ; person
 
 	def_warps_to VIRIDIAN_FOREST
