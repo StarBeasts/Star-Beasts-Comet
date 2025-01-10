@@ -1,12 +1,12 @@
 ViridianForest_Object:
-	db $2 ; border block
+	db $89 ; border block
 
 	def_warp_events
 	warp_event 10, 43, ROUTE_1, 1
 	warp_event 38, 42, ROUTE_2, 1
 	warp_event 25,  5, MT_MOON_POKECENTER, 2
-	warp_event 49, 34, MOLE_HOLE, 1
-	warp_event 49, 35, MOLE_HOLE, 2
+	warp_event 51, 34, MOLE_HOLE, 1
+	warp_event 51, 35, MOLE_HOLE, 2
 
 	def_bg_events
 	bg_event 18, 28, 12 ; ViridianForestText9
