@@ -16,7 +16,7 @@ CeruleanCity_Object:
 	warp_event 27, 19, VERMILION_TRADE_HOUSE, 1
 
 	def_bg_events
-	bg_event 29,  7, 12 ; CeruleanCityText12
+	bg_event 31,  7, 12 ; CeruleanCityText12
 	bg_event 15, 11, 13 ; CeruleanCityText13
 	bg_event 26, 25, 14 ; MartSignText
 	bg_event 24, 17, 15 ; PokeCenterSignText
