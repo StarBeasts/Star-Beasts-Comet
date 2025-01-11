@@ -39,6 +39,7 @@ Route7Script_515e1:
 
 Route7_TextPointers:
 	dw Route7Text1
+	dw Route7Text2
 
 Route7TrainerHeaders:
 	def_trainers
@@ -46,3 +47,8 @@ Route7TrainerHeaders:
 Route7Text1:
 	text_far _Route7Text1
 	text_end
+
+Route7Text2:
+	text_far _Route7Text2
+	text_end
+

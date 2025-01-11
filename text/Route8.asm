@@ -157,7 +157,21 @@ _Route8AfterBattleText9::
 	done
 
 _Route8Text10::
-	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
+	text "MISERITE MEADOW"
+	line "FOREST CLEARING"
+
+	para "DEFORESTATION"
+	line "PROHIBITED BY LAW"
 	done
+
+_Route8Text11::
+	text "ROUTE (N)"
+
+	para "W: GARNET GARDENS"
+	
+	para "N: MISERITE MEADOW"
+	
+	para "S: STEVE'S HOUSE,"
+	line "BLACKROCK BLUFF"
+	done
+

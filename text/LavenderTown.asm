@@ -24,12 +24,12 @@ _LavenderTownText2::
 
 	para "Memorial services"
 	line "are held in"
-	cont "BEAST TOWER."
+	cont "GALENA GRAVEYARD."
 	done
 
 _LavenderTownText3::
-	text "GHOSTs appeared"
-	line "in BEAST TOWER."
+	text "GHOSTs appeared in"
+	line "GALENA GRAVEYARD."
 
 	para "I think they're"
 	line "the spirits of"
@@ -38,27 +38,30 @@ _LavenderTownText3::
 	done
 
 _LavenderTownText4::
-	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	text "BLACKROCK BLUFF"
+	line "The last place"
+	cont "you'll ever see,"
+	cont "the last place"
+	cont "you'll ever be"
 	done
 
 _LavenderTownText5::
-	text "New SILPH SCOPE!"
+	text "New CYBERSCOPE!"
 
 	para "Make the Invisible"
 	line "Plain to See!"
 
-	para "SILPH CO."
+	para "GAI CO."
 	done
 
 _LavenderTownText8::
-	text "LAVENDER VOLUNTEER"
-	line "BEAST HOUSE"
+	text "BLACKROCK"
+	line "BLUFF VOLUNTEER"
+	cont "BEAST HOUSE"
 	done
 
 _LavenderTownText9::
 	text "May the Souls of"
 	line "BEASTS Rest Easy"
-	cont "BEAST TOWER"
+	cont "GALENA GRAVEYARD"
 	done

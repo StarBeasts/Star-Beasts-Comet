@@ -66,6 +66,8 @@ _Route1Text3::
 	text "ROUTE 1"
 	line "ZIRCONIA -"
 	cont "OLIVINE ORCHARD"
+
+	para "WEST: LEGRANDITO"
 	done
 
 _Route1Text4::

@@ -17,7 +17,7 @@ _SaffronCityText3::
 	done
 
 _SaffronCityText4::
-	text "SAFFRON belongs"
+	text "This CITY belongs"
 	line "to TEAM ROCKET!"
 	done
 
@@ -32,7 +32,7 @@ _SaffronCityText6::
 	done
 
 _SaffronCityText7::
-	text "With SILPH under"
+	text "With GAI CO. under"
 	line "control, we can"
 	cont "exploit BEASTS"
 	cont "around the world!"
@@ -74,7 +74,7 @@ _SaffronCityText12::
 _SaffronCityText13::
 	text "I saw ROCKET"
 	line "BOSS escaping"
-	cont "SILPH's building."
+	cont "GAI's building."
 	done
 
 _SaffronCityText14::
@@ -94,9 +94,13 @@ _SaffronCityText15::
 	done
 
 _SaffronCityText16::
-	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+	text "METAL METROPOLIS"
+
+	para "RELAS's beating"
+	line "economic heart"
+
+	para "Our STEEL is"
+	line "second to none!"
 	done
 
 _SaffronCityText17::
@@ -104,7 +108,7 @@ _SaffronCityText17::
 	done
 
 _SaffronCityText18::
-	text "SAFFRON CITY"
+	text "METAL METROPOLIS"
 	line "# BEAST GYM"
 	cont "LEADER: SABRINA"
 
@@ -137,8 +141,8 @@ _SaffronCityText21::
 	done
 
 _SaffronCityText22::
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "GAI CO."
+	line "HEADQUARTERS"
 	done
 
 _SaffronCityText24::
@@ -147,7 +151,7 @@ _SaffronCityText24::
 	done
 
 _SaffronCityText25::
-	text "SILPH's latest"
+	text "GAI CO.'s latest"
 	line "product!"
 
 	para "Release to be"

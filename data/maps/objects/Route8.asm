@@ -10,6 +10,7 @@ Route8_Object:
 
 	def_bg_events
 	bg_event 29,  9, 10 ; Route8Text10
+	bg_event 53,  9, 11 ; Route8Text11
 
 	def_object_events
 	object_event 19,  9, SPRITE_ERIKA, STAY, DOWN, 1, OPP_SUPER_NERD, 3

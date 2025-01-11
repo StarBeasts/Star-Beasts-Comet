@@ -14,11 +14,11 @@ LavenderTown_Object:
 
 	def_bg_events
 	bg_event 15, 13, 4 ; LavenderTownText4
-	bg_event 13,  7, 5 ; LavenderTownText5
+	bg_event 11, 29, 5 ; LavenderTownText5
 	bg_event  6,  9, 6 ; MartSignText
 	bg_event  8, 19, 7 ; PokeCenterSignText
 	bg_event 11, 15, 8 ; LavenderTownText8
-	bg_event 11, 29, 9 ; LavenderTownText9
+	bg_event 13,  7, 9 ; LavenderTownText9
 
 	def_object_events
 	object_event 14,  8, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person

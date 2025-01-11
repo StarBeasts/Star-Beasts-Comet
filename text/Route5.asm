@@ -45,7 +45,6 @@ _Route5Text3::
 
 _Route5Text4::
 	text "DOLOMITE DAM"
-	line "RECREATIONAL"
-	cont "FACILITY"
+	line "OBSERVATION DECK"
 	done
 

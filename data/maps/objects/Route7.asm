@@ -9,6 +9,7 @@ Route7_Object:
 
 	def_bg_events
 	bg_event 25, 19, 1 ; Route7Text1
+	bg_event 25, 29, 2 ; Route7Text2
 
 	def_object_events
 

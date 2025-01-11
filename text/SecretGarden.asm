@@ -24,8 +24,16 @@ _SecretGardenText3::
 	done
 
 _SecretGardenText4::
-	text "BILL'S SECRET"
+	text "STEVE'S SECRET"
 	line "GARDEN"
+
+	para "I'm serious."
+
+	para "Do anything other"
+	line "than catch #"
+	cont "BEASTS in here,"
+	cont "and it will not"
+	cont "end well for you."
 	done
 
 

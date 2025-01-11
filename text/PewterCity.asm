@@ -169,8 +169,8 @@ _PewterCityText7::
 
 	para "Thieves have been"
 	line "stealing BEAST"
-	cont "souls at MT."
-	cont "MOON! Please call"
+	cont "souls at COBALT"
+	cont "CAVE! Please call"
 	cont "QQ POLICE with"
 	cont "any info!"
 	done

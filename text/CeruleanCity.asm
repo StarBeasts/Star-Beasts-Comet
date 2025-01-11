@@ -256,7 +256,7 @@ _CeruleanCityText16::
 	done
 
 _CeruleanCityText17::
-	text "CERULEAN CITY"
+	text "SAPPHIRE SANDS"
 	line "# BEAST GYM"
 	cont "LEADER: MIZU"
 
