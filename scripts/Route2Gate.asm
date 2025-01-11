@@ -4,6 +4,13 @@ Route2Gate_Script:
 Route2Gate_TextPointers:
 	dw Route2GateText1
 	dw Route2GateText2
+	dw Route2GateText3
+	dw Route2GateText4
+	dw Route2GateText5
+	dw Route2GateText6
+	dw Route2GateText7
+	dw Route2GateText8
+	dw Route2GateText9
 
 Route2GateText1:
 	text_asm
@@ -36,4 +43,35 @@ Route2GateText_5d616:
 
 Route2GateText2:
 	text_far _Route2GateText2
+	text_end
+
+Route2GateText3:
+	text_far _Route2GateText3
+	text_end
+
+Route2GateText4:
+	text_far _Route2GateText4
+	text_end
+
+Route2GateText5:
+	text_far _Route2GateText5
+	text_end
+
+Route2GateText6:
+	text_asm
+	ld a, TRADE_FOR_NEMO
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
+
+Route2GateText7:
+	text_far _Route2GateText7
+	text_end
+
+Route2GateText8:
+	text_far _Route2GateText8
+	text_end
+
+Route2GateText9:
+	text_far _Route2GateText9
 	text_end

@@ -68,7 +68,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const DIGLETTS_CAVE_ROUTE_2,          4,  4 ; $2E
 	map_const VIRIDIAN_FOREST_NORTH_GATE,     9,  13 ; $2F
 	map_const ROUTE_2_TRADE_HOUSE,            8,  4 ; $30
-	map_const ROUTE_2_GATE,                   5,  4 ; $31
+	map_const ROUTE_2_GATE,                   5,  31 ; $31
 	map_const VIRIDIAN_FOREST_SOUTH_GATE,   46,  5 ; $32
 	map_const VIRIDIAN_FOREST,               26, 24 ; $33
 	map_const MUSEUM_1F,                     10,  4 ; $34
@@ -76,7 +76,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const PEWTER_GYM,                     5,  7 ; $36
 	map_const PEWTER_NIDORAN_HOUSE,           4,  4 ; $37
 	map_const PEWTER_MART,                    4,  4 ; $38
-	map_const PEWTER_SPEECH_HOUSE,            11,  4 ; $39
+	map_const PEWTER_SPEECH_HOUSE,            4,  4 ; $39
 	map_const PEWTER_POKECENTER,              7,  4 ; $3A
 	map_const MT_MOON_1F,                    20, 28 ; $3B
 	map_const MT_MOON_B1F,                   17, 14 ; $3C

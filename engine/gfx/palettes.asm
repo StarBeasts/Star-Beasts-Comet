@@ -156,7 +156,7 @@ SetPal_Overworld:
 	jr c, .townOrRoute
 	cp VIRIDIAN_FOREST
 	jp z, .invertColors
-	cp PEWTER_SPEECH_HOUSE
+	cp ROUTE_2_GATE
 	jp z, .mewMon
 	cp BLOODSTONE_BAY
 	jp z, .bloodstone

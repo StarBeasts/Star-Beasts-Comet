@@ -1,5 +1,5 @@
 _TowerRescueFujiText::
-	text "MR.FUJI: Heh? You"
+	text "EVEREST: Heh? You"
 	line "came to save me?"
 
 	para "Thank you. But, I"
@@ -66,22 +66,26 @@ _PokemonTower7AfterBattleText2::
 
 _PokemonTower7BattleText3::
 	text "...?"
+
+	para "You, again."
 	
-	para "Have we met"
-	line "before?"
+	para "Well, aren't you"
+	line "a nuisance?"
 
-	para "Regardless,"
-	line "I'm afraid you'll"
-	cont "have to wait your"
-	cont "turn..."
-
-	para "I have some"
-	line "questions for the"
-	cont "old man..."
+	para "Very well."
+	
+	para "I will cast you"
+	line "aside, and then"
+	cont "the old man will"
+	cont "tell me everything"
+	cont "I need to know."
 	done
 
 _PokemonTower7EndBattleText3::
 	text "..."
+
+	para "You are becoming"
+	line "bothersome."
 	prompt
 
 _PokemonTower7AfterBattleText3::
@@ -92,6 +96,6 @@ _PokemonTower7AfterBattleText3::
 
 	para "It matters not. I"
 	line "have other, more"
-	cont "pressing concerns"
+	cont "immediate concerns"
 	cont "to see to."
 	done

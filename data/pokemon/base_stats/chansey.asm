@@ -1,6 +1,6 @@
 	db DEX_CHANSEY ; pokedex id
 
-	db 170,  90,  75,  65, 90
+	db 170,  80,  75,  65,  90
 	;   hp  atk  def  spd  spc
 
 	db ICE, DRAGON ; type

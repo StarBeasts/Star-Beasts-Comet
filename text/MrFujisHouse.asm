@@ -1,18 +1,19 @@
 _LavenderHouse1Text_1d8d1::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
+	text "That's odd, MR."
+	line "EVEREST is gone."
 	cont "Where'd he go?"
 	done
 
 _LavenderHouse1Text_1d8d6::
-	text "MR.FUJI had been"
+	text "MR.EVEREST was"
 	line "praying alone for"
 	cont "the departed."
 	done
 
 _LavenderHouse1Text_1d8f4::
 	text "This is really"
-	line "MR.FUJI's house."
+	line "MR.EVEREST's"
+	cont "house."
 
 	para "He's really kind!"
 
@@ -36,7 +37,7 @@ _LavenderHouse1Text4::
 	text_end
 
 _LavenderHouse1Text_1d94c::
-	text "MR.FUJI: <PLAYER>."
+	text "EVEREST: <PLAYER>."
 
 	para "Your #DEX quest"
 	line "may fail without"
@@ -72,7 +73,7 @@ _FluteNoRoomText::
 	done
 
 _MrFujiAfterFluteText::
-	text "MR.FUJI: Has my"
+	text "EVEREST: Has my"
 	line "FLUTE helped you?"
 	done
 

@@ -3729,7 +3729,7 @@ PSYWAVE,      SUBSTITUTE,   CUT,          FLASH
 Ice / Dragon
 
 HP: 170
-Attack: 90
+Attack: 80
 Defense: 75
 Special: 90
 Speed: 65
