@@ -32,7 +32,7 @@ _TM36NoRoomText::
 	done
 
 _SilphCo2BattleText1::
-	text "Help! I'm a SILPH"
+	text "Help! I'm a GAI CO."
 	line "employee."
 	done
 
@@ -94,7 +94,7 @@ _SilphCo2EndBattleText4::
 	prompt
 
 _SilphCo2AfterBattleText4::
-	text "SILPH CO. will"
+	text "GAI CO. will"
 	line "be merged with"
 	cont "TEAM ROCKET!"
 	done

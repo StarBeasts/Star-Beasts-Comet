@@ -1,7 +1,7 @@
 _SilphCoPresidentText::
 	text "PRESIDENT: Thank"
 	line "you for saving"
-	cont "SILPH!"
+	cont "GAI CO!"
 
 	para "I will never"
 	line "forget you saved"
@@ -94,7 +94,7 @@ _SilphCo10Text_62330::
 _SilphCo10Text_62335::
 	text "Damn it all!"
 	line "You ruined our"
-	cont "plans for SILPH!"
+	cont "plans for GAI CO!"
 
 	para "But, TEAM ROCKET"
 	line "will never fall!"

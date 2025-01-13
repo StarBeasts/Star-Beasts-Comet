@@ -71,7 +71,7 @@ ItemNames::
 	li "COIN CASE"
 	li "PARCEL"
 	li "ITEMFINDER"
-	li "SILPH SCOPE"
+	li "CYBERSCOPE"
 	li "STAR FLUTE"
 	li "LIFT KEY"
 	li "EXP.ALL"

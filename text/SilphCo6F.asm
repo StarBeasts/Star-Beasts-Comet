@@ -49,16 +49,16 @@ _SilphCo6Text_1a294::
 
 _SilphCo6Text_1a2a6::
 	text "They must have"
-	line "targeted SILPH"
-	cont "for our"
+	line "targeted GAI"
+	cont "CO. for our"
 	cont "# BEAST"
 	cont "products."
 	done
 
 _SilphCo6Text_1a2ab::
 	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
+	line "GAI CO. when"
+	cont "you get older!"
 	done
 
 _SilphCo6BattleText2::

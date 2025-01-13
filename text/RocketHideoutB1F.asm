@@ -42,7 +42,7 @@ _RocketHideout1EndBattleText4::
 	prompt
 
 _RocketHideout1AfterBattleTxt4::
-	text "SILPH SCOPE?"
+	text "CYBERSCOPE?"
 	line "I don't know"
 	cont "where it is!"
 	done

@@ -495,7 +495,7 @@ TMNotebookText::
 	line "HMs that can be"
 	cont "used repeatedly."
 
-	para "SILPH CO.@"
+	para "GAI CO.@"
 	text_end
 
 _TurnPageText::
@@ -1325,9 +1325,9 @@ _TrainerWantsToFightText::
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
+	text "CYBERSCOPE"
 	line "unveiled the"
-	cont "GHOST's identity!"
+	cont "GHOST's true form!"
 	prompt
 
 _GhostCantBeIDdText::

@@ -10,10 +10,13 @@ _RocketHideout3EndBattleText2::
 	prompt
 
 _RocketHideout3AfterBattleTxt2::
-	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	text "CYBERSCOPE?"
+	line "The BOSS's been"
+	cont "looking for it."
+	cont "Those PSYCHO"
+	cont "freaks are"
+	cont "keeping it here,"
+	cont "somewhere."
 	done
 
 _RocketHideout3BattleTxt::

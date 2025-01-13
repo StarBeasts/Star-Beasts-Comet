@@ -168,3 +168,7 @@ _VermilionCityText15::
 	line "BART'S BAR"
 	done
 
+_VermilionCityText16::
+	text "UNDERGROUND PATH"
+	done
+

@@ -48,6 +48,5 @@ _SilphCo5Text11::
 	text "It's a note..."
 
 	para "RELOCATED TO LAB"
-	line "IN CELADON UNTIL"
-	cont "FURTHER NOTICE."
+	line "IN GARNET GARDENS."
 	done

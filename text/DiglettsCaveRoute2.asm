@@ -1,9 +1,9 @@
 _DiglettsCaveRoute2Text1::
-	text "I went to ROCK"
-	line "TUNNEL, but it's"
-	cont "dark and scary."
+	text "You sure you know"
+	line "where you're"
+	cont "headed?"
 
-	para "If a BEAST's"
-	line "FLASH could light"
-	cont "it up..."
+	para "This path sets"
+	line "you on the road"
+	cont "to the ELITE FOUR!"
 	done

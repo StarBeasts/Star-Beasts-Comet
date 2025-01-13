@@ -11,7 +11,7 @@ _SilphCo4Text_19de5::
 _SilphCo4BattleText2::
 	text "TEAM ROCKET has"
 	line "taken command of"
-	cont "SILPH CO.!"
+	cont "GAI CO.!"
 	done
 
 _SilphCo4EndBattleText2::

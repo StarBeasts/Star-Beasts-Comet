@@ -60,7 +60,7 @@ _SaffronCityText10::
 _SaffronCityText11::
 	text "I flew here on my"
 	line "GRYPHERN when I"
-	cont "read about SILPH."
+	cont "read about GAI CO."
 
 	para "It's already over?"
 	line "I missed the"

@@ -56,7 +56,7 @@ _CanceledMasterBallText::
 _SilphCo7Text_51e23::
 	text "It would be bad"
 	line "if TEAM ROCKET"
-	cont "took over SILPH"
+	cont "took over GAI CO."
 	cont "or our BEASTS!"
 	done
 
@@ -98,7 +98,7 @@ _SilphCo7BattleText2::
 	text "Heheh!"
 
 	para "You mistook me for"
-	line "a SILPH worker?"
+	line "a GAI CO. worker?"
 	done
 
 _SilphCo7EndBattleText2::

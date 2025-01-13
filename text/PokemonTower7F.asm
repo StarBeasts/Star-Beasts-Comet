@@ -77,7 +77,7 @@ _PokemonTower7BattleText3::
 	para "I will cast you"
 	line "aside, and then"
 	cont "the old man will"
-	cont "tell me everything"
+	cont "tell me all that"
 	cont "I need to know."
 	done
 

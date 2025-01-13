@@ -1,5 +1,5 @@
 _SilphCo3Text_59ff9::
-	text "I work for SILPH."
+	text "I work for GAI CO."
 	line "What should I do?"
 	done
 
@@ -28,7 +28,7 @@ _SilphCo3AfterBattleText1::
 _SilphCo3BattleText2::
 	text "I support TEAM"
 	line "ROCKET more than"
-	cont "I support SILPH!"
+	cont "I support GAI CO!"
 	done
 
 _SilphCo3EndBattleText2::

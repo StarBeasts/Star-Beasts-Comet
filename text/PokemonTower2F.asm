@@ -95,11 +95,11 @@ _PokemonTower2Text_6063c::
 _PokemonTower2Text2::
 	text "Beware, child."
 	line "An odd MIST"
-	cont "obscures the"
-	cont "true form of"
-	cont "GHOSTs upstairs."
+	cont "obscures the true"
+	cont "form of GHOSTs"
+	cont "downstairs."
 
-	para "A SILPH SCOPE"
+	para "A CYBERSCOPE"
 	line "might let you"
 	cont "see through it."
 	done

@@ -175,7 +175,7 @@ SetPal_Overworld:
 	cp VILLA_B1F
 	jr z, .grey
 	cp VILLA_2F
-	jr z, .pallet
+	jp z, .pallet
 	cp VILLA_3F
 	jr z, .pallet
 	cp VILLA_4F
@@ -233,6 +233,8 @@ SetPal_Overworld:
 	jr z, .grey
 	cp DEVILS_CANYON
 	jr z, .bloodstone
+	cp DIGLETTS_CAVE_ROUTE_2
+	jr z, .grey
 .caveDefault
 	ld a, PAL_CYANMON - 1
 	jr .town

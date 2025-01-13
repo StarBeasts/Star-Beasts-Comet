@@ -11,7 +11,7 @@ _PokemonTower3EndBattleText1::
 	prompt
 
 _PokemonTower3AfterBattleText1::
-	text "The SILPH SCOPE"
+	text "The CYBERSCOPE"
 	line "lets you see the"
 	cont "true form of the"
 	cont "GHOSTs in here."

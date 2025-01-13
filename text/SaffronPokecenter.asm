@@ -5,7 +5,7 @@ _SaffronPokecenterText2::
 	done
 
 _SaffronPokecenterText3::
-	text "SILPH CO. is very"
+	text "GAI CO. is very"
 	line "famous. That's"
 	cont "why it attracted"
 	cont "TEAM ROCKET!"
