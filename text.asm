@@ -210,7 +210,6 @@ INCLUDE "text/CeladonMart5F.asm"
 INCLUDE "text/GameCornerPrizeRoom.asm"
 INCLUDE "text/CeladonDiner.asm"
 INCLUDE "text/CeladonChiefHouse.asm"
-INCLUDE "text/CeladonHotel.asm"
 INCLUDE "text/FuchsiaMart.asm"
 INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/FuchsiaPokecenter.asm"
@@ -288,6 +287,10 @@ INCLUDE "text/GasStation.asm"
 INCLUDE "text/GoldenGate.asm"
 INCLUDE "text/BloodstoneBay.asm"
 INCLUDE "text/VermilionTradeHouse.asm"
+
+SECTION "Text 12", ROMX
+
+INCLUDE "text/CeladonHotel.asm"
 
 SECTION "Pokédex Text", ROMX
 

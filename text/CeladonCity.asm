@@ -195,7 +195,7 @@ _CeladonCityText16::
 
 _CeladonCityText17::
 	text "MUNICIPAL SWIMMING"
-	cont "POOL"
+	line "POOL"
 	done
 
 _CeladonCityText18::
