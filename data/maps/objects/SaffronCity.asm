@@ -18,7 +18,6 @@ SaffronCity_Object:
 
 	def_bg_events
 	bg_event 21,  7, 16 ; SaffronCityText16
-	bg_event 29, 21, 17 ; SaffronCityText17
 	bg_event 18, 21, 18 ; SaffronCityText18
 	bg_event 14, 29, 19 ; MartSignText
 	bg_event 38, 19, 20 ; SaffronCityText20

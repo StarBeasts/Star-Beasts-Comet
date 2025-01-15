@@ -2,8 +2,8 @@ GasStation_Script:
 	jp EnableAutoTextBoxDrawing
 
 GasStation_TextPointers:
-	dw GasStationCashierText
 	dw GasStationHealNurseText
+	dw GasStationCashierText
 	dw GasStationText2
 	dw GasStationText3
 	dw GasStationText4

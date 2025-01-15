@@ -65,3 +65,12 @@ _LavenderTownText9::
 	line "BEASTS Rest Easy"
 	cont "GALENA GRAVEYARD"
 	done
+
+_LavenderTownText10::
+	text "YIN-YANG DOJO"
+
+	para "FIND DARKNESS IN"
+	line "THE LIGHT, AND"
+	cont "LIGHT IN THE"
+	cont "DARKNESS"
+	done

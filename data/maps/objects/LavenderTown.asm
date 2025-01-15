@@ -5,20 +5,21 @@ LavenderTown_Object:
 	warp_event  7, 19, LAVENDER_POKECENTER, 1
 	warp_event 12,  5, POKEMON_TOWER_1F, 1
 	warp_event 11, 13, MR_FUJIS_HOUSE, 1
-	warp_event  5,  9, LAVENDER_MART, 1
+	warp_event  9, 27, LAVENDER_MART, 1
 	warp_event 11, 19, LAVENDER_CUBONE_HOUSE, 1
-	warp_event  9, 27, NAME_RATERS_HOUSE, 1
+	warp_event  7, 13, NAME_RATERS_HOUSE, 1
 	warp_event  21, 14, ROUTE_15_GATE_1F, 1
 	warp_event  21, 15, ROUTE_15_GATE_1F, 2
-
+	warp_event  5, 7, FIGHTING_DOJO, 1
 
 	def_bg_events
 	bg_event 15, 13, 4 ; LavenderTownText4
 	bg_event 11, 29, 5 ; LavenderTownText5
-	bg_event  6,  9, 6 ; MartSignText
+	bg_event 10, 27, 6 ; MartSignText
 	bg_event  8, 19, 7 ; PokeCenterSignText
 	bg_event 11, 15, 8 ; LavenderTownText8
 	bg_event 13,  7, 9 ; LavenderTownText9
+	bg_event 7,  9, 10 ; LavenderTownText10
 
 	def_object_events
 	object_event 14,  8, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person

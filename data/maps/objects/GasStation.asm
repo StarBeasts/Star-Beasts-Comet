@@ -8,8 +8,8 @@ GasStation_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  0,  5, SPRITE_CLERK, STAY, RIGHT, 1 ; person
-	object_event  5,  1, SPRITE_NURSE, STAY, DOWN, 2 ; person
+	object_event  5,  1, SPRITE_NURSE, STAY, DOWN, 1 ; person
+	object_event  0,  5, SPRITE_CLERK, STAY, RIGHT, 2 ; person
 	object_event  2,  3, SPRITE_SCIENTIST, STAY, DOWN, 3 ; person
 	object_event 10,  2, SPRITE_OFFICER, STAY, UP, 4 ; person
 	object_event 12,  5, SPRITE_GRAMPS, STAY, UP, 5 ; person

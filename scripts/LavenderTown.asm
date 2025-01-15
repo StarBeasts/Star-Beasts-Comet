@@ -11,6 +11,7 @@ LavenderTown_TextPointers:
 	dw PokeCenterSignText
 	dw LavenderTownText8
 	dw LavenderTownText9
+	dw LavenderTownText10
 
 LavenderTownText1:
 	text_asm
@@ -60,4 +61,8 @@ LavenderTownText8:
 
 LavenderTownText9:
 	text_far _LavenderTownText9
+	text_end
+
+LavenderTownText10:
+	text_far _LavenderTownText10
 	text_end
