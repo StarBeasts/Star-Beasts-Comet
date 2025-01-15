@@ -1325,4 +1325,8 @@ INCLUDE "scripts/BloodstoneBay.asm"
 INCLUDE "data/maps/objects/BloodstoneBay.asm"
 BloodstoneBay_Blocks: INCBIN "maps/BloodstoneBay.blk"
 
+INCLUDE "data/maps/headers/RangerStation.asm"
+INCLUDE "scripts/RangerStation.asm"
+INCLUDE "data/maps/objects/RangerStation.asm"
+RangerStation_Blocks: INCBIN "maps/RangerStation.blk"
 

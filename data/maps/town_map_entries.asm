@@ -18,7 +18,7 @@ ExternalMapEntries:
 	external_map  14, 12, CinnabarIslandName
 	external_map  6,  0, IndigoPlateauName
 	external_map 7,  8, SaffronCityName
-	external_map  8,  3, PalletTownName ; unused
+	external_map  3,  10, RangerStationName
 	external_map  7, 3, Route1Name
 	external_map  9,  3, Route2Name
 	external_map  11,  2, Route3Name

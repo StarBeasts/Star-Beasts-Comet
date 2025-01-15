@@ -12,7 +12,7 @@ MapHeaderBanks::
 	db BANK(CinnabarIsland_h)
 	db BANK(IndigoPlateau_h)
 	db BANK(SaffronCity_h)
-	db $01 ; UNUSED_MAP_0B
+	db BANK(RangerStation_h)
 	db BANK(Route1_h)
 	db BANK(Route2_h)
 	db BANK(Route3_h)

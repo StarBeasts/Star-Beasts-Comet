@@ -291,6 +291,7 @@ INCLUDE "text/VermilionTradeHouse.asm"
 SECTION "Text 12", ROMX
 
 INCLUDE "text/CeladonHotel.asm"
+INCLUDE "text/RangerStation.asm"
 
 SECTION "Pokédex Text", ROMX
 
