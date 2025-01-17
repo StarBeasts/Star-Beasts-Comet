@@ -252,5 +252,5 @@ DEF SHOW EQU $15
 	const HS_DIGLETTS_CAVE_BOULDER_2
 	const HS_ANGEL
 	const HS_DEVIL
-	const HS_CAT
+	const HS_CAT_THING
 DEF NUM_HS_OBJECTS EQU const_value

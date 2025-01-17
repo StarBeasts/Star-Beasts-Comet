@@ -378,8 +378,6 @@ FightingDojoHS:
 	db FIGHTING_DOJO, $07, SHOW
 SilphCo1FHS:
 	db SILPH_CO_1F, $01, HIDE
-PurpleForestHS:
-	db PURPLE_FOREST, $01, SHOW
 PowerPlantHS:
 	db POWER_PLANT, $01, SHOW
 	db POWER_PLANT, $02, SHOW
@@ -591,5 +589,7 @@ AncientCaveHS:
 	db ANCIENT_CAVE, $01, SHOW ; angel, angel
 DevilsCanyonHS:
 	db DEVILS_CANYON, $01, SHOW ; muahaha
+PurpleForestHS:
+	db PURPLE_FOREST, $02, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
