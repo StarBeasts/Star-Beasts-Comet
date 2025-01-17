@@ -97,7 +97,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const BLOODSTONE_BAY,  		   23,  13 ; $4B
 	map_const ROUTE_7_GATE,                   3,  4 ; $4C
 	map_const UNDERGROUND_PATH_ROUTE_7,       4,  4 ; $4D
-	map_const UNDERGROUND_PATH_ROUTE_7_COPY,  4,  4 ; $4E
+	map_const PURPLE_FOREST,  			     3,  20 ; $4E
 	map_const ROUTE_8_GATE,                   3,  4 ; $4F
 	map_const UNDERGROUND_PATH_ROUTE_8,       4,  4 ; $50
 	map_const ROCK_TUNNEL_POKECENTER,         7,  4 ; $51
@@ -138,7 +138,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VILLA_4F,                 	4,  40 ; $74
 	map_const VILLA_5F,                  	7,  5 ; $75
 	map_const HALL_OF_FAME,                   5,  4 ; $76
-	map_const UNDERGROUND_PATH_NORTH_SOUTH,   4, 24 ; $77 ; UndergroundPathNorthSouth.blk is actually 4x23
+	map_const UNDERGROUND_PATH_NORTH_SOUTH,   4, 23 ; $77
 	map_const CHAMPIONS_ROOM,                 4,  4 ; $78
 	map_const UNDERGROUND_PATH_WEST_EAST,    25,  4 ; $79
 	map_const CELADON_MART_1F,               10,  4 ; $7A

@@ -81,7 +81,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw PurpleForestHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -378,6 +378,8 @@ FightingDojoHS:
 	db FIGHTING_DOJO, $07, SHOW
 SilphCo1FHS:
 	db SILPH_CO_1F, $01, HIDE
+PurpleForestHS:
+	db PURPLE_FOREST, $01, SHOW
 PowerPlantHS:
 	db POWER_PLANT, $01, SHOW
 	db POWER_PLANT, $02, SHOW

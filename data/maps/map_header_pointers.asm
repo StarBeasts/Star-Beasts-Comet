@@ -79,7 +79,7 @@ MapHeaderPointers::
 	dw BloodstoneBay_h ; BLOODSTONE BAY
 	dw Route7Gate_h
 	dw UndergroundPathRoute7_h
-	dw UndergroundPathRoute7Copy_h
+	dw PurpleForest_h
 	dw Route8Gate_h
 	dw UndergroundPathRoute8_h
 	dw RockTunnelPokecenter_h

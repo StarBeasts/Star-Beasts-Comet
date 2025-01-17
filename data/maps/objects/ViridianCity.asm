@@ -8,6 +8,8 @@ ViridianCity_Object:
 	warp_event 15, 15, VIRIDIAN_NICKNAME_HOUSE, 1
 	warp_event 30, 15, VIRIDIAN_GYM, 1
 	warp_event 25, 25, VIRIDIAN_NICKNAME_HOUSE, 3
+	warp_event 17, 0, PURPLE_FOREST, 1
+	warp_event 18, 0, PURPLE_FOREST, 2
 
 	def_bg_events
 	bg_event  7, 17,  8 ; ViridianCityText8

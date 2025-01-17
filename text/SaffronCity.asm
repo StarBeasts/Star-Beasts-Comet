@@ -104,7 +104,8 @@ _SaffronCityText16::
 	done
 
 _SaffronCityText17::
-	text "YIN-YANG DOJO"
+	text "DAVISON ART"
+	line "GALLERY"
 	done
 
 _SaffronCityText18::

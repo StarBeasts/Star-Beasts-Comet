@@ -79,7 +79,7 @@ MapHeaderBanks::
 	db BANK(BloodstoneBay_h)
 	db BANK(Route7Gate_h)
 	db BANK(UndergroundPathRoute7_h)
-	db BANK(UndergroundPathRoute7Copy_h)
+	db BANK(PurpleForest_h)
 	db BANK(Route8Gate_h)
 	db BANK(UndergroundPathRoute8_h)
 	db BANK(RockTunnelPokecenter_h)
