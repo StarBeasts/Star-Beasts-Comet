@@ -5,6 +5,8 @@ PurpleForest_Script:
 PurpleForest_TextPointers:
 	dw PurpleForestText1
 	dw PurpleForestText2
+	dw PurpleForestText3
+	dw PurpleForestText4
 
 PurpleForestText1:
 	text_far _PurpleForestText1
@@ -33,7 +35,7 @@ PurpleForestText2:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .asm_f1a62
-	ld a, MEOWTH
+	ld a, GOLDUCK
 	ld [wd11e], a
 	ld [wcf91], a
 	call GetMonName
@@ -63,6 +65,14 @@ PurpleForestText2:
 	ld hl, CatText5
 	call PrintText
 	ret
+
+PurpleForestText3:
+	text_far _PurpleForestText3
+	text_end
+
+PurpleForestText4:
+	text_far _PurpleForestText4
+	text_end
 
 CatText1:
 	text_far _CatText1

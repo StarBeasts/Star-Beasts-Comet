@@ -1,14 +1,42 @@
 _PurpleForestText1::
-	text "I heard a sleepy"
-	line "BEAST appeared"
-	cont "near CELADON CITY."
+	text "They say a BEAST"
+	line "watches over this"
+	cont "FOREST."
+
+	para "But, its heart"
+	line "yearns to roam"
+	cont "the world once"
+	cont "more."
+
+	para "Perhaps, if it"
+	line "were to meet"
+	cont "a worthy soul..."
 	done
 
 _PurpleForestText2::
-	text "I heard a sleepy"
-	line "BEAST appeared"
-	cont "near CELADON CITY."
+	text "!"
 	done
+
+_PurpleForestText3::
+	text "I-I saw a"
+	line "DEATHSEER!"
+
+	para "S-seeing one in"
+	line "the wild is"
+	cont "supposed to be"
+	cont "really bad luck..."
+	done
+
+_PurpleForestText4::
+	text "This place isn't"
+	line "exactly out in"
+	cont "the open..."
+
+	para "You must be quite"
+	line "the inquisitive"
+	cont "type, hmm?"
+	done
+
 
 _CatText1::
 	text "FOREST GUARDIAN"
@@ -45,7 +73,7 @@ _CatText2::
 	done
 
 _CatText3::
-	text "String 3."
+	text "..."
 	done
 
 _CatText4::
@@ -55,5 +83,5 @@ _CatText4::
 	done
 
 _CatText5::
-	text "String 5."
+	text "..."
 	done
