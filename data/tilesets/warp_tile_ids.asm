@@ -102,5 +102,5 @@ ENDM
 	warp_tiles $01
 
 .PowerplantWarpTileIDs
-	warp_tiles ; end
+	warp_tiles $52, $53, $54
 
