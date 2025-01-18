@@ -65,3 +65,9 @@ _CeladonMansion3Text8::
 	text "SOUL VALOR"
 	line "Development Room"
 	done
+
+_CeladonMansion3Text9::
+	text "It looks like"
+	line "some sort of"
+	cont "map editor!"
+	done

@@ -10,6 +10,7 @@ CeladonMansion3F_TextPointers:
 	dw GameFreakPCText2
 	dw GameFreakPCText3
 	dw GameFreakSignText
+	dw GameFreakPCText4
 
 ProgrammerText:
 	text_far _ProgrammerText
@@ -66,4 +67,8 @@ GameFreakPCText3:
 
 GameFreakSignText:
 	text_far _CeladonMansion3Text8
+	text_end
+
+GameFreakPCText4:
+	text_far _CeladonMansion3Text9
 	text_end

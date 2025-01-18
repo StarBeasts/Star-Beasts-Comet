@@ -209,3 +209,8 @@ _CeladonCityText18::
 	cont "IN LIEU OF A"
 	cont "LEGAL PERMIT."
 	done
+
+_CeladonCityText19::
+	text "SOUL VALOR"
+	line "HEADQUARTERS"
+	done

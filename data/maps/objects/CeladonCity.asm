@@ -10,6 +10,7 @@ CeladonCity_Object:
 	warp_event  7, 13, CELADON_MANSION_ROOF_HOUSE, 1
 	warp_event  35, 27, CELADON_MANSION_1F, 1
 	warp_event  30, 19, CELADON_HOTEL, 1
+	warp_event 39, 19, CELADON_MANSION_3F, 1
 
 	def_bg_events
 	bg_event 36,  9, 12 ; PokeCenterSignText
@@ -19,9 +20,10 @@ CeladonCity_Object:
 	bg_event  9, 27, 18 ; CeladonCityText18
 	bg_event 31, 21, 17 ; CeladonCityText17
 	bg_event 43, 27, 14 ; CeladonCityText14
+	bg_event 41, 21, 19 ; CeladonCityText19
 
 	def_object_events
-	object_event 40, 17, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person
+	object_event 44, 17, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person
 	object_event 22,  6, SPRITE_GRAMPS, STAY, UP, 2 ; person
 	object_event 31, 10, SPRITE_GUARD, STAY, DOWN, 3 ; person
 	object_event 21, 20, SPRITE_GRAMPS, STAY, DOWN, 4 ; person
