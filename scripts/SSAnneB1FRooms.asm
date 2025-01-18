@@ -24,6 +24,7 @@ SSAnneB1FRooms_TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
+	dw SSAnne10Text9
 
 SSAnne10TrainerHeaders:
 	def_trainers
@@ -161,3 +162,79 @@ SSAnne10AfterBattleText6:
 SSAnne10Text7:
 	text_far _SSAnne10Text7
 	text_end
+
+SSAnne10Text9:
+	text_asm
+	CheckEvent EVENT_GOT_LIL_ZAP
+	jr nz, .asm_515d5
+	ld hl, SSAnne10Text_515de
+	call PrintText
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	jr nz, .asm_515d0
+	ld a, VOLTORB
+	ld [wd11e], a
+	ld [wcf91], a
+	call GetMonName
+	ld a, $1
+	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
+	lb bc, VOLTORB, 15
+	call GivePokemon
+	jp nc, TextScriptEnd
+	ld a, [wAddedToParty]
+	and a
+	call z, WaitForTextScrollButtonPress
+	ld a, $1
+	call GBFadeOutToBlack
+	ld a, HS_LIL_ZAP
+	ld [wMissableObjectIndex], a
+	predef HideObject	
+	call GBFadeInFromBlack
+	SetEvent EVENT_GOT_LIL_ZAP
+	jp TextScriptEnd
+
+.asm_515d0
+	ld hl, SSAnne10Text_515e9
+	jr .asm_515d8
+
+.asm_515d5
+	ld hl, SSAnne10Text_515ee
+.asm_515d8
+	call PrintText
+	jp TextScriptEnd
+
+SSAnne10Text_515de:
+	text_far _SSAnne10LilZapText1
+	db "@"
+
+SSAnne10Text_515e3:
+	text_far _SSAnne10LilZapText2
+	db $d
+	db "@"
+
+SSAnne10Text_515e9:
+	text_far _SSAnne10LilZapText3
+	db "@"
+
+SSAnne10Text_515ee:
+	text_far _SSAnne10LilZapText4
+	db "@"
+
+SSAnne10LilZapText5:
+	text_far _SSAnne10LilZapText5
+	db "@"
+
+SSAnne10LilZapText6:
+	text_far _SSAnne10LilZapText6
+	db "@"
+
+SSAnne10LilZapText7:
+	text_far _SSAnne10LilZapText7
+	db "@"
+
+SSAnne10LilZapText8:
+	text_far _SSAnne10LilZapText8
+	db "@"
+
+

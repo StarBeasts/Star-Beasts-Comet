@@ -29,5 +29,6 @@ SSAnneB1FRooms_Object:
 	object_event 20,  2, SPRITE_POKE_BALL, STAY, NONE, 9, ETHER
 	object_event 11,  2, SPRITE_POKE_BALL, STAY, NONE, 10, TM_REST
 	object_event 21,  2, SPRITE_POKE_BALL, STAY, NONE, 11, MAX_POTION
+	object_event 22,  13, SPRITE_FAIRY, STAY, NONE, 12 ; person
 
 	def_warps_to SS_ANNE_B1F_ROOMS

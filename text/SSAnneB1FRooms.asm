@@ -129,3 +129,64 @@ _SSAnne10Text7::
 	line "STRENGTH to move"
 	cont "big rocks!"
 	done
+
+SSAnne10Text9::
+	text "!"
+	done
+
+_SSAnne10LilZapText1::
+	text "This ZAPODI seems"
+	line "to have stowed"
+	cont "away on the SHIP"
+	cont "by accident."
+
+	para "It looks exhausted"
+	line "and confused."
+
+	para "It nervously"
+	line "approaches you."
+
+	para "It brushes up"
+	line "against your legs"
+	cont "as if it were a"
+	cont "common house cat."
+
+	para "It seems to want"
+	line "to come with you."
+
+	para "Will you take it?"
+	done
+
+_SSAnne10LilZapText2::
+	text "."
+	done
+
+_SSAnne10LilZapText3::
+	text "The ZAPODI sadly"
+	line "slinks back to"
+	cont "its hiding spot,"
+	cont "resigning itself"
+	cont "to its fate..."
+	done
+
+_SSAnne10LilZapText4::
+	text "."
+	done
+
+_SSAnne10LilZapText5::
+	text "."
+	done
+
+_SSAnne10LilZapText6::
+	text "."
+	done
+
+_SSAnne10LilZapText7::
+	text "."
+	done
+
+_SSAnne10LilZapText8::
+	text "."
+	done
+
+

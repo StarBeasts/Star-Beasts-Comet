@@ -787,6 +787,7 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const EVENT_BEAT_ANGEL
 	const EVENT_BEAT_DEVIL
 	const EVENT_GOT_CAT
+	const EVENT_GOT_LIL_ZAP
 
 ; End of events
 	const_next $A00
