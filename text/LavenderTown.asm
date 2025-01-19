@@ -38,6 +38,20 @@ _LavenderTownText3::
 	done
 
 _LavenderTownText4::
+	text "GYM?"
+	
+	para "The closest thing"
+	line "we have is the"
+	cont "DOJO behind me,"
+	cont "but they refuse"
+	cont "to take on new"
+	cont "challengers until"
+	cont "those ROCKETS"
+	cont "are gone from the"
+	cont "GRAVEYARD."
+	done
+
+_LavenderTownText5::
 	text "BLACKROCK BLUFF"
 	line "The last place"
 	cont "you'll ever see,"
@@ -45,7 +59,7 @@ _LavenderTownText4::
 	cont "you'll ever be"
 	done
 
-_LavenderTownText5::
+_LavenderTownText6::
 	text "New CYBERSCOPE!"
 
 	para "Make the Invisible"
@@ -54,19 +68,19 @@ _LavenderTownText5::
 	para "GAI CO."
 	done
 
-_LavenderTownText8::
+_LavenderTownText9::
 	text "BLACKROCK"
 	line "BLUFF VOLUNTEER"
 	cont "BEAST HOUSE"
 	done
 
-_LavenderTownText9::
+_LavenderTownText10::
 	text "May the Souls of"
 	line "BEASTS Rest Easy"
 	cont "GALENA GRAVEYARD"
 	done
 
-_LavenderTownText10::
+_LavenderTownText11::
 	text "YIN-YANG DOJO"
 
 	para "FIND DARKNESS IN"
