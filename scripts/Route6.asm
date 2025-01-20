@@ -21,6 +21,7 @@ Route6_TextPointers:
 	dw Route6Text6
 	dw Route6Text7
 	dw Route6Text8
+	dw Route6Text9
 
 Route6TrainerHeaders:
 	def_trainers
@@ -148,4 +149,8 @@ Route6Text7:
 
 Route6Text8:
 	text_far _Route6Text8
+	text_end
+
+Route6Text9:
+	text_far _Route6Text9
 	text_end

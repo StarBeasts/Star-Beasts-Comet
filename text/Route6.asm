@@ -107,11 +107,25 @@ _Route6AfterBattleText6::
 	done
 
 _Route6Text7::
+	text "Whooo-eeee!"
+	
+	para "That EARTHQUAKE"
+	line "what ripped past"
+	cont "here a bit ago"
+	cont "was no joke!"
+
+	para "I bet some stuff"
+	line "in the cave got"
+	cont "shifted around,"
+	cont "it did!"
+	done
+
+_Route6Text8::
 	text "ROUTE 6 -"
 	line "ROUTE 7"
 	done
 
-_Route6Text8::
+_Route6Text9::
 	text "CRACTURE CHASM"
 	
 	para "Connects to"

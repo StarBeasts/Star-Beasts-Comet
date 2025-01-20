@@ -9,15 +9,17 @@ Route6_Object:
 	warp_event  2, 13, GOLDEN_GATE, 8
 
 	def_bg_events
-	bg_event 39, 15, 7 ; Route6Text7
-	bg_event 21, 9, 8 ; Route6Text8
+	bg_event 39, 15, 8 ; Route6Text7
+	bg_event 21, 9, 9 ; Route6Text8
 
 	def_object_events
-	object_event 36, 10, SPRITE_COOLTRAINER_M, STAY, RIGHT, 1, OPP_JR_TRAINER_M, 4
-	object_event 29, 10, SPRITE_COOLTRAINER_F, STAY, LEFT, 2, OPP_JR_TRAINER_F, 2
-	object_event  9,  9, SPRITE_LITTLE_BOY, STAY, DOWN, 3, OPP_BUG_CATCHER, 10
-	object_event 25, 10, SPRITE_COOLTRAINER_M, STAY, LEFT, 4, OPP_JR_TRAINER_M, 5
-	object_event 24, 10, SPRITE_COOLTRAINER_F, STAY, LEFT, 5, OPP_JR_TRAINER_F, 3
-	object_event 40, 10, SPRITE_SAILOR, STAY, LEFT, 6, OPP_BUG_CATCHER, 11
+	object_event 30,  8, SPRITE_COOLTRAINER_M, STAY, DOWN, 1, OPP_JR_TRAINER_M, 4
+	object_event 31,  8, SPRITE_COOLTRAINER_F, STAY, DOWN, 2, OPP_JR_TRAINER_F, 2
+	object_event  9,  9, SPRITE_GAMBLER, STAY, DOWN, 3, OPP_BUG_CATCHER, 10
+	object_event 24, 10, SPRITE_COOLTRAINER_M, STAY, DOWN,  4, OPP_JR_TRAINER_M, 5
+	object_event 25, 10, SPRITE_COOLTRAINER_F, STAY, DOWN, 5, OPP_JR_TRAINER_F, 3
+	object_event 36, 10, SPRITE_BEAUTY, STAY, LEFT, 6, OPP_BUG_CATCHER, 11
+	object_event 20, 8, SPRITE_SAILOR, STAY, DOWN, 7 ; person
+
 
 	def_warps_to ROUTE_6

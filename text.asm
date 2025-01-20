@@ -103,18 +103,6 @@ INCLUDE "text/Route18Gate2F.asm"
 INCLUDE "text/Route22Gate.asm"
 INCLUDE "text/VictoryRoad2F.asm"
 INCLUDE "text/BillsHouse.asm"
-INCLUDE "text/Route1.asm"
-INCLUDE "text/Route2.asm"
-INCLUDE "text/Route3.asm"
-INCLUDE "text/Route4.asm"
-INCLUDE "text/Route5.asm"
-INCLUDE "text/Route6.asm"
-INCLUDE "text/Route7.asm"
-INCLUDE "text/Route8.asm"
-INCLUDE "text/Route9.asm"
-INCLUDE "text/Route10.asm"
-INCLUDE "text/Route11.asm"
-
 
 SECTION "Text 5", ROMX
 
@@ -292,6 +280,17 @@ SECTION "Text 12", ROMX
 
 INCLUDE "text/CeladonHotel.asm"
 INCLUDE "text/RangerStation.asm"
+INCLUDE "text/Route1.asm"
+INCLUDE "text/Route2.asm"
+INCLUDE "text/Route3.asm"
+INCLUDE "text/Route4.asm"
+INCLUDE "text/Route5.asm"
+INCLUDE "text/Route6.asm"
+INCLUDE "text/Route7.asm"
+INCLUDE "text/Route8.asm"
+INCLUDE "text/Route9.asm"
+INCLUDE "text/Route10.asm"
+INCLUDE "text/Route11.asm"
 
 SECTION "Pokédex Text", ROMX
 
