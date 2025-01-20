@@ -544,6 +544,7 @@ INCLUDE "crysaudio/music/new/chains.asm"
 SECTION "New Songs 6", ROMX
 
 INCLUDE "crysaudio/music/new/sewers.asm"
+INCLUDE "crysaudio/music/new/onward.asm"
 
 SECTION "Sound Effects", ROMX
 

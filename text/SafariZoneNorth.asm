@@ -3,14 +3,14 @@ _SafariZoneNorthText3::
 	done
 
 _SafariZoneNorthText4::
-	text "TRAINER TIPS"
+	text "LOG MAZE"
 
-	para "The SECRET HOUSE"
-	line "is still ahead!"
+	para "CAN YOU BRAVE"
+	line "THE MAZE"
 	done
 
 _SafariZoneNorthText5::
-	text "AREA 2"
+	text "AREA 2 - SWAMP"
 	done
 
 _SafariZoneNorthText6::
