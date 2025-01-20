@@ -24,7 +24,7 @@ SafariZoneGate_ScriptPointers:
 	ld [wJoyIgnore], a
 	xor a
 	ldh [hJoyHeld], a
-	ld a, SPRITE_FACING_RIGHT
+	ld a, SPRITE_FACING_UP
 	ld [wSpritePlayerStateData1FacingDirection], a
 	ld a, [wCoordIndex]
 	cp $1
@@ -33,7 +33,7 @@ SafariZoneGate_ScriptPointers:
 	ld [wSafariZoneGateCurScript], a
 	ret
 .asm_7520f
-	ld a, D_RIGHT
+	ld a, D_UP
 	ld c, $1
 	call SafariZoneEntranceAutoWalk
 	ld a, $f0
@@ -43,8 +43,8 @@ SafariZoneGate_ScriptPointers:
 	ret
 
 .CoordsData_75221:
-	dbmapcoord  3,  2
-	dbmapcoord  4,  2
+	dbmapcoord  9,  4
+	dbmapcoord  9,  3
 	db -1 ; end
 
 .SafariZoneEntranceScript1
@@ -72,7 +72,7 @@ SafariZoneGate_ScriptPointers:
 	ret
 
 .SafariZoneEntranceScript5
-	ld a, PLAYER_DIR_DOWN
+	ld a, PLAYER_DIR_LEFT
 	ld [wPlayerMovingDirection], a
 	CheckAndResetEvent EVENT_SAFARI_GAME_OVER
 	jr z, .asm_7527f
@@ -85,7 +85,7 @@ SafariZoneGate_ScriptPointers:
 	call DisplayTextID
 	xor a
 	ld [wNumSafariBalls], a
-	ld a, D_DOWN
+	ld a, D_LEFT
 	ld c, $3
 	call SafariZoneEntranceAutoWalk
 	ld a, $4
@@ -186,7 +186,7 @@ SafariZoneGate_TextPointers:
 	ld [wSafariSteps], a
 	ld a, LOW(502)
 	ld [wSafariSteps + 1], a
-	ld a, D_UP
+	ld a, D_RIGHT
 	ld c, 3
 	call SafariZoneEntranceAutoWalk
 	SetEvent EVENT_IN_SAFARI_ZONE
@@ -199,7 +199,7 @@ SafariZoneGate_TextPointers:
 	ld hl, .PleaseComeAgainText
 	call PrintText
 .CantPayWalkDown
-	ld a, D_DOWN
+	ld a, D_LEFT
 	ld c, 1
 	call SafariZoneEntranceAutoWalk
 	ld a, 4
@@ -232,7 +232,7 @@ SafariZoneGate_TextPointers:
 	call PrintText
 	xor a
 	ld [wSpritePlayerStateData1FacingDirection], a
-	ld a, D_DOWN
+	ld a, D_LEFT
 	ld c, $3
 	call SafariZoneEntranceAutoWalk
 	ResetEvents EVENT_SAFARI_GAME_OVER, EVENT_IN_SAFARI_ZONE
@@ -244,7 +244,7 @@ SafariZoneGate_TextPointers:
 	call PrintText
 	ld a, SPRITE_FACING_UP
 	ld [wSpritePlayerStateData1FacingDirection], a
-	ld a, D_UP
+	ld a, D_RIGHT
 	ld c, $1
 	call SafariZoneEntranceAutoWalk
 	ld a, $5

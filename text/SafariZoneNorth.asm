@@ -10,7 +10,7 @@ _SafariZoneNorthText4::
 	done
 
 _SafariZoneNorthText5::
-	text "AREA 2 - SWAMP"
+	text "ZONE 2 - SWAMP"
 	done
 
 _SafariZoneNorthText6::
@@ -22,6 +22,13 @@ _SafariZoneNorthText6::
 	para "Zigzag through"
 	line "grassy areas to"
 	cont "flush them out."
+
+	para "If you can't"
+	line "find the BEASTS"
+	cont "you're looking"
+	cont "for in the grass,"
+	cont "try fishing with"
+	cont "a SUPER ROD!"
 	done
 
 _SafariZoneNorthText7::

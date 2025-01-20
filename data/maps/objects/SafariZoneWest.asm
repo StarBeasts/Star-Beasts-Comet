@@ -9,9 +9,9 @@ SafariZoneWest_Object:
 
 	def_bg_events
 	bg_event 16, 22, 5 ; SafariZoneWestText5
-	bg_event 21,  7, 6 ; SafariZoneWestText6
-	bg_event 26,  4, 7 ; SafariZoneWestText7
-	bg_event 24, 22, 8 ; SafariZoneWestText8
+	bg_event 24, 22, 6 ; SafariZoneWestText6
+	bg_event 25, 11, 7 ; SafariZoneWestText7
+	bg_event 26,  4, 8 ; SafariZoneWestText8
 
 	def_object_events
 	object_event 25, 21, SPRITE_POKE_BALL, STAY, NONE, 1, MAX_POTION

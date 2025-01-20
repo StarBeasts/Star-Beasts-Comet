@@ -11,6 +11,6 @@ _SafariZoneEastText6::
 	done
 
 _SafariZoneEastText7::
-	text "CENTER AREA"
-	line "NORTH: AREA 2"
+	text "ZONE 3 - CRAGGY"
+	line "CLIFFSIDE"
 	done

@@ -10,10 +10,10 @@ SafariZoneNorth_Object:
 
 	def_bg_events
 	bg_event 22, 12, 3 ; SafariZoneNorthText3
-	bg_event  6, 25, 4 ; SafariZoneNorthText4
-	bg_event 12, 30, 5 ; SafariZoneNorthText5
+	bg_event 26, 28, 4 ; SafariZoneNorthText4
+	bg_event 18, 30, 5 ; SafariZoneNorthText5
 	bg_event 10, 18, 6 ; SafariZoneNorthText6
-	bg_event 26, 28, 7 ; SafariZoneNorthText7
+	bg_event 12, 30, 7 ; SafariZoneNorthText7
 
 	def_object_events
 	object_event 21, 15, SPRITE_POKE_BALL, STAY, NONE, 1, PROTEIN
