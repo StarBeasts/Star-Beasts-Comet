@@ -35,30 +35,54 @@ _RocketHideout4Text_4557a::
 	done
 
 _RocketHideout4Text_4557f::
-	text "HOW!?"
-	line "This cannot be!"
+	text "..."
+	line "You are much"
+	cont "stronger than I"
+	cont "anticipated..."
 	prompt
 
 _RocketHideout4Text_45584::
 	text "You're no"
 	line "ordinary child."
 	
-	para "I understand now"
-	line "why my men were"
-	cont "cast aside so"
-	cont "easily."
+	para "Perhaps you do"
+	line "indeed need the"
+	cont "device more than"
+	cont "we do."
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "The device you"
+	line "seek is in the"
+	cont "possession of the"
+	cont "prayergiver"
+	cont "behind me."
 
-	para "Hmph. I have no"
-	line "further business"
-	cont "with you, either"
-	cont "way."
+	para "She's stubborn,"
+	line "so I'm afraid"
+	cont "you'll have to"
+	cont "take it from "
+	cont "her by force."
 
-	para "Au revoir."
+	para "I've spent too"
+	line "much time away"
+	cont "from my post as"
+	cont "it is, so I must"
+	cont "take my leave."
+
+	para "But before I go..."
+
+	para "I'd like to"
+	line "formally invite"
+	cont "you to an"
+	cont "organization I'm"
+	cont "affiliated with."
+
+	para "They could use"
+	line "more people such"
+	cont "as yourself."
+
+	para "May it be fated"
+	line "for our paths to"
+	cont "cross once more."
 	done
 
 _RocketHideout4BattleText2::
@@ -94,9 +118,20 @@ _RocketHide4AfterBattleText3::
 	done
 
 _RocketHideout4BattleText4::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "O, spirits..."
+
+	para "Hear my call..."
+
+	para "Destroy this"
+	line "affront to your"
+	cont "plane of..."
+
+	para "!!!"
+
+	para "Impudent child!"
+	
+	para "Do you know what"
+	line "you've done!?"
 	done
 
 _RocketHideout4EndBattleText4::
@@ -104,6 +139,20 @@ _RocketHideout4EndBattleText4::
 	prompt
 
 _RocketHideout4Text_455ec::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "You miserable,"
+	line "conceited fool!"
+
+	para "Take the wretched"
+	line "item and begone"
+	cont "from my sight!"
+
+	para "O, spirits..."
+
+	para "May you haunt"
+	line "this child for"
+	cont "the rest of"
+	cont "their days..."
+
+	para "For the rest of"
+	line "eternity..."
 	done

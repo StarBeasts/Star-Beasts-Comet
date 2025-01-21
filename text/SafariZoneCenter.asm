@@ -25,11 +25,13 @@ _SafariZoneCenterText2::
 	cont "BALLs, it's game"
 	cont "over for you!"
 
-	para "Before you go,"
-	line "open an unused"
-	cont "BEAST BOX so"
-	cont "there's room for"
-	cont "new BEASTS!"
+	para "You should also"
+	line "make sure you're"
+	cont "using a BEAST BOX"
+	cont "that isn't almost"
+	cont "full so you have"
+	cont "room for new"
+	cont "BEASTS!"
 
 	para "Most importantly,"
 	line "have fun!"

@@ -91,7 +91,7 @@ RocketHideout4TrainerHeader0:
 RocketHideout4TrainerHeader1:
 	trainer EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_1, 0, RocketHideout4BattleText3, RocketHideout4EndBattleText3, RocketHideout4AfterBattleText3
 RocketHideout4TrainerHeader2:
-	trainer EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_2, 1, RocketHideout4BattleText4, RocketHideout4EndBattleText4, RocketHideout4AfterBattleText4
+	trainer EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_2, 0, RocketHideout4BattleText4, RocketHideout4EndBattleText4, RocketHideout4AfterBattleText4
 	db -1 ; end
 
 RocketHideout4Text1:

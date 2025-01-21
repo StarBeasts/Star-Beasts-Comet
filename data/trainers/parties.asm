@@ -739,8 +739,8 @@ ChannelerData:
 ; Pokémon Tower 4F
 	db 24,GROWLITHE,0
 	db 23,JIGGLYPUFF,WIGGLYTUFF,0
-; Unused
-	db 26,GASTLY,MEOWTH,OMANYTE,JIGGLYPUFF,0
+; Mackenzie
+	db 26,GOLDUCK,OMANYTE,0
 ; Pokémon Tower 4F
 	db 22,CLEFABLE,0
 ; Unused
