@@ -30,7 +30,7 @@ Music:
 	dba Music_MatchVictory
 	dba Music_BoosterPack
 	dba Music_EndCredits
-	dba Music_ChallengeHall
+	dba Music_Gadoba
 	dba Music_Chala
 	dba Music_NameEntry
 	dba Music_Cherry ; loops semi-properly
@@ -76,6 +76,7 @@ Music:
 	dba Music_Sewers
 	dba Music_Onward
 	dba Music_Varik
+	dba Music_Gadoba
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 
