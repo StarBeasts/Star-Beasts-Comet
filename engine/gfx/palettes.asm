@@ -173,13 +173,13 @@ SetPal_Overworld:
 	cp VILLA_1F
 	jp z, .pallet
 	cp VILLA_B1F
-	jr z, .grey
+	jp z, .grey
 	cp VILLA_2F
 	jp z, .pallet
 	cp VILLA_3F
-	jr z, .pallet
+	jp z, .pallet
 	cp VILLA_4F
-	jr z, .black
+	jp z, .black
 	cp VILLA_5F
 	jr z, .pallet
 	cp CELADON_MANSION_ROOF
@@ -235,6 +235,8 @@ SetPal_Overworld:
 	jr z, .bloodstone
 	cp DIGLETTS_CAVE_ROUTE_2
 	jr z, .grey
+	cp CELADON_MANSION_2F
+	jr z, .bloodstone
 .caveDefault
 	ld a, PAL_CYANMON - 1
 	jr .town
