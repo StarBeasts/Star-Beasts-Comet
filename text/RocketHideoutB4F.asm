@@ -135,7 +135,7 @@ _RocketHideout4BattleText4::
 	done
 
 _RocketHideout4EndBattleText4::
-	text "No!"
+	text "No!!!"
 	prompt
 
 _RocketHideout4Text_455ec::
