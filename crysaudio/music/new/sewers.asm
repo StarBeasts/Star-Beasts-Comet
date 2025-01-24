@@ -10,7 +10,7 @@ Music_Sewers_Ch1:
 	duty_cycle 0
 	note_type 12, 10, 7
 	tempo 130
-.mainloop
+.mainloop:
 	rest 6
 	octave 5
 	volume_envelope 5, 7
@@ -538,10 +538,10 @@ Music_Sewers_Ch1:
 Music_Sewers_Ch2:
 	duty_cycle 0
 	note_type 12, 10, 7
-.mainloop
+.mainloop:
 	rest 6
 	octave 2
-	volume_envelope 11, 7
+	volume_envelope 13, 7
 	note C_, 16
 	note C_, 6
 	octave 1
@@ -731,7 +731,7 @@ Music_Sewers_Ch2:
 
 Music_Sewers_Ch3:
 	note_type 12, 2, 0
-.mainloop
+.mainloop:
 	rest 2
 	octave 1
 	note G_, 4
@@ -1151,7 +1151,7 @@ Music_Sewers_Ch3:
 Music_Sewers_Ch4:
 	toggle_noise 4
 	drum_speed 12
-.mainloop
+.mainloop:
 	octave 6
 	drum_note 3, 1
 	drum_note 3, 1
