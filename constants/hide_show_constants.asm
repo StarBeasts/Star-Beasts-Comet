@@ -19,6 +19,7 @@ DEF SHOW EQU $15
 	const HS_CERULEAN_GUARD_1              ; 07
 	const HS_CERULEAN_CAVE_GUY             ; 08
 	const HS_CERULEAN_GUARD_2              ; 09
+	const HS_DOJO_GUY
 	const HS_GARNET_GARDEN_GUARD_1
 	const HS_GARNET_GARDEN_GUARD_2
 	const HS_SAFFRON_CITY_1                ; 0A

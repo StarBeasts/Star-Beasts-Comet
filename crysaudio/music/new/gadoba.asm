@@ -13,17 +13,14 @@ Music_Gadoba_Ch1:
 	duty_cycle 1
 .mainloop:
 	volume_envelope 10, 7
-	note A_, 16
-	note A_, 12
-	note B_, 4
-	octave 5
-	note C_, 16
-	note C_, 12
-	note D_, 4
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 	octave 4
-	note A_, 16
-	note A_, 16
-	note B_, 16
+	rest 16
+	rest 16
+	rest 16
 	rest 16
 	note A_, 16
 	note A_, 12

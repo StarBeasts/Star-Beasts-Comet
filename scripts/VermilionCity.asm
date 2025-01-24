@@ -68,7 +68,7 @@ VermilionCityScript0:
 	ret
 
 SSAnneTicketCheckCoords:
-	dbmapcoord 22, 16
+	dbmapcoord 22, 18
 	db -1 ; end
 
 VermilionCityScript4:
@@ -193,8 +193,8 @@ VermilionCityText3:
 	jp TextScriptEnd
 
 .inFrontOfOrBehindGuardCoords
-	dbmapcoord 19, 29 ; in front of guard
-	dbmapcoord 19, 31 ; behind guard
+	dbmapcoord 23, 17 ; in front of guard
+	dbmapcoord 23, 20 ; behind guard
 	db -1 ; end
 
 SSAnneWelcomeText4:
