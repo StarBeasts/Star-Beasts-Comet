@@ -70,25 +70,8 @@ _SafariZoneEntranceText_753e6::
 	done
 
 _SafariZoneEntranceText_753eb::
-	text "SAFARI ZONE has 4"
-	line "zones in it."
-
-	para "Each zone has"
-	line "different kinds"
-	cont "of BEASTS. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
-
-	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
-	cont "over for you!"
-
-	para "Before you go,"
-	line "open an unused"
-	cont "BEAST BOX so"
-	cont "there's room for"
-	cont "new BEASTS!"
+	text "You shouldn't see"
+	line "this."
 	done
 
 _SafariZoneEntranceText_753f0::

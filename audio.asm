@@ -541,6 +541,13 @@ INCLUDE "crysaudio/music/new/drunken.asm"
 INCLUDE "crysaudio/music/new/sixteentons.asm"
 INCLUDE "crysaudio/music/new/chains.asm"
 
+SECTION "New Songs 6", ROMX
+
+INCLUDE "crysaudio/music/new/sewers.asm"
+INCLUDE "crysaudio/music/new/onward.asm"
+INCLUDE "crysaudio/music/new/varik.asm"
+INCLUDE "crysaudio/music/new/gadoba.asm"
+
 SECTION "Sound Effects", ROMX
 
 INCLUDE "crysaudio/sfx.asm"

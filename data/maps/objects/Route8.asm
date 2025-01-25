@@ -20,7 +20,7 @@ Route8_Object:
 	object_event 38, 16, SPRITE_ERIKA, STAY, UP, 5, OPP_SUPER_NERD, 5
 	object_event  9, 10, SPRITE_COOLTRAINER_F, STAY, DOWN, 6, OPP_LASS, 14
 	object_event 34,  9, SPRITE_COOLTRAINER_F, STAY, DOWN, 7, OPP_LASS, 15
-	object_event 30, 14, SPRITE_GAMBLER, STAY, UP, 8, OPP_GAMBLER, 7
+	object_event 30, 14, SPRITE_HIKER, STAY, UP, 8, OPP_GAMBLER, 7
 	object_event 51, 16, SPRITE_COOLTRAINER_F, STAY, LEFT, 9, OPP_LASS, 16
 
 	def_warps_to ROUTE_8

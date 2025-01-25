@@ -73,6 +73,10 @@ Music:
 	dba Music_Drunken
 	dba Music_SixteenTons
 	dba Music_Chains
+	dba Music_Sewers
+	dba Music_Onward
+	dba Music_Varik
+	dba Music_Gadoba
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 

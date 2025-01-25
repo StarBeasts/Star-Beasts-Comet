@@ -75,6 +75,9 @@ PokemonTower7Script4:
 	ld a, HS_ROUTE_10_GUARD_2
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_DOJO_GUY
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, SPRITE_FACING_UP
 	ld [wSpritePlayerStateData1FacingDirection], a
 	ld a, MR_FUJIS_HOUSE

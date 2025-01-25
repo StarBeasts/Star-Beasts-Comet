@@ -3,6 +3,7 @@ BloodstoneBay_Object:
 
 	def_warp_events
 	warp_event 37, 23, CELADON_MANSION_ROOF, 4
+	warp_event 22, 3, CELADON_MANSION_2F, 1
 
 	def_bg_events
 	bg_event 33, 23, 9 ; BloodstoneBayText9

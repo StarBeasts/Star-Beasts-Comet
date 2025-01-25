@@ -18,9 +18,8 @@ _FuchsiaPokecenterText3::
 
 	para "There's always a"
 	line "few of them in"
-	cont "the grass at the"
-	cont "center of the"
-	cont "SAFARI ZONE!"
+	cont "the first zone of"
+	cont "the SAFARI ZONE!"
 	done
 
 _FuchsiaPokecenterText4::

@@ -16,3 +16,14 @@ _SafariZoneRestHouse3Text3::
 	text "All these police"
 	line "make me nervous..."
 	done
+
+_SafariZoneRestHouse3Text4::
+	text "Hey-hey! If you"
+	line "wanna catch an"
+	cont "EMBRAIN, you can"
+	cont "find 'em right"
+	cont "outside!"
+
+	para "You just gotta"
+	line "look hard enough!"
+	done

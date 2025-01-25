@@ -4,8 +4,8 @@ DiglettsCave_Object:
 	def_warp_events
 	warp_event 37, 31, ROUTE_6, 4
 	warp_event 11,  5, PALLET_TOWN, 4
-	warp_event 27,  9, ANCIENT_CAVE, 1
-	warp_event 27, 13, DEVILS_CANYON, 1
+	warp_event 31,  9, ANCIENT_CAVE, 1
+	warp_event 31, 13, DEVILS_CANYON, 1
 
 	def_bg_events
 

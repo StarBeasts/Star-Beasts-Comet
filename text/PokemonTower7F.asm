@@ -96,6 +96,6 @@ _PokemonTower7AfterBattleText3::
 
 	para "It matters not. I"
 	line "have other, more"
-	cont "immediate concerns"
+	cont "pressing concerns"
 	cont "to see to."
 	done

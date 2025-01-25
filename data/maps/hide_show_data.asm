@@ -7,7 +7,7 @@ MapHSPointers:
 	dw ViridianCityHS
 	dw PewterCityHS
 	dw CeruleanCityHS
-	dw NoHS
+	dw LavenderTownHS
 	dw NoHS
 	dw CeladonCityHS
 	dw NoHS
@@ -276,6 +276,8 @@ CeruleanCityHS:
 	db CERULEAN_CITY, $06, HIDE
 	db CERULEAN_CITY, $0A, SHOW
 	db CERULEAN_CITY, $0B, SHOW
+LavenderTownHS:
+	db LAVENDER_TOWN, $04, SHOW
 CeladonCityHS:
 	db CELADON_CITY, $0A, SHOW
 	db CELADON_CITY, $0B, HIDE

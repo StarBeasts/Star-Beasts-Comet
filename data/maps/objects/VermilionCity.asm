@@ -29,7 +29,7 @@ VermilionCity_Object:
 	def_object_events
 	object_event 25, 10, SPRITE_BEAUTY, WALK, LEFT_RIGHT, 1 ; person
 	object_event 39,  9, SPRITE_SAILOR, STAY, NONE, 2 ; person
-	object_event 23, 16, SPRITE_SAILOR, STAY, LEFT, 3 ; person
+	object_event 23, 18, SPRITE_SAILOR, STAY, LEFT, 3 ; person
 	object_event 15, 19, SPRITE_GAMBLER, STAY, DOWN, 4 ; person
 	object_event 14, 19, SPRITE_MONSTER, STAY, NONE, 5 ; person
 	object_event 32, 12, SPRITE_GAMBLER, WALK, LEFT_RIGHT, 6 ; person

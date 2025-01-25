@@ -6,6 +6,7 @@ SafariZoneEastRestHouse_TextPointers:
 	dw SafariZoneRestHouse3Text1
 	dw SafariZoneRestHouse3Text2
 	dw SafariZoneRestHouse3Text3
+	dw SafariZoneRestHouse3Text4
 
 SafariZoneRestHouse3Text1:
 	text_far _SafariZoneRestHouse3Text1
@@ -18,3 +19,8 @@ SafariZoneRestHouse3Text2:
 SafariZoneRestHouse3Text3:
 	text_far _SafariZoneRestHouse3Text3
 	text_end
+
+SafariZoneRestHouse3Text4:
+	text_far _SafariZoneRestHouse3Text4
+	text_end
+
