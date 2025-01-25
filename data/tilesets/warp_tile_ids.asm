@@ -63,7 +63,7 @@ ENDM
 	warp_tiles $54, $5C, $32
 
 .ShipWarpTileIDs:
-	warp_tiles $37, $39, $1E, $4A
+	warp_tiles $37, $39, $1E, $4A, $68
 
 .InteriorWarpTileIDs:
 	warp_tiles $15, $55, $04
