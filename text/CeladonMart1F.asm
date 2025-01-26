@@ -1,31 +1,39 @@
 _CeladonMart1Text1::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "This is MS. IVY's"
+	line "bedroom."
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "You're not allowed"
+	line "in here."
 	done
 
 _CeladonMart1Text2::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "It's a picture"
+	line "of IVY with an"
+	cont "important looking"
+	cont "man in a fancy"
+	cont "business suit."
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
-
-	para "3F: TV GAME SHOP"
-
-	para "4F: ELFMAN GIFTS"
-
-	para "5F: DRUG STORE"
-
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "They look related."
 	done
 
 _CeladonMart1Text3::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "It's some sort"
+	line "of schedule for"
+	cont "what look like"
+	cont "very difficult"
+	cont "accounting and"
+	cont "business classes."
+
+	para "..."
+
+	para "Wait, that name..."
+
+	para "...!"
+
+	para "IVY's family owns"
+	line "the MARTs!"
+
+	para "No wonder she"
+	line "lives in this"
+	cont "huge RESORT!"
 	done

@@ -209,9 +209,26 @@ CeladonMartRoof_TextPointers:
 	dw CeladonMartRoofText1
 	dw CeladonMartRoofText2
 	dw CeladonMartRoofText5
-	dw CeladonMartRoofText5
-	dw CeladonMartRoofText5
 	dw CeladonMartRoofText6
+	dw CeladonMartRoofText7
+	dw CeladonMartRoofText8
+	dw CeladonMartRoofText9
+	dw CeladonMartRoofText10
+	dw CeladonMartRoofText10
+	dw CeladonMartRoofText10
+	dw CeladonMartRoofText11
+	dw CeladonMartRoofText12
+	dw CeladonMartRoofText13
+	dw CeladonMartRoofText14
+	dw CeladonMartRoofText15
+	dw CeladonMartRoofText16
+	dw CeladonMartRoofText17
+	dw CeladonMartRoofText18
+	dw CeladonMartRoofText19
+	dw CeladonMartRoofText20
+	dw CeladonMartRoofText21
+	dw CeladonMartRoofText22
+	dw CeladonMartRoofText23
 
 CeladonMartRoofText1:
 	text_far _CeladonMartRoofText1
@@ -248,8 +265,101 @@ CeladonMartRoofText4:
 	text_end
 
 CeladonMartRoofText5:
-	script_vending_machine
+	text_asm
+	CheckEvent EVENT_GOT_TM18
+	jr nz, .got_item
+	ld hl, TM18PreReceiveText
+	call PrintText
+	lb bc, TM_COUNTER, 1
+	call GiveItem
+	jr nc, .bag_full
+	SetEvent EVENT_GOT_TM18
+	ld hl, ReceivedTM18Text
+	jr .done
+.bag_full
+	ld hl, TM18NoRoomText
+	jr .done
+.got_item
+	ld hl, TM18ExplanationText
+.done
+	call PrintText
+	jp TextScriptEnd
+
+TM18PreReceiveText:
+	text_far _TM18PreReceiveText
+	text_end
+
+ReceivedTM18Text:
+	text_far _ReceivedTM18Text
+	sound_get_item_1
+	text_end
+
+TM18ExplanationText:
+	text_far _TM18ExplanationText
+	text_end
+
+TM18NoRoomText:
+	text_far _TM18NoRoomText
+	text_end
 
 CeladonMartRoofText6:
 	text_far _CeladonMartRoofText6
 	text_end
+
+CeladonMartRoofText7:
+	text_far _CeladonMartRoofText7
+	text_end
+
+CeladonMartRoofText8:
+	text_far _CeladonMartRoofText8
+	text_end
+
+CeladonMartRoofText9:
+	text_far _CeladonMartRoofText9
+	text_end
+
+CeladonMartRoofText10:
+	script_vending_machine
+
+CeladonMartRoofText11:
+	text_far _CeladonMartRoofText11
+	text_end
+
+CeladonMartRoofText12:
+CeladonMartRoofText13:
+	text_far _CeladonMartRoofText12
+	text_end
+
+CeladonMartRoofText14:
+CeladonMartRoofText15:
+CeladonMartRoofText16:
+CeladonMartRoofText17:
+	text_far _CeladonMartRoofText13
+	text_end
+
+CeladonMartRoofText18:
+	text_far _CeladonMartRoofText14
+	text_end
+
+CeladonMartRoofText19:
+	text_far _CeladonMartRoofText15
+	text_end
+
+CeladonMartRoofText20:
+	text_far _CeladonMartRoofText16
+	text_end
+
+CeladonMartRoofText21:
+	text_far _CeladonMartRoofText17
+	text_end
+
+CeladonMartRoofText22:
+	text_far _CeladonMartRoofText18
+	text_end
+
+CeladonMartRoofText23:
+	text_far _CeladonMartRoofText19
+	text_end
+
+
+
