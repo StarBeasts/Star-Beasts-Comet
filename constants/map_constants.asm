@@ -113,7 +113,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VERMILION_MART,                 4,  4 ; $5B
 	map_const VERMILION_GYM,                  5,  9 ; $5C
 	map_const VERMILION_PIDGEY_HOUSE,         4,  4 ; $5D
-	map_const VERMILION_DOCK,                14,  6 ; $5E
+	map_const VERMILION_DOCK,                20,  9 ; $5E
 	map_const SS_ANNE_1F,                    20,  9 ; $5F
 	map_const SS_ANNE_2F,                    20,  9 ; $60
 	map_const SS_ANNE_3F,                    10,  3 ; $61

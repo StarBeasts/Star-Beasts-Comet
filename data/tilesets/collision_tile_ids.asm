@@ -38,7 +38,7 @@ Ship_Coll::
 	coll_tiles $02, $03, $04, $0d, $12, $13, $17, $1d, $1e, $23, $2e, $34, $37, $39, $3e, $4a, $52
 
 ShipPort_Coll::
-	coll_tiles $0a, $1a, $32, $3b
+	coll_tiles $0a, $1a, $32, $3b, $60, $61, $62, $63, $64, $65, $66, $67
 
 Cemetery_Coll::
 	coll_tiles $01, $10, $13, $1b, $22, $42, $52
