@@ -1,43 +1,43 @@
+_CeladonMart3Text1::
+	text "Come sei entrato"
+	line "qui, bambina?"
+	done
+
 _CeladonMart3Text2::
-	text "."
+	text "Chi ha lasciato"
+	line "entrare il"
+	cont "proprio figlio!?"
 	done
 
 _CeladonMart3Text3::
-	text "."
+	text "La caffeina fa"
+	line "bene all'anima."
 	done
 
 _CeladonMart3Text4::
-	text "."
+	text "Fuori dalla"
+	line "cucina, cazzo!"
 	done
 
 _CeladonMart3Text5::
-	text "."
+	text "Another one..."
+
+	para "How do you"
+	line "people keep"
+	cont "appearing in here?"
 	done
 
 _CeladonMart3Text6::
-	text "."
+	text "Pizza pasta,"
+	line "pizza pie..."
+
+	para "My love, tell"
+	line "me when your"
+	cont "heart died..."
 	done
 
 _CeladonMart3Text7::
-	text "!"
-	done
-
-_CeladonMart3Text9::
-	text "!"
-	done
-
-_CeladonMart3Text11::
-	line "!"
-	done
-
-_CeladonMart3Text13::
-	text "!"
-	done
-
-_CeladonMart3Text14::
-	text "."
-	done
-
-_CeladonMart3Text15::
-	text "!"
+	text "Mi dispiace,"
+	line "niente cibo"
+	cont "gratis."
 	done

@@ -12,6 +12,7 @@ FuchsiaCity_Object:
 	warp_event 18,  3, ROUTE_6_GATE, 1
 	warp_event 25, 27, ROUTE_12_SUPER_ROD_HOUSE, 1
 	warp_event 11, 25, CELAGONE_CITY, 3
+	warp_event  6, 22, CELADON_MART_3F, 1
 
 	def_bg_events
 	bg_event 25, 15, 12 ; FuchsiaCityText12
@@ -27,7 +28,8 @@ FuchsiaCity_Object:
 	bg_event 29, 15, 22 ; FuchsiaCityText22
 	bg_event 14, 20, 23 ; FuchsiaCityText23
 	bg_event  7,  7, 24 ; FuchsiaCityText24
-	bg_event  5, 29, 25 ; FuchsiaCityText16
+	bg_event  5, 29, 25 ; FuchsiaCityText25
+	bg_event  6, 24, 26 ; FuchsiaCityText26
 
 	def_object_events
 	object_event 12, 11, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 1 ; person

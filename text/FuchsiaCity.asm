@@ -174,3 +174,8 @@ _FuchsiaCityText25::
 	para "RESERVATIONS ONLY"
 	done
 
+_FuchsiaCityText26::
+	text "The door's locked."
+	done
+
+
