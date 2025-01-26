@@ -2,7 +2,7 @@ SecretPath_Object:
 	db $01 ; border block
 
 	def_warp_events
-	warp_event  5,  2, LAST_MAP, 2
+	warp_event  5,  3, LAST_MAP, 2
 	warp_event  2,  9, SECRET_GARDEN, 1
 
 	def_bg_events

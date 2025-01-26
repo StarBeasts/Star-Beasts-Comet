@@ -9,7 +9,7 @@ CeladonMansion3F_Object:
 	bg_event  3,  8, 5 ; CeladonMansion3Text5
 	bg_event  6,  1, 6 ; CeladonMansion3Text6
 	bg_event  1,  4, 7 ; CeladonMansion3Text7
-	bg_event  6, 11, 8 ; CeladonMansion3Text8
+	bg_event  6, 12, 8 ; CeladonMansion3Text8
 	bg_event  5, 4, 9 ; CeladonMansion3Text9
 
 	def_object_events
