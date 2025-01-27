@@ -2,8 +2,8 @@ SafariZoneWest_Object:
 	db $0 ; border block
 
 	def_warp_events
-	warp_event 26,  0, SAFARI_ZONE_NORTH, 3
-	warp_event 27,  0, SAFARI_ZONE_NORTH, 4
+	warp_event 26,  0, SAFARI_ZONE_EAST, 3
+	warp_event 27,  0, SAFARI_ZONE_EAST, 4
 	warp_event  3,  1, SAFARI_ZONE_SECRET_HOUSE, 1
 	warp_event 15, 21, SAFARI_ZONE_WEST_REST_HOUSE, 1
 
