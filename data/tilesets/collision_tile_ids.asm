@@ -6,7 +6,7 @@ MACRO coll_tiles
 ENDM
 
 Underground_Coll::
-	coll_tiles $0b, $0c, $13, $15, $18, $1d
+	coll_tiles $0b, $0c, $13, $15, $18, $19, $1a, $1d
 
 Overworld_Coll::
 	coll_tiles $00, $03, $09, $0d, $10, $1b, $1d, $20, $21, $25, $26, $28, $29, $2c, $2d, $2e, $30, $31, $33, $39, $3c, $3e, $52, $54, $58, $5b, $5e, $5f
@@ -21,7 +21,7 @@ Pokecenter_Coll::
 
 Dojo_Coll::
 Gym_Coll::
-	coll_tiles $11, $16, $19, $2b, $3c, $3d, $3f, $4a, $4c, $4d, $03
+	coll_tiles $01, $11, $16, $19, $2b, $3c, $3d, $3f, $45, $4a, $4c, $4d, $03
 
 Forest_Coll::
 	coll_tiles $1e, $20, $2e, $30, $34, $37, $39, $3a, $40, $51, $52, $5a, $5c, $5e, $5f, $60
