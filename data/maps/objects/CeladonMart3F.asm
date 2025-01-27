@@ -2,7 +2,7 @@ CeladonMart3F_Object:
 	db $0C ; border block
 
 	def_warp_events
-	warp_event 4,  2, FUCHSIA_CITY, 11
+	warp_event 4,  2, FUCHSIA_CITY, 1
 
 	def_bg_events
 

@@ -61,6 +61,12 @@ _FuchsiaCityText12::
 _FuchsiaCityText13::
 	text "SAFARI GAME"
 	line "BEASTS-U-CATCH!"
+
+	para "Ask any of our"
+	line "professionally"
+	cont "trained staff"
+	cont "if you have"
+	cont "any questions!"
 	done
 
 _FuchsiaCityText16::
@@ -175,7 +181,9 @@ _FuchsiaCityText25::
 	done
 
 _FuchsiaCityText26::
-	text "The door's locked."
+	text "There's a door"
+	line "back here, but"
+	cont "it's locked."
 	done
 
 
