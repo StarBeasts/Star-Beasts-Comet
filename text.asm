@@ -193,7 +193,6 @@ INCLUDE "text/CeladonMansionRoof.asm"
 INCLUDE "text/CeladonMansionRoofHouse.asm"
 INCLUDE "text/CeladonPokecenter.asm"
 INCLUDE "text/CeladonGym.asm"
-INCLUDE "text/GameCorner.asm"
 INCLUDE "text/CeladonMart5F.asm"
 INCLUDE "text/GameCornerPrizeRoom.asm"
 INCLUDE "text/CeladonDiner.asm"
@@ -291,6 +290,7 @@ INCLUDE "text/Route8.asm"
 INCLUDE "text/Route9.asm"
 INCLUDE "text/Route10.asm"
 INCLUDE "text/Route11.asm"
+INCLUDE "text/GameCorner.asm"
 
 SECTION "Pokédex Text", ROMX
 

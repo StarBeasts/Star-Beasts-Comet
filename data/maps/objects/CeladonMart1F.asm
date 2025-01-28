@@ -10,6 +10,6 @@ CeladonMart1F_Object:
 	bg_event  2,  1, 3 ; CeladonMart1Text3
 
 	def_object_events
-	object_event  4,  2, SPRITE_GUARD, STAY, DOWN, 1 ; person
+	object_event  5,  2, SPRITE_WAITER, STAY, DOWN, 1 ; person
 
 	def_warps_to CELADON_MART_1F

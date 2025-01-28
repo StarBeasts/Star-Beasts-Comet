@@ -122,7 +122,7 @@ _MtMoon1EndBattleText8::
 	prompt
 
 _MtMoon1AfterBattleText8::
-	text "DUHZLUGG stinks!"
+	text "DUHZLUGG sucks!"
 	line "I need a useful"
 	cont "BEAST, like a"
 	cont "WHIRLIE!"

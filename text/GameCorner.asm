@@ -137,23 +137,26 @@ _CeladonGameCornerText_48dca::
 	cont "a claim to fame"
 	cont "like my bro!"
 
-	para "CELADON GYM's"
+	para "RHINESTONE GYM's"
 	line "LEADER is the one"
-	cont "and only LISBETH!"
+	cont "and only IVY!"
 
-	para "She uses grass-"
+	para "She uses POISON-"
 	line "type BEASTS!"
 
-	para "Your team's gotta"
-	line "be straight FIRE"
-	cont "to beat her, mon!"
+	para "You gotta either"
+	line "keep yourself"
+	cont "GROUNDed, or"
+	cont "read her mind"
+	cont "like a PSYCHIC"
+	cont "to win, mon!"
 
-	para "Or you gotta be"
-	line "ICE cold, mon!"
-
-	para "Underestimate her,"
-	line "and you'll get CUT"
-	cont "down to size!"
+	para "If ya wanna sail"
+	line "the seas with"
+	cont "SURF, you'll have"
+	cont "to be a CUT"
+	cont "above the rest"
+	cont "to beat her!"
 
 	para "Like me,"
 	line "SINGLE CUT, mon!"
@@ -220,30 +223,78 @@ _CeladonGameCornerText_48e98::
 	done
 
 _CeladonGameCornerText_48ece::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Huh?"
+
+	para "Oh, <PLAYER>!"
+
+	para "Are you here to"
+	line "gamble or are"
+	cont "you here to"
+	cont "take on IVY?"
+
+	para "Well, if you're"
+	line "here to take on"
+	cont "IVY, let's see if"
+	cont "you're up to it!"
+
+	para "Let's go!"
 	done
 
 _CeladonGameCornerText_48ed3::
-	text "Dang!"
+	text "Right on!"
+
+	para "You're just as"
+	line "tough as ever!"
 	prompt
 
 _CeladonGameCornerText_48ed8::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Hahaha! Yeah,"
+	line "I bet you can"
+	cont "beat her, no"
+	cont "sweat!"
+
+	para "Anyways, I have to"
+	line "keep on trucking!"
+
+	para "See you around,"
+	line "<PLAYER>!"
 	done
 
 _CeladonGameCornerText_48f09::
 	text "Hey!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	para "It's a poster!"
+
+	para "..."
+
+	para "For some reason,"
+	line "you feel oddly"
+	cont "disappointed...@"
 	text_end
 
 _CeladonGameCornerText_48f19::
 	text "Oops! Forgot the"
 	line "COIN CASE!"
+	done
+
+_CeladonGameCornerText14::
+	text "WELCOME TO"
+	line "RHINESTONE"
+	cont "RESORT!"
+
+	para "FIRST FLOOR:"
+	line "RHINESTONE CASINO"
+
+	para "YOU ARE HERE"
+
+	para "BASEMENT:"
+	line "PRIZE CORNER"
+
+	para "DOWNSTAIRS"
+
+	para "SECOND FLOOR:"
+	line "RHINESTONE"
+	cont "SHOPPING MALL"
+
+	para "UPSTAIRS"
 	done

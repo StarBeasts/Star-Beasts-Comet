@@ -1,9 +1,10 @@
 _CeladonMart1Text1::
-	text "This is MS. IVY's"
-	line "bedroom."
-
-	para "You're not allowed"
-	line "in here."
+	text "I'm terribly sorry,"
+	line "but this elevator"
+	cont "leads to the"
+	cont "SUITES, and kids"
+	cont "aren't allowed to"
+	cont "book rooms here." 
 	done
 
 _CeladonMart1Text2::
