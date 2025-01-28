@@ -227,6 +227,9 @@ _CeladonGameCornerText_48ece::
 
 	para "Oh, <PLAYER>!"
 
+	para "I was just getting"
+	line "ready to leave!"
+
 	para "Are you here to"
 	line "gamble or are"
 	cont "you here to"

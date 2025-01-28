@@ -13,5 +13,9 @@ CeladonDiner_Object:
 	object_event  1,  4, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 3 ; person
 	object_event  7,  5, SPRITE_FISHER, STAY, RIGHT, 4 ; person
 	object_event  5,  1, SPRITE_GYM_GUIDE, STAY, DOWN, 5 ; person
+	object_event 12,  4, SPRITE_WAITER, STAY, RIGHT, 6 ; person
+	object_event 17,  1, SPRITE_GENTLEMAN, STAY, DOWN, 7 ; person
+	object_event 17,  4, SPRITE_CLERK, STAY, UP, 8 ; person
+	object_event 17,  2, SPRITE_PAPER, STAY, NONE, 9 ; person
 
 	def_warps_to CELADON_DINER
