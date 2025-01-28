@@ -6,6 +6,7 @@ CeladonDiner_Object:
 	warp_event  6,  9, LAST_MAP, 1
 
 	def_bg_events
+	bg_event  15,  0, 13 ; CeladonDinerText13
 
 	def_object_events
 	object_event 10,  7, SPRITE_FAJZ, STAY, NONE, 1 ; person
@@ -17,5 +18,10 @@ CeladonDiner_Object:
 	object_event 17,  1, SPRITE_GENTLEMAN, STAY, DOWN, 7 ; person
 	object_event 17,  4, SPRITE_CLERK, STAY, UP, 8 ; person
 	object_event 17,  2, SPRITE_PAPER, STAY, NONE, 9 ; person
+	object_event 20,  1, SPRITE_OFFICER, STAY, LEFT_RIGHT, 10 ; person
+	object_event 16,  3, SPRITE_PAPER, STAY, NONE, 11 ; person
+	object_event 17,  3, SPRITE_PAPER, STAY, NONE, 12 ; person
+
+
 
 	def_warps_to CELADON_DINER

@@ -28,7 +28,7 @@ FuchsiaCity_Object:
 	bg_event  7,  7, 23 ; FuchsiaCityText23
 	bg_event 19,  9, 24 ; FuchsiaCityText24
 	bg_event  7, 29, 25 ; FuchsiaCityText25
-	bg_event  6, 24, 26 ; FuchsiaCityText26
+	bg_event  5, 24, 26 ; FuchsiaCityText26
 
 	def_object_events
 	object_event 22, 30, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 1 ; person

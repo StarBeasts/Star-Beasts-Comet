@@ -13,6 +13,9 @@ CeladonDiner_TextPointers:
 	dw CeladonDinerText8
 	dw CeladonDinerText9
 	dw CeladonDinerText10
+	dw CeladonDinerText11
+	dw CeladonDinerText12
+	dw CeladonDinerText13
 
 CeladonDinerText1:
 	text_far _CeladonDinerText1
@@ -88,6 +91,18 @@ CeladonDinerText9:
 
 CeladonDinerText10:
 	text_far _CeladonDinerText10
+	text_end
+
+CeladonDinerText11:
+	text_far _CeladonDinerText11
+	text_end
+
+CeladonDinerText12:
+	text_far _CeladonDinerText12
+	text_end
+
+CeladonDinerText13:
+	text_far _CeladonDinerText13
 	text_end
 
 

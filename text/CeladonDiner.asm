@@ -126,6 +126,19 @@ _CeladonDinerText9::
 	done
 
 _CeladonDinerText10::
+	text "You're disrupting"
+	line "an important"
+	cont "meeting."
+
+	para "I'm watching you."
+
+	para "Keep your hands"
+	line "where I can see"
+	cont "them, and don't"
+	cont "pester the boss."
+	done
+
+_CeladonDinerText11::
 	text "MANIFEST:"
 	line "THUNDER STONE"
 
@@ -135,3 +148,31 @@ _CeladonDinerText10::
 	line "SOLASTRA,"
 	cont "and FLEWNICORN."
 	done
+
+_CeladonDinerText12::
+	text "MANIFEST:"
+	line "WATER STONE"
+
+	para "FOR USE ON:"
+
+	para "FLEWNICORN and"
+	line "CLIMPALE."
+	done
+
+_CeladonDinerText13::
+	text "It's a photo of"
+	line "a much younger"
+	cont "looking FAJZ"
+	cont "with his arm"
+	cont "draped around"
+	cont "an old bald man"
+	cont "who looks just"
+	cont "like him."
+
+	para "Under the photo"
+	line "it says:"
+
+	para "'Per la famiglia.'"
+
+	done
+
