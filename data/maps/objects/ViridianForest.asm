@@ -4,7 +4,7 @@ ViridianForest_Object:
 	def_warp_events
 	warp_event 10, 43, ROUTE_1, 1
 	warp_event 38, 42, ROUTE_2, 1
-	warp_event 25,  5, MT_MOON_POKECENTER, 2
+	warp_event 25,  5, MT_MOON_POKECENTER, 1
 	warp_event 51, 34, MOLE_HOLE, 1
 	warp_event 51, 35, MOLE_HOLE, 2
 

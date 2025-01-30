@@ -2,8 +2,8 @@ OwaiHotel_Object:
 	db $2a ; border block
 
 	def_warp_events
-	warp_event  3, 19, LAST_MAP, 1
-	warp_event  4, 19, LAST_MAP, 1
+	warp_event  3, 19, CELADON_MART_3F, 1
+	warp_event  4, 19, CELADON_MART_3F, 1
 
 	def_bg_events
 

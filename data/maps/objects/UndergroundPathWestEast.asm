@@ -3,7 +3,7 @@ UndergroundPathWestEast_Object:
 
 	def_warp_events
 	warp_event  2,  5, UNDERGROUND_PATH_ROUTE_7, 3
-	warp_event 47,  2, UNDERGROUND_PATH_ROUTE_8, 3
+	warp_event 47,  3, UNDERGROUND_PATH_ROUTE_8, 3
 
 	def_bg_events
 

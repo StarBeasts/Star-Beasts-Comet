@@ -30,7 +30,7 @@ CeladonGameCornerScript_48bec:
 	ret z
 	CheckEvent EVENT_FOUND_ROCKET_HIDEOUT
 	ret nz
-	ld a, $2a
+	ld a, $0E
 	ld [wNewTileBlockID], a
 	lb bc, 2, 8
 	predef_jump ReplaceTileBlock
@@ -56,6 +56,11 @@ CeladonGameCornerScript1:
 	jp z, CeladonGameCornerScript_48c07
 	ld a, $f0
 	ld [wJoyIgnore], a
+	ld a, SFX_STOP_ALL_MUSIC
+    call PlaySound
+    ld c, 0
+    ld a, MUSIC_MEET_RIVAL
+    call PlayMusic
 	ld a, $d
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
@@ -82,22 +87,22 @@ CeladonGameCornerScript1:
 	ret
 
 MovementData_48c5a:
+	db NPC_MOVEMENT_LEFT
 	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_UP
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_DOWN
+	db NPC_MOVEMENT_LEFT
+	db NPC_MOVEMENT_LEFT
+	db NPC_MOVEMENT_LEFT
 	db -1 ; end
 
 MovementData_48c63:
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_DOWN
+	db NPC_MOVEMENT_DOWN
+	db NPC_MOVEMENT_LEFT
+	db NPC_MOVEMENT_LEFT
+	db NPC_MOVEMENT_LEFT
+	db NPC_MOVEMENT_LEFT
+	db NPC_MOVEMENT_LEFT
 	db -1 ; end
 
 CeladonGameCornerScript2:
@@ -109,6 +114,8 @@ CeladonGameCornerScript2:
 	ld a, HS_GAME_CORNER_ROCKET
 	ld [wMissableObjectIndex], a
 	predef HideObject
+    ld a, MUSIC_GAME_CORNER
+    call PlayMusic
 	ld hl, wCurrentMapScriptFlags
 	set 5, [hl]
 	set 6, [hl]
@@ -130,6 +137,7 @@ GameCorner_TextPointers:
 	dw CeladonGameCornerText11
 	dw CeladonGameCornerText12
 	dw CeladonGameCornerText13
+	dw CeladonGameCornerText14
 
 CeladonGameCornerText1:
 	text_far _CeladonGameCornerText1
@@ -462,18 +470,18 @@ CeladonGameCornerText13:
 	text_far _CeladonGameCornerText_48ed8
 	text_end
 
+CeladonGameCornerText14:
+	text_far _CeladonGameCornerText14
+	text_end
+
 CeladonGameCornerText12:
 	text_asm
 	ld a, $1
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
 	ld hl, CeladonGameCornerText_48f09
 	call PrintText
-	call WaitForSoundToFinish
-	ld a, SFX_GO_INSIDE
-	call PlaySound
-	call WaitForSoundToFinish
 	SetEvent EVENT_FOUND_ROCKET_HIDEOUT
-	ld a, $43
+	ld a, $0E
 	ld [wNewTileBlockID], a
 	lb bc, 2, 8
 	predef ReplaceTileBlock
@@ -482,9 +490,6 @@ CeladonGameCornerText12:
 CeladonGameCornerText_48f09:
 	text_far _CeladonGameCornerText_48f09
 	text_asm
-	ld a, SFX_SWITCH
-	call PlaySound
-	call WaitForSoundToFinish
 	jp TextScriptEnd
 
 CeladonGameCornerText_48f19:

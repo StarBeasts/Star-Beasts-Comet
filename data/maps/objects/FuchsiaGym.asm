@@ -2,8 +2,11 @@ FuchsiaGym_Object:
 	db $0 ; border block
 
 	def_warp_events
-	warp_event 30, 59, LAST_MAP, 6
-	warp_event 29, 59, LAST_MAP, 6
+	warp_event 30, 59, CELADON_MART_ROOF, 3
+	warp_event 29, 59, CELADON_MART_ROOF, 3
+	warp_event 46, 0, CELADON_MART_1F, 1
+	warp_event 47, 0, CELADON_MART_1F, 2
+
 
 	def_bg_events
 

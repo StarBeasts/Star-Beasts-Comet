@@ -9,6 +9,7 @@ GameCorner_Object:
 
 	def_bg_events
 	bg_event  8,  5, 12 ; CeladonGameCornerText12
+	bg_event  12,  5, 14 ; CeladonGameCornerText14
 
 	def_object_events
 	object_event  2,  6, SPRITE_BEAUTY, STAY, DOWN, 1 ; person
@@ -21,6 +22,6 @@ GameCorner_Object:
 	object_event 11, 15, SPRITE_GAMBLER, STAY, RIGHT, 8 ; person
 	object_event 14, 11, SPRITE_CLERK, STAY, LEFT, 9 ; person
 	object_event 17, 13, SPRITE_GENTLEMAN, STAY, RIGHT, 10 ; person
-	object_event 10,  6, SPRITE_BLUE, STAY, UP, 11
+	object_event 10,  6, SPRITE_BLUE, STAY, DOWN, 11
 
 	def_warps_to GAME_CORNER

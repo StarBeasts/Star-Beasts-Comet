@@ -8,6 +8,14 @@ CeladonDiner_TextPointers:
 	dw CeladonDinerText3
 	dw CeladonDinerText4
 	dw CeladonDinerText5
+	dw CeladonDinerText6
+	dw CeladonDinerText7
+	dw CeladonDinerText8
+	dw CeladonDinerText9
+	dw CeladonDinerText10
+	dw CeladonDinerText11
+	dw CeladonDinerText12
+	dw CeladonDinerText13
 
 CeladonDinerText1:
 	text_far _CeladonDinerText1
@@ -64,3 +72,37 @@ CoinCaseNoRoomText:
 CeladonDinerText_491b7:
 	text_far _CeladonDinerText_491b7
 	text_end
+
+CeladonDinerText6:
+	text_far _CeladonDinerText6
+	text_end
+
+CeladonDinerText7:
+	text_far _CeladonDinerText7
+	text_end
+
+CeladonDinerText8:
+	text_far _CeladonDinerText8
+	text_end
+
+CeladonDinerText9:
+	text_far _CeladonDinerText9
+	text_end
+
+CeladonDinerText10:
+	text_far _CeladonDinerText10
+	text_end
+
+CeladonDinerText11:
+	text_far _CeladonDinerText11
+	text_end
+
+CeladonDinerText12:
+	text_far _CeladonDinerText12
+	text_end
+
+CeladonDinerText13:
+	text_far _CeladonDinerText13
+	text_end
+
+

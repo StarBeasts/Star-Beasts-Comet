@@ -6,7 +6,7 @@ CeladonMart2F_Object:
 	warp_event  7, 25, GAME_CORNER, 3
 	warp_event  8, 25, GAME_CORNER, 3
 	warp_event  9, 25, GAME_CORNER, 3
-	warp_event  2, 1, CELADON_MART_3F, 1
+	warp_event  2, 1, CELADON_MART_ROOF, 1
 
 	def_bg_events
 	bg_event  0,  1, 12 ; CeladonMart2Text12

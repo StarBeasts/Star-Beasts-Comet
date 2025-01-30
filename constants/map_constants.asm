@@ -79,7 +79,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const PEWTER_SPEECH_HOUSE,            4,  4 ; $39
 	map_const PEWTER_POKECENTER,              7,  4 ; $3A
 	map_const MT_MOON_1F,                    20, 28 ; $3B
-	map_const MT_MOON_B1F,                   17, 14 ; $3C
+	map_const MT_MOON_B1F,                   17, 23 ; $3C
 	map_const MT_MOON_B2F,                   20, 18 ; $3D
 	map_const CERULEAN_TRASHED_HOUSE,         4,  4 ; $3E
 	map_const CERULEAN_TRADE_HOUSE,           4,  4 ; $3F
@@ -113,7 +113,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VERMILION_MART,                 4,  4 ; $5B
 	map_const VERMILION_GYM,                  5,  9 ; $5C
 	map_const VERMILION_PIDGEY_HOUSE,         4,  4 ; $5D
-	map_const VERMILION_DOCK,                14,  6 ; $5E
+	map_const VERMILION_DOCK,                20,  9 ; $5E
 	map_const SS_ANNE_1F,                    20,  9 ; $5F
 	map_const SS_ANNE_2F,                    20,  9 ; $60
 	map_const SS_ANNE_3F,                    10,  3 ; $61
@@ -141,11 +141,11 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const UNDERGROUND_PATH_NORTH_SOUTH,   4, 23 ; $77
 	map_const CHAMPIONS_ROOM,                 4,  4 ; $78
 	map_const UNDERGROUND_PATH_WEST_EAST,    25,  4 ; $79
-	map_const CELADON_MART_1F,               10,  4 ; $7A
+	map_const CELADON_MART_1F,               4,  4 ; $7A
 	map_const CELADON_MART_2F,               8,  13 ; $7B
-	map_const CELADON_MART_3F,               10,  4 ; $7C
-	map_const CELADON_MART_4F,               10,  4 ; $7D
-	map_const CELADON_MART_ROOF,             10,  4 ; $7E
+	map_const CELADON_MART_3F,               6,  6 ; $7C
+	map_const CELADON_MART_4F,               10,  20 ; $7D
+	map_const CELADON_MART_ROOF,             12,  8 ; $7E
 	map_const CELADON_MART_ELEVATOR,          2,  2 ; $7F
 	map_const CELADON_MANSION_1F,             6,  6 ; $80
 	map_const CELADON_MANSION_2F,             3,  3 ; $81
@@ -157,7 +157,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const GAME_CORNER,                   10,  9 ; $87
 	map_const CELADON_MART_5F,               6,  8 ; $88
 	map_const GAME_CORNER_PRIZE_ROOM,         5,  4 ; $89
-	map_const CELADON_DINER,                  5,  4 ; $8A
+	map_const CELADON_DINER,                  11,  5 ; $8A
 	map_const CELADON_CHIEF_HOUSE,            4,  4 ; $8B
 	map_const CELADON_HOTEL,                  12, 12 ; $8C
 	map_const LAVENDER_POKECENTER,            7,  4 ; $8D

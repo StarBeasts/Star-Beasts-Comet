@@ -120,9 +120,137 @@ _CeladonMartRoofText4::
 	para "Give her a drink?"
 	done
 
+_TM18PreReceiveText::
+	text "Oh, hi! I finally"
+	line "finished"
+	cont "STAR BEASTS!"
+
+	para "Not done yet?"
+	line "This might be"
+	cont "useful!"
+	prompt
+
+_ReceivedTM18Text::
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer
+	text "!@"
+	text_end
+
+_TM18ExplanationText::
+	text "TM18 is COUNTER!"
+	line "Not like the one"
+	cont "I'm leaning on,"
+	cont "mind you!"
+	done
+
+_TM18NoRoomText::
+	text "Your pack is full"
+	line "of items!"
+	done
+
 _CeladonMartRoofText6::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	text "Just so you know."
+
+	para "You don't need to"
+	line "do any trading to"
+	cont "get all the"
+	cont "BEASTS in this"
+	cont "game."
+	done
+
+_CeladonMartRoofText7::
+	text "What!?"
+
+	para "What do you mean"
+	line "LUZONEN evolves"
+	cont "at level 40!?"
+
+	para "I hate not being"
+	line "inconvenienced!"
+	done
+
+_CeladonMartRoofText8::
+	text "7 years..."
+
+	para "7 years, and it"
+	line "all came to a"
+	cont "screeching halt"
+	cont "because of those"
+	cont "STUPID health"
+	cont "code violations!"
+
+	para "Don't they get it?"
+
+	para "The caked on"
+	line "grease I never"
+	cont "cleaned was where"
+	cont "my distinct taste"
+	cont "came from!"
+	done
+
+_CeladonMartRoofText9::
+	text "HAHAHAHA!!!"
+
+	para "YES! YES!!!"
+
+	para "KILL THEM!!!"
+
+	para "KILL THEM ALL!!!"
+	done
+
+_CeladonMartRoofText11::
+	text "FOOD COURT"
+	done
+
+_CeladonMartRoofText12::
+	text "COMET VERSION"
+	line "It's # BEASTS!"
+	done
+
+_CeladonMartRoofText13::
+	text "It's an SNES!"
+	done
+
+_CeladonMartRoofText14::
+	text "A shooting game!"
+	line "Dad'll like that!"
+	done
+
+_CeladonMartRoofText15::
+	text "An RPG! Nope!"
+	line "You're too busy!"
+	done
+
+_CeladonMartRoofText16::
+	text "A puzzle game!"
+	line "Looks addictive!"
+	done
+
+_CeladonMartRoofText17::
+	text "A fighting game!"
+	line "Nice graphics!"
+	done
+
+_CeladonMartRoofText18::
+	text "THIRD FLOOR:"
+	line "RHINESTONE"
+	cont "GIFT SHOP AND"
+	cont "FOOD COURT"
+
+	para "YOU ARE HERE"
+
+	para "FOURTH FLOOR:"
+	line "RHINESTONE GYM"
+
+	para "UPSTAIRS"
+	done
+
+_CeladonMartRoofText19::
+	text "FILTHY FRANK'S"	
+	line "BURGERS 'N DOGS"
+
+	para "CLOSED PERMANENTLY"
 	done
 
 _VendingMachineText1::

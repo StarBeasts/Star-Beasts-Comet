@@ -1,8 +1,8 @@
 _CeladonDinerText1::
-	text "Welcome to-a Fajz's"
+	text "Welcome to-a FAJZ's"
 	line "fine-a foods!"
 
-	para "I'm-a Freddy Fajz!"
+	para "I'm-a FREDDY FAJZ!"
 
 	para "You got a"
 	line "reservation?"
@@ -75,3 +75,104 @@ _CeladonDinerText_491b7::
 	cont "jerk, and now"
 	cont "this..."
 	done
+
+_CeladonDinerText6::
+	text "Mr. FEDERICO FAJZ"
+	line "comes from the"
+	cont "SILUR region!"
+
+	para "He doesn't cook"
+	line "anything himself"
+	cont "any more, but"
+	cont "all the CHEFs"
+	cont "here have to"
+	cont "use his recipes"
+	cont "and cook all of"
+	cont "our meals to"
+	cont "his standards."
+
+	para "It's why we're"
+	line "world famous!" 
+	done
+
+_CeladonDinerText7::
+	text "Hmm... yes, yes,"
+	line "I see..."
+
+	para "Definitely a"
+	line "profitable"
+	cont "venture, yes..."
+	done
+
+_CeladonDinerText8::
+	text "Y-you'll be"
+	line "happy to know"
+	cont "that those STONEs"
+	cont "you imported are"
+	cont "flying off of"
+	cont "the shelves, sir!"
+	done
+
+_CeladonDinerText9::
+	text "MANIFEST:"
+	line "FIRE STONE"
+
+	para "FOR USE ON:"
+
+	para "LEEGHOUL, TOMAROC,"
+	line "CHARCOLD,"
+	cont "FLEWNICORN, and"
+	cont "CANGHOULIT."
+	done
+
+_CeladonDinerText10::
+	text "You're disrupting"
+	line "an important"
+	cont "meeting."
+
+	para "I'm watching you."
+
+	para "Keep your hands"
+	line "where I can see"
+	cont "them, and don't"
+	cont "pester the boss."
+	done
+
+_CeladonDinerText11::
+	text "MANIFEST:"
+	line "THUNDER STONE"
+
+	para "FOR USE ON:"
+
+	para "ELECTRIO,"
+	line "SOLASTRA,"
+	cont "and FLEWNICORN."
+	done
+
+_CeladonDinerText12::
+	text "MANIFEST:"
+	line "WATER STONE"
+
+	para "FOR USE ON:"
+
+	para "FLEWNICORN and"
+	line "CLIMPALE."
+	done
+
+_CeladonDinerText13::
+	text "It's a photo of"
+	line "a much younger"
+	cont "looking FAJZ"
+	cont "with his arm"
+	cont "draped around"
+	cont "an old bald man"
+	cont "who looks just"
+	cont "like him."
+
+	para "Under the photo"
+	line "it says:"
+
+	para "'Per la famiglia.'"
+
+	done
+

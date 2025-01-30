@@ -27,6 +27,7 @@ FuchsiaCity_TextPointers:
 	dw FuchsiaCityText23
 	dw FuchsiaCityText24
 	dw FuchsiaCityText25
+	dw FuchsiaCityText26
 
 FuchsiaCityText1:
 	text_far _FuchsiaCityText1
@@ -174,5 +175,9 @@ FuchsiaCityText_19b2a:
 
 FuchsiaCityText25:
 	text_far _FuchsiaCityText25
+	text_end
+
+FuchsiaCityText26:
+	text_far _FuchsiaCityText26
 	text_end
 
