@@ -1,8 +1,9 @@
 FightingDojo_Object:
-	db $0c ; border block
+	db $3 ; border block
 
 	def_warp_events
-	warp_event 35, 25, SAFFRON_CITY, 2
+	warp_event  4, 11, LAVENDER_TOWN, 9
+	warp_event  5, 11, LAVENDER_TOWN, 9
 
 	def_bg_events
 

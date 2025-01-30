@@ -146,7 +146,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CELADON_MART_3F,               6,  6 ; $7C
 	map_const CELADON_MART_4F,               10,  20 ; $7D
 	map_const CELADON_MART_ROOF,             12,  8 ; $7E
-	map_const CELADON_MART_ELEVATOR,          2,  2 ; $7F
+	map_const CELADON_MART_ELEVATOR,          18,  17 ; $7F
 	map_const CELADON_MANSION_1F,             6,  6 ; $80
 	map_const CELADON_MANSION_2F,             3,  3 ; $81
 	map_const CELADON_MANSION_3F,             6,  7 ; $82
@@ -196,7 +196,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const INDIGO_PLATEAU_LOBBY,           8,  6 ; $AE
 	map_const COPYCATS_HOUSE_1F,              4,  4 ; $AF
 	map_const COPYCATS_HOUSE_2F,              4,  4 ; $B0
-	map_const FIGHTING_DOJO,                 18, 17 ; $B1
+	map_const FIGHTING_DOJO,                  5, 6 ; $B1
 	map_const SAFFRON_GYM,                   10,  9 ; $B2
 	map_const SAFFRON_PIDGEY_HOUSE,           4,  4 ; $B3
 	map_const SAFFRON_MART,                   4,  4 ; $B4

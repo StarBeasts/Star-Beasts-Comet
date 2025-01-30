@@ -10,7 +10,7 @@ DungeonMaps1:
 	db ROCK_TUNNEL_1F
 	db SEAFOAM_ISLANDS_1F
 	db ROCK_TUNNEL_B1F
-	db FIGHTING_DOJO
+	db CELADON_MART_ELEVATOR
 	db -1 ; end
 
 ; GetBattleTransitionID_IsDungeonMap checks if wCurMap
