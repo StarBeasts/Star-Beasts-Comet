@@ -3,7 +3,7 @@ SaffronCity_Object:
 
 	def_warp_events
 	warp_event 37, 11, COPYCATS_HOUSE_1F, 1
-	warp_event 32, 21, FIGHTING_DOJO, 1
+	warp_event 32, 21, CELADON_MART_4F, 1
 	warp_event 16, 21, SAFFRON_GYM, 1
 	warp_event 17, 29, SAFFRON_PIDGEY_HOUSE, 1
 	warp_event 13, 29, SAFFRON_MART, 1
@@ -18,7 +18,7 @@ SaffronCity_Object:
 
 	def_bg_events
 	bg_event 21,  7, 16 ; SaffronCityText16
-	bg_event 29, 21, 17 ; SaffronCityText16
+	bg_event 27, 21, 17 ; SaffronCityText16
 	bg_event 18, 21, 18 ; SaffronCityText18
 	bg_event 14, 29, 19 ; MartSignText
 	bg_event 38, 19, 20 ; SaffronCityText20

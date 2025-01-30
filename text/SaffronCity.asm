@@ -104,8 +104,8 @@ _SaffronCityText16::
 	done
 
 _SaffronCityText17::
-	text "DAVISON ART"
-	line "GALLERY"
+	text "WASTEWATER"
+	line "TREATMENT PLANT"
 	done
 
 _SaffronCityText18::

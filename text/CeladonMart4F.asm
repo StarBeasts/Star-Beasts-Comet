@@ -1,10 +1,20 @@
-_CeladonMart4Text2::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+_CeladonMart4Text1::
+	text "scan ur item place"
+	line "ur item in the"
+	cont "bagging area!"
 
 	para "Girls of all ages"
 	line "adore them!"
+	done
+
+_CeladonMart4Text2::
+	text "Damnit, do they"
+	line "just let ANYBODY"
+	cont "in without any"
+	cont "clearance, now?"
+
+	para "I'm trying to"
+	line "work here, kid."
 	done
 
 _CeladonMart4Text3::

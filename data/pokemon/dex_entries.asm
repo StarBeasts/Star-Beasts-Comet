@@ -647,7 +647,7 @@ JynxDexEntry:
 MoltresDexEntry:
 	db "1ST DRAGON@"
 	db 38,4
-	dw 13042
+	dw 7642
 	text_far _MoltresDexEntry
 	text_end
 
@@ -661,7 +661,7 @@ ArticunoDexEntry:
 ZapdosDexEntry:
 	db "RED DRAGON@"
 	db 27,3
-	dw 11760
+	dw 9760
 	text_far _ZapdosDexEntry
 	text_end
 
@@ -864,7 +864,7 @@ PoliwhirlDexEntry:
 PoliwrathDexEntry:
 	db "STEAMTITAN@"
 	db 68,00
-	dw 48829
+	dw 9999
 	text_far _PoliwrathDexEntry
 	text_end
 
@@ -983,7 +983,7 @@ MewtwoDexEntry:
 SnorlaxDexEntry:
 	db "VORACIOUS@"
 	db 8,6
-	dw 26837
+	dw 9837
 	text_far _SnorlaxDexEntry
 	text_end
 

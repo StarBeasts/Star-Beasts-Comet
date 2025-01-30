@@ -77,6 +77,7 @@
 	const SPRITE_FAJZ
 	const SPRITE_BART
 	const SPRITE_PSYCHIC
+	const SPRITE_HAZMAT
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e

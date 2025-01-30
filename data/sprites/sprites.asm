@@ -82,6 +82,7 @@ SpriteSheetPointerTable:
 	overworld_sprite FajzSprite, 12		  ; SPRITE_FAJZ
 	overworld_sprite BartSprite, 12		  ; SPRITE_BART
 	overworld_sprite PsychicSprite, 12		  ; SPRITE_PSYCHIC
+	overworld_sprite HazmatSprite, 12		  ; SPRITE_HAZMAT
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER
