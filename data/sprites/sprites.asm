@@ -107,4 +107,5 @@ SpriteSheetPointerTable:
 	overworld_sprite RockySprite, 4		  ; SPRITE_ROCKY
 	overworld_sprite CharkonroSprite, 4		  ; SPRITE_CHARKONRO
 	overworld_sprite VarikSprite, 4		  ; SPRITE_VARIK
+	overworld_sprite FrozenRocketSprite, 4		  ; SPRITE_FROZEN_ROCKET
 	assert_table_length NUM_SPRITES

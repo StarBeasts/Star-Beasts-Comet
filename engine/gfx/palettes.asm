@@ -181,16 +181,18 @@ SetPal_Overworld:
 	cp VILLA_4F
 	jp z, .black
 	cp VILLA_5F
-	jr z, .pallet
+	jp z, .pallet
 	cp CELADON_MANSION_ROOF
-	jr z, .garnet
+	jp z, .garnet
 	cp ROCKET_HIDEOUT_B1F
-	jr z, .miserite
+	jp z, .miserite
 	cp ROCKET_HIDEOUT_B2F
 	jr z, .miserite
 	cp ROCKET_HIDEOUT_B3F
 	jr z, .miserite
 	cp SECRET_GARDEN
+	jr z, .blueMon
+	cp CELADON_MART_ELEVATOR
 	jr z, .blueMon
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding

@@ -7,5 +7,6 @@ CeladonMartElevator_Object:
 	def_bg_events
 
 	def_object_events
+	object_event 6, 2, SPRITE_FROZEN_ROCKET, STAY, NONE, 1 ; person
 
 	def_warps_to CELADON_MART_ELEVATOR
