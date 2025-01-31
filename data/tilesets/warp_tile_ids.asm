@@ -27,6 +27,7 @@ WarpTileIDPointers:
 	dw .Overworld2WarpTileIDs
 	dw .PowerplantWarpTileIDs
 	dw .SaffronTilesetWarpTileIDs
+	dw .HillTilesetWarpTileIDs
 	assert_table_length NUM_TILESETS
 
 MACRO warp_tiles
@@ -103,4 +104,7 @@ ENDM
 
 .PowerplantWarpTileIDs
 	warp_tiles $52, $53, $54
+
+.HillTilesetWarpTileIDs
+	warp_tiles $63
 

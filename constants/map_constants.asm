@@ -25,7 +25,7 @@ ENDM
 	map_const CELADON_CITY,                  25, 18 ; $06
 	map_const FUCHSIA_CITY,                  21, 18 ; $07
 	map_const CINNABAR_ISLAND,               10, 28 ; $08
-	map_const INDIGO_PLATEAU,                10,  9 ; $09
+	map_const INDIGO_PLATEAU,                19,  43; $09
 	map_const SAFFRON_CITY,                  24, 18 ; $0A
 	map_const RANGER_STATION,                20, 17 ; $0B
 DEF NUM_CITY_MAPS EQU const_value

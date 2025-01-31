@@ -28,4 +28,5 @@
 	const OVERWORLD_2  ; 24
 	const POWERPLANT_TILESET
 	const SAFFRONTILESET
+	const HILL
 DEF NUM_TILESETS EQU const_value

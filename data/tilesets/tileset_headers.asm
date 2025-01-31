@@ -36,4 +36,5 @@ Tilesets:
 	tileset Overworld2,    -1, -1, -1, $52, TILEANIM_WATER_FLOWER
 	tileset PowerPlant,    -1, -1, -1,  -1, TILEANIM_NONE
 	tileset SaffronTileset,    -1, -1, -1,  -1, TILEANIM_NONE
+	tileset HillTileset,    -1, -1, -1,  -1, TILEANIM_NONE
 	assert_table_length NUM_TILESETS
