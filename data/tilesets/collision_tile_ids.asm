@@ -79,3 +79,6 @@ SaffronTileset_Coll::
 School_Coll::
 	coll_tiles
 
+HillTileset_Coll::
+	coll_tiles $16, $36, $1c, $3c, $48, $49, $58, $59, $53, $63, $6c, $41
+

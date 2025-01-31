@@ -13,6 +13,7 @@ DoorTileIDPointers:
 	dbw FACILITY,    .FacilityDoorTileIDs
 	dbw PLATEAU,     .PlateauDoorTileIDs
 	dbw SAFFRONTILESET, .SaffronDoorTileIDs
+	dbw HILL, .HillTilesetDoorTileIDs
 	db -1 ; end
 
 MACRO door_tiles
@@ -57,3 +58,6 @@ ENDM
 
 .SaffronDoorTileIDs
 	door_tiles $1b, $54
+
+.HillTilesetDoorTileIDs
+	door_tiles $63
