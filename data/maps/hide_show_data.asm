@@ -128,7 +128,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw CeladonMart4FHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -594,5 +594,9 @@ DevilsCanyonHS:
 	db DEVILS_CANYON, $01, SHOW ; muahaha
 PurpleForestHS:
 	db PURPLE_FOREST, $02, SHOW
+CeladonMart4FHS:
+	db CELADON_MART_4F, $06, SHOW
+	db CELADON_MART_4F, $07, SHOW
+	db CELADON_MART_4F, $08, HIDE
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

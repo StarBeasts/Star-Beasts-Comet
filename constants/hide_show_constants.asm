@@ -255,4 +255,7 @@ DEF SHOW EQU $15
 	const HS_ANGEL
 	const HS_DEVIL
 	const HS_CAT_THING
+	const HS_HAZMAT_GUY_1
+	const HS_SEWER_ROCKET
+	const HS_HAZMAT_GUY_2
 DEF NUM_HS_OBJECTS EQU const_value

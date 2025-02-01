@@ -16,5 +16,6 @@ CeladonMart4F_Object:
 	object_event 10, 5, SPRITE_HAZMAT, STAY, DOWN, 5 ; person
 	object_event 5, 7, SPRITE_HAZMAT, STAY, DOWN, 6 ; person
 	object_event 3, 11, SPRITE_ROCKET, STAY, RIGHT, 7 ; person
+	object_event 5, 7, SPRITE_HAZMAT, STAY, DOWN, 8 ; person
 
 	def_warps_to CELADON_MART_4F

@@ -67,6 +67,17 @@ FuchsiaGymReceiveTM06:
 	ld hl, wBeatGymFlags
 	set BIT_SOULBADGE, [hl]
 
+	ld a, HS_HAZMAT_GUY_1
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_SEWER_ROCKET
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_HAZMAT_GUY_2
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+
+
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_FUCHSIA_GYM_TRAINER_0, EVENT_BEAT_FUCHSIA_GYM_TRAINER_5
 
