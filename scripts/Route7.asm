@@ -1,19 +1,13 @@
 Route7_Script:
-	call Route7Script_515e1
 	call EnableAutoTextBoxDrawing
-	ld hl, Route7TrainerHeaders
-	ld de, Route7_ScriptPointers
 	ld a, [wRoute7CurScript]
-	call ExecuteCurMapScriptInTable
-	ld [wRoute7CurScript], a
-	ret
+	ld hl, Route7_ScriptPointers
+	jp CallFunctionInTable
 
 Route7_ScriptPointers:
-	dw CheckFightingMapTrainers
-	dw DisplayEnemyTrainerTextAndStartBattle
-	dw EndTrainerBattle
+	dw Route7Script0
 
-Route7Script_515e1:
+Route7Script0:
 	ld hl, wCurrentMapScriptFlags
 	bit 6, [hl]
 	res 6, [hl]
@@ -36,9 +30,6 @@ Route7Script_515e1:
 	ld a, HS_BILL_2
 	ld [wMissableObjectIndex], a
 	predef_jump ShowObject
-
-Route7TrainerHeaders:
-	def_trainers
 
 Route7_TextPointers:
 	dw Route7Text1
