@@ -2003,7 +2003,8 @@ wVultMazeCurScript:: db
 wVillaB1FCurScript:: db
 wVilla2FCurScript:: db
 wVilla5FCurScript:: db
-	ds 3
+wCeladonMansion2FCurScript::
+	ds 2
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db

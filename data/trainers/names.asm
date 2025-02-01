@@ -46,3 +46,4 @@ TrainerNames::
 	db "CHANNELER@"
 	db "MADILIN@"
 	db "ARCTURUS@"
+	db "LEGEND VARIK@"

@@ -54,4 +54,5 @@ TrainerPicAndMoneyPointers::
 	pic_money ChannelerPic,    3000
 	pic_money AgathaPic,       9999
 	pic_money LancePic,        9999
+	pic_money VarikPic,        9999
 	assert_table_length NUM_TRAINERS

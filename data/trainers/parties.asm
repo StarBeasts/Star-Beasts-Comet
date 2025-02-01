@@ -46,6 +46,7 @@ TrainerDataPointers:
 	dw ChannelerData
 	dw AgathaData
 	dw LanceData
+	dw VarikData
 
 ; if first byte != $FF, then
 	; first byte is level (of all pokemon on this team)
@@ -768,3 +769,6 @@ AgathaData:
 
 LanceData:
 	db $FF, 51, GRAVELER, 52, DRAGONAIR, 52, TAUROS, 53, JOLTEON, 55, CHANSEY, 57, DRAGONITE, 0
+
+VarikData:
+	db $FF, 88, PRIMEAPE, 52, DRAGONAIR, 52, TAUROS, 53, JOLTEON, 55, CHANSEY, 57, DRAGONITE, 0

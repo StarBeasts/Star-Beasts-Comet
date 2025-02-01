@@ -3,7 +3,7 @@ ViridianCity_Object:
 
 	def_warp_events
 	warp_event  9, 15, VIRIDIAN_POKECENTER, 1
-	warp_event 13,  9, VIRIDIAN_MART, 1
+	warp_event 13,  9, VILLA_1F, 1
 	warp_event  9,  9, VIRIDIAN_SCHOOL_HOUSE, 1
 	warp_event 15, 15, VIRIDIAN_NICKNAME_HOUSE, 1
 	warp_event 30, 15, VIRIDIAN_GYM, 1

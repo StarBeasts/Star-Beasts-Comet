@@ -260,4 +260,6 @@ DEF SHOW EQU $15
 	const HS_HAZMAT_GUY_2
 	const HS_NEPUTAIL
 	const HS_SEWER_ITEM_1
+	const HS_VARIK_1
+	const HS_VARIK_2
 DEF NUM_HS_OBJECTS EQU const_value

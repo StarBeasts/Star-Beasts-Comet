@@ -34,3 +34,23 @@ _CeladonMansion2Text1::
 	line "that fateful day"
 	cont "arrives..."
 	done
+
+_CeladonMansion2FBattleText1::
+	text "Get fucked."
+	done
+
+_CeladonMansion2FEndBattleText1::
+	text "Get fucked."
+	prompt
+
+_CeladonMansion2FAfterBattleText1::
+	text "Leave me be."
+
+	para "I will take my"
+	line "leave of this"
+	cont "place in time."
+
+	para "But, for now,"
+	line "I'd like to be"
+	cont "left alone."
+	done

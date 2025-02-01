@@ -11,11 +11,11 @@ PlayBattleMusic::
 	and a
 	jr z, .notGymLeaderBattle
 	ld a, MUSIC_GYM_LEADER_BATTLE
-	jr .playSong
+	jp .playSong
 .notGymLeaderBattle
 	ld a, [wIsTrainerBattle]
 	and a
-	jr z, .wildBattle
+	jp z, .wildBattle
 	ld a, [wCurOpponent]
 	cp OPP_RIVAL3
 	jr z, .finalBattle
@@ -51,6 +51,8 @@ PlayBattleMusic::
 	jr z, .elite4battle
 	cp OPP_CHIEF
 	jr z, .hero
+	cp OPP_VARIK
+	jp z, .gadoba
 	cp OPP_LANCE
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_HERO; lance also plays gym leader theme
@@ -84,6 +86,9 @@ PlayBattleMusic::
 	jr .playSong
 .hero
 	ld a, MUSIC_HERO
+	jr .playSong
+.gadoba
+	ld a, MUSIC_GADOBA
 	jr .playSong
 .wildBattle
 	ld a, MUSIC_WILD_BATTLE

@@ -9,5 +9,6 @@ CeladonMansion2F_Object:
 
 	def_object_events
 	object_event  2,  1, SPRITE_VARIK, STAY, DOWN, 1 ; person
+	object_event  2,  1, SPRITE_VARIK, STAY, DOWN, 2, OPP_VARIK, 1 ; person
 
 	def_warps_to CELADON_MANSION_2F
