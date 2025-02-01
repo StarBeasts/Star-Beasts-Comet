@@ -130,7 +130,7 @@ MapHSPointers:
 	dw NoHS
 	dw CeladonMart4FHS
 	dw NoHS
-	dw NoHS
+	dw CeladonMartElevatorHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -598,5 +598,8 @@ CeladonMart4FHS:
 	db CELADON_MART_4F, $06, SHOW
 	db CELADON_MART_4F, $07, SHOW
 	db CELADON_MART_4F, $08, HIDE
+CeladonMartElevatorHS:
+	db CELADON_MART_ELEVATOR, $02, SHOW
+	db CELADON_MART_ELEVATOR, $03, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

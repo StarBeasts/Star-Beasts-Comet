@@ -2089,7 +2089,8 @@ wSecretGardenCurScript:: db
 wAncientCaveCurScript:: db
 wDevilsCanyonCurScript:: db
 wRoute7CurScript:: db
-	ds 2
+wCeladonMartElevatorCurScript:: db
+	ds 1
 wGameProgressFlagsEnd::
 
 UNION
