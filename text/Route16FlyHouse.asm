@@ -1,11 +1,21 @@
 _Route16HouseText3::
-	text "Oh, you found my"
-	line "secret retreat!"
+	text "Damn it!"
+	
+	para "I would've thought"
+	line "moving out to the"
+	cont "middle of nowhere"
+	cont "and putting that"
+	cont "bush in front of"
+	cont "my door would"
+	cont "stop people from"
+	cont "bothering me,"
+	cont "but I guess not!"
 
-	para "Please don't tell"
-	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	para "I'll give you"
+	line "this if you"
+	cont "promise not to"
+	cont "tell anybody"
+	cont "where I am."
 	prompt
 
 _ReceivedHM02Text::
