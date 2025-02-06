@@ -4,8 +4,8 @@ Route16_Object:
 	def_warp_events
 	warp_event 63, 10, ROUTE_7_GATE, 1
 	warp_event 63, 11, ROUTE_7_GATE, 2
-	warp_event  6, 12, ROUTE_7_GATE, 1
-	warp_event  6, 13, ROUTE_7_GATE, 2
+	warp_event  6, 12, ROUTE_16_GATE_1F, 3
+	warp_event  6, 13, ROUTE_16_GATE_1F, 4
 	warp_event 32, 31, ROUTE_16_GATE_1F, 5
 	warp_event 19,  5, ROUTE_16_FLY_HOUSE, 1
 

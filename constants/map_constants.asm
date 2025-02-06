@@ -104,7 +104,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROCK_TUNNEL_1F,                20, 18 ; $52
 	map_const POWER_PLANT,                   20, 18 ; $53
 	map_const ROUTE_11_GATE_1F,               4,  5 ; $54
-	map_const DIGLETTS_CAVE_ROUTE_11,         4,  4 ; $55
+	map_const DIGLETTS_CAVE_ROUTE_11,         15, 14 ; $55
 	map_const ROUTE_11_GATE_2F,               4,  4 ; $56
 	map_const ROUTE_12_GATE_1F,               5,  4 ; $57
 	map_const BILLS_HOUSE,                    4,  4 ; $58
@@ -205,7 +205,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const MR_PSYCHICS_HOUSE,              4,  4 ; $B7
 	map_const ROUTE_15_GATE_1F,               4,  12 ; $B8
 	map_const ROUTE_15_GATE_2F,               4,  4 ; $B9
-	map_const ROUTE_16_GATE_1F,               4,  7 ; $BA
+	map_const ROUTE_16_GATE_1F,               4,  11 ; $BA
 	map_const ROUTE_16_GATE_2F,               28, 16 ; $BB
 	map_const ROUTE_16_FLY_HOUSE,             4,  4 ; $BC
 	map_const ROUTE_12_SUPER_ROD_HOUSE,       4,  4 ; $BD
