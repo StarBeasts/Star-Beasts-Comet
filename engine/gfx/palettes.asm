@@ -152,8 +152,10 @@ SetPal_Overworld:
 	ld a, [wCurMap]
 	cp ROUTE_5
 	jp z, .mewMon
+	cp ROUTE_24
+	jp z, .cerulean
 	cp FIRST_INDOOR_MAP
-	jr c, .townOrRoute
+	jp c, .townOrRoute
 	cp VIRIDIAN_FOREST
 	jp z, .invertColors
 	cp ROUTE_2_GATE
@@ -162,6 +164,8 @@ SetPal_Overworld:
 	jp z, .bloodstone
 	cp POWER_PLANT
 	jp z, .mewMon
+	cp DIGLETTS_CAVE_ROUTE_11
+	jp z, .cerulean
 	cp CELAGONE_CITY
 	jp z, .grey
 	cp GLITCH_ROOM
@@ -274,6 +278,9 @@ SetPal_Overworld:
 	jr .town
 .purpleandRed
 	ld a, PAL_PURPLEANDRED - 1
+	jr .town
+.cerulean
+	ld a, PAL_CERULEAN - 1
 	jr .town
 
 
