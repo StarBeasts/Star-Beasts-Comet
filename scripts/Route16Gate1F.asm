@@ -31,7 +31,7 @@ Route16GateScript0:
 	ld [wSimulatedJoypadStatesIndex], a
 	ld b, $0
 	ld c, a
-	ld a, D_UP
+	ld a, D_LEFT
 	ld hl, wSimulatedJoypadStatesEnd
 	call FillMemory
 	call StartSimulatingJoypadStates
@@ -44,10 +44,10 @@ Route16GateScript0:
 	ret
 
 CoordsData_49714:
-	dbmapcoord  4,  7
-	dbmapcoord  4,  8
-	dbmapcoord  4,  9
-	dbmapcoord  4, 10
+	dbmapcoord  2,  17
+	dbmapcoord  3,  17
+	dbmapcoord  2,  18
+	dbmapcoord  3,  18
 	db -1 ; end
 
 Route16GateScript1:
@@ -63,7 +63,7 @@ Route16GateScript2:
 	call DisplayTextID
 	ld a, $1
 	ld [wSimulatedJoypadStatesIndex], a
-	ld a, D_RIGHT
+	ld a, D_UP
 	ld [wSimulatedJoypadStatesEnd], a
 	call StartSimulatingJoypadStates
 	ld a, $3

@@ -4,8 +4,8 @@ ENDM
 
 ForcedBikeOrSurfMaps:
 	; map id, x, y
-	force_bike_surf ROUTE_16,            17, 10
-	force_bike_surf ROUTE_16,            17, 11
+	force_bike_surf ROUTE_16,            32, 32
+	force_bike_surf ROUTE_16,            32, 31
 	force_bike_surf ROUTE_18,            33,  8
 	force_bike_surf ROUTE_18,            33,  9
 	force_bike_surf SEAFOAM_ISLANDS_B3F, 18,  7
