@@ -1,14 +1,22 @@
 _Route24Text_51510::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
+	text "Ah, good."
+	
+	para "You're here."
+	
+	para "Well, first,"
+	line "here's an upfront"
+	cont "payment to prove"
+	cont "I'm good for it."
+
+	para "The man pulls out"
+	line "a lump of solid"
+	cont "gold!@"
 	text_end
 
 _Route24Text_51515::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "Go on, take it!"
 	prompt
 
 _Route24Text_5151a::
@@ -24,34 +32,33 @@ _Route24Text_51521::
 	done
 
 _Route24Text_51526::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "Now, it's time"
+	line "for your end of"
+	cont "the deal."
 
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using BEASTS!"
+	para "I've had some"
+	line "real nightmare"
+	cont "tenants as of"
+	cont "late, and I need"
+	cont "you to show them"
+	cont "the error of"
+	cont "their ways."
 
-	para "Want to join?"
+	para "But first, I"
+	line "have to test you"
+	cont "in a battle to"
+	cont "see if you're"
+	cont "as good as you"
+	cont "cracked yourself"
+	cont "up to be!"
 
-	para "Are you sure?"
-
-	para "Come on, join us!"
-
-	para "I'm telling you"
-	line "to join!"
-
-	para "OK, you need"
-	line "convincing!"
-
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "C'mon, put 'em up!"
 	done
 
 _Route24Text_5152b::
-	text "Arrgh!"
-	line "You are good!"
+	text "Whoa,"
+	line "nelly!"
+	para "You ARE good!"
 	prompt
 
 _Route24Text_51530::

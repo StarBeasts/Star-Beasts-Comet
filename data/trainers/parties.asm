@@ -696,6 +696,8 @@ GentlemanData:
 	db 48, PRIMEAPE, 0
 ; SS Anne 2F Rooms
 	db 17, NIDORINO, RATICATE, 0
+; Trailer Park Guy
+	db 27, PIDGEOTTO, NIDORINO, PERSIAN, 0 
 
 Green2Data:
 ; SS Anne 2F
