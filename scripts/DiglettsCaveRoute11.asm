@@ -3,7 +3,28 @@ DiglettsCaveRoute11_Script:
 
 DiglettsCaveRoute11_TextPointers:
 	dw DiglettsCaveEntranceRoute11Text1
+	dw DiglettsCaveEntranceRoute11Text2
+	dw DiglettsCaveEntranceRoute11Text3
+	dw DiglettsCaveEntranceRoute11Text4
+	dw DiglettsCaveEntranceRoute11Text5
 
 DiglettsCaveEntranceRoute11Text1:
 	text_far _DiglettsCaveEntRoute11Text1
 	text_end
+
+DiglettsCaveEntranceRoute11Text2:
+	text_far _DiglettsCaveEntRoute11Text2
+	text_end
+
+DiglettsCaveEntranceRoute11Text3:
+	text_far _DiglettsCaveEntRoute11Text3
+	text_end
+
+DiglettsCaveEntranceRoute11Text4:
+	text_far _DiglettsCaveEntRoute11Text4
+	text_end
+
+DiglettsCaveEntranceRoute11Text5:
+	text_far _DiglettsCaveEntRoute11Text5
+	text_end
+

@@ -16,8 +16,13 @@ DiglettsCaveRoute11_Object:
 	warp_event 11, 5, ROUTE_24, 15
 
 	def_bg_events
+	bg_event 21, 15, 3 ; 
+	bg_event 9, 5, 4 ; 
+	bg_event 11, 19, 5 ; 
 
 	def_object_events
-	object_event 13, 14, SPRITE_GAMBLER, STAY, NONE, 1 ; person
+	object_event 13, 14, SPRITE_ROCKER, STAY, NONE, 1 ; person
+	object_event 9, 10, SPRITE_LITTLE_GIRL, STAY, NONE, 2 ; person
+
 
 	def_warps_to DIGLETTS_CAVE_ROUTE_11
