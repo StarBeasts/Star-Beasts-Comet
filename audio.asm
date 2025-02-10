@@ -547,6 +547,7 @@ INCLUDE "crysaudio/music/new/sewers.asm"
 INCLUDE "crysaudio/music/new/onward.asm"
 INCLUDE "crysaudio/music/new/varik.asm"
 INCLUDE "crysaudio/music/new/gadoba.asm"
+INCLUDE "crysaudio/music/new/burntlab.asm"
 
 SECTION "Sound Effects", ROMX
 
