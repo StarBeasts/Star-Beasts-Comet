@@ -2,8 +2,8 @@ Route16Gate1F_Object:
 	db $a ; border block
 
 	def_warp_events
-	warp_event  0,  4, DIGLETTS_CAVE_ROUTE_11, 1
-	warp_event  0,  5, DIGLETTS_CAVE_ROUTE_11, 2
+	warp_event  0,  5, DIGLETTS_CAVE_ROUTE_11, 1
+	warp_event  0,  4, DIGLETTS_CAVE_ROUTE_11, 2
 	warp_event  7,  4, ROUTE_16, 3
 	warp_event  7,  5, ROUTE_16, 4
 	warp_event  2,  14, DIGLETTS_CAVE_ROUTE_11, 3

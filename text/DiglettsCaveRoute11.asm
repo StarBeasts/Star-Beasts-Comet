@@ -30,7 +30,19 @@ _DiglettsCaveEntRoute11Text2::
 	line "back one day..."
 	done
 
-_DiglettsCaveEntRoute11Text3::
+_DiglettsCaveEntRoute11HealerImAHealerText::
+	text "I may not look"
+	line "like it, but I'm"
+	cont "a healer."
+
+	para "Here, rest a bit."
+	prompt
+
+_DiglettsCaveEntRoute11HealerComeBackAnyTimeText::
+	text "Be safe, now."
+	done
+
+_DiglettsCaveEntRoute11Text4::
 	text "LAPIS LAZULI"
 	line "TRAILER PARK"
 
@@ -40,7 +52,7 @@ _DiglettsCaveEntRoute11Text3::
 	cont "GOT CHEAP!"
 	done
 
-_DiglettsCaveEntRoute11Text4::
+_DiglettsCaveEntRoute11Text5::
 	text "PROPERTY MANAGER"
 
 	para "BAD CREDIT?"
@@ -49,7 +61,7 @@ _DiglettsCaveEntRoute11Text4::
 	para "NO PROBLEM!"
 	done
 
-_DiglettsCaveEntRoute11Text5::
+_DiglettsCaveEntRoute11Text6::
 	text "WESTERN CYCLING"
 	line "ROAD"
 	done
