@@ -284,8 +284,8 @@ _SaffronCityPokecenterGuyText2::
 	done
 
 _CeladonCityHotelText::
-	text "My sis brought me"
-	line "on this vacation!"
+	text "Can't a ghost"
+	line "peep in peace!?"
 	done
 
 _BookcaseText::
