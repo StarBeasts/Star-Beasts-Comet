@@ -729,9 +729,9 @@ CheckIfInOutsideMap::
 	ret z
 	cp SAFFRONTILESET
 	jr z, .Finish
-	cp PLATEAU ; Route 23 / Indigo Plateau
-	jr z, .Finish
 	cp HILL
+	jr z, .Finish
+	cp TRAILER_PARK
 .Finish
 	ret
 
@@ -760,11 +760,11 @@ ExtraWarpCheck::
 	jr z, .useFunction2
 	cp SHIP_PORT ; Vermilion Port tileset
 	jr z, .useFunction2
-	cp PLATEAU ; Indigo Plateau tileset
-	jr z, .useFunction2
 	cp SAFFRONTILESET
 	jr z, .useFunction2
 	cp POWERPLANT_TILESET
+	jr z, .useFunction2
+	cp TRAILER_PARK
 	jr z, .useFunction2
 .useFunction1
 	ld hl, IsPlayerFacingEdgeOfMap
