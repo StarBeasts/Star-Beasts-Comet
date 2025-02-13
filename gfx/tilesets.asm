@@ -80,3 +80,6 @@ Mansion_GFX::       INCBIN "gfx/tilesets/mansion.2bpp"
 Mansion_Block::     INCBIN "gfx/blocksets/mansion.bst"
 HillTileset_GFX::          INCBIN "gfx/tilesets/hill.2bpp"
 HillTileset_Block::        INCBIN "gfx/blocksets/hill.bst"
+
+TrailerParkTileset_GFX::     INCBIN "gfx/tilesets/trailer_park.2bpp"
+TrailerParkTileset_Block::   INCBIN "gfx/blocksets/trailer_park.bst"
