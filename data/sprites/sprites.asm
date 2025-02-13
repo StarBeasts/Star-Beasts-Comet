@@ -85,6 +85,7 @@ SpriteSheetPointerTable:
 	overworld_sprite HazmatSprite, 12		  ; SPRITE_HAZMAT
 	overworld_sprite GailonSprite, 12		  ; SPRITE_GAILON
 	overworld_sprite RobotSprite, 12		  ; SPRITE_ROBOT
+	overworld_sprite SoldierSprite, 12		  ; SPRITE_SOLDIER
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

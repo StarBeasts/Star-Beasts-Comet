@@ -80,6 +80,7 @@
 	const SPRITE_HAZMAT
 	const SPRITE_GAILON
 	const SPRITE_ROBOT
+	const SPRITE_SOLDIER
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e
