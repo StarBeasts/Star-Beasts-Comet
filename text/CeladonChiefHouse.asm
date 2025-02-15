@@ -1,33 +1,81 @@
 _CeladonHouseText1::
-	text "Hehehe! The slots"
-	line "just reel in the"
-	cont "dough, big time!"
+	text "Ten-hut!"
 	done
 
 _CeladonHouseText2::
-	text "CHIEF!"
-
-	para "Those FIRE STONEs"
-	line "are flying off"
-	cont "the shelves!"
-
-	para "According to the"
-	line "sales invoice,"
-	cont "LEEGHOUL, TOMAROC,"
-	cont "CHARCOLD,"
-	
-	para "FLEWNICORN, and"
-	line "CANGHOULIT all"
-	cont "evolve with a"
-	cont "FIRE STONE!"
-	
+	text "Ten-hut!"
+	line "ten huts!"	
 	done
 
 _CeladonHouseText3::
-	text "Don't touch the"
-	line "poster at the"
-	cont "GAME CORNER!"
+	text "Ten-hut!"
 
-	para "There's no secret"
-	line "switch behind it!"
+	para "Another-paragraph!"
 	done
+
+_CeladonHouseText4::
+	text "Ten-hut!"
+	done
+
+_CeladonHouseText5::
+	text "Ten-hut!"
+	line "ten huts!"	
+	done
+
+_CeladonHouseText6::
+	text "Ten-hut!"
+
+	para "Another-paragraph!"
+	done
+
+_CeladonHouseText7::
+	text "Ten-hut!"
+	done
+
+_CeladonHouseText8::
+	text "Ten-hut!"
+	line "ten huts!"	
+	done
+
+_CeladonHouseText9::
+	text "Ten-hut!"
+
+	para "Another-paragraph!"
+	done
+
+_CeladonHouseText10::
+	text "Ten-hut!"
+	done
+
+_CeladonHouseText11::
+	text "Ten-hut!"
+	line "ten huts!"	
+	done
+
+_CeladonHouseText12::
+	text "Ten-hut!"
+
+	para "Another-paragraph!"
+	done
+
+_CeladonHouseText13::
+	text "Ten-hut!"
+	done
+
+_CeladonHouseText14::
+	text "Ten-hut!"
+	line "ten huts!"	
+	done
+
+_CeladonHouseText15::
+	text "Ten-hut!"
+
+	para "Another-paragraph!"
+	done
+
+_CeladonHouseText16::
+	text "Ten-hut!"
+
+	para "Another-paragraph!"
+	done
+
