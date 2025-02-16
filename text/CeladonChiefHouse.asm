@@ -8,9 +8,8 @@ _CeladonHouseText2::
 	done
 
 _CeladonHouseText3::
-	text "Ten-hut!"
-
-	para "Another-paragraph!"
+	text "No civilians past"
+	line "this point."
 	done
 
 _CeladonHouseText4::
@@ -23,9 +22,8 @@ _CeladonHouseText5::
 	done
 
 _CeladonHouseText6::
-	text "Ten-hut!"
-
-	para "Another-paragraph!"
+	text "No civilians past"
+	line "this point."
 	done
 
 _CeladonHouseText7::
