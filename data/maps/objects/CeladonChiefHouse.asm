@@ -4,6 +4,12 @@ CeladonChiefHouse_Object:
 	def_warp_events
 	warp_event  6, 30, ROUTE_12_GATE_1F, 3
 	warp_event  6, 31, ROUTE_12_GATE_1F, 4
+	warp_event  14, 37, ROUTE_12_GATE_1F, 3
+	warp_event  15, 37, ROUTE_12_GATE_1F, 4
+	warp_event  29, 30, ROUTE_12_GATE_1F, 3
+	warp_event  29, 31, ROUTE_12_GATE_1F, 4
+	warp_event  14, 27, ROUTE_12_GATE_1F, 3
+
 
 	def_bg_events
 	bg_event 7, 27, 13 ;

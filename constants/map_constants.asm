@@ -27,7 +27,7 @@ ENDM
 	map_const CINNABAR_ISLAND,               10, 28 ; $08
 	map_const INDIGO_PLATEAU,                19,  43; $09
 	map_const SAFFRON_CITY,                  24, 18 ; $0A
-	map_const RANGER_STATION,                20, 17 ; $0B
+	map_const RANGER_STATION,                17, 19 ; $0B
 DEF NUM_CITY_MAPS EQU const_value
 DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_1,                       24, 10 ; $0C
@@ -103,7 +103,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROCK_TUNNEL_POKECENTER,         7,  4 ; $51
 	map_const ROCK_TUNNEL_1F,                20, 18 ; $52
 	map_const POWER_PLANT,                   20, 18 ; $53
-	map_const ROUTE_11_GATE_1F,               4,  5 ; $54
+	map_const ROUTE_11_GATE_1F,               4,  20 ; $54
 	map_const DIGLETTS_CAVE_ROUTE_11,         15, 14 ; $55
 	map_const ROUTE_11_GATE_2F,               4,  4 ; $56
 	map_const ROUTE_12_GATE_1F,               5,  4 ; $57
@@ -209,7 +209,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_16_GATE_2F,               28, 16 ; $BB
 	map_const ROUTE_16_FLY_HOUSE,             4,  4 ; $BC
 	map_const ROUTE_12_SUPER_ROD_HOUSE,       4,  4 ; $BD
-	map_const ROUTE_18_GATE_1F,               4,  5 ; $BE
+	map_const ROUTE_18_GATE_1F,               4,  12 ; $BE
 	map_const ROUTE_18_GATE_2F,               4,  4 ; $BF
 	map_const SEAFOAM_ISLANDS_1F,            15,  9 ; $C0
 	map_const ROUTE_22_GATE,                  5,  4 ; $C1
