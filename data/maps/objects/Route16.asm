@@ -14,12 +14,12 @@ Route16_Object:
 	bg_event 59,  9, 9 ; Route16Text9
 
 	def_object_events
-	object_event 43, 36, SPRITE_MBIKER, STAY, LEFT, 1, OPP_CHANNELER, 1
+	object_event 42, 34, SPRITE_MBIKER, STAY, DOWN, 1, OPP_CHANNELER, 1
 	object_event 28, 32, SPRITE_MBIKER, STAY, RIGHT, 2, OPP_CHANNELER, 3
-	object_event 33, 36, SPRITE_MBIKER, STAY, UP, 3, OPP_CHANNELER, 4
-	object_event 39, 35, SPRITE_MBIKER, STAY, LEFT, 4, OPP_CHANNELER, 2
-	object_event 24, 36, SPRITE_MBIKER, STAY, RIGHT, 5, OPP_CHANNELER, 13
-	object_event 26, 34, SPRITE_MBIKER, STAY, RIGHT, 6, OPP_CHANNELER, 11
+	object_event 33, 35, SPRITE_MBIKER, STAY, UP, 3, OPP_CHANNELER, 4
+	object_event 38, 35, SPRITE_MBIKER, STAY, ANY_DIR, 4, OPP_CHANNELER, 2
+	object_event 23, 33, SPRITE_MBIKER, STAY, DOWN, 5, OPP_CHANNELER, 13
+	object_event 26, 36, SPRITE_MBIKER, STAY, UP, 6, OPP_CHANNELER, 11
 	object_event 50, 12, SPRITE_SNORLAX, STAY, DOWN, 7 ; person
 
 	def_warps_to ROUTE_16

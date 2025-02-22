@@ -5,7 +5,7 @@ ViridianCity_Object:
 	warp_event  9, 15, VIRIDIAN_POKECENTER, 1
 	warp_event 13,  9, VIRIDIAN_MART, 1
 	warp_event  9,  9, VIRIDIAN_SCHOOL_HOUSE, 1
-	warp_event 15, 15, VIRIDIAN_NICKNAME_HOUSE, 1
+	warp_event  3, 11, VIRIDIAN_NICKNAME_HOUSE, 1
 	warp_event 30, 15, VIRIDIAN_GYM, 1
 	warp_event 25, 25, VIRIDIAN_NICKNAME_HOUSE, 3
 	warp_event 17, 0, PURPLE_FOREST, 1
