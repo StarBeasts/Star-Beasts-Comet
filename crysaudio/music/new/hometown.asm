@@ -10,10 +10,10 @@ Music_Hometown_Ch1:
 	duty_cycle 1
 	note_type 12, 8, 7
 	tempo 212
+.mainloop
 	rest 5
 	octave 4
 	volume_envelope 13, 7
-.mainloop
 	note F#, 2
 	note E_, 1
 	note F#, 2
@@ -350,7 +350,6 @@ Music_Hometown_Ch1:
 	note D_, 13
 	rest 10
 	rest 10
-	rest 5
 	sound_loop 0, .mainloop
 
 Music_Hometown_Ch2:
