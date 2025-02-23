@@ -1614,6 +1614,14 @@ Music_Unatco_Ch3:
 	note C_, 1
 	note C#, 1
 	note F_, 1
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 	sound_loop 0, .mainloop
 
 ; ============================================================================================================

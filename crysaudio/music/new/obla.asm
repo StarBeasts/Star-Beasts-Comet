@@ -9,9 +9,10 @@ Music_Obla_Ch1:
 	duty_cycle 2
 	note_type 12, 10, 7
 	tempo 163
-	rest 16
-	rest 16
 .mainloop
+	volume_envelope 11, 7
+	rest 16
+	rest 16
 	rest 16
 	octave 3
 	note A_, 1
@@ -763,12 +764,8 @@ Music_Obla_Ch1:
 	note A_, 2
 	note G_, 1
 	rest 1
-	volume_envelope 13, 7
-	note F_, 16
-	rest 10
-	rest 5
-	rest 5
-	rest 5
+	volume_envelope 11, 7
+	note F_, 9
 	sound_loop 0, .mainloop
 
 Music_Obla_Ch2:
@@ -4368,7 +4365,8 @@ Music_Obla_Ch3:
 	octave 4
 	note F_, 16
 	note F_, 10
-	rest 5
+	rest 9
+	rest 16
 	sound_loop 0, .mainloop
 
 Music_Obla_Ch4:

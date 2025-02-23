@@ -1114,6 +1114,13 @@ Music_Cherry_Ch2:
 	note D_, 2
 	;note E_, 0 | WARNING: Rounded down to 0
 	rest 2
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+
 	sound_loop 0, .mainloop
 
 ; ============================================================================================================
