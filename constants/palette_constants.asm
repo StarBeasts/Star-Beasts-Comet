@@ -81,4 +81,5 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_WIND	; 2C
 	const PAL_ICEFIRE ; 2D
 	const PAL_DRUDEER ; 2E
+	const PAL_PERIDOT ; 2E
 DEF NUM_SGB_PALS EQU const_value

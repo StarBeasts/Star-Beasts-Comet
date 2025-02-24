@@ -152,6 +152,8 @@ SetPal_Overworld:
 	ld a, [wCurMap]
 	cp ROUTE_5
 	jp z, .mewMon
+	cp ROUTE_18
+	jp z, .peridot
 	cp ROUTE_24
 	jp z, .cerulean
 	cp FIRST_INDOOR_MAP
@@ -282,7 +284,9 @@ SetPal_Overworld:
 .cerulean
 	ld a, PAL_CERULEAN - 1
 	jr .town
-
+.peridot
+	ld a, PAL_PERIDOT - 1
+	jr .town
 
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame

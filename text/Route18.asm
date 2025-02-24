@@ -45,13 +45,14 @@ _Route18AfterBattleText3::
 	done
 
 _Route18Text4::
-	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "PERIDOT PRECINCT"
+	
+	para "KEEPING RELAS"	
+	line "SAFE, CRIMINAL BY"
+	cont "CRIMINAL"
 	done
 
 _Route18Text5::
-	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
+	text "PERIDOT HOLDING"
+	line "CELLS"
 	done
