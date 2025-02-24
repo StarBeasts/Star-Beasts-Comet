@@ -549,6 +549,7 @@ INCLUDE "crysaudio/music/new/varik.asm"
 INCLUDE "crysaudio/music/new/gadoba.asm"
 INCLUDE "crysaudio/music/new/burntlab.asm"
 INCLUDE "crysaudio/music/new/reaper.asm"
+INCLUDE "crysaudio/music/new/laworder.asm"
 
 SECTION "Sound Effects", ROMX
 

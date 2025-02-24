@@ -78,6 +78,8 @@ Music:
 	dba Music_Varik
 	dba Music_Gadoba
 	dba Music_BurntLab
+	dba Music_Reaper
+	dba Music_LawOrder
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 
