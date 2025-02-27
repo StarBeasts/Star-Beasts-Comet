@@ -81,6 +81,7 @@
 	const SPRITE_GAILON
 	const SPRITE_ROBOT
 	const SPRITE_SOLDIER
+	const SPRITE_SHERIFF
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e
@@ -107,5 +108,7 @@ DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_CHARKONRO
 	const SPRITE_VARIK
 	const SPRITE_FROZEN_ROCKET
+	const SPRITE_GUITAR
+
 
 DEF NUM_SPRITES EQU const_value - 1

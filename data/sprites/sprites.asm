@@ -86,6 +86,7 @@ SpriteSheetPointerTable:
 	overworld_sprite GailonSprite, 12		  ; SPRITE_GAILON
 	overworld_sprite RobotSprite, 12		  ; SPRITE_ROBOT
 	overworld_sprite SoldierSprite, 12		  ; SPRITE_SOLDIER
+	overworld_sprite SheriffSprite, 12		  ; SPRITE_SHERIFF
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER
@@ -111,4 +112,5 @@ SpriteSheetPointerTable:
 	overworld_sprite CharkonroSprite, 4		  ; SPRITE_CHARKONRO
 	overworld_sprite VarikSprite, 4		  ; SPRITE_VARIK
 	overworld_sprite FrozenRocketSprite, 4		  ; SPRITE_FROZEN_ROCKET
+	overworld_sprite GuitarSprite, 4		  ; SPRITE_GUITAR
 	assert_table_length NUM_SPRITES
