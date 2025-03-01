@@ -841,8 +841,8 @@ VermilionPokecenter_Blocks:
 LavenderPokecenter_Blocks:
 PewterPokecenter_Blocks: INCBIN "maps/PewterPokecenter.blk"
 
-UndergroundPathRoute7_Blocks:
-UndergroundPathRoute6_Blocks:
+UndergroundPathRoute7_Blocks: INCBIN "maps/UndergroundPathRoute7.blk"
+UndergroundPathRoute6_Blocks: INCBIN "maps/UndergroundPathRoute6.blk"
 UndergroundPathRoute5_Blocks: INCBIN "maps/UndergroundPathRoute5.blk"
 
 Route2Gate_Blocks: INCBIN "maps/Route2Gate.blk"

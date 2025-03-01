@@ -5,7 +5,8 @@ Route18_Object:
 	warp_event 16,  7, ROUTE_11_GATE_1F, 1
 	warp_event 17,  7, ROUTE_11_GATE_1F, 2
 	warp_event 16, 11, ROUTE_11_GATE_1F, 3
-	warp_event  6, 28, ROUTE_11_GATE_1F, 4
+	warp_event 16, 25, ROUTE_11_GATE_1F, 4
+	warp_event 18, 35, UNDERGROUND_PATH_ROUTE_5, 1
 
 	def_bg_events
 	bg_event 17, 27, 4 ; Route18Text4
