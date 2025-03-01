@@ -199,9 +199,16 @@ _MtMoonPokecenterBenchGuyText::
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
-	cont "LAVENDER TOWN!"
+	text "There are two"
+	line "islands up ahead."
+
+	para "One is the VILLA"
+	line "the ELITE FOUR"
+	cont "visits to unwind,"
+	cont "and the other is"
+	cont "X ISLE, which is"
+	cont "an island shaped"
+	cont "like an 'X'!"
 	done
 
 _UnusedBenchGuyText1::

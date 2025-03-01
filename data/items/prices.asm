@@ -45,7 +45,7 @@ ItemPrices::
 	bcd3 0     ; SECRET_KEY
 	bcd3 0     ; XXX
 	bcd3 0     ; BIKE_VOUCHER
-	bcd3 950   ; X_ACCURACY
+	bcd3 1200  ; X_ACCURACY
 	bcd3 2100  ; LEAF_STONE
 	bcd3 0     ; CARD_KEY
 	bcd3 10000 ; NUGGET
