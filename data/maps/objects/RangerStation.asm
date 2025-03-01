@@ -4,7 +4,7 @@ RangerStation_Object:
 	def_warp_events
 	warp_event  4, 17, OWAI_HOTEL, 1
 	warp_event 14,  1, GLITCH_ROOM, 1
-	warp_event  7, 24, LAST_MAP, 5
+	warp_event  7,  9, ROCK_TUNNEL_POKECENTER, 1
 
 	def_bg_events
 	bg_event 15, 23, 2 ; 1st sign
