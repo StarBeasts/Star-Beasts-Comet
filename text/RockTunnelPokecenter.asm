@@ -40,7 +40,7 @@ _RockTunnelPokecenterText6::
 
 	para "You ask me, only"
 	line "thing special"
-	cont "'bout the cave"
+	cont "about the cave"
 	cont "is that you can't"
 	cont "hardly see but"
 	cont "two steps in"
