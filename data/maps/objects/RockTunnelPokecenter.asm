@@ -2,8 +2,10 @@ RockTunnelPokecenter_Object:
 	db $0 ; border block
 
 	def_warp_events
-	warp_event  3,  7, LAST_MAP, 1
-	warp_event  4,  7, LAST_MAP, 1
+	warp_event  3,  7, LAST_MAP, 3
+	warp_event  4,  7, LAST_MAP, 3
+	warp_event  25,  7, LAST_MAP, 4
+	warp_event  26,  7, LAST_MAP, 4
 
 	def_bg_events
 
