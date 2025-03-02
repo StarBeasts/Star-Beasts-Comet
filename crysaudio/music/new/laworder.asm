@@ -11,9 +11,9 @@ Music_LawOrder_Ch1:
 	tempo 147
 .mainloop:
 	rest 2
-	volume_envelope 9, 7
 	octave 1
 	duty_cycle 0
+	volume_envelope 11, 7
 	note G_, 10
 	note A_, 4
 	note G_, 16
@@ -79,6 +79,7 @@ Music_LawOrder_Ch2:
 	duty_cycle 1
 .mainloop:
 	octave 1
+	volume_envelope 11, 7
 	note D_, 2
 	note G_, 4
 	octave 2

@@ -2003,8 +2003,8 @@ wVultMazeCurScript:: db
 wVillaB1FCurScript:: db
 wVilla2FCurScript:: db
 wVilla5FCurScript:: db
-wCeladonMansion2FCurScript::
-	ds 1
+wCeladonMansion2FCurScript:: db
+wRoute12Gate1FCurScript:: db
 wBikeGateCurScript:: db
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db

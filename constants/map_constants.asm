@@ -103,10 +103,10 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROCK_TUNNEL_POKECENTER,         15,  4 ; $51
 	map_const ROCK_TUNNEL_1F,                20, 18 ; $52
 	map_const POWER_PLANT,                   20, 18 ; $53
-	map_const ROUTE_11_GATE_1F,               4,  20 ; $54
+	map_const ROUTE_11_GATE_1F,               4,  13 ; $54
 	map_const DIGLETTS_CAVE_ROUTE_11,         15, 14 ; $55
 	map_const ROUTE_11_GATE_2F,               4,  4 ; $56
-	map_const ROUTE_12_GATE_1F,               5,  4 ; $57
+	map_const ROUTE_12_GATE_1F,               4,  4 ; $57
 	map_const BILLS_HOUSE,                    4,  4 ; $58
 	map_const VERMILION_POKECENTER,           7,  4 ; $59
 	map_const POKEMON_FAN_CLUB,               4,  4 ; $5A

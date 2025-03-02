@@ -162,6 +162,8 @@ SetPal_Overworld:
 	jp z, .invertColors
 	cp ROUTE_2_GATE
 	jp z, .mewMon
+	cp UNDERGROUND_PATH_ROUTE_5
+	jp z, .mewMon
 	cp BLOODSTONE_BAY
 	jp z, .bloodstone
 	cp POWER_PLANT
