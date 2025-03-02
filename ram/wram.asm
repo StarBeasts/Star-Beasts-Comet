@@ -2004,7 +2004,8 @@ wVillaB1FCurScript:: db
 wVilla2FCurScript:: db
 wVilla5FCurScript:: db
 wCeladonMansion2FCurScript::
-	ds 2
+	ds 1
+wBikeGateCurScript:: db
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db

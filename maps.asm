@@ -1330,3 +1330,8 @@ INCLUDE "scripts/RangerStation.asm"
 INCLUDE "data/maps/objects/RangerStation.asm"
 RangerStation_Blocks: INCBIN "maps/RangerStation.blk"
 
+INCLUDE "data/maps/headers/BikeGate.asm"
+INCLUDE "scripts/BikeGate.asm"
+INCLUDE "data/maps/objects/BikeGate.asm"
+BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
+

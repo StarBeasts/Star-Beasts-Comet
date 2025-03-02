@@ -292,6 +292,7 @@ INCLUDE "text/Route10.asm"
 INCLUDE "text/Route11.asm"
 INCLUDE "text/GameCorner.asm"
 INCLUDE "text/CeladonMartElevator.asm"
+INCLUDE "text/BikeGate.asm"
 
 SECTION "Pokédex Text", ROMX
 

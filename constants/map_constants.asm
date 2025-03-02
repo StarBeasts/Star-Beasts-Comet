@@ -256,7 +256,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SILPH_CO_10F,                   8,  9 ; $EA
 	map_const SILPH_CO_11F,                   9,  9 ; $EB
 	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC
-	map_const UNUSED_MAP_ED,                  0,  0 ; $ED
+	map_const BIKE_GATE,                      4,  4 ; $ED
 	map_const UNUSED_MAP_EE,                  0,  0 ; $EE
 	map_const TRADE_CENTER,                   5,  4 ; $EF
 	map_const COLOSSEUM,                      5,  4 ; $F0
