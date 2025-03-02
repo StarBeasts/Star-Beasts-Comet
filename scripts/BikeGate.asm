@@ -13,7 +13,7 @@ BikeGate_ScriptPointers:
 	dw BikeGateScript3
 
 BikeGateScript0:
-	call Route16GateScript_49755
+	call BikeGateScript_49755
 	ret nz
 	ld hl, CoordsData_498cd
 	call ArePlayerCoordsInArray
@@ -31,7 +31,7 @@ BikeGateScript0:
 	ld [wSimulatedJoypadStatesIndex], a
 	ld b, 0
 	ld c, a
-	ld a, D_UP
+	ld a, D_LEFT
 	ld hl, wSimulatedJoypadStatesEnd
 	call FillMemory
 	call StartSimulatingJoypadStates
@@ -44,10 +44,8 @@ BikeGateScript0:
 	ret
 
 CoordsData_498cd:
-	dbmapcoord  4,  3
+	dbmapcoord  3,  4
 	dbmapcoord  4,  4
-	dbmapcoord  4,  5
-	dbmapcoord  4,  6
 	db -1 ; end
 
 BikeGateScript1:
@@ -63,7 +61,7 @@ BikeGateScript2:
 	call DisplayTextID
 	ld a, $1
 	ld [wSimulatedJoypadStatesIndex], a
-	ld a, D_RIGHT
+	ld a, D_DOWN
 	ld [wSimulatedJoypadStatesEnd], a
 	call StartSimulatingJoypadStates
 	ld a, $3
@@ -82,13 +80,17 @@ BikeGateScript3:
 	ld [wBikeGateCurScript], a
 	ret
 
+BikeGateScript_49755:
+	ld b, BICYCLE
+	jp IsItemInBag
+
 BikeGate_TextPointers:
 	dw BikeGateText1
 	dw BikeGateText2
 
 BikeGateText1:
 	text_asm
-	call Route16GateScript_49755
+	call BikeGateScript_49755
 	jr z, .asm_3c84d
 	ld hl, BikeGateText_4992d
 	call PrintText

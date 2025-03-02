@@ -6,9 +6,10 @@ _Route16GateText_49777::
 
 _Route16GateText_4977c::
 	text "CYCLING ROAD is a"
-	line "downhill course"
-	cont "by the sea. It's"
-	cont "a great ride."
+	line "downhill slope!"
+
+	para "Just watch out"
+	line "for trees!"
 	done
 
 _Route16GateText_49781::
