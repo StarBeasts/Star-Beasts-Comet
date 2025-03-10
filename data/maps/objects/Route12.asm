@@ -2,8 +2,8 @@ Route12_Object:
 	db $43 ; border block
 
 	def_warp_events
-	warp_event  6, 16, ROUTE_8_GATE, 3
-	warp_event  6, 17, ROUTE_8_GATE, 4
+	warp_event  6, 16, ROUTE_6_GATE, 7
+	warp_event  6, 17, ROUTE_6_GATE, 8
 	warp_event 67, 16, ROUTE_12_GATE_1F, 1
 	warp_event 67, 17, ROUTE_12_GATE_1F, 2
 

@@ -65,9 +65,6 @@ Route5Gate_TextPointers:
 	dw Route5GateText2
 	dw Route5GateText3
 
-Route8GateText1:
-Route7GateText1:
-Route6GateText1:
 Route5GateText1:
 	text_asm
 	ld a, [wd728]
@@ -94,16 +91,10 @@ Route5GateText1:
 	call PrintText
 	jp TextScriptEnd
 
-Route8GateText2:
-Route7GateText2:
-Route6GateText2:
 Route5GateText2:
 	text_far _SaffronGateText_1dfe7
 	text_end
 
-Route8GateText3:
-Route7GateText3:
-Route6GateText3:
 Route5GateText3:
 	text_far _SaffronGateText_8aaa9
 	sound_get_key_item

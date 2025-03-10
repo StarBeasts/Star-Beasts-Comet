@@ -11,10 +11,10 @@ SaffronCity_Object:
 	warp_event 29, 11, SAFFRON_POKECENTER, 1
 	warp_event 33, 29, MR_PSYCHICS_HOUSE, 1
 	warp_event 24,  5, ROUTE_5_GATE, 1
-	warp_event  6, 15, ROUTE_7_GATE, 3
-	warp_event 23, 31, ROUTE_6_GATE, 3
-	warp_event 24, 31, ROUTE_6_GATE, 4
-	warp_event 41, 19, ROUTE_8_GATE, 1
+	warp_event  6, 15, ROUTE_6_GATE, 4
+	warp_event 23, 31, ROUTE_6_GATE, 11
+	warp_event 24, 31, ROUTE_6_GATE, 12
+	warp_event 41, 19, ROUTE_6_GATE, 6
 
 	def_bg_events
 	bg_event 21,  7, 16 ; SaffronCityText16

@@ -9,7 +9,7 @@ FuchsiaCity_Object:
 	warp_event 35, 17, SAFARI_ZONE_GATE, 1
 	warp_event  8, 19, GAME_CORNER, 1
 	warp_event 31, 27, FUCHSIA_MEETING_ROOM, 1
-	warp_event 18,  3, ROUTE_6_GATE, 1
+	warp_event 18,  3, ROUTE_6_GATE, 9
 	warp_event 25, 27, ROUTE_12_SUPER_ROD_HOUSE, 1
 	warp_event 11, 25, CELAGONE_CITY, 3
 
