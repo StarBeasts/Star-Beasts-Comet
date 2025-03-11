@@ -82,4 +82,5 @@ Music:
 	dba Music_LawOrder
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
+	dba Music_MobileAdapterMenu
 
