@@ -883,7 +883,7 @@ KakunaDexEntry:
 	text_end
 
 BeedrillDexEntry:
-	db "VENOM MOTH@"
+	db "FANG MOTH@"
 	db 3,3
 	dw 650
 	text_far _BeedrillDexEntry

@@ -981,11 +981,11 @@ _KakunaDexEntry::
 
 _BeedrillDexEntry::
 	text "Uses its sweet"
-	next "scented body to"
+	next "scented wings to"
 	next "attract prey."
 
-	page "Its jaws can"
-	next "rip apart any"
+	page "Its sharp fangs"
+	next "can rip apart any"
 	next "animal with ease"
 	dex
 
@@ -1120,13 +1120,13 @@ _MewtwoDexEntry::
 	dex
 
 _SnorlaxDexEntry::
-	text "It leaves its"
-	next "swampy homeland"
-	next "only to consume"
+	text "It lazily rolls"
+	next "across the land,"
+	next "consuming vast"
 
-	page "filth and trash"
-	next "left behind by"
-	next "civilization"
+	page "amounts of food,"
+	next "and generally"
+	next "being a nuisance"
 	dex
 
 _MagikarpDexEntry::
@@ -1370,13 +1370,13 @@ _RaticateDexEntry::
 	dex
 
 _NidorinoDexEntry::
-	text "Comparable to a"
-	next "coyote in terms"
-	next "of disposition."
+	text "Its fur is a"
+	next "powerful irritant"
+	next "that causes any"
 
-	page "Touching its fur"
-	next "without protection"
-	next "causes blisters"
+	page "would-be attackers"
+	next "that touch it to"
+	next "itch unceasingly"
 	dex
 
 _NidorinaDexEntry::

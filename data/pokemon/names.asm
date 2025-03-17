@@ -113,7 +113,7 @@ MonsterNames::
 	db "STEAMMENSE"
 	db "MULCRUNCH@"
 	db "MULCHOON@@"
-	db "VERMINOTH@"
+	db "POLKAMOTH@"
 	db "MISSINGNO."
 	db "TONGORON@@"
 	db "VUHLANDRON"
