@@ -27,7 +27,7 @@ ENDM
 	map_const CINNABAR_ISLAND,               10, 28 ; $08
 	map_const INDIGO_PLATEAU,                19,  43; $09
 	map_const SAFFRON_CITY,                  24, 18 ; $0A
-	map_const RANGER_STATION,                17, 19 ; $0B
+	map_const RANGER_STATION,                17, 16 ; $0B
 DEF NUM_CITY_MAPS EQU const_value
 DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_1,                       24, 10 ; $0C
@@ -40,7 +40,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_8,                       30,  11 ; $13
 	map_const ROUTE_9,                       30,  9 ; $14
 	map_const ROUTE_10,                      15, 18 ; $15
-	map_const ROUTE_11,                      30,  9 ; $16
+	map_const ROUTE_11,                      26, 19 ; $16
 	map_const ROUTE_12,                      38, 12 ; $17
 	map_const ROUTE_13,                      30,  9 ; $18
 	map_const ROUTE_14,                      10, 27 ; $19
