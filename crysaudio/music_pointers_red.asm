@@ -80,6 +80,7 @@ Music:
 	dba Music_BurntLab
 	dba Music_Reaper
 	dba Music_LawOrder
+	dba Music_BeatIt
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 	dba Music_MobileAdapterMenu
