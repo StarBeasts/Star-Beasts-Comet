@@ -30,7 +30,7 @@ Music:
 	dba Music_MatchVictory
 	dba Music_BoosterPack
 	dba Music_EndCredits
-	dba Music_ChallengeHall
+	dba Music_BeatIt
 	dba Music_Chala
 	dba Music_NameEntry
 	dba Music_Cherry ; loops semi-properly

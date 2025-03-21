@@ -33,7 +33,7 @@ MonsterNames::
 	db "HURRY@@@@@"
 	db "HELP ME@@@"
 	db "CANGHOULIT"
-	db "MOSSTON@@@"
+	db "MOSSTACHE@"
 	db "MAELSTRO@@"
 	db "ROC@@@@@@@"
 	db "INFESTIN@@"

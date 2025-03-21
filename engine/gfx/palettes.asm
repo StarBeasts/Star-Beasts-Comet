@@ -164,6 +164,8 @@ SetPal_Overworld:
 	jp z, .mewMon
 	cp UNDERGROUND_PATH_ROUTE_5
 	jp z, .mewMon
+	cp UNDERGROUND_PATH_WEST_EAST
+	jp z, .peridot
 	cp BLOODSTONE_BAY
 	jp z, .bloodstone
 	cp POWER_PLANT

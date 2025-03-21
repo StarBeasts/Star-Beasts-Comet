@@ -1,9 +1,9 @@
 UndergroundPathWestEast_Object:
-	db $1 ; border block
+	db $2E ; border block
 
 	def_warp_events
-	warp_event  2,  5, UNDERGROUND_PATH_ROUTE_7, 3
-	warp_event 47,  3, UNDERGROUND_PATH_ROUTE_8, 3
+	warp_event 10, 19, ROUTE_18, 4
+	warp_event 11, 19, ROUTE_18, 4
 
 	def_bg_events
 

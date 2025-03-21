@@ -2,5 +2,8 @@ UndergroundPathWestEast_Script:
 	jp EnableAutoTextBoxDrawing
 
 UndergroundPathWestEast_TextPointers:
+	dw UndergroundPathWestEastText1
 
-	text_end ; unused
+UndergroundPathWestEastText1:
+	text_far _UndergroundPathWestEastText1
+	text_end

@@ -8,7 +8,7 @@ Music_BeatIt:
 Music_BeatIt_Ch1:
 	volume 7, 7
 	note_type 12, 10, 7
-	tempo 123
+	tempo 114
 .mainloop:
 	rest 16
 	rest 16

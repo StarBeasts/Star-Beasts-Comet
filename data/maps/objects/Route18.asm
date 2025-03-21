@@ -5,7 +5,7 @@ Route18_Object:
 	warp_event 16,  7, BIKE_GATE, 1
 	warp_event 17,  7, BIKE_GATE, 2
 	warp_event 16, 11, BIKE_GATE, 3
-	warp_event 16, 25, PEWTER_GYM, 4
+	warp_event 16, 25, UNDERGROUND_PATH_WEST_EAST, 1
 	warp_event 18, 35, UNDERGROUND_PATH_ROUTE_5, 1
 	warp_event 6, 28, ROUTE_11_GATE_1F, 1
 	warp_event 6, 29, ROUTE_11_GATE_1F, 2
