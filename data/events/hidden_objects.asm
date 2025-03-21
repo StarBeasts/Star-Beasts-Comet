@@ -644,8 +644,8 @@ UndergroundPathNsHiddenObjects:
 	db -1 ; end
 
 UndergroundPathWeHiddenObjects:
-	hidden_object 12,  2, NUGGET, HiddenItems
-	hidden_object 21,  5, ELIXER, HiddenItems
+	hidden_object 18,  2, NUGGET, HiddenItems
+	hidden_object 18,  14, ELIXER, HiddenItems
 	db -1 ; end
 
 CeladonCityHiddenObjects:
