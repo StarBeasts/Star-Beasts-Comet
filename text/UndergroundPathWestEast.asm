@@ -1,96 +1,164 @@
 _UndergroundPathWestEastText1::
-	text "dialogue 1."
+	text "Ah, fer PETE's"
+	line "sake..."
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "We've been at"
+	line "this fer bloody"
+	cont "'ours, and this"
+	cont "bastard still"
+	cont "won't give us"
+	cont "nary a peep!"
+
+	para "I'd bust out the"
+	line "mallet, but our"
+	cont "reputation's bad"
+	cont "enough as it is..."
 	done
 
 _UndergroundPathWestEastText2::
-	text "dialogue 2."
+	text "Like always,"
+	line "this one doesn't"
+	cont "know anything."
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "He's just some"
+	line "punkass kid, in"
+	cont "over his head..."
+
+	para "But we have to"
+	line "justify this"
+	cont "interrogation"
+	cont "room somehow,"
+	cont "right?"
 	done
 
 _UndergroundPathWestEastText3::
-	text "dialogue 3."
+	text "Man, screw you"
+	line "crooked cops!"
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "I ain't tellin'"
+	line "you nothin'!"
+
+	para "All I done did"
+	line "was spray some"
+	cont "graffiti!"
+
+	para "It's a legitimate"
+	line "art form!"
 	done
 
 _UndergroundPathWestEastText4::
-	text "dialogue 4."
+	text "They insist that"
+	line "these plants are"
+	cont "decorative..."
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "BUT I KNOW THERE'S"
+	line "SOMETHING ILLEGAL"
+	cont "IN THEM SOMEWHERE!"
 	done
 
 _UndergroundPathWestEastText5::
-	text "dialogue 5."
+	text "Dispatch is going"
+	line "nuts..."
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "Damnit, it'd be"
+	line "nice if they'd"
+	cont "send in the ARMY"
+	cont "to help us at"
+	cont "some point..."
 	done
 
 _UndergroundPathWestEastText6::
-	text "dialogue 6."
+	text "We can deal with"
+	line "the ROCKETs or"
+	cont "the BIKERs, but"
+	cont "not both at the"
+	cont "same time!"
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "We're stretched"
+	line "thinner than my"
+	cont "old varsity"
+	cont "jacket when I"
+	cont "try to wear it!"
 	done
 
 _UndergroundPathWestEastText7::
-	text "dialogue 7."
+	text "Whoa, don't lose"
+	line "your cool!"
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "I know I look like"
+	line "a ROCKET, but I'm"
+	cont "actually a spy,"
+	cont "an informant!"
+
+	para "I'm doing this to"
+	line "avoid doing time."
 	done
 
 _UndergroundPathWestEastText8::
-	text "dialogue 8."
-
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	text "!"
 	done
 
 _UndergroundPathWestEastText9::
-	text "dialogue 9."
+	text "What is it?"
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "Got anything to"
+	line "report?"
+
+	para "No?"
+
+	para "Hmph."
+
+	para "Then you're just"
+	line "wasting my time,"
+	cont "kid."
 	done
 
 _UndergroundPathWestEastText10::
-	text "dialogue 10."
+	text "What do you make"
+	line "of it, DOC?"
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "Could those punks"
+	line "REALLY make"
+	cont "explosives out"
+	cont "of these rocks?"
 	done
 
 _UndergroundPathWestEastText11::
-	text "dialogue 11."
+	text "Hmm, yes..."
 
-	para "'m RIGEL, the"
-	line "SHERIFF around"
-	cont "these parts."
+	para "This is most"
+	line "peculiar..."
+
+	para "These minerals"
+	line "don't seem to be"
+	cont "volatile, but..."
+
+	para "Hmm... maybe?"
+
+	para "Must investigate"
+	line "further."
 	done
 
 _UndergroundPathWestEastText12::
-	text "The door's locked."
+	text "It's a WANTED"
+	line "poster."
+
+	para "WANTED: LUCIAN"	
+
+	para "CURRENT LEADER"	
+	line "OF TEAM ROCKET"
+
+	para "WANTED: SHAYTON"
+
+	para "CURRENT LEADER"
+	line "OF BIKER GANG(?)"
 	done
 
 _UndergroundPathWestEastText13::
+	text "The door's locked."
+	done
+
+_UndergroundPathWestEastText14::
 	text "No, seriously."
 
 	para "The door really is"

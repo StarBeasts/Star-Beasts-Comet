@@ -2,12 +2,17 @@ _UndergroundPathEntranceRoute5Text1::
 	text "Howdy, youngin."
 
 	para "'m RIGEL, the"
-	line "SHERIFF around"
+	line "POLICE CHIEF in"
 	cont "these parts."
 
 	para "My older brother"
 	line "is a member of"
 	cont "the ELITE FOUR!"
+
+	para "If yer lookin'"
+	line "for the SHERIFF,"
+	cont "'m afraid she's"
+	cont "out in the field!"
 
 	para "Anywho, there"
 	line "ain't much folk"

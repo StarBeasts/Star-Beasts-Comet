@@ -15,6 +15,7 @@ UndergroundPathWestEast_TextPointers:
 	dw UndergroundPathWestEastText11
 	dw UndergroundPathWestEastText12
 	dw UndergroundPathWestEastText13
+	dw UndergroundPathWestEastText14
 
 UndergroundPathWestEastText1:
 	text_far _UndergroundPathWestEastText1
@@ -45,8 +46,11 @@ UndergroundPathWestEastText7:
 	text_end
 
 UndergroundPathWestEastText8:
-	text_far _UndergroundPathWestEastText8
-	text_end
+	text_asm
+	ld a, TRADE_FOR_SHAQ
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
 
 UndergroundPathWestEastText9:
 	text_far _UndergroundPathWestEastText9
@@ -66,4 +70,8 @@ UndergroundPathWestEastText12:
 
 UndergroundPathWestEastText13:
 	text_far _UndergroundPathWestEastText13
+	text_end
+
+UndergroundPathWestEastText14:
+	text_far _UndergroundPathWestEastText14
 	text_end
