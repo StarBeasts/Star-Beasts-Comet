@@ -8,7 +8,7 @@ CeladonChiefHouse_Object:
 	warp_event  15, 37, ROUTE_12_GATE_1F, 4
 	warp_event  29, 30, ROUTE_12_GATE_1F, 3
 	warp_event  29, 31, ROUTE_12_GATE_1F, 4
-	warp_event  14, 27, ROUTE_12_GATE_1F, 3
+	warp_event 14, 27, UNDERGROUND_PATH_NORTH_SOUTH, 1
 
 
 	def_bg_events

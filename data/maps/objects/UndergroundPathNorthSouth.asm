@@ -1,9 +1,9 @@
 UndergroundPathNorthSouth_Object:
-	db $1 ; border block
+	db $2E ; border block
 
 	def_warp_events
-	warp_event  5,  5, UNDERGROUND_PATH_ROUTE_5, 3
-	warp_event  2, 41, UNDERGROUND_PATH_ROUTE_6, 3
+	warp_event  10, 19, CELADON_CHIEF_HOUSE, 7
+	warp_event  11, 19, CELADON_CHIEF_HOUSE, 7
 
 	def_bg_events
 

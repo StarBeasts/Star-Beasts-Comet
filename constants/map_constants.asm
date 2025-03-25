@@ -138,7 +138,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VILLA_4F,                 	4,  40 ; $74
 	map_const VILLA_5F,                  	7,  5 ; $75
 	map_const HALL_OF_FAME,                   5,  4 ; $76
-	map_const UNDERGROUND_PATH_NORTH_SOUTH,   4, 23 ; $77
+	map_const UNDERGROUND_PATH_NORTH_SOUTH,   11, 10 ; $77
 	map_const CHAMPIONS_ROOM,                 4,  4 ; $78
 	map_const UNDERGROUND_PATH_WEST_EAST,    11,  10 ; $79
 	map_const CELADON_MART_1F,               4,  4 ; $7A
