@@ -19,7 +19,7 @@ CeladonChiefHouse_TextPointers:
 	dw CeladonHouseText14
 	dw CeladonHouseText15
 	dw CeladonHouseText16
-
+	dw CeladonHouseText17
 
 CeladonHouseText1:
 	text_far _CeladonHouseText1
@@ -83,4 +83,8 @@ CeladonHouseText15:
 
 CeladonHouseText16:
 	text_far _CeladonHouseText16
+	text_end
+
+CeladonHouseText17:
+	text_far _CeladonHouseText17
 	text_end

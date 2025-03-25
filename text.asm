@@ -299,6 +299,7 @@ INCLUDE "text/UndergroundPathWestEast.asm"
 SECTION "Text 13", ROMX
 
 INCLUDE "text/UndergroundPathRoute5.asm"
+INCLUDE "text/UndergroundPathNorthSouth.asm"
 
 SECTION "Pokédex Text", ROMX
 

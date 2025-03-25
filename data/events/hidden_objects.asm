@@ -639,8 +639,9 @@ Route17HiddenObjects:
 	db -1 ; end
 
 UndergroundPathNsHiddenObjects:
-	hidden_object  3,  4, FULL_RESTORE, HiddenItems
-	hidden_object  4, 34, X_SPECIAL, HiddenItems
+	hidden_object  5,  3, FULL_RESTORE, HiddenItems
+	hidden_object  18, 17, X_SPECIAL, HiddenItems
+	hidden_object 19,  2, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
 UndergroundPathWeHiddenObjects:

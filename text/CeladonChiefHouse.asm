@@ -1,10 +1,19 @@
 _CeladonHouseText1::
-	text "Ten-hut!"
+	text "I DON'T KNOW,"
+	line "BUT I'VE BEEN"
+	cont "TOLD!"
+
+	para "MY HEART BURNS"
+	line "WITH THAT RELAS"
+	cont "SOUL!"
 	done
 
 _CeladonHouseText2::
-	text "Ten-hut!"
-	line "ten huts!"	
+	text "If you're in"
+	line "need of a pit"
+	cont "stop, we have"
+	cont "a MEDIC in the"
+	cont "SURPLUS OFFICE."
 	done
 
 _CeladonHouseText3::
@@ -13,12 +22,27 @@ _CeladonHouseText3::
 	done
 
 _CeladonHouseText4::
-	text "Ten-hut!"
+	text "Heheh!"
+	
+	para "Where's your mommy"
+	line "at, little kid?"
 	done
 
 _CeladonHouseText5::
-	text "Ten-hut!"
-	line "ten huts!"	
+	text "Before you ask"
+	line "about the BIKER"
+	cont "problem..."
+
+	para "Believe me, we'd"
+	line "LOVE to go out"
+	cont "there and bust"
+	cont "some heads..."
+
+	para "But the government"
+	line "is sitting on"
+	cont "their thumbs and"
+	cont "won't give us the"
+	cont "go-ahead!"
 	done
 
 _CeladonHouseText6::
@@ -32,48 +56,53 @@ _CeladonHouseText7::
 
 _CeladonHouseText8::
 	text "Ten-hut!"
-	line "ten huts!"	
 	done
 
 _CeladonHouseText9::
 	text "Ten-hut!"
-
-	para "Another-paragraph!"
 	done
 
 _CeladonHouseText10::
-	text "Ten-hut!"
+	text "Did you really"
+	line "check all of us"
+	cont "just to see if"
+	cont "we had stuff"
+	cont "to say? Heheh!"
 	done
 
 _CeladonHouseText11::
 	text "Ten-hut!"
-	line "ten huts!"	
 	done
 
 _CeladonHouseText12::
 	text "Ten-hut!"
-
-	para "Another-paragraph!"
 	done
 
 _CeladonHouseText13::
-	text "Ten-hut!"
+	text "MALACHITE MILITARY"
+	line "BASE"
 	done
 
 _CeladonHouseText14::
-	text "Ten-hut!"
-	line "ten huts!"	
+	text "MALACHITE"
+	line "SURPLUS OFFICE"	
 	done
 
 _CeladonHouseText15::
-	text "Ten-hut!"
+	text "MALACHITE MILITARY"
+	line "OPERATIONS CENTER"
 
-	para "Another-paragraph!"
+	para "CIVILIANS STRICTLY"
+	line "PROHIBITED"
 	done
 
 _CeladonHouseText16::
-	text "Ten-hut!"
-
-	para "Another-paragraph!"
+	text "CYCLING UNDERPASS"
 	done
+
+_CeladonHouseText17::
+	text "CRYSTAL COAST"
+	line "GATE"
+	done
+
 

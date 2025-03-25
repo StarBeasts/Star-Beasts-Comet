@@ -15,7 +15,8 @@ CeladonChiefHouse_Object:
 	bg_event 7, 27, 13 ;
 	bg_event 17, 29, 14 ;
 	bg_event 15, 17, 15 ;
-	bg_event 17, 33, 16 ;
+	bg_event 17, 35, 16 ;
+	bg_event 25, 27, 17 ;
 
 	def_object_events
 	object_event 21, 23, SPRITE_SOLDIER, WALK, UP_DOWN, 1 ; person
