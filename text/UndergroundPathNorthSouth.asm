@@ -1,46 +1,43 @@
 _UndergroundPathNorthSouthText1::
-	text "Ah, fer PETE's"
-	line "sake..."
+	text "SURPLUS IS NOT"
+	line "ALLOWED TO BE"
+	cont "SOLD TO CHILDREN,"
+	cont "SIR!"
 
-	para "We've been at"
-	line "this fer bloody"
-	cont "'ours, and this"
-	cont "bastard still"
-	cont "won't give us"
-	cont "nary a peep!"
+	para "Huh?"
 
-	para "I'd bust out the"
-	line "mallet, but our"
-	cont "reputation's bad"
-	cont "enough as it is..."
+	para "It's 'they'?"
+
+	para "..."
+
+	para "SURPLUS IS NOT"
+	line "ALLOWED TO BE"
+	cont "SOLD TO CHILDREN,"
+	cont "THEY!"
+
+	para "WE ONLY HAVE"
+	line "SHOCKNROLL AND"
+	cont "YOU CAN FIND"
+	cont "THOSE AT THE"
+	cont "DAM, THEY!"
 	done
 
 _UndergroundPathNorthSouthText2::
-	text "Like always,"
-	line "this one doesn't"
-	cont "know anything."
-
-	para "He's just some"
-	line "punkass kid, in"
-	cont "over his head..."
-
-	para "But we have to"
-	line "justify this"
-	cont "interrogation"
-	cont "room somehow,"
-	cont "right?"
+	text "!"
 	done
 
 _UndergroundPathNorthSouthHealerImAHealerText::
-	text "I may not look"
-	line "like it, but I'm"
-	cont "a healer."
-
-	para "Here, rest a bit."
+	text "We may not have"
+	line "the standard"
+	cont "amenities, but"
+	cont "we'll heal your"
+	cont "BEASTS, all the"
+	cont "same!"
 	prompt
 
 _UndergroundPathNorthSouthHealerComeBackAnyTimeText::
-	text "Be safe, now."
+	text "Stay safe"
+	line "out there!"
 	done
 
 _UndergroundPathNorthSouthText4::

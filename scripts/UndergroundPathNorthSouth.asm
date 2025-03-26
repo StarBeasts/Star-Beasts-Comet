@@ -20,8 +20,11 @@ UndergroundPathNorthSouthText1:
 	text_end
 
 UndergroundPathNorthSouthText2:
-	text_far _UndergroundPathNorthSouthText2
-	text_end
+	text_asm
+	ld a, TRADE_FOR_BLIND
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
 
 UndergroundPathNorthSouthHealerText:
 	text_asm
@@ -70,11 +73,8 @@ UndergroundPathNorthSouthText7:
 	text_end
 
 UndergroundPathNorthSouthText8:
-	text_asm
-	ld a, TRADE_FOR_SHAQ
-	ld [wWhichTrade], a
-	predef DoInGameTradeDialogue
-	jp TextScriptEnd
+	text_far _UndergroundPathNorthSouthText8
+	text_end
 
 UndergroundPathNorthSouthText9:
 	text_far _UndergroundPathNorthSouthText9
