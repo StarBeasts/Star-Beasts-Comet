@@ -2003,9 +2003,9 @@ wVultMazeCurScript:: db
 wVillaB1FCurScript:: db
 wVilla2FCurScript:: db
 wVilla5FCurScript:: db
-wCeladonMansion2FCurScript:: db
-wRoute12Gate1FCurScript:: db
-wBikeGateCurScript:: db
+wCeladonMansion2FCurScript:: db ; varik superboss script
+wRoute12Gate1FCurScript:: db ; bike gate scripting
+wBikeGateCurScript:: db ; bike gate scripting
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db
@@ -2037,8 +2037,8 @@ wRocketHideoutB2FCurScript:: db
 wRocketHideoutB3FCurScript:: db
 wRocketHideoutB4FCurScript:: db
 	ds 1
-wRoute6GateCurScript:: db
-wRoute8GateCurScript:: db
+wRoute6GateCurScript:: db ; currently unused
+wRoute8GateCurScript:: db ; currently unused
 	ds 1
 wCinnabarIslandCurScript:: db
 wPokemonMansion1FCurScript:: db
@@ -2080,7 +2080,7 @@ wRoute16Gate1FCurScript:: db
 wBillsHouseCurScript:: db
 wRoute5GateCurScript:: db
 wPowerPlantCurScript:: ; overload
-wRoute7GateCurScript:: db
+wRoute7GateCurScript:: db ; currently unused
 	ds 1
 wSSAnne2FCurScript:: db
 wSeafoamIslandsB3FCurScript:: db
