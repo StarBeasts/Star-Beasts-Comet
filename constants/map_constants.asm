@@ -214,7 +214,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SEAFOAM_ISLANDS_1F,            15,  9 ; $C0
 	map_const ROUTE_22_GATE,                  5,  4 ; $C1
 	map_const VICTORY_ROAD_2F,               15,  9 ; $C2
-	map_const ROUTE_12_GATE_2F,               4,  4 ; $C3
+	map_const ROUTE_12_GATE_2F,               4,  13 ; $C3
 	map_const VERMILION_TRADE_HOUSE,          4,  4 ; $C4
 	map_const DIGLETTS_CAVE,                 20, 18 ; $C5
 	map_const VICTORY_ROAD_3F,               15,  9 ; $C6

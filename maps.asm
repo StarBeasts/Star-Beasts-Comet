@@ -409,7 +409,7 @@ Route11Gate1F_Blocks: INCBIN "maps/Route11Gate1F.blk"
 Route18Gate2F_Blocks:
 Route16Gate2F_Blocks: INCBIN "maps/Route16Gate2F.blk"
 Route15Gate2F_Blocks:
-Route12Gate2F_Blocks:
+Route12Gate2F_Blocks:INCBIN "maps/Route12Gate2F.blk"
 Route11Gate2F_Blocks: INCBIN "maps/Route11Gate2F.blk"
 
 

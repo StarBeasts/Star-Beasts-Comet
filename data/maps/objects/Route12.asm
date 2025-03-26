@@ -4,8 +4,8 @@ Route12_Object:
 	def_warp_events
 	warp_event  6, 16, ROUTE_6_GATE, 7
 	warp_event  6, 17, ROUTE_6_GATE, 8
-	warp_event 67, 16, ROUTE_12_GATE_1F, 1
-	warp_event 67, 17, ROUTE_12_GATE_1F, 2
+	warp_event 67, 16, ROUTE_12_GATE_2F, 1
+	warp_event 67, 17, ROUTE_12_GATE_2F, 2
 
 	def_bg_events
 	bg_event 17, 13, 11 ; Route12Text11

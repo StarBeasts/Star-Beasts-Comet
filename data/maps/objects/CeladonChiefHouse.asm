@@ -2,12 +2,12 @@ CeladonChiefHouse_Object:
 	db $f ; border block
 
 	def_warp_events
-	warp_event  6, 30, ROUTE_12_GATE_1F, 3
-	warp_event  6, 31, ROUTE_12_GATE_1F, 4
-	warp_event  14, 37, ROUTE_12_GATE_1F, 3
-	warp_event  15, 37, ROUTE_12_GATE_1F, 4
-	warp_event  29, 30, ROUTE_12_GATE_1F, 3
-	warp_event  29, 31, ROUTE_12_GATE_1F, 4
+	warp_event  6, 30, ROUTE_12_GATE_2F, 3
+	warp_event  6, 31, ROUTE_12_GATE_2F, 4
+	warp_event 29, 30, ROUTE_12_GATE_2F, 5
+	warp_event 29, 31, ROUTE_12_GATE_2F, 6
+	warp_event 14, 37, ROUTE_12_GATE_1F, 1
+	warp_event 15, 37, ROUTE_12_GATE_1F, 2
 	warp_event 14, 27, UNDERGROUND_PATH_NORTH_SOUTH, 1
 
 

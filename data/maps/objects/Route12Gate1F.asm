@@ -2,10 +2,10 @@ Route12Gate1F_Object:
 	db $a ; border block
 
 	def_warp_events
-	warp_event  4,  0, ROUTE_12, 3
-	warp_event  3,  0, ROUTE_12, 4
-	warp_event  4,  7, CELADON_CHIEF_HOUSE, 1
-	warp_event  3,  7, CELADON_CHIEF_HOUSE, 2
+	warp_event  3,  0, CELADON_CHIEF_HOUSE, 5
+	warp_event  4,  0, CELADON_CHIEF_HOUSE, 6
+	warp_event  3,  7, CELADON_CHIEF_HOUSE, 5
+	warp_event  4,  7, CELADON_CHIEF_HOUSE, 6
 
 
 	def_bg_events
