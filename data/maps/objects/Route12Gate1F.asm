@@ -4,8 +4,8 @@ Route12Gate1F_Object:
 	def_warp_events
 	warp_event  3,  0, CELADON_CHIEF_HOUSE, 5
 	warp_event  4,  0, CELADON_CHIEF_HOUSE, 6
-	warp_event  3,  7, CELADON_CHIEF_HOUSE, 5
-	warp_event  4,  7, CELADON_CHIEF_HOUSE, 6
+	warp_event  3,  7, ROUTE_14, 1
+	warp_event  4,  7, ROUTE_14, 1
 
 
 	def_bg_events

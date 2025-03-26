@@ -1,5 +1,5 @@
 Route14WildMons:
-	def_grass_wildmons 15 ; encounter rate
+	def_grass_wildmons 10 ; encounter rate
 	db 24,ODDISH
 	db 26,PIDGEY
 	db 23,DITTO

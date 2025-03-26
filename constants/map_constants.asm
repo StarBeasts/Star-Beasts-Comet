@@ -43,7 +43,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_11,                      26, 19 ; $16
 	map_const ROUTE_12,                      38, 12 ; $17
 	map_const ROUTE_13,                      30,  9 ; $18
-	map_const ROUTE_14,                      10, 27 ; $19
+	map_const ROUTE_14,                      7,  46 ; $19
 	map_const ROUTE_15,                      30,  9 ; $1A
 	map_const ROUTE_16,                      35,  20 ; $1B
 	map_const ROUTE_17,                      17,  50 ; $1C
@@ -267,6 +267,13 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const LORELEIS_ROOM,                  5,  6 ; $F5
 	map_const BRUNOS_ROOM,                    5,  6 ; $F6
 	map_const AGATHAS_ROOM,                   5,  6 ; $F7
+	; map_const EMPTY_MAP,                   5,  6 ; $F8
+	; map_const EMPTY_MAP,                   5,  6 ; $F9
+	; map_const EMPTY_MAP,                   5,  6 ; $FA
+	; map_const EMPTY_MAP,                   5,  6 ; $FB
+	; map_const EMPTY_MAP,                   5,  6 ; $FC
+	; map_const EMPTY_MAP,                   5,  6 ; $FD
+	; map_const EMPTY_MAP,                   5,  6 ; $FE
 DEF NUM_MAPS EQU const_value
 
 ; Indoor maps, such as houses, use this as the Map ID in their exit warps

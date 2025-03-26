@@ -31,7 +31,7 @@ Route18GateScript0:
 	ld [wSimulatedJoypadStatesIndex], a
 	ld b, 0
 	ld c, a
-	ld a, D_UP
+	ld a, D_DOWN
 	ld hl, wSimulatedJoypadStatesEnd
 	call FillMemory
 	call StartSimulatingJoypadStates
@@ -44,10 +44,10 @@ Route18GateScript0:
 	ret
 
 CoordsData_498cc:
-	dbmapcoord  4,  3
-	dbmapcoord  4,  4
-	dbmapcoord  4,  5
-	dbmapcoord  4,  6
+	dbmapcoord  2,  4
+	dbmapcoord  3,  4
+	dbmapcoord  2,  3
+	dbmapcoord  3,  3
 	db -1 ; end
 
 Route18GateScript1:
