@@ -75,16 +75,49 @@ _HM04NoRoomText::
 	line "stuffed full!"
 	done
 
-_FuchsiaHouse2Text_75176::
+_FuchsiaHouse2Text4::
+	text "SAFARI ZONE's"
+	line "WARDEN is old,"
+	cont "but still active!"
+
+	para "All his teeth are"
+	line "false, though."
+	done
+
+_FuchsiaHouse2Text5::
+	text "Hmm? You've met"
+	line "BILL?"
+
+	para "He's my grandson!"
+
+	para "He always liked"
+	line "collecting things"
+	cont "even as a child!"
+	done
+
+_FuchsiaHouse2Text6::
+	text "BILL files his"
+	line "own BEAST data"
+	cont "on his PC!"
+
+	para "Did he show you?"
+	done
+
+_FuchsiaHouse2Text7::
+	text "It's a picture"
+	line "of STEVE!"
+	done
+
+_FuchsiaHouse2Text8::
+	text "Old # BEASTS"
+	line "merchandise."
+	done
+
+_FuchsiaHouse2Text9::
 	text "It's a photo of"
 	line "the WARDEN with"
 	cont "a man in a fancy"
 	cont "suit."
 
 	para "They look happy."
-	done
-
-_FuchsiaHouse2Text_7517b::
-	text "Old # BEASTS"
-	line "merchandise."
 	done

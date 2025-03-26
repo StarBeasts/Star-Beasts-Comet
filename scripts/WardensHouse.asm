@@ -7,6 +7,10 @@ WardensHouse_TextPointers:
 	dw BoulderText
 	dw FuchsiaHouse2Text4
 	dw FuchsiaHouse2Text5
+	dw FuchsiaHouse2Text6
+	dw FuchsiaHouse2Text7
+	dw FuchsiaHouse2Text8
+	dw FuchsiaHouse2Text9
 
 FuchsiaHouse2Text1:
 	text_asm
@@ -92,22 +96,27 @@ HM04NoRoomText:
 	text_far _HM04NoRoomText
 	text_end
 
-FuchsiaHouse2Text5:
 FuchsiaHouse2Text4:
-	text_asm
-	ldh a, [hSpriteIndex]
-	cp $4
-	ld hl, FuchsiaHouse2Text_7517b
-	jr nz, .asm_4c9a2
-	ld hl, FuchsiaHouse2Text_75176
-.asm_4c9a2
-	call PrintText
-	jp TextScriptEnd
-
-FuchsiaHouse2Text_75176:
-	text_far _FuchsiaHouse2Text_75176
+	text_far _FuchsiaHouse2Text4
 	text_end
 
-FuchsiaHouse2Text_7517b:
-	text_far _FuchsiaHouse2Text_7517b
+FuchsiaHouse2Text5:
+	text_far _FuchsiaHouse2Text5
 	text_end
+
+FuchsiaHouse2Text6:
+	text_far _FuchsiaHouse2Text6
+	text_end
+
+FuchsiaHouse2Text7:
+	text_far _FuchsiaHouse2Text7
+	text_end
+
+FuchsiaHouse2Text8:
+	text_far _FuchsiaHouse2Text8
+	text_end
+
+FuchsiaHouse2Text9:
+	text_far _FuchsiaHouse2Text9
+	text_end
+

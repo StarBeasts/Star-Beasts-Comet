@@ -200,7 +200,6 @@ INCLUDE "text/CeladonChiefHouse.asm"
 INCLUDE "text/FuchsiaMart.asm"
 INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/FuchsiaPokecenter.asm"
-INCLUDE "text/WardensHouse.asm"
 INCLUDE "text/SafariZoneGate.asm"
 INCLUDE "text/FuchsiaGym.asm"
 
@@ -300,6 +299,7 @@ SECTION "Text 13", ROMX
 
 INCLUDE "text/UndergroundPathRoute5.asm"
 INCLUDE "text/UndergroundPathNorthSouth.asm"
+INCLUDE "text/WardensHouse.asm"
 
 SECTION "Pokédex Text", ROMX
 

@@ -3,7 +3,7 @@ FuchsiaCity_Object:
 
 	def_warp_events
 	warp_event  5, 27, CELADON_DINER, 1
-	warp_event 15, 27, FUCHSIA_BILLS_GRANDPAS_HOUSE, 1
+	warp_event 15, 27, WARDENS_HOUSE, 3
 	warp_event 19, 25, FUCHSIA_POKECENTER, 1
 	warp_event 17, 17, WARDENS_HOUSE, 1
 	warp_event 35, 17, SAFARI_ZONE_GATE, 1
