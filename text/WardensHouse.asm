@@ -121,3 +121,15 @@ _FuchsiaHouse2Text9::
 
 	para "They look happy."
 	done
+
+_FuchsiaHouse2Text10::
+	text "Detailed notes"
+	line "in big, easy to"
+	cont "read handwriting."
+
+	para "This is how the"
+	line "WARDEN's been"
+	cont "communicating"
+	cont "with his workers!"
+	done
+

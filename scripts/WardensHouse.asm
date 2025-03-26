@@ -11,6 +11,7 @@ WardensHouse_TextPointers:
 	dw FuchsiaHouse2Text7
 	dw FuchsiaHouse2Text8
 	dw FuchsiaHouse2Text9
+	dw FuchsiaHouse2Text10
 
 FuchsiaHouse2Text1:
 	text_asm
@@ -118,5 +119,9 @@ FuchsiaHouse2Text8:
 
 FuchsiaHouse2Text9:
 	text_far _FuchsiaHouse2Text9
+	text_end
+
+FuchsiaHouse2Text10:
+	text_far _FuchsiaHouse2Text10
 	text_end
 
