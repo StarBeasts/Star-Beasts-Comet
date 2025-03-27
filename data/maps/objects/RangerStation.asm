@@ -6,6 +6,9 @@ RangerStation_Object:
 	warp_event 17, 27, ROUTE_18_GATE_2F, 4
 	warp_event  7,  9, ROCK_TUNNEL_POKECENTER, 1
 	warp_event  25,  9, ROCK_TUNNEL_POKECENTER, 3
+	warp_event  14,  21, ROUTE_11, 3
+	warp_event 6, 14, ROUTE_18_GATE_2F, 5
+	warp_event 6, 15, ROUTE_18_GATE_2F, 6
 
 	def_bg_events
 	bg_event 15, 23, 2 ; 1st sign
