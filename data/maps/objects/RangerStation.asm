@@ -2,8 +2,8 @@ RangerStation_Object:
 	db $0F ; border block
 
 	def_warp_events
-	warp_event 16, 27, OWAI_HOTEL, 1
-	warp_event 17, 27, GLITCH_ROOM, 1
+	warp_event 16, 27, ROUTE_18_GATE_2F, 3
+	warp_event 17, 27, ROUTE_18_GATE_2F, 4
 	warp_event  7,  9, ROCK_TUNNEL_POKECENTER, 1
 	warp_event  25,  9, ROCK_TUNNEL_POKECENTER, 3
 
