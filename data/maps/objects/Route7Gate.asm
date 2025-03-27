@@ -1,15 +1,17 @@
 Route7Gate_Object:
-	db $a ; border block
+	db $43 ; border block
 
 	def_warp_events
-	warp_event  0,  3, ROUTE_16, 1
-	warp_event  0,  4, ROUTE_16, 2
-	warp_event  5,  3, SAFFRON_CITY, 10
-	warp_event  5,  4, SAFFRON_CITY, 10
+	warp_event 19,  5, ROUTE_16, 1
+	warp_event 19, 33, ROUTE_16, 2
+	warp_event 8, 30, SAFFRON_CITY, 10
+	warp_event 8, 31, SAFFRON_CITY, 10
+	warp_event 35, 30, SAFFRON_CITY, 10
+	warp_event 35, 31, SAFFRON_CITY, 10
 
 	def_bg_events
 
 	def_object_events
-	object_event  3,  1, SPRITE_GUARD, STAY, DOWN, 1 ; person
+	object_event 19, 17, SPRITE_GUARD, STAY, DOWN, 1 ; person
 
 	def_warps_to ROUTE_7_GATE

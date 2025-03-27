@@ -4,8 +4,8 @@ Route18Gate1F_Object:
 	def_warp_events
 	warp_event  2,  0, ROUTE_14, 2
 	warp_event  3,  0, ROUTE_14, 2
-	warp_event  2,  7, LAST_MAP, 3
-	warp_event  3,  7, LAST_MAP, 4
+	warp_event  2,  7, ROUTE_7_GATE, 1
+	warp_event  3,  7, ROUTE_7_GATE, 1
 
 	def_bg_events
 
