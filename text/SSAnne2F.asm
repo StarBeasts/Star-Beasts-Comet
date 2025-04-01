@@ -1,11 +1,15 @@
 _SSAnne2Text1::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "The ROCKETs took"
+	line "the CAPTAIN as a"
+	cont "hostage!"
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "I've told them"
+	line "over and over,"
+	cont "we don't have the"
+	cont "SCOPE they're"
+	cont "looking for here,"
+	cont "but none of them"
+	cont "will listen to me!"
 	done
 
 _SSAnneRivalBeforeBattleText::

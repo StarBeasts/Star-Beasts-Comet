@@ -3,7 +3,7 @@ VermilionDock_Object:
 
 	def_warp_events
 	warp_event 18,  0, LAST_MAP, 6
-	warp_event 18,  2, SS_ANNE_1F, 2
+	warp_event 18,  2, SS_ANNE_3F, 3
 
 	def_bg_events
 	bg_event 25,  0, 1 ; VermilionDockText1

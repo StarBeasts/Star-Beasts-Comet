@@ -54,11 +54,11 @@ SSAnne7RubText:
 ;	ld a, 0 ; BANK(Music_PkmnHealed)
 ;	ld [wAudioROMBank], a
 ;.asm_61908
-	ld a, MUSIC_PKMN_HEALED
+	ld a, SFX_GET_ITEM_2
 ;	ld [wNewSoundID], a
-	call PlayMusic
+	call PlaySound
 
-	call WaitForSongToFinish
+	call WaitForSoundToFinish
 ;.asm_61910
 ;	ld a, [wChannelSoundIDs]
 ;	cp MUSIC_PKMN_HEALED

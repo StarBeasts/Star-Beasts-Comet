@@ -52,9 +52,10 @@ _HM01NoRoomText::
 	done
 
 _SSAnne7Text2::
-	text "Oh, gross!"
+	text "It's the CAPTAIN's"
+	line "coffee!"
 	
-	para "It's full of puke!"
+	para "It's gone cold..."
 	done
 
 _SSAnne7Text3::

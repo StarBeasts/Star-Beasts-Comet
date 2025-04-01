@@ -116,7 +116,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VERMILION_DOCK,                20,  9 ; $5E
 	map_const SS_ANNE_1F,                    20,  9 ; $5F
 	map_const SS_ANNE_2F,                    20,  9 ; $60
-	map_const SS_ANNE_3F,                    10,  3 ; $61
+	map_const SS_ANNE_3F,                    10,  4 ; $61
 	map_const SS_ANNE_B1F,                   15,  4 ; $62
 	map_const SS_ANNE_BOW,                   10,  7 ; $63
 	map_const SS_ANNE_KITCHEN,                7,  8 ; $64
@@ -200,7 +200,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SAFFRON_GYM,                   10,  9 ; $B2
 	map_const SAFFRON_PIDGEY_HOUSE,           4,  4 ; $B3
 	map_const SAFFRON_MART,                   4,  4 ; $B4
-	map_const SILPH_CO_1F,                   15,  9 ; $B5
+	map_const SILPH_CO_1F,                   8,  9 ; $B5
 	map_const SAFFRON_POKECENTER,             7,  4 ; $B6
 	map_const MR_PSYCHICS_HOUSE,              4,  4 ; $B7
 	map_const ROUTE_15_GATE_1F,               4,  12 ; $B8
