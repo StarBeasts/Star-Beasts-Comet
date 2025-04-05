@@ -9,25 +9,25 @@ NoThanksText:
 PrizeMenuMon1Entries:
 	db ABRA
 	db VENONAT
-	db RATICATE
+	db SCYTHER
 	db "@"
 
 PrizeMenuMon1Cost:
-	bcd2 180
-	bcd2 750
+	bcd2 300
+	bcd2 600
 	bcd2 1200
 	db "@"
 
 PrizeMenuMon2Entries:
-	db DRATINI
+	db RATICATE
 	db JYNX
 	db EEVEE
 	db "@"
 
 PrizeMenuMon2Cost:
-	bcd2 2500
-	bcd2 4600
-	bcd2 6500
+	bcd2 2400
+	bcd2 4800
+	bcd2 9600
 	db "@"
 
 PrizeMenuTMsEntries:

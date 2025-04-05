@@ -1,8 +1,8 @@
 PrizeMonLevelDictionary:
-	db ABRA,10
-	db VENONAT,12
-	db JIGGLYPUFF,17
+	db ABRA,15
+	db VENONAT,17
+	db SCYTHER,23
 
-	db DRATINI,20
-	db JYNX,25
-	db EEVEE,30
+	db RATICATE,25
+	db JYNX,30
+	db EEVEE,35

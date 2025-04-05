@@ -355,10 +355,10 @@ GameCornerHiddenObjects:
 	hidden_object  1, 14, ANY_FACING, StartSlotMachine
 	hidden_object  1, 15, ANY_FACING, StartSlotMachine
 	hidden_object  0,  8, COIN+10, HiddenCoins
-	hidden_object  1, 16, COIN+10, HiddenCoins
+	hidden_object  1, 16, COIN+20, HiddenCoins
 	hidden_object  3, 11, COIN+20, HiddenCoins
-	hidden_object  3, 14, COIN+10, HiddenCoins
-	hidden_object  4, 12, COIN+10, HiddenCoins
+	hidden_object  3, 14, COIN+20, HiddenCoins
+	hidden_object  4, 12, COIN+20, HiddenCoins
 	hidden_object  9, 12, COIN+20, HiddenCoins
 	hidden_object  9, 15, COIN+10, HiddenCoins
 	hidden_object 16, 14, COIN+10, HiddenCoins

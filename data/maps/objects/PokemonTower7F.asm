@@ -1,5 +1,5 @@
 PokemonTower7F_Object:
-	db $0 ; border block
+	db $29 ; border block
 
 	def_warp_events
 	warp_event  9, 16, POKEMON_TOWER_6F, 2
