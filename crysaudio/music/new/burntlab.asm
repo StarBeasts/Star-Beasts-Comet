@@ -11,7 +11,7 @@ Music_BurntLab_Ch1:
 	tempo 200
 .mainloop:
 	octave 1
-	volume_envelope 8, 7
+	volume_envelope 12, 7
 	note D_, 2
 	octave 2
 	note D_, 2
@@ -134,8 +134,8 @@ Music_BurntLab_Ch2:
 	rest 16
 	rest 16
 	octave 1
-	volume_envelope 12, 7
 	duty_cycle 0
+	volume_envelope 15, 7
 	note D_, 4
 	note A_, 4
 	note A_, 6
@@ -306,7 +306,7 @@ Music_BurntLab_Ch3:
 .mainloop:
 	rest 8
 	octave 4
-	volume_envelope 2, 0
+	volume_envelope 1, 0
 	note E_, 2
 	note F_, 2
 	note A_, 2

@@ -1,31 +1,37 @@
 _Mansion3BattleText1::
-	text "This place is"
-	line "like, huge!"
+	text "Please..."
+	line "Make it stop..."
 	done
 
 _Mansion3EndBattleText1::
-	text "Ayah!"
+	text "..."
 	prompt
 
 _Mansion3AfterBattleText1::
-	text "I wonder where"
-	line "my partner went."
+	text "I can't stop"
+	line "hearing screams..."
+
+	para "Screams in my"
+	line "head..."
+
+	para "They're not"
+	line "mine..."
 	done
 
 _Mansion3BattleText2::
-	text "My mentor once"
-	line "lived here."
+	text "Go away! Leave"
+	line "us alone!"
 	done
 
 _Mansion3EndBattleText2::
-	text "Whew!"
-	line "Overwhelming!"
+	text "We hate you!"
 	prompt
 
 _Mansion3AfterBattleText2::
-	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	text "Get out!"
+	line "Just let me"
+	cont "exist here"
+	cont "in peace!"
 	done
 
 _Mansion3Text5::

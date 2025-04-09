@@ -6,7 +6,7 @@ FemaleTrainerList::
 	db -1 ; end
 
 EvilTrainerList::
-	db OPP_UNUSED_JUGGLER
+	db OPP_REMNANT
 	db OPP_BIKER
 	db OPP_BURGLAR
 	db OPP_GAMBLER

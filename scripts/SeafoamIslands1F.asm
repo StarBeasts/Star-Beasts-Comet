@@ -45,3 +45,9 @@ Seafoam1HolesCoords:
 SeafoamIslands1F_TextPointers:
 	dw BoulderText
 	dw BoulderText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText

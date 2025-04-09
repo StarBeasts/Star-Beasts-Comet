@@ -1,18 +1,24 @@
 _Mansion2BattleText1::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text "VELID..."
+	
+	para "YOU..."
+
+	para "YOU DID THIS"
+	line "TO ME!"
+
+	para "DIE!"
 	done
 
 _Mansion2EndBattleText1::
-	text "Oh no!"
-	line "My bag of loot!"
+	text "You're not..."
+	line "VELID..."
 	prompt
 
 _Mansion2AfterBattleText1::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "Air hitting my"
+	line "exposed muscles..."
+	
+	para "It hurts..."
 	done
 
 _Mansion2Text3::

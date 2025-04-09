@@ -11,7 +11,7 @@ TrainerDataPointers:
 	dw BikerData
 	dw BurglarData
 	dw EngineerData
-	dw UnusedJugglerData
+	dw RemnantData
 	dw FisherData
 	dw SwimmerData
 	dw CueBallData
@@ -316,8 +316,15 @@ EngineerData:
 ; Route 11
 	db 21, TANGELA, 0
 	db 18, VOLTORB, MAGNEMITE, MAGNETON, 0
-UnusedJugglerData:
-; none
+
+RemnantData:
+; Underground Burnt Lab
+	db 22, GOLDEEN, MAGIKARP, TENTACRUEL, 0
+	db 38, SLOWBRO, RHYHORN, 0
+	db 27, SANDSLASH, 0
+	db 21, DRATINI, SHELLDER, GOLDEEN, MAGIKARP, 0
+	db 22, GOLDEEN, MAGIKARP, TENTACRUEL, 0
+	db 24, SLOWPOKE, GOLDEEN, 0
 
 FisherData:
 ; SS Anne 2F Rooms

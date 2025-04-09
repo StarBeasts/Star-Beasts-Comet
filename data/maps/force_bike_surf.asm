@@ -10,8 +10,4 @@ ForcedBikeOrSurfMaps:
 	force_bike_surf ROUTE_18,            17,  7
 	force_bike_surf ROUTE_14,            9,  7
 	force_bike_surf ROUTE_14,            7,  84
-	force_bike_surf SEAFOAM_ISLANDS_B3F, 18,  7
-	force_bike_surf SEAFOAM_ISLANDS_B3F, 19,  7
-	force_bike_surf SEAFOAM_ISLANDS_B4F,  4, 14
-	force_bike_surf SEAFOAM_ISLANDS_B4F,  5, 14
 	db -1 ; end

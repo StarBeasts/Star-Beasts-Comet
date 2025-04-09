@@ -1,17 +1,13 @@
 _Mansion1BattleText2::
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "The... Pain..."
 	done
 
 _Mansion1EndBattleText2::
-	text "Ouch!"
+	text "Gruuhh..."
 	prompt
 
 _Mansion1AfterBattleText2::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
+	text "Make it... Stop..."
 	done
 
 _MansionSwitchText::

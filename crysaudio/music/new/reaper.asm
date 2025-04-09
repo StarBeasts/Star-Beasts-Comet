@@ -33,7 +33,7 @@ Music_Reaper_Ch1:
 	rest 4
 	octave 4
 	duty_cycle 1
-	volume_envelope 6, 5
+	volume_envelope 10, 5
 	note C_, 12
 	octave 3
 	note B_, 4
@@ -186,7 +186,7 @@ Music_Reaper_Ch2:
 .mainloop:
 	octave 2
 	duty_cycle 1
-	volume_envelope 5, 4
+	volume_envelope 10, 4
 	note F_, 2
 	note G#, 2
 	octave 3
@@ -806,7 +806,6 @@ Music_Reaper_Ch2:
 Music_Reaper_Ch3:
 	note_type 12, 2, 0
 .mainloop:
-	volume_envelope 2, 0
 	rest 16
 	rest 16
 	rest 16
@@ -818,6 +817,7 @@ Music_Reaper_Ch3:
 	rest 4
 	octave 4
 	vibrato 0, 15, 4
+	volume_envelope 1, 0
 	note G#, 16
 	note G#, 16
 	note B_, 16
@@ -835,7 +835,6 @@ Music_Reaper_Ch3:
 	note A_, 8
 	note B_, 8
 	octave 1
-	volume_envelope 3, 0
 	note B_, 8
 	note B_, 16
 	note B_, 16
@@ -869,7 +868,6 @@ Music_Reaper_Ch3:
 	note B_, 16
 	note B_, 8
 	octave 4
-	volume_envelope 2, 0
 	note B_, 8
 	note B_, 8
 	note A_, 8

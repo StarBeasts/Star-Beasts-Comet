@@ -1,31 +1,57 @@
 _Mansion4BattleText1::
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "ODIE says you're"
+	line "a bad person!"
+	
+	para "We kill bad"
+	line "people!"
+
 	done
 
 _Mansion4EndBattleText1::
-	text "Awooh!"
+	text "Awooo!"
 	prompt
 
 _Mansion4AfterBattleText1::
-	text "You can find stuff"
-	line "lying around."
+	text "It's so hard..."
+
+	para "Existing like"
+	line "this..."
+
+	para "I love ODIE,"
+	line "but we were"
+	cont "never meant"
+	cont "to be..."
+
+	para "Like this..."
 	done
 
 _Mansion4BattleText2::
-	text "This place is"
-	line "ideal for a lab."
+	text "Look... at my..."
+	line "disgusting body..."
+
+	para "Isn't this"
+	line "punishment enough?"
+
+	para "Just go away!"
+
+	para "Leave us alone!"
 	done
 
 _Mansion4EndBattleText2::
-	text "What"
-	line "was that for?"
+	text "Why..."
 	prompt
 
 _Mansion4AfterBattleText2::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "Your eyes..."
+
+	para "His eyes..."
+
+	para "They are so full"
+	line "of bloodlust..."
+
+	para "When we look at you"
+
+	para "we want to scream"
 	done
 
 _Mansion4Text7::
