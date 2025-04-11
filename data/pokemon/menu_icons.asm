@@ -17,7 +17,7 @@ MonPartyData:
 	nybble ICON_BUG       ; Beedrill
 	nybble ICON_BIRD      ; Pidgey
 	nybble ICON_BIRD      ; Pidgeotto
-	nybble ICON_BIRD      ; Pidgeot
+	nybble ICON_DRAGON    ; Pidgeot
 	nybble ICON_BIRD      ; Rattata
 	nybble ICON_MON       ; Raticate
 	nybble ICON_FAIRY     ; Spearow
@@ -88,7 +88,7 @@ MonPartyData:
 	nybble ICON_MON       ; Seel
 	nybble ICON_BALL      ; Dewgong
 	nybble ICON_MON       ; Grimer
-	nybble ICON_MON       ; Muk
+	nybble ICON_DRAGON    ; Muk
 	nybble ICON_WATER     ; Shellder
 	nybble ICON_WATER     ; Cloyster
 	nybble ICON_MON       ; Gastly
@@ -112,7 +112,7 @@ MonPartyData:
 	nybble ICON_BALL      ; Weezing
 	nybble ICON_BALL      ; Rhyhorn
 	nybble ICON_BALL      ; Rhydon
-	nybble ICON_MON       ; Chansey
+	nybble ICON_DRAGON    ; Chansey
 	nybble ICON_BALL      ; Tangela
 	nybble ICON_BALL      ; Kangaskhan
 	nybble ICON_MON       ; Horsea
@@ -143,13 +143,13 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Kabutops
 	nybble ICON_QUADRUPED ; Aerodactyl
 	nybble ICON_MON       ; Snorlax
-	nybble ICON_BIRD      ; Articuno
-	nybble ICON_BIRD      ; Zapdos
-	nybble ICON_BIRD      ; Moltres
-	nybble ICON_SNAKE     ; Dratini
-	nybble ICON_SNAKE     ; Dragonair
-	nybble ICON_MON       ; Dragonite
-	nybble ICON_MON       ; Mewtwo
+	nybble ICON_DRAGON    ; Articuno
+	nybble ICON_DRAGON    ; Zapdos
+	nybble ICON_DRAGON    ; Moltres
+	nybble ICON_DRAGON    ; Dratini
+	nybble ICON_DRAGON    ; Dragonair
+	nybble ICON_DRAGON    ; Dragonite
+	nybble ICON_DRAGON    ; Mewtwo
 	nybble ICON_QUADRUPED ; Mew
 	nybble ICON_BUG ; Sarpal
 	nybble ICON_BUG ; Helpme

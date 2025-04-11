@@ -11,6 +11,7 @@
 	const ICON_GRASS     ; $7
 	const ICON_SNAKE     ; $8
 	const ICON_QUADRUPED ; $9
+	const ICON_DRAGON    ; $0A
 
 DEF ICON_TRADEBUBBLE EQU $e
 

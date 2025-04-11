@@ -26,12 +26,9 @@ _ArticunoBattleText::
 
 
 _SeafoamIslands5Text4::
-	text "Boulders might"
-	line "change the flow"
-	cont "of water!"
+	text "!"
 	done
 
 _SeafoamIslands5Text5::
-	text "DANGER"
-	line "Fast current!"
+	text "!"
 	done
