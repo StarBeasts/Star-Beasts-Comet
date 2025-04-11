@@ -8,7 +8,7 @@ Music_Reaper:
 Music_Reaper_Ch1:
 	volume 7, 7
 	note_type 12, 10, 7
-	tempo 123
+	tempo 120
 .mainloop:
 	rest 16
 	rest 16
@@ -835,6 +835,7 @@ Music_Reaper_Ch3:
 	note A_, 8
 	note B_, 8
 	octave 1
+	volume_envelope 2, 0
 	note B_, 8
 	note B_, 16
 	note B_, 16
@@ -868,6 +869,7 @@ Music_Reaper_Ch3:
 	note B_, 16
 	note B_, 8
 	octave 4
+	volume_envelope 1, 0
 	note B_, 8
 	note B_, 8
 	note A_, 8

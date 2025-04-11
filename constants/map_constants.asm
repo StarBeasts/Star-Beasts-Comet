@@ -178,10 +178,10 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SAFARI_ZONE_GATE,               6,  4 ; $9C
 	map_const FUCHSIA_GYM,                    30, 30 ; $9D
 	map_const FUCHSIA_MEETING_ROOM,           7,  4 ; $9E
-	map_const SEAFOAM_ISLANDS_B1F,           15,  9 ; $9F
+	map_const SEAFOAM_ISLANDS_B1F,           15,  15 ; $9F
 	map_const SEAFOAM_ISLANDS_B2F,           15,  9 ; $A0
 	map_const SEAFOAM_ISLANDS_B3F,           15,  9 ; $A1
-	map_const SEAFOAM_ISLANDS_B4F,           15,  9 ; $A2
+	map_const SEAFOAM_ISLANDS_B4F,           24,  31 ; $A2
 	map_const VERMILION_OLD_ROD_HOUSE,        6,  4 ; $A3
 	map_const FUCHSIA_GOOD_ROD_HOUSE,         4,  4 ; $A4
 	map_const POKEMON_MANSION_1F,            15, 14 ; $A5

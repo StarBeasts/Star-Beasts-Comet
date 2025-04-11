@@ -53,10 +53,6 @@ SeafoamIslands5Script0:
 	ret
 
 .Coords
-	dbmapcoord 20, 17
-	dbmapcoord 21, 17
-	dbmapcoord 20, 16
-	dbmapcoord 21, 16
 	db -1 ; end
 
 SeafoamIslands5Script1:

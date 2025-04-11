@@ -38,8 +38,6 @@ SeafoamIslands1F_Script:
 	jp IsPlayerOnDungeonWarp
 
 Seafoam1HolesCoords:
-	dbmapcoord 17,  6
-	dbmapcoord 24,  6
 	db -1 ; end
 
 SeafoamIslands1F_TextPointers:
