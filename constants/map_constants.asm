@@ -38,7 +38,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_6,                       24, 13 ; $11
 	map_const ROUTE_7,                       27,  20 ; $12
 	map_const ROUTE_8,                       30,  11 ; $13
-	map_const ROUTE_9,                       30,  9 ; $14
+	map_const ROUTE_9,                       20,  31 ; $14
 	map_const ROUTE_10,                      15, 18 ; $15
 	map_const ROUTE_11,                      26, 19 ; $16
 	map_const ROUTE_12,                      38, 12 ; $17
@@ -93,7 +93,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const UNDERGROUND_PATH_ROUTE_5,       34,  5 ; $47
 	map_const DAYCARE,                        4,  4 ; $48
 	map_const ROUTE_6_GATE,                   3,  18 ; $49
-	map_const UNDERGROUND_PATH_ROUTE_6,       4,  4 ; $4A
+	map_const UNDERGROUND_PATH_ROUTE_6,       20, 40 ; $4A
 	map_const BLOODSTONE_BAY,  		   23,  13 ; $4B
 	map_const ROUTE_7_GATE,                   21, 25 ; $4C
 	map_const UNDERGROUND_PATH_ROUTE_7,       4,  4 ; $4D

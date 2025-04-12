@@ -37,8 +37,6 @@ SeafoamIslandsB2F_Script:
 	jp IsPlayerOnDungeonWarp
 
 Seafoam3HolesCoords:
-	dbmapcoord 19,  6
-	dbmapcoord 22,  6
 	db -1 ; end
 
 SeafoamIslandsB2F_TextPointers:

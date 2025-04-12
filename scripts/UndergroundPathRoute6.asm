@@ -1,11 +1,51 @@
 UndergroundPathRoute6_Script:
-	ld a, ROUTE_6
-	ld [wLastMap], a
 	jp EnableAutoTextBoxDrawing
 
 UndergroundPathRoute6_TextPointers:
 	dw UndergroundPathEntranceRoute6Text1
+	dw UndergroundPathEntranceRoute6Text2
+	dw UndergroundPathEntranceRoute6Text3
+	dw UndergroundPathEntranceRoute6Text4
+	dw UndergroundPathEntranceRoute6Text5
+	dw UndergroundPathEntranceRoute6Text6
+	dw UndergroundPathEntranceRoute6Text7
+	dw UndergroundPathEntranceRoute6Text8
+	dw UndergroundPathEntranceRoute6Text9
 
 UndergroundPathEntranceRoute6Text1:
-	text_far _UndergrdTunnelEntRoute6Text1
+	text_far _UndergroundPathEntranceRoute6Text1
 	text_end
+
+UndergroundPathEntranceRoute6Text2:
+	text_far _UndergroundPathEntranceRoute6Text2
+	text_end
+
+UndergroundPathEntranceRoute6Text3:
+	text_far _UndergroundPathEntranceRoute6Text3
+	text_end
+
+UndergroundPathEntranceRoute6Text4:
+	text_far _UndergroundPathEntranceRoute6Text4
+	text_end
+
+UndergroundPathEntranceRoute6Text5:
+	text_far _UndergroundPathEntranceRoute6Text5
+	text_end
+
+UndergroundPathEntranceRoute6Text6:
+	text_far _UndergroundPathEntranceRoute6Text6
+	text_end
+
+UndergroundPathEntranceRoute6Text7:
+	text_far _UndergroundPathEntranceRoute6Text7
+	text_end
+
+UndergroundPathEntranceRoute6Text8:
+	text_far _UndergroundPathEntranceRoute6Text8
+	text_end
+
+UndergroundPathEntranceRoute6Text9:
+	text_far _UndergroundPathEntranceRoute6Text9
+	text_end
+
+

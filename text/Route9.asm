@@ -156,7 +156,15 @@ _Route9AfterBattleText9::
 	done
 
 _Route9Text11::
-	text "ROUTE 9"
-	line "CERULEAN CITY-"
-	cont "ROCK TUNNEL"
+	text "EXILED ABYSS"
+	
+	para "DANGER"
+
+	para "CAVE IS FULL"
+	line "OF BEASTS AND"
+	cont "LIGHTING IS"
+	cont "INCREDIBLY POOR"
+
+	para "ENTER AT YOUR"
+	line "OWN RISK"
 	done

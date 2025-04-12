@@ -45,8 +45,6 @@ SeafoamIslandsB3F_Script:
 	jp CallFunctionInTable
 
 Seafoam4HolesCoords:
-	dbmapcoord  3, 16
-	dbmapcoord  6, 16
 	db -1 ; end
 
 SeafoamIslandsB3F_ScriptPointers:

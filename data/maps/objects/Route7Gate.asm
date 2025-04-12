@@ -3,7 +3,7 @@ Route7Gate_Object:
 
 	def_warp_events
 	warp_event 19,  5, ROUTE_18_GATE_1F, 3
-	warp_event 19, 33, SEAFOAM_ISLANDS_1F, 1
+	warp_event 19, 33, UNDERGROUND_PATH_ROUTE_6, 2
 	warp_event 8, 30, SAFFRON_CITY, 10
 	warp_event 8, 31, SAFFRON_CITY, 10
 	warp_event 35, 30, SAFFRON_CITY, 10

@@ -29,12 +29,12 @@ ExternalMapEntries:
 	external_map 13,  5, Route8Name
 	external_map 13,  2, Route9Name
 	external_map 14,  4, Route10Name
-	external_map 12,  9, Route11Name
-	external_map 14,  9, Route12Name
+	external_map 3,  12, Route11Name
+	external_map 8,  8, Route12Name
 	external_map 13, 11, Route13Name
 	external_map 11, 12, Route14Name
 	external_map 10, 13, Route15Name
-	external_map  5,  5, Route16Name
+	external_map  6,  8, Route16Name
 	external_map  4,  8, Route17Name
 	external_map  6, 13, Route18Name
 	external_map  6, 15, Route19Name
