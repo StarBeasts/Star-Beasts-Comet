@@ -500,6 +500,7 @@ INCLUDE "crysaudio/music/new/rocken.asm"
 INCLUDE "crysaudio/music/new/wacky.asm"
 INCLUDE "crysaudio/music/new/safariroute.asm"
 INCLUDE "crysaudio/music/new/beastbattle.asm"
+INCLUDE "crysaudio/music/new/touhou.asm"
 
 SECTION "New Songs 2", ROMX
 
@@ -551,6 +552,7 @@ INCLUDE "crysaudio/music/new/burntlab.asm"
 INCLUDE "crysaudio/music/new/reaper.asm"
 INCLUDE "crysaudio/music/new/laworder.asm"
 INCLUDE "crysaudio/music/new/beatit.asm"
+INCLUDE "crysaudio/music/new/xisle.asm"
 
 SECTION "Sound Effects", ROMX
 

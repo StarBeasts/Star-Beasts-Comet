@@ -30,7 +30,7 @@ Music:
 	dba Music_MatchVictory
 	dba Music_BoosterPack
 	dba Music_EndCredits
-	dba Music_ChallengeHall
+	dba Music_Touhou
 	dba Music_Chala
 	dba Music_NameEntry
 	dba Music_Cherry ; loops semi-properly
@@ -81,6 +81,8 @@ Music:
 	dba Music_Reaper
 	dba Music_LawOrder
 	dba Music_BeatIt
+	dba Music_Touhou
+	dba Music_XIsle
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 	dba Music_MobileAdapterMenu

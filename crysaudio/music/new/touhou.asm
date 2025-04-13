@@ -1,13 +1,14 @@
-Music_Placeholder:
+Music_Touhou:
 	channel_count 3
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
+	channel 1, Music_Touhou_Ch1
+	channel 2, Music_Touhou_Ch2
+	channel 3, Music_Touhou_Ch3
 
-Music_Placeholder_Ch1:
+Music_Touhou_Ch1:
 	volume 7, 7
 	note_type 12, 12, 7
 	tempo 116
+.mainloop
 	octave 3
 	duty_cycle 1
 	note C#, 1
@@ -1631,11 +1632,12 @@ Music_Placeholder_Ch1:
 	note D#, 1
 	note G_, 15
 	octave 6
-	sound_ret
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch2:
+Music_Touhou_Ch2:
 	note_type 12, 12, 7
 	duty_cycle 0
+.mainloop
 	octave 1
 	note C#, 1
 	rest 1
@@ -3259,10 +3261,11 @@ Music_Placeholder_Ch2:
 	note D#, 1
 	note G_, 15
 	octave 6
-	sound_ret
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch3:
+Music_Touhou_Ch3:
 	note_type 12, 1, 0
+.mainloop
 	octave 2
 	note D_, 16
 	note D_, 16
@@ -5366,4 +5369,4 @@ Music_Placeholder_Ch3:
 	note D#, 1
 	note G_, 16
 	note G_, 9
-	sound_ret
+	sound_loop 0, .mainloop
