@@ -98,7 +98,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_7_GATE,                   21, 25 ; $4C
 	map_const UNDERGROUND_PATH_ROUTE_7,       4,  4 ; $4D
 	map_const PURPLE_FOREST,  			     3,  20 ; $4E
-	map_const ROUTE_8_GATE,                   3,  4 ; $4F
+	map_const ROUTE_8_GATE,                   10,  20 ; $4F
 	map_const UNDERGROUND_PATH_ROUTE_8,       4,  4 ; $50
 	map_const ROCK_TUNNEL_POKECENTER,         15,  4 ; $51
 	map_const ROCK_TUNNEL_1F,                20, 18 ; $52
