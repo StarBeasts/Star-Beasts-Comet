@@ -42,14 +42,14 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_10,                      15, 18 ; $15
 	map_const ROUTE_11,                      26, 19 ; $16
 	map_const ROUTE_12,                      38, 12 ; $17
-	map_const ROUTE_13,                      30,  9 ; $18
+	map_const ROUTE_13,                      30, 30 ; $18
 	map_const ROUTE_14,                      7,  46 ; $19
 	map_const ROUTE_15,                      30,  9 ; $1A
 	map_const ROUTE_16,                      35,  20 ; $1B
 	map_const ROUTE_17,                      17,  50 ; $1C
 	map_const ROUTE_18,                      17,  24 ; $1D
 	map_const ROUTE_19,                      10, 27 ; $1E
-	map_const ROUTE_20,                      50,  9 ; $1F
+	map_const ROUTE_20,                      9,  50 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
 	map_const ROUTE_22,                      20,  10 ; $21
 	map_const ROUTE_23,                      10, 72 ; $22
@@ -96,7 +96,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const UNDERGROUND_PATH_ROUTE_6,       20, 40 ; $4A
 	map_const BLOODSTONE_BAY,  		   23,  13 ; $4B
 	map_const ROUTE_7_GATE,                   21, 25 ; $4C
-	map_const UNDERGROUND_PATH_ROUTE_7,       4,  4 ; $4D
+	map_const UNDERGROUND_PATH_ROUTE_7,       8,  30 ; $4D
 	map_const PURPLE_FOREST,  			     3,  20 ; $4E
 	map_const ROUTE_8_GATE,                   10,  20 ; $4F
 	map_const UNDERGROUND_PATH_ROUTE_8,       4,  4 ; $50
@@ -130,7 +130,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VICTORY_ROAD_1F,               10,  9 ; $6C
 	map_const OWAI_HOTEL,                    4,  10 ; $6D
 	map_const VULT_MAZE,                     7,  15 ; $6E
-	map_const VILLA_1F,                  		5,  5 ; $6F
+	map_const VILLA_1F,                  		11,  5 ; $6F
 	map_const VILLA_B1F,                  	5,  4 ; $70
 	map_const LANCES_ROOM,                   13, 13 ; $71
 	map_const VILLA_2F,               		5,  5 ; $72

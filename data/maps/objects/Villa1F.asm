@@ -6,6 +6,9 @@ Villa1F_Object:
 	warp_event  8,  1, VILLA_B1F, 1
 	warp_event  4,  9, LAST_MAP, 3
 	warp_event  5,  9, LAST_MAP, 3
+	warp_event  18,  9, ROUTE_20, 4
+	warp_event  19,  9, ROUTE_20, 4
+	warp_event 19,  1, ROUTE_9, 1
 
 	def_bg_events
 	bg_event  6,  1, 8 ; Villa1FText8
