@@ -300,6 +300,7 @@ SECTION "Text 13", ROMX
 INCLUDE "text/UndergroundPathRoute5.asm"
 INCLUDE "text/UndergroundPathNorthSouth.asm"
 INCLUDE "text/WardensHouse.asm"
+INCLUDE "text/SeafoamIslandsB3F.asm"
 
 SECTION "Pokédex Text", ROMX
 
