@@ -25,5 +25,14 @@ _Lab1Text4::
 
 _Lab1Text5::
 	text "# BEAST LAB"
-	line "Testing Room"
+	line "Computer Room"
+
+	para "NOTICE"
+
+	para "THE SOUL"
+	line "RESURRECTION"
+	cont "FACILITY HAS"
+	cont "PERMANENTLY"
+	cont "RELOCATED TO"
+	cont "EMERALD ACRES"
 	done

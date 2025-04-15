@@ -4,8 +4,7 @@ Route15_Object:
 	def_warp_events
 	warp_event  6, 10, ROUTE_11_GATE_2F, 3
 	warp_event  6, 11, ROUTE_11_GATE_2F, 4
-	warp_event 53, 10, ROUTE_15_GATE_1F, 3
-	warp_event 53, 11, ROUTE_15_GATE_1F, 4
+	warp_event 53,  9, CINNABAR_LAB, 15
 
 	def_bg_events
 	bg_event  9,  9, 12 ; Route15Text12
