@@ -4,8 +4,8 @@ Route11Gate2F_Object:
 	def_warp_events
 	warp_event  0, 18, ROUTE_7_GATE, 5
 	warp_event  0, 19, ROUTE_7_GATE, 6
-	warp_event  7, 18, ROUTE_11_GATE_1F, 5
-	warp_event  7, 19, ROUTE_11_GATE_1F, 5
+	warp_event  7, 18, ROUTE_15, 3
+	warp_event  7, 19, ROUTE_15, 4
 	warp_event  7,  4, ROUTE_7_GATE, 3
 	warp_event  7, 5, ROUTE_7_GATE, 4
 	warp_event  0,  4, SEAFOAM_ISLANDS_B3F, 3

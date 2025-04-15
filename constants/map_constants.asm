@@ -24,7 +24,7 @@ ENDM
 	map_const VERMILION_CITY,                30, 12 ; $05
 	map_const CELADON_CITY,                  25, 18 ; $06
 	map_const FUCHSIA_CITY,                  21, 18 ; $07
-	map_const CINNABAR_ISLAND,               10, 28 ; $08
+	map_const CINNABAR_ISLAND,               22, 31 ; $08
 	map_const INDIGO_PLATEAU,                19,  43; $09
 	map_const SAFFRON_CITY,                  24, 18 ; $0A
 	map_const RANGER_STATION,                17, 16 ; $0B

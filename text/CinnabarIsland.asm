@@ -32,9 +32,16 @@ _CinnabarIslandText2::
 	done
 
 _CinnabarIslandText3::
-	text "CINNABAR ISLAND"
-	line "The Fiery Town of"
-	cont "Burning Desire"
+	text "KUNZITE KEY"
+	
+	para "Forget what"
+	line "AMETHYST AVENUE"
+	cont "says, we're the"
+	cont "real piece of"
+	cont "paradise!"
+
+	para "Just look at our"
+	line "scenic ocean view!"
 	done
 
 _CinnabarIslandText6::
