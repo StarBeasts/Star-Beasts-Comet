@@ -44,7 +44,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_12,                      38, 12 ; $17
 	map_const ROUTE_13,                      30, 30 ; $18
 	map_const ROUTE_14,                      7,  46 ; $19
-	map_const ROUTE_15,                      30,  9 ; $1A
+	map_const ROUTE_15,                      30,  10 ; $1A
 	map_const ROUTE_16,                      35,  20 ; $1B
 	map_const ROUTE_17,                      17,  50 ; $1C
 	map_const ROUTE_18,                      17,  24 ; $1D
@@ -186,7 +186,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const FUCHSIA_GOOD_ROD_HOUSE,         4,  4 ; $A4
 	map_const POKEMON_MANSION_1F,            15, 14 ; $A5
 	map_const CINNABAR_GYM,                  10,  9 ; $A6
-	map_const CINNABAR_LAB,                   9,  4 ; $A7
+	map_const CINNABAR_LAB,                  34, 22 ; $A7
 	map_const CINNABAR_LAB_TRADE_ROOM,        4,  4 ; $A8
 	map_const CINNABAR_LAB_METRONOME_ROOM,    4,  4 ; $A9
 	map_const CINNABAR_LAB_FOSSIL_ROOM,       4,  4 ; $AA

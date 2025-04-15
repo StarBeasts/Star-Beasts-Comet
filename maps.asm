@@ -1171,11 +1171,6 @@ INCLUDE "scripts/CinnabarGym.asm"
 INCLUDE "data/maps/objects/CinnabarGym.asm"
 CinnabarGym_Blocks: INCBIN "maps/CinnabarGym.blk"
 
-INCLUDE "data/maps/headers/CinnabarLab.asm"
-INCLUDE "scripts/CinnabarLab.asm"
-INCLUDE "data/maps/objects/CinnabarLab.asm"
-CinnabarLab_Blocks: INCBIN "maps/CinnabarLab.blk"
-
 INCLUDE "data/maps/headers/CinnabarLabTradeRoom.asm"
 INCLUDE "scripts/CinnabarLabTradeRoom.asm"
 INCLUDE "data/maps/objects/CinnabarLabTradeRoom.asm"
@@ -1334,4 +1329,13 @@ INCLUDE "data/maps/headers/BikeGate.asm"
 INCLUDE "scripts/BikeGate.asm"
 INCLUDE "data/maps/objects/BikeGate.asm"
 BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
+
+SECTION "Maps 23", ROMX
+
+INCLUDE "data/maps/headers/CinnabarLab.asm"
+INCLUDE "scripts/CinnabarLab.asm"
+INCLUDE "data/maps/objects/CinnabarLab.asm"
+CinnabarLab_Blocks: INCBIN "maps/CinnabarLab.blk"
+
+
 

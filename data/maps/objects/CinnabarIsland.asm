@@ -7,6 +7,8 @@ CinnabarIsland_Object:
 	warp_event 25, 45, CINNABAR_LAB, 1
 	warp_event 29, 33, CINNABAR_POKECENTER, 1
 	warp_event 21, 33, CINNABAR_MART, 1
+	warp_event 6, 34, ROUTE_15, 3
+	warp_event 6, 35, ROUTE_15, 4
 
 	def_bg_events
 	bg_event 19, 33, 3 ; CinnabarIslandText3
