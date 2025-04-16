@@ -2,8 +2,8 @@ SeafoamIslands1F_Object:
 	db $2E ; border block
 
 	def_warp_events
-	warp_event 14, 39, LAST_MAP, 1
-	warp_event 15, 39, LAST_MAP, 1
+	warp_event 14, 39, UNDERGROUND_PATH_ROUTE_8, 3
+	warp_event 15, 39, UNDERGROUND_PATH_ROUTE_8, 3
 	warp_event 12,  4, SEAFOAM_ISLANDS_B1F, 1
 
 	def_bg_events

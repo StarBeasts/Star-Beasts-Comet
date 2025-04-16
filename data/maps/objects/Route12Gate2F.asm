@@ -8,8 +8,8 @@ Route12Gate2F_Object:
 	warp_event  7,  5, CELADON_CHIEF_HOUSE, 2
 	warp_event  0, 20, CELADON_CHIEF_HOUSE, 3
 	warp_event  0, 21, CELADON_CHIEF_HOUSE, 4
-	warp_event  7, 20, ROUTE_18, 1
-	warp_event  7, 21, ROUTE_18, 1
+	warp_event  7, 20, ROUTE_19, 1
+	warp_event  7, 21, ROUTE_19, 2
 
 	def_bg_events
 	bg_event  1, 10, 2 ; Route12GateUpstairsText2

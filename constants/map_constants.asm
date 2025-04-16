@@ -48,7 +48,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_16,                      35,  20 ; $1B
 	map_const ROUTE_17,                      17,  50 ; $1C
 	map_const ROUTE_18,                      17,  24 ; $1D
-	map_const ROUTE_19,                      10, 27 ; $1E
+	map_const ROUTE_19,                      27, 12 ; $1E
 	map_const ROUTE_20,                      9,  50 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
 	map_const ROUTE_22,                      20,  10 ; $21
@@ -99,7 +99,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const UNDERGROUND_PATH_ROUTE_7,       8,  30 ; $4D
 	map_const PURPLE_FOREST,  			     3,  20 ; $4E
 	map_const ROUTE_8_GATE,                   10,  20 ; $4F
-	map_const UNDERGROUND_PATH_ROUTE_8,       4,  4 ; $50
+	map_const UNDERGROUND_PATH_ROUTE_8,       30,  22 ; $50
 	map_const ROCK_TUNNEL_POKECENTER,         15,  4 ; $51
 	map_const ROCK_TUNNEL_1F,                20, 18 ; $52
 	map_const POWER_PLANT,                   20, 18 ; $53
@@ -172,7 +172,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const LAVENDER_MART,                  4,  4 ; $96
 	map_const LAVENDER_CUBONE_HOUSE,          4,  4 ; $97
 	map_const FUCHSIA_MART,                   4,  4 ; $98
-	map_const FUCHSIA_BILLS_GRANDPAS_HOUSE,   4,  4 ; $99
+	map_const FUCHSIA_BILLS_GRANDPAS_HOUSE,   21, 6 ; $99
 	map_const FUCHSIA_POKECENTER,             7,  4 ; $9A
 	map_const WARDENS_HOUSE,                  12,  4 ; $9B
 	map_const SAFARI_ZONE_GATE,               6,  4 ; $9C
