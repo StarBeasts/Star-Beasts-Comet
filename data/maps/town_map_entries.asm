@@ -68,7 +68,7 @@ InternalMapEntries:
 	internal_map DAYCARE,                       10,  4, Route5Name
 	internal_map BLOODSTONE_BAY, 10,  6, Route6Name
 	internal_map PURPLE_FOREST,  10,  4, ViridianCityName
-	internal_map UNDERGROUND_PATH_ROUTE_8,      11,  5, Route8Name
+	internal_map UNDERGROUND_PATH_ROUTE_8,      14,  8, SeafoamIslandsName
 	internal_map ROCK_TUNNEL_1F,                14,  3, RockTunnelName
 	internal_map POWER_PLANT,                   15,  4, PowerPlantName
 	internal_map ROUTE_11_GATE_2F,              13,  9, Route11Name

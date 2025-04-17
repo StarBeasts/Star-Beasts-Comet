@@ -7,6 +7,7 @@ UndergroundPathRoute8_Object:
 	warp_event 36,  7, SEAFOAM_ISLANDS_1F, 2
 	warp_event 34, 37, FUCHSIA_BILLS_GRANDPAS_HOUSE, 5
 	warp_event 35, 37, FUCHSIA_BILLS_GRANDPAS_HOUSE, 5
+	warp_event 17, 11, FUCHSIA_BILLS_GRANDPAS_HOUSE, 1
 
 	def_bg_events
 

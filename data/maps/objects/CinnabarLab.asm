@@ -15,7 +15,7 @@ CinnabarLab_Object:
 	warp_event 51, 35, CINNABAR_LAB, 5
 	warp_event 64, 35, CINNABAR_ISLAND, 1
 	warp_event 65, 35, CINNABAR_ISLAND, 1
-	warp_event 64, 28, LAST_MAP, 1 ; placeholder
+	warp_event 64, 28, ROUTE_21, 4
 	warp_event 20,  0, ROUTE_15, 3
 	warp_event 38,  0, CINNABAR_ISLAND, 6
 

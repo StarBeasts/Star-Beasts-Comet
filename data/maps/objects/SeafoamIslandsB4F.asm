@@ -3,6 +3,8 @@ SeafoamIslandsB4F_Object:
 
 	def_warp_events
 	warp_event 19, 51, SEAFOAM_ISLANDS_B1F, 2
+	warp_event 44, 61, UNDERGROUND_PATH_ROUTE_8, 3
+	warp_event 45, 61, UNDERGROUND_PATH_ROUTE_8, 3
 
 	def_bg_events
 	bg_event 19, 59, 4 ; SeafoamIslands5Text4
@@ -11,6 +13,6 @@ SeafoamIslandsB4F_Object:
 	def_object_events
 	object_event  3, 20, SPRITE_BOULDER, STAY, NONE, 1 ; person
 	object_event 43, 22, SPRITE_BOULDER, STAY, NONE, 2 ; person
-	object_event 21,  6, SPRITE_BIRD, STAY, DOWN, 3, ARTICUNO, 50 | OW_POKEMON
+	object_event 21,  6, SPRITE_DRAGON, STAY, DOWN, 3, MOLTRES, 50 | OW_POKEMON
 
 	def_warps_to SEAFOAM_ISLANDS_B4F
