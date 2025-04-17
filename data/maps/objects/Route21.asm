@@ -2,7 +2,7 @@ Route21_Object:
 	db $43 ; border block
 
 	def_warp_events
-	warp_event  8, 5, UNDERGROUND_PATH_ROUTE_7, 6
+	warp_event  8,  5, FUCHSIA_BILLS_GRANDPAS_HOUSE, 3
 	warp_event  6, 83, CINNABAR_LAB, 14
 	warp_event  7, 83, CINNABAR_LAB, 14
 	warp_event  8, 83, CINNABAR_LAB, 14

@@ -83,6 +83,7 @@ Music:
 	dba Music_BeatIt
 	dba Music_Touhou
 	dba Music_XIsle
+	dba Music_Bridge
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 	dba Music_MobileAdapterMenu

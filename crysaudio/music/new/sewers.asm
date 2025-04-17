@@ -13,7 +13,7 @@ Music_Sewers_Ch1:
 .mainloop:
 	rest 6
 	octave 5
-	volume_envelope 5, 7
+	volume_envelope 7, 7
 	note G_, 3
 	note G_, 1
 	note C_, 1
@@ -541,7 +541,7 @@ Music_Sewers_Ch2:
 .mainloop:
 	rest 6
 	octave 2
-	volume_envelope 13, 7
+	volume_envelope 15, 7
 	note C_, 16
 	note C_, 6
 	octave 1
@@ -734,6 +734,7 @@ Music_Sewers_Ch3:
 .mainloop:
 	rest 2
 	octave 1
+	volume_envelope 1, 0
 	note G_, 4
 	octave 2
 	note C_, 4

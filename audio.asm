@@ -510,6 +510,7 @@ INCLUDE "crysaudio/music/new/nuzzles.asm"
 INCLUDE "crysaudio/music/new/pinkflash.asm"
 INCLUDE "crysaudio/music/new/slowmoon.asm"
 INCLUDE "crysaudio/music/new/wildencounter.asm"
+INCLUDE "crysaudio/music/new/bridge.asm"
 
 SECTION "New Songs 3", ROMX
 
