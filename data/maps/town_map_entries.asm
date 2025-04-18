@@ -24,9 +24,9 @@ ExternalMapEntries:
 	external_map  11,  2, Route3Name
 	external_map  12, 2, Route4Name
 	external_map 14,  2, Route5Name
-	external_map 8,  6, Route6Name
-	external_map  8,  5, Route7Name
-	external_map 13,  5, Route8Name
+	external_map 7,  5, Route6Name
+	external_map  5,  5, Route7Name
+	external_map 4,  7, Route8Name
 	external_map 0,  2, Route9Name
 	external_map 7,  7, Route10Name
 	external_map 3,  12, Route11Name
@@ -61,7 +61,8 @@ InternalMapEntries:
 	internal_map VIRIDIAN_FOREST_SOUTH_GATE,     2,  6, Route2Name
 	internal_map VIRIDIAN_FOREST,                9,  4, ViridianForestName
 	internal_map PEWTER_POKECENTER,              9,  6, PewterCityName
-	internal_map MT_MOON_B2F,                    9,  5, MountMoonName
+	internal_map MT_MOON_1F,                    9,  5, MountMoonName
+	internal_map MT_MOON_B2F,                    8,  6, MountMoonName
 	internal_map CERULEAN_MART,                 10,  2, CeruleanCityName
 	internal_map MT_MOON_POKECENTER,             9,  6, Route4Name
 	internal_map ANCIENT_CAVE, 	3,  4, DiglettsCaveName	
