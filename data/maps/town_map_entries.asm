@@ -27,13 +27,13 @@ ExternalMapEntries:
 	external_map 8,  6, Route6Name
 	external_map  8,  5, Route7Name
 	external_map 13,  5, Route8Name
-	external_map 13,  2, Route9Name
-	external_map 14,  4, Route10Name
+	external_map 0,  2, Route9Name
+	external_map 7,  7, Route10Name
 	external_map 3,  12, Route11Name
 	external_map 8,  8, Route12Name
 	external_map 13, 11, Route13Name
 	external_map 11, 12, Route14Name
-	external_map 10, 13, Route15Name
+	external_map 12, 12, Route15Name
 	external_map  6,  8, Route16Name
 	external_map  4,  8, Route17Name
 	external_map  6, 13, Route18Name
@@ -41,7 +41,7 @@ ExternalMapEntries:
 	external_map  4, 15, Route20Name
 	external_map  2, 13, Route21Name
 	external_map  0,  8, Route22Name
-	external_map  0,  6, Route23Name
+	external_map  6,  2, Route23Name
 	external_map 10,  1, Route24Name
 	external_map 11,  0, Route25Name
 	assert_table_length FIRST_INDOOR_MAP
@@ -69,7 +69,7 @@ InternalMapEntries:
 	internal_map BLOODSTONE_BAY, 10,  6, Route6Name
 	internal_map PURPLE_FOREST,  10,  4, ViridianCityName
 	internal_map UNDERGROUND_PATH_ROUTE_8,      14,  8, SeafoamIslandsName
-	internal_map ROCK_TUNNEL_1F,                14,  3, RockTunnelName
+	internal_map ROCK_TUNNEL_1F,                0,  2, RockTunnelName
 	internal_map POWER_PLANT,                   15,  4, PowerPlantName
 	internal_map ROUTE_11_GATE_2F,              13,  9, Route11Name
 	internal_map ROUTE_12_GATE_1F,              14,  7, Route12Name
@@ -77,7 +77,7 @@ InternalMapEntries:
 	internal_map VERMILION_DOCK,                10,  9, VermilionCityName
 	internal_map SS_ANNE_B1F_ROOMS,              9, 10, SSAnneName
 	internal_map MOLE_HOLE,				  1,  7, MoleHoleName
-	internal_map VICTORY_ROAD_1F,                0,  4, VictoryRoadName
+	internal_map VICTORY_ROAD_1F,                6,  1, VictoryRoadName
 	internal_map VULT_MAZE,				  13,  10, VultMazeName
 	internal_map VILLA_3F,                       4,  14, VillaName
 	internal_map HALL_OF_FAME,                   0,  2, PokemonLeagueName
@@ -85,11 +85,11 @@ InternalMapEntries:
 	internal_map CHAMPIONS_ROOM,                 0,  2, PokemonLeagueName
 	internal_map UNDERGROUND_PATH_WEST_EAST,    10,  5, UndergroundPathName
 	internal_map CELADON_HOTEL,                  7,  5, CeladonCityName
-	internal_map LAVENDER_POKECENTER,           14,  5, LavenderTownName
-	internal_map POKEMON_TOWER_7F,              15,  5, PokemonTowerName
-	internal_map LAVENDER_CUBONE_HOUSE,         14,  5, LavenderTownName
+	internal_map LAVENDER_POKECENTER,           2,  7, LavenderTownName
+	internal_map POKEMON_TOWER_7F,              2,  8, PokemonTowerName
+	internal_map LAVENDER_CUBONE_HOUSE,         2,  7, LavenderTownName
 	internal_map WARDENS_HOUSE,                  8, 13, FuchsiaCityName
-	internal_map SAFARI_ZONE_GATE,               8, 12, SafariZoneName
+	internal_map SAFARI_ZONE_GATE,               8, 10, SafariZoneName
 	internal_map FUCHSIA_MEETING_ROOM,           8, 13, FuchsiaCityName
 	internal_map SEAFOAM_ISLANDS_B4F,            5, 15, SeafoamIslandsName
 	internal_map VERMILION_OLD_ROD_HOUSE,       10,  9, VermilionCityName
@@ -104,17 +104,17 @@ InternalMapEntries:
 	internal_map ROUTE_18_GATE_2F,               7, 13, Route18Name
 	internal_map SEAFOAM_ISLANDS_1F,             5, 15, SeafoamIslandsName
 	internal_map ROUTE_22_GATE,                  0,  7, Route22Name
-	internal_map VICTORY_ROAD_2F,                0,  4, VictoryRoadName
+	internal_map VICTORY_ROAD_2F,                6,  1, VictoryRoadName
 	internal_map ROUTE_12_GATE_2F,              14,  7, Route12Name
 	internal_map VERMILION_TRADE_HOUSE,         10,  9, VermilionCityName
-	internal_map DIGLETTS_CAVE,                  3,  4, DiglettsCaveName
-	internal_map VICTORY_ROAD_3F,                0,  4, VictoryRoadName
+	internal_map DIGLETTS_CAVE,                  7,  4, DiglettsCaveName
+	internal_map VICTORY_ROAD_3F,                6,  1, VictoryRoadName
 	internal_map SECRET_GARDEN,                  13, 0, SecretGardenName
 	internal_map SECRET_PATH,                   13, 0, SecretGardenName
 	internal_map DEVILS_CANYON, 	3,  4, DiglettsCaveName	
 	internal_map SILPH_CO_8F,                   10,  5, SilphCoName
 	internal_map POKEMON_MANSION_B1F,            2, 15, PokemonMansionName
-	internal_map SAFARI_ZONE_NORTH_REST_HOUSE,   8, 12, SafariZoneName
+	internal_map SAFARI_ZONE_NORTH_REST_HOUSE,   8, 10, SafariZoneName
 	internal_map CERULEAN_CAVE_1F,               9,  1, CeruleanCaveName
 	internal_map NAME_RATERS_HOUSE,             14,  5, LavenderTownName
 	internal_map CERULEAN_BADGE_HOUSE,          10,  2, CeruleanCityName
