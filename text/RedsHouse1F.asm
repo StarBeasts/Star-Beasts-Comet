@@ -30,9 +30,8 @@ _StandByMeText::
 	cont "skeleton wearing"
 	cont "a blue jacket."
 
-	para "Where have I"
-	line "seen this"
-	cont "before...?"
+	para "Where have I seen"
+	line "this before...?"
 	done
 
 _TVWrongSideText::

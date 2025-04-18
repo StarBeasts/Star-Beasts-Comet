@@ -453,7 +453,7 @@ _OakLabEmailText::
 	cont "trainer!"
 
 	para "STRBST LEAGUE HQ"
-	line "INDIGO PLATEAU"
+	line "ADAMANTIUM APEX"
 
 	para "PS: PROF.CHERRY,"
 	line "please visit us!"

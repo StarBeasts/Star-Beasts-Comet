@@ -67,7 +67,7 @@ YCoordsData_51255:
 	db 96
 	db 105
 	db 119
-	db 136
+	db 126
 	db -1 ; end
 
 Route23Script_5125d:

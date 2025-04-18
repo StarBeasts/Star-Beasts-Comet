@@ -5,5 +5,6 @@ _DiglettsCaveRoute2Text1::
 
 	para "This path sets"
 	line "you on the road"
+	cont "to PLATINUM PATH,"
 	cont "to the ELITE FOUR!"
 	done
