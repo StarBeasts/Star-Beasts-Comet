@@ -1,10 +1,12 @@
 _DiglettsCaveText1::
-	text "This boulder is"
-	line "too heavy to move!"
+	text "No amount of"
+	line "STRENGTH could"
+	cont "move this boulder!"
 	done
 
 _DiglettsCaveText2::
-	text "This boulder is"
-	line "too heavy to move!"
+	text "No amount of"
+	line "STRENGTH could"
+	cont "move this boulder!"
 	done
 
