@@ -11,14 +11,14 @@ ExternalMapEntries:
 	external_map  10, 3, ViridianCityName
 	external_map  9,  6, PewterCityName
 	external_map  7,  6, CeruleanCityName
-	external_map 2,  7, LavenderTownName
 	external_map 6,  3, VermilionCityName
 	external_map  3,  5, CeladonCityName
+	external_map 2,  7, LavenderTownName
+	external_map 7,  8, SaffronCityName
 	external_map  7, 10, FuchsiaCityName
+	external_map  3,  10, RangerStationName
 	external_map  14, 12, CinnabarIslandName
 	external_map  6,  0, IndigoPlateauName
-	external_map 7,  8, SaffronCityName
-	external_map  3,  10, RangerStationName
 	external_map  7, 3, Route1Name
 	external_map  9,  3, Route2Name
 	external_map  11,  2, Route3Name
