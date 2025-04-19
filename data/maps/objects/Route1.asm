@@ -4,6 +4,7 @@ Route1_Object:
 	def_warp_events
 	warp_event 40,  7, VIRIDIAN_FOREST, 1
 	warp_event 4, 11, VERMILION_OLD_ROD_HOUSE, 2
+	warp_event 40, 8, VIRIDIAN_FOREST, 1
 
 	def_bg_events
 	bg_event 19,  5, 3 ; Route1Text3
@@ -14,6 +15,3 @@ Route1_Object:
 	object_event 18,  6, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 2 ; person
 
 	def_warps_to ROUTE_1
-
-	; unused
-	warp_to 40, 19, 4
