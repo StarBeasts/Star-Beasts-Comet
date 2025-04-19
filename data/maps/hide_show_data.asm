@@ -7,14 +7,14 @@ MapHSPointers:
 	dw ViridianCityHS
 	dw PewterCityHS
 	dw CeruleanCityHS
-	dw LavenderTownHS
-	dw NoHS
+	dw NoHS ; Vermilion
 	dw CeladonCityHS
-	dw NoHS
-	dw NoHS
-	dw NoHS
+	dw LavenderTownHS
 	dw SaffronCityHS
-	dw NoHS
+	dw NoHS ; Fuchsia
+	dw NoHS ; Ranger Station
+	dw NoHS ; Cinnabar
+	dw NoHS ; Indigo Plateau
 	dw NoHS
 	dw Route2HS
 	dw NoHS
@@ -276,11 +276,11 @@ CeruleanCityHS:
 	db CERULEAN_CITY, $06, HIDE
 	db CERULEAN_CITY, $0A, SHOW
 	db CERULEAN_CITY, $0B, SHOW
-LavenderTownHS:
-	db LAVENDER_TOWN, $04, SHOW
 CeladonCityHS:
 	db CELADON_CITY, $0A, SHOW
 	db CELADON_CITY, $0B, HIDE
+LavenderTownHS:
+	db LAVENDER_TOWN, $04, SHOW
 SaffronCityHS:
 	db SAFFRON_CITY, $01, SHOW
 	db SAFFRON_CITY, $02, SHOW

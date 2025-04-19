@@ -5,14 +5,14 @@ MapHeaderPointers::
 	dw ViridianCity_h
 	dw PewterCity_h
 	dw CeruleanCity_h
-	dw LavenderTown_h
 	dw VermilionCity_h
 	dw CeladonCity_h
+	dw LavenderTown_h
+	dw SaffronCity_h
 	dw FuchsiaCity_h
+	dw RangerStation_h ; Ranger Station
 	dw CinnabarIsland_h
 	dw IndigoPlateau_h
-	dw SaffronCity_h
-	dw RangerStation_h ; Ranger Station
 	dw Route1_h
 	dw Route2_h
 	dw Route3_h
