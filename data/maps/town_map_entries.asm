@@ -57,21 +57,23 @@ ENDM
 InternalMapEntries:
 	; maximum map id subject to this rule, x, y, name
 	internal_map OAKS_LAB,                       8, 3, PalletTownName
-	internal_map VIRIDIAN_GYM,                   2,  8, ViridianCityName
+	internal_map VIRIDIAN_GYM,                   10,  3, ViridianCityName
 	internal_map VIRIDIAN_FOREST_NORTH_GATE,     12,  2, Route4Name
 	internal_map ROUTE_2_TRADE_HOUSE,     4,  5, Route8Name
 	internal_map ROUTE_2_GATE,     14,  2, Route5Name
 	internal_map VIRIDIAN_FOREST_SOUTH_GATE,     12,  2, Route4Name
 	internal_map VIRIDIAN_FOREST,                9,  4, ViridianForestName
+	internal_map PEWTER_MART,              9,  6, PewterCityName
+	internal_map PEWTER_SPEECH_HOUSE,              9,  3, Route2Name
 	internal_map PEWTER_POKECENTER,              9,  6, PewterCityName
 	internal_map MT_MOON_B1F,                    9,  5, MountMoonName
 	internal_map MT_MOON_B2F,                    8,  6, MountMoonName
 	internal_map CERULEAN_MART,                 7,  6, CeruleanCityName
-	internal_map MT_MOON_POKECENTER,             9,  6, Route4Name
+	internal_map MT_MOON_POKECENTER,             9,  4, ViridianForestName
 	internal_map ANCIENT_CAVE, 	7,  4, DiglettsCaveName	
 	internal_map DAYCARE,                       10,  4, Route5Name
 	internal_map BLOODSTONE_BAY, 2,  5, BloodstoneBayName
-	internal_map PURPLE_FOREST,  10,  4, ViridianCityName
+	internal_map PURPLE_FOREST,  10,  2, PurpleForestName
 	internal_map UNDERGROUND_PATH_ROUTE_8,      14,  8, SeafoamIslandsName
 	internal_map ROCK_TUNNEL_1F,                0,  2, RockTunnelName
 	internal_map POWER_PLANT,                   15,  4, PowerPlantName
@@ -128,5 +130,6 @@ InternalMapEntries:
 	internal_map CERULEAN_BADGE_HOUSE,          7,  6, CeruleanCityName
 	internal_map ROCK_TUNNEL_B1F,               14,  3, RockTunnelName
 	internal_map SILPH_CO_ELEVATOR,             10,  5, SilphCoName
+	internal_map HAND_HOUSE,                     9,  3, Route2Name
 	internal_map AGATHAS_ROOM,                   0,  2, PokemonLeagueName
 	db -1 ; end

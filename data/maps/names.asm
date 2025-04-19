@@ -53,9 +53,10 @@ SafariZoneName:      db "SAFARI ZONE@"
 CeruleanCaveName:    db "CORUNDUM CAVERN@"
 PowerPlantName:      db "DOLOMITE DAM@"
 SecretGardenName:    db "SECRET GARDEN@"
-VultMazeName:        db "MISERITE MEADOW@"
+VultMazeName:        db "WINDWALKER'S WAY@"
 SewersName:	     db "SEWERS"
 BloodstoneBayName:   db "BLOODSTONE BAY"
+PurpleForestName:    db "ANGUISH GLADE@"
 VillaName:           db "@"
 
 
