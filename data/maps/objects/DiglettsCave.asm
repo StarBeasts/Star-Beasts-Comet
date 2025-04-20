@@ -12,4 +12,5 @@ DiglettsCave_Object:
 	def_object_events
 	object_event 16,  9, SPRITE_BOULDER, STAY, DOWN, 1
 	object_event 16, 13, SPRITE_BOULDER, STAY, DOWN, 2
+	object_event 23, 26, SPRITE_SUBROSIAN, STAY, DOWN, 3
 	def_warps_to DIGLETTS_CAVE

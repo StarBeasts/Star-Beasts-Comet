@@ -19,6 +19,7 @@ MtMoonB1F_Object:
 
 	def_object_events
 	object_event  15,  27, SPRITE_SCIENTIST, STAY, RIGHT, 1 ; person
+	object_event  3,  30, SPRITE_SUBROSIAN, STAY, DOWN, 2 ; person
 
 
 	def_warps_to MT_MOON_B1F

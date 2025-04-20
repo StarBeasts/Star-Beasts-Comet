@@ -10,3 +10,8 @@ _DiglettsCaveText2::
 	cont "move this boulder!"
 	done
 
+_DiglettsCaveText3::
+	text "FOR EVERY PATH ONE"
+	line "TRAVELS, ANOTHER"
+	cont "PATH IS CLOSED."
+	done
