@@ -560,7 +560,7 @@ ScientistData:
 	db 34, MAGNEMITE, ELECTRODE, 0
 
 GiovanniData:
-; Rocket Hideout B4F
+; SS Rubin
 	db $FF,25,KINGLER,24,WEEZING,29,NIDOKING,0
 ; Silph Co. 11F
 	db $FF,37,NIDOKING,35,RHYHORN,37,CLEFAIRY,41,TENTACOOL,0

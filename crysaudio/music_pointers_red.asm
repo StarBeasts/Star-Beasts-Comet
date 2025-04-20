@@ -84,6 +84,7 @@ Music:
 	dba Music_Touhou
 	dba Music_XIsle
 	dba Music_Bridge
+	dba Music_Elysyann
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 	dba Music_MobileAdapterMenu

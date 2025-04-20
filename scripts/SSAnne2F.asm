@@ -28,7 +28,7 @@ SSAnne2Script0:
 ;	ld [wNewSoundID], a
 	call PlaySound
 	ld c, 0 ; BANK(Music_MeetRival)
-	ld a, MUSIC_MEET_RIVAL
+	ld a, MUSIC_ELYSYANN
 	call PlayMusic
 	ld a, [wCoordIndex]
 	ldh [hSavedCoordIndex], a
@@ -96,24 +96,9 @@ SSAnne2Script1:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	call Delay3
-	ld a, OPP_RIVAL2
-	ld [wCurOpponent], a
+	call EngageMapTrainer
+	call InitBattleEnemyParameters
 
-	; select which team to use during the encounter
-	ld a, [wRivalStarter]
-	cp STARTER2
-	jr nz, .NotSquirtle
-	ld a, $1
-	jr .done
-.NotSquirtle
-	cp STARTER3
-	jr nz, .Charmander
-	ld a, $2
-	jr .done
-.Charmander
-	ld a, $3
-.done
-	ld [wTrainerNo], a
 	ld a, 1
 	ld [wIsTrainerBattle], a
 
@@ -148,10 +133,6 @@ SSAnne2Script2:
 	ld a, $2
 	ldh [hSpriteIndex], a
 	call MoveSprite
-	ld a, SFX_STOP_ALL_MUSIC
-;	ld [wNewSoundID], a
-	call PlaySound
-	farcall Music_RivalAlternateStart
 	ld a, $3
 	ld [wSSAnne2FCurScript], a
 	ret
@@ -175,7 +156,6 @@ SSAnne2Script3:
 	ld a, HS_SS_ANNE_2F_RIVAL
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	call PlayDefaultMusic
 	ld a, $4
 	ld [wSSAnne2FCurScript], a
 	ret

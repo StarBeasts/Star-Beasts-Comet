@@ -532,6 +532,7 @@ INCLUDE "crysaudio/music/new/svictory.asm"
 INCLUDE "crysaudio/music/new/chala.asm"
 INCLUDE "crysaudio/music/new/ezio.asm"
 INCLUDE "crysaudio/music/new/miserite.asm"
+INCLUDE "crysaudio/music/new/elysyann.asm"
 
 SECTION "New Songs 5", ROMX
 
