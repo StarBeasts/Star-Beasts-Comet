@@ -116,4 +116,5 @@ SpriteSheetPointerTable:
 	overworld_sprite VarikSprite, 4		  ; SPRITE_VARIK
 	overworld_sprite FrozenRocketSprite, 4		  ; SPRITE_FROZEN_ROCKET
 	overworld_sprite GuitarSprite, 4		  ; SPRITE_GUITAR
+	overworld_sprite RuinedSignSprite, 4		  ; SPRITE_RUINED_SIGN
 	assert_table_length NUM_SPRITES
