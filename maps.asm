@@ -1330,5 +1330,11 @@ INCLUDE "scripts/CinnabarLab.asm"
 INCLUDE "data/maps/objects/CinnabarLab.asm"
 CinnabarLab_Blocks: INCBIN "maps/CinnabarLab.blk"
 
+INCLUDE "data/maps/headers/AmethystArchive.asm"
+INCLUDE "scripts/AmethystArchive.asm"
+INCLUDE "data/maps/objects/AmethystArchive.asm"
+AmethystArchive_Blocks: INCBIN "maps/AmethystArchive.blk"
+
+
 
 

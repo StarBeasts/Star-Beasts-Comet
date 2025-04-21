@@ -243,7 +243,7 @@ MapHeaderPointers::
 	dw TradeCenter_h
 	dw Colosseum_h
 	dw SilphCo2F_h ; UNUSED_MAP_F1
-	dw SilphCo2F_h ; UNUSED_MAP_F2
+	dw AmethystArchive_h; UNUSED_MAP_F2
 	dw HandHouse_h
 	dw RastaHouse_h ; DJ DoubleCut
 	dw LoreleisRoom_h

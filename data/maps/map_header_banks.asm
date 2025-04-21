@@ -243,7 +243,7 @@ MapHeaderBanks::
 	db BANK(TradeCenter_h)
 	db BANK(Colosseum_h)
 	db $11 ; UNUSED_MAP_F1
-	db $11 ; UNUSED_MAP_F2
+	db BANK(AmethystArchive_h)
 	db BANK(HandHouse_h)
 	db BANK(RastaHouse_h)
 	db BANK(LoreleisRoom_h)
