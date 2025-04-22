@@ -17,7 +17,7 @@ Music_BeatIt_Ch1:
 	rest 6
 	duty_cycle 2
 	octave 4
-	volume_envelope 8, 7
+	volume_envelope 13, 7
 	note F_, 2
 	rest 2
 	note F_, 2
@@ -348,6 +348,7 @@ Music_BeatIt_Ch2:
 	note_type 12, 8, 7
 .mainloop:
 	octave 3
+	volume_envelope 13, 7
 	note D_, 4
 	note F_, 2
 	note A_, 2
@@ -634,7 +635,7 @@ Music_BeatIt_Ch3:
 	note_type 12, 1, 0
 .mainloop:
 	octave 2
-	volume_envelope 2, 0
+	volume_envelope 1, 0
 	note D_, 4
 	note F_, 2
 	note A_, 2
@@ -1061,7 +1062,6 @@ Music_BeatIt_Ch3:
 	note C_, 2
 	rest 10
 	octave 2
-	volume_envelope 1, 0
 	sound_loop 0, .mainloop
 
 Music_BeatIt_Ch4:
