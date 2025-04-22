@@ -32,11 +32,11 @@ ExternalMapEntries:
 	external_map 3,  12, Route11Name
 	external_map 8,  8, Route12Name
 	external_map 13, 11, Route13Name
-	external_map 11, 12, Route14Name
+	external_map 10, 10, Route14Name
 	external_map 12, 12, Route15Name
 	external_map  6,  8, Route16Name
-	external_map  4,  8, Route17Name
-	external_map  6, 13, Route18Name
+	external_map  5,  10, Route17Name
+	external_map  5, 12, Route18Name
 	external_map  6, 15, Route19Name
 	external_map  4, 15, Route20Name
 	external_map  2, 13, Route21Name
