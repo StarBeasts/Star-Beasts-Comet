@@ -12,11 +12,28 @@ _AmethystArchiveText1::
 	done
 
 _AmethystArchiveText2::
-	text "2."
+	text "Man, I hate"
+	line "homework!"
+
+	para "Why's everybody"
+	line "so obssessed with"
+	cont "# BEASTS," 
+	cont "anyway!?"
 	done
 
 _AmethystArchiveText3::
-	text "3."
+	text "I'm studying to be"
+	line "an ornithologist."
+	
+	para "Trying to turn my"
+	line "life around and"
+	cont "do what I always"
+	cont "wanted to do."
+
+	para "Did you know that"
+	line "there are bird"
+	cont "BEASTs we haven't"
+	cont "documented yet?"
 	done
 
 _AmethystArchiveText4::
@@ -207,9 +224,79 @@ _AmethystArchiveText7::
 	done
 
 _AmethystArchiveText8::
-	text "8."
+	text "# BEAST"
+	line "HABITATS"
+
+	para "BY DR. EVEREST"
+
+	para "# BEASTS can"
+	line "be found in a"
+	cont "wide variety of"
+	cont "places, typically"
+	cont "in areas that"
+	cont "suit their"
+	cont "ELEMENT TYPE."
+
+	para "ICE types are"
+	line "typically drawn"
+	cont "to cold areas,"
+	cont "such as some"
+	cont "caves and oceans."
+
+	para "STEEL types are"
+	line "likewise drawn to"
+	cont "caves for their"
+	cont "mineral deposits."
+
+	para "ELECTRIC types"
+	line "are found in"
+	cont "urban areas and"
+	cont "places with a lot"
+	cont "of electricity."
+
+	para "Some areas have"
+	line "an unusually high"
+	cont "ambient amount of"
+	cont "what we refer"
+	cont "to as 'magic.'"
+
+	para "Those areas are"
+	line "more likely to"
+	cont "have rarer TYPEs"
+	cont "of # BEASTS,"
+	cont "such as the FAIRY"
+	cont "or DRAGON type."
+
+	para "It's simple!"
 	done
 
 _AmethystArchiveText9::
-	text "9."
+	text "# BEAST FLIGHT"
+	line "AND YOU: A PRIMER"
+
+
+	para "BY DR. EVEREST"
+
+	para "Not every BEAST"
+	line "'flies' in the"
+	cont "typical sense of"
+	cont "the term."
+
+	para "Some BEASTs, such"
+	line "as MAELSTRO, have"
+	cont "such skill with"
+	cont "magic that they"
+	cont "can simply defy"
+	cont "gravity at will"
+	cont "for a time,"
+	cont "unless the magic"
+	cont "of another BEAST"
+	cont "weighs them down."
+
+	para "Imagine if we"
+	line "could fly on our"
+	cont "own like they do!"
+
+	para "No more boring"
+	line "traffic jams!"
 	done
