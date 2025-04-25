@@ -37,12 +37,12 @@ ExternalMapEntries:
 	external_map  6,  8, Route16Name
 	external_map  5,  10, Route17Name
 	external_map  5, 12, Route18Name
-	external_map  6, 15, Route19Name
+	external_map  12, 8, Route19Name
 	external_map  0, 6, Route20Name
-	external_map  2, 13, Route21Name
+	external_map  14, 10, Route21Name
 	external_map  6,  2, Route22Name
 	external_map  6,  2, Route23Name
-	external_map 10,  1, Route24Name
+	external_map  5,  8, Route24Name
 	external_map 11,  0, Route25Name
 	assert_table_length FIRST_INDOOR_MAP
 
@@ -106,16 +106,30 @@ InternalMapEntries:
 	internal_map HALL_OF_FAME,                   6,  0, PokemonLeagueName
 	internal_map UNDERGROUND_PATH_NORTH_SOUTH,  10,  8, MalachiteName
 	internal_map CHAMPIONS_ROOM,                 6,  0, PokemonLeagueName
-	internal_map UNDERGROUND_PATH_WEST_EAST,    5,  12, Route18Name ; stopping point today
+	internal_map UNDERGROUND_PATH_WEST_EAST,    5,  12, Route18Name 
+	internal_map CELADON_MART_3F,    7,  10, FuchsiaCityName
 	internal_map CELADON_MART_4F,    7,  8, SaffronCityName
+	internal_map CELADON_MART_ROOF,    7,  10, FuchsiaCityName
 	internal_map CELADON_MART_ELEVATOR,    7,  8, SewersName
-	internal_map CELADON_HOTEL,                  7,  5, CeladonCityName
+	internal_map CELADON_MANSION_1F,    3,  5, CeladonCityName
+	internal_map CELADON_MANSION_2F,    2,  4, MysteryName
+	internal_map CELADON_MANSION_3F,    3,  5, CeladonCityName
+	internal_map CELADON_MANSION_ROOF,    2,  5, BloodstoneBayName
+	internal_map CELADON_GYM,                  3,  5, CeladonCityName
+	internal_map GAME_CORNER,                  7,  10, FuchsiaCityName
+	internal_map CELADON_MART_5F,    6,  3, VermilionCityName
+	internal_map GAME_CORNER_PRIZE_ROOM,       7,  10, FuchsiaCityName
+	internal_map CELADON_DINER,                  7,  10, FuchsiaCityName
+	internal_map CELADON_CHIEF_HOUSE,            10,  8, MalachiteName
+	internal_map CELADON_HOTEL,                  3,  5, CeladonCityName
 	internal_map LAVENDER_POKECENTER,           2,  7, LavenderTownName
 	internal_map POKEMON_TOWER_7F,              2,  8, PokemonTowerName
-	internal_map LAVENDER_CUBONE_HOUSE,         2,  7, LavenderTownName
-	internal_map WARDENS_HOUSE,                  8, 13, FuchsiaCityName
+	internal_map LAVENDER_CUBONE_HOUSE,         2,  7, LavenderTownName 
+	internal_map FUCHSIA_MART,    				3,  5, CeladonCityName
+	internal_map FUCHSIA_BILLS_GRANDPAS_HOUSE,   14,  8, SeafoamIslandsName
+	internal_map WARDENS_HOUSE,                  7, 10, FuchsiaCityName ; stopping point today
 	internal_map SAFARI_ZONE_GATE,               8, 10, SafariZoneName
-	internal_map FUCHSIA_MEETING_ROOM,           8, 13, FuchsiaCityName
+	internal_map FUCHSIA_MEETING_ROOM,           7, 10, FuchsiaCityName
 	internal_map SEAFOAM_ISLANDS_B4F,            14, 8, SeafoamIslandsName
 	internal_map VERMILION_OLD_ROD_HOUSE,        6,  3, VermilionCityName
 	internal_map FUCHSIA_GOOD_ROD_HOUSE,         7,  6, CeruleanCityName
@@ -123,7 +137,7 @@ InternalMapEntries:
 	internal_map GAS_STATION,             2, 15, Route4Name
 	internal_map INDIGO_PLATEAU_LOBBY,           6,  0, IndigoPlateauName
 	internal_map FIGHTING_DOJO,            2, 7, LavenderTownName
-	internal_map MR_PSYCHICS_HOUSE,             10,  5, SaffronCityName
+	internal_map MR_PSYCHICS_HOUSE,             7,  8, SaffronCityName
 	internal_map ROUTE_15_GATE_2F,               9, 13, Route15Name
 	internal_map ROUTE_16_FLY_HOUSE,             4,  5, Route16Name
 	internal_map ROUTE_12_SUPER_ROD_HOUSE,       7, 10, FuchsiaCityName

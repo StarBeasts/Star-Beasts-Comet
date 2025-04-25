@@ -61,7 +61,7 @@ WesternCanalName: 	db "WESTERN CANAL@"
 EasternCanalName: 	db "EASTERN CANAL@"
 MysteryName: 		db "MYSTERY AREA@"
 MalachiteName: 		db "MILITARY BASE@"
-GlitchName: 		db "YOU'RE NOT SAFE.@"
+GlitchName: 		db "You're not safe.@"
 VillaName:           db "PLACEHOLDER@"
 
 
