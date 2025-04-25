@@ -38,7 +38,7 @@ ExternalMapEntries:
 	external_map  5,  10, Route17Name
 	external_map  5, 12, Route18Name
 	external_map  6, 15, Route19Name
-	external_map  4, 15, Route20Name
+	external_map  0, 6, Route20Name
 	external_map  2, 13, Route21Name
 	external_map  6,  2, Route22Name
 	external_map  6,  2, Route23Name
@@ -92,17 +92,21 @@ InternalMapEntries:
 	internal_map DIGLETTS_CAVE_ROUTE_11,          5,  8, Route24Name
 	internal_map ROUTE_11_GATE_2F,              10,  12, Route25Name
 	internal_map ROUTE_12_GATE_1F,              10,  8, MalachiteName
-	internal_map BILLS_HOUSE,                   12,  0, SeaCottageName
+	internal_map BILLS_HOUSE,                   4,  7, Route7Name
 	internal_map VERMILION_DOCK,                6,  3, VermilionCityName
 	internal_map SS_ANNE_B1F_ROOMS,              5, 3, SSAnneName
 	internal_map MOLE_HOLE,				  9,  4, ViridianForestName
+	internal_map GLITCH_ROOM,				  15,  11, GlitchName
 	internal_map VICTORY_ROAD_1F,                6,  1, VictoryRoadName
+	internal_map OWAI_HOTEL,				  6,  10, GlitchName
 	internal_map VULT_MAZE,				  5,  3, VultMazeName
-	internal_map VILLA_3F,                       4,  14, VillaName
-	internal_map HALL_OF_FAME,                   0,  2, PokemonLeagueName
-	internal_map UNDERGROUND_PATH_NORTH_SOUTH,  10,  5, UndergroundPathName
-	internal_map CHAMPIONS_ROOM,                 0,  2, PokemonLeagueName
-	internal_map UNDERGROUND_PATH_WEST_EAST,    10,  5, UndergroundPathName
+	internal_map VILLA_B1F,                       0,  5, VillaName
+	internal_map LANCES_ROOM,                    6,  0, PokemonLeagueName
+	internal_map VILLA_5F,                       0,  5, VillaName
+	internal_map HALL_OF_FAME,                   6,  0, PokemonLeagueName
+	internal_map UNDERGROUND_PATH_NORTH_SOUTH,  10,  8, MalachiteName
+	internal_map CHAMPIONS_ROOM,                 6,  0, PokemonLeagueName
+	internal_map UNDERGROUND_PATH_WEST_EAST,    5,  12, Route18Name ; stopping point today
 	internal_map CELADON_MART_4F,    7,  8, SaffronCityName
 	internal_map CELADON_MART_ELEVATOR,    7,  8, SewersName
 	internal_map CELADON_HOTEL,                  7,  5, CeladonCityName
@@ -117,7 +121,7 @@ InternalMapEntries:
 	internal_map FUCHSIA_GOOD_ROD_HOUSE,         7,  6, CeruleanCityName
 	internal_map POKEMON_MANSION_1F,             2, 15, PokemonMansionName
 	internal_map GAS_STATION,             2, 15, Route4Name
-	internal_map INDIGO_PLATEAU_LOBBY,           0,  2, IndigoPlateauName
+	internal_map INDIGO_PLATEAU_LOBBY,           6,  0, IndigoPlateauName
 	internal_map FIGHTING_DOJO,            2, 7, LavenderTownName
 	internal_map MR_PSYCHICS_HOUSE,             10,  5, SaffronCityName
 	internal_map ROUTE_15_GATE_2F,               9, 13, Route15Name
@@ -144,5 +148,5 @@ InternalMapEntries:
 	internal_map ROCK_TUNNEL_B1F,               0,  2, RockTunnelName
 	internal_map SILPH_CO_ELEVATOR,             10,  5, SilphCoName
 	internal_map HAND_HOUSE,                     9,  3, Route2Name
-	internal_map AGATHAS_ROOM,                   0,  2, PokemonLeagueName
+	internal_map AGATHAS_ROOM,                   6,  0, PokemonLeagueName
 	db -1 ; end
