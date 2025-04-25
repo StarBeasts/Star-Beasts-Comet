@@ -315,8 +315,6 @@ INCLUDE "engine/overworld/healing_machine.asm"
 INCLUDE "engine/overworld/player_animations.asm"
 INCLUDE "engine/battle/ghost_marowak_anim.asm"
 INCLUDE "engine/battle/battle_transitions.asm"
-INCLUDE "engine/items/town_map.asm"
-INCLUDE "engine/gfx/mon_icons.asm"
 INCLUDE "engine/events/in_game_trades.asm"
 INCLUDE "engine/gfx/palettes.asm"
 INCLUDE "engine/menus/save.asm"
@@ -346,6 +344,10 @@ INCLUDE "engine/battle/animations.asm"
 INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
+
+section "bank32", ROMX
+INCLUDE "engine/items/town_map.asm"
+INCLUDE "engine/gfx/mon_icons.asm"
 
 SECTION "bank33", ROMX
 
