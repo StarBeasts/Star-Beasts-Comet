@@ -16,9 +16,18 @@ _FuchsiaCityText2::
 	done
 
 _FuchsiaCityText3::
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
-	cont "meet her here."
+	text "ERIK: Man, I've"
+	line "always wanted an"
+	cont "ICE type like a"
+	cont "MISTME..."
+
+	para "Hmm..."
+
+	para "I wonder where "
+	line "SARA went?"
+	cont "She said she"
+	cont "wanted to show"
+	cont "me something..."
 	done
 
 _FuchsiaCityText4::

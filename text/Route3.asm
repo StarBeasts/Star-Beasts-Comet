@@ -124,9 +124,9 @@ _Route3EndBattleText6::
 	prompt
 
 _Route3AfterBattleText6::
-	text "ASPIRO can"
-	line "copy almost any"
-	cont "move it sees!"
+	text "ASPIRO can copy"
+	line "almost any move"
+	cont "it sees!"
 	done
 
 _Route3BattleText7::

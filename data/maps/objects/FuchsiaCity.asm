@@ -33,7 +33,7 @@ FuchsiaCity_Object:
 	def_object_events
 	object_event 22, 30, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 1 ; person
 	object_event 25, 21, SPRITE_OFFICER, WALK, LEFT_RIGHT, 2 ; person
-	object_event 28, 16, SPRITE_FISHER, STAY, DOWN, 3 ; person
+	object_event 28, 16, SPRITE_FISHER, STAY, UP, 3 ; person
 	object_event 24,  8, SPRITE_YOUNGSTER, STAY, UP, 4 ; person
 	object_event 30,  5, SPRITE_MONSTER, STAY, DOWN, 5 ; person
 	object_event 24,  6, SPRITE_MONSTER, STAY, NONE, 6 ; person

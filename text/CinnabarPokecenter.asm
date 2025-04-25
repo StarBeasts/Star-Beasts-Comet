@@ -9,18 +9,22 @@ _CinnabarPokecenterText2::
 	done
 
 _CinnabarPokecenterText3::
-	text "The folks over in"
-	line "that LAB have"
-	cont "FLEWNICORNs!"
+	text "A SCIENTIST over"
+	line "in that LAB has"
+	cont "a FLEWNICORN!"
 
 	para "While I do quite"
 	line "fancy having one,"
-	cont "I can't bother to"
-	cont "fetch whatever"
-	cont "they want to"
-	cont "trade for one!"
+	cont "it's too much of"
+	cont "a time investment"
+	cont "to look for a"
+	cont "BEAST to trade"
+	cont "for one, and"
+	cont "the CASINO is"
+	cont "basically highway"
+	cont "robbery..."
 
-	para "A shame, too..."
+	para "A shame, too."
 
 	para "They're quite"
 	line "hard to find,"
