@@ -43,7 +43,7 @@ ExternalMapEntries:
 	external_map  6,  2, Route22Name
 	external_map  6,  2, Route23Name
 	external_map  5,  8, Route24Name
-	external_map 11,  0, Route25Name
+	external_map 10,  12, Route25Name
 	assert_table_length FIRST_INDOOR_MAP
 
 
@@ -99,7 +99,7 @@ InternalMapEntries:
 	internal_map GLITCH_ROOM,				  15,  11, GlitchName
 	internal_map VICTORY_ROAD_1F,                6,  1, VictoryRoadName
 	internal_map OWAI_HOTEL,				  6,  10, GlitchName
-	internal_map VULT_MAZE,				  5,  3, VultMazeName
+	internal_map VULT_MAZE,				  4,  4, VultMazeName
 	internal_map VILLA_B1F,                       0,  5, VillaName
 	internal_map LANCES_ROOM,                    6,  0, PokemonLeagueName
 	internal_map VILLA_5F,                       0,  5, VillaName
