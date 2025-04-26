@@ -107,7 +107,7 @@ InternalMapEntries:
 	internal_map UNDERGROUND_PATH_NORTH_SOUTH,  10,  8, MalachiteName
 	internal_map CHAMPIONS_ROOM,                 6,  0, PokemonLeagueName
 	internal_map UNDERGROUND_PATH_WEST_EAST,    5,  12, Route18Name 
-	internal_map CELADON_MART_3F,    7,  10, FuchsiaCityName
+	internal_map CELADON_MART_3F,    7,  10, FajzName
 	internal_map CELADON_MART_4F,    7,  8, SaffronCityName
 	internal_map CELADON_MART_ROOF,    7,  10, FuchsiaCityName
 	internal_map CELADON_MART_ELEVATOR,    7,  8, SewersName
@@ -119,7 +119,7 @@ InternalMapEntries:
 	internal_map GAME_CORNER,                  7,  10, FuchsiaCityName
 	internal_map CELADON_MART_5F,    6,  3, VermilionCityName
 	internal_map GAME_CORNER_PRIZE_ROOM,       7,  10, FuchsiaCityName
-	internal_map CELADON_DINER,                  7,  10, FuchsiaCityName
+	internal_map CELADON_DINER,                  7,  10, FajzName
 	internal_map CELADON_CHIEF_HOUSE,            10,  8, MalachiteName
 	internal_map CELADON_HOTEL,                  3,  5, CeladonCityName
 	internal_map LAVENDER_POKECENTER,           2,  7, LavenderTownName
@@ -147,28 +147,36 @@ InternalMapEntries:
 	internal_map SAFFRON_MART,             7,  8, SaffronCityName
 	internal_map SILPH_CO_1F,             7,  12, ShadowstoneName
 	internal_map MR_PSYCHICS_HOUSE,             7,  8, SaffronCityName ; stopping point today
-	internal_map ROUTE_15_GATE_2F,               9, 13, Route15Name
-	internal_map ROUTE_16_FLY_HOUSE,             4,  5, Route16Name
+	internal_map ROUTE_15_GATE_2F,               4, 7, Route7Name
+	internal_map ROUTE_16_GATE_1F,               5,  8, Route24Name
+	internal_map ROUTE_16_GATE_2F,               9,  6, PewterCityName
+	internal_map ROUTE_16_FLY_HOUSE,             6,  8, Route16Name
 	internal_map ROUTE_12_SUPER_ROD_HOUSE,       7, 10, FuchsiaCityName
-	internal_map ROUTE_18_GATE_2F,               7, 13, Route18Name
+	internal_map ROUTE_18_GATE_1F,               10,  12, Route25Name
+	internal_map ROUTE_18_GATE_2F,               3,  10, RangerStationName
 	internal_map SEAFOAM_ISLANDS_1F,             14, 8, SeafoamIslandsName
-	internal_map ROUTE_22_GATE,                  0,  7, Route22Name
+	internal_map ROUTE_22_GATE,                  6,  2, Route22Name
 	internal_map VICTORY_ROAD_2F,                6,  1, VictoryRoadName
-	internal_map ROUTE_12_GATE_2F,              14,  7, Route12Name
+	internal_map ROUTE_12_GATE_2F,              10,  8, MalachiteName
 	internal_map VERMILION_TRADE_HOUSE,         7,  6, CeruleanCityName
 	internal_map DIGLETTS_CAVE,                  7,  4, DiglettsCaveName
 	internal_map VICTORY_ROAD_3F,                6,  1, VictoryRoadName
 	internal_map ROCKET_HIDEOUT_B4F,              5,  4, RocketHQName
+	internal_map ROCKET_HIDEOUT_ELEVATOR,         7,  2, SpaceshipName
 	internal_map SECRET_PATH,                   3, 8, SecretGardenName
 	internal_map DEVILS_CANYON, 	7,  4, DiglettsCaveName	
 	internal_map SILPH_CO_8F,                   10,  5, SilphCoName
-	internal_map POKEMON_MANSION_B1F,            2, 15, PokemonMansionName
+	internal_map POKEMON_MANSION_B1F,            7, 12, MacrobiaName
 	internal_map SAFARI_ZONE_NORTH_REST_HOUSE,   8, 10, SafariZoneName
 	internal_map CERULEAN_CAVE_1F,               9,  1, CeruleanCaveName
 	internal_map NAME_RATERS_HOUSE,             2,  7, LavenderTownName
 	internal_map CERULEAN_BADGE_HOUSE,          7,  6, CeruleanCityName
+	internal_map GOLDEN_GATE,                   12, 2, Route4Name
 	internal_map ROCK_TUNNEL_B1F,               0,  2, RockTunnelName
 	internal_map SILPH_CO_ELEVATOR,             10,  5, SilphCoName
+	internal_map BIKE_GATE,                   5, 12, Route18Name
+	internal_map AMETHYST_ARCHIVE,              10, 3, ViridianCityName
 	internal_map HAND_HOUSE,                     9,  3, Route2Name
+	internal_map RASTA_HOUSE,                     7,  7, Route10Name
 	internal_map AGATHAS_ROOM,                   6,  0, PokemonLeagueName
 	db -1 ; end
