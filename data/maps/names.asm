@@ -63,7 +63,8 @@ MysteryName: 		db "MYSTERY AREA@"
 MalachiteName: 		db "MILITARY BASE@"
 GlitchName: 		db " You're not safe.@"
 VillaName:           db "PLACEHOLDER@"
-
+ShadowstoneName:	db "RED GOLD REEF@"
+MacrobiaName:		db "MACROBIA RUINS@"
 
 
 

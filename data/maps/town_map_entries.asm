@@ -87,7 +87,7 @@ InternalMapEntries:
 	internal_map UNDERGROUND_PATH_ROUTE_8,      14,  8, SeafoamIslandsName
 	internal_map ROCK_TUNNEL_POKECENTER,        3,  10, RangerStationName
 	internal_map ROCK_TUNNEL_1F,                0,  2, RockTunnelName
-	internal_map POWER_PLANT,                   15,  4, PowerPlantName
+	internal_map POWER_PLANT,                   14,  2, PowerPlantName
 	internal_map ROUTE_11_GATE_1F,              5,  12, Route18Name
 	internal_map DIGLETTS_CAVE_ROUTE_11,          5,  8, Route24Name
 	internal_map ROUTE_11_GATE_2F,              10,  12, Route25Name
@@ -127,17 +127,26 @@ InternalMapEntries:
 	internal_map LAVENDER_CUBONE_HOUSE,         2,  7, LavenderTownName 
 	internal_map FUCHSIA_MART,    				3,  5, CeladonCityName
 	internal_map FUCHSIA_BILLS_GRANDPAS_HOUSE,   14,  8, SeafoamIslandsName
-	internal_map WARDENS_HOUSE,                  7, 10, FuchsiaCityName ; stopping point today
+	internal_map WARDENS_HOUSE,                  7, 10, FuchsiaCityName 
 	internal_map SAFARI_ZONE_GATE,               8, 10, SafariZoneName
 	internal_map FUCHSIA_MEETING_ROOM,           7, 10, FuchsiaCityName
-	internal_map SEAFOAM_ISLANDS_B4F,            14, 8, SeafoamIslandsName
+	internal_map SEAFOAM_ISLANDS_B1F,            14, 8, SeafoamIslandsName
+	internal_map SEAFOAM_ISLANDS_B2F,            7,  12, ShadowstoneName
+	internal_map SEAFOAM_ISLANDS_B3F,            8,  12, EasternCanalName
+	internal_map SEAFOAM_ISLANDS_B4F,            14, 8, SeafoamIslandsName 
 	internal_map VERMILION_OLD_ROD_HOUSE,        6,  3, VermilionCityName
 	internal_map FUCHSIA_GOOD_ROD_HOUSE,         7,  6, CeruleanCityName
-	internal_map POKEMON_MANSION_1F,             2, 15, PokemonMansionName
-	internal_map GAS_STATION,             2, 15, Route4Name
+	internal_map POKEMON_MANSION_1F,             7, 12, MacrobiaName
+	internal_map CINNABAR_LAB,             14, 12, CinnabarIslandName
+	internal_map CINNABAR_LAB_FOSSIL_ROOM,      12, 2, Route4Name
+	internal_map CINNABAR_MART,             14, 12, CinnabarIslandName
+	internal_map GAS_STATION,             12, 2, Route4Name
 	internal_map INDIGO_PLATEAU_LOBBY,           6,  0, IndigoPlateauName
+	internal_map COPYCATS_HOUSE_2F,            7,  8, SaffronCityName
 	internal_map FIGHTING_DOJO,            2, 7, LavenderTownName
-	internal_map MR_PSYCHICS_HOUSE,             7,  8, SaffronCityName
+	internal_map SAFFRON_MART,             7,  8, SaffronCityName
+	internal_map SILPH_CO_1F,             7,  12, ShadowstoneName
+	internal_map MR_PSYCHICS_HOUSE,             7,  8, SaffronCityName ; stopping point today
 	internal_map ROUTE_15_GATE_2F,               9, 13, Route15Name
 	internal_map ROUTE_16_FLY_HOUSE,             4,  5, Route16Name
 	internal_map ROUTE_12_SUPER_ROD_HOUSE,       7, 10, FuchsiaCityName
@@ -150,7 +159,6 @@ InternalMapEntries:
 	internal_map DIGLETTS_CAVE,                  7,  4, DiglettsCaveName
 	internal_map VICTORY_ROAD_3F,                6,  1, VictoryRoadName
 	internal_map ROCKET_HIDEOUT_B4F,              5,  4, RocketHQName
-	internal_map SECRET_GARDEN,                  3, 8, SecretGardenName
 	internal_map SECRET_PATH,                   3, 8, SecretGardenName
 	internal_map DEVILS_CANYON, 	7,  4, DiglettsCaveName	
 	internal_map SILPH_CO_8F,                   10,  5, SilphCoName
