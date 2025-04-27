@@ -24,7 +24,8 @@ MainMenu:
 	ld hl, wd72e
 	res 6, [hl]
 	call ClearScreen
-	call RunDefaultPaletteCommand
+	ld b, SET_PAL_MAIN_MENU
+	call RunPaletteCommand
 	call LoadTextBoxTilePatterns
 	call LoadFontTilePatterns
 	ld hl, wd730
@@ -310,6 +311,7 @@ StartNewGame:
 	ld hl, wd732
 	res 1, [hl]
 StartNewGameDebug:
+	call RunDefaultPaletteCommand
 	call OakSpeech
 	ld c, 20
 	call DelayFrames

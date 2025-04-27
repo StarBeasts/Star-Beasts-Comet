@@ -110,6 +110,7 @@ CloseTextDisplay::
 	call LoadGBPal
 	xor a
 	ldh [hAutoBGTransferEnabled], a ; disable continuous WRAM to VRAM transfer each V-blank
+	call LoadTextBoxOWTilePatterns
 ; loop to make sprites face the directions they originally faced before the dialogue
 	ld hl, wSprite01StateData2OrigFacingDirection
 	ld c, $0f

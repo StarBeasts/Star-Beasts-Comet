@@ -75,6 +75,7 @@ OverworldLoopLessDelay::
 	bit BIT_START, a
 	jr z, .startButtonNotPressed
 ; if START is pressed
+	call LoadTextBoxTilePatterns
 	xor a ; TEXT_START_MENU
 	ldh [hSpriteIndexOrTextID], a
 	jp .displayDialogue
