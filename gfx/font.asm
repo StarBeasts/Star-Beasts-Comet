@@ -25,8 +25,11 @@ GamefreakLogoGraphicsEnd:
 YearLogoGraphics: INCBIN "gfx/title/year.2bpp"
 YearLogoGraphicsEnd:
 
-TextBoxGraphics:: INCBIN "gfx/font/font_extra.2bpp"
+TextBoxGraphics:: INCBIN "gfx/font/regular_textbox.2bpp"
 TextBoxGraphicsEnd::
+
+TextBoxOWGraphics:: INCBIN "gfx/font/ow_textbox.2bpp"
+TextBoxOWGraphicsEnd::
 
 PokedexTileGraphics: INCBIN "gfx/pokedex/pokedex.2bpp"
 PokedexTileGraphicsEnd:

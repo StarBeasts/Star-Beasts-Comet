@@ -30,6 +30,22 @@ LoadTextBoxTilePatterns::
 	lb bc, BANK(TextBoxGraphics), (TextBoxGraphicsEnd - TextBoxGraphics) / $10
 	jp CopyVideoData ; if LCD is on, transfer during V-blank
 
+LoadTextBoxOWTilePatterns::
+	ldh a, [rLCDC]
+	bit 7, a ; is the LCD enabled?
+	jr nz, .on
+.off
+	ld hl, TextBoxOWGraphics
+	ld de, vChars2 tile $77
+	ld bc, TextBoxOWGraphicsEnd - TextBoxOWGraphics
+	ld a, BANK(TextBoxOWGraphics)
+	jp FarCopyData2 ; if LCD is off, transfer all at once
+.on
+	ld de, TextBoxOWGraphics
+	ld hl, vChars2 tile $77
+	lb bc, BANK(TextBoxOWGraphics), (TextBoxOWGraphicsEnd - TextBoxOWGraphics) / $10
+	jp CopyVideoData ; if LCD is on, transfer during V-blank
+
 LoadHpBarAndStatusTilePatterns::
 	ldh a, [rLCDC]
 	bit 7, a ; is the LCD enabled?
