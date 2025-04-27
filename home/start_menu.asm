@@ -4,6 +4,7 @@ DisplayStartMenu::
 	ld [MBC1RomBank], a
 	ld a, [wWalkBikeSurfState] ; walking/biking/surfing
 	ld [wWalkBikeSurfStateCopy], a
+	call LoadTextBoxTilePatterns
 	ld a, SFX_START_MENU
 	call PlaySound
 
@@ -81,5 +82,5 @@ CloseStartMenu::
 	ldh a, [hJoyPressed]
 	bit BIT_A_BUTTON, a
 	jr nz, CloseStartMenu
-	call LoadTextBoxTilePatterns
+	call LoadTextBoxOWTilePatterns
 	jp CloseTextDisplay

@@ -33,3 +33,8 @@ Bankswitch::
 	ldh [hLoadedROMBank], a
 	ld [MBC1RomBank], a
 	ret
+
+SetCurBank::
+	ldh [hLoadedROMBank], a
+	ld [MBC1RomBank], a
+	ret

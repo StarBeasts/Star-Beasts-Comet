@@ -68,7 +68,7 @@ RedrawPartyMenu_::
 	call PrintStatusCondition
 	pop hl
 	push hl
-	ld bc, SCREEN_WIDTH + 1 ; down 1 row and right 1 column
+	ld bc, SCREEN_WIDTH ; down 1 row and right 1 column
 	ldh a, [hUILayoutFlags]
 	set 0, a
 	ldh [hUILayoutFlags], a

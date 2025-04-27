@@ -155,13 +155,13 @@ BlkPacket_NidorinoIntro:
 
 BlkPacket_PartyMenu:
 	ATTR_BLK 7
-	ATTR_BLK_DATA %110, 0,0,1, 01,00, 02,11 ; mon sprites: pal 0, everything else: pal 1
-	ATTR_BLK_DATA %010, 0,0,0, 05,01, 11,01 ; HP bar 0: pal set dynamically
-	ATTR_BLK_DATA %010, 0,0,0, 05,03, 11,03 ; HP bar 1: pal set dynamically
-	ATTR_BLK_DATA %010, 0,0,0, 05,05, 11,05 ; HP bar 2: pal set dynamically
-	ATTR_BLK_DATA %010, 0,0,0, 05,07, 11,07 ; HP bar 3: pal set dynamically
-	ATTR_BLK_DATA %010, 0,0,0, 05,09, 11,09 ; HP bar 4: pal set dynamically
-	ATTR_BLK_DATA %010, 0,0,0, 05,11, 11,11 ; HP bar 5: pal set dynamically
+	ATTR_BLK_DATA %110, 2,2,0, 01,00, 02,11 ; mon sprites: pal 0, everything else: pal 1
+	ATTR_BLK_DATA %010, 0,0,0, 04,01, 09,01 ; HP bar 0: pal set dynamically
+	ATTR_BLK_DATA %010, 0,0,0, 04,03, 09,03 ; HP bar 1: pal set dynamically
+	ATTR_BLK_DATA %010, 0,0,0, 04,05, 09,05 ; HP bar 2: pal set dynamically
+	ATTR_BLK_DATA %010, 0,0,0, 04,07, 09,07 ; HP bar 3: pal set dynamically
+	ATTR_BLK_DATA %010, 0,0,0, 04,09, 09,09 ; HP bar 4: pal set dynamically
+	ATTR_BLK_DATA %010, 0,0,0, 04,11, 09,11 ; HP bar 5: pal set dynamically
 	ds 4, 0
 
 ; unused
@@ -233,7 +233,7 @@ BlkPacket_PokedexFrontPage:
 	db $00
 
 PalPacket_Empty:          PAL_SET 0, 0, 0, 0
-PalPacket_PartyMenu:      PAL_SET PAL_MEWMON, PAL_GREENBAR, PAL_YELLOWBAR, PAL_REDBAR
+PalPacket_PartyMenu:      PAL_SET PAL_BORDER, PAL_GREENBAR, PAL_YELLOWBAR, PAL_REDBAR
 PalPacket_Black:          PAL_SET PAL_BLACK, PAL_BLACK, PAL_BLACK, PAL_BLACK
 PalPacket_TownMap:        PAL_SET PAL_TOWNMAP, 0, 0, 0
 PalPacket_Pokedex:        PAL_SET PAL_BORDER, 0, 0, 0
