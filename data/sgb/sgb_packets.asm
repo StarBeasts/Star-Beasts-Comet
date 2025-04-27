@@ -229,13 +229,35 @@ BlkPacket_PokedexFrontPage:
 	ATTR_BLK_DATA %010, 1,1,0, 01,02, 01,17 ; HP bar 0: pal set dynamically
 	ds 4, 0
 
+BlkPacket_TownMap:
+	ATTR_BLK 18
+	ATTR_BLK_DATA %011, 0,0,0, 00,00, 19,14 ; Main Map
+	ATTR_BLK_DATA %011, 2,2,0, 09,01, 12,03 ; Trees
+	ATTR_BLK_DATA %010, 0,2,0, 12,05, 12,05 ; Trees
+	ATTR_BLK_DATA %010, 0,2,0, 13,06, 13,06 ; Trees
+	ATTR_BLK_DATA %010, 2,2,0, 18,03, 18,03 ; Trees
+	ATTR_BLK_DATA %010, 2,2,0, 17,08, 17,08 ; Trees
+	ATTR_BLK_DATA %010, 2,2,0, 11,10, 11,10 ; Trees
+	ATTR_BLK_DATA %010, 2,2,0, 08,10, 08,10 ; Trees
+	ATTR_BLK_DATA %010, 2,2,0, 05,09, 05,09 ; Trees
+	ATTR_BLK_DATA %010, 2,2,0, 04,10, 04,10 ; Trees
+	ATTR_BLK_DATA %010, 2,2,0, 06,11, 06,11 ; Trees
+;	ATTR_BLK_DATA %010, 2,2,0, 01,12, 01,12 ; Trees
+	ATTR_BLK_DATA %010, 3,3,0, 08,02, 08,02 ; Dungeon
+	ATTR_BLK_DATA %010, 3,3,0, 11,04, 11,04 ; Dungeon
+	ATTR_BLK_DATA %010, 3,3,0, 04,06, 04,06 ; Dungeon
+	ATTR_BLK_DATA %010, 3,3,0, 16,09, 16,09 ; Dungeon
+	ATTR_BLK_DATA %010, 3,3,0, 10,11, 10,11 ; Dungeon
+	ATTR_BLK_DATA %010, 1,1,0, 01,13, 03,13 ; Region Name
+	ATTR_BLK_DATA %011, 1,1,0, 00,15, 19,17 ; Textbox
+
 ; unused
 	db $00
 
 PalPacket_Empty:          PAL_SET 0, 0, 0, 0
 PalPacket_PartyMenu:      PAL_SET PAL_BORDER, PAL_GREENBAR, PAL_YELLOWBAR, PAL_REDBAR
 PalPacket_Black:          PAL_SET PAL_BLACK, PAL_BLACK, PAL_BLACK, PAL_BLACK
-PalPacket_TownMap:        PAL_SET PAL_TOWNMAP, 0, 0, 0
+PalPacket_TownMap:        PAL_SET PAL_TOWNMAP_1, PAL_TOWNMAP_2, PAL_TOWNMAP_3, PAL_TOWNMAP_4
 PalPacket_Pokedex:        PAL_SET PAL_BORDER, 0, 0, 0
 PalPacket_Slots:          PAL_SET PAL_SLOTS1, PAL_SLOTS2, PAL_SLOTS3, PAL_SLOTS4
 PalPacket_Titlescreen:    PAL_SET PAL_LOGO2, PAL_LOGO1, PAL_MEWMON, PAL_PURPLEMON

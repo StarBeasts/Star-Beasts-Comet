@@ -48,7 +48,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_GREY      ; $0C
 	const PAL_CINNABAR  ; $09
 	const PAL_INDIGO    ; $0A
-	const PAL_TOWNMAP   ; $0D
+	const PAL_TOWNMAP_1 ; $0D
 	const PAL_LOGO1     ; $0E
 	const PAL_LOGO2     ; $0F
 	const PAL_0F        ; $10
@@ -83,4 +83,7 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_ICEFIRE ; 2D
 	const PAL_DRUDEER ; 2E
 	const PAL_PERIDOT ; 2E
+	const PAL_TOWNMAP_2
+	const PAL_TOWNMAP_3
+	const PAL_TOWNMAP_4
 DEF NUM_SGB_PALS EQU const_value

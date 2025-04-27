@@ -307,7 +307,7 @@ LoadTownMap:
 	ld bc, CompressedMapEnd - CompressedMap
 	call CopyData
 	call EnableLCD
-	ld b, SET_PAL_POKEDEX
+	ld b, SET_PAL_TOWN_MAP
 	call RunPaletteCommand
 	call Delay3
 	call GBPalNormal

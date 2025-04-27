@@ -60,7 +60,7 @@ SetPal_Battle:
 
 SetPal_TownMap:
 	ld hl, PalPacket_TownMap
-	ld de, BlkPacket_WholeScreen
+	ld de, BlkPacket_TownMap
 	ret
 
 ; uses PalPacket_Empty to build a packet based the mon ID
