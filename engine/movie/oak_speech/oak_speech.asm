@@ -39,7 +39,7 @@ OakSpeech:
 	ld a, MUSIC_ROUTES2
 	call PlayMusic
 	call ClearScreen
-	call LoadTextBoxTilePatterns
+	call LoadTextBoxOWTilePatterns
 	call SetDefaultNames
 	predef InitPlayerData2
 	ld hl, wNumBoxItems
@@ -152,7 +152,7 @@ OakSpeech:
 	ld b, 7
 	ld c, 7
 	call ClearScreenArea
-	call LoadTextBoxTilePatterns
+	call LoadTextBoxOWTilePatterns
 	ld a, 1
 	ld [wUpdateSpritesEnabled], a
 	ld c, 50

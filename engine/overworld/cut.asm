@@ -47,6 +47,7 @@ UsedCut:
 	call Delay3
 	xor a
 	ldh [hWY], a
+	call LoadTextBoxOWTilePatterns
 	ld hl, UsedCutText
 	call PrintText
 	call LoadScreenTilesFromBuffer2
