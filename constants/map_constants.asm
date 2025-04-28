@@ -127,7 +127,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const MOLE_HOLE,                      8,  7 ; $69
 	map_const CELAGONE_CITY,                  21, 18; $6A
 	map_const GLITCH_ROOM,                    5,  5 ; $6B
-	map_const VICTORY_ROAD_1F,               10,  9 ; $6C
+	map_const VICTORY_ROAD_1F,               6,  75 ; $6C
 	map_const OWAI_HOTEL,                    4,  10 ; $6D
 	map_const VULT_MAZE,                     7,  15 ; $6E
 	map_const VILLA_1F,                  		11,  5 ; $6F
@@ -213,11 +213,11 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_18_GATE_2F,               4,  11 ; $BF
 	map_const SEAFOAM_ISLANDS_1F,            15,  20 ; $C0
 	map_const ROUTE_22_GATE,                  5,  4 ; $C1
-	map_const VICTORY_ROAD_2F,               15,  9 ; $C2
+	map_const VICTORY_ROAD_2F,               30,  30 ; $C2
 	map_const ROUTE_12_GATE_2F,               4,  13 ; $C3
 	map_const VERMILION_TRADE_HOUSE,          4,  4 ; $C4
 	map_const DIGLETTS_CAVE,                 20, 18 ; $C5
-	map_const VICTORY_ROAD_3F,               15,  9 ; $C6
+	map_const VICTORY_ROAD_3F,               10, 50 ; $C6
 	map_const ROCKET_HIDEOUT_B1F,            20, 14 ; $C7
 	map_const ROCKET_HIDEOUT_B2F,            15, 14 ; $C8
 	map_const ROCKET_HIDEOUT_B3F,            15, 14 ; $C9
