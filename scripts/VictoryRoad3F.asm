@@ -1,5 +1,4 @@
 VictoryRoad3F_Script:
-	call VictoryRoad3Script_44996
 	call EnableAutoTextBoxDrawing
 	ld hl, VictoryRoad3TrainerHeaders
 	ld de, VictoryRoad3F_ScriptPointers
@@ -8,71 +7,10 @@ VictoryRoad3F_Script:
 	ld [wVictoryRoad3FCurScript], a
 	ret
 
-VictoryRoad3Script_44996:
-	ld hl, wCurrentMapScriptFlags
-	bit 5, [hl]
-	res 5, [hl]
-	ret z
-	CheckEventHL EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH1
-	ret z
-	ld a, $1d
-	ld [wNewTileBlockID], a
-	lb bc, 5, 3
-	predef_jump ReplaceTileBlock
-
 VictoryRoad3F_ScriptPointers:
-	dw VictoryRoad3Script0
+	dw CheckFightingMapTrainers
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
-
-VictoryRoad3Script0:
-	ld hl, wFlags_0xcd60
-	bit 7, [hl]
-	res 7, [hl]
-	jp z, .asm_449fe
-	ld hl, .coordsData_449f9
-	call CheckBoulderCoords
-	jp nc, .asm_449fe
-	ld a, [wCoordIndex]
-	cp $1
-	jr nz, .asm_449dc
-	ld hl, wCurrentMapScriptFlags
-	set 5, [hl]
-	SetEvent EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH1
-	ret
-.asm_449dc
-	CheckAndSetEvent EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH2
-	jr nz, .asm_449fe
-	ld a, HS_VICTORY_ROAD_3F_BOULDER
-	ld [wMissableObjectIndex], a
-	predef HideObject
-	ld a, HS_VICTORY_ROAD_2F_BOULDER
-	ld [wMissableObjectIndex], a
-	predef_jump ShowObject
-
-.coordsData_449f9:
-	dbmapcoord  3,  5
-	dbmapcoord 23, 15
-	db -1 ; end
-
-.asm_449fe
-	ld a, VICTORY_ROAD_2F
-	ld [wDungeonWarpDestinationMap], a
-	ld hl, .coordsData_449f9
-	call IsPlayerOnDungeonWarp
-	ld a, [wCoordIndex]
-	cp $1
-	jr nz, .asm_44a1b
-	ld hl, wd72d
-	res 4, [hl]
-	ld hl, wd732
-	res 4, [hl]
-	ret
-.asm_44a1b
-	ld a, [wd72d]
-	bit 4, a
-	jp z, CheckFightingMapTrainers
-	ret
 
 VictoryRoad3F_TextPointers:
 	dw VictoryRoad3Text1
@@ -81,10 +19,6 @@ VictoryRoad3F_TextPointers:
 	dw VictoryRoad3Text4
 	dw PickUpItemText
 	dw PickUpItemText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
 
 VictoryRoad3TrainerHeaders:
 	def_trainers
