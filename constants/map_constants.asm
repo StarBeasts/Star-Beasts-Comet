@@ -52,7 +52,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_20,                      9,  50 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
 	map_const ROUTE_22,                      20,  10 ; $21
-	map_const ROUTE_23,                      10, 72 ; $22
+	map_const ROUTE_23,                      14, 59 ; $22
 	map_const ROUTE_24,                      50, 5 ; $23
 	map_const ROUTE_25,                      30,  9 ; $24
 DEF FIRST_INDOOR_MAP EQU const_value
