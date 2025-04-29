@@ -108,5 +108,5 @@ ENDM
 	warp_tiles $52, $53, $54
 
 .HillTilesetWarpTileIDs
-	warp_tiles $63
+	warp_tiles $08, $09, $2A, $2B, $36, $37, $63
 

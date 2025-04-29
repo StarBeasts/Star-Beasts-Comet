@@ -4,8 +4,8 @@ IndigoPlateau_Object:
 	def_warp_events
 	warp_event 21,  9, INDIGO_PLATEAU_LOBBY, 1
 	warp_event 22,  9, INDIGO_PLATEAU_LOBBY, 2
-	warp_event 31, 82, INDIGO_PLATEAU_LOBBY, 1
-	warp_event 32, 82, INDIGO_PLATEAU_LOBBY, 2
+	warp_event 31, 81, INDIGO_PLATEAU_LOBBY, 1
+	warp_event 32, 81, INDIGO_PLATEAU_LOBBY, 2
 
 
 	def_bg_events
