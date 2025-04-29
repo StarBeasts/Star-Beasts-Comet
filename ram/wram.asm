@@ -2047,7 +2047,7 @@ wPokemonMansion2FCurScript:: db
 wPokemonMansion3FCurScript:: db
 wPokemonMansionB1FCurScript:: db
 wVictoryRoad2FCurScript:: db
-wVictoryRoad3FCurScript:: db
+wIndigoPlateauCurScript:: db
 	ds 1
 wFightingDojoCurScript:: db
 wSilphCo2FCurScript:: db
