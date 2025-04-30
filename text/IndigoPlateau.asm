@@ -1,6 +1,6 @@
 _IndigoPlateauBattleText2::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "So close to the"
+	line "top, yet so far!"
 	done
 
 _IndigoPlateauEndBattleText2::

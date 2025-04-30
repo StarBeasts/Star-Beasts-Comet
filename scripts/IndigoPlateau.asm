@@ -23,7 +23,7 @@ IndigoPlateau_TextPointers:
 IndigoPlateauTrainerHeaders:
 	def_trainers
 IndigoPlateauTrainerHeader0:
-	trainer EVENT_BEAT_VICTORY_ROAD_3_TRAINER_0, 1, IndigoPlateauBattleText2, IndigoPlateauEndBattleText2, IndigoPlateauAfterBattleText2
+	trainer EVENT_BEAT_VICTORY_ROAD_3_TRAINER_0, 4, IndigoPlateauBattleText2, IndigoPlateauEndBattleText2, IndigoPlateauAfterBattleText2
 IndigoPlateauTrainerHeader1:
 	trainer EVENT_BEAT_VICTORY_ROAD_3_TRAINER_1, 4, IndigoPlateauBattleText3, IndigoPlateauEndBattleText3, IndigoPlateauAfterBattleText3
 IndigoPlateauTrainerHeader2:
