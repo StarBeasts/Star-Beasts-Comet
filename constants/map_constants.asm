@@ -227,9 +227,9 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SECRET_PATH,                    4,  6 ; $CD
 	map_const DEVILS_CANYON,                  3,  3 ; $CE
 	map_const SILPH_CO_2F,                   18,  7 ; $CF
-	map_const SILPH_CO_3F,                   15,  9 ; $D0
+	map_const SILPH_CO_3F,                   15,  8 ; $D0
 	map_const SILPH_CO_4F,                   15,  9 ; $D1
-	map_const SILPH_CO_5F,                   15,  9 ; $D2
+	map_const SILPH_CO_5F,                   17,  9 ; $D2
 	map_const SILPH_CO_6F,                   13,  9 ; $D3
 	map_const SILPH_CO_7F,                   13,  9 ; $D4
 	map_const SILPH_CO_8F,                   13,  9 ; $D5
