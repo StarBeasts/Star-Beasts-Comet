@@ -226,7 +226,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SECRET_GARDEN,                  14, 10 ; $CC
 	map_const SECRET_PATH,                    4,  6 ; $CD
 	map_const DEVILS_CANYON,                  3,  3 ; $CE
-	map_const SILPH_CO_2F,                   15,  9 ; $CF
+	map_const SILPH_CO_2F,                   18,  7 ; $CF
 	map_const SILPH_CO_3F,                   15,  9 ; $D0
 	map_const SILPH_CO_4F,                   15,  9 ; $D1
 	map_const SILPH_CO_5F,                   15,  9 ; $D2

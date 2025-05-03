@@ -21,7 +21,7 @@ SilphCo2Script_59d07:
 	push af
 	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 2, 2
+	lb bc, 22, 22
 	predef ReplaceTileBlock
 	pop af
 .asm_59d2e
@@ -29,7 +29,7 @@ SilphCo2Script_59d07:
 	ret nz
 	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 5, 2
+	lb bc, 23, 23
 	predef_jump ReplaceTileBlock
 
 SilphCo2GateCoords:
