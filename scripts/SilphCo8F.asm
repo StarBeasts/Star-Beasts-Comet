@@ -20,7 +20,7 @@ SilphCo8Script_5651a:
 	ret nz
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 4, 3
+	lb bc, 40, 30
 	predef_jump ReplaceTileBlock
 
 SilphCo8GateCoords:
