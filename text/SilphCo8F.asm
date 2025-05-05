@@ -1,11 +1,26 @@
 _SilphCo8Text_565be::
-	text "I wonder if GAI"
-	line "CO. is finished..."
+	text "Uff... the ROCKETs"
+	line "stole a bunch of"
+	cont "# BALLS off of"
+	cont "the production"
+	cont "line..."
+
+	para "MR. TUSK is gonna"
+	line "have my head..."
 	done
 
 _SilphCo8Text_565c3::
 	text "Thanks for saving"
 	line "us!"
+
+	para "It'll take us a"
+	line "while to get the"
+	cont "assembly line"
+	cont "running again,"
+	cont "but don't worry!"
+
+	para "We have other"
+	line "facilities!"
 	done
 
 _SilphCo8BattleText1::
@@ -41,16 +56,28 @@ _SilphCo8AfterBattleText2::
 	done
 
 _SilphCo8BattleText3::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Oh, hey kid."
+
+	para "You here to see"
+	line "how they make"
+	cont "them # BALLS,"
+	cont "too?"
+
+	para "..."
+
+	para "Wait a minute..."
+
+	para "Oh crap, it's you!"
+
+	para "Stop right there!"
 	done
 
 _SilphCo8EndBattleText3::
 	text "Whoo!"
-	line "Oh brothers!"
+	line "Shoulda known!"
 	prompt
 
 _SilphCo8AfterBattleText3::
-	text "I'll leave you up"
-	line "to my brothers!"
+	text "Heh. Enjoying your"
+	line "'tour', kid?"
 	done

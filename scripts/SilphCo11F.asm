@@ -20,7 +20,7 @@ SilphCo11Script_62110:
 	ret nz
 	ld a, $20
 	ld [wNewTileBlockID], a
-	lb bc, 6, 3
+	lb bc, 36, 33
 	predef_jump ReplaceTileBlock
 
 SilphCo11GateCoords:

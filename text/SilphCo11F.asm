@@ -62,7 +62,7 @@ _SilphCo11Text3::
 	text "Oh, <PLAYER>."
 	line "It's you."
 
-	para "The PRESIDENT and"
+	para "DR. ROSENTHAL and"
 	line "I are discussing"
 	cont "a vital business"
 	cont "proposition."
