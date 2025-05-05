@@ -260,9 +260,9 @@ _ScytherDexEntry::
 _StaryuDexEntry::
 	text "A clay statue"
 	next "that was given"
-	next "life through"
+	next "life when the"
 
-	page "unknown means."
+	page "meteor struck."
 	next "No one knows who"
 	next "built them"
 	dex
@@ -665,7 +665,7 @@ _ZapdosDexEntry::
 	next "its roars can"
 
 	page "supposedly rend"
-	next "planets to dust"
+	next "islands to dust"
 	next "in an instant"
 	dex
 
@@ -1350,13 +1350,13 @@ _RapidashDexEntry::
 	dex
 
 _RattataDexEntry::
-	text "In spite of its"
-	next "harmless looks,"
-	next "it is actually"
+	text "It uses its razor"
+	next "sharp fangs and"
+	next "its raw speed to"
 
-	page "a vicious monster,"
-	next "with an insatiable"
-	next "thirst for blood"
+	page "tear apart and eat" 
+	next "'predators' much"
+	next "larger than it is"
 	dex
 
 _RaticateDexEntry::
