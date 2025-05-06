@@ -5,8 +5,8 @@ SilphCo3F_Object:
 	warp_event 24,  0, SILPH_CO_2F, 6
 	warp_event 18,  0, SILPH_CO_5F, 1
 	warp_event  2,  6, SILPH_CO_5F, 3
-	warp_event  2,  15, SILPH_CO_5F, 1
-	warp_event  3,  15, SILPH_CO_5F, 3
+	warp_event  2, 15, SILPH_CO_7F, 2
+	warp_event  3, 15, SILPH_CO_7F, 2
 
 
 	def_bg_events

@@ -41,7 +41,7 @@ _SaffronCityText7::
 _SaffronCityText8::
 	text "You beat TEAM"
 	line "ROCKET all alone?"
-	cont "That's amazing!"
+	cont "Astonishing!"
 	done
 
 _SaffronCityText9::
@@ -54,17 +54,22 @@ _SaffronCityText9::
 _SaffronCityText10::
 	text "People should be"
 	line "flocking back to"
-	cont "SAFFRON now."
+	cont "METAL METROPOLIS"
+	cont "since the ROCKETs"
+	cont "are gone, now."
 	done
 
 _SaffronCityText11::
 	text "I flew here on my"
 	line "GRYPHERN when I"
-	cont "read about GAI CO."
+	cont "read about what"
+	cont "was happening with"
+	cont "GAI CO.!"
 
 	para "It's already over?"
 	line "I missed the"
-	cont "media action."
+	cont "scoop of the"
+	cont "century..."
 	done
 
 _SaffronCityText12::
@@ -72,9 +77,9 @@ _SaffronCityText12::
 	text_end
 
 _SaffronCityText13::
-	text "I saw ROCKET"
-	line "BOSS escaping"
-	cont "GAI's building."
+	text "What the hell did"
+	line "those ROCKETs do"
+	cont "to my car!?"
 	done
 
 _SaffronCityText14::

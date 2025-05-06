@@ -6,7 +6,7 @@ SilphCo1F_Script:
 	ret nz
 	ld a, HS_SILPH_CO_1F_RECEPTIONIST
 	ld [wMissableObjectIndex], a
-	predef_jump ShowObject
+	predef_jump HideObject
 
 SilphCo1F_TextPointers:
 	dw SilphCo1Text1

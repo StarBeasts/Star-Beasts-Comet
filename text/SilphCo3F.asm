@@ -19,7 +19,8 @@ _SilphCo3Text_59ffe::
 	cont "know who really"
 	cont "saved us."
 
-	para "Thank you, <PLAYER>."
+	para "Thank you,"
+	line "<PLAYER>."
 	done
 
 _SilphCo3BattleText1::

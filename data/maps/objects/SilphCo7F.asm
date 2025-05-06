@@ -3,8 +3,10 @@ SilphCo7F_Object:
 
 	def_warp_events
 	warp_event 22,  0, SILPH_CO_5F, 2
-	warp_event 14,  0, SILPH_CO_11F, 1
-	warp_event  5,  2, SILPH_CO_7F, 2
+	warp_event 14,  0, SILPH_CO_3F, 5
+	warp_event  5,  2, SILPH_CO_7F, 4
+	warp_event  18, 0, SILPH_CO_7F, 3
+
 
 	def_bg_events
 

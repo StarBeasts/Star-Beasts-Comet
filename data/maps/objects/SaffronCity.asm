@@ -36,7 +36,7 @@ SaffronCity_Object:
 	object_event 25, 16, SPRITE_ROCKET, WALK, LEFT_RIGHT, 5 ; person
 	object_event 23, 12, SPRITE_ROCKET, WALK, LEFT_RIGHT, 6 ; person
 	object_event 24, 22, SPRITE_ROCKET, WALK, LEFT_RIGHT, 7 ; person
-	object_event 26,  9, SPRITE_SCIENTIST, STAY, DOWN, 8 ; person
+	object_event 20,  9, SPRITE_SCIENTIST, STAY, DOWN, 8 ; person
 	object_event 12, 22, SPRITE_SILPH_WORKER, STAY, NONE, 9 ; person
 	object_event 25, 25, SPRITE_ERIKA, WALK, LEFT_RIGHT, 10 ; person
 	object_event 33, 12, SPRITE_GENTLEMAN, STAY, DOWN, 11 ; person
