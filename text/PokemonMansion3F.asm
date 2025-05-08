@@ -9,13 +9,13 @@ _Mansion3EndBattleText1::
 
 _Mansion3AfterBattleText1::
 	text "I can't stop"
-	line "hearing screams..."
+	line "hearing screams."
 
 	para "Screams in my"
 	line "head..."
 
-	para "They're not"
-	line "mine..."
+	para "Screams that"
+	line "aren't mine..."
 	done
 
 _Mansion3BattleText2::

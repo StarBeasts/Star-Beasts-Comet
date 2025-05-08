@@ -7,7 +7,12 @@ _Mansion1EndBattleText2::
 	prompt
 
 _Mansion1AfterBattleText2::
-	text "Make it... Stop..."
+	text "Make it..."
+	line "Stop..."
+	done
+
+_Mansion1Text4::
+	text "placeholder..."
 	done
 
 _MansionSwitchText::

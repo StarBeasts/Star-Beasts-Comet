@@ -17,5 +17,6 @@ PokemonMansion1F_Object:
 	object_event 17, 17, SPRITE_REMNANT, STAY, LEFT, 1, OPP_REMNANT, 1
 	object_event 14,  3, SPRITE_POKE_BALL, STAY, NONE, 2, ESCAPE_ROPE
 	object_event 18, 21, SPRITE_POKE_BALL, STAY, NONE, 3, CARBOS
+	object_event 10, 9, SPRITE_SCIENTIST_DEAD, STAY, NONE, 4,
 
 	def_warps_to POKEMON_MANSION_1F

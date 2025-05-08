@@ -10,13 +10,14 @@ _Mansion2BattleText1::
 	done
 
 _Mansion2EndBattleText1::
-	text "You're not..."
-	line "VELID..."
+	text "You're..."
+	line "Not VELID..."
 	prompt
 
 _Mansion2AfterBattleText1::
-	text "Air hitting my"
-	line "exposed muscles..."
+	text "The air hitting"
+	line "my exposed"
+	cont "muscles..."
 	
 	para "It hurts..."
 	done
