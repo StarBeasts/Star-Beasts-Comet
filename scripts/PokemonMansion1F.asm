@@ -21,7 +21,7 @@ Mansion1Subscript1:
 	call Mansion1Script_44304
 	lb bc, 8, 10
 	call Mansion1Script_44304
-	lb bc, 13, 13
+	lb bc, 33, 33
 	jp Mansion1Script_44304
 .asm_442ec
 	lb bc, 6, 12
@@ -30,7 +30,7 @@ Mansion1Subscript1:
 	call Mansion1Script_4430b
 	lb bc, 8, 10
 	call Mansion1Script_4430b
-	lb bc, 13, 13
+	lb bc, 33, 33
 	jp Mansion1Script_4430b
 
 Mansion1Script_44304:
@@ -51,7 +51,7 @@ Mansion1Script_Switches::
 	ret nz
 	xor a
 	ldh [hJoyHeld], a
-	ld a, $5
+	ld a, $6
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
 
@@ -66,6 +66,7 @@ PokemonMansion1F_TextPointers:
 	dw PickUpItemText
 	dw Mansion1Text4
 	dw Mansion1Text5
+	dw Mansion1Text6
 
 Mansion1TrainerHeaders:
 	def_trainers
@@ -96,6 +97,10 @@ Mansion1Text4:
 	text_end
 
 Mansion1Text5:
+	text_far _Mansion1Text5
+	text_end
+
+Mansion1Text6:
 	text_asm
 	ld hl, MansionSwitchText
 	call PrintText

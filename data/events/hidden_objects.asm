@@ -520,8 +520,8 @@ SeafoamIslands5HiddenObjects:
 	db -1 ; end
 
 Mansion1HiddenObjects:
-	hidden_object  8, 16, MOON_STONE, HiddenItems
-	hidden_object  2,  5, SPRITE_FACING_UP, Mansion1Script_Switches
+	hidden_object  2,  4, MAX_REPEL, HiddenItems
+	hidden_object  22, 9, SPRITE_FACING_UP, Mansion1Script_Switches
 	db -1 ; end
 
 Mansion2HiddenObjects:
