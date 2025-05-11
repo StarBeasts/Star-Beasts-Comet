@@ -525,7 +525,7 @@ Mansion1HiddenObjects:
 	db -1 ; end
 
 Mansion2HiddenObjects:
-	hidden_object  2, 11, SPRITE_FACING_UP, Mansion2Script_Switches
+	hidden_object  24, 11, SPRITE_FACING_UP, Mansion2Script_Switches
 	db -1 ; end
 
 Mansion3HiddenObjects:
