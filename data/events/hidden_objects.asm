@@ -529,13 +529,13 @@ Mansion2HiddenObjects:
 	db -1 ; end
 
 Mansion3HiddenObjects:
-	hidden_object  1,  9, MAX_REVIVE, HiddenItems
-	hidden_object 10,  5, SPRITE_FACING_UP, Mansion3Script_Switches
+	hidden_object  18, 1, MAX_REVIVE, HiddenItems
+	hidden_object 24,  5, SPRITE_FACING_UP, Mansion3Script_Switches
 	db -1 ; end
 
 Mansion4HiddenObjects:
-	hidden_object  1,  9, RARE_CANDY, HiddenItems
-	hidden_object 20,  3, SPRITE_FACING_UP, Mansion4Script_Switches
+	hidden_object  3,  18, RARE_CANDY, HiddenItems
+	hidden_object 14,  3, SPRITE_FACING_UP, Mansion4Script_Switches
 	hidden_object 18, 25, SPRITE_FACING_UP, Mansion4Script_Switches
 	db -1 ; end
 

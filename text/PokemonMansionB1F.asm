@@ -22,7 +22,8 @@ _Mansion4AfterBattleText1::
 	cont "never meant"
 	cont "to be..."
 
-	para "Like this..."
+	para "Together..."
+	line "Like this..."
 	done
 
 _Mansion4BattleText2::
