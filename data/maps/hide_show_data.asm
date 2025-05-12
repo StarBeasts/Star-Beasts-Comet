@@ -14,7 +14,7 @@ MapHSPointers:
 	dw NoHS ; Fuchsia
 	dw NoHS ; Ranger Station
 	dw NoHS ; Cinnabar
-	dw NoHS ; Indigo Plateau
+	dw IndigoPlateauHS ; Indigo Plateau
 	dw NoHS
 	dw Route2HS
 	dw NoHS
@@ -201,7 +201,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw DiglettsCaveHS
-	dw VictoryRoad3FHS
+	dw NoHS
 	dw RocketHideoutB1FHS
 	dw RocketHideoutB2FHS
 	dw RocketHideoutB3FHS
@@ -435,10 +435,6 @@ SSAnneB1FRoomsHS:
 	db SS_ANNE_B1F_ROOMS, $0A, SHOW
 	db SS_ANNE_B1F_ROOMS, $0B, SHOW
 	db SS_ANNE_B1F_ROOMS, $0C, SHOW
-VictoryRoad3FHS:
-	db VICTORY_ROAD_3F, $05, SHOW
-	db VICTORY_ROAD_3F, $06, SHOW
-	db VICTORY_ROAD_3F, $0A, SHOW
 RocketHideoutB1FHS:
 	db ROCKET_HIDEOUT_B1F, $06, SHOW
 	db ROCKET_HIDEOUT_B1F, $07, SHOW
@@ -604,5 +600,9 @@ CeladonMartElevatorHS:
 CeladonMansion2FHS:
 	db CELADON_MANSION_2F, $01, HIDE
 	db CELADON_MANSION_2F, $02, SHOW
+IndigoPlateauHS:
+	db INDIGO_PLATEAU, $05, SHOW
+	db INDIGO_PLATEAU, $06, SHOW
+	db INDIGO_PLATEAU, $0A, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
