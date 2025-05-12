@@ -127,7 +127,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const MOLE_HOLE,                      8,  7 ; $69
 	map_const CELAGONE_CITY,                  21, 18; $6A
 	map_const GLITCH_ROOM,                    5,  5 ; $6B
-	map_const VICTORY_ROAD_1F,               6,  75 ; $6C
+	map_const VICTORY_ROAD_1F,               30,  15 ; $6C
 	map_const OWAI_HOTEL,                    4,  10 ; $6D
 	map_const VULT_MAZE,                     7,  15 ; $6E
 	map_const VILLA_1F,                  		11,  5 ; $6F
