@@ -9,7 +9,7 @@ VictoryRoad2F_Object:
 	warp_event 59, 20, VICTORY_ROAD_2F, 4
 	warp_event 59, 21, VICTORY_ROAD_2F, 4
 	warp_event 49, 21, VICTORY_ROAD_2F, 17 ; fifth house, 7
-	warp_event  7,  5, VICTORY_ROAD_2F, 1 ; sixth house, 8
+	warp_event  7,  5, VICTORY_ROAD_2F, 7 ; sixth house, 8
 	warp_event 59, 32, VICTORY_ROAD_2F, 8
 	warp_event 59, 33, VICTORY_ROAD_2F, 8
 	warp_event 53, 43, VICTORY_ROAD_2F, 18 ; third house, 11
