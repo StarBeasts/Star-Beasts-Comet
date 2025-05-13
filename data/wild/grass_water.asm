@@ -9,9 +9,9 @@ WildDataPointers:
 	dw NothingWildMons         ; CELADON_CITY
 	dw NothingWildMons         ; FUCHSIA_CITY
 	dw NothingWildMons         ; CINNABAR_ISLAND
-	dw IndigoPlateauWildMons   ; INDIGO_PLATEAU
+	dw NothingWildMons         ; RANGER_STATION
 	dw NothingWildMons         ; SAFFRON_CITY
-	dw NothingWildMons         ; unused
+	dw IndigoPlateauWildMons   ; INDIGO_PLATEAU
 	dw Route1WildMons          ; ROUTE_1
 	dw Route2WildMons          ; ROUTE_2
 	dw Route3WildMons          ; ROUTE_3

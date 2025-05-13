@@ -6,7 +6,8 @@ VictoryRoad1F_Object:
 	warp_event 21, 29, LAST_MAP, 3
 	warp_event 22, 29, LAST_MAP, 3
 	warp_event 23, 29, LAST_MAP, 3
-	warp_event 27, 01, VICTORY_ROAD_2F, 1
+	warp_event 28,  0, VICTORY_ROAD_2F, 1
+	warp_event 29,  0, VICTORY_ROAD_2F, 2
 
 	def_bg_events
 
