@@ -546,8 +546,8 @@ Route23HiddenObjects:
 	db -1 ; end
 
 VictoryRoad2HiddenObjects:
-	hidden_object  5,  2, ULTRA_BALL, HiddenItems
-	hidden_object 26,  7, FULL_RESTORE, HiddenItems
+	hidden_object  7,  13, MAX_REVIVE, HiddenItems
+	hidden_object 45,  12, FULL_RESTORE, HiddenItems
 	db -1 ; end
 
 Villa1FHiddenObjects:

@@ -36,8 +36,8 @@ HiddenItemCoords:
 	hidden_item ROUTE_23,                       9,  44
 	hidden_item ROUTE_23,                      19,  70
 	hidden_item ROUTE_23,                       8,  90
-	hidden_item VICTORY_ROAD_2F,                5,   2
-	hidden_item VICTORY_ROAD_2F,               26,   7
+	hidden_item VICTORY_ROAD_2F,                7,  13
+	hidden_item VICTORY_ROAD_2F,               45,  12
 	hidden_item VILLA_1F,      	           9,    2
 	hidden_item VIRIDIAN_CITY,                 15,   4
 	hidden_item ROUTE_11,                      48,   5
