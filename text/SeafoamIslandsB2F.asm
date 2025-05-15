@@ -1,5 +1,12 @@
 _SeafoamIslands2Text1::
-	text "!"
+	text "Beat it, kid."
+	
+	para "BOSS says nobody"
+	line "gets in or out"
+	cont "'til he's here,"
+	cont "so piss off and"
+	cont "stop thwarting"
+	cont "our plans!"
 	done
 
 _SeafoamIslands2Text2::
