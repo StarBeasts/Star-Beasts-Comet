@@ -3,25 +3,27 @@ _ArticunoBattleText::
 	line "disturbed by"
 	cont "your presence."
 
-	para "As the dragon"
-	line "opens its wings,"
-	cont "you see the"
-	cont "exposed bones and"
-	cont "rotting flesh of"
-	cont "its disgusting,"
-	cont "giant body, and"
-	cont "you gag from the"
-	cont "horrible smell."
+	para "Before you stands"
+	line "a creature out"
+	cont "of legends, the"
+	cont "dragon that"
+	cont "predates all"
+	cont "other dragons."
 
-	para "It closes its"
-	line "wings and glares"
-	cont "at you ominously,"
-	cont "a low rattle"
-	cont "escaping from"
-	cont "its withered"
-	cont "old lungs."
+	para "You can feel it."
 
-	para "BEWARE, MORTAL.@"
+	para "It is your"
+	line "destiny to tame"
+	cont "this BEAST."
+
+	para "The legendary"
+	line "dragon, ALVARIS."
+
+	para "She eyes you"
+	line "warily, awaiting"
+	cont "your next move."
+	
+	para "Get ready!@"
 	text_end
 
 

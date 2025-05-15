@@ -235,7 +235,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw RockTunnelB1FHS
 	dw SilphCo9FHS
 	dw SilphCo10FHS
 	dw SilphCo11FHS
@@ -400,8 +400,7 @@ VictoryRoad2FHS:
 	db VICTORY_ROAD_2F, $07, SHOW
 	db VICTORY_ROAD_2F, $08, SHOW
 	db VICTORY_ROAD_2F, $09, SHOW
-	db VICTORY_ROAD_2F, $0A, SHOW
-	db VICTORY_ROAD_2F, $0D, SHOW
+	db VICTORY_ROAD_2F, $0C, SHOW
 BillsHouseHS:
 	db BILLS_HOUSE, $01, SHOW
 	db BILLS_HOUSE, $02, HIDE
@@ -604,5 +603,7 @@ IndigoPlateauHS:
 	db INDIGO_PLATEAU, $05, SHOW
 	db INDIGO_PLATEAU, $06, SHOW
 	db INDIGO_PLATEAU, $0A, SHOW
+RockTunnelB1FHS:
+	db ROCK_TUNNEL_B1F, $09, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
