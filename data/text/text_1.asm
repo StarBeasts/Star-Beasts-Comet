@@ -1,16 +1,23 @@
 _CardKeySuccessText1::
-	text "Bingo!@"
+	text "Cha-click!@"
 	text_end
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "The RANGER MEDAL"
+	cont "fits into the"
+	cont "slot in the DOOR!"
+
+	para "The DOOR opened!"
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "There's some kind"
+	line "of round slot"
+	cont "in the door."
+
+	para "If it's for a KEY,"
+	line "you don't have it."
 	done
 
 _TrainerNameText::

@@ -24,8 +24,11 @@ _SilphCo8Text_565c3::
 	done
 
 _SilphCo8BattleText1::
-	text "That's as far as"
-	line "you'll go!"
+	text "Didn't you hear"
+	line "the robot at the"
+	cont "entrance?"
+
+	para "No tours!"
 	done
 
 _SilphCo8EndBattleText1::
@@ -34,25 +37,31 @@ _SilphCo8EndBattleText1::
 	prompt
 
 _SilphCo8AfterBattleText1::
-	text "You'll never beat"
-	line "the BOSS's bouncer"
-	cont "on 11F!"
+	text "I'm just a low"
+	line "level GRUNT."
+	
+	para "The big boys"
+	line "are playing on"
+	cont "the NEXT FLOOR!"
 	done
 
 _SilphCo8BattleText2::
-	text "You're causing us"
-	line "problems!"
+	text "Not so stealthy,"
+	line "huh?"
 	done
 
 _SilphCo8EndBattleText2::
-	text "Huh?"
-	line "I lost?"
+	text "..."
+	line "Maybe you didn't"
+	cont "need stealth..."
 	prompt
 
 _SilphCo8AfterBattleText2::
-	text "So, what do you"
-	line "think of GAI CO."
-	cont "BUILDING's maze?"
+	text "If we can learn"
+	line "how GAI CO. makes"
+	cont "# BALLS, no"
+	cont "one will stand a"
+	cont "chance against us!"
 	done
 
 _SilphCo8BattleText3::
@@ -80,4 +89,24 @@ _SilphCo8EndBattleText3::
 _SilphCo8AfterBattleText3::
 	text "Heh. Enjoying your"
 	line "'tour', kid?"
+	done
+
+_SilphCo8Text6::
+	text "Never a dull"
+	line "moment around"
+	cont "here, I swear."
+
+	para "I told them we"
+	line "needed to invest"
+	cont "in security, but"
+	cont "does anybody ever"
+	cont "listen to the"
+	cont "FLOOR MANAGER?"
+
+	para "Nooooo!!"
+	line "Of course not!"
+	done
+
+_SilphCo8Text7::
+	text "It's a # BALL!"
 	done

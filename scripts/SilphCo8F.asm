@@ -80,6 +80,8 @@ SilphCo8F_TextPointers:
 	dw SilphCo8Text2
 	dw SilphCo8Text3
 	dw SilphCo8Text4
+	dw SilphCo8Text6
+	dw SilphCo8Text7
 
 SilphCo8TrainerHeaders:
 	def_trainers 2
@@ -161,4 +163,12 @@ SilphCo8EndBattleText3:
 
 SilphCo8AfterBattleText3:
 	text_far _SilphCo8AfterBattleText3
+	text_end
+
+SilphCo8Text6:
+	text_far _SilphCo8Text6
+	text_end
+
+SilphCo8Text7:
+	text_far _SilphCo8Text7
 	text_end
