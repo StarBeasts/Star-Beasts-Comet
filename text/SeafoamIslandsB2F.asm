@@ -10,7 +10,8 @@ _SeafoamIslands2Text1::
 	done
 
 _SeafoamIslands2Text2::
-	text "!"
+	text "There's always"
+	line "time for coffee!"
 	done
 
 _SeafoamIslands2Text3::

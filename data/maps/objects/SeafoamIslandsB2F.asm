@@ -12,7 +12,7 @@ SeafoamIslandsB2F_Object:
 
 	def_object_events
 	object_event  23, 12, SPRITE_ROCKET, STAY, DOWN, 1 ; person
-	object_event  0,  0, SPRITE_VARIK, STAY, NONE, 2 ; person
+	object_event  0,  0, SPRITE_COFFEE, STAY, NONE, 2 ; person
 	object_event 18,  9, SPRITE_RUINED_SIGN, STAY, NONE, 3 ; person
 
 	def_warps_to SEAFOAM_ISLANDS_B2F
