@@ -32,7 +32,7 @@ _SSAnne10EndBattleText2::
 _SSAnne10AfterBattleText2::
 	text "Did you see the"
 	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	cont "SAPPHIRE SANDS?"
 	done
 
 _SSAnne10BattleText3::

@@ -5,7 +5,7 @@ _ViridianMartText1::
 
 _ViridianMartText4::
 	text "Hey! You came from"
-	line "PALLET TOWN?"
+	line "ZIRCONIA?"
 	done
 
 ViridianMartParcelQuestText::

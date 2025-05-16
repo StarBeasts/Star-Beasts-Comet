@@ -165,7 +165,7 @@ _Route8Text10::
 	done
 
 _Route8Text11::
-	text "ROUTE (N)"
+	text "ROUTE 5"
 
 	para "W: GARNET GARDENS"
 	

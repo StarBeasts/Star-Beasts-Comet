@@ -43,7 +43,7 @@ _CeladonMart2Text9::
 
 	para "Maybe I should"
 	line "look at the MART"
-	cont "in LAVENDER..."
+	cont "in BLACKROCK..."
 	done
 
 _CeladonMart2Text10::

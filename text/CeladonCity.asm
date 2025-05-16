@@ -173,7 +173,7 @@ _CeladonCityText13::
 
 _CeladonCityText14::
 	text "GARNET GARDENS"
-	line "The Town of love"
+	line "The TOWN of love"
 	cont "and prosperity"
 	done
 

@@ -4,9 +4,10 @@ _Route11GateText1::
 	cont "isn't it hard to"
 	cont "think up names?"
 
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
-	cont "rates # BEAST"
+	para "In BLACKROCK"
+	line "BLUFF, there's a"
+	line "man who rates"
+	cont "# BEAST"
 	cont "nicknames."
 
 	para "He'll help you"

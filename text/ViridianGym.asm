@@ -225,7 +225,7 @@ _ViridianGymAfterBattleText7::
 	done
 
 _ViridianGymBattleText8::
-	text "VIRIDIAN GYM was"
+	text "AMETHYST GYM was"
 	line "closed for a long"
 	cont "time, but now it's"
 	cont "going to be TEAM"
@@ -257,7 +257,7 @@ _ViridianGymGuidePreBattleText::
 	para "But..."
 
 	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
+	line "AMETHYST LEADER's"
 	cont "identity!"
 
 	para "Either way!"
