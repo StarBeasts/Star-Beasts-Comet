@@ -127,62 +127,44 @@ SilphCo9F_TextPointers:
 	dw SilphCo9Text1
 	dw SilphCo9Text2
 	dw SilphCo9Text3
-	dw SilphCo9Text4
+	dw CuppacafText
 
 SilphCo9TrainerHeaders:
 	def_trainers 2
-SilphCo9TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_0, 4, SilphCo9BattleText1, SilphCo9EndBattleText1, SilphCo9AfterBattleText1
+CuppacafTrainerHeader:
+	trainer EVENT_BEAT_COFFEE, 0, CuppacafBattleText, CuppacafBattleText, CuppacafBattleText
 SilphCo9TrainerHeader1:
-	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_1, 2, SilphCo9BattleText2, SilphCo9EndBattleText2, SilphCo9AfterBattleText2
+	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_1, 2, SilphCo9BattleText1, SilphCo9EndBattleText1, SilphCo9AfterBattleText1
 SilphCo9TrainerHeader2:
-	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_2, 4, SilphCo9BattleText3, SilphCo9EndBattleText3, SilphCo9AfterBattleText3
+	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_2, 0, SilphCo9BattleText2, SilphCo9EndBattleText2, SilphCo9AfterBattleText2
+
 	db -1 ; end
 
 SilphCo9Text1:
+	text_far _SilphCo9Text1
+	text_end
+
+CuppacafText:
 	text_asm
-	CheckEvent EVENT_BEAT_SILPH_CO_GIOVANNI
-	jr nz, .asm_5d8dc
-	ld hl, SilphCo9Text_5d8e5
-	call PrintText
-	predef HealParty
-	call GBFadeOutToWhite
-	call Delay3
-	call GBFadeInFromWhite
-	ld hl, SilphCo9Text_5d8ea
-	call PrintText
-	jr .asm_5d8e2
-.asm_5d8dc
-	ld hl, SilphCo9Text_5d8ef
-	call PrintText
-.asm_5d8e2
-	jp TextScriptEnd
-
-SilphCo9Text_5d8e5:
-	text_far _SilphCo9Text_5d8e5
-	text_end
-
-SilphCo9Text_5d8ea:
-	text_far _SilphCo9Text_5d8ea
-	text_end
-
-SilphCo9Text_5d8ef:
-	text_far _SilphCo9Text_5d8ef
-	text_end
-
-SilphCo9Text2:
-	text_asm
-	ld hl, SilphCo9TrainerHeader0
+	ld hl, CuppacafTrainerHeader
 	call TalkToTrainer
 	jp TextScriptEnd
 
-SilphCo9Text3:
+CuppacafBattleText:
+	text_far _CuppacafBattleText
+	text_asm
+	ld a, TENTACRUEL
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+
+SilphCo9Text2:
 	text_asm
 	ld hl, SilphCo9TrainerHeader1
 	call TalkToTrainer
 	jp TextScriptEnd
 
-SilphCo9Text4:
+SilphCo9Text3:
 	text_asm
 	ld hl, SilphCo9TrainerHeader2
 	call TalkToTrainer
@@ -210,16 +192,4 @@ SilphCo9EndBattleText2:
 
 SilphCo9AfterBattleText2:
 	text_far _SilphCo9AfterBattleText2
-	text_end
-
-SilphCo9BattleText3:
-	text_far _SilphCo9BattleText3
-	text_end
-
-SilphCo9EndBattleText3:
-	text_far _SilphCo9EndBattleText3
-	text_end
-
-SilphCo9AfterBattleText3:
-	text_far _SilphCo9AfterBattleText3
 	text_end

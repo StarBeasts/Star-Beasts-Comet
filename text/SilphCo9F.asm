@@ -1,17 +1,35 @@
-_SilphCo9Text_5d8e5::
-	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
-	prompt
+_SilphCo9Text1::
+	text "Now, where did I"
+	line "put my giant"
+	cont "novelty coffee"
+	cont "mug that I"
+	cont "drink out of for"
+	cont "all-nighters?"
 
-_SilphCo9Text_5d8ea::
-	text "Don't give up!"
+	para "Oh, where could"
+	line "my giant novelty"
+	cont "coffee mug that"
+	cont "I drink out of"
+	cont "for all-nighters"
+	cont "have gone...?"
 	done
 
-_SilphCo9Text_5d8ef::
-	text "Thank you so"
-	line "much!"
-	done
+_CuppacafBattleText::
+	text "Oh, hey!"
+
+	para "Somebody forgot"
+	line "their coffee!"
+
+	para "As you go to pick"
+	line "it up, the coffee"
+	cont "cup starts moving"
+	cont "by itself!"
+
+	para "The coffee is"
+	line "aggressive!"
+
+	para "CUPPACAF: Fssshhh!@"
+	text_end
 
 _SilphCo9BattleText1::
 	text "Your BEASTS seem"
@@ -44,19 +62,4 @@ _SilphCo9AfterBattleText2::
 	line "spots does work!"
 	cont "Think about"
 	cont "element types!"
-	done
-
-_SilphCo9BattleText3::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
-	done
-
-_SilphCo9EndBattleText3::
-	text "Warg!"
-	line "Brothers, I lost!"
-	prompt
-
-_SilphCo9AfterBattleText3::
-	text "My brothers will"
-	line "avenge me!"
 	done
