@@ -21,7 +21,7 @@ SilphCo9Script_5d7d1:
 	push af
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 4, 1
+	lb bc, 40, 40
 	predef ReplaceTileBlock
 	pop af
 .asm_5d7f8
@@ -30,7 +30,7 @@ SilphCo9Script_5d7d1:
 	push af
 	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 2, 9
+	lb bc, 32, 39
 	predef ReplaceTileBlock
 	pop af
 .asm_5d80b
@@ -39,22 +39,22 @@ SilphCo9Script_5d7d1:
 	push af
 	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 5, 9
+	lb bc, 35, 39
 	predef ReplaceTileBlock
 	pop af
 .asm_5d81e
 	CheckEventAfterBranchReuseA EVENT_SILPH_CO_9_UNLOCKED_DOOR4, EVENT_SILPH_CO_9_UNLOCKED_DOOR3
 	ret nz
-	ld a, $5f
+	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 6, 5
+	lb bc, 11, 6
 	predef_jump ReplaceTileBlock
 
 SilphCo9GateCoords:
 	dbmapcoord  1,  4
 	dbmapcoord  9,  2
 	dbmapcoord  9,  5
-	dbmapcoord  5,  6
+	dbmapcoord  6,  11
 	db -1 ; end
 
 SilphCo9Script_5d837:
@@ -128,6 +128,13 @@ SilphCo9F_TextPointers:
 	dw SilphCo9Text2
 	dw SilphCo9Text3
 	dw CuppacafText
+	dw SilphCo9Text5
+	dw SilphCo9Text6
+	dw SilphCo9Text7
+	dw SilphCo9Text8
+	dw SilphCo9Text9
+	dw SilphCo9Text10
+	dw SilphCo9Text11
 
 SilphCo9TrainerHeaders:
 	def_trainers 2
@@ -193,3 +200,32 @@ SilphCo9EndBattleText2:
 SilphCo9AfterBattleText2:
 	text_far _SilphCo9AfterBattleText2
 	text_end
+
+SilphCo9Text5:
+	text_far _SilphCo9Text5
+	text_end
+
+SilphCo9Text6:
+	text_far _SilphCo9Text6
+	text_end
+
+SilphCo9Text7:
+	text_far _SilphCo9Text7
+	text_end
+
+SilphCo9Text8:
+	text_far _SilphCo9Text8
+	text_end
+
+SilphCo9Text9:
+	text_far _SilphCo9Text9
+	text_end
+
+SilphCo9Text10:
+	text_far _SilphCo9Text10
+	text_end
+
+SilphCo9Text11:
+	text_far _SilphCo9Text11
+	text_end
+
