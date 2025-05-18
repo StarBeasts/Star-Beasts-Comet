@@ -253,7 +253,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const GOLDEN_GATE,                  12,  4 ; $E7
 	map_const ROCK_TUNNEL_B1F,               20, 18 ; $E8
 	map_const SILPH_CO_9F,                   13,  15 ; $E9
-	map_const SILPH_CO_10F,                   8,  9 ; $EA
+	map_const SILPH_CO_10F,                   9,  9 ; $EA
 	map_const SILPH_CO_11F,                   9,  9 ; $EB
 	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC
 	map_const BIKE_GATE,                      4,  4 ; $ED

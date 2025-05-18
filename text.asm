@@ -35,7 +35,6 @@ INCLUDE "text/SilphCo6F.asm"
 INCLUDE "text/SilphCo7F.asm"
 INCLUDE "text/SilphCo8F.asm"
 INCLUDE "text/SilphCo9F.asm"
-INCLUDE "text/SilphCo10F.asm"
 INCLUDE "text/SilphCo11F.asm"
 INCLUDE "text/PokemonMansion2F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
@@ -303,6 +302,7 @@ INCLUDE "text/WardensHouse.asm"
 INCLUDE "text/SeafoamIslandsB2F.asm"
 INCLUDE "text/SeafoamIslandsB3F.asm"
 INCLUDE "text/AmethystArchive.asm"
+INCLUDE "text/SilphCo10F.asm"
 
 SECTION "Pokédex Text", ROMX
 

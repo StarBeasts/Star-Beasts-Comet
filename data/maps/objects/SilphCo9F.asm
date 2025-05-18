@@ -4,9 +4,12 @@ SilphCo9F_Object:
 	def_warp_events
 	warp_event 12, 29, RANGER_STATION, 5
 	warp_event 13, 29, RANGER_STATION, 5
-	warp_event 13,  0, SILPH_CO_ELEVATOR, 1
+	warp_event 12,  0, SILPH_CO_10F, 1
 
 	def_bg_events
+	bg_event 19, 17, 12 ; SilphCo9FText12
+	bg_event 21, 17, 13 ; SilphCo9FText13
+	bg_event 23, 17, 14 ; SilphCo9FText14
 
 	def_object_events
 	object_event 18,  3, SPRITE_CLERK, STAY, DOWN, 1 ; person
