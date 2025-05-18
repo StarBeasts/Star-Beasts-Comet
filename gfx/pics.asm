@@ -305,6 +305,7 @@ ChannelerPic::     INCBIN "gfx/trainers/channeler.pic"
 AgathaPic::        INCBIN "gfx/trainers/agatha.pic"
 LancePic::         INCBIN "gfx/trainers/lance.pic"
 VarikPic::         INCBIN "gfx/trainers/varik.pic"
+FarFromTilePic::   INCBIN "gfx/trainers/farfromtile.pic"
 
 SECTION "Pics 6", ROMX
 

@@ -47,3 +47,5 @@ TrainerNames::
 	db "MADILIN@"
 	db "ARCTURUS@"
 	db "LEGEND VARIK@"
+	db "TILE@"
+

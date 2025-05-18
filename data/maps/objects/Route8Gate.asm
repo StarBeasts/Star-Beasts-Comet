@@ -8,6 +8,6 @@ Route8Gate_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  8, 11, SPRITE_FAR_FROM_TILE, STAY, UP, 1 ; person
+	object_event  8, 11, SPRITE_FAR_FROM_TILE, STAY, UP, 2, OPP_FARFROMTILE, 1
 
 	def_warps_to ROUTE_8_GATE

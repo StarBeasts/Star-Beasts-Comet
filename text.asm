@@ -303,6 +303,7 @@ INCLUDE "text/SeafoamIslandsB2F.asm"
 INCLUDE "text/SeafoamIslandsB3F.asm"
 INCLUDE "text/AmethystArchive.asm"
 INCLUDE "text/SilphCo10F.asm"
+INCLUDE "text/Route8Gate.asm"
 
 SECTION "Pokédex Text", ROMX
 

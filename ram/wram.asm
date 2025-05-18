@@ -2038,7 +2038,7 @@ wRocketHideoutB3FCurScript:: db
 wRocketHideoutB4FCurScript:: db
 	ds 1
 wRoute6GateCurScript:: db ; currently unused
-wRoute8GateCurScript:: db ; currently unused
+wRoute8GateCurScript:: db ; tile superboss
 	ds 1
 wCinnabarIslandCurScript:: db
 wPokemonMansion1FCurScript:: db
