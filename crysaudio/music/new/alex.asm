@@ -16,7 +16,7 @@ Music_Alex_Ch1:
 	note_type 12, 10, 7
 	tempo 108
 .mainloop:
-	volume_envelope 12, 3
+	volume_envelope 13, 3
 	octave 2
 	duty_cycle 0
 	note F#, 2
@@ -100,7 +100,7 @@ Music_Alex_Ch2:
 	note_type 12, 10, 7
 .mainloop:
 	octave 1
-	volume_envelope 11, 4
+	volume_envelope 12, 4
 	duty_cycle 0
 	note F#, 6
 	note F#, 2

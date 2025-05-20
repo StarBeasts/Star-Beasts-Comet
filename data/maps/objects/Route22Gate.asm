@@ -6,6 +6,9 @@ Route22Gate_Object:
 	warp_event  5,  7, LAST_MAP, 1
 	warp_event  4,  0, LAST_MAP, 1
 	warp_event  5,  0, LAST_MAP, 2
+	warp_event  20, 7, ROUTE_23, 4
+	warp_event  21, 7, ROUTE_23, 5
+	warp_event  22, 2, ROCKET_HIDEOUT_ELEVATOR, 2
 
 	def_bg_events
 

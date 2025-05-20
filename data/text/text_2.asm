@@ -1424,8 +1424,8 @@ _ClearSaveDataText::
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Where do you"
+	line "wish to go?"
 	done
 
 _PartyMenuNormalText::

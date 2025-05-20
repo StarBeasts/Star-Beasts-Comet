@@ -89,8 +89,8 @@ ItemNames::
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"
-	li "1F"
-	li "2F"
+	li "EARTH"
+	li "MOON"
 	li "3F"
 	li "4F"
 	li "5F"

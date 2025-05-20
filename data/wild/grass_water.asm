@@ -46,7 +46,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw DiglettsCaveRoute2WildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -329,3 +329,4 @@ INCLUDE "data/wild/maps/AncientCave.asm"
 INCLUDE "data/wild/maps/DevilsCanyon.asm"
 INCLUDE "data/wild/maps/OwaiHotel.asm"
 INCLUDE "data/wild/maps/IndigoPlateau.asm"
+INCLUDE "data/wild/maps/DiglettsCaveRoute2.asm"

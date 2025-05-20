@@ -41,18 +41,34 @@ RocketHideoutElevatorScript_45741:
 	ret
 
 RocketHideoutElavatorFloors:
-	db 3 ; #
-	db FLOOR_B1F
-	db FLOOR_B2F
-	db FLOOR_B4F
+	db 2 ; #
+	db FLOOR_1F
+	db FLOOR_2F
+	; db FLOOR_3F (dummied out for now)
+	; db FLOOR_4F
+	; db FLOOR_5F
+	; db FLOOR_6F
+	; db FLOOR_7F
+	; db FLOOR_8F
+	; db FLOOR_9F
+	; db FLOOR_10F
+	; db FLOOR_11F
 	db -1 ; end
 
 ; These specify where the player goes after getting out of the elevator.
 RocketHideoutElevatorWarpMaps:
 	; warp number, map id
-	db 4, ROCKET_HIDEOUT_B1F
-	db 4, ROCKET_HIDEOUT_B2F
-	db 2, ROCKET_HIDEOUT_B4F
+	db 6, ROUTE_22_GATE
+	db 2, SILPH_CO_2F
+	; db 2, SILPH_CO_3F (dummied out for now)
+	; db 2, SILPH_CO_4F
+	; db 2, SILPH_CO_5F
+	; db 2, SILPH_CO_6F
+	; db 2, SILPH_CO_7F
+	; db 2, SILPH_CO_8F
+	; db 2, SILPH_CO_9F
+	; db 2, SILPH_CO_10F
+	; db 1, SILPH_CO_11F
 RocketHideoutElevatorWarpMapsEnd:
 
 RocketHideoutElevatorScript_4575f:

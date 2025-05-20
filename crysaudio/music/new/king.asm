@@ -16,7 +16,7 @@ Music_King_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 10, 7
-	tempo 212
+	tempo 162
 ;Bar 1
 	rest 16
 ;Bar 2
