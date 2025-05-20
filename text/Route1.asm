@@ -6,7 +6,7 @@ _Route1ViridianMartSampleText::
 	para "It's a convenient"
 	line "shop, so please"
 	cont "visit us in"
-	cont "EMERALD ACRES."
+	cont "AMETHYST AVENUE."
 
 	para "But first, you'll"
 	line "have to go into"
