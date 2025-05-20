@@ -270,14 +270,14 @@ Route22Script4:
 	ld a, [wcf0d]
 	cp $1
 	jr nz, .asm_510a1
-	ld a, PLAYER_DIR_DOWN
-	ld [wPlayerMovingDirection], a
-	ld a, SPRITE_FACING_UP
-	jr .asm_510a8
-.asm_510a1
 	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
 	ld a, SPRITE_FACING_DOWN
+	jr .asm_510a8
+.asm_510a1
+	ld a, PLAYER_DIR_LEFT
+	ld [wPlayerMovingDirection], a
+	ld a, SPRITE_FACING_RIGHT
 .asm_510a8
 	ldh [hSpriteFacingDirection], a
 	call SetSpriteFacingDirectionAndDelay
@@ -316,14 +316,14 @@ Route22Script5:
 	ld a, [wcf0d]
 	cp $1
 	jr nz, .asm_510fb
-	ld a, PLAYER_DIR_DOWN
-	ld [wPlayerMovingDirection], a
-	ld a, SPRITE_FACING_UP
-	jr .asm_51102
-.asm_510fb
 	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
 	ld a, SPRITE_FACING_DOWN
+	jr .asm_51102
+.asm_510fb
+	ld a, PLAYER_DIR_LEFT
+	ld [wPlayerMovingDirection], a
+	ld a, SPRITE_FACING_RIGHT
 .asm_51102
 	ldh [hSpriteFacingDirection], a
 	call SetSpriteFacingDirectionAndDelay
@@ -336,7 +336,7 @@ Route22Script5:
 	ld a, SFX_STOP_ALL_MUSIC
 ;	ld [wNewSoundID], a
 	call PlaySound
-	farcall Music_RivalAlternateStartAndTempo
+	farcall Music_RivalAlternateStart
 	ld a, [wcf0d]
 	cp $1
 	jr nz, .asm_51134

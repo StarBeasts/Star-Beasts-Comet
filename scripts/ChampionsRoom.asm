@@ -112,7 +112,11 @@ GaryScript3:
 	ret
 
 GaryScript4:
-	farcall Music_Cities1AlternateTempo
+     farcall PlaySound
+	ld a, SFX_STOP_ALL_MUSIC
+     ld c, 0
+     ld a, MUSIC_CITIES2
+     call PlayMusic
 	ld a, $2
 	ldh [hSpriteIndexOrTextID], a
 	call GaryScript_760c8

@@ -543,6 +543,7 @@ INCLUDE "crysaudio/music/new/diner.asm"
 INCLUDE "crysaudio/music/new/drunken.asm"
 INCLUDE "crysaudio/music/new/sixteentons.asm"
 INCLUDE "crysaudio/music/new/chains.asm"
+INCLUDE "crysaudio/music/new/alex.asm"
 
 SECTION "New Songs 6", ROMX
 

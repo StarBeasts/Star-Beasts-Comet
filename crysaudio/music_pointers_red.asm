@@ -14,7 +14,7 @@ Music:
 	dba Music_Lavender
 	dba Music_Obla ; loops semi-properly
 	dba Music_MuseumGuy
-	dba Music_MeetRival
+	dba Music_Alex
 	dba Music_SurfingPikachu
 	dba Music_CardPop
 	dba Music_PkmnHealed

@@ -67,8 +67,8 @@ _Route22RivalBeforeBattleText2::
 
 	para "Then let's see"
 	line "who gets to go"
-	cont "through VICTORY"
-	cont "ROAD first,"
+	cont "through PLATINUM"
+	cont "PATH first,"
 	cont "<PLAYER>!"
 
 	para "Let's go!"
