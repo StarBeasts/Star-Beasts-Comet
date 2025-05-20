@@ -157,6 +157,8 @@ SetPal_Overworld:
 	ld a, [wCurMap]
 	cp ROUTE_5
 	jp z, .mewMon
+	cp ROUTE_9
+	jp z, .mewMon
 	cp ROUTE_18
 	jp z, .peridot
 	cp ROUTE_24

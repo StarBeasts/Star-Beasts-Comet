@@ -2,8 +2,8 @@ RockTunnel1F_Object:
 	db $3 ; border block
 
 	def_warp_events
-	warp_event 10, 35, ROUTE_9, 3
-	warp_event 11, 35, ROUTE_9, 3
+	warp_event  9, 31, LAST_MAP, 3
+	warp_event 16, 33, ROUTE_9, 3
 	warp_event 78, 35, ROUTE_9, 4
 	warp_event 79, 35, ROUTE_9, 4
 	warp_event 37,  3, ROCK_TUNNEL_B1F, 1

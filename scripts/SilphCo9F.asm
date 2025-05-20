@@ -138,12 +138,12 @@ SilphCo9F_TextPointers:
 
 SilphCo9TrainerHeaders:
 	def_trainers 2
-CuppacafTrainerHeader:
-	trainer EVENT_BEAT_COFFEE, 0, CuppacafBattleText, CuppacafBattleText, CuppacafBattleText
 SilphCo9TrainerHeader1:
 	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_1, 2, SilphCo9BattleText1, SilphCo9EndBattleText1, SilphCo9AfterBattleText1
 SilphCo9TrainerHeader2:
-	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_2, 0, SilphCo9BattleText2, SilphCo9EndBattleText2, SilphCo9AfterBattleText2
+	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_2, 2, SilphCo9BattleText2, SilphCo9EndBattleText2, SilphCo9AfterBattleText2
+CuppacafTrainerHeader:
+	trainer EVENT_BEAT_COFFEE, 0, CuppacafBattleText, CuppacafBattleText, CuppacafBattleText
 
 	db -1 ; end
 
