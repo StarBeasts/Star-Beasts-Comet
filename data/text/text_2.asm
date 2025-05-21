@@ -174,7 +174,7 @@ _PewterCityPokecenterGuyText::
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
+	text "STEVE has lots of"
 	line "# BEASTS!"
 
 	para "He collects rare"

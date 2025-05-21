@@ -10,7 +10,7 @@ BloodstoneBay_Object:
 
 	def_object_events
 	object_event 10, 14, SPRITE_FISHING_GURU, STAY, LEFT, 1,
-	object_event 13, 16, SPRITE_FISHING_GURU, STAY, RIGHT, 2,
+	object_event 13, 16, SPRITE_FISHER, STAY, RIGHT, 2,
 	object_event 20, 14, SPRITE_ERIKA, STAY, LEFT, 3,
 	object_event 22, 12, SPRITE_COOLTRAINER_M, STAY, UP, 4,
 	object_event 30, 18, SPRITE_COOLTRAINER_F, STAY, LEFT, 5,
