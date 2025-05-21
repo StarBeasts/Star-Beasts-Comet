@@ -424,7 +424,7 @@ _BillsHouseInitiatedText::
 	text_end
 
 _BillsHousePokemonListText1::
-	text "BILL's favorite"
+	text "STEVE's favorite"
 	line "# BEAST list!"
 	prompt
 
@@ -1516,7 +1516,7 @@ _TurnedOnPC1Text::
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
+	text "Accessed STEVE's"
 	line "PC."
 
 	para "Accessed BEAST"

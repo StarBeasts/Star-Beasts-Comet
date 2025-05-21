@@ -14,7 +14,7 @@ _BillsHouseText_1e865::
 	line "BEAST..."
 	cont "...No I'm not!"
 
-	para "Call me BILL!"
+	para "Call me STEVE!"
 	line "I'm a true blue"
 	cont "COLLECTOR! Hey!"
 	cont "What's with that"
@@ -50,7 +50,7 @@ _BillsHouseText_1e86f::
 	prompt
 
 _BillThankYouText::
-	text "BILL: Yeehaw!"
+	text "STEVE: Yeehaw!"
 	line "Thanks, kid! I"
 	cont "owe you one!"
 
@@ -105,7 +105,7 @@ _BillsHouseText_1e8cb::
 	done
 
 _BillsHouseText_1e8da::
-	text "BILL: Hey, kid!"
+	text "STEVE: Hey, kid!"
 
 	para "Did you ever find"
 	line "out what was up"
