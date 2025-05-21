@@ -15,5 +15,8 @@ Route11Gate1F_Object:
 
 	def_object_events
 	object_event  3,  1, SPRITE_GUARD, STAY, NONE, 1 ; person
+	object_event  4,  8, SPRITE_FISHER, STAY, UP, 2 ; person
+	object_event  4,  17, SPRITE_GUARD, STAY, DOWN, 3 ; person
+	object_event  3,  24, SPRITE_CLERK, STAY, UP, 4 ; person
 
 	def_warps_to ROUTE_11_GATE_1F
