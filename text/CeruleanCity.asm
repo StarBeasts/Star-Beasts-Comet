@@ -35,7 +35,7 @@ _CeruleanCityText_19677::
 	para "There's this guy"
 	line "up the road that"
 	cont "lives in this"
-	cont "buidling full of"
+	cont "building full of"
 	cont "fancy equipment,"
 	cont "and, get this,"
 	cont "he turned himself"
