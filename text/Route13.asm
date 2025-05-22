@@ -186,7 +186,7 @@ _Route13Text12::
 	done
 
 _Route13Text13::
-	text "ROUTE 13"
-	line "North to SILENCE"
-	cont "BRIDGE"
+	text "ROUTE 10"
+	line "West to WESTERN"
+	cont "CANAL"
 	done

@@ -25,8 +25,8 @@ _Route11GateText2::
 	cont "you're looking"
 	cont "for them."
 
-	para "Plenty places to"
-	line "catch rare #"
+	para "Plenty of places"
+	line "to catch rare"
 	cont "BEASTS, though!"
 	done
 

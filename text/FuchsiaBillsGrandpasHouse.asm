@@ -25,3 +25,35 @@ _FuchsiaHouse1Text3::
 
 	para "Did he show you?"
 	done
+
+_FuchsiaHouse1Text4::
+	text "STEVE files his"
+	line "own BEAST data"
+	cont "on his PC!"
+
+	para "Did he show you?"
+	done
+
+_FuchsiaHouse1Text5::
+	text "STEVE files his"
+	line "own BEAST data"
+	cont "on his PC!"
+
+	para "Did he show you?"
+	done
+
+_FuchsiaHouse1Text6::
+	text "STEVE files his"
+	line "own BEAST data"
+	cont "on his PC!"
+
+	para "Did he show you?"
+	done
+
+_FuchsiaHouse1Text7::
+	text "STEVE files his"
+	line "own BEAST data"
+	cont "on his PC!"
+
+	para "Did he show you?"
+	done
