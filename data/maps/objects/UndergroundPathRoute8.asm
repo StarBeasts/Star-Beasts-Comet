@@ -10,8 +10,9 @@ UndergroundPathRoute8_Object:
 	warp_event 17, 11, FUCHSIA_BILLS_GRANDPAS_HOUSE, 1
 
 	def_bg_events
+	bg_event 19, 13, 2 ; Text2
 
 	def_object_events
-	object_event 41,  8, SPRITE_GIRL, STAY, NONE, 1 ; person
+	object_event 49, 31, SPRITE_SWIMMER, STAY, ANY_DIR, 1 ; person
 
 	def_warps_to UNDERGROUND_PATH_ROUTE_8

@@ -5,7 +5,12 @@ UndergroundPathRoute8_Script:
 
 UndergroundPathRoute8_TextPointers:
 	dw UndergroundPathEntranceRoute8Text1
+	dw UndergroundPathEntranceRoute8Text2
 
 UndergroundPathEntranceRoute8Text1:
 	text_far _UndergroundPathEntRoute8Text1
+	text_end
+
+UndergroundPathEntranceRoute8Text2:
+	text_far _UndergroundPathEntRoute8Text2
 	text_end

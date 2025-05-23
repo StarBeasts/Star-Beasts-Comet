@@ -3,7 +3,7 @@ FuchsiaBillsGrandpasHouse_Script:
 	ret
 
 FuchsiaBillsGrandpasHouse_TextPointers:
-	dw FuchsiaHouse1Text1
+	dw ShackCashierText
 	dw FuchsiaHouse1Text2
 	dw FuchsiaHouse1Text3
 	dw FuchsiaHouse1Text4

@@ -1,59 +1,73 @@
 _FuchsiaHouse1Text1::
-	text "SAFARI ZONE's"
-	line "WARDEN is old,"
-	cont "but still active!"
-
-	para "All his teeth are"
-	line "false, though."
+	text "!"
 	done
 
 _FuchsiaHouse1Text2::
-	text "Hmm? You've met"
-	line "STEVE?"
-
-	para "He's my grandson!"
-
-	para "He always liked"
-	line "collecting things"
-	cont "even as a child!"
+	text "Healer."
 	done
 
 _FuchsiaHouse1Text3::
-	text "STEVE files his"
-	line "own BEAST data"
-	cont "on his PC!"
-
-	para "Did he show you?"
+	text "My Mommy and"
+	line "Daddy run this"
+	cont "special rest"
+	cont "spot for trainers"
+	cont "just like you! Hi!"
 	done
 
 _FuchsiaHouse1Text4::
-	text "STEVE files his"
-	line "own BEAST data"
-	cont "on his PC!"
+	text "Bit of a ways"
+	line "between here and"
+	cont "KUNZITE KEY."
 
-	para "Did he show you?"
+	para "You may want to"
+	line "stop by the"
+	cont "SHACK OF LOVE"
+	cont "and stock up, or"
+	cont "heal your BEASTS."
+
+	para "...Unless you"
+	line "don't need to,"
+	cont "of course."
 	done
 
 _FuchsiaHouse1Text5::
-	text "STEVE files his"
-	line "own BEAST data"
-	cont "on his PC!"
+	text "If even a hopeless"
+	line "loser like that"
+	cont "nerd over there"
+	cont "can find love,"
+	cont "what hope is"
+	cont "there for me...?"
 
-	para "Did he show you?"
+	para "I really should"
+	line "just go for a"
+	cont "swim, one day..."
 	done
 
 _FuchsiaHouse1Text6::
-	text "STEVE files his"
-	line "own BEAST data"
-	cont "on his PC!"
+	text "Whew. Babe, you"
+	line "sure pick some"
+	cont "odd places for"
+	cont "dates, haha."
 
-	para "Did he show you?"
+	para "..."
+
+	para "Even so, I'm still"
+	line "enjoying myself."
 	done
 
 _FuchsiaHouse1Text7::
-	text "STEVE files his"
-	line "own BEAST data"
-	cont "on his PC!"
+	text "So the water"
+	line "passes by, so do"
+	cont "our lives, with"
+	cont "each wave and"
+	cont "ripple being as"
+	cont "a memory, to be"
+	cont "treasured..."
 
-	para "Did he show you?"
+	para "Umm... oops."
+
+	para "I think my inner"
+	line "writer crept out"
+	cont "again! I'm being"
+	cont "weird, aren't I?"
 	done
