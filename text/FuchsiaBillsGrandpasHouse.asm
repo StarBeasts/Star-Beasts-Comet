@@ -2,8 +2,17 @@ _FuchsiaHouse1Text1::
 	text "!"
 	done
 
-_FuchsiaHouse1Text2::
-	text "Healer."
+_FuchsiaHouse1HealerImAHealerText::
+	text "Well, don't you"
+	line "look world-weary?"
+
+	para "Come'n rest up"
+	line "a bit, hon!"
+	prompt
+
+_FuchsiaHouse1HealerComeBackAnyTimeText::
+	text "Stay safe on"
+	line "your travels, hon!"
 	done
 
 _FuchsiaHouse1Text3::

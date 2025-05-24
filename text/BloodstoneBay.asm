@@ -1,6 +1,6 @@
 _BloodstoneBayText1::
 	text "Hoy there,"
-	line "youngin'!"
+	line "young'n!"
 
 	para "If you're looking"
 	line "to get a DRAGON,"
