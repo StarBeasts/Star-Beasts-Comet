@@ -1,15 +1,21 @@
-_Route18GateUpstairsText_49993::
-	text "Looked into the"
-	line "binoculars."
-
-	para "PALLET TOWN is in"
-	line "the west!"
+_Route18GateUpstairsText1::
+	text "Whenever it"
+	line "starts flooding"
+	cont "here, we have to"
+	cont "help evacuate"
+	cont "people since"
+	cont "we're so close"
+	cont "to the ocean."
 	done
 
-_Route18GateUpstairsText_4999f::
-	text "Looked into the"
-	line "binoculars."
+_Route18GateUpstairsText2::
+	text "If you're headed"
+	line "west, you'll"
+	cont "need a way to"
+	cont "cross the waters"
+	cont "of the CANAL."
 
-	para "There are people"
-	line "swimming!"
+	para "Otherwise, you"
+	line "might as well"
+	cont "turn around."
 	done
