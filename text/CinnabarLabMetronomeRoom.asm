@@ -1,42 +1,11 @@
-_TM35PreReceiveText::
-	text "Tch-tch-tch-ding!"
-	line "I made a cool TM!"
-
-	para "It can cause all"
-	line "kinds of fun!"
-	prompt
-
-_ReceivedTM35Text::
-	text "<PLAYER> received "
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
-	text_end
-
-_TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
-
-	para "It tweaks your"
-	line "BEAST's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
-	done
-
-_TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
-	done
-
-_Lab3Text2::
+_Lab3Text1::
 	text "FLEWNICORN can"
 	line "evolve into 1 of"
 	cont "3 different kinds"
 	cont "of BEAST."
 	done
 
-_Lab3Text3::
+_Lab3Text2::
 	text "There's an e-mail"
 	line "message!"
 
@@ -65,6 +34,6 @@ _Lab3Text3::
 	para "..."
 	done
 
-_Lab3Text5::
+_Lab3Text3::
 	text "An amber pipe!"
 	done

@@ -25,6 +25,16 @@ CinnabarLab_Object:
 	bg_event  5, 20, 13 ; Lab1Text3
 	bg_event  5, 10, 14 ; Lab1Text4
 	bg_event  5,  0, 15 ; Lab1Text5
+	bg_event  50, 30, 16 ; Lab1Text5
+	bg_event  54, 30, 16 ; Lab1Text5
+	bg_event  48, 32, 16 ; Lab1Text5
+	bg_event  50, 32, 16 ; Lab1Text5
+	bg_event  49, 30, 17 ; Lab1Text5
+	bg_event  21, 0, 18 ; Lab1Text5
+	bg_event  39, 0, 19 ; Lab1Text5
+	bg_event  65, 28, 20 ; Lab1Text5
+	bg_event  22, 29, 21 ; Lab1Text5
+	bg_event  54, 32, 22 ; Lab1Text5
 
 	def_object_events
 	object_event  2, 31, SPRITE_FISHING_GURU, STAY, NONE, 1 ; person

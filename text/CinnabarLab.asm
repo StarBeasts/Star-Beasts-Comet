@@ -39,31 +39,46 @@ _Lab1Text4::
 	cont "thinks of it."
 	done
 
-_Lab1Text5::
-	text "We study BEASTS"
-	line "extensively here."
+_TM35PreReceiveText::
+	text "Tch-tch-tch-ding!"
+	line "I made a cool TM!"
 
-	para "People often bring"
-	line "us rare BEASTS"
-	cont "for examination."
+	para "It can cause all"
+	line "kinds of fun!"
+	prompt
+
+_ReceivedTM35Text::
+	text "<PLAYER> received "
+	line "@"
+	text_ram wStringBuffer
+	text "!@"
+	text_end
+
+_TM35ExplanationText::
+	text "Tch-tch-tch!"
+	line "That's the sound"
+	cont "of a METRONOME!"
+
+	para "It tweaks your"
+	line "BEAST's brain"
+	cont "into using moves"
+	cont "it doesn't know!"
+	done
+
+_TM35NoRoomText::
+	text "Your pack is"
+	line "crammed full!"
 	done
 
 _Lab1Text6::
-	text "We study BEASTS"
-	line "extensively here."
-
-	para "People often bring"
-	line "us rare BEASTS"
-	cont "for examination."
+	text "FLEWNICORN can"
+	line "evolve into 1 of"
+	cont "3 different kinds"
+	cont "of BEAST."
 	done
 
 _Lab1Text7::
-	text "We study BEASTS"
-	line "extensively here."
-
-	para "People often bring"
-	line "us rare BEASTS"
-	cont "for examination."
+	text "!"
 	done
 
 _Lab1Text8::
@@ -73,8 +88,8 @@ _Lab1Text8::
 	para "If you're clocking"
 	line "in, you'll need"
 	cont "to either log in"
-	cont "or sign on the"
-	cont "sheet here."
+	cont "or sign in on"
+	cont "the sheet here."
 
 	para "If you're just"
 	line "passing by, don't"
@@ -196,14 +211,55 @@ _Lab1Text19::
 	done
 
 _Lab1Text20::
-	text "SEA ROUTE TO"
+	text "NOW LEAVING"
 	line "SODALITE SINKHOLE"
+
+	para "KUNZITE KEY"
+	line "AHEAD"
+
+	para "A tired swimmer"
+	line "is a swimmer who"
+	cont "won't come home."
+
+	para "Please pause to"
+	line "take a break if"
+	cont "you are tired."
 	done
 
 _Lab1Text21::
 	text "They appear to"
-	line "pipes used for"
-	cont "smoking."
+	line "be pipes used"
+	cont "for smoking."
 	done
+
+_Lab1Text22::
+	text "There's an e-mail"
+	line "message!"
+
+	para "..."
+
+	para "The FOUR HOLY"
+	line "REGENTS."
+
+	para "SIVAK, ALVARIS,"
+	line "AEON, and..."
+
+	para "We have so little"
+	line "data on the last"
+	cont "one..."
+
+	para "Their whereabouts"
+	line "are unknown."
+
+	para "We plan to explore"
+	line "the cavern in"
+	cont "SAPPHIRE SANDS."
+
+	para "From: # BEAST"
+	line "RESEARCH TEAM"
+
+	para "..."
+	done
+
 
 
