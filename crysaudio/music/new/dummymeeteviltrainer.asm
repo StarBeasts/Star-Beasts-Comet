@@ -1,18 +1,21 @@
-Music_Placeholder:
+Music_MeetEvilTrainer:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_MeetEvilTrainer_Ch1
+	channel 2, Music_MeetEvilTrainer_Ch2
+	channel 3, Music_MeetEvilTrainer_Ch3
+	channel 4, Music_MeetEvilTrainer_Ch4
 
-Music_Placeholder_Ch1:
+Music_MeetEvilTrainer_Ch1:
 	volume 7, 7
-	note_type 12, 10, 7
+	note_type 12, 12, 7
 	tempo 112
-	rest 2
 	octave 3
 	duty_cycle 3
-	volume_envelope 12, 7
+.mainloop:
+	note F_, 1
+	note F#, 1
+	note G_, 1
+	note G#, 1
 	note A_, 2
 	note A_, 2
 	octave 4
@@ -353,13 +356,33 @@ Music_Placeholder_Ch1:
 	note D_, 2
 	note C_, 2
 	octave 4
-	note E_, 12
-	sound_ret
+	note E_, 4
+	note F#, 1
+	note F_, 1
+	note E_, 1
+	note D#, 1
+	note E_, 1
+	note F_, 1
+	note F#, 1
+	note F_, 1
+	note E_, 1
+	note F_, 1
+	note F#, 1
+	note G_, 1
+	note G#, 1
+	note G_, 1
+	note F#, 1
+	note G_, 1
+	note F#, 1
+	octave 3
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch2:
+Music_MeetEvilTrainer_Ch2:
 	note_type 12, 12, 7
 	octave 1
 	duty_cycle 0
+.mainloop:
+	rest 2
 	note G_, 1
 	note G#, 1
 	note A_, 16
@@ -396,14 +419,15 @@ Music_Placeholder_Ch2:
 	rest 1
 	octave 2
 	note E_, 16
-	note E_, 8
-	octave 4
-	sound_ret
+	octave 1
+	rest 16
+	rest 1
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch3:
-	note_type 12, 1, 0
-	volume_envelope 2, 0
-	rest 2
+Music_MeetEvilTrainer_Ch3:
+	note_type 12, 2, 0
+.mainloop:
+	rest 4
 	octave 1
 	volume_envelope 1, 0
 	note A_, 2
@@ -590,14 +614,18 @@ Music_Placeholder_Ch3:
 	octave 1
 	note B_, 2
 	note G_, 2
-	note A_, 12
-	sound_ret
+	note A_, 4
+	rest 16
+	rest 1
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch4:
+Music_MeetEvilTrainer_Ch4:
 	toggle_noise 1
 	drum_speed 12
 	toggle_noise
 	toggle_noise 5
+.mainloop:
+	rest 2
 	drum_note 12, 2
 	drum_note 12, 2
 	drum_note 12, 2
@@ -730,6 +758,6 @@ Music_Placeholder_Ch4:
 	drum_note 5, 2
 	drum_note 5, 2
 	drum_note 5, 4
-	drum_note 12, 4
-	drum_note 12, 4
-	sound_ret
+	rest 16
+	rest 1
+	sound_loop 0, .mainloop

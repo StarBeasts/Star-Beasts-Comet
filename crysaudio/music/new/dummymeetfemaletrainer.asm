@@ -1,16 +1,16 @@
-Music_Placeholder:
+Music_MeetFemaleTrainer:
 	channel_count 2
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
+	channel 1, Music_MeetFemaleTrainer_Ch1
+	channel 2, Music_MeetFemaleTrainer_Ch2
 
-Music_Placeholder_Ch1:
+Music_MeetFemaleTrainer_Ch1:
 	volume 7, 7
 	note_type 12, 9, 7
 	tempo 178
 	duty_cycle 2
 .mainloop:
 	octave 3
-	volume_envelope 11, 7
+	volume_envelope 12, 7
 	note G#, 2
 	octave 4
 	note C_, 1
@@ -225,12 +225,13 @@ Music_Placeholder_Ch1:
 	note C#, 2
 	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch2:
+Music_MeetFemaleTrainer_Ch2:
 	note_type 12, 11, 7
 	duty_cycle 1
 .mainloop:
 	rest 2
 	octave 2
+	volume_envelope 12, 7
 	note C#, 2
 	note G#, 2
 	octave 1
