@@ -355,9 +355,6 @@ INCLUDE "crysaudio/music/RBY/cinnabarmansion.asm"
 INCLUDE "crysaudio/music/RBY/oakslab.asm"
 INCLUDE "crysaudio/music/RBY/pokemontower.asm"
 INCLUDE "crysaudio/music/RBY/silphco.asm"
-INCLUDE "crysaudio/music/RBY/meeteviltrainer.asm"
-INCLUDE "crysaudio/music/RBY/meetfemaletrainer.asm"
-INCLUDE "crysaudio/music/RBY/meetmaletrainer.asm"
 INCLUDE "crysaudio/music/RBY/introbattle.asm"
 INCLUDE "crysaudio/music/RBY/surfing.asm"
 INCLUDE "crysaudio/music/RBY/jigglypuffsong.asm"
@@ -556,6 +553,13 @@ INCLUDE "crysaudio/music/new/reaper.asm"
 INCLUDE "crysaudio/music/new/laworder.asm"
 INCLUDE "crysaudio/music/new/beatit.asm"
 INCLUDE "crysaudio/music/new/xisle.asm"
+
+SECTION "New Songs 7", ROMX
+
+INCLUDE "crysaudio/music/new/meeteviltrainer.asm"
+INCLUDE "crysaudio/music/new/meetfemaletrainer.asm"
+INCLUDE "crysaudio/music/new/meetmaletrainer.asm"
+
 
 SECTION "Sound Effects", ROMX
 

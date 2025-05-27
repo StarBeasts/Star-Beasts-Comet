@@ -12,6 +12,7 @@ Music_MeetEvilTrainer_Ch1:
 	octave 3
 	duty_cycle 3
 .mainloop:
+	volume_envelope 11, 4
 	note F_, 1
 	note F#, 1
 	note G_, 1
@@ -383,6 +384,7 @@ Music_MeetEvilTrainer_Ch2:
 	duty_cycle 0
 .mainloop:
 	rest 2
+	volume_envelope 11, 4
 	note G_, 1
 	note G#, 1
 	note A_, 16
