@@ -8,7 +8,7 @@ Music_MeetFemaleTrainer_Ch1:
 	note_type 12, 9, 7
 	tempo 178
 	rest 16
-	rest 12
+	rest 15
 	octave 5
 	duty_cycle 2
 	note C#, 2
@@ -231,9 +231,12 @@ Music_MeetFemaleTrainer_Ch1:
 	sound_loop 0, .mainloop
 
 Music_MeetFemaleTrainer_Ch2:
-	note_type 12, 11, 3
+	note_type 12, 12, 3
 	duty_cycle 1
 	octave 2
+	note F_, 1
+	note E_, 1
+	note D#, 1
 	note C#, 2
 	note F_, 2
 	octave 1
