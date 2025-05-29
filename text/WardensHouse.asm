@@ -52,7 +52,7 @@ _ReceivedHM04Text::
 
 _HM04ExplanationText::
 	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	line "teaches MUSCLE!"
 
 	para "It lets BEASTS"
 	line "move boulders"

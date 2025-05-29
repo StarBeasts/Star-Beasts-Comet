@@ -70,7 +70,7 @@ _ReceivedTM41Text::
 
 _TM41ExplanationText::
 	text "TM41 teaches"
-	line "SOFTBOILED!"
+	line "NOURISH!"
 
 	para "Only a few BEASTS"
 	line "can use it!"
@@ -78,7 +78,7 @@ _TM41ExplanationText::
 	para "Now, which ones"
 	line "were those...?"
 
-	para "I know DRAGLEAM"
+	para "I know CHARKONRO"
 	line "was one of 'em..."
 	done
 

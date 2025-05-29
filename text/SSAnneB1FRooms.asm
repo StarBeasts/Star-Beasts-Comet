@@ -126,7 +126,7 @@ _SSAnne10Text7::
 	line "is super strong!"
 
 	para "He has enough"
-	line "STRENGTH to move"
+	line "MUSCLE to move"
 	cont "big rocks!"
 	done
 

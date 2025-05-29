@@ -50,7 +50,7 @@ _GroundRoseText::
 
 _BoulderText::
 	text "This requires"
-	line "STRENGTH to move!"
+	line "MUSCLE to move!"
 	done
 
 _MartSignText::

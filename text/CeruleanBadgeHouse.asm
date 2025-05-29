@@ -63,7 +63,7 @@ _CeruleanHouse2Text_74ea5::
 	line "become unruly!"
 
 	para "It also lets you"
-	line "use STRENGTH out-"
+	line "use MUSCLE out-"
 	cont "side of battle."
 	prompt
 

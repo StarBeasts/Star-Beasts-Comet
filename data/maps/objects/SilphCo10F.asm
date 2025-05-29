@@ -2,12 +2,12 @@ SilphCo10F_Object:
 	db $0A ; border block
 
 	def_warp_events
-	warp_event  8, 17, SILPH_CO_9F, 1
-	warp_event  9, 17, SILPH_CO_11F, 1
-	warp_event  8,  0, SILPH_CO_ELEVATOR, 1
-	warp_event  9,  0, SILPH_CO_4F, 4
-	warp_event  11,  0, SILPH_CO_ELEVATOR, 1
-	warp_event  12,  0, SILPH_CO_4F, 4
+	warp_event  8, 17, SILPH_CO_9F, 3
+	warp_event  9, 17, SILPH_CO_9F, 3
+	warp_event  8,  0, RANGER_STATION, 5
+	warp_event  9,  0, RANGER_STATION, 5
+	warp_event  1,  0, RANGER_STATION, 5
+	warp_event 17,  0, RANGER_STATION, 5
 
 
 	def_bg_events

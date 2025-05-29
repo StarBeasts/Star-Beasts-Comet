@@ -32,4 +32,16 @@ _Villa1FText9::
 	line "ON 010138CD TODAY!"
 	done
 
+_Villa1FText10::
+	text "X ISLE AHEAD"
+
+	para "THE ISLAND UPON"
+	line "WHICH ONLY FOOLS"
+	cont "AND LEGENDS"
+	cont "DARE TO TREAD"
+
+	para "ARE YOU A FOOL"
+	
+	para "OR A LEGEND?"
+	done
 

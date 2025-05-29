@@ -11,6 +11,7 @@ Villa1F_TextPointers:
 	dw Villa1FText7
 	dw Villa1FText8
 	dw Villa1FText9
+	dw Villa1FText10
 
 Villa1FText3:
 	text_far _Villa1FText3
@@ -31,3 +32,6 @@ Villa1FText9:
 	text_far _Villa1FText9
 	text_end
 
+Villa1FText10:
+	text_far _Villa1FText10
+	text_end

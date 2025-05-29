@@ -84,7 +84,24 @@ _CeladonMansion4Text5::
 	line "him go out to get"
 	cont "food, we'd almost"
 	cont "start worrying"
-	cont "about him!"
-
-	para "Hahah!"
+	cont "about him, haha!"
 	done
+
+_CeladonMansion4Text6::
+	text "Don't bother trying"
+	line "to SURF to catch"
+	cont "any DRAGONS."
+
+	para "If you do that,"
+	line "they'll just"
+	cont "avoid you like"
+	cont "the plague."
+
+	para "No, you gotta"
+	line "do it the old"
+	cont "fashioned way:"
+
+	para "Hook, line and"
+	line "sinker!"
+	done
+

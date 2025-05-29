@@ -13,6 +13,7 @@ Villa1F_Object:
 	def_bg_events
 	bg_event  6,  1, 8 ; Villa1FText8
 	bg_event  2,  1, 9 ; Villa1FText9
+	bg_event  20,  1, 10 ; Villa1FText10
 
 	def_object_events
 	object_event  2,  3, SPRITE_CLERK, STAY, RIGHT, 1 ; person
