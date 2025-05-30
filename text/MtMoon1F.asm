@@ -19,7 +19,7 @@ _MtMoon1AfterBattleText2::
 
 	para "You should play"
 	line "out there and"
-	cont "not in this dank"
+	cont "not in this icy"
 	cont "old cave!"
 	done
 

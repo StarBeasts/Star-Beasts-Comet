@@ -1,72 +1,90 @@
 _Route10BattleText1::
-	text "Wow, are you a"
-	line "COLLECTOR too?"
-	cont "Want to see my"
-	cont "collection?"
+	text "I'm first up"
+	line "to bat, and I'm"
+	cont "primed to hit a"
+	cont "home run!"
 	done
 
 _Route10EndBattleText1::
-	text "Humph."
-	line "I'm not angry!"
+	text "Strike!"
+	line "I'm out!"
 	prompt
 
 _Route10AfterBattleText1::
-	text "I have more rare"
-	line "BEASTS at home!"
+	text "Guess you're the"
+	line "real # player,"
+	cont "huh?"
 	done
 
 _Route10BattleText2::
-	text "Ha-hahah-ah-ha!"
+	text "We are the"
+	line "BRIDGE BRIGADE!"
+
+	para "Beat all of us,"
+	line "and...!"
 	done
 
 _Route10EndBattleText2::
-	text "Ha-haha!"
-	line "Yer funny!"
-	cont "What kinda"
-	cont "hat is that?"
+	text "Uncle!"
+	line "Uncle!"
 	prompt
 
 _Route10AfterBattleText2::
-	text "Haha-ha-haa!"
-	line "Ha-ha-haaaah!"
-	cont "I'm so high,"
-	cont "right now!"
+	text "Okay, you got me!"
+
+	para "The only thing"
+	line "you 'win' is"
+	cont "being able to"
+	cont "go to METAL"
+	cont "METROPOLIS."
+
+	para "If the cops"
+	line "weren't such"
+	cont "jerks, that is..."
 	done
 
 _Route10BattleText3::
-	text "Hi kid, want to"
-	line "see my team?"
+	text "You know there's"
+	line "something you"
+	cont "should know, so"
+	cont "I'm gonna tell"
+	cont "you so: don't"
+	cont "sweat it, forget"
+	cont "it, and enjoy"
+	cont "the show!"
 	done
 
 _Route10EndBattleText3::
-	text "Oh no!"
-	line "My BEASTS!"
+	text "You"
+	line "sank my hopes..."
 	prompt
 
 _Route10AfterBattleText3::
-	text "You're a jerk!"
-
-	para "Beating up my"
-	line "BEASTS..."
+	text "Even though I"
+	line "lost, my heart"
+	cont "will go on..."
 	done
 
 _Route10BattleText4::
-	text "I've been to a"
-	line "BEAST GYM a few"
-	cont "times. But, I"
-	cont "lost each time."
+	text "You know what"
+	line "they say!"
+	
+	para "There's nothing"
+	line "to fear except"
+	cont "getting your"
+	cont "butt kicked by"
+	cont "my team!"
 	done
 
 _Route10EndBattleText4::
-	text "Ohh!"
-	line "Darnit,"
-	cont "not again!"
+	text "Yaaayyy..."
 	prompt
 
 _Route10AfterBattleText4::
-	text "I noticed some"
-	line "COLLECTORs"
-	cont "prowling around."
+	text "Guess that's"
+	line "what I get for"
+	cont "being full of"
+	cont "myself, huh?"
 	done
 
 _Route10BattleText5::
@@ -93,22 +111,20 @@ _Route10AfterBattleText5::
 	done
 
 _Route10BattleText6::
-	text "Whew. Hiking"
-	line "here takes a"
-	cont "lot outta you."
+	text "You know you"
+	line "can't beat me!"
 	done
 
 _Route10EndBattleText6::
-	text "I'm"
-	line "not up to it!"
+	text "Haha!"
+	line "I'm so excited!"
 	prompt
 
 _Route10AfterBattleText6::
-	text "The BEASTS here"
-	line "are so chunky!"
-	cont "There should be a"
-	cont "blue one with a"
-	cont "cute fan!"
+	text "I'll have to keep"
+	line "up my training so"
+	cont "I can be as good"
+	cont "as you!"
 	done
 
 _Route10Text7::

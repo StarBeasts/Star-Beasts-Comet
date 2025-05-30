@@ -112,7 +112,7 @@ LassData:
 	db 4, NIDORAN_M, 0
 	db 14, RATICATE, 0 ; not actually used for route 3
 ; Route 4
-	db 6, MEOWTH, OMANYTE, 0
+	db 6, MEOWTH, 0
 ; Mt. Moon 1F
 	db 11, ODDISH, BELLSPROUT, 0
 	db 14, NIDORAN_F, 0

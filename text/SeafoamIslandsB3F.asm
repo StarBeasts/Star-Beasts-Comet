@@ -8,8 +8,8 @@ _SeafoamIslandsB3FText1::
 
 	para "Make sure to pace"
 	line "yourself. Nobody"
-	cont "wants to fish up"
-	cont "your body out of"
+	cont "wants to have to"
+	cont "fish you out of"
 	cont "the CANAL or RGR."
 
 	para "RGR? That would"
