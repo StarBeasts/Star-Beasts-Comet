@@ -63,7 +63,7 @@ YoungsterData:
 	db 4, VOLTORB, 0
 	db 4, SPEAROW, 0
 ; Mt. Moon 1F
-	db 10, PSYDUCK, VOLTORB, ZUBAT, 0
+	db 9, PSYDUCK, VOLTORB, ZUBAT, 0
 ; Route 24
 	db 14, PSYDUCK, EKANS, VOLTORB, 0
 ; Route 25
@@ -78,7 +78,7 @@ YoungsterData:
 	db 17, PSYDUCK, GOLDUCK, 0
 	db 18, NIDORAN_M, NIDORINO, 0
 ; Cobalt Cave
-	db 3, HORSEA, 0 ; used, Cobalt Cave
+	db 9, HORSEA, 0 ; used, Cobalt Cave
 ; Route 3 overflow
 	db 3, EKANS, 0
 	db 5, DIGLETT, 0
@@ -94,7 +94,7 @@ BugCatcherData:
 	db 3, CATERPIE, WEEDLE, 0 ; used
 ; Mt. Moon 1F
 	db 15, WEEDLE, CATERPIE, 0
-	db 10, CATERPIE, METAPOD, BUTTERFREE, 0
+	db 9, CATERPIE, METAPOD, WEEDLE, KAKUNA, 0
 ; Route 24
 	db 14, PONYTA, 0
 ; Route 6
@@ -114,8 +114,8 @@ LassData:
 ; Route 4
 	db 6, MEOWTH, 0
 ; Mt. Moon 1F
-	db 11, ODDISH, BELLSPROUT, 0
-	db 14, NIDORAN_F, 0
+	db 9, ODDISH, BELLSPROUT, 0
+	db 11, NIDORAN_F, 0
 ; Route 24
 	db 16, SPEAROW, NIDORAN_F, 0
 	db 14, PIDGEY, NIDORAN_F, 0
@@ -152,7 +152,7 @@ SailorData:
 
 JrTrainerMData:
 ; Pewter Gym
-	db 11, SANDSHREW, 0
+	db 12, SANDSHREW, 0
 ; Route 24/Route 25
 	db 14, ODDISH, BELLSPROUT, 0
 ; Route 24
@@ -170,7 +170,7 @@ JrTrainerMData:
 
 JrTrainerFData:
 ; Cerulean Gym
-	db 19, WARTORTLE, 0
+	db 20, WARTORTLE, 0
 ; Route 6
 	db 16, CHARMANDER, PIKACHU, 0
 	db 16, PIDGEY, DIGLETT, POLIWAG, 0
@@ -223,9 +223,9 @@ PokemaniacData:
 
 SuperNerdData:
 ; Mt. Moon 1F
-	db 11, PSYDUCK, VOLTORB, 0
+	db 9, PSYDUCK, VOLTORB, 0
 ; Mt. Moon B2F
-	db 12, DEWGONG, VOLTORB, STARYU, 0
+	db 13, DEWGONG, VOLTORB, STARYU, 0
 ; Route 8
 	db 20, VOLTORB, LICKITUNG, EEVEE, MAGNEMITE, 0
 	db 22, DEWGONG, DIGLETT, KRABBY, 0
@@ -242,7 +242,7 @@ SuperNerdData:
 
 HikerData:
 ; Mt. Moon 1F
-	db 10, GEODUDE, MACHOP, ONIX, 0
+	db 10, MACHOP, 0
 ; Route 25
 	db 15, MACHOP, SANDSHREW, 0
 	db 13, NIDORAN_F, SANDSHREW, MACHOP, PARAS, 0
@@ -347,7 +347,7 @@ FisherData:
 
 SwimmerData:
 ; Cerulean Gym
-	db 16, SLOWPOKE, SHELLDER, 0
+	db 18, SLOWPOKE, SHELLDER, 0
 ; Route 19
 	db 30, SLOWPOKE, SHELLDER, 0
 	db 29, GOLDEEN, SEAKING, SLOWPOKE, 0
@@ -574,10 +574,10 @@ GiovanniData:
 
 RocketData:
 ; Mt. Moon B2F
-	db 13, PARAS, VOLTORB, 0
-	db 11, SANDSHREW, PSYDUCK, NIDORAN_F, 0
-	db 12, ZUBAT, EKANS, 0
-	db 16, NIDORAN_M, 0
+	db 14, PARAS, VOLTORB, 0
+	db 13, SANDSHREW, PSYDUCK, NIDORAN_F, 0
+	db 13, ZUBAT, EKANS, 0
+	db 15, NIDORAN_M, 0
 ; Cerulean City
 	db 17, NIDORINO, KADABRA, 0
 ; Route 24
@@ -672,10 +672,10 @@ BrunoData:
 	db $FF, 48, ARBOK, 50, KINGLER, 50, EXEGGCUTE, 51, MUK, 53, SNORLAX, 0
 
 BrockData:
-	db $FF, 12, GEODUDE, 14, GOLEM, 0
+	db $FF, 14, GEODUDE, 16, GOLEM, 0
 
 MistyData:
-	db $FF, 19, GOLDEEN, 21, RHYDON, 0
+	db $FF, 20, GOLDEEN, 22, RHYDON, 0
 
 LtSurgeData:
 	db $FF, 22, GOLBAT, 23, RAICHU, 27, EXEGGCUTE, 0

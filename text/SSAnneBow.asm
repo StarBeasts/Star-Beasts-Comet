@@ -1,14 +1,22 @@
 _SSAnne5Text1::
-	text "Party's over."
-	line "The ship will be"
-	cont "departing soon."
+	text "I'm just a ship's"
+	line "mate! I didn't"
+	cont "sign up for this!"
 	done
 
 _SSAnne5Text2::
-	text "Whew!"
+	text "If their BOSS"
+	line "wasn't so scary,"
+	cont "I'd have already"
+	cont "run the ROCKETs"
+	cont "off, myself!"
 
-	para "Scrubbing decks"
-	line "is hard work!"
+	para "But that guy,"
+	line "and his BEASTS..."
+
+	para "I wouldn't want"
+	line "to cross a guy"
+	cont "like that."
 	done
 
 _SSAnne5Text3::
@@ -19,10 +27,8 @@ _SSAnne5Text3::
 	done
 
 _SSAnne5BattleText1::
-	text "Hey matey!"
-
-	para "Let's do a little"
-	line "jig!"
+	text "Don't even think"
+	line "about it, jackass!"
 	done
 
 _SSAnne5EndBattleText1::
@@ -31,14 +37,21 @@ _SSAnne5EndBattleText1::
 	prompt
 
 _SSAnne5AfterBattleText1::
-	text "How many kinds of"
-	line "#BIEs do you"
-	cont "think there are?"
+	text "The ROCKETs"
+	line "hijacked us!"
+
+	para "We're trying to"
+	line "keep 'em outta"
+	cont "here!"
+
+	para "Still haven't"
+	line "heard from the"
+	cont "CAPTAIN..."
 	done
 
 _SSAnne5BattleText2::
-	text "Ahoy there!"
-	line "Ye be seasick?"
+	text "Leave or die,"
+	line "ROCKET scum!"
 	done
 
 _SSAnne5EndBattleText2::
@@ -47,8 +60,8 @@ _SSAnne5EndBattleText2::
 	prompt
 
 _SSAnne5AfterBattleText2::
-	text "My Pa said there"
-	line "are 100 kinds of"
-	cont "#BIEs. I think"
-	cont "there are more."
+	text "We're standing"
+	line "guard to try"
+	cont "and keep the"
+	cont "ROCKETs confined."
 	done

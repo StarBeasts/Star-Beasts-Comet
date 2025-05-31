@@ -805,8 +805,8 @@ GolemEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, SCREECH
-	db 16, ROCK_THROW
+	db 17, SCREECH
+	db 18, ROCK_THROW
 	db 21, SELFDESTRUCT
 	db 29, HYPER_VOICE
 	db 36, SKULL_BASH
@@ -1282,7 +1282,7 @@ SandshrewEvosMoves:
 	db EV_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 12, SLAM
+	db 13, SLAM
 	db 17, HYPER_VOICE
 	db 23, BUBBLEBEAM
 	db 27, SWIFT
@@ -2098,7 +2098,7 @@ GeodudeEvosMoves:
 	db EV_ITEM, HOLY_SOUL, 1, GRAVELER
 	db 0
 ; Learnset
-	db 13, SING
+	db 15, SING
 	db 17, ROCK_THROW
 	db 21, SELFDESTRUCT
 	db 26, HYPER_VOICE

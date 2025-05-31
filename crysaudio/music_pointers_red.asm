@@ -88,4 +88,5 @@ Music:
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 	dba Music_MobileAdapterMenu
+	dba Music_RocketTheme
 

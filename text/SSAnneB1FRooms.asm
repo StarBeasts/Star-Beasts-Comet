@@ -39,7 +39,8 @@ _SSAnne10BattleText3::
 	text "HAH! GOTCHA!"
 
 	para "GIMME ALL YOUR"
-	line "MONEY, CHUMP!"
+	line "MONEY, ROCKET"
+	cont "BREATH!"
 	done
 
 _SSAnne10EndBattleText3::

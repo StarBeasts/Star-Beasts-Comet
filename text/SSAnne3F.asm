@@ -1,7 +1,15 @@
 _SSAnne3Text1::
-	text "Our CAPTAIN is a"
-	line "sword master!"
+	text "Hey, uh, kid."
 
-	para "He even teaches"
-	line "CUT to BEASTS!"
+	para "Ship's, uh."
+
+	para "Closed."
+
+	para "Uh, permanently."
+
+	para "Yeah."
+
+	para "Don't try to go"
+	line "save the CAPTAIN,"
+	cont "he's, uh, fine."
 	done

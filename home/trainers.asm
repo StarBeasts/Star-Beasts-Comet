@@ -450,10 +450,20 @@ PlayTrainerMusic::
 .femaleTrainerListLoop
 	ld a, [hli]
 	cp $ff
-	jr z, .maleTrainer
+	jr z, .noFemaleTrainer
 	cp b
 	jr nz, .femaleTrainerListLoop
 	ld a, MUSIC_MEET_FEMALE_TRAINER
+	jr .PlaySound
+.noFemaleTrainer
+	ld hl, RocketTrainerList
+.rocketTrainerListLoop
+	ld a, [hli]
+	cp $ff
+	jr z, .maleTrainer
+	cp b
+	jr nz, .rocketTrainerListLoop
+	ld a, MUSIC_ROCKET_THEME
 	jr .PlaySound
 .maleTrainer
 	ld a, MUSIC_MEET_MALE_TRAINER

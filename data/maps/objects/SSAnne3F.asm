@@ -10,6 +10,6 @@ SSAnne3F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  9,  5, SPRITE_SAILOR, WALK, LEFT_RIGHT, 1 ; person
+	object_event  9,  5, SPRITE_OFFICER, WALK, LEFT_RIGHT, 1 ; person
 
 	def_warps_to SS_ANNE_3F
