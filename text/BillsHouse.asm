@@ -88,13 +88,22 @@ _BillsHouseText_1e8cb::
 	cont "ship S.S. RUBIN,"
 	cont "in LEGRANDITO."
 
-	para "I was supposed to"
-	line "ship high-end"
+	para "It shows that"
+	line "you're my"
+ 	cont "representative."
+
+	para "Y'see, I was"
+	line "supposed to ship"
+	cont "high-end tech"
 	cont "equipment to a"
 	cont "client, but"
 	cont "apparently my"
 	cont "items were"
 	cont "turned away."
+
+	para "You seem like a"
+	line "real problem"
+	cont "solver, so..."
 
 	para "You think you"
 	line "could go and see"
