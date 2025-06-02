@@ -3,10 +3,9 @@ _SSAnne3BattleText1::
 	line "are to attack"
 	cont "anybody who ain't"
 	cont "the admissions"
-	cont "guy, and you're"
-	cont "not him, so!"
+	cont "guy on sight!"
 
-	para "Get ready to"
+	para "So, get ready to"
 	line "feel the wrath"
 	cont "of TEAM ROCKET!"
 	done
