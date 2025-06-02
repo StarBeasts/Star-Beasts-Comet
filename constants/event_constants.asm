@@ -556,7 +556,10 @@
 
 ; S.S. Anne events
 	const_next $5C0
-	const_skip 4
+	const_skip 1
+	const EVENT_BEAT_SS_ANNE_3_TRAINER_0
+	const EVENT_BEAT_SS_ANNE_3_TRAINER_1
+	const_skip 1
 	const EVENT_BEAT_SS_ANNE_5_TRAINER_0
 	const EVENT_BEAT_SS_ANNE_5_TRAINER_1
 	const_skip 26

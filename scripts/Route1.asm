@@ -6,6 +6,7 @@ Route1_TextPointers:
 	dw Route1Text2
 	dw Route1Text3
 	dw Route1Text4
+	dw Route1Text5
 
 Route1Text1:
 	text_asm
@@ -54,5 +55,9 @@ Route1Text3:
 
 Route1Text4:
 	text_far _Route1Text4
+	text_end
+
+Route1Text5:
+	text_far _Route1Text5
 	text_end
 

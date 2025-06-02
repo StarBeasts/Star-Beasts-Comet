@@ -9,7 +9,6 @@ INCLUDE "text/MtMoonB2F.asm"
 INCLUDE "text/SSAnneB1F.asm"
 INCLUDE "text/SSAnne1F.asm"
 INCLUDE "text/SSAnne2F.asm"
-INCLUDE "text/SSAnne3F.asm"
 INCLUDE "text/SSAnneBow.asm"
 INCLUDE "text/SSAnneKitchen.asm"
 INCLUDE "text/SSAnneCaptainsRoom.asm"
@@ -304,6 +303,7 @@ INCLUDE "text/AmethystArchive.asm"
 INCLUDE "text/SilphCo10F.asm"
 INCLUDE "text/Route8Gate.asm"
 INCLUDE "text/CeladonMansionRoof.asm"
+INCLUDE "text/SSAnne3F.asm"
 
 SECTION "Pokédex Text", ROMX
 

@@ -1,15 +1,43 @@
-_SSAnne3Text1::
-	text "Hey, uh, kid."
+_SSAnne3BattleText1::
+	text "BOSS says orders"
+	line "are to attack"
+	cont "anybody who ain't"
+	cont "the admissions"
+	cont "guy, and you're"
+	cont "not him, so!"
 
-	para "Ship's, uh."
+	para "Get ready to"
+	line "feel the wrath"
+	cont "of TEAM ROCKET!"
+	done
 
-	para "Closed."
+_SSAnne3EndBattleText1::
+	text "You"
+	line "whaaaaat?!"
+	prompt
 
-	para "Uh, permanently."
+_SSAnne3AfterBattleText1::
+	text "Where's the BOSS?"
 
-	para "Yeah."
+	para "Ship's not that"
+	line "big. Figure it"
+	cont "out, yourself."
+	done
 
-	para "Don't try to go"
-	line "save the CAPTAIN,"
-	cont "he's, uh, fine."
+_SSAnne3BattleText2::
+	text "Goin' somewhere,"
+	line "matey?"
+	done
+
+_SSAnne3EndBattleText2::
+	text "Blimey..."
+	prompt
+
+_SSAnne3AfterBattleText2::
+	text "Ugh."
+	
+	para "And I had to"
+	line "pull so many"
+	cont "favors to get"
+	cont "us in here..."
 	done
