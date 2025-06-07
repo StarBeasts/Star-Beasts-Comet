@@ -101,8 +101,14 @@ _CeladonHouseText16::
 	done
 
 _CeladonHouseText17::
-	text "CRYSTAL COAST"
-	line "GATE"
+	text "SODALITE SINKHOLE"
+	line "SEASIDE GATE"
+
+	para "We wanted a fourth"
+	line "word that started"
+	cont "with 'S', but we"
+	cont "couldn't come up"
+	cont "with one."
 	done
 
 

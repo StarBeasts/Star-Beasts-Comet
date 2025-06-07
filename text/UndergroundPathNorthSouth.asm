@@ -45,70 +45,79 @@ _UndergroundPathNorthSouthText4::
 	text_end
 
 _UndergroundPathNorthSouthText5::
-	text "Dispatch is going"
-	line "nuts..."
+	text "Because of how"
+	line "many rich mineral"
+	cont "deposits we have"
+	cont "here in RELAS, we"
+	cont "have an unusually"
+	cont "large number of"
+	cont "STEEL BEASTS."
 
-	para "Damnit, it'd be"
-	line "nice if they'd"
-	cont "send in the ARMY"
-	cont "to help us at"
-	cont "some point..."
+	para "Some people even"
+	line "call us IRON"
+	cont "ISLAND, which is"
+	cont "a name I loathe,"
+	cont "because we're NOT"
+	cont "on an island."
 	done
 
 _UndergroundPathNorthSouthText6::
-	text "We can deal with"
-	line "the ROCKETs or"
-	cont "the BIKERs, but"
-	cont "not both at the"
-	cont "same time!"
-
-	para "We're stretched"
-	line "thinner than my"
-	cont "old varsity"
-	cont "jacket when I"
-	cont "try to wear it!"
+	text "PC over there's"
+	line "for trainers who"
+	cont "need to organize"
+	cont "things. If that's"
+	cont "not you, then"
+	cont "leave it be."
 	done
 
 _UndergroundPathNorthSouthText7::
-	text "Whoa, don't lose"
-	line "your cool!"
+	text "Can I help you?"
 
-	para "I know I look like"
-	line "a ROCKET, but I'm"
-	cont "actually a spy,"
-	cont "an informant!"
+	para "Healing?"
 
-	para "I'm doing this to"
-	line "avoid doing time."
+	para "Oh, I'm sorry!"
+	line "I'm a doctor for"
+	cont "people, not"
+	cont "# BEASTS!"
+
+	para "You'll want the"
+	line "NURSE, over there."
 	done
 
 _UndergroundPathNorthSouthText8::
-	text "!"
+	text "All these crates"
+	line "lying around, but"
+	cont "damned if there's"
+	cont "anything useful"
+	cont "in any of 'em!"
 	done
 
 _UndergroundPathNorthSouthText9::
-	text "What is it?"
+	text "That NURSE over"
+	line "there can treat"
+	cont "my wounds, any"
+	cont "time! Hahah!"
 
-	para "Got anything to"
-	line "report?"
+	para "What? I don't"
+	line "have any wounds?"
 
-	para "No?"
-
-	para "Hmph."
-
-	para "Then you're just"
-	line "wasting my time,"
-	cont "kid."
+	para "It's a figure"
+	line "of speech, kid."
 	done
 
 _UndergroundPathNorthSouthText10::
-	text "What do you make"
-	line "of it, DOC?"
+	text "Lousy job..."
 
-	para "Could those punks"
-	line "REALLY make"
-	cont "explosives out"
-	cont "of these rocks?"
+	para "Nothing exciting"
+	line "ever happens."
+
+	para "All I do is keep"
+	line "inventory, day"
+	cont "after day."
+
+	para "Managing all these"
+	line "items... what a"
+	cont "waste of time."
 	done
 
 _UndergroundPathNorthSouthText11::
