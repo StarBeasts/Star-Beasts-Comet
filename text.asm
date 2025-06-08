@@ -304,6 +304,7 @@ INCLUDE "text/SilphCo10F.asm"
 INCLUDE "text/Route8Gate.asm"
 INCLUDE "text/CeladonMansionRoof.asm"
 INCLUDE "text/SSAnne3F.asm"
+INCLUDE "text/Route7Gate.asm"
 
 SECTION "Pokédex Text", ROMX
 
