@@ -55,3 +55,4 @@ tmhmNames::
 	db "TM48 ROCSLID@"
 	db "TM49 TRIATK@"
 	db "TM50 SUBSTUT@"
+	db "NEPUTO JEWEL@"

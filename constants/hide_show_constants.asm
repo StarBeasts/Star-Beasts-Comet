@@ -258,8 +258,9 @@ DEF SHOW EQU $15
 	const HS_SEWER_ITEM_1
 	const HS_VARIK_1
 	const HS_VARIK_2
-	const HS_VICTORY_ROAD_3F_ITEM_1        ; 78 X
-	const HS_VICTORY_ROAD_3F_ITEM_2        ; 79 X
+	const HS_INDIGO_PLATEAU_ITEM_1        ; 78 X
+	const HS_INDIGO_PLATEAU_ITEM_2        ; 79 X
 	const HS_VICTORY_ROAD_3F_BOULDER       ; 7A
 	const HS_MOLTRES                       ; 5B X
+	const HS_VICTORY_ROAD_NEPTO_JEWEL       ; 7A
 DEF NUM_HS_OBJECTS EQU const_value

@@ -190,7 +190,7 @@ MoveNames::
 	li "MOONBLAST"
 	li "STRANGESTEAM"
 	li "SHADOW PURGE"
-	li "SNOWGRAVE"
+	li "DEEP FREEZE"
 	li "METAL CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

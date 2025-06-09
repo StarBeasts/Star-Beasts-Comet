@@ -21,7 +21,7 @@ UndergroundPathRoute6_Object:
 	warp_event  6,  6, UNDERGROUND_PATH_ROUTE_6, 16
 	warp_event 12, 12, ROUTE_7_GATE, 2
 	warp_event 20, 12, ROUTE_7_GATE, 2
-	warp_event 28, 12, ROUTE_7_GATE, 2
+	warp_event 28, 12, VICTORY_ROAD_3F, 1
 	warp_event 20,  6, ROUTE_8_GATE, 1
 
 

@@ -33,7 +33,6 @@ FreezeEffect_:
 	jr nz, .didntAffect
 	set FRZ, [hl]
 	callfar HalveAttackDueToBurn
-	ld c, 30
 	callfar PlayCurrentMoveAnimation
 	jpfar PrintDeepFreezeText
 .didntAffect

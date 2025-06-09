@@ -201,7 +201,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw DiglettsCaveHS
-	dw NoHS
+	dw VictoryRoad3FHS
 	dw RocketHideoutB1FHS
 	dw RocketHideoutB2FHS
 	dw RocketHideoutB3FHS
@@ -605,5 +605,7 @@ IndigoPlateauHS:
 	db INDIGO_PLATEAU, $0A, SHOW
 RockTunnelB1FHS:
 	db ROCK_TUNNEL_B1F, $09, SHOW
+VictoryRoad3FHS:
+	db VICTORY_ROAD_3F, $01, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
