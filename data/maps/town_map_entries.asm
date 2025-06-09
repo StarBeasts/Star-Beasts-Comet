@@ -160,7 +160,7 @@ InternalMapEntries:
 	internal_map ROUTE_12_GATE_2F,              10,  8, MalachiteName
 	internal_map VERMILION_TRADE_HOUSE,         7,  6, CeruleanCityName
 	internal_map DIGLETTS_CAVE,                  7,  4, DiglettsCaveName
-	internal_map VICTORY_ROAD_3F,                6,  1, VictoryRoadName
+	internal_map VICTORY_ROAD_3F,                10, 12, Route25Name
 	internal_map ROCKET_HIDEOUT_B4F,              5,  4, RocketHQName
 	internal_map ROCKET_HIDEOUT_ELEVATOR,         7,  2, SpaceshipName
 	internal_map SECRET_PATH,                   3, 8, SecretGardenName

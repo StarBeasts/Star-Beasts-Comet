@@ -5,7 +5,7 @@
 
 	db ICE, ICE ; type
 	db 50 ; catch rate
-	db 155 ; base exp
+	db 200 ; base exp
 
 	INCBIN "gfx/pokemon/front/seadra.pic", 0, 1 ; sprite dimensions
 	dw SeadraPicFront, SeadraPicBack

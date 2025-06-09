@@ -8,8 +8,8 @@ Route6WildMons:
 	db 15,BELLSPROUT
 	db 16,ODDISH
 	db 16,PIDGEY
-	db 14,PINSIR
-	db 16,PINSIR
+	db 14,MANKEY
+	db 16,MANKEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

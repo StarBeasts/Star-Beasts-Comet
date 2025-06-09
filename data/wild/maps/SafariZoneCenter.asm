@@ -8,7 +8,7 @@ SafariZoneCenterWildMons:
 	db 25, EXEGGCUTE
 	db 31, NIDORINO
 	db 30, PARASECT
-	db 23, PINSIR
+	db 23, NIDORINO
 	db 23, JYNX
 	end_grass_wildmons
 
