@@ -236,6 +236,7 @@ SECTION "Battle Engine 8", ROMX
 
 INCLUDE "engine/battle/init_battle_variables.asm"
 INCLUDE "engine/battle/move_effects/paralyze.asm"
+INCLUDE "engine/battle/move_effects/freeze.asm"
 
 
 SECTION "Hidden Objects 2", ROMX

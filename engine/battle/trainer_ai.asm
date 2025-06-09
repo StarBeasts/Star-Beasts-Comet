@@ -150,6 +150,7 @@ StatusAilmentMoveEffects:
 	db SLEEP_EFFECT
 	db POISON_EFFECT
 	db PARALYZE_EFFECT
+	db FREEZE_EFFECT
 	db -1 ; end
 
 ; slightly encourage moves with specific effects.

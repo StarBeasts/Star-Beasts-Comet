@@ -190,6 +190,7 @@ AttackAnimationPointers:
 	dw MoonblastAnim
 	dw StrangesteamAnim
 	dw ShadowPurgeAnim
+	dw DeepFreezeAnim
 	dw MetalClawAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
@@ -623,7 +624,7 @@ HyperBeamAnim:
 	battle_anim HYPER_BEAM, SUBANIM_0_BEAM, 0, 2
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
-	battle_anim FALCON_PUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
@@ -1545,6 +1546,19 @@ ShadowPurgeAnim:
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+DeepFreezeAnim:
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim ICE_BEAM, SUBANIM_1_SAND, 1, 6
+	battle_anim STRING_SHOT, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim VICEGRIP, SUBANIM_0_ICE_RISE, 0, 16
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim GLARE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 MetalClawAnim:

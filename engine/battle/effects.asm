@@ -1164,6 +1164,9 @@ ConfusionEffectFailed:
 ParalyzeEffect:
 	jpfar ParalyzeEffect_
 
+FreezeEffect:
+	jpfar FreezeEffect_
+
 SubstituteEffect:
 	jpfar SubstituteEffect_
 
@@ -1428,8 +1431,16 @@ PrintMayNotAttackText:
 	ld hl, ParalyzedMayNotAttackText
 	jp PrintText
 
+PrintDeepFreezeText:
+	ld hl, FrozenCantMoveText
+	jp PrintText
+
 ParalyzedMayNotAttackText:
 	text_far _ParalyzedMayNotAttackText
+	text_end
+
+FrozenCantMoveText:
+	text_far _FrozenCantMoveText
 	text_end
 
 CheckTargetSubstitute:

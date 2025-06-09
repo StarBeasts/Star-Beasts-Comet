@@ -82,7 +82,7 @@
 	const_skip                       ; $4B
 	const CONFUSION_SIDE_EFFECT      ; $4C
 	const TWINEEDLE_EFFECT           ; $4D
-	const_skip                       ; $4E
+	const FREEZE_EFFECT              ; $4E
 	const SUBSTITUTE_EFFECT          ; $4F
 	const HYPER_BEAM_EFFECT          ; $50
 	const RAGE_EFFECT                ; $51
