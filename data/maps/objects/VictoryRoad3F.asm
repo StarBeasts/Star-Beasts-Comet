@@ -8,6 +8,8 @@ VictoryRoad3F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  9,  2, SPRITE_SOUL, STAY, NONE, 1, TM_SNOWGRAVE
+	object_event  9,  3, SPRITE_SOUL, STAY, NONE, 1, TM_SNOWGRAVE
+	object_event  8,  2, SPRITE_DRAGON, STAY, DOWN, 2
+	object_event  9,  2, SPRITE_DRAGON, STAY, DOWN, 3
 
 	def_warps_to VICTORY_ROAD_3F
