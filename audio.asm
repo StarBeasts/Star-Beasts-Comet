@@ -559,6 +559,7 @@ SECTION "New Songs 7", ROMX
 INCLUDE "crysaudio/music/new/meeteviltrainer.asm"
 INCLUDE "crysaudio/music/new/meetfemaletrainer.asm"
 INCLUDE "crysaudio/music/new/meetmaletrainer.asm"
+INCLUDE "crysaudio/music/new/quartzquarry.asm"
 
 
 SECTION "Sound Effects", ROMX

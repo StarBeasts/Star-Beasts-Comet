@@ -24,12 +24,28 @@ UndergroundPathRoute6_Object:
 	warp_event 28, 12, VICTORY_ROAD_3F, 1
 	warp_event 20,  6, ROUTE_8_GATE, 1
 
-
-
-
 	def_bg_events
+	bg_event 11, 76, 6
+	bg_event 29, 66, 7
+	bg_event 33,  40, 8
+	bg_event 29, 46, 9
+	bg_event 21, 46, 10
+	bg_event 7, 40, 11
+	bg_event 33, 24, 12
+	bg_event 21, 30, 13
+	bg_event 13, 30, 14
+	bg_event 7,  24, 15
+	bg_event 7,  6, 16
+	bg_event 13, 12, 17
+	bg_event 21, 12, 18
+	bg_event 29, 12, 19
+	bg_event 21, 6, 20
 
 	def_object_events
-	object_event  2,  3, SPRITE_GIRL, STAY, NONE, 1 ; person
+	object_event  9, 77, SPRITE_LINK_RECEPTIONIST, STAY, NONE, 1 ; person
+	object_event  27, 67, SPRITE_LINK_RECEPTIONIST, STAY, NONE, 2 ; person
+	object_event  12, 47, SPRITE_COOLTRAINER_M, STAY, UP, 3 ; person
+	object_event  19,  31, SPRITE_SUPER_NERD, STAY, NONE, 4 ; person
+	object_event  13,  7, SPRITE_GIRL, STAY, NONE, 5 ; person
 
 	def_warps_to UNDERGROUND_PATH_ROUTE_6

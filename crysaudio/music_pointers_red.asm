@@ -89,4 +89,5 @@ Music:
 	dba Music_LakeOfRageRocketRadio
 	dba Music_MobileAdapterMenu
 	dba Music_RocketTheme
+	dba Music_QuartzQuarry
 
