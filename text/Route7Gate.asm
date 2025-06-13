@@ -26,6 +26,34 @@ _Route7GateText2::
 	done
 
 _Route7GateText3::
+	text "FOUND ME, YOU"
+	line "HAVE! OH HO,"
+	cont "OHNO!"
+
+	para "OUTSIDE, WE MUST"
+	line "NOT GO! SO FOR"
+	cont "YOU, A SECRET"
+	cont "I WILL TELL,"
+	cont "AS LONG AS YOU"
+	cont "KEEP MINE, OF"
+	cont "YOU I COMPEL!"
+
+	para "THE AMETHYST"
+	line "TREES HIDE A"
+	cont "QUIET GLADE, ONE"
+	cont "WHICH CAN ONLY BE"
+	cont "FOUND AT THE EDGE"
+	cont "OF A BLADE!"
+
+	para "NORTH FROM THE"
+	line "SAND, SHALL"
+	cont "YOU FIND THIS"
+	cont "HIDDEN LAND!"
+
+	para "Now, go away."
+	done
+
+_Route7GateText4::
 	text "FELDSPAR FLATS"
 
 	para "ONCE YOU LIVE"
@@ -34,16 +62,16 @@ _Route7GateText3::
 	cont "LIVE ANYWHERE ELSE"
 	done
 
-_Route7GateText4::
+_Route7GateText5::
 	text "CYCLING UNDERPASS"
 	done
 
-_Route7GateText5::
+_Route7GateText6::
 	text "GATE TO"
 	line "EASTERN CANAL"
 	done
 
-_Route7GateText6::
+_Route7GateText7::
 	text "NOTICE: ROUTE 11"
 	line "IS INACCESSIBLE"
 	cont "FROM HERE"

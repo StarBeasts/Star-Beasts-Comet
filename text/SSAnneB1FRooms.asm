@@ -4,35 +4,57 @@ _SSAnne10Text8::
 	text_end
 
 _SSAnne10BattleText1::
-	text "You know what they"
-	line "say about sailors"
-	cont "and fighting!"
+	text "Stupid idiot!"
+	
+	para "He won't even use"
+	line "his perfectly"
+	cont "good # BEAST"
+	cont "to help us look"
+	cont "through all these"
+	cont "shipping crates!"
+
+	para "Oh, I'm so mad,"
+	line "I think I need to"
+	cont "lay the smackdown"
+	cont "on someone!"
+
+	para "And I think that"
+	line "someone is you!"
 	done
 
 _SSAnne10EndBattleText1::
-	text "Right!"
-	line "Good fight, mate!"
+	text "Down"
+	line "for the count..."
 	prompt
 
 _SSAnne10AfterBattleText1::
-	text "Haha! Want to be"
-	line "a sailor, mate?"
+	text "Nobody's told me"
+	line "what we're even"
+	cont "supposed to be"
+	cont "looking for."
 	done
 
 _SSAnne10BattleText2::
-	text "My sailor's pride"
-	line "is at stake!"
+	text "Hey! Get your"
+	line "grubby mitts off"
+	cont "of MY items!"
+
+	para "I saw 'em first!"
 	done
 
 _SSAnne10EndBattleText2::
 	text "Your"
-	line "spirit sank me!"
+	line "items, now..."
 	prompt
 
 _SSAnne10AfterBattleText2::
-	text "Did you see the"
-	line "FISHING GURU in"
-	cont "SAPPHIRE SANDS?"
+	text "I'm not cut out"
+	line "for this line'a"
+	cont "work... Maybe I"
+	cont "should take up"
+	cont "fishing like"
+	cont "that guy in"
+	cont "SAPPHIRE SANDS..."
 	done
 
 _SSAnne10BattleText3::
@@ -69,26 +91,36 @@ _SSAnne10AfterBattleText3::
 	done
 
 _SSAnne10BattleText4::
-	text "I like feisty"
-	line "kids like you!@"
+	text "Quit putting"
+	line "your nose where"
+	cont "it doesn't belong!"
+
+	para "Unless you want"
+	line "it chopped off!@"
 	text_end
 
 _SSAnne10EndBattleText4::
-	text "Hah!"
-	line "Feisty AND"
-	cont "strong!"
+	text "Smells"
+	line "like failure..."
 	prompt
 
 _SSAnne10AfterBattleText4::
-	text "Get back to me"
-	line "when you're a few"
-	cont "years older, kid!"
+	text "I'm starting to"
+	line "think that the"
+	cont "CYBERSCOPE ain't"
+	cont "actually here..."
 	done
 
 _SSAnne10BattleText5::
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
+	text "It's all stupid"
+	line "computer parts!"
+
+	para "What? Hey!"
+
+	para "This ship belongs"
+	line "to TEAM ROCKET!"
+
+	para "You're trespassing!"
 	done
 
 _SSAnne10EndBattleText5::
@@ -97,29 +129,35 @@ _SSAnne10EndBattleText5::
 	prompt
 
 _SSAnne10AfterBattleText5::
-	text "Urchins some-"
-	line "times drift into"
-	cont "the ship."
+	text "What's BOSS want"
+	line "all this nerd"
+	cont "stuff for, anyway?"
 	done
 
 _SSAnne10BattleText6::
-	text "Hello stranger!"
-	line "Stop and chat!"
+	text "Infernal machine!"
 
-	para "All my BEASTS"
-	line "are from the sea!"
+	para "This damn PC"
+	line "won't turn on!"
+
+	para "It's as broken"
+	line "as I'm about to"
+	cont "make your team!"
 	done
 
 _SSAnne10EndBattleText6::
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Aaaargghh!"
+	line "Can I do ANYTHING"
+	cont "right, today!?"
 	prompt
 
 _SSAnne10AfterBattleText6::
-	text "I was going to"
-	line "make you my"
-	cont "assistant too!"
+	text "There's some"
+	line "kind of stray"
+	cont "BEAST onboard."
+
+	para "Maybe it's been"
+	line "eating the wires?"
 	done
 
 _SSAnne10Text7::
@@ -128,7 +166,13 @@ _SSAnne10Text7::
 
 	para "He has enough"
 	line "MUSCLE to move"
-	cont "big rocks!"
+	cont "heavy shipping"
+	cont "crates and big"
+	cont "rocks!"
+
+	para "I won't make him"
+	line "do it for the"
+	cont "ROCKETs, though."
 	done
 
 SSAnne10Text9::

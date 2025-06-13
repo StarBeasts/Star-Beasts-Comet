@@ -14,7 +14,6 @@ INCLUDE "text/SSAnneKitchen.asm"
 INCLUDE "text/SSAnneCaptainsRoom.asm"
 INCLUDE "text/SSAnne1FRooms.asm"
 INCLUDE "text/SSAnne2FRooms.asm"
-INCLUDE "text/SSAnneB1FRooms.asm"
 INCLUDE "text/IndigoPlateau.asm"
 INCLUDE "text/RocketHideoutB1F.asm"
 INCLUDE "text/RocketHideoutB2F.asm"
@@ -306,6 +305,7 @@ INCLUDE "text/CeladonMansionRoof.asm"
 INCLUDE "text/SSAnne3F.asm"
 INCLUDE "text/Route7Gate.asm"
 INCLUDE "text/VictoryRoad3F.asm"
+INCLUDE "text/SSAnneB1FRooms.asm"
 
 SECTION "Pokédex Text", ROMX
 
