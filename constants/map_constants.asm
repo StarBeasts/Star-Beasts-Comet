@@ -80,7 +80,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const PEWTER_POKECENTER,              7,  4 ; $3A
 	map_const MT_MOON_1F,                    20, 28 ; $3B
 	map_const MT_MOON_B1F,                   17, 23 ; $3C
-	map_const MT_MOON_B2F,                   20, 18 ; $3D
+	map_const MT_MOON_B2F,                   21, 28 ; $3D
 	map_const CERULEAN_TRASHED_HOUSE,         4,  4 ; $3E
 	map_const CERULEAN_TRADE_HOUSE,           4,  4 ; $3F
 	map_const CERULEAN_POKECENTER,            7,  4 ; $40
