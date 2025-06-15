@@ -172,3 +172,10 @@ _VermilionCityText16::
 	text "UNDERGROUND PATH"
 	done
 
+_VermilionCityText17::
+	text "LEGRANDITO"
+	line "CONCERT HALL"
+
+	para "CLOSED UNTIL"
+	line "FURTHER NOTICE"
+	done

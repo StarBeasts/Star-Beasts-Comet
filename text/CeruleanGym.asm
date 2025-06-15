@@ -69,8 +69,9 @@ _ReceivedCascadeBadgeText::
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "I'm not just a"
+	line "match for you - "
+	cont "I'm a forest fire!"
 
 	para "MIZU can wait!"
 	done

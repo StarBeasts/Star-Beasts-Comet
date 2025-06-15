@@ -9,7 +9,7 @@ MtMoonB1F_Object:
 	warp_event 25, 23, MT_MOON_1F, 5
 	warp_event 23, 43, MT_MOON_1F, 6
 	warp_event 29,  5, MT_MOON_B2F, 2
-	warp_event  5,  5, MT_MOON_B2F, 8
+	warp_event 31, 30, MT_MOON_B2F, 8
 	warp_event 21, 15, MT_MOON_B2F, 7
 	warp_event  9, 15, MT_MOON_B2F, 3
 	warp_event 15,  5, MT_MOON_B2F, 1
