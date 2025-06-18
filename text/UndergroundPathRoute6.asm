@@ -66,7 +66,10 @@ _UndergroundPathEntranceRoute6Text12::
 	done
 
 _UndergroundPathEntranceRoute6Text13::
-	text "FELDSPAR FLATS 8"
+	text "LITERATURE CLUB"
+
+	para "We meet every day"
+	line "of the week!"
 	done
 
 _UndergroundPathEntranceRoute6Text14::
@@ -90,7 +93,15 @@ _UndergroundPathEntranceRoute6Text18::
 	done
 
 _UndergroundPathEntranceRoute6Text19::
-	text "FELDSPAR FLATS 14"
+	text "FELDSPAR CELLAR"
+
+	para "OR"
+
+	para "CELDSPAR, IF YOU"
+	line "PREFER"
+
+	para "ENTER AT YOUR"
+	line "OWN RISK"
 	done
 
 _UndergroundPathEntranceRoute6Text20::

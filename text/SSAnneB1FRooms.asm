@@ -76,18 +76,13 @@ _SSAnne10AfterBattleText3::
 	line "barely pays at"
 	cont "all, and there"
 	cont "are so many"
-	cont "dumb rich idiots"
-	cont "onboard!"
+	cont "ROCKETs onboard!"
 	
-	para "Can you blame me"
-	line "for trying to"
-	cont "take money from"
-	cont "the rich and"
-	cont "give it to the"
-	cont "poor?"
+	para "Stealing from"
+	line "criminals?"
 
-	para "The poor being"
-	line "me?"
+	para "It's a victimless"
+	line "crime!"
 	done
 
 _SSAnne10BattleText4::

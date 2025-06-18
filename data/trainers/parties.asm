@@ -384,6 +384,7 @@ CueBallData:
 ; Saffron Gym
 	db 34,GOLEM,ARBOK,MACHOKE,ONIX,0
 ; Lucian's Bodyguard
+	db 20,NIDORAN_M, NIDORINO, 0
 	db 33,NIDORINO,NIDORINO,SNORLAX,0
 GamblerData:
 ; Route 11
