@@ -122,14 +122,16 @@ HallofFameRoomScript1:
 	predef HideObject
 	ld a, HS_VARIK_1
 	ld [wMissableObjectIndex], a
-	predef ShowObject
+	predef HideObject
 	ld a, HS_VARIK_2
 	ld [wMissableObjectIndex], a
-	predef HideObject
+	predef ShowObject
 	ld a, HS_FARFROMTILE_1
 	ld [wMissableObjectIndex], a
-	predef ShowObject
+	predef HideObject
 	ld a, HS_FARFROMTILE_2
+	ld [wMissableObjectIndex], a
+	predef ShowObject
 	ld a, $2
 	ld [wHallOfFameCurScript], a
 	ret
