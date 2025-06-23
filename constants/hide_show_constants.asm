@@ -263,4 +263,6 @@ DEF SHOW EQU $15
 	const HS_VICTORY_ROAD_3F_BOULDER       ; 7A
 	const HS_MOLTRES                       ; 5B X
 	const HS_VICTORY_ROAD_NEPTO_JEWEL       ; 7A
+	const HS_FARFROMTILE_1
+	const HS_FARFROMTILE_2
 DEF NUM_HS_OBJECTS EQU const_value

@@ -184,7 +184,6 @@ INCLUDE "text/CeladonMart3F.asm"
 INCLUDE "text/CeladonMart4F.asm"
 INCLUDE "text/CeladonMartRoof.asm"
 INCLUDE "text/CeladonMansion1F.asm"
-INCLUDE "text/CeladonMansion2F.asm"
 INCLUDE "text/CeladonMansion3F.asm"
 INCLUDE "text/CeladonMansionRoofHouse.asm"
 INCLUDE "text/CeladonPokecenter.asm"
@@ -306,6 +305,7 @@ INCLUDE "text/SSAnne3F.asm"
 INCLUDE "text/Route7Gate.asm"
 INCLUDE "text/VictoryRoad3F.asm"
 INCLUDE "text/SSAnneB1FRooms.asm"
+INCLUDE "text/CeladonMansion2F.asm"
 
 SECTION "Pokédex Text", ROMX
 

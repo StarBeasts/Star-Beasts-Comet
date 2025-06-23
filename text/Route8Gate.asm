@@ -95,4 +95,14 @@ _Route8GateAfterBattleText1::
 	line "STUCK HERE"
 
 	para "FIDDLESTICKS"
+
+	para "OH YEAH BTW"
+
+	para "I'M NOT REALLY"
+	line "DOING THE WHOLE"
+	cont "REMATCH THING"
+
+	para "IF YOU BEAT ME,"
+	line "YOU'RE PROBABLY"
+	cont "DONE, DUDE."
 	done

@@ -82,7 +82,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw PurpleForestHS
-	dw NoHS
+	dw Route8GateHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -607,5 +607,8 @@ RockTunnelB1FHS:
 	db ROCK_TUNNEL_B1F, $09, SHOW
 VictoryRoad3FHS:
 	db VICTORY_ROAD_3F, $01, SHOW
+Route8GateHS:
+	db ROUTE_8_GATE, $01, SHOW
+	db ROUTE_8_GATE, $02, HIDE
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

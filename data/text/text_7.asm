@@ -233,7 +233,7 @@ _AfterTrade4Text::
 
 	para "I found that poor"
 	line "little CLIMPALE"
-	cont "on the beach one"
+	cont "on the shore one"
 	cont "day, and I gave"
 	cont "it my wife's"
 	cont "name in her"
