@@ -64,8 +64,8 @@ YoungsterData:
 	db 4, SPEAROW, 0
 ; Mt. Moon 1F
 	db 9, PSYDUCK, VOLTORB, ZUBAT, 0
-; Route 24
-	db 14, PSYDUCK, EKANS, VOLTORB, 0
+; Bridge Brigade
+	db 19, PSYDUCK, EKANS, VOLTORB, 0
 ; Route 25
 	db 15, KRABBY, VOLTORB, 0
 	db 17, SLOWPOKE, 0
@@ -122,8 +122,8 @@ LassData:
 ; Route 25
 	db 15, NIDORAN_M, NIDORAN_F, 0
 	db 13, BELLSPROUT, BULBASAUR, 0
-; SS Anne 1F Rooms
-	db 18, SPEAROW, BELLSPROUT, 0
+; Bridge Brigade
+	db 21, PIKACHU, BELLSPROUT, 0
 ; SS Anne 2F Rooms
 	db 18, NIDORAN_M, PIKACHU, 0
 ; Route 8
@@ -181,7 +181,7 @@ JrTrainerFData:
 	db 23, WEEPINBELL, 0
 ; Route 10
 	db 20, PIKACHU, SEAKING, 0
-	db 21, EEVEE, PIDGEOTTO, 0
+	db 21, EEVEE, RATICATE, 0
 ; Rock Tunnel B1F
 	db 21, BELLSPROUT, PIDGEY, MEOWTH, 0
 	db 22, ODDISH, BULBASAUR, 0
@@ -207,9 +207,9 @@ JrTrainerFData:
 	db 30, NIDORINO, TANGELA, SEEL, 0
 
 PokemaniacData:
-; Route 10
+; Bridge Brigade, second one
 	db 30, RHYHORN, KOFFING, 0
-	db 20, SCYTHER, EEVEE, 0
+	db 20, NIDORINO, 0
 ; Rock Tunnel B1F
 	db 20, SLOWPOKE, SPEAROW, SANDSHREW, 0
 	db 22, CHARMANDER, OMANYTE, 0
