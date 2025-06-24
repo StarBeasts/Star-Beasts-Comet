@@ -18,7 +18,6 @@ INCLUDE "text/IndigoPlateau.asm"
 INCLUDE "text/RocketHideoutB1F.asm"
 INCLUDE "text/RocketHideoutB2F.asm"
 INCLUDE "text/RocketHideoutB3F.asm"
-INCLUDE "text/RocketHideoutB4F.asm"
 INCLUDE "text/RocketHideoutElevator.asm"
 INCLUDE "text/SilphCo2F.asm"
 INCLUDE "text/SilphCo3F.asm"
@@ -306,6 +305,7 @@ INCLUDE "text/Route7Gate.asm"
 INCLUDE "text/VictoryRoad3F.asm"
 INCLUDE "text/SSAnneB1FRooms.asm"
 INCLUDE "text/CeladonMansion2F.asm"
+INCLUDE "text/RocketHideoutB4F.asm"
 
 SECTION "Pokédex Text", ROMX
 

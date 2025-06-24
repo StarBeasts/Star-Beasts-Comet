@@ -48,19 +48,22 @@ _RocketHideout1AfterBattleTxt4::
 	done
 
 _RocketHideout1BattleText5::
-	text "Set loose the"
-	line "hounds!"
+	text "Fall to my feline"
+	line "ferocity!"
 	done
 
 _RocketHideout1EndBattleText5::
 	text "No more!"
-	line "No more!"
+	line "I yield! I yield!"
 	prompt
 
 _RocketHideout1AfterBattleTxt5::
 	text "Stop, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	line "The CYBERSCOPE is"
+	cont "in the ritual"
+	cont "chamber, at the"
+	cont "deepest part of"
+	cont "the MEADOW!"
 	done
 
 _RocketHideout1BattleText6::
@@ -68,6 +71,9 @@ _RocketHideout1BattleText6::
 	line "is breath in my"
 	cont "body, you shall"
 	cont "not pass!"
+
+	para "WESPE! Show this"
+	line "fool the exit!"
 	done
 
 _RocketHideout1AfterBattleTxt6::
