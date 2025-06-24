@@ -225,7 +225,7 @@ EraseMenuCursor::
 HandleDownArrowBlinkTiming::
 	ld a, [hl]
 	ld b, a
-	ld a, "▼"
+	ld a, "<A_TEXT>"
 	cp b
 	jr nz, .downArrowOff
 .downArrowOn
@@ -259,7 +259,7 @@ HandleDownArrowBlinkTiming::
 	ret nz
 	ld a, $06
 	ldh [hDownArrowBlinkCount2], a
-	ld a, "▼"
+	ld a, "<A_TEXT>"
 	ld [hl], a
 	ret
 
