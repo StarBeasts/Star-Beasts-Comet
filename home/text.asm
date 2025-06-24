@@ -179,7 +179,7 @@ RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "STAR@"
 SixDotsCharText:: db "……@"
 EnemyText::       db "Enemy @"
-PlacePKMNText::   db "<PK><MN>@"
+PlacePKMNText::   db "SB@"
 
 ContText::
 	push de
@@ -206,7 +206,7 @@ PromptText::
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	jp z, .ok
-	ld a, "▼"
+	ld a, "<A_TEXT>"
 	ldcoord_a 18, 16
 .ok
 	call ProtectedDelay3
@@ -225,7 +225,7 @@ DoneText::
 
 Paragraph::
 	push de
-	ld a, "▼"
+	ld a, "<A_TEXT>"
 	ldcoord_a 18, 16
 	call ProtectedDelay3
 	call ManualTextScroll
@@ -240,7 +240,7 @@ Paragraph::
 
 PageChar::
 	push de
-	ld a, "▼"
+	ld a, "<A_TEXT>"
 	ldcoord_a 18, 16
 	call ProtectedDelay3
 	call ManualTextScroll
@@ -256,7 +256,7 @@ PageChar::
 	jp NextChar
 
 _ContText::
-	ld a, "▼"
+	ld a, "<A_TEXT>"
 	ldcoord_a 18, 16
 	call ProtectedDelay3
 	push de
@@ -432,7 +432,7 @@ TextCommand_PROMPT_BUTTON::
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	jp z, TextCommand_WAIT_BUTTON
-	ld a, "▼"
+	ld a, "<A_TEXT>"
 	ldcoord_a 18, 16 ; place down arrow in lower right corner of dialogue text box
 	push bc
 	call ManualTextScroll ; blink arrow and wait for A or B to be pressed

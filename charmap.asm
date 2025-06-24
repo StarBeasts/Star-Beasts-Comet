@@ -159,8 +159,7 @@
 	charmap "'v",        $bf
 
 	charmap "'",         $e0
-	charmap "<PK>",      $e1
-	charmap "<MN>",      $e2
+	charmap "<A_TEXT>",  $e1
 	charmap "-",         $e3
 
 	charmap "'r",        $e4
