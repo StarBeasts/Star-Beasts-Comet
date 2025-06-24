@@ -10,8 +10,8 @@ _RocketHideout3EndBattleText2::
 	text "Oof!"
 	line "If the BOSS"
 	cont "couldn't beat you,"
-	cont "what chance did"
-	cont "I have?"
+	cont "what chance"
+	cont "did I have?"
 	prompt
 
 _RocketHideout3AfterBattleTxt2::
@@ -24,7 +24,7 @@ _RocketHideout3AfterBattleTxt2::
 
 	para "No clue what they"
 	line "want it for, but"
-	cont "their leader's"
+	cont "their LEADER's"
 	cont "a real piece of"
 	cont "work, so I guess"
 	cont "they're keepin' it."

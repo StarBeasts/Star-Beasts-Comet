@@ -640,7 +640,10 @@ RocketData:
 	db 21, DROWZEE, EKANS, 0
 ; Silph Co. 11F
 	db 25, GOLBAT, PSYDUCK, ELECTRODE, GOLDUCK, ARBOK, 0
-	db 32, CUBONE, DROWZEE, MAROWAK, 0
+; Miserite Rockets
+	db 24, DROWZEE, ELECTRODE, 0
+	db 26, TANGELA, NIDORAN_F, 0
+
 
 CooltrainerMData:
 ; Viridian Gym
