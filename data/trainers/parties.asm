@@ -225,7 +225,7 @@ SuperNerdData:
 ; Mt. Moon 1F
 	db 9, PSYDUCK, VOLTORB, 0
 ; Mt. Moon B2F
-	db 13, DEWGONG, VOLTORB, STARYU, 0
+	db 14, DEWGONG, VOLTORB, STARYU, 0
 ; Route 8
 	db 20, VOLTORB, LICKITUNG, EEVEE, MAGNEMITE, 0
 	db 22, DEWGONG, DIGLETT, KRABBY, 0
@@ -582,9 +582,9 @@ GiovanniData:
 
 RocketData:
 ; Mt. Moon B2F
-	db 14, PARAS, VOLTORB, 0
+	db 12, PARAS, VOLTORB, 0
+	db 9, ZUBAT, NIDORAN_M, 0
 	db 13, SANDSHREW, PSYDUCK, NIDORAN_F, 0
-	db 13, ZUBAT, EKANS, 0
 	db 15, NIDORAN_M, 0
 ; Cerulean City
 	db 17, NIDORINO, NIDORAN_F, 0

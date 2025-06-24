@@ -76,21 +76,22 @@ _MtMoon3AfterBattleText2::
 	done
 
 _MtMoon3BattleText3::
-	text "We, TEAM ROCKET,"
-	line "are # BEAST"
-	cont "gangsters!"
+	text "Suspicious men"
+	line "are in the cave."
+	cont "What about you?"
 	done
 
 _MtMoon3EndBattleText3::
-	text "I blew"
-	line "it!"
+	text "You"
+	line "got me!"
 	prompt
 
 _MtMoon3AfterBattleText3::
-	text "Damn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "I saw them! I'm"
+	line "sure they're from"
+	cont "TEAM ROCKET!"
 	done
+
 
 _MtMoon3BattleText4::
 	text "We're pulling a"
