@@ -14,7 +14,7 @@ Music:
 	dba Music_Lavender
 	dba Music_Obla ; loops semi-properly
 	dba Music_MuseumGuy
-	dba Music_MeetRival
+	dba Music_Alex
 	dba Music_SurfingPikachu
 	dba Music_CardPop
 	dba Music_PkmnHealed
@@ -88,4 +88,6 @@ Music:
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 	dba Music_MobileAdapterMenu
+	dba Music_RocketTheme
+	dba Music_QuartzQuarry
 

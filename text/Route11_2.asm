@@ -41,5 +41,5 @@ _Route11Text11::
 	done
 
 _Route11Text12::
-	text "CRACTURE CHASM"
+	text "RANGER STATION"
 	done

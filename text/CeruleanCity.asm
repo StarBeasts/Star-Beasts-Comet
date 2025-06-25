@@ -25,7 +25,7 @@ _CeruleanCityText_1966d::
 _CeruleanCityText_19672::
 	text "Heh!"
 	line "You're no match"
-	cont "for my genius!"
+	cont "for my skills!"
 	prompt
 
 _CeruleanCityText_19677::
@@ -33,8 +33,12 @@ _CeruleanCityText_19677::
 	line "guess what?"
 
 	para "There's this guy"
-	line "up on the cape"
-	cont "that got turned"
+	line "up the road that"
+	cont "lives in this"
+	cont "building full of"
+	cont "fancy equipment,"
+	cont "and, get this,"
+	cont "he turned himself"
 	cont "into a BEAST!"
 
 	para "He kept saying"

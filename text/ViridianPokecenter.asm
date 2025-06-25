@@ -19,8 +19,8 @@ _ViridianPokeCenterText4::
 	text "My boy friend"
 	line "JUSTIN works at"
 	cont "the BEAST MART,"
-	cont "on the west"
-	cont "side of town!"
+	cont "in the building"
+	cont "behind this one!"
 	done
 
 _ViridianPokeCenterText5::

@@ -34,3 +34,22 @@ _Route15GateText2::
 	line "the PSYCHICs sure"
 	cont "are mad about it."
 	done
+
+_Route15GateText3::
+	text "STEVE's a true"
+	line "visionary!"
+
+	para "He created the"
+	line "operating system"
+	cont "for all the PCs"
+	cont "we use, and did"
+	cont "a lot of work on"
+	cont "the BEAST BOX"
+	cont "storage system!"
+
+	para "What a guy..."
+	done
+
+_Route15GateText4::
+	text "SLIMOGG: Bow-woww!@"
+	text_end

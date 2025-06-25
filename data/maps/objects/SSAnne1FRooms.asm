@@ -12,10 +12,10 @@ SSAnne1FRooms_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  2, 14, SPRITE_GENTLEMAN, STAY, LEFT, 1, OPP_GENTLEMAN, 1
+	object_event  2, 14, SPRITE_ROCKET, STAY, LEFT, 1, OPP_ROCKET, 16
 	object_event 10,  2, SPRITE_GENTLEMAN, STAY, DOWN, 2, OPP_GENTLEMAN, 2
-	object_event 22, 14, SPRITE_YOUNGSTER, STAY, LEFT, 3, OPP_YOUNGSTER, 8
-	object_event 10, 12, SPRITE_COOLTRAINER_F, STAY, DOWN, 4, OPP_LASS, 11
+	object_event 22, 14, SPRITE_ROCKET, STAY, LEFT, 3, OPP_ROCKET, 18
+	object_event 10, 12, SPRITE_ROCKET, STAY, DOWN, 4, OPP_ROCKET, 17
 	object_event 21, 11, SPRITE_GIRL, STAY, DOWN, 5 ; person
 	object_event  0, 11, SPRITE_MIDDLE_AGED_MAN, STAY, NONE, 6 ; person
 	object_event  1, 11, SPRITE_LITTLE_GIRL, STAY, DOWN, 7 ; person

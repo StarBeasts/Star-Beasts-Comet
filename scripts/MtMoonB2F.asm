@@ -19,22 +19,22 @@ MtMoonB2F_Script:
 	ret
 
 CoordsData_49d37:
-	dbmapcoord 11,  5
-	dbmapcoord 12,  5
-	dbmapcoord 13,  5
-	dbmapcoord 14,  5
-	dbmapcoord 11,  6
-	dbmapcoord 12,  6
-	dbmapcoord 13,  6
-	dbmapcoord 14,  6
-	dbmapcoord 11,  7
-	dbmapcoord 12,  7
-	dbmapcoord 13,  7
-	dbmapcoord 14,  7
-	dbmapcoord 11,  8
-	dbmapcoord 12,  8
-	dbmapcoord 13,  8
-	dbmapcoord 14,  8
+	dbmapcoord 17,  16
+	dbmapcoord 18,  16
+	dbmapcoord 19,  16
+	dbmapcoord 20,  16
+	dbmapcoord 17,  17
+	dbmapcoord 18,  17
+	dbmapcoord 19,  17
+	dbmapcoord 20,  17
+	dbmapcoord 17,  18
+	dbmapcoord 18, 18
+	dbmapcoord 19,  18
+	dbmapcoord 20,  18
+	dbmapcoord 17,  19
+	dbmapcoord 18,  19
+	dbmapcoord 19,  19
+	dbmapcoord 20,  19
 	db -1 ; end
 
 MtMoon3Script_49d58:
@@ -56,13 +56,15 @@ MtMoon3Script0:
 	CheckEvent EVENT_BEAT_MT_MOON_EXIT_SUPER_NERD
 	jp nz, MtMoon3Script_49d91
 	ld a, [wYCoord]
-	cp 8
+	cp 18
 	jp nz, MtMoon3Script_49d91
 	ld a, [wXCoord]
-	cp 13
+	cp 19
 	jp nz, MtMoon3Script_49d91
 	xor a
 	ldh [hJoyHeld], a
+	ld a, PLAYER_DIR_LEFT
+	ld [wPlayerMovingDirection], a
 	ld a, $1
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
@@ -110,16 +112,15 @@ MtMoon3Script4:
 	ret
 
 CoordsData_49dea:
-	dbmapcoord 12,  7
-	dbmapcoord 11,  6
-	dbmapcoord 12,  5
+	dbmapcoord 18,  17
+	dbmapcoord 17,  16
+	dbmapcoord 18,  15
 	db -1 ; end
 
 CoordsData_49df1:
-	dbmapcoord 13,  7
-	dbmapcoord 13,  5
-	dbmapcoord 14,  6
-	dbmapcoord 14,  5
+	dbmapcoord 19,  17
+	dbmapcoord 20,  16
+	dbmapcoord 19,  15
 	db -1 ; end
 
 MovementData_49df8:

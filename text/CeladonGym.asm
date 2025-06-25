@@ -70,7 +70,7 @@ _ErikaRainbowBadgeInfoText::
 
 	para "It also allows"
 	line "BEASTS to use"
-	cont "STRENGTH in and"
+	cont "MUSCLE in and"
 	cont "out of battle."
 
 	para "Show 'em how"

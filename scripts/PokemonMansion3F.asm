@@ -16,18 +16,18 @@ Mansion3Script_52204:
 	CheckEvent EVENT_MANSION_SWITCH_ON
 	jr nz, .asm_52224
 	ld a, $e
-	lb bc, 2, 7
+	lb bc, 6, 13
 	call Mansion2Script_5202f
-	ld a, $5f
-	lb bc, 5, 7
+	ld a, $e
+	lb bc, 2, 7
 	call Mansion2Script_5202f
 	ret
 .asm_52224
+	ld a, $2d
+	lb bc, 6, 13
+	call Mansion2Script_5202f
 	ld a, $5f
 	lb bc, 2, 7
-	call Mansion2Script_5202f
-	ld a, $e
-	lb bc, 5, 7
 	call Mansion2Script_5202f
 	ret
 

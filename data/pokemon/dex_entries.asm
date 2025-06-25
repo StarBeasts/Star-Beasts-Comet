@@ -1142,7 +1142,7 @@ RapidashDexEntry:
 	text_end
 
 RattataDexEntry:
-	db "ANTHRAXIAN@"
+	db "WINGRABBIT@"
 	db 1,7
 	dw 333
 	text_far _RattataDexEntry

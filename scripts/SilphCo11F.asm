@@ -20,7 +20,7 @@ SilphCo11Script_62110:
 	ret nz
 	ld a, $20
 	ld [wNewTileBlockID], a
-	lb bc, 6, 3
+	lb bc, 36, 33
 	predef_jump ReplaceTileBlock
 
 SilphCo11GateCoords:
@@ -135,11 +135,6 @@ MissableObjectIDs_6219b:
 	db HS_SILPH_CO_8F_1
 	db HS_SILPH_CO_8F_2
 	db HS_SILPH_CO_8F_3
-	db HS_SILPH_CO_9F_1
-	db HS_SILPH_CO_9F_2
-	db HS_SILPH_CO_9F_3
-	db HS_SILPH_CO_10F_1
-	db HS_SILPH_CO_10F_2
 	db HS_SILPH_CO_11F_1
 	db HS_SILPH_CO_11F_2
 	db HS_SILPH_CO_11F_3

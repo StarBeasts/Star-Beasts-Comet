@@ -1,83 +1,59 @@
 _RangerStation1Text1::
-	text "The girl turns"
-	line "towards you and"
-	cont "tries to speak,"
+	text "I'm a SENTRY."
 	
-	para "but..."
-
-	para "all you hear"
-	
-	para "is static."
+	para "Since we're the"
+	line "biggest civil"
+	cont "protection group"
+	cont "in RELAS, we're a"
+	cont "prime target for"
+	cont "bad guys, so I"
+	cont "always have to"
+	cont "be on the lookout!"
 	done
 
 _RangerStation1Text2::
-	text "The sign speaks!"
-
-	para "SIGN: HURRY!"
-
-	para "RUN! GET OUT"
-	line "OF HERE NOW!"
-	
-	para "NOW, WHILE YOU"
-	line "STILL CAN!"
-
-	para "..."
-
-	para "That's not a"
-	line "good sign."
+	text "We're supposed"
+	line "to check if"
+	cont "new people have"
+	cont "BADGES before we"
+	cont "let them use our"
+	cont "facilities, but"
+	cont "most people that"
+	cont "drop in these"
+	cont "days have them"
+	cont "anyway, so..."
 	done
 
 _RangerStation1Text3::
-	text "A dark red"
-	line "liquid oozes out"
-	cont "of the hole in"
-	cont "the sign..."
+	text "If you don't have"
+	line "a RANGER MEDAL,"
+	cont "you can't get"
+	cont "into our main"
+	cont "building."
 
-	para "It looks and"
-	line "smells an awful"
-	cont "lot like..."
+	para "If you're looking"
+	line "for help with a"
+	cont "civil dispute,"
+	cont "take it up with"
+	cont "the OFFICERS in"
+	cont "PERIDOT PRECINCT."
 
-	para "..."
-	
-	para "You have to get"
-	line "out of here."
-
-	para "NOW."
+	para "You have a real"
+	line "good day, y'hear?"
 	done
 
 _RangerStation1Text4::
-	text "The inside of"
-	line "this house doesn't"
-	cont "make sense..."
-	done
-
-_RangerStation1Text5::
-	text "The sign pulsates"
-	line "in and out, like"
-	cont "a human heart."
-
-	para "You resist the"
-	line "urge to touch it."
-
-	para "Better not."
-	done
-
-_RangerStation1Text6::
-	text "..."
-
-	para "Shouldn't there"
-	line "be a door, here?"
-
-	para "You felt uneasy..."
+	text "RANGER STATION"
+	line "RELAS BRANCH"
 	done
 
 _RangerStation1Text7::
-	text "You reluctantly"
-	line "looked inside..."
-
-	para "It looks like..."
-
-	para "A toy store...?"
+	text "NOTICE: RANGER"
+	line "MART and #"
+	cont "BEAST CENTER are"
+	cont "open to any"
+	cont "licensed trainers"
+	cont "or RANGERs."
 	done
 
 

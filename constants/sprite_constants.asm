@@ -85,6 +85,7 @@
 	const SPRITE_REMNANT
 	const SPRITE_DRAGON
 	const SPRITE_FAR_FROM_TILE
+	const SPRITE_SCIENTIST_DEAD
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e
@@ -113,6 +114,6 @@ DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_FROZEN_ROCKET
 	const SPRITE_GUITAR
 	const SPRITE_RUINED_SIGN
-
+	const SPRITE_COFFEE
 
 DEF NUM_SPRITES EQU const_value - 1

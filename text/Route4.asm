@@ -20,12 +20,12 @@ _Route4Text1::
 
 _Route4BattleText1::
 	text "Look at my"
-	line "burning BEASTS!"
+	line "burning BEAST!"
 	done
 
 _Route4EndBattleText1::
 	text "My fabulous"
-	line "burning BEASTS!"
+	line "burning BEAST!"
 	prompt
 
 _Route4AfterBattleText1::

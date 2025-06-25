@@ -6,8 +6,8 @@ RangerStation_TextPointers:
 	dw RangerStation1Text2
 	dw RangerStation1Text3
 	dw RangerStation1Text4
-	dw RangerStation1Text5
-	dw RangerStation1Text6
+	dw MartSignText
+	dw PokeCenterSignText
 	dw RangerStation1Text7
 
 
@@ -25,14 +25,6 @@ RangerStation1Text3:
 
 RangerStation1Text4:
 	text_far _RangerStation1Text4
-	text_end
-
-RangerStation1Text5:
-	text_far _RangerStation1Text5
-	text_end
-
-RangerStation1Text6:
-	text_far _RangerStation1Text6
 	text_end
 
 RangerStation1Text7:

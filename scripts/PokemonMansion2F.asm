@@ -15,25 +15,25 @@ Mansion2Script_51fee:
 	ret z
 	CheckEvent EVENT_MANSION_SWITCH_ON
 	jr nz, .asm_52016
-	ld a, $e
+	ld a, $5f
 	lb bc, 2, 4
 	call Mansion2Script_5202f
 	ld a, $54
 	lb bc, 4, 9
 	call Mansion2Script_5202f
 	ld a, $5f
-	lb bc, 11, 3
+	lb bc, 33, 33
 	call Mansion2Script_5202f
 	ret
 .asm_52016
-	ld a, $5f
+	ld a, $e
 	lb bc, 2, 4
 	call Mansion2Script_5202f
 	ld a, $e
 	lb bc, 4, 9
 	call Mansion2Script_5202f
 	ld a, $e
-	lb bc, 11, 3
+	lb bc, 33, 33
 	call Mansion2Script_5202f
 	ret
 
@@ -47,7 +47,7 @@ Mansion2Script_Switches::
 	ret nz
 	xor a
 	ldh [hJoyHeld], a
-	ld a, $5
+	ld a, $8
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
 
@@ -62,11 +62,15 @@ PokemonMansion2F_TextPointers:
 	dw Mansion2Text3
 	dw Mansion2Text4
 	dw Mansion2Text5
+	dw Mansion2Text6
+	dw Mansion2Text7
+	dw Mansion2Text8
+
 
 Mansion2TrainerHeaders:
 	def_trainers
 Mansion2TrainerHeader0:
-	trainer EVENT_BEAT_MANSION_2_TRAINER_0, 0, Mansion2BattleText1, Mansion2EndBattleText1, Mansion2AfterBattleText1
+	trainer EVENT_BEAT_MANSION_2_TRAINER_0, 2, Mansion2BattleText1, Mansion2EndBattleText1, Mansion2AfterBattleText1
 	db -1 ; end
 
 Mansion2Text1:
@@ -95,8 +99,20 @@ Mansion2Text4:
 	text_far _Mansion2Text4
 	text_end
 
-Mansion3Text6:
 Mansion2Text5:
+	text_far _Mansion2Text5
+	text_end
+
+Mansion2Text6:
+	text_far _Mansion2Text6
+	text_end
+
+Mansion2Text7:
+	text_far _Mansion2Text7
+	text_end
+
+Mansion3Text6:
+Mansion2Text8:
 	text_asm
 	ld hl, Mansion2Text_520c2
 	call PrintText

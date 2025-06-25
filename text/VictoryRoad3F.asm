@@ -1,63 +1,23 @@
-_VictoryRoad3BattleText2::
-	text "I heard rumors of"
-	line "a child prodigy!"
+_VictoryRoad3Text1::
+	text "!"
 	done
 
-_VictoryRoad3EndBattleText2::
-	text "The"
-	line "rumors were true!"
-	prompt
-
-_VictoryRoad3AfterBattleText2::
-	text "You beat LUCIAN"
-	line "of TEAM ROCKET?"
+_VictoryRoad3Text2::
+	text "It's a statue of"
+	line "a DRAGON. The"
+	cont "eyes appear to"
+	cont "be made out of"
+	cont "odd red gemstones."
 	done
 
-_VictoryRoad3BattleText3::
-	text "I'll show you just"
-	line "how good you are!"
-	done
+_VictoryRoad3Text3::
+	text "It's a statue of"
+	line "a DRAGON. Its"
+	cont "eye appears to"
+	cont "be made out of an"
+	cont "odd red gemstone."
 
-_VictoryRoad3EndBattleText3::
-	text "I'm"
-	line "furious!"
-	prompt
-
-_VictoryRoad3AfterBattleText3::
-	text "You showed me just"
-	line "how good I was!"
-	done
-
-_VictoryRoad3BattleText4::
-	text "Only the chosen"
-	line "can pass here!"
-	done
-
-_VictoryRoad3EndBattleText4::
-	text "I"
-	line "don't believe it!"
-	prompt
-
-_VictoryRoad3AfterBattleText4::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#BEAST LEAGUE!"
-	cont "Be careful!"
-	done
-
-_VictoryRoad3BattleText5::
-	text "Trainers live for"
-	line "the thrill of"
-	cont "combat!"
-	done
-
-_VictoryRoad3EndBattleText5::
-	text "Oh!"
-	line "So strong!"
-	prompt
-
-_VictoryRoad3AfterBattleText5::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	para "Its other eye"
+	line "seems to have"
+	cont "fallen out..."
 	done

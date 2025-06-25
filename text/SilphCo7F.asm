@@ -1,12 +1,46 @@
 _MeetLaprasGuyText::
-	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
-	cont "came to save us?"
-	cont "Why, thank you!"
+	text "Oh! Hi! Are you"
+	line "friend or foe?"
 
-	para "I want you to"
-	line "have this BEAST"
-	cont "for saving us."
+	para "Friend? Oh, thank"
+	line "goodness..."
+
+	para "Were you with that"
+	line "guy? He came to"
+	cont "save us from the"
+	cont "ROCKETs!"
+
+	para "You didn't, but"
+	line "you're still here"
+	cont "to help?"
+
+	para "Well, he scared"
+	line "off most of them,"
+	cont "already..."
+
+	para "But we have a"
+	line "bigger problem!"
+
+	para "TEAM ROCKET's"
+	line "BOSS went to"
+	cont "RED GOLD REEF"
+	cont "to seize our"
+	cont "main # BALL"
+	cont "RESEARCH CENTER."
+
+	para "It's on an"
+	line "island to the"
+	cont "south of here."
+
+	para "You'll need to"
+	line "SURF to get"
+	cont "there."
+
+	para "Here, take this"
+	line "# BEAST."
+
+	para "It'll help you"
+	line "get there."
 	prompt
 
 _HeresYourLaprasText::
@@ -18,25 +52,34 @@ _HeresYourLaprasText::
 	cont "be much better"
 	cont "off with you!"
 
-	para "I think you will"
-	line "be a good trainer"
-	cont "for NOCEAN!"
-
-	para "It's a good"
-	line "transport. It'll"
-	cont "give you a lift!"
+	para "If you can save"
+	line "DR. ROSENTHAL,"
+	cont "the head of the"
+	cont "RESEARCH TEAM,"
+	cont "it's yours to keep."
 	done
 
 _LaprasGuyText::
 	text "TEAM ROCKET's"
-	line "BOSS went to the"
-	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	line "BOSS is at RED"
+	cont "GOLD REEF!"
+
+	para "You can find it"
+	line "between FELDSPAR"
+	cont "and PERIDOT!"
+
+	para "You need to hurry,"
+	line "before they steal"
+	cont "more classified"
+	cont "documents!" 
 	done
 
 _LaprasGuySavedText::
-	text "Saved at last!"
-	line "Thank you!"
+	text "I hope your"
+	line "parents are"
+	cont "proud that they"
+	cont "raised a hero"
+	cont "like you."
 	done
 
 _SilphCo7Text_51e00::

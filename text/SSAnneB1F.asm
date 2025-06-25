@@ -1,17 +1,15 @@
 _SSAnneB1FText1::
-	text "Oouurgghh..."
+	text "Damnit..."
 
-	para "I wouldn't go in"
-	line "there if I was"
-	cont "you, kid."
+	para "I got outfoxed"
+	line "by one of the"
+	cont "cooking crew..."
 
-	para "The guy in there"
-	line "is REALLY tough,"
-	cont "and he's set up"
-	cont "dis trap where"
-	cont "he jumps people"
-	cont "and takes half of"
-	cont "their money..."
+	para "I took him for"
+	line "easy pickings,"
+	cont "and then HE jumps"
+	cont "ME and takes MY"
+	cont "hard-earned loot!"
 
 	para "Take my advice,"
 	line "whatever he's got"

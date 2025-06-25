@@ -3,7 +3,7 @@ VermilionCity_Object:
 
 	def_warp_events
 	warp_event 31,  7, VERMILION_POKECENTER, 1
-	warp_event 13,  7, POKEMON_FAN_CLUB, 1
+	warp_event 17,  7, POKEMON_FAN_CLUB, 1
 	warp_event  9, 19, VERMILION_MART, 1
 	warp_event 14, 13, VERMILION_GYM, 1
 	warp_event 43, 11, VERMILION_PIDGEY_HOUSE, 1
@@ -20,11 +20,12 @@ VermilionCity_Object:
 	bg_event 37,  7,  8 ; VermilionCityText8
 	bg_event 10, 19,  9 ; MartSignText
 	bg_event 32,  7, 10 ; PokeCenterSignText
-	bg_event 11,  7, 11 ; VermilionCityText11
+	bg_event 15,  7, 11 ; VermilionCityText11
 	bg_event 17, 13, 12 ; VermilionCityText12
 	bg_event 25, 13, 13 ; VermilionCityText13
 	bg_event  3, 13, 14 ; VermilionCityText14
 	bg_event 23, 5, 15 ; VermilionCityText15
+	bg_event 11,  5, 16 ; VermilionCityText15
 
 	def_object_events
 	object_event 25, 10, SPRITE_BEAUTY, WALK, LEFT_RIGHT, 1 ; person

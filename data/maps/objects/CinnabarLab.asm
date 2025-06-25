@@ -21,12 +21,32 @@ CinnabarLab_Object:
 
 
 	def_bg_events
-	bg_event  3, 30, 2 ; Lab1Text2
-	bg_event  5, 20, 3 ; Lab1Text3
-	bg_event  5, 10, 4 ; Lab1Text4
-	bg_event  5,  0, 5 ; Lab1Text5
+	bg_event  3, 30, 12 ; Lab1Text2
+	bg_event  5, 20, 13 ; Lab1Text3
+	bg_event  5, 10, 14 ; Lab1Text4
+	bg_event  5,  0, 15 ; Lab1Text5
+	bg_event  50, 30, 16 ; Lab1Text5
+	bg_event  54, 30, 16 ; Lab1Text5
+	bg_event  48, 32, 16 ; Lab1Text5
+	bg_event  50, 32, 16 ; Lab1Text5
+	bg_event  49, 30, 17 ; Lab1Text5
+	bg_event  21, 0, 18 ; Lab1Text5
+	bg_event  39, 0, 19 ; Lab1Text5
+	bg_event  65, 28, 20 ; Lab1Text5
+	bg_event  22, 29, 21 ; Lab1Text5
+	bg_event  54, 32, 22 ; Lab1Text5
 
 	def_object_events
 	object_event  2, 31, SPRITE_FISHING_GURU, STAY, NONE, 1 ; person
+	object_event  37, 30, SPRITE_ERIKA, STAY, NONE, 2 ; person
+	object_event  37, 33, SPRITE_SCIENTIST, STAY, NONE, 3 ; person
+	object_event  39, 33, SPRITE_BEAUTY, STAY, UP, 4 ; person
+	object_event  27, 30, SPRITE_SCIENTIST, STAY, DOWN, 5 ; person
+	object_event  22, 31, SPRITE_SCIENTIST, WALK, LEFT_RIGHT, 6 ; person
+	object_event  20, 33, SPRITE_SCIENTIST, STAY, UP, 7 ; person
+	object_event  28, 5, SPRITE_GUARD, STAY, UP, 8 ; person
+	object_event  63, 29, SPRITE_FISHING_GURU, STAY, DOWN, 9 ; person
+	object_event  48, 31, SPRITE_SCIENTIST, STAY, UP, 10 ; person
+	object_event  11, 22, SPRITE_SCIENTIST, STAY, DOWN, 11 ; person
 
 	def_warps_to CINNABAR_LAB

@@ -6,7 +6,7 @@ _Route1ViridianMartSampleText::
 	para "It's a convenient"
 	line "shop, so please"
 	cont "visit us in"
-	cont "EMERALD ACRES."
+	cont "AMETHYST AVENUE."
 
 	para "But first, you'll"
 	line "have to go into"
@@ -58,11 +58,25 @@ _Route1Text2::
 	line "go to the right"
 	cont "of me and give"
 	cont "it a try?"
-	
-
 	done
 
 _Route1Text3::
+	text "A bunch of"
+	line "guys in weird"
+	cont "outfits went"
+	cont "through here"
+	cont "a while ago,"
+	cont "muttering about"
+	cont "rockets or"
+	cont "something..."
+
+	para "They seemed"
+	line "like trouble,"
+	cont "you ask me!"
+	done
+
+
+_Route1Text4::
 	text "ROUTE 1"
 	line "ZIRCONIA -"
 	cont "OLIVINE ORCHARD"
@@ -70,7 +84,7 @@ _Route1Text3::
 	para "WEST: LEGRANDITO"
 	done
 
-_Route1Text4::
+_Route1Text5::
 	text "OLIVINE ORCHARD"
 	done
 

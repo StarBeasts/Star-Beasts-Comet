@@ -52,7 +52,7 @@ _ReceivedHM04Text::
 
 _HM04ExplanationText::
 	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	line "teaches MUSCLE!"
 
 	para "It lets BEASTS"
 	line "move boulders"
@@ -86,7 +86,7 @@ _FuchsiaHouse2Text4::
 
 _FuchsiaHouse2Text5::
 	text "Hmm? You've met"
-	line "BILL?"
+	line "STEVE?"
 
 	para "He's my grandson!"
 
@@ -96,7 +96,7 @@ _FuchsiaHouse2Text5::
 	done
 
 _FuchsiaHouse2Text6::
-	text "BILL files his"
+	text "STEVE files his"
 	line "own BEAST data"
 	cont "on his PC!"
 

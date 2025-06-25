@@ -53,7 +53,6 @@ Route22RivalMovementData:
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
 	db -1 ; end
 
 Route22Script0:
@@ -77,8 +76,8 @@ Route22Script0:
 	ret
 
 .Route22RivalBattleCoords
-	dbmapcoord 29,  4
-	dbmapcoord 29,  5
+	dbmapcoord 28,  13
+	dbmapcoord 28,  12
 	db -1 ; end
 
 .firstRivalBattle
@@ -111,9 +110,9 @@ Route22Script1:
 	ld a, [wcf0d]
 	cp $1
 	jr nz, .asm_50f78
-	ld a, PLAYER_DIR_DOWN
+	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
-	ld a, SPRITE_FACING_UP
+	ld a, SPRITE_FACING_DOWN
 	jr .asm_50f7a
 .asm_50f78
 	ld a, SPRITE_FACING_RIGHT
@@ -156,13 +155,13 @@ Route22Script2:
 	ld a, [wSpritePlayerStateData1FacingDirection]
 	and a ; cp SPRITE_FACING_DOWN
 	jr nz, .notDown
-	ld a, SPRITE_FACING_UP
+	ld a, SPRITE_FACING_RIGHT
 	jr .done
 .notDown
-	ld a, SPRITE_FACING_RIGHT
+	ld a, SPRITE_FACING_LEFT
 .done
 	ldh [hSpriteFacingDirection], a
-	ld a, $1
+	ld a, $0
 	ldh [hSpriteIndex], a
 	call SetSpriteFacingDirectionAndDelay
 	ld a, $f0
@@ -201,24 +200,26 @@ Route22MoveRival1:
 Route22RivalExitMovementData1:
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_UP
 	db -1 ; end
 
 Route22RivalExitMovementData2:
+	db NPC_MOVEMENT_DOWN
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_UP
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_DOWN
+	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_UP
+
 	db -1 ; end
 
 Route22Script3:
@@ -269,9 +270,9 @@ Route22Script4:
 	ld a, [wcf0d]
 	cp $1
 	jr nz, .asm_510a1
-	ld a, PLAYER_DIR_DOWN
+	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
-	ld a, SPRITE_FACING_UP
+	ld a, SPRITE_FACING_DOWN
 	jr .asm_510a8
 .asm_510a1
 	ld a, PLAYER_DIR_LEFT
@@ -315,9 +316,9 @@ Route22Script5:
 	ld a, [wcf0d]
 	cp $1
 	jr nz, .asm_510fb
-	ld a, PLAYER_DIR_DOWN
+	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
-	ld a, SPRITE_FACING_UP
+	ld a, SPRITE_FACING_DOWN
 	jr .asm_51102
 .asm_510fb
 	ld a, PLAYER_DIR_LEFT
@@ -335,7 +336,7 @@ Route22Script5:
 	ld a, SFX_STOP_ALL_MUSIC
 ;	ld [wNewSoundID], a
 	call PlaySound
-	farcall Music_RivalAlternateStartAndTempo
+	farcall Music_RivalAlternateStart
 	ld a, [wcf0d]
 	cp $1
 	jr nz, .asm_51134

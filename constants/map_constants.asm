@@ -52,9 +52,9 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_20,                      9,  50 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
 	map_const ROUTE_22,                      20,  10 ; $21
-	map_const ROUTE_23,                      10, 72 ; $22
+	map_const ROUTE_23,                      14, 59 ; $22
 	map_const ROUTE_24,                      50, 5 ; $23
-	map_const ROUTE_25,                      30,  9 ; $24
+	map_const ROUTE_25,                      24, 13 ; $24
 DEF FIRST_INDOOR_MAP EQU const_value
 	map_const REDS_HOUSE_1F,                  4,  4 ; $25
 	map_const REDS_HOUSE_2F,                  4,  4 ; $26
@@ -65,7 +65,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VIRIDIAN_SCHOOL_HOUSE,          4,  4 ; $2B
 	map_const VIRIDIAN_NICKNAME_HOUSE,        11,  4 ; $2C
 	map_const VIRIDIAN_GYM,                  10,  9 ; $2D
-	map_const DIGLETTS_CAVE_ROUTE_2,          3,  10 ; $2E
+	map_const DIGLETTS_CAVE_ROUTE_2,          11,  7 ; $2E
 	map_const VIRIDIAN_FOREST_NORTH_GATE,     9,  13 ; $2F
 	map_const ROUTE_2_TRADE_HOUSE,            8,  4 ; $30
 	map_const ROUTE_2_GATE,                   5,  31 ; $31
@@ -80,7 +80,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const PEWTER_POKECENTER,              7,  4 ; $3A
 	map_const MT_MOON_1F,                    20, 28 ; $3B
 	map_const MT_MOON_B1F,                   17, 23 ; $3C
-	map_const MT_MOON_B2F,                   20, 18 ; $3D
+	map_const MT_MOON_B2F,                   21, 28 ; $3D
 	map_const CERULEAN_TRASHED_HOUSE,         4,  4 ; $3E
 	map_const CERULEAN_TRADE_HOUSE,           4,  4 ; $3F
 	map_const CERULEAN_POKECENTER,            7,  4 ; $40
@@ -101,7 +101,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_8_GATE,                   10,  20 ; $4F
 	map_const UNDERGROUND_PATH_ROUTE_8,       30,  22 ; $50
 	map_const ROCK_TUNNEL_POKECENTER,         15,  4 ; $51
-	map_const ROCK_TUNNEL_1F,                20, 18 ; $52
+	map_const ROCK_TUNNEL_1F,                42, 18 ; $52
 	map_const POWER_PLANT,                   20, 18 ; $53
 	map_const ROUTE_11_GATE_1F,               4,  13 ; $54
 	map_const DIGLETTS_CAVE_ROUTE_11,         15, 14 ; $55
@@ -127,7 +127,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const MOLE_HOLE,                      8,  7 ; $69
 	map_const CELAGONE_CITY,                  21, 18; $6A
 	map_const GLITCH_ROOM,                    5,  5 ; $6B
-	map_const VICTORY_ROAD_1F,               10,  9 ; $6C
+	map_const VICTORY_ROAD_1F,               30,  15 ; $6C
 	map_const OWAI_HOTEL,                    4,  10 ; $6D
 	map_const VULT_MAZE,                     7,  15 ; $6E
 	map_const VILLA_1F,                  		11,  5 ; $6F
@@ -148,12 +148,12 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CELADON_MART_ROOF,             12,  8 ; $7E
 	map_const CELADON_MART_ELEVATOR,          18,  17 ; $7F
 	map_const CELADON_MANSION_1F,             6,  6 ; $80
-	map_const CELADON_MANSION_2F,             3,  3 ; $81
+	map_const CELADON_MANSION_2F,             5,  5 ; $81
 	map_const CELADON_MANSION_3F,             6,  7 ; $82
 	map_const CELADON_MANSION_ROOF,           10,  4 ; $83
 	map_const CELADON_MANSION_ROOF_HOUSE,     4,  4 ; $84
 	map_const CELADON_POKECENTER,             7,  4 ; $85
-	map_const CELADON_GYM,                    5,  9 ; $86
+	map_const CELADON_GYM,                    7,  9 ; $86
 	map_const GAME_CORNER,                   10,  9 ; $87
 	map_const CELADON_MART_5F,               6,  8 ; $88
 	map_const GAME_CORNER_PRIZE_ROOM,         5,  4 ; $89
@@ -212,12 +212,12 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_18_GATE_1F,               3,  4 ; $BE
 	map_const ROUTE_18_GATE_2F,               4,  11 ; $BF
 	map_const SEAFOAM_ISLANDS_1F,            15,  20 ; $C0
-	map_const ROUTE_22_GATE,                  5,  4 ; $C1
-	map_const VICTORY_ROAD_2F,               15,  9 ; $C2
+	map_const ROUTE_22_GATE,                  12,  4 ; $C1
+	map_const VICTORY_ROAD_2F,               30,  30 ; $C2
 	map_const ROUTE_12_GATE_2F,               4,  13 ; $C3
 	map_const VERMILION_TRADE_HOUSE,          4,  4 ; $C4
 	map_const DIGLETTS_CAVE,                 20, 18 ; $C5
-	map_const VICTORY_ROAD_3F,               15,  9 ; $C6
+	map_const VICTORY_ROAD_3F,               10, 50 ; $C6
 	map_const ROCKET_HIDEOUT_B1F,            20, 14 ; $C7
 	map_const ROCKET_HIDEOUT_B2F,            15, 14 ; $C8
 	map_const ROCKET_HIDEOUT_B3F,            15, 14 ; $C9
@@ -226,13 +226,13 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SECRET_GARDEN,                  14, 10 ; $CC
 	map_const SECRET_PATH,                    4,  6 ; $CD
 	map_const DEVILS_CANYON,                  3,  3 ; $CE
-	map_const SILPH_CO_2F,                   15,  9 ; $CF
-	map_const SILPH_CO_3F,                   15,  9 ; $D0
+	map_const SILPH_CO_2F,                   18,  7 ; $CF
+	map_const SILPH_CO_3F,                   15,  8 ; $D0
 	map_const SILPH_CO_4F,                   15,  9 ; $D1
-	map_const SILPH_CO_5F,                   15,  9 ; $D2
-	map_const SILPH_CO_6F,                   13,  9 ; $D3
+	map_const SILPH_CO_5F,                   17,  9 ; $D2
+	map_const SILPH_CO_6F,                   21,  9 ; $D3
 	map_const SILPH_CO_7F,                   13,  9 ; $D4
-	map_const SILPH_CO_8F,                   13,  9 ; $D5
+	map_const SILPH_CO_8F,                   12,  9 ; $D5
 	map_const POKEMON_MANSION_2F,            15, 14 ; $D6
 	map_const POKEMON_MANSION_3F,            15,  9 ; $D7
 	map_const POKEMON_MANSION_B1F,           15, 14 ; $D8
@@ -252,8 +252,8 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CERULEAN_BADGE_HOUSE,           4,  4 ; $E6
 	map_const GOLDEN_GATE,                  12,  4 ; $E7
 	map_const ROCK_TUNNEL_B1F,               20, 18 ; $E8
-	map_const SILPH_CO_9F,                   13,  9 ; $E9
-	map_const SILPH_CO_10F,                   8,  9 ; $EA
+	map_const SILPH_CO_9F,                   13,  15 ; $E9
+	map_const SILPH_CO_10F,                   9,  9 ; $EA
 	map_const SILPH_CO_11F,                   9,  9 ; $EB
 	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC
 	map_const BIKE_GATE,                      4,  4 ; $ED

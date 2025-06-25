@@ -419,8 +419,8 @@ ViridianForestHiddenObjects:
 	db -1 ; end
 
 MtMoon3HiddenObjects:
-	hidden_object 18, 12, MOON_STONE, HiddenItems
-	hidden_object 33,  9, ETHER, HiddenItems
+	hidden_object 39, 19, ETHER, HiddenItems
+	hidden_object 15,  30, MOON_STONE, HiddenItems
 	db -1 ; end
 
 IndigoPlateauHiddenObjects:
@@ -520,22 +520,22 @@ SeafoamIslands5HiddenObjects:
 	db -1 ; end
 
 Mansion1HiddenObjects:
-	hidden_object  8, 16, MOON_STONE, HiddenItems
-	hidden_object  2,  5, SPRITE_FACING_UP, Mansion1Script_Switches
+	hidden_object  2,  4, MAX_REPEL, HiddenItems
+	hidden_object  22, 9, SPRITE_FACING_UP, Mansion1Script_Switches
 	db -1 ; end
 
 Mansion2HiddenObjects:
-	hidden_object  2, 11, SPRITE_FACING_UP, Mansion2Script_Switches
+	hidden_object  24, 11, SPRITE_FACING_UP, Mansion2Script_Switches
 	db -1 ; end
 
 Mansion3HiddenObjects:
-	hidden_object  1,  9, MAX_REVIVE, HiddenItems
-	hidden_object 10,  5, SPRITE_FACING_UP, Mansion3Script_Switches
+	hidden_object  18, 1, MAX_REVIVE, HiddenItems
+	hidden_object 24,  5, SPRITE_FACING_UP, Mansion3Script_Switches
 	db -1 ; end
 
 Mansion4HiddenObjects:
-	hidden_object  1,  9, RARE_CANDY, HiddenItems
-	hidden_object 20,  3, SPRITE_FACING_UP, Mansion4Script_Switches
+	hidden_object  3,  18, RARE_CANDY, HiddenItems
+	hidden_object 14,  3, SPRITE_FACING_UP, Mansion4Script_Switches
 	hidden_object 18, 25, SPRITE_FACING_UP, Mansion4Script_Switches
 	db -1 ; end
 
@@ -546,8 +546,8 @@ Route23HiddenObjects:
 	db -1 ; end
 
 VictoryRoad2HiddenObjects:
-	hidden_object  5,  2, ULTRA_BALL, HiddenItems
-	hidden_object 26,  7, FULL_RESTORE, HiddenItems
+	hidden_object  7,  13, MAX_REVIVE, HiddenItems
+	hidden_object 45,  12, FULL_RESTORE, HiddenItems
 	db -1 ; end
 
 Villa1FHiddenObjects:

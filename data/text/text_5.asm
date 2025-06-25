@@ -11,7 +11,7 @@ _CableClubNPCMakingPreparationsText::
 _UsedStrengthText::
 	text_ram wcd6d
 	text " used"
-	line "STRENGTH.@"
+	line "MUSCLE.@"
 	text_end
 
 _CanMoveBouldersText::

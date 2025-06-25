@@ -6,7 +6,7 @@ HiddenItemCoords:
 	; map id, x, y
 	hidden_item VIRIDIAN_FOREST,                1,  18
 	hidden_item VIRIDIAN_FOREST,               16,  42
-	hidden_item MT_MOON_B2F,                   18,  12
+	hidden_item MT_MOON_B2F,                   39,  19
 	hidden_item ROUTE_25,                      38,   3
 	hidden_item ROUTE_9,                       14,   7
 	hidden_item SS_ANNE_KITCHEN,               13,   9
@@ -36,8 +36,8 @@ HiddenItemCoords:
 	hidden_item ROUTE_23,                       9,  44
 	hidden_item ROUTE_23,                      19,  70
 	hidden_item ROUTE_23,                       8,  90
-	hidden_item VICTORY_ROAD_2F,                5,   2
-	hidden_item VICTORY_ROAD_2F,               26,   7
+	hidden_item VICTORY_ROAD_2F,                7,  13
+	hidden_item VICTORY_ROAD_2F,               45,  12
 	hidden_item VILLA_1F,      	           9,    2
 	hidden_item VIRIDIAN_CITY,                 15,   4
 	hidden_item ROUTE_11,                      48,   5
@@ -53,7 +53,7 @@ HiddenItemCoords:
 	hidden_item UNDERGROUND_PATH_WEST_EAST,    18,  14
 	hidden_item CELADON_CITY,                  48,  15
 	hidden_item ROUTE_25,                      10,   1
-	hidden_item MT_MOON_B2F,                   33,   9
+	hidden_item MT_MOON_B2F,                   33,   38
 	hidden_item SEAFOAM_ISLANDS_B3F,            9,  16
 	hidden_item VERMILION_CITY,                14,  11
 	hidden_item CERULEAN_CITY,                 15,   8

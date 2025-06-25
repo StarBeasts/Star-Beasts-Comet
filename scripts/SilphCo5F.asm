@@ -21,7 +21,7 @@ SilphCo5Script_19f4d:
 	push af
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 2, 3
+	lb bc, 32, 33
 	predef ReplaceTileBlock
 	pop af
 .asm_19f74
@@ -30,7 +30,7 @@ SilphCo5Script_19f4d:
 	push af
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 6, 3
+	lb bc, 36, 33
 	predef ReplaceTileBlock
 	pop af
 .asm_19f87
@@ -38,7 +38,7 @@ SilphCo5Script_19f4d:
 	ret nz
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 5, 7
+	lb bc, 35, 37
 	predef_jump ReplaceTileBlock
 
 SilphCo5GateCoords:

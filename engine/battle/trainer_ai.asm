@@ -150,6 +150,7 @@ StatusAilmentMoveEffects:
 	db SLEEP_EFFECT
 	db POISON_EFFECT
 	db PARALYZE_EFFECT
+	db FREEZE_EFFECT
 	db -1 ; end
 
 ; slightly encourage moves with specific effects.
@@ -418,7 +419,7 @@ Rival2AI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUsePotion
+	jp AIUseSuperPotion
 
 Rival3AI:
 	cp 13 percent - 1

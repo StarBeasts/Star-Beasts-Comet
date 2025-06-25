@@ -10,5 +10,6 @@ SeafoamIslandsB3F_Object:
 	def_bg_events
 
 	def_object_events
+	object_event 27, 9, SPRITE_COOLTRAINER_F, STAY, NONE, 1 ; person
 
 	def_warps_to SEAFOAM_ISLANDS_B3F

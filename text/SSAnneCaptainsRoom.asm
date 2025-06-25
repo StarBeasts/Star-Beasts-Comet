@@ -1,34 +1,53 @@
 _SSAnne7RubText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "CAPTAIN: No!"
+	line "I already told"
+	cont "you, we don't"
+	cont "have anything"
+	cont "like that, here!"
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "Please! I don't"
+	line "know what else"
+	cont "you want from me!"
 
-	para "Rub-rub..."
-	line "Rub-rub...@"
+	para "You tell the"
+	line "CAPTAIN that"
+	cont "he's safe now,"
+	cont "and that it's all"
+	cont "going to be okay.@"
 	text_end
 
 _ReceivingHM01Text::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "CAPTAIN: Huh?"
+	line "You mean, you"
+	cont "got him to leave?"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "Bless you!"
+	
+	para	"You've saved"
+	line "my business, and"
+	cont "warmed an old"
+	cont "sea dog's heart."
 
-	para "I could show you"
-	line "if I wasn't ill..."
+	para "I can't just let"
+	line "your good deed"
+	cont "go unrewarded!"
 
-	para "I know! You can"
-	line "have this!"
+	para "Here, I'll show"
+	line "you my special"
+	cont "CUT technique,"
+	cont "free of charge!"
+
+	para "What? You don't"
+	line "have anything to"
+	cont "CUT with?"
+
+	para "Oh, I know! You"
+	line "can have this!"
 
 	para "Teach it to your"
-	line "BEAST and you"
-	cont "can see it CUT"
-	cont "any time!"
+	line "BEASTS and you"
+	cont "can see them"
+	cont "CUT, any time!"
 	prompt
 
 _ReceivedHM01Text::
@@ -39,11 +58,25 @@ _ReceivedHM01Text::
 	text_end
 
 _SSAnne7Text_61932::
-	text "CAPTAIN: Whew!"
+	text "CAPTAIN: Hmm?"
 
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	para "What'll we do"
+	line "now? Well, get"
+	cont "these shipments"
+	cont "moving, for one."
+
+	para "Don't worry about"
+	line "the ROCKETs. My"
+	cont "men and I will"
+	cont "make sure they're"
+	cont "turned over to"
+	cont "the auth-"
+
+	para "Ahem."
+
+	para "To the POLICE."
+
+	para "Thank you, again!"
 	done
 
 _HM01NoRoomText::
@@ -59,8 +92,11 @@ _SSAnne7Text2::
 	done
 
 _SSAnne7Text3::
-	text "Seasickness and"
+	text "Swordsmanship and"
 	line "you, a Guide..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+
+	para "It looks like the"
+	line "CAPTAIN wrote the"
+	cont "book on CUTting!"
+	cont "Literally!"
 	done

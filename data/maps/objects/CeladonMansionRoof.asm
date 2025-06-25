@@ -8,8 +8,13 @@ CeladonMansionRoof_Object:
 	warp_event  3,  7, BLOODSTONE_BAY, 1
 
 	def_bg_events
-	bg_event  4,  1, 1 ; CeladonMansion4Text1
 
 	def_object_events
+	object_event  9,  1, SPRITE_FISHING_GURU, STAY, LEFT, 1,
+	object_event  2,  3, SPRITE_HIKER, STAY, DOWN, 3,
+	object_event  3,  3, SPRITE_LITTLE_BOY, STAY, ANY_DIR, 2,
+	object_event 16,  3, SPRITE_SCIENTIST, STAY, DOWN, 4,
+	object_event 10,  6, SPRITE_SUPER_NERD, STAY, UP, 5,
+	object_event 6,  3, SPRITE_FISHER, STAY, DOWN, 6,
 
 	def_warps_to CELADON_MANSION_ROOF

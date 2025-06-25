@@ -106,7 +106,6 @@ DEF SHOW EQU $15
 	const HS_POWER_PLANT_ITEM_3            ; 58 X
 	const HS_POWER_PLANT_ITEM_4            ; 59 X
 	const HS_POWER_PLANT_ITEM_5            ; 5A X
-	const HS_MOLTRES                       ; 5B X
 	const HS_VICTORY_ROAD_2F_ITEM_1        ; 5C X
 	const HS_VICTORY_ROAD_2F_ITEM_2        ; 5D X
 	const HS_VICTORY_ROAD_2F_ITEM_3        ; 5E X
@@ -137,9 +136,6 @@ DEF SHOW EQU $15
 	const HS_SS_ANNE_B1F_ROOMS_ITEM_2      ; 76 X
 	const HS_SS_ANNE_B1F_ROOMS_ITEM_3      ; 77 X
 	const HS_LIL_ZAP
-	const HS_VICTORY_ROAD_3F_ITEM_1        ; 78 X
-	const HS_VICTORY_ROAD_3F_ITEM_2        ; 79 X
-	const HS_VICTORY_ROAD_3F_BOULDER       ; 7A
 	const HS_ROCKET_HIDEOUT_B1F_ITEM_1     ; 7B X
 	const HS_ROCKET_HIDEOUT_B1F_ITEM_2     ; 7C X
 	const HS_ROCKET_HIDEOUT_B2F_ITEM_1     ; 7D X
@@ -262,4 +258,11 @@ DEF SHOW EQU $15
 	const HS_SEWER_ITEM_1
 	const HS_VARIK_1
 	const HS_VARIK_2
+	const HS_INDIGO_PLATEAU_ITEM_1        ; 78 X
+	const HS_INDIGO_PLATEAU_ITEM_2        ; 79 X
+	const HS_VICTORY_ROAD_3F_BOULDER       ; 7A
+	const HS_MOLTRES                       ; 5B X
+	const HS_VICTORY_ROAD_NEPTO_JEWEL       ; 7A
+	const HS_FARFROMTILE_1
+	const HS_FARFROMTILE_2
 DEF NUM_HS_OBJECTS EQU const_value

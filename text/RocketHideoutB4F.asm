@@ -86,35 +86,47 @@ _RocketHideout4Text_45584::
 	done
 
 _RocketHideout4BattleText2::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "This BARRIER runs"
+	line "on our combined"
+	cont "willpower!"
 	done
 
 _RocketHideout4EndBattleText2::
-	text "Burned"
-	line "again!"
+	text "Fiend!"
+	line "Do you know what"
+	cont "you've wrought!?"
 	prompt
 
 _RocketHide4AfterBattleText2::
-	text "Do you have"
-	line "something against"
-	cont "TEAM ROCKET?"
+	text "This passageway"
+	line "is a shortcut,"
+	cont "but there is"
+	cont "also a deadly"
+	cont "BEAST in there,"
+	cont "so we had it"
+	cont "walled off for"
+	cont "safety reasons."
 	done
 
 _RocketHideout4BattleText3::
-	text "How can you not"
-	line "see the beauty of"
-	cont "our evil?"
+	text "To break the"
+	line "BARRIER, you must"
+	cont "first break me!"
 	done
 
 _RocketHideout4EndBattleText3::
-	text "Ayaya!"
+	text "Glass!"
+	
+	para "I was shattered"
+	line "like glass!"
 	prompt
 
 _RocketHide4AfterBattleText3::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "We were trying to"
+	line "contain a"
+	cont "terribly powerful"
+	cont "# BEAST with"
+	cont "this BARRIER!"
 	done
 
 _RocketHideout4BattleText4::

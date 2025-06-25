@@ -4,32 +4,28 @@ _SSAnne8Text8::
 	text_end
 
 _SSAnne8BattleText1::
-	text "Business trips"
-	line "get rather"
-	cont "lonely..."
-
-	para "What say we"
-	line "have a battle"
-	cont "to pass the"
-	cont "time?"
+	text "Hey, hand over"
+	line "your # BEASTS"
+	cont "when you lose,"
+	cont "brat!"
 	done
 
 _SSAnne8EndBattleText1::
-	text "Jolly"
-	line "good show!"
+	text "Cocky"
+	line "little snot!"
 	prompt
 
 _SSAnne8AfterBattleText1::
-	text "I say, what on"
-	line "EARTH is that"
-	cont "deranged man"
-	cont "babbling on"
-	cont "about next door?"
+	text "I tried to take"
+	line "that SPRIGGLE"
+	cont "over there, but"
+	cont "it won't budge!"
 
-	para "I've heard more"
-	line "coherent rants"
-	cont "from my mother,"
-	cont "and she's ninety!"
+	para "Some stupid crap"
+	line "about 'loving its"
+	cont "master too much.'"
+
+	para "Makes me sick!"
 	done
 
 _SSAnne8BattleText2::
@@ -58,13 +54,22 @@ _SSAnne8AfterBattleText2::
 	done
 
 _SSAnne8BattleText3::
-	text "I love BEASTS!"
-	line "Do you?"
+	text "Come to rescue"
+	line "these people?"
+
+	para "How noble of you."
+
+	para "Let's see how"
+	line "far that honor"
+	cont "gets you when"
+	cont "you're thrown"
+	cont "overboard!"
 	done
 
 _SSAnne8EndBattleText3::
-	text "Wow! "
-	line "You're great!"
+	text "Aaaack!"
+	line "You're more than"
+	cont "just talk!"
 	prompt
 
 _SSAnne8AfterBattleText3::
@@ -76,40 +81,44 @@ _SSAnne8AfterBattleText3::
 	done
 
 _SSAnne8BattleText4::
-	text "I collected these"
-	line "BEASTS from all"
-	cont "around the world!"
+	text "This is OUR ship"
+	line "to loot!"
+
+	para "Get your own!"
 	done
 
 _SSAnne8EndBattleText4::
 	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
 	prompt
 
 _SSAnne8AfterBattleText4::
-	text "You hurt my poor"
-	line "worldly BEASTS!"
-
-	para "I demand that you"
-	line "heal them at a"
-	cont "BEAST CENTER!"
+	text "Well, I mean,"
+	line "I guess this ship"
+	cont "technically isn't"
+	cont "something either"
+	cont "of us own..."
 	done
 
 _SSAnne8Text5::
-	text "Waiter, I would"
-	line "like a cherry pie"
-	cont "please!"
+	text "Are you really"
+	line "our only hope?"
+
+	para "We're doomed!"
 	done
 
 _SSAnne8Text6::
-	text "A cruise is so"
-	line "elegant yet cozy!"
+	text "Only time I"
+	line "get to see my"
+	cont "daughter, and"
+	cont "the ship gets"
+	cont "hijacked. Who or"
+	cont "what did I make"
+	cont "so angry at me?"
 	done
 
 _SSAnne8Text7::
-	text "I always travel"
-	line "with SPRIGGLE!"
+	text "Thanks for saving"
+	line "my SPRIGGLE!"
 	done
 
 _SSAnne8Text9::
@@ -134,9 +143,12 @@ _SSAnne8Text9::
 	done
 
 _SSAnne8Text11::
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
+	text "Uff... I came in"
+	line "here to stop the"
+	cont "ROCKETs, but..."
 
-	para "I'm on the trail"
-	line "of TEAM ROCKET!"
+	para "It's no use..."
+
+	para "Their leader is"
+	line "just too strong..."
 	done

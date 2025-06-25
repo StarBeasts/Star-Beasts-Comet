@@ -11,7 +11,7 @@ ViridianGym_Script:
 	ret
 
 .CityName:
-	db "VIRIDIAN CITY@"
+	db "AMETHYST AVENUE@"
 
 .LeaderName:
 	db "???@"
@@ -51,66 +51,6 @@ ViridianGymScript0:
 	ret
 
 ViridianGymArrowTilePlayerMovement:
-	map_coord_movement 19, 11, ViridianGymArrowMovement1
-	map_coord_movement 19,  1, ViridianGymArrowMovement2
-	map_coord_movement 18,  2, ViridianGymArrowMovement3
-	map_coord_movement 11,  2, ViridianGymArrowMovement4
-	map_coord_movement 16, 10, ViridianGymArrowMovement5
-	map_coord_movement  4,  6, ViridianGymArrowMovement6
-	map_coord_movement  5, 13, ViridianGymArrowMovement7
-	map_coord_movement  4, 14, ViridianGymArrowMovement8
-	map_coord_movement  0, 15, ViridianGymArrowMovement9
-	map_coord_movement  1, 15, ViridianGymArrowMovement10
-	map_coord_movement 13, 16, ViridianGymArrowMovement11
-	map_coord_movement 13, 17, ViridianGymArrowMovement12
-	db -1 ; end
-
-ViridianGymArrowMovement1:
-	db D_UP, 9
-	db -1 ; end
-
-ViridianGymArrowMovement2:
-	db D_LEFT, 8
-	db -1 ; end
-
-ViridianGymArrowMovement3:
-	db D_DOWN, 9
-	db -1 ; end
-
-ViridianGymArrowMovement4:
-	db D_RIGHT, 6
-	db -1 ; end
-
-ViridianGymArrowMovement5:
-	db D_DOWN, 2
-	db -1 ; end
-
-ViridianGymArrowMovement6:
-	db D_DOWN, 7
-	db -1 ; end
-
-ViridianGymArrowMovement7:
-	db D_RIGHT, 8
-	db -1 ; end
-
-ViridianGymArrowMovement8:
-	db D_RIGHT, 9
-	db -1 ; end
-
-ViridianGymArrowMovement9:
-	db D_UP, 8
-	db -1 ; end
-
-ViridianGymArrowMovement10:
-	db D_UP, 6
-	db -1 ; end
-
-ViridianGymArrowMovement11:
-	db D_LEFT, 6
-	db -1 ; end
-
-ViridianGymArrowMovement12:
-	db D_LEFT, 12
 	db -1 ; end
 
 ViridianGymScript4:

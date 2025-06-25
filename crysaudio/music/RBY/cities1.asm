@@ -6,8 +6,7 @@ Music_Cities1::
 	channel 4, Music_Cities1_Ch4
 
 Music_Cities1_Ch1_AlternateTempo::
-	tempo 232
-	sound_loop 0, Music_Cities1_branch_aa79
+	tempo 144
 
 Music_Cities1_Ch1::
 	tempo 144

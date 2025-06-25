@@ -13,66 +13,81 @@ _SSAnne2Text1::
 	done
 
 _SSAnneRivalBeforeBattleText::
-	text "<RIVAL>: <PLAYER>!"
+	text "MYSTERY MAN: Oh?"
 
-	para "Never thought I'd"
-	line "see you here!"
+	para "I see we have an"
+	line "interloper."
 
-	para "There's so many"
-	line "cool people and"
-	cont "BEASTS onboard!"
+	para "You aren't a"
+	line "businessperson"
+	cont "like the others,"
+	cont "correct?"
 
-	para "They're from all"
-	line "around the world!"
-	cont "Can you believe"
-	cont "that!?"
+	para "You're a trainer,"
+	line "come to aid them,"
+	cont "aren't you?"
 
-	para "Not only that,"
-	line "I've been catching"
-	cont "all sorts of new"
-	cont "# BEASTS!"
+	para "Yes, but more"
+	line "than that,"
+	cont "you're a child." 
 
-	para "At this rate, I'll"
-	line "have 50 different"
-	cont "kinds tomorrow!"
+	para "A child, who"
+	line "cannot possibly"
+	cont "comprehend how"
+	cont "much danger"
+	cont "they're in."
 
-	para "What about you,"
-	line "<PLAYER>?"
+	para "For I am LUCIAN,"
+	line "the leader of"
+	cont "the ROCKET crime"
+	cont "syndicate!"
 
-	para "Let's see how"
-	line "your team's"
-	cont "coming along!"
+	para "Anything I want,"
+	line "I make my own."
+
+	para "And I will let"
+	line "no man, woman,"
+	cont "or child stand"
+	cont "in my way!"
+
+	para "Prepare to enter"
+	line "a world of pain!"
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Damnit..."
+	text "A child!?"
 
-	para "At least you're"
-	line "raising your"
-	cont "# BEASTS!"
+	para "How could I lose"
+	line "to a mere child?"
 	prompt
 
 _SSAnneRivalWonText::
-	text "<PLAYER>! What are"
-	line "you, seasick?"
+	text "Hmph."
 	prompt
 
 _SSAnneRivalCaptainText::
-	text "<RIVAL>: I heard"
-	line "there was a guy"
-	cont "that knew how to"
-	cont "CUT onboard."
+	text "LUCIAN: ...This"
+	line "may be an issue."
 
-	para "But he's puking his"
-	line "guts out, so..."
+	para "But you haven't"
+	line "changed my plans."
 
-	para "I wouldn't go in"
-	line "there if I were"
-	cont "you."
+	para "Coming here was"
+	line "a waste of my"
+	cont "time, in the end."
 
-	para "Anyways, that's not"
-	line "my problem!"
+	para "Tell the CAPTAIN"
+	line "that he is free,"
+	cont "for now."
 
-	para "See you around,"
-	line "<PLAYER>!"
+	para "I will merely"
+	line "regroup, and"
+	cont "follow my"
+	cont "next lead."
+
+	para "Continue to stand"
+	line "in our way at"
+	cont "your own peril."
+
+	para "Farewell."
 	done

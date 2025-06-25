@@ -22,15 +22,18 @@ _Mansion4AfterBattleText1::
 	cont "never meant"
 	cont "to be..."
 
-	para "Like this..."
+	para "Together..."
+	line "Like this..."
 	done
 
 _Mansion4BattleText2::
 	text "Look... at my..."
-	line "disgusting body..."
+	line "disgusting..."
+	cont "body..."
 
 	para "Isn't this"
-	line "punishment enough?"
+	line "punishment"
+	cont "enough?"
 
 	para "Just go away!"
 
@@ -49,7 +52,8 @@ _Mansion4AfterBattleText2::
 	para "They are so full"
 	line "of bloodlust..."
 
-	para "When we look at you"
+	para "When we look"
+	line "at you"
 
 	para "we want to scream"
 	done

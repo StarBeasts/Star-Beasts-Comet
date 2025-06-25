@@ -59,7 +59,7 @@ _Route22RivalBeforeBattleText2::
 	cont "you here!"
 
 	para "So you're going to"
-	line "# BEAST LEAGUE?"
+	line "#BEAST LEAGUE?"
 
 	para "You collected all"
 	line "the BADGEs too?"
@@ -67,8 +67,8 @@ _Route22RivalBeforeBattleText2::
 
 	para "Then let's see"
 	line "who gets to go"
-	cont "through VICTORY"
-	cont "ROAD first,"
+	cont "through PLATINUM"
+	cont "PATH first,"
 	cont "<PLAYER>!"
 
 	para "Let's go!"

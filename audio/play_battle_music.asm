@@ -55,6 +55,8 @@ PlayBattleMusic::
 	jp z, .gadoba
 	cp OPP_REMNANT
 	jp z, .reaper
+	cp OPP_FARFROMTILE
+	jp z, .touhou
 	cp OPP_LANCE
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_HERO; lance also plays gym leader theme
@@ -94,6 +96,9 @@ PlayBattleMusic::
 	jr .playSong
 .reaper
 	ld a, MUSIC_REAPER
+	jr .playSong
+.touhou
+	ld a, MUSIC_TOUHOU
 	jr .playSong
 .wildBattle
 	ld a, MUSIC_WILD_BATTLE

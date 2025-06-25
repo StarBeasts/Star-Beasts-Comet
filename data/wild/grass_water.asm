@@ -9,9 +9,9 @@ WildDataPointers:
 	dw NothingWildMons         ; CELADON_CITY
 	dw NothingWildMons         ; FUCHSIA_CITY
 	dw NothingWildMons         ; CINNABAR_ISLAND
-	dw NothingWildMons         ; INDIGO_PLATEAU
+	dw NothingWildMons         ; RANGER_STATION
 	dw NothingWildMons         ; SAFFRON_CITY
-	dw NothingWildMons         ; unused
+	dw IndigoPlateauWildMons   ; INDIGO_PLATEAU
 	dw Route1WildMons          ; ROUTE_1
 	dw Route2WildMons          ; ROUTE_2
 	dw Route3WildMons          ; ROUTE_3
@@ -46,7 +46,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw DiglettsCaveRoute2WildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -328,3 +328,5 @@ INCLUDE "data/wild/maps/VultMaze.asm"
 INCLUDE "data/wild/maps/AncientCave.asm"
 INCLUDE "data/wild/maps/DevilsCanyon.asm"
 INCLUDE "data/wild/maps/OwaiHotel.asm"
+INCLUDE "data/wild/maps/IndigoPlateau.asm"
+INCLUDE "data/wild/maps/DiglettsCaveRoute2.asm"

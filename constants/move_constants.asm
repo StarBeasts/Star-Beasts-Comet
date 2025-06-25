@@ -196,6 +196,7 @@
 	const MOONBLAST ;
 	const STRANGESTEAM ;
 	const SHADOW_PURGE ;
+	const SNOWGRAVE ;
 	const METAL_CLAW   ; b1
 	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1

@@ -231,6 +231,16 @@ _ParalyzedMayNotAttackText::
 	cont "not attack!"
 	prompt
 
+_FrozenCantMoveText::
+	text "<TARGET>"
+	line "became encased in"
+	cont "ice from"
+	cont "<USER>'s"
+	cont "frigid breath!"
+
+	para "It can't move!"
+	prompt
+
 _SubstituteText::
 	text "It created a"
 	line "SUBSTITUTE!"

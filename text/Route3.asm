@@ -118,8 +118,7 @@ _Route3BattleText6::
 
 _Route3EndBattleText6::
 	text "What?"
-	line "You mean you"
-	cont "weren't"
+	line "You weren't"
 	cont "copying me?"
 	prompt
 

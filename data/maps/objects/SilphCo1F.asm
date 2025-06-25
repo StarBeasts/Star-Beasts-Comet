@@ -4,7 +4,7 @@ SilphCo1F_Object:
 	def_warp_events
 	warp_event  6, 17, SEAFOAM_ISLANDS_B2F, 5
 	warp_event  7, 17, SEAFOAM_ISLANDS_B2F, 5
-	warp_event 10,  0, SILPH_CO_6F, 1
+	warp_event 10,  0, SILPH_CO_4F, 1
 	warp_event  6,  0, POKEMON_MANSION_1F, 1
 
 	def_bg_events

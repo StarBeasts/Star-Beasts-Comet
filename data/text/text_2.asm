@@ -174,7 +174,7 @@ _PewterCityPokecenterGuyText::
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
+	text "STEVE has lots of"
 	line "# BEASTS!"
 
 	para "He collects rare"
@@ -424,7 +424,7 @@ _BillsHouseInitiatedText::
 	text_end
 
 _BillsHousePokemonListText1::
-	text "BILL's favorite"
+	text "STEVE's favorite"
 	line "# BEAST list!"
 	prompt
 
@@ -1424,8 +1424,8 @@ _ClearSaveDataText::
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Where do you"
+	line "wish to go?"
 	done
 
 _PartyMenuNormalText::
@@ -1516,7 +1516,7 @@ _TurnedOnPC1Text::
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
+	text "Accessed STEVE's"
 	line "PC."
 
 	para "Accessed BEAST"

@@ -3,64 +3,89 @@ _RocketHideout1EndBattleText6::
 	text_end
 
 _RocketHideout1BattleText2::
-	text "Who are you? How"
-	line "did you get here?"
+	text "How did you get"
+	line "past the bushes?"
 	done
 
 _RocketHideout1EndBattleText2::
-	text "Oww!"
-	line "Beaten!"
+	text "Ooof!"
+	line "You casually"
+	cont "cast me aside!"
 	prompt
 
 _RocketHideout1AfterBattleTxt2::
-	text "Who the hell are"
-	line "you, kid?"
+	text "Who or what are"
+	line "you, kid!?"
 	done
 
 _RocketHideout1BattleText3::
-	text "You broke into"
-	line "our operation?"
+	text "Looking for"
+	line "something?"
+
+	para "Well, we're not"
+	line "giving it back!"
 	done
 
 _RocketHideout1EndBattleText3::
-	text "Burnt!"
+	text "Cough!"
+	
+	para "Torched!"
 	prompt
 
 _RocketHideout1AfterBattleTxt3::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "If you really want"
+	line "the CYBERSCOPE so"
+	cont "badly, go talk to"
+	cont "our LEADER!"
 	done
 
 _RocketHideout1BattleText4::
-	text "Intruder alert!"
+	text "ZZZzzz..."
+	
+	para "Huuuuuh?"
+
+	para "Who woke me up...?"
 	done
 
 _RocketHideout1EndBattleText4::
-	text "I"
-	line "can't do it!"
+	text "..."
+	line "So tired..."
 	prompt
 
 _RocketHideout1AfterBattleTxt4::
-	text "CYBERSCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	text "Oh! What?"
+
+	para "Oh, it's you again."
+
+	para "We PSYCHICs wield"
+	line "supernatural"
+	cont "forces as one"
+	cont "wields a blade,"
+	cont "even if those"
+	cont "forces should"
+	cont "be FAIRY type, or"
+	cont "otherwise..."
+
+	para "ZZZzzz..."
 	done
 
 _RocketHideout1BattleText5::
-	text "Set loose the"
-	line "hounds!"
+	text "Fall to my feline"
+	line "ferocity!"
 	done
 
 _RocketHideout1EndBattleText5::
 	text "No more!"
-	line "No more!"
+	line "I yield! I yield!"
 	prompt
 
 _RocketHideout1AfterBattleTxt5::
 	text "Stop, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	line "The CYBERSCOPE is"
+	cont "in the ritual"
+	cont "chamber, at the"
+	cont "deepest part of"
+	cont "the MEADOW!"
 	done
 
 _RocketHideout1BattleText6::
@@ -68,6 +93,9 @@ _RocketHideout1BattleText6::
 	line "is breath in my"
 	cont "body, you shall"
 	cont "not pass!"
+
+	para "WESPE! Show this"
+	line "fool the exit!"
 	done
 
 _RocketHideout1AfterBattleTxt6::

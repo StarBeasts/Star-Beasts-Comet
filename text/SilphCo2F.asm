@@ -1,6 +1,8 @@
 _SilphCo2Text_59ded::
 	text "Eeek!"
-	line "No! Stop! Help!"
+	line "No! Please!"
+	cont "I don't know"
+	cont "anything!"
 
 	para "Oh, you're not"
 	line "with TEAM ROCKET."
@@ -72,25 +74,35 @@ _SilphCo2BattleText3::
 	done
 
 _SilphCo2EndBattleText3::
-	text "Tough!"
+	text "..."
+
+	para "Some kids are"
+	line "allowed in here."
 	prompt
 
 _SilphCo2AfterBattleText3::
-	text "Diamond shaped"
-	line "tiles are"
-	cont "teleport blocks!"
-
-	para "They're hi-tech"
-	line "transporters!"
+	text "BOSS wants to"
+	line "take this place"
+	cont "over because of"
+	cont "all the crazy"
+	cont "crap they make,"
+	cont "like TMs and"
+	cont "# BALLS!"
 	done
 
 _SilphCo2BattleText4::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "Welcome to"
+	line "GAI CO.!"
+
+	para "Please enjoy"
+	line "your beating!"
 	done
 
 _SilphCo2EndBattleText4::
-	text "I goofed!"
+	text "Eeep!"
+
+	para "I was the one who"
+	line "got a beating!"
 	prompt
 
 _SilphCo2AfterBattleText4::

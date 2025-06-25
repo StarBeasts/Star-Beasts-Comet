@@ -1,5 +1,5 @@
 _UndergroundPathEntranceRoute5Text1::
-	text "Howdy, youngin."
+	text "Howdy, young'n."
 
 	para "'m RIGEL, the"
 	line "POLICE CHIEF in"

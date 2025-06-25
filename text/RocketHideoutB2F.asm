@@ -1,17 +1,21 @@
 _RocketHideout2BattleText2::
-	text "BOSS said you can"
-	line "see GHOSTs with"
-	cont "the CYBERSCOPE!"
+	text "Fall to my whiskey"
+	line "tango foxtrot"
+	cont "martial arts,"
+	cont "psycho!"
 	done
 
 _RocketHideout2EndBattleText2::
-	text "I"
-	line "surrender!"
+	text "No more!"
+	line "I surrender!"
 	prompt
 
 _RocketHideout2AfterBattleTxt2::
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	text "I was sent here"
+	line "to investigate a"
+	cont "disturbance, but"
+	cont "all this super-"
+	cont "natural stuff is"
+	cont "way out of my"
+	cont "depth!"
 	done

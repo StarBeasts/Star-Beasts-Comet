@@ -13,6 +13,11 @@ EvilTrainerList::
 	db OPP_ROCKER
 	db OPP_JUGGLER
 	db OPP_SCIENTIST
+	db OPP_FARFROMTILE
+	db -1 ; end
+
+RocketTrainerList::
 	db OPP_GIOVANNI
 	db OPP_ROCKET
 	db -1 ; end
+

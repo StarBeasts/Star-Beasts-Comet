@@ -78,7 +78,7 @@ MoveEffectPointerTable:
 	dw StatModifierDownEffect    ; unused effect
 	dw ConfusionSideEffect       ; CONFUSION_SIDE_EFFECT
 	dw TwoToFiveAttacksEffect    ; TWINEEDLE_EFFECT
-	dw NULL                      ; unused effect
+	dw FreezeEffect              ; FREEZE_EFFECT
 	dw SubstituteEffect          ; SUBSTITUTE_EFFECT
 	dw HyperBeamEffect           ; HYPER_BEAM_EFFECT
 	dw RageEffect                ; RAGE_EFFECT

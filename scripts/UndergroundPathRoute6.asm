@@ -11,6 +11,17 @@ UndergroundPathRoute6_TextPointers:
 	dw UndergroundPathEntranceRoute6Text7
 	dw UndergroundPathEntranceRoute6Text8
 	dw UndergroundPathEntranceRoute6Text9
+	dw UndergroundPathEntranceRoute6Text10
+	dw UndergroundPathEntranceRoute6Text11
+	dw UndergroundPathEntranceRoute6Text12
+	dw UndergroundPathEntranceRoute6Text13
+	dw UndergroundPathEntranceRoute6Text14
+	dw UndergroundPathEntranceRoute6Text15
+	dw UndergroundPathEntranceRoute6Text16
+	dw UndergroundPathEntranceRoute6Text17
+	dw UndergroundPathEntranceRoute6Text18
+	dw UndergroundPathEntranceRoute6Text19
+	dw UndergroundPathEntranceRoute6Text20
 
 UndergroundPathEntranceRoute6Text1:
 	text_far _UndergroundPathEntranceRoute6Text1
@@ -48,4 +59,47 @@ UndergroundPathEntranceRoute6Text9:
 	text_far _UndergroundPathEntranceRoute6Text9
 	text_end
 
+UndergroundPathEntranceRoute6Text10:
+	text_far _UndergroundPathEntranceRoute6Text10
+	text_end
+
+UndergroundPathEntranceRoute6Text11:
+	text_far _UndergroundPathEntranceRoute6Text11
+	text_end
+
+UndergroundPathEntranceRoute6Text12:
+	text_far _UndergroundPathEntranceRoute6Text12
+	text_end
+
+UndergroundPathEntranceRoute6Text13:
+	text_far _UndergroundPathEntranceRoute6Text13
+	text_end
+
+UndergroundPathEntranceRoute6Text14:
+	text_far _UndergroundPathEntranceRoute6Text14
+	text_end
+
+UndergroundPathEntranceRoute6Text15:
+	text_far _UndergroundPathEntranceRoute6Text15
+	text_end
+
+UndergroundPathEntranceRoute6Text16:
+	text_far _UndergroundPathEntranceRoute6Text16
+	text_end
+
+UndergroundPathEntranceRoute6Text17:
+	text_far _UndergroundPathEntranceRoute6Text17
+	text_end
+
+UndergroundPathEntranceRoute6Text18:
+	text_far _UndergroundPathEntranceRoute6Text18
+	text_end
+
+UndergroundPathEntranceRoute6Text19:
+	text_far _UndergroundPathEntranceRoute6Text19
+	text_end
+
+UndergroundPathEntranceRoute6Text20:
+	text_far _UndergroundPathEntranceRoute6Text20
+	text_end
 

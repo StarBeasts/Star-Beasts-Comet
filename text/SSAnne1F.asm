@@ -1,21 +1,42 @@
 _SSAnne1Text1::
-	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	text "I am offended!"
 
-	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
+	para "Those miserable"
+	line "ROCKETs took one"
+	cont "look at me and"
+	cont "decided I wasn't"
+	cont "a threat!"
 
-	para "Ah! Le strong"
-	line "silent type!"
+	para "How dare they"
+	line "say I'm not"
+	cont "threatening!"
+
+	para "At least you"
+	line "don't see me"
+	cont "hiding like the"
+	cont "rest of the crew!"
 	done
 
 _SSAnne1Text2::
-	text "The passengers"
-	line "are restless!"
+	text "Hey, brat!"
+	line "Get the hell off"
+	cont "of the-"
 
-	para "You might be"
-	line "challenged by the"
-	cont "more bored ones!"
+	para "..."
+
+	para "Oh, no."
+
+	para "You're one of"
+	line "those kids who"
+	cont "spends all day"
+	cont "training your"
+	cont "# BEASTS,"
+	cont "aren't you?"
+
+	para "Nope, not dealing"
+	line "with this."
+
+	para "I never saw you,"
+	line "and you never saw"
+	cont "me. Deal?"
 	done

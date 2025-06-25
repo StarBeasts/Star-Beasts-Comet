@@ -14,7 +14,7 @@ MapHSPointers:
 	dw NoHS ; Fuchsia
 	dw NoHS ; Ranger Station
 	dw NoHS ; Cinnabar
-	dw NoHS ; Indigo Plateau
+	dw IndigoPlateauHS ; Indigo Plateau
 	dw NoHS
 	dw Route2HS
 	dw NoHS
@@ -82,7 +82,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw PurpleForestHS
-	dw NoHS
+	dw Route8GateHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -235,7 +235,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw RockTunnelB1FHS
 	dw SilphCo9FHS
 	dw SilphCo10FHS
 	dw SilphCo11FHS
@@ -400,8 +400,7 @@ VictoryRoad2FHS:
 	db VICTORY_ROAD_2F, $07, SHOW
 	db VICTORY_ROAD_2F, $08, SHOW
 	db VICTORY_ROAD_2F, $09, SHOW
-	db VICTORY_ROAD_2F, $0A, SHOW
-	db VICTORY_ROAD_2F, $0D, SHOW
+	db VICTORY_ROAD_2F, $0C, SHOW
 BillsHouseHS:
 	db BILLS_HOUSE, $01, SHOW
 	db BILLS_HOUSE, $02, HIDE
@@ -435,10 +434,6 @@ SSAnneB1FRoomsHS:
 	db SS_ANNE_B1F_ROOMS, $0A, SHOW
 	db SS_ANNE_B1F_ROOMS, $0B, SHOW
 	db SS_ANNE_B1F_ROOMS, $0C, SHOW
-VictoryRoad3FHS:
-	db VICTORY_ROAD_3F, $05, SHOW
-	db VICTORY_ROAD_3F, $06, SHOW
-	db VICTORY_ROAD_3F, $0A, SHOW
 RocketHideoutB1FHS:
 	db ROCKET_HIDEOUT_B1F, $06, SHOW
 	db ROCKET_HIDEOUT_B1F, $07, SHOW
@@ -564,8 +559,8 @@ SeafoamIslandsB1FHS:
 	db SEAFOAM_ISLANDS_B1F, $01, HIDE
 	db SEAFOAM_ISLANDS_B1F, $02, HIDE
 SeafoamIslandsB2FHS:
-	db SEAFOAM_ISLANDS_B2F, $01, HIDE
-	db SEAFOAM_ISLANDS_B2F, $02, HIDE
+	db SEAFOAM_ISLANDS_B2F, $01, SHOW
+	db SEAFOAM_ISLANDS_B2F, $02, SHOW
 SeafoamIslandsB3FHS:
 	db SEAFOAM_ISLANDS_B3F, $02, SHOW
 	db SEAFOAM_ISLANDS_B3F, $03, SHOW
@@ -602,7 +597,18 @@ CeladonMartElevatorHS:
 	db CELADON_MART_ELEVATOR, $02, SHOW
 	db CELADON_MART_ELEVATOR, $03, SHOW
 CeladonMansion2FHS:
-	db CELADON_MANSION_2F, $01, HIDE
-	db CELADON_MANSION_2F, $02, SHOW
+	db CELADON_MANSION_2F, $01, SHOW
+	db CELADON_MANSION_2F, $02, HIDE
+IndigoPlateauHS:
+	db INDIGO_PLATEAU, $05, SHOW
+	db INDIGO_PLATEAU, $06, SHOW
+	db INDIGO_PLATEAU, $0A, SHOW
+RockTunnelB1FHS:
+	db ROCK_TUNNEL_B1F, $09, SHOW
+VictoryRoad3FHS:
+	db VICTORY_ROAD_3F, $01, SHOW
+Route8GateHS:
+	db ROUTE_8_GATE, $01, SHOW
+	db ROUTE_8_GATE, $02, HIDE
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

@@ -21,7 +21,7 @@ SilphCo7Script_51b77:
 	push af
 	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 3, 5
+	lb bc, 32, 32
 	predef ReplaceTileBlock
 	pop af
 .asm_51b9e
@@ -30,7 +30,7 @@ SilphCo7Script_51b77:
 	push af
 	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 2, 10
+	lb bc, 34, 34
 	predef ReplaceTileBlock
 	pop af
 .asm_51bb1
@@ -38,7 +38,7 @@ SilphCo7Script_51b77:
 	ret nz
 	ld a, $54
 	ld [wNewTileBlockID], a
-	lb bc, 6, 10
+	lb bc, 33, 33
 	predef_jump ReplaceTileBlock
 
 SilphCo7GateCoords:
@@ -242,6 +242,7 @@ SilphCo7Script4:
 MovementData_51d1a:
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_UP
 	db -1 ; end
 
 MovementData_51d1d:
@@ -251,7 +252,6 @@ MovementData_51d1d:
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_DOWN
 	db -1 ; end
 
 SilphCo7Script5:
@@ -259,6 +259,9 @@ SilphCo7Script5:
 	bit 0, a
 	ret nz
 	ld a, HS_SILPH_CO_7F_RIVAL
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_SEAFOAM_ISLANDS_B2F_BOULDER_1
 	ld [wMissableObjectIndex], a
 	predef HideObject
 	call PlayDefaultMusic

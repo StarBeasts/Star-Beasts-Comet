@@ -36,6 +36,6 @@ _VictoryRoadGuardText_513a3::
 	done
 
 _Route23Text8::
-	text "VICTORY ROAD GATE"
-	line "- #BEAST LEAGUE"
+	text "PLATINUM PATH -"
+	line "# BEAST LEAGUE"
 	done

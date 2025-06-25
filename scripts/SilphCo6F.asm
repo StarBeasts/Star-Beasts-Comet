@@ -20,7 +20,7 @@ SilphCo6Script_1a1bf:
 	ret nz
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 6, 2
+	lb bc, 46, 42
 	predef_jump ReplaceTileBlock
 
 SilphCo6GateCoords:

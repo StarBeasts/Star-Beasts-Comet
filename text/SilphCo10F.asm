@@ -1,13 +1,3 @@
-_SilphCo10Text_5a1d3::
-	text "Waaaaa!"
-	cont "I'm scared!"
-	done
-
-_SilphCo10Text_5a1d8::
-	text "Please keep quiet"
-	line "about my crying!"
-	done
-
 _SilphCo10BattleText1::
 	text "Welcome to the"
 	line "10F! So nice of"
@@ -40,3 +30,69 @@ _SilphCo10AfterBattleText2::
 	line "with beating me?"
 	cont "Then go on home!"
 	done
+
+_SilphCo10Text3::
+	text "Here for work?"
+
+	para "Sorry to say, but"
+	line "I'm afraid we"
+	cont "don't have work"
+	cont "for new recruits,"
+	cont "just yet!"
+
+	para "When will we have"
+	line "work for you?"
+
+	para "Hmm..."
+
+	para "Well, I'm hearing"
+	line "this sound in my"
+	cont "head, sounds a"
+	cont "lot like..."
+
+	para "F point..."
+	line "Something."
+
+	para "Like, four or"
+	line "five point oh?"
+
+	para "Yeah, we should"
+	line "have JOBS for"
+	cont "you whenever that"
+	cont "comes to pass."
+	done
+
+_SilphCo10Text7::
+	text "Sorry, only"
+	line "high-ranking"
+	cont "RANGERS are"
+	cont "allowed past"
+	cont "this point."
+	done
+
+_SilphCo10Text8::
+	text "Sorry, only"
+	line "high-ranking"
+	cont "RANGERS are"
+	cont "allowed past"
+	cont "this point."
+	done 
+
+_SilphCo10Text9::
+	text "It's a JOB"
+	line "BULLETIN."
+
+	para "No JOBS are"
+	line "currently"
+	cont "available."
+	done
+
+_SilphCo10Text10::
+	text "It's a JOB"
+	line "BULLETIN."
+
+	para "No JOBS are"
+	line "currently"
+	cont "available."
+	done
+

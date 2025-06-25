@@ -62,7 +62,7 @@ INCLUDE "data/events/card_key_maps.asm"
 
 CardKeySuccessText::
 	text_far _CardKeySuccessText1
-	sound_get_item_1
+	sound_get_item_1_duplicate
 	text_far _CardKeySuccessText2
 	text_end
 

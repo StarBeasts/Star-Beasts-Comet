@@ -21,7 +21,7 @@ SilphCo3Script_59f71:
 	push af
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 4, 4
+	lb bc, 34, 34
 	predef ReplaceTileBlock
 	pop af
 .asm_59f98
@@ -29,7 +29,7 @@ SilphCo3Script_59f71:
 	ret nz
 	ld a, $5f
 	ld [wNewTileBlockID], a
-	lb bc, 4, 8
+	lb bc, 34, 38
 	predef_jump ReplaceTileBlock
 
 SilphCo3GateCoords:
@@ -64,9 +64,9 @@ SilphCo3F_TextPointers:
 SilphCo3TrainerHeaders:
 	def_trainers 2
 SilphCo3TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_3F_TRAINER_0, 2, SilphCo3BattleText1, SilphCo3EndBattleText1, SilphCo3AfterBattleText1
+	trainer EVENT_BEAT_SILPH_CO_3F_TRAINER_0, 3, SilphCo3BattleText1, SilphCo3EndBattleText1, SilphCo3AfterBattleText1
 SilphCo3TrainerHeader1:
-	trainer EVENT_BEAT_SILPH_CO_3F_TRAINER_1, 3, SilphCo3BattleText2, SilphCo3EndBattleText2, SilphCo3AfterBattleText2
+	trainer EVENT_BEAT_SILPH_CO_3F_TRAINER_1, 1, SilphCo3BattleText2, SilphCo3EndBattleText2, SilphCo3AfterBattleText2
 	db -1 ; end
 
 SilphCo3Text1:
