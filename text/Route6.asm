@@ -33,8 +33,8 @@ _Route6EndBattleText2::
 	prompt
 
 _Route6BattleText3::
-	text "There aren't many"
-	line "bugs out here."
+	text "There ain't enough"
+	line "bugs out here!"
 	done
 
 _Route6EndBattleText3::
@@ -50,8 +50,9 @@ _Route6AfterBattleText3::
 
 _Route6BattleText4::
 	text "Huh? You're not"
-	line "one of those cult"
-	cont "members, are you?"
+	line "one of those"
+	cont "weird NEPUTAIL"
+	cont "fans, are you?"
 	
 	para "Oh? A battle?"
 	line "Hah, you're on!"
@@ -90,20 +91,20 @@ _Route6AfterBattleText5::
 	done
 
 _Route6BattleText6::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Eeeek!"
+
+	para "Stranger danger!"
+	line "Protect me, ROBBY!"
 	done
 
 _Route6EndBattleText6::
-	text "You"
-	line "are too good!"
+	text "ROBBY, no..."
 	prompt
 
 _Route6AfterBattleText6::
-	text "Is my BEAST"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "My Mom got that"
+	line "ROBBY for me"
+	cont "from RHINESTONE!"
 	done
 
 _Route6Text7::

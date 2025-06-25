@@ -89,5 +89,5 @@ _SSAnneRivalCaptainText::
 	line "in our way at"
 	cont "your own peril."
 
-	para "Farewell."
+	para "Au revoir."
 	done

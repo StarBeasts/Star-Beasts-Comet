@@ -155,7 +155,7 @@ MapHSPointers:
 	dw MrFujisHouseHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw FuchsiaMartHS
 	dw NoHS
 	dw NoHS
 	dw WardensHouseHS
@@ -164,7 +164,7 @@ MapHSPointers:
 	dw NoHS
 	dw SeafoamIslandsB1FHS
 	dw SeafoamIslandsB2FHS
-	dw SeafoamIslandsB3FHS
+	dw NoHS
 	dw SeafoamIslandsB4FHS
 	dw NoHS
 	dw NoHS
@@ -561,11 +561,6 @@ SeafoamIslandsB1FHS:
 SeafoamIslandsB2FHS:
 	db SEAFOAM_ISLANDS_B2F, $01, SHOW
 	db SEAFOAM_ISLANDS_B2F, $02, SHOW
-SeafoamIslandsB3FHS:
-	db SEAFOAM_ISLANDS_B3F, $02, SHOW
-	db SEAFOAM_ISLANDS_B3F, $03, SHOW
-	db SEAFOAM_ISLANDS_B3F, $05, HIDE
-	db SEAFOAM_ISLANDS_B3F, $06, HIDE
 SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $01, HIDE
 	db SEAFOAM_ISLANDS_B4F, $02, HIDE
@@ -610,5 +605,9 @@ VictoryRoad3FHS:
 Route8GateHS:
 	db ROUTE_8_GATE, $01, SHOW
 	db ROUTE_8_GATE, $02, HIDE
+FuchsiaMartHS:
+	db FUCHSIA_MART, $01, HIDE
+	db FUCHSIA_MART, $04, SHOW
+	db FUCHSIA_MART, $05, HIDE
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

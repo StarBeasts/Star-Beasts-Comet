@@ -104,8 +104,9 @@ _SilphCo10Text_62335::
 	cont "# BEASTS exist"
 	cont "for TEAM ROCKET!"
 
-	para "I must go, but I"
-	line "will return!"
+	para "..."
+
+	para "Auf Wiedersehen."
 	done
 
 _SilphCo11BattleText1::
