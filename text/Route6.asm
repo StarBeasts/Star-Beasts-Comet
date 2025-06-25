@@ -33,19 +33,22 @@ _Route6EndBattleText2::
 	prompt
 
 _Route6BattleText3::
-	text "There ain't enough"
-	line "bugs out here!"
+	text "My fully evolved"
+	line "BUGS, you must:"
+
+	para "Kill."
 	done
 
 _Route6EndBattleText3::
-	text "No!"
-	line "You're kidding!"
+	text "Sent"
+	line "to the next"
+	cont "dimension!"
 	prompt
 
 _Route6AfterBattleText3::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "OLIVINE ORCHARD."
+	text "Evolved BEASTS"
+	line "are stronger than"
+	cont "basic ones!"
 	done
 
 _Route6BattleText4::
