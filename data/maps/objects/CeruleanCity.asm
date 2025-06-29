@@ -33,6 +33,6 @@ CeruleanCity_Object:
 	object_event 33, 12, SPRITE_COOLTRAINER_F, STAY, LEFT, 7 ; person
 	object_event 32, 12, SPRITE_LAWNCRETE, STAY, DOWN, 8 ; person
 	object_event 23, 20, SPRITE_COOLTRAINER_F, WALK, LEFT_RIGHT, 9 ; person
-	object_event 22, 12, SPRITE_GUARD, STAY, DOWN, 11 ; person
+	object_event  9,  6, SPRITE_GUARD, STAY, RIGHT, 11 ; person
 
 	def_warps_to CERULEAN_CITY

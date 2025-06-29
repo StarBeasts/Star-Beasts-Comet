@@ -183,12 +183,12 @@ _Route15AfterBattleText10::
 	text_end
 
 _Route15Text12::
-	text "Up ahead is"
-	line "MT. VALOR!"
+	text "Through this gate"
+	line "lies MT. VALOR!"
 	
 	para "Horribly"
 	line "strong BEASTS"
-	cont "live in there!"
+	cont "dwell there!"
 
 	para "The #BST LEAGUE"
 	line "champion is the"

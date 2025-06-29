@@ -6,10 +6,10 @@ CeruleanHideRocket:
 	call GBFadeOutToBlack
 	ld a, HS_CERULEAN_GUARD_1
 	ld [wMissableObjectIndex], a
-	predef ShowObject
+	predef HideObject
 	ld a, HS_CERULEAN_GUARD_2
 	ld [wMissableObjectIndex], a
-	predef HideObject
+	predef ShowObject
 	ld a, HS_CERULEAN_ROCKET
 	ld [wMissableObjectIndex], a
 	predef HideObject

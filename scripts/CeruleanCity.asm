@@ -357,7 +357,6 @@ CeruleanCityText5:
 	text_far _CeruleanCityText5
 	text_end
 
-CeruleanCityText11:
 CeruleanCityText6:
 	text_far _CeruleanCityText6
 	text_end
@@ -452,6 +451,10 @@ CeruleanCityText9:
 
 CeruleanCityText10:
 	text_far _CeruleanCityText10
+	text_end
+
+CeruleanCityText11:
+	text_far _CeruleanCityText11
 	text_end
 
 CeruleanCityText12:

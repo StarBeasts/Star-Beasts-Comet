@@ -236,6 +236,22 @@ _CeruleanCityText10::
 	cont "is allowed in!"
 	done
 
+_CeruleanCityText11::
+	text "What a suspicious"
+	line "ground patch..."
+
+	para "And hideous, too!"
+
+	para "This SHOULD be"
+	line "illegal, but"
+	cont "bad taste isn't"
+	cont "a crime..."
+
+	para "It really needs"
+	line "to be one, though."
+	done
+
+
 _CeruleanCityText12::
 	text "SAPPHIRE SANDS"
 	line "All the beauty"

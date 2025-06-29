@@ -111,13 +111,13 @@ HallofFameRoomScript1:
 .hideStarterBall
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_ROUTE_15_GUARD
+	ld a, HS_ROUTE_15_LORELEI
 	ld [wMissableObjectIndex], a
 	predef HideObject
      ld a, HS_ROUTE_20_GUARD
      ld [wMissableObjectIndex], a
      predef HideObject
-     ld a, HS_ROUTE_15_LORELEI
+     ld a, HS_ROUTE_15_GUARD
      ld [wMissableObjectIndex], a
 	predef HideObject
 	ld a, HS_VARIK_1
