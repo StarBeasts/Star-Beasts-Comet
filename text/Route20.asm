@@ -182,12 +182,17 @@ _Route20Text11::
 	done
 
 _Route20Text12::
+	text "VINEGAR SEASIDE - "
+	line "X ISLE"
+	done
+
 _Route20Text13::
-	text "SEAFOAM ISLANDS"
+	text "VINEGAR SEA"
+	line "SEASIDE"
 	done
 
 _Route20Text14::
-	text "SEAFOAM VILLA"
+	text "VINEGAR VILLA"
 
 	para "LEGAL NOTICE"
 

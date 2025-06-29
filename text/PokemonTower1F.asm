@@ -1,8 +1,9 @@
 _PokemonTower1Text1::
-	text "BEAST TOWER was"
-	line "erected in the"
-	cont "memory of BEASTS"
-	cont "that had died."
+	text "GALENA GRAVEYARD"
+	line "is a tomb, meant"
+	cont "to be the final"
+	cont "resting place for"
+	cont "dead # BEASTS."
 	done
 
 _PokemonTower1Text2::

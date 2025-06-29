@@ -279,9 +279,12 @@ Route20Text11:
 	text_far _Route20Text11
 	text_end
 
-Route20Text13:
 Route20Text12:
 	text_far _Route20Text12
+	text_end
+
+Route20Text13:
+	text_far _Route20Text13
 	text_end
 
 Route20Text14:

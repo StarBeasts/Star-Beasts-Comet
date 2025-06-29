@@ -2,14 +2,14 @@ _LavenderPokecenterText2::
 	text "They sell special"
 	line "SOULs that help"
 	cont "BEASTS evolve"
-	cont "at the LAVENDER"
-	cont "TOWN BEAST MART!"
+	cont "at the BLACKROCK"
+	cont "BLUFF BEAST MART!"
 	done
 
 _LavenderPokecenterText3::
 	text "There's some kind"
 	line "of GHOST haunting"
-	cont "BEAST TOWER!"
+	cont "GALENA GRAVEYARD!"
 	
 	para "Apparently, TEAM"
 	line "ROCKET'S LEADER"

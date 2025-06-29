@@ -8,9 +8,9 @@ Route20_Object:
 	warp_event  8, 15, VILLA_1F, 5
 
 	def_bg_events
-	bg_event 11, 61, 12 ; Route20Text12
-	bg_event  9, 17, 13 ; Route20Text13
-	bg_event  9, 85, 14 ; Route20Text14
+	bg_event  9, 17, 12 ; Route20Text12
+	bg_event  9, 85, 13 ; Route20Text13
+	bg_event 11, 61, 14 ; Route20Text14
 
 	def_object_events
 	object_event 47, 90, SPRITE_SWIMMER, STAY, UP, 1, OPP_SWIMMER, 9
