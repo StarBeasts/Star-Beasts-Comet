@@ -917,10 +917,10 @@ DiglettEvosMoves:
 	db EV_LEVEL, 26, DUGTRIO
 	db 0
 ; Learnset
-	db 15, GROWL
+	db 15, SCREECH
 	db 19, SAND_ATTACK
 	db 24, REFLECT
-	db 31, TIME_STOP
+	db 28, TIME_STOP
 	db 40, EARTHQUAKE
 	db 0
 

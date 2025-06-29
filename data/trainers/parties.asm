@@ -98,7 +98,7 @@ BugCatcherData:
 ; Route 24
 	db 14, PONYTA, 0
 ; Route 6
-	db 16, BEEDRILL, BUTTERFREE, 0
+	db 17, BEEDRILL, BUTTERFREE, 0
 ; Route 8
 	db 20, KINGLER, 0
 ; Unused
@@ -111,7 +111,7 @@ LassData:
 ; Route 3
 	db 3, PIDGEY, BELLSPROUT, 0
 	db 4, NIDORAN_M, 0
-	db 16, RATICATE, 0 ; not actually used for route 3
+	db 17, RATICATE, 0 ; not actually used for route 3
 ; Route 4
 	db 6, MEOWTH, 0
 ; Mt. Moon 1F
@@ -128,7 +128,7 @@ LassData:
 ; SS Anne 2F Rooms
 	db 18, NIDORAN_M, PIKACHU, 0
 ; Route 8
-	db 18, NIDORAN_M, NIDORINO, 0
+	db 17, NIDORAN_M, NIDORAN_M, NIDORINO, 0
 	db 18, VOLTORB, VOLTORB, ELECTRODE, 0
 	db 19, PARAS, PSYDUCK, NIDORAN_M, DIGLETT, PIKACHU, 0
 	db 17, BELLSPROUT, POLIWAG, 0
@@ -160,7 +160,7 @@ JrTrainerMData:
 	db 18, MANKEY, 0
 ; Route 6
 	db 18, SQUIRTLE, 0
-	db 16, MANKEY, PARAS, 0
+	db 17, MANKEY, PARAS, 0
 ; Unused
 	db 18, DIGLETT, DIGLETT, SANDSHREW, 0
 ; Route 9
@@ -173,8 +173,8 @@ JrTrainerFData:
 ; Cerulean Gym
 	db 20, WARTORTLE, 0
 ; Route 6
-	db 16, CHARMANDER, PIKACHU, 0
-	db 16, PIDGEY, DIGLETT, POLIWAG, 0
+	db 17, CHARMANDER, PIKACHU, 0
+	db 17, PIDGEY, DIGLETT, POLIWAG, 0
 ; Unused
 	db 22, BULBASAUR, 0
 ; Route 9
@@ -703,7 +703,7 @@ BlaineData:
 SabrinaData:
 	db $FF, 49,DUGTRIO,48,KABUTOPS,49,MAGNETON,51,EXEGGUTOR,52,ALAKAZAM,0
 ; Miserite
-	db $FF, 27,DIGLETT,28,KABUTO,29,KADABRA,30,FEAROW,0
+	db $FF, 28,DIGLETT,28,KABUTO,29,KADABRA,30,FEAROW,0
 
 GentlemanData:
 ; SS Anne 1F Rooms

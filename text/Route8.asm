@@ -32,19 +32,34 @@ _Route8AfterBattleText2::
 	done
 
 _Route8BattleText3::
-	text "You need strategy"
-	line "to win at this!"
+	text "Everybody needs a"
+	line "winning strategy!"
+
+	para "What's yours?"
 	done
 
 _Route8EndBattleText3::
-	text "It's"
-	line "not logical!"
+	text "Aiiiie!"
+	line "My babies!"
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with EGGEROT"
-	line "first...and..."
-	cont "...and...then..."
+	text "That gate to my"
+	line "left leads to"
+	cont "MISERITE MEADOW."
+
+	para "A bunch of creepy"
+	line "mumbly guys went"
+	cont "in there holding"
+	cont "a weird pair of"
+	cont "goggles as if it"
+	cont "was an ancient"
+	cont "cursed artifact,"
+	cont "or something!"
+
+	para "And people have"
+	line "a go at ME for"
+	cont "being weird?"
 	done
 
 _Route8BattleText4::
