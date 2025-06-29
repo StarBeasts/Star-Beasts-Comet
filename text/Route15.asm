@@ -183,6 +183,20 @@ _Route15AfterBattleText10::
 	text_end
 
 _Route15Text12::
+	text "Up ahead is"
+	line "MT. VALOR!"
+	
+	para "Horribly"
+	line "strong BEASTS"
+	cont "live in there!"
+
+	para "The #BST LEAGUE"
+	line "champion is the"
+	cont "only person I"
+	cont "can allow in!"
+	done
+
+_Route15Text13::
 	text "ROUTE 15"
 	line "West to FUCHSIA"
 	cont "CITY"

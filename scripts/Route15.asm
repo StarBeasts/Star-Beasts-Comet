@@ -25,6 +25,7 @@ Route15_TextPointers:
 	dw Route15Text10
 	dw PickUpItemText
 	dw Route15Text12
+	dw Route15Text13
 
 Route15TrainerHeaders:
 	def_trainers
@@ -224,4 +225,8 @@ Route15AfterBattleText10:
 
 Route15Text12:
 	text_far _Route15Text12
+	text_end
+
+Route15Text13:
+	text_far _Route15Text13
 	text_end

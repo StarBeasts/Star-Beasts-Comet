@@ -7,7 +7,7 @@ Route15_Object:
 	warp_event 53,  9, CINNABAR_LAB, 15
 
 	def_bg_events
-	bg_event  9,  9, 12 ; Route15Text12
+	bg_event  9,  9, 13 ; Route15Text12
 
 	def_object_events
 	object_event 41, 10, SPRITE_COOLTRAINER_F, STAY, LEFT_RIGHT, 1, OPP_JR_TRAINER_F, 20
@@ -21,5 +21,6 @@ Route15_Object:
 	object_event 23, 10, SPRITE_COOLTRAINER_F, STAY, ANY_DIR, 9, OPP_JR_TRAINER_F, 22
 	object_event 19,  8, SPRITE_LORELEI, STAY, DOWN, 10, OPP_LORELEI, 1
 	object_event 12, 14, SPRITE_POKE_BALL, STAY, NONE, 11, TM_FALCON_PUNCH
+	object_event 35,  4, SPRITE_SUPER_NERD, STAY, DOWN, 12, ; person
 
 	def_warps_to ROUTE_15

@@ -111,7 +111,7 @@ HallofFameRoomScript1:
 .hideStarterBall
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_CERULEAN_CAVE_GUY
+	ld a, HS_ROUTE_15_GUARD
 	ld [wMissableObjectIndex], a
 	predef HideObject
      ld a, HS_ROUTE_20_GUARD
