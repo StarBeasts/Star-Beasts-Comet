@@ -834,8 +834,8 @@ Museum1F_Blocks: INCBIN "maps/Museum1F.blk"
 Museum2F_Blocks: INCBIN "maps/Museum2F.blk"
 
 SaffronPokecenter_Blocks:
-VermilionPokecenter_Blocks:
-LavenderPokecenter_Blocks:
+VermilionPokecenter_Blocks:INCBIN "maps/VermilionPokecenter.blk"
+LavenderPokecenter_Blocks: INCBIN "maps/LavenderPokecenter.blk"
 PewterPokecenter_Blocks: INCBIN "maps/PewterPokecenter.blk"
 
 UndergroundPathRoute7_Blocks: INCBIN "maps/UndergroundPathRoute7.blk"

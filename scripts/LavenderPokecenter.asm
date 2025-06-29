@@ -8,6 +8,9 @@ LavenderPokecenter_TextPointers:
 	dw LavenderPokecenterText3
 	dw LavenderTradeNurseText
 	dw LavenderPokecenterText4
+	dw LavenderCashierText
+	dw LavenderPokecenterText5
+	dw LavenderPokecenterText6
 
 LavenderTradeNurseText:
 	script_cable_club_receptionist
@@ -31,4 +34,28 @@ LavenderPokecenterText4:
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 
+LavenderPokecenterText5:
+	text_far _LavenderPokecenterText5
+	text_end
+
+LavenderPokecenterText6:
+	text_asm
+	CheckEvent EVENT_RESCUED_MR_FUJI
+	jr nz, .Nugget
+	ld hl, .ReviveText
+	call PrintText
+	jr .done
+.Nugget
+	ld hl, .NuggetText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.ReviveText
+	text_far _LavenderMartReviveText
+	text_end
+
+.NuggetText
+	text_far _LavenderMartNuggetText
+	text_end
 
