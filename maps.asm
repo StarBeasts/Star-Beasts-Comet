@@ -821,9 +821,9 @@ HallOfFame_Blocks: INCBIN "maps/HallOfFame.blk"
 
 SECTION "Maps 15", ROMX
 
-SaffronMart_Blocks:
-LavenderMart_Blocks:
-CeruleanMart_Blocks:
+SaffronMart_Blocks: INCBIN "maps/SaffronMart.blk"
+LavenderMart_Blocks: INCBIN "maps/LavenderMart.blk"
+CeruleanMart_Blocks: INCBIN "maps/CeruleanMart.blk"
 VermilionMart_Blocks: INCBIN "maps/VermilionMart.blk"
 
 CopycatsHouse2F_Blocks:
@@ -1283,26 +1283,6 @@ INCLUDE "scripts/Villa5F.asm"
 INCLUDE "data/maps/objects/Villa5F.asm"
 Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
 
-INCLUDE "data/maps/headers/SecretGarden.asm"
-INCLUDE "scripts/SecretGarden.asm"
-INCLUDE "data/maps/objects/SecretGarden.asm"
-SecretGarden_Blocks: INCBIN "maps/SecretGarden.blk"
-
-INCLUDE "data/maps/headers/SecretPath.asm"
-INCLUDE "scripts/SecretPath.asm"
-INCLUDE "data/maps/objects/SecretPath.asm"
-SecretPath_Blocks: INCBIN "maps/SecretPath.blk"
-
-INCLUDE "data/maps/headers/AncientCave.asm"
-INCLUDE "scripts/AncientCave.asm"
-INCLUDE "data/maps/objects/AncientCave.asm"
-AncientCave_Blocks: INCBIN "maps/AncientCave.blk"
-
-INCLUDE "data/maps/headers/DevilsCanyon.asm"
-INCLUDE "scripts/DevilsCanyon.asm"
-INCLUDE "data/maps/objects/DevilsCanyon.asm"
-DevilsCanyon_Blocks: INCBIN "maps/DevilsCanyon.blk"
-
 INCLUDE "data/maps/headers/GoldenGate.asm"
 INCLUDE "scripts/GoldenGate.asm"
 INCLUDE "data/maps/objects/GoldenGate.asm"
@@ -1334,6 +1314,27 @@ INCLUDE "data/maps/headers/AmethystArchive.asm"
 INCLUDE "scripts/AmethystArchive.asm"
 INCLUDE "data/maps/objects/AmethystArchive.asm"
 AmethystArchive_Blocks: INCBIN "maps/AmethystArchive.blk"
+
+INCLUDE "data/maps/headers/SecretGarden.asm"
+INCLUDE "scripts/SecretGarden.asm"
+INCLUDE "data/maps/objects/SecretGarden.asm"
+SecretGarden_Blocks: INCBIN "maps/SecretGarden.blk"
+
+INCLUDE "data/maps/headers/SecretPath.asm"
+INCLUDE "scripts/SecretPath.asm"
+INCLUDE "data/maps/objects/SecretPath.asm"
+SecretPath_Blocks: INCBIN "maps/SecretPath.blk"
+
+INCLUDE "data/maps/headers/AncientCave.asm"
+INCLUDE "scripts/AncientCave.asm"
+INCLUDE "data/maps/objects/AncientCave.asm"
+AncientCave_Blocks: INCBIN "maps/AncientCave.blk"
+
+INCLUDE "data/maps/headers/DevilsCanyon.asm"
+INCLUDE "scripts/DevilsCanyon.asm"
+INCLUDE "data/maps/objects/DevilsCanyon.asm"
+DevilsCanyon_Blocks: INCBIN "maps/DevilsCanyon.blk"
+
 
 
 

@@ -2,8 +2,8 @@ CeruleanCave1F_Object:
 	db $7d ; border block
 
 	def_warp_events
-	warp_event 24, 17, LAST_MAP, 7
-	warp_event 25, 17, LAST_MAP, 7
+	warp_event 24, 17, LAST_MAP, 5
+	warp_event 25, 17, LAST_MAP, 5
 	warp_event 27,  1, CERULEAN_CAVE_2F, 1
 	warp_event 23,  7, CERULEAN_CAVE_2F, 2
 	warp_event 18,  9, CERULEAN_CAVE_2F, 3

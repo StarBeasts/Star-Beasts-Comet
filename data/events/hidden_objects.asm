@@ -379,8 +379,8 @@ FuchsiaPokecenterHiddenObjects:
 	db -1 ; end
 
 FuchsiaGymHiddenObjects:
-	hidden_object  3, 15, SPRITE_FACING_UP, GymStatues
-	hidden_object  6, 15, SPRITE_FACING_UP, GymStatues
+	hidden_object  29, 41, SPRITE_FACING_UP, GymStatues
+	hidden_object  30, 41, SPRITE_FACING_UP, GymStatues
 	db -1 ; end
 
 CinnabarGymHiddenObjects:
@@ -662,7 +662,7 @@ VermilionCityHiddenObjects:
 	db -1 ; end
 
 CeruleanCityHiddenObjects:
-	hidden_object 11,  6, MAX_ELIXER, HiddenItems
+	hidden_object 11,  6, RARE_CANDY, HiddenItems
 	db -1 ; end
 
 Route4HiddenObjects:

@@ -169,7 +169,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const POKEMON_TOWER_6F,              10,  9 ; $93
 	map_const POKEMON_TOWER_7F,              10,  9 ; $94
 	map_const MR_FUJIS_HOUSE,                 4,  4 ; $95
-	map_const LAVENDER_MART,                  4,  4 ; $96
+	map_const LAVENDER_MART,                  3,  8 ; $96
 	map_const LAVENDER_CUBONE_HOUSE,          4,  4 ; $97
 	map_const FUCHSIA_MART,                   4,  4 ; $98
 	map_const FUCHSIA_BILLS_GRANDPAS_HOUSE,   21, 6 ; $99
@@ -188,7 +188,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CINNABAR_GYM,                  10,  9 ; $A6
 	map_const CINNABAR_LAB,                  34, 18 ; $A7
 	map_const CINNABAR_LAB_TRADE_ROOM,        4,  4 ; $A8
-	map_const CINNABAR_LAB_METRONOME_ROOM,    4,  4 ; $A9
+	map_const CINNABAR_LAB_METRONOME_ROOM,    21, 25 ; $A9
 	map_const CINNABAR_LAB_FOSSIL_ROOM,       4,  4 ; $AA
 	map_const CINNABAR_POKECENTER,            7,  4 ; $AB
 	map_const CINNABAR_MART,                  4,  4 ; $AC
