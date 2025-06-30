@@ -218,7 +218,7 @@ _VillaB1FText9::
 	cont "the most likely"
 	cont "place FAMETAS is"
 	cont "located is in"
-	cont "C-"
+	cont "MT. VAL-"
 
 	para "..."
 

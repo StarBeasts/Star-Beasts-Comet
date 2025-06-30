@@ -114,6 +114,15 @@ CeladonGameCornerScript2:
 	ld a, HS_GAME_CORNER_ROCKET
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_HAZMAT_GUY_1
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_SEWER_ROCKET
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_HAZMAT_GUY_2
+	ld [wMissableObjectIndex], a
+	predef ShowObject
     ld a, MUSIC_GAME_CORNER
     call PlayMusic
 	ld hl, wCurrentMapScriptFlags

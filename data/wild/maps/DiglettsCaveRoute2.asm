@@ -9,7 +9,7 @@ DiglettsCaveRoute2WildMons:
 	db 4, SANDSHREW
 	db 3, ZUBAT
 	db 5, NIDORAN_F
-	db 8, MANKEY
+	db 6, MANKEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

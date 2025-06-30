@@ -1,4 +1,4 @@
-Route5WildMons:
+Route5WildMons: ; never called
 	def_grass_wildmons 15 ; encounter rate
 	db 13,BELLSPROUT
 	db 13,PIDGEY

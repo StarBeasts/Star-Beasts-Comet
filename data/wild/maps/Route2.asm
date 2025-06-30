@@ -5,11 +5,11 @@ Route2WildMons:
 	db 4,PIDGEY
 	db 4,NIDORAN_M
 	db 5,PIDGEY
-	db  3, WEEDLE
-	db  2, NIDORAN_M
-	db  5, NIDORAN_M
-	db  4, WEEDLE
-	db  5, SPEAROW
+	db 3, WEEDLE
+	db 2, NIDORAN_M
+	db 5, NIDORAN_M
+	db 4, WEEDLE
+	db 5, SPEAROW
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

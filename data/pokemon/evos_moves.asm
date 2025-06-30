@@ -1027,7 +1027,8 @@ PoliwagEvosMoves:
 	db EV_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 16, TAKE_DOWN
+	db 10, THUNDER_WAVE
+	db 15, TAKE_DOWN
 	db 19, THUNDERSHOCK
 	db 25, GROWTH
 	db 31, BODY_SLAM
@@ -2141,6 +2142,7 @@ MagnemiteEvosMoves:
 	db EV_ITEM, THUNDER_STONE, 1, MAGNETON
 	db 0
 ; Learnset
+	db 16, SLAM
 	db 21, THUNDER_WAVE
 	db 25, TAKE_DOWN
 	db 29, HYPNOSIS

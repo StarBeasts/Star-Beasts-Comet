@@ -48,7 +48,7 @@ DiglettsCaveName:    db "CRACTURE CHASM@"
 RocketHQName:        db "MISERITE MEADOW@"
 SilphCoName:         db "GAI CO.@"
 SafariZoneName:      db "SAFARI ZONE@"
-CeruleanCaveName:    db "CORUNDUM CAVERN@"
+CeruleanCaveName:    db "MT. VALOR@"
 PowerPlantName:      db "DOLOMITE DAM@"
 SecretGardenName:    db "SECRET GARDEN@"
 VultMazeName:        db "WINDWALKER'S WAY@"
@@ -66,6 +66,8 @@ VillaName:           db "VINEGAR VILLA@"
 ShadowstoneName:	db "RED GOLD REEF@"
 MacrobiaName:		db "MACROBIA RUINS@"
 SpaceshipName:		db "SPACESHIP@"
+RegentName:          db "<PLAYER>'S REST@"
+ValorPeakName:       db "MT. VALOR PEAK@"
 
 
 

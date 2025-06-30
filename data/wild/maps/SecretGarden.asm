@@ -7,8 +7,8 @@ SecretGardenWildMons:
 	db 11, DIGLETT
 	db 10, MANKEY
 	db 12, MANKEY
-	db 13, SANDSHREW
-	db 12, MEOWTH
+	db 13, ABRA
+	db 12, ABRA
 	db 15, EEVEE
 	end_grass_wildmons
 
