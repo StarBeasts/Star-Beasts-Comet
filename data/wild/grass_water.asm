@@ -16,7 +16,7 @@ WildDataPointers:
 	dw Route2WildMons          ; ROUTE_2
 	dw Route3WildMons          ; ROUTE_3
 	dw Route4WildMons          ; ROUTE_4
-	dw Route5WildMons          ; ROUTE_5
+	dw NothingWildMons         ; ROUTE_5
 	dw Route6WildMons          ; ROUTE_6
 	dw Route7WildMons          ; ROUTE_7
 	dw Route8WildMons          ; ROUTE_8
@@ -125,7 +125,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw Route5WildMons ; Wastewater Plant
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -199,10 +199,10 @@ WildDataPointers:
 	dw NothingWildMons
 	dw DiglettsCaveWildMons
 	dw VictoryRoad3FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw RocketHideoutB1FWildMons
+	dw RocketHideoutB2FWildMons
+	dw RocketHideoutB3FWildMons
+	dw RocketHideoutB4FWildMons
 	dw NothingWildMons
 	dw SecretGardenWildMons
 	dw NothingWildMons
@@ -330,3 +330,7 @@ INCLUDE "data/wild/maps/DevilsCanyon.asm"
 INCLUDE "data/wild/maps/OwaiHotel.asm"
 INCLUDE "data/wild/maps/IndigoPlateau.asm"
 INCLUDE "data/wild/maps/DiglettsCaveRoute2.asm"
+INCLUDE "data/wild/maps/RocketHideoutB1F.asm"
+INCLUDE "data/wild/maps/RocketHideoutB2F.asm"
+INCLUDE "data/wild/maps/RocketHideoutB3F.asm"
+INCLUDE "data/wild/maps/RocketHideoutB4F.asm"

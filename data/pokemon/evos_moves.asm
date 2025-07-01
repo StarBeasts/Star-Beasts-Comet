@@ -957,7 +957,7 @@ FarfetchdEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, DIG
+	db 19, DIG
 	db 24, DRILL_PECK
 	db 32, DRILL_RUN
 	db 38, SPIKE_CANNON

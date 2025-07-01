@@ -5,25 +5,21 @@ SuperRodData:
 	dbw VIRIDIAN_CITY,       .Group1
 	dbw CERULEAN_CITY,       .Group3
 	dbw VERMILION_CITY,      .Group4
-	dbw CELADON_CITY,        .Group5
-	dbw FUCHSIA_CITY,        .Group10
+	dbw CELADON_CITY,        .Group3
 	dbw CINNABAR_ISLAND,     .Group8
-	dbw ROUTE_4,             .Group3
-	dbw ROUTE_6,             .Group4
+	dbw ROUTE_4,             .Group1
+	dbw ROUTE_5,             .Group8
+	dbw ROUTE_9,             .Group13
 	dbw ROUTE_10,            .Group5
-	dbw ROUTE_11,            .Group4
 	dbw ROUTE_12,            .Group7
-	dbw ROUTE_13,            .Group7
-	dbw ROUTE_17,            .Group7
-	dbw ROUTE_18,            .Group7
 	dbw ROUTE_19,            .Group8
 	dbw ROUTE_20,            .Group8
-	dbw ROUTE_21,            .Group8
-	dbw ROUTE_22,            .Group2
+	dbw ROUTE_21,            .Group6
+	dbw ROUTE_22,            .Group3
 	dbw ROUTE_23,            .Group9
-	dbw ROUTE_24,            .Group3
-	dbw ROUTE_25,            .Group3
+	dbw MT_MOON_B1F,         .Group12
 	dbw CERULEAN_GYM,        .Group3
+	dbw BLOODSTONE_BAY,      .Group10
 	dbw VERMILION_DOCK,      .Group4
 	dbw SEAFOAM_ISLANDS_B3F, .Group8
 	dbw SEAFOAM_ISLANDS_B4F, .Group8
@@ -35,7 +31,7 @@ SuperRodData:
 	dbw CERULEAN_CAVE_B1F,   .Group9
 	dbw CERULEAN_CAVE_1F,    .Group9
 	dbw VILLA_3F,		   .Group11
-	dbw SECRET_GARDEN,		.Group4
+	dbw SECRET_GARDEN,		.Group7
 	db -1 ; end
 
 ; fishing groups
@@ -63,8 +59,10 @@ SuperRodData:
 	db 15, SHELLDER
 
 .Group5:
-	db 2
+	db 4
 	db 23, DEWGONG
+	db 22, SLOWPOKE
+	db 24, DEWGONG
 	db 19, TENTACRUEL
 
 .Group6:
@@ -76,7 +74,7 @@ SuperRodData:
 
 .Group7:
 	db 4
-	db 5,SLOWPOKE
+	db 15,SLOWPOKE
 	db 15,SHELLDER
 	db 15,GOLDEEN
 	db 15,MAGIKARP
@@ -86,14 +84,14 @@ SuperRodData:
 	db 15,SHELLDER
 	db 15,GOLDEEN
 	db 15,ARBOK
-	db 15,PINSIR
+	db 15,EKANS
 
 .Group9:
 	db 4
-	db 23,SLOWBRO
-	db 23,SEAKING
-	db 23,ARBOK
-	db 23,LAPRAS
+	db 33,SLOWBRO
+	db 33,SEAKING
+	db 33,ARBOK
+	db 33,LAPRAS
 
 .Group10:
 	db 4
@@ -108,4 +106,18 @@ SuperRodData:
 	db 50, GYARADOS
 	db 50, BLASTOISE
 	db 55, DRAGONITE
+
+.Group12:
+	db 4
+	db 25, RHYDON
+	db 24, RHYDON
+	db 23, RHYDON
+	db 20, PINSIR
+
+.Group13:
+	db 4
+	db 33,ARBOK
+	db 32,ARBOK
+	db 31,GYARADOS
+	db 33,LAPRAS
 
