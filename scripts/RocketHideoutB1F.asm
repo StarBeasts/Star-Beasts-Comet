@@ -43,6 +43,7 @@ RocketHideoutB1F_TextPointers:
 	dw RocketHideout1Text5
 	dw PickUpItemText
 	dw PickUpItemText
+	dw RocketHideout1Text6
 
 RocketHideout1TrainerHeaders:
 	def_trainers
@@ -154,3 +155,8 @@ RocketHideout1BattleText6:
 RocketHideout1AfterBattleTxt6:
 	text_far _RocketHideout1AfterBattleTxt6
 	text_end
+
+RocketHideout1Text6:
+	text_far _RocketHideout1Text6
+	text_end
+

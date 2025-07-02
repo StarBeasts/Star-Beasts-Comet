@@ -104,3 +104,7 @@ _RocketHideout1AfterBattleTxt6::
 	cont "focus and made me"
 	cont "drop the BARRIER!"
 	done
+
+_RocketHideout1Text6::
+	text "sign here"
+	done

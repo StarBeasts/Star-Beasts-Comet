@@ -9,6 +9,7 @@ RocketHideoutB1F_Object:
 	warp_event 32,  6, ROCKET_HIDEOUT_B2F, 1
 
 	def_bg_events
+	bg_event 5,  23, 8 ; CeruleanCityText12
 
 	def_object_events
 	object_event 24, 20, SPRITE_PSYCHIC, STAY, RIGHT, 1, OPP_PSYCHIC_TR, 8
