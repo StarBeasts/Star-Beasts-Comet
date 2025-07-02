@@ -43,3 +43,16 @@ Route15GateUpstairsText2:
 Route15GateUpstairsText_49698:
 	text_far _Route15GateUpstairsText_49698
 	text_end
+
+GateUpstairsScript_PrintIfFacingUp:
+	ld a, [wSpritePlayerStateData1FacingDirection]
+	cp SPRITE_FACING_UP
+	jr z, .up
+	ld a, TRUE
+	jr .done
+.up
+	call PrintText
+	xor a
+.done
+	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
+	jp TextScriptEnd

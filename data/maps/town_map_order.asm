@@ -50,6 +50,6 @@ TownMapOrder:
 	db ROUTE_9
 	db ROUTE_22
 	db ROUTE_23
-	db VICTORY_ROAD_3F
+	db VICTORY_ROAD_2F
 	db INDIGO_PLATEAU
 TownMapOrderEnd:

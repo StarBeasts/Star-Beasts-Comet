@@ -48,7 +48,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_16,                      35,  20 ; $1B
 	map_const ROUTE_17,                      17,  50 ; $1C
 	map_const ROUTE_18,                      17,  24 ; $1D
-	map_const ROUTE_19,                      28, 12 ; $1E
+	map_const ROUTE_19,                      28, 20 ; $1E
 	map_const ROUTE_20,                      9,  50 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
 	map_const ROUTE_22,                      20,  10 ; $21
