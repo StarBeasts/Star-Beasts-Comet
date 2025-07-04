@@ -14,9 +14,9 @@ Route12Gate2F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  1, 13, SPRITE_BRUNETTE_GIRL, WALK, UP_DOWN, 1 ; person
-	object_event  2, 14, SPRITE_BRUNETTE_GIRL, WALK, UP_DOWN, 2 ; person
-	object_event  3, 15, SPRITE_BRUNETTE_GIRL, WALK, UP_DOWN, 3 ; person
-	object_event  4, 16, SPRITE_BRUNETTE_GIRL, WALK, UP_DOWN, 4 ; person
+	object_event  3,  1, SPRITE_BRUNETTE_GIRL, STAY,  DOWN, 1 ; person
+	object_event  3,  7, SPRITE_BRUNETTE_GIRL, STAY, UP, 2 ; person
+	object_event  3, 18, SPRITE_BRUNETTE_GIRL, STAY, DOWN, 3 ; person
+	object_event  4, 23, SPRITE_BRUNETTE_GIRL, STAY, UP, 4 ; person
 
 	def_warps_to ROUTE_12_GATE_2F

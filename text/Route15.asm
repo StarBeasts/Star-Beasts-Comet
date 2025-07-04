@@ -197,7 +197,9 @@ _Route15Text12::
 	done
 
 _Route15Text13::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "NOTICE"
+
+	para "WHEN WE SAID"
+	line "INACCESSIBLE,"
+	cont "WE MEANT IT"
 	done

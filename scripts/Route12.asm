@@ -38,6 +38,12 @@ Route12Script0:
 	ld a, HS_ROUTE_12_SNORLAX
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_SAFFRON_CITY_E
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_SAFFRON_CITY_F
+	ld [wMissableObjectIndex], a
+	predef ShowObject
 	ld a, $3
 	ld [wRoute12CurScript], a
 	ld [wCurMapScript], a

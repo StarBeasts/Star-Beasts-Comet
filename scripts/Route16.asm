@@ -38,6 +38,12 @@ Route16Script0:
 	ld a, HS_ROUTE_16_SNORLAX
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_SAFFRON_CITY_E
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_SAFFRON_CITY_F
+	ld [wMissableObjectIndex], a
+	predef ShowObject
 	call UpdateSprites
 	ld a, $3
 	ld [wRoute16CurScript], a

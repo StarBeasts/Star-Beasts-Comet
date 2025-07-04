@@ -106,5 +106,13 @@ _RocketHideout1AfterBattleTxt6::
 	done
 
 _RocketHideout1Text6::
-	text "sign here"
+	text "MISERITE MEADOW"
+
+	para "#BIES of myth"
+	line "and mystery all"
+	cont "gather, in the"
+	cont "woods below"
+
+	para "Stay aware, know"
+	line "where it is you go"
 	done
