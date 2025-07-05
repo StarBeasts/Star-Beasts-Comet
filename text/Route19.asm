@@ -32,7 +32,7 @@ _Route19AfterBattleText2::
 
 _Route19BattleText3::
 	text "I love swimming!"
-	line "What about you?"
+	line "Doesn't everyone?"
 	done
 
 _Route19EndBattleText3::
