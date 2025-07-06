@@ -18,22 +18,30 @@ _Route12Text14::
 	done
 
 _Route12BattleText1::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "G'day, mate!"
+
+	para "I bet it's time t'"
+	line "throw some PAIN"
+	cont "on the barbie!"
 	done
 
 _Route12EndBattleText1::
-	text "Tch!"
-	line "Just a small fry!"
+	text "Wooaah!"
+	line "Bloody 'ell..."
 	prompt
 
 _Route12AfterBattleText1::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Bored as 'ell..."
+
+	para "Nobody hangs"
+	line "out around the"
+	cont "bridge since it's"
+	cont "so close to the"
+	cont "MILITARY BASE..."
 	done
 
 _Route12BattleText2::
-	text "Be patient!"
+	text "Patience!"
 	line "Fishing is a"
 	cont "waiting game!"
 	done
@@ -46,7 +54,7 @@ _Route12EndBattleText2::
 _Route12AfterBattleText2::
 	text "They say there's"
 	line "NOCEAN on"
-	cont "ROUTE 23, but"
+	cont "(area), but"
 	cont "I've never been"
 	cont "able to find one"
 	cont "with my ROD..."
@@ -56,18 +64,25 @@ _Route12AfterBattleText2::
 	done
 
 _Route12BattleText3::
-	text "Have you found a"
-	line "MOON STONE?"
+	text "Aaaah!"
+	line "B-b-boss!"
+	cont "I-I was just..."
 	done
 
 _Route12EndBattleText3::
-	text "Oww!"
+	text "Wait..."
+	line "You're not my"
+	cont "boss..."
 	prompt
 
 _Route12AfterBattleText3::
-	text "I could have made"
-	line "my BEASTS evolve"
-	cont "with MOON STONE!"
+	text "I was hired to"
+	line "fix ELEKSI, but"
+	cont "I couldn't do it!"
+
+	para "Now I'm hiding"
+	line "out here hoping"
+	cont "she'll fix herself!"
 	done
 
 _Route12BattleText4::
@@ -90,24 +105,31 @@ _Route12AfterBattleText4::
 	done
 
 _Route12BattleText5::
-	text "The FISHING FOOL"
+	text "FISHING FOOL"
 	line "vs. BEAST KID!"
+
+	para "Round One!"
+	
+	para "Fight!"
 	done
 
 _Route12EndBattleText5::
-	text "Too"
-	line "much!"
+	text "KO!"
 	prompt
 
 _Route12AfterBattleText5::
 	text "You beat me at"
-	line "BEASTS, but I'm"
-	cont "good at fishing!"
+	line "BEASTS, but I"
+	cont "can't be beat"
+	cont "at fishing!"
 	done
 
 _Route12BattleText6::
-	text "I'd rather be"
-	line "working!"
+	text "Working, fishing,"
+	line "fighting..."
+
+	para "What's a man"
+	line "to do?"
 	done
 
 _Route12EndBattleText6::
@@ -116,7 +138,7 @@ _Route12EndBattleText6::
 	prompt
 
 _Route12AfterBattleText6::
-	text "It's all right."
+	text "It's all good."
 	line "Losing doesn't"
 	cont "bug me any more."
 	done
@@ -146,7 +168,7 @@ _Route12AfterBattleText7::
 
 	para "You can also find"
 	line "JELLYELLY in"
-	cont "ROUTES 19-21 with"
+	cont "(area) with"
 	cont "a SUPER ROD."
 
 	para "I go there all"
@@ -154,8 +176,9 @@ _Route12AfterBattleText7::
 	done
 
 _Route12Text11::
-	text "ROUTE 12 "
-	line "North to LAVENDER"
+	text "ROUTE 8"
+	line "METAL METROPOLIS"
+	cont "to MILITARY BASE"
 	done
 
 _Route12Text12::

@@ -117,7 +117,7 @@ _Route9AfterBattleText7::
 	cont "get stronger..."
 	done
 
-_Route9BattleText8::
+_Route9BattleText8:: ; used in route 8 / 12
 	text "Aaaah!"
 	line "B-b-boss!"
 	cont "I-I was just..."
