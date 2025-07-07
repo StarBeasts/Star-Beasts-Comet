@@ -53,10 +53,10 @@ _Route12EndBattleText2::
 
 _Route12AfterBattleText2::
 	text "They say there's"
-	line "NOCEAN on"
-	cont "(area), but"
-	cont "I've never been"
-	cont "able to find one"
+	line "NOCEAN on X ISLE,"
+	cont "but I've never"
+	cont "been able to"
+	cont "find one with"
 	cont "with my ROD..."
 
 	para "Maybe I need a"
@@ -167,12 +167,16 @@ _Route12AfterBattleText7::
 	cont "the SAFARI ZONE."
 
 	para "You can also find"
-	line "JELLYELLY in"
-	cont "(area) with"
-	cont "a SUPER ROD."
+	line "JELLYELLY outside"
+	cont "SODALITE SINKHOLE"
+	cont "with a SUPER ROD."
 
-	para "I go there all"
-	line "the time!"
+	para "It's kind of"
+	line "dangerous, but"
+	cont "you don't have to"
+	cont "put up with the"
+	cont "SAFARI ZONE's"
+	cont "nonsense!"
 	done
 
 _Route12Text11::

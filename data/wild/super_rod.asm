@@ -14,12 +14,13 @@ SuperRodData:
 	dbw ROUTE_12,            .Group7
 	dbw ROUTE_19,            .Group8
 	dbw ROUTE_20,            .Group8
-	dbw ROUTE_21,            .Group6
+	dbw ROUTE_21,            .Group8
 	dbw ROUTE_22,            .Group3
 	dbw ROUTE_23,            .Group9
 	dbw MT_MOON_B1F,         .Group12
 	dbw CERULEAN_GYM,        .Group3
 	dbw BLOODSTONE_BAY,      .Group10
+	dbw UNDERGROUND_PATH_ROUTE_8,      .Group6
 	dbw VERMILION_DOCK,      .Group4
 	dbw SEAFOAM_ISLANDS_B3F, .Group8
 	dbw SEAFOAM_ISLANDS_B4F, .Group8
