@@ -43,7 +43,6 @@ _FuchsiaMartText4::
 	done
 
 _FuchsiaMartText5::
-	text "Thank you for your"
-	line "patience and"
-	cont "understanding!"
+	text "Gramma's back!"
+	line "Huzzah!"
 	done

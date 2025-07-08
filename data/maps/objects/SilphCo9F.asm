@@ -15,7 +15,7 @@ SilphCo9F_Object:
 	object_event 18,  3, SPRITE_CLERK, STAY, DOWN, 1 ; person
 	object_event 13,  7, SPRITE_COOLTRAINER_M, STAY, RIGHT, 2, OPP_ROCKET, 38
 	object_event  9, 16, SPRITE_COOLTRAINER_F, STAY, LEFT, 3, OPP_SCIENTIST, 10
-	object_event 20,  1, SPRITE_COFFEE, STAY, DOWN, 4, TENTACRUEL, 30 | OW_POKEMON
+	object_event 20,  1, SPRITE_COFFEE, STAY, DOWN, 4, TENTACRUEL, 34 | OW_POKEMON
 	object_event 13,  18, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 5 ; person
 	object_event 16,  5, SPRITE_SUPER_NERD, STAY, LEFT, 6 ; person
 	object_event 16,  9, SPRITE_COOLTRAINER_F, STAY, LEFT, 7 ; person

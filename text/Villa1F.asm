@@ -16,12 +16,25 @@ _Villa1FText4::
 	para "It's only a doll!"
 	done
 
-_Villa1FText8::
+_Villa1FHealerImAHealerText::
+	text "I may not look"
+	line "like it, but I'm"
+	cont "a healer."
+
+	para "Here, rest a bit."
+	prompt
+
+_Villa1FHealerComeBackAnyTimeText::
+	text "Stay safe out"
+	line "there."
+	done
+
+_Villa1FText9::
 	text "ELITE FOUR TM"
 	line "MARKET"
 	done
 
-_Villa1FText9::
+_Villa1FText10::
 	text "WALKING THROUGH"
 	line "WALLS"
 
@@ -32,7 +45,7 @@ _Villa1FText9::
 	line "ON 010138CD TODAY!"
 	done
 
-_Villa1FText10::
+_Villa1FText11::
 	text "X ISLE AHEAD"
 
 	para "THE ISLAND UPON"
