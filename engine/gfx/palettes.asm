@@ -185,6 +185,8 @@ SetPal_Overworld:
 	jp z, .caveOrBruno
 	cp ROUTE_11_GATE_2F
 	jp z, .brownMon
+	cp UNDERGROUND_PATH_NORTH_SOUTH
+	jp z, .malachite
 	cp UNDERGROUND_PATH_WEST_EAST
 	jp z, .peridot
 	cp BLOODSTONE_BAY
@@ -217,6 +219,8 @@ SetPal_Overworld:
 	jp z, .pallet
 	cp CELADON_MANSION_ROOF
 	jp z, .garnet
+	cp CELADON_CHIEF_HOUSE
+	jp z, .malachite
 	cp FUCHSIA_BILLS_GRANDPAS_HOUSE
 	jp z, .caveOrBruno
 	cp SEAFOAM_ISLANDS_B2F
@@ -352,6 +356,9 @@ SetPal_Overworld:
 	jr .town
 .vermilion
 	ld a, PAL_VERMILION - 1
+	jr .town
+.malachite
+	ld a, PAL_MALACHITE - 1
 	jr .town
 
 ; used when a Pokemon is the only thing on the screen
