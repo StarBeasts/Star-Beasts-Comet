@@ -110,3 +110,45 @@ _SilphCo2AfterBattleText4::
 	line "be merged with"
 	cont "TEAM ROCKET!"
 	done
+
+_SilphCo2Text6::
+	text "WELCOME TO"
+	line "GAI CO.!"	
+
+	para "PLEASE FORWARD ANY"
+	line "INQUIRIES TO ONE"
+	cont "OF OUR STAFF"
+	cont "MEMBERS, WHO"
+	cont "EXIST ONLY TO"
+	cont "SERVE YOU!"
+
+	para "THANK YOU, AND"
+	line "HAVE A GREAT DAY!"
+	done
+
+_SilphCo2Text7::
+	text "TRY OUR NEW"
+	line "STATE-OF-THE-ART"
+	cont "WARP PANEL"
+	cont "TECHNOLOGY, NOW"
+	cont "AVAILABLE IN"
+
+	para "Bzzzt!"
+
+	para "WARP PANEL WAS"
+	line "DISCONTINUED"
+	cont "DUE TO SAFETY"
+	cont "CONCERNS."
+
+	para "Hey, can we"
+	line "program this"
+	cont "little guy to"
+	cont "say something"
+	cont "else? This makes"
+	cont "me look bad."
+
+	para "What? Don't look"
+	line "at me, just do it!"
+	done
+
+

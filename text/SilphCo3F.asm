@@ -82,3 +82,17 @@ _SilphCo3AfterBattleText2::
 	cont "never gives me"
 	cont "any 'fun' tasks."
 	done
+
+_SilphCo3Text5::
+	text "TODAY'S LUNCH"
+	line "SPECIAL DU JOUR"
+	cont "IS CR-CR-CR-CR-CR"	
+	
+	para "CR-CR-CR-CR-CR-CR"
+	line "CR-CR-CR-CR-CR-CR"
+
+	para "CR-CR-CR-CR-CR-CR"
+	line "CR-CR-CR-CR-CR-CR"
+	
+	para "CRAB RAVIOLI!"
+	done

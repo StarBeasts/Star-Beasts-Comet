@@ -17,5 +17,7 @@ SilphCo2F_Object:
 	object_event 27,  1, SPRITE_SCIENTIST, STAY, DOWN, 3, OPP_SCIENTIST, 3
 	object_event 29,  7, SPRITE_ROCKET, STAY, DOWN, 4, OPP_ROCKET, 23
 	object_event  8,  3, SPRITE_ROCKET, STAY, LEFT, 5, OPP_ROCKET, 24
+	object_event  3,  2, SPRITE_ROBOT, STAY, DOWN, 6
+	object_event  1,  2, SPRITE_ROBOT, STAY, DOWN, 7
 
 	def_warps_to SILPH_CO_2F

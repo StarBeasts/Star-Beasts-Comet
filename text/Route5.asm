@@ -21,7 +21,7 @@ _Route5Text1::
 	cont "spiritual level."
 	done
 
-_Route5Text2::
+_Route5ReviveText::
 	text "Zerre vas terrible"
 	line "monster in zerre"
 	cont "last time I"
@@ -30,10 +30,22 @@ _Route5Text2::
 	para "So verry loud,"
 	line "and skarry."
 
-	para "I vould trread"
+	para "I vould tread"
 	line "lightly if I"
 	cont "vere you."
 	done
+
+_Route5NuggetText::
+	text "Vat? You took"
+	line "kare of ze"
+	cont "monster?"
+
+	para "You'ze so crazy!"
+
+	para "Big crazy brave"
+	line "kid you are!"
+	done
+
 
 _Route5Text3::
 	text "DOLOMITE DAM"
