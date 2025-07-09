@@ -310,6 +310,10 @@ IvysaurEvosMoves:
 	db 42, COUNTER
 	db 46, SLEEP_POWDER
 	db 54, SOLARBEAM
+	db 101, EARTHQUAKE
+	db 101, GAEAS_WRATH
+	db 101, SOUL_SHRED
+	db 101, SPIRIT_BOMB ; ultimatum?
 	db 0
 
 ExeggutorEvosMoves:
@@ -1400,6 +1404,7 @@ VaporeonEvosMoves:
 	db 44, PLAY_ROUGH
 	db 48, MIST
 	db 54, HYDRO_PUMP
+	db 101, BLIZZARD
 	db 0
 
 MachopEvosMoves:
@@ -2129,6 +2134,7 @@ AerodactylEvosMoves:
 	db 45, PLAY_ROUGH
 	db 54, HYPER_BEAM
 	db 60, GAEAS_WRATH
+	db 101, JUMP_KICK
 	db 0
 
 MissingNoACEvosMoves:
