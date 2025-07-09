@@ -108,7 +108,7 @@ MonsterNames::
 	db "CROMAG@@@@"
 	db "EPILEPSIA@"
 	db "DRAKELET@@"
-	db "SPEAKEASY@"
+	db "KLAWNIVAL@"
 	db "SOLASTRA@@"
 	db "STEAMMENSE"
 	db "MULCRUNCH@"
