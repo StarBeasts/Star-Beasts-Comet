@@ -192,7 +192,6 @@ INCLUDE "text/GameCornerPrizeRoom.asm"
 INCLUDE "text/CeladonDiner.asm"
 INCLUDE "text/CeladonChiefHouse.asm"
 INCLUDE "text/FuchsiaMart.asm"
-INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/FuchsiaPokecenter.asm"
 INCLUDE "text/SafariZoneGate.asm"
 INCLUDE "text/FuchsiaGym.asm"
@@ -306,6 +305,10 @@ INCLUDE "text/VictoryRoad3F.asm"
 INCLUDE "text/SSAnneB1FRooms.asm"
 INCLUDE "text/CeladonMansion2F.asm"
 INCLUDE "text/RocketHideoutB4F.asm"
+
+SECTION "Text 14", ROMX
+
+INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 
 SECTION "Pokédex Text", ROMX
 

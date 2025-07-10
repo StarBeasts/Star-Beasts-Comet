@@ -9,6 +9,7 @@ SeafoamIslandsB2F_Object:
 	warp_event 23, 11, SILPH_CO_1F, 1
 
 	def_bg_events
+	bg_event 21, 11, 4
 
 	def_object_events
 	object_event  23, 12, SPRITE_ROCKET, STAY, DOWN, 1 ; person
