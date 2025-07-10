@@ -60,4 +60,4 @@ ENDM
 	door_tiles $1b, $54
 
 .HillTilesetDoorTileIDs
-	door_tiles $63
+	door_tiles $63, $6e
