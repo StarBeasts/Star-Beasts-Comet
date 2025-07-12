@@ -1,6 +1,6 @@
 	db DEX_VENOMOTH ; pokedex id
 
-	db  85, 100,  60,  105,  135
+	db  85, 80,  60,  105,  135
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FAIRY ; type

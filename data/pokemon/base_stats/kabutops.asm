@@ -1,6 +1,6 @@
 	db DEX_KABUTOPS ; pokedex id
 
-	db  93, 132,  93,  93,  93
+	db  93, 132,  93,  93,  77
 	;   hp  atk  def  spd  spc
 
 	db FAIRY, FLYING ; type

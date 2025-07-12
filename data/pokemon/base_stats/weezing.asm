@@ -1,6 +1,6 @@
 	db DEX_WEEZING ; pokedex id
 
-	db  50,  90, 160,  20, 30
+	db  75,  90, 140,  20, 50
 	;   hp  atk  def  spd  spc
 
 	db ROCK, STEEL ; type

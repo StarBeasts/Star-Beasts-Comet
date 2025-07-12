@@ -1,6 +1,6 @@
 	db DEX_DRAGONITE ; pokedex id
 
-	db  95, 90,  65, 135, 145
+	db  95, 90,  45, 135, 145
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, GHOST ; type

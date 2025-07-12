@@ -1,6 +1,6 @@
 	db DEX_RAPIDASH ; pokedex id
 
-	db  70, 130,  80, 100,  65
+	db  65, 130,  80, 100,  65
 	;   hp  atk  def  spd  spc
 
 	db BUG, DARK ; type

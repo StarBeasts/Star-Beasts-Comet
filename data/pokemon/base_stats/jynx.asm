@@ -1,6 +1,6 @@
 	db DEX_JYNX ; pokedex id
 
-	db  140, 60,  95,  80,  95
+	db  140, 60,  85,  80,  85
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FAIRY ; type

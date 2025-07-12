@@ -22,6 +22,7 @@ SuperRodData:
 	dbw BLOODSTONE_BAY,      .Group10
 	dbw UNDERGROUND_PATH_ROUTE_8,      .Group6
 	dbw VERMILION_DOCK,      .Group4
+	dbw CELADON_MART_4F,     .Group5
 	dbw SEAFOAM_ISLANDS_B3F, .Group8
 	dbw SEAFOAM_ISLANDS_B4F, .Group8
 	dbw SAFARI_ZONE_EAST,    .Group6

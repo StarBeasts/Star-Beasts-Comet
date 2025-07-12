@@ -1,6 +1,6 @@
 	db DEX_PINSIR ; pokedex id
 
-	db  85, 50,  50,  115,  115
+	db  85,  85,  50,  120,  115
 	;   hp  atk  def  spd  spc
 
 	db ICE, POISON ; type
