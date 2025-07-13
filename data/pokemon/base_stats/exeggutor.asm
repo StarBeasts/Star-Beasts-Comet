@@ -1,6 +1,6 @@
 	db DEX_EXEGGUTOR ; pokedex id
 
-	db  160, 1, 1,  145,  166
+	db  158, 1, 1,  145,  145
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, GHOST ; type

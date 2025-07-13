@@ -3,8 +3,8 @@ PokemonMansionB1F_Object:
 
 	def_warp_events
 	warp_event 23, 22, POKEMON_MANSION_3F, 2
-	warp_event  4, 27, SILPH_CO_1F, 4
-	warp_event  5, 27, SILPH_CO_1F, 4
+	warp_event  4, 24, SILPH_CO_1F, 4
+	warp_event  4, 25, SILPH_CO_1F, 4
 
 	def_bg_events
 

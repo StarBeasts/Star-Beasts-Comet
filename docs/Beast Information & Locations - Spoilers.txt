@@ -4536,11 +4536,11 @@ SUBSTITUTE,  CUT,          STRENGTH,     FLASH
 
 Steel / Flying
 
-HP: 99
-Attack: 99
-Defense: 99
-Special: 99
-Speed: 99
+HP: 89
+Attack: 89
+Defense: 89
+Special: 89
+Speed: 89
 
 Location: Secret lab on a Celadon City rooftop (Only one)
 

@@ -1,5 +1,5 @@
 IndigoPlateauWildMons:
-	def_grass_wildmons 15 ; encounter rate
+	def_grass_wildmons 128 ; encounter rate
 	db 32,MR_MIME
 	db 34,MR_MIME
 	db 36,MR_MIME
