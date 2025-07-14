@@ -1,12 +1,21 @@
 _Route24EndBattleText1::
-	text "I"
-	line "thought not!"
+	text "My grass"
+	line "was kicked..."
 	prompt
 
 _Route24AfterBattleText1::
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "This stuff that's"
+	line "behind me?"
+
+	para "Oh, it's uh..."
+
+	para "I told you!"
+	line "It's grass!"
+
+	para "Uh..."
+
+	para "Imported!"
+	line "Imported grass."
 	done
 
 _Route24BattleText2::
@@ -70,21 +79,21 @@ _Route24AfterBattleText5::
 	done
 
 _Route24BattleText6::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
-
-	para "Think you got"
-	line "what it takes?"
+	text "Dangit, give me"
+	line "one more month,"
+	cont "and I'll win back"
+	cont "everything I owe,"
+	cont "and then some!"
 	done
 
 _Route24EndBattleText6::
-	text "Whoo!"
-	line "Good stuff!"
+	text "I've"
+	line "gone bust!"
 	prompt
 
 _Route24AfterBattleText6::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Nobody ever"
+	line "believes me when"
+	cont "I say I'll pay"
+	cont "'em back..."
 	done

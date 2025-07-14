@@ -69,6 +69,6 @@ _Route24Text_51530::
 	done
 
 _Route24BattleText1::
-	text "I saw your feat"
-	line "from the grass!"
+	text "Don't take any"
+	line "of my grass!"
 	done

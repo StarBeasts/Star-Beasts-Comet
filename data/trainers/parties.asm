@@ -402,13 +402,15 @@ GamblerData:
 ; Route 8
 	db 18, STARYU, POLIWAG, 0
 ; Cycling Road
-	db 30,ABRA,DRATINI,VENONAT,EEVEE,JYNX,RATICATE,0
+	db 30,ABRA,SCYTHER,VENONAT,EEVEE,JYNX,RATICATE,0
 ; Route 20
 	db 30,PERSIAN,RAICHU,HYPNO,0
 ; Saffron Gym
 	db 33,CHARMELEON,IVYSAUR,WARTORTLE,0
 ; Vermilion Gym
 	db 22,GRAVELER,GOLEM,0
+; Trailer Park
+	db 31, ODDISH, GOLDUCK, ABRA, 0
 BeautyData:
 ; Celadon Gym
 	db 24, POLIWAG, BELLSPROUT, DROWZEE, BULBASAUR, 0
@@ -468,6 +470,8 @@ JugglerData:
 ; Fuchsia Gym
 	db 38, MAGMAR, 0
 	db 34, GOLDUCK, NIDORINO, 0
+; Trailer Park
+	db 32, WEEPINBELL, CHARMELEON, 0
 
 TamerData:
 ; Fuchsia Gym
