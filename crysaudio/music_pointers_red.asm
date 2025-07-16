@@ -90,4 +90,5 @@ Music:
 	dba Music_MobileAdapterMenu
 	dba Music_RocketTheme
 	dba Music_QuartzQuarry
+	dba Music_Adventure
 
