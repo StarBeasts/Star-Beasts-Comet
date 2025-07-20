@@ -34,18 +34,22 @@ _Route24AfterBattleText2::
 	done
 
 _Route24BattleText3::
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "I'm just crazy"
+	line "about coffee!"
+	
+	para "Aren't you?"
+
+	para "Here, have some,"
+	line "on the house!"
 	done
 
 _Route24EndBattleText3::
-	text "I lost"
-	line "too!"
+	text "Gone bad!"
 	prompt
 
 _Route24AfterBattleText3::
-	text "I did my best, so"
-	line "I've no regrets!"
+	text "Coffee keeps the"
+	line "world-a-spinnin'!"
 	done
 
 _Route24BattleText4::
