@@ -49,18 +49,47 @@ _Route24AfterBattleText3::
 	done
 
 _Route24BattleText4::
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "hi, kid."
+	
+	para "i'm jack frost."
+
+	para "i used to run"
+	line "with the BIKER"
+	cont "gang, but now I"
+	cont "just chill, all"
+	cont "day, every day."
+
+	para "battle?"
+
+	para "ok, kid. i'll play"
+	line "your game."
+
+	para "show 'em your"
+	line "moves, MANDOLIN!"
 	done
 
 _Route24EndBattleText4::
-	text "Ow!"
-	line "Stomped flat!"
+	text "congrats."
+
+	para "you completed the"
+	line "terrain campaign."
 	prompt
 
 _Route24AfterBattleText4::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "used to be, the"
+	line "BIKERs were a"
+	cont "force for good,"
+	cont "keeping people"
+	cont "safe, but now,"
+	cont "they're no better"
+	cont "than the cops."
+
+	para "i'll have no part"
+	line "in terrorizing"
+	cont "innocent people."
+
+	para "it goes against my"
+	line "core principles."
 	done
 
 _Route24BattleText5::

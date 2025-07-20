@@ -161,53 +161,14 @@ Music_Adventure_Ch1:
 
 Music_Adventure_Ch2:
 	note_type 12, 10, 5
-	duty_cycle 1
-	octave 3
-	note D#, 2
-	note E_, 2
-	note F_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note D#, 3
-	note D#, 1
-	note D#, 1
-	note D#, 2
-	note E_, 2
-	note F_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note D#, 3
-	note D#, 1
-	note D#, 1
-	note D#, 2
-	note E_, 2
-	note F_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note D#, 3
-	note D#, 1
-	note D#, 1
-	note D#, 2
-	note E_, 2
-	note F_, 2
-	note E_, 1
-	note E_, 1
-	note E_, 1
-	note D#, 2
-	note D#, 3
-	note D#, 1
-	note D#, 1
-	note D#, 2
 	rest 16
 	rest 16
 	rest 16
-	rest 14
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 	octave 2
 	duty_cycle 0
 	volume_envelope 12, 4

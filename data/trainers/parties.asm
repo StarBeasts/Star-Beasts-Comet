@@ -296,6 +296,8 @@ BikerData:
 	db 29, LICKITUNG, DEWGONG, 0
 ; Route 12
 	db 29, NIDORINO, WEEPINBELL, 0
+; Jack Frost
+	db 30, SEEL, 0
 
 BurglarData:
 ; Unused
