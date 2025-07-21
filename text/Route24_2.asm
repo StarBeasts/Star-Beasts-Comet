@@ -16,21 +16,25 @@ _Route24AfterBattleText1::
 
 	para "Imported!"
 	line "Imported grass."
+
+	para "Speaking of grass,"
+	line "whose LAWNCRETE"
+	cont "is that?"
 	done
 
 _Route24BattleText2::
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "Alright, asshole!"
+	line "Say g'bye to"
+	cont "your legs!"
 	done
 
 _Route24EndBattleText2::
-	text "Whoa!"
-	line "Too much!"
+	text "Ssshhaa!"
 	prompt
 
 _Route24AfterBattleText2::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Yeah, get"
+	line "outta heah!"
 	done
 
 _Route24BattleText3::
@@ -97,18 +101,34 @@ _Route24AfterBattleText4::
 	done
 
 _Route24BattleText5::
-	text "I'm second!"
-	line "Now it's serious!"
+	text "Hi! Somethin'"
+	line "broken down,"
+	cont "need fixin'?"
+
+	para "What? A battle?"
+
+	para "Hell, I got"
+	line "time ta kill!"
+
+	para "Let's do it!"
 	done
 
 _Route24EndBattleText5::
-	text "How could I"
-	line "lose?"
+	text "Yeehaw!"
+	line "Ain't bad at all!"
 	prompt
 
 _Route24AfterBattleText5::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "I fix things for"
+	line "the landlord"
+	cont "here, so he lets"
+	cont "me live here"
+	cont "on the cheap!"
+
+	para "If you're useful"
+	line "to people, you"
+	cont "can go real far"
+	cont "in life, kid!"
 	done
 
 _Route24BattleText6::
@@ -130,3 +150,20 @@ _Route24AfterBattleText6::
 	cont "I say I'll pay"
 	cont "'em back..."
 	done
+
+_Route24Text9::
+	text "HENRY? Oh, HENRY,"
+	line "where could you"
+	cont "have gone...?"
+	done
+
+_Route24Text10::
+	text "HENRY stares at"
+	line "the potted plants"
+	cont "with contempt."
+
+	para "Such is the way"
+	line "of LAWNCRETE."
+	done
+
+

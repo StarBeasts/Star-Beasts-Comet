@@ -85,6 +85,8 @@ Route24_TextPointers:
 	dw Route24Text6
 	dw Route24Text7
 	dw PickUpItemText
+	dw Route24Text9
+	dw Route24Text10
 
 Route24TrainerHeaders:
 	def_trainers 2
@@ -278,3 +280,13 @@ Route24EndBattleText6:
 Route24AfterBattleText6:
 	text_far _Route24AfterBattleText6
 	text_end
+
+Route24Text9:
+	text_far _Route24Text9
+	text_end
+
+Route24Text10:
+	text_far _Route24Text10
+	text_end
+
+

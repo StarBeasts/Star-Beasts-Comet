@@ -322,6 +322,8 @@ EngineerData:
 ; Route 11
 	db 21, TANGELA, 0
 	db 18, VOLTORB, MAGNEMITE, MAGNETON, 0
+; Trailer Park
+	db 31, MAGNEMITE, TANGELA, NIDORAN_F, 0
 
 RemnantData:
 ; Underground Burnt Lab
@@ -391,6 +393,8 @@ CueBallData:
 ; Lucian's Bodyguard
 	db 20,NIDORAN_M, NIDORINO, 0
 	db 36,NIDORINO,NIDORINO,SNORLAX,0
+; Trailer Park
+	db 30, PARASECT, MACHOKE, 0
 GamblerData:
 ; Route 11
 	db 18, GOLDEEN, SHELLDER, 0

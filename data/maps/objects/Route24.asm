@@ -24,11 +24,14 @@ Route24_Object:
 	def_object_events
 	object_event 91,  2, SPRITE_SILPH_PRESIDENT, STAY, ANY_DIR, 1, OPP_GENTLEMAN, 6
 	object_event 76,  6, SPRITE_FISHER, STAY, LEFT, 2, OPP_JUGGLER, 9
-	object_event 29,  5, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 3, OPP_JR_TRAINER_M, 3
+	object_event 29,  5, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 3, OPP_CUE_BALL, 14
 	object_event 37,  6, SPRITE_GAMBLER, STAY, RIGHT, 4, OPP_GAMBLER, 13
 	object_event  3,  5, SPRITE_BIKER, STAY, LEFT, 5, OPP_BIKER, 17
-	object_event 63,  5, SPRITE_HIKER, STAY, RIGHT, 6, OPP_LASS, 8
+	object_event 63,  5, SPRITE_HIKER, STAY, RIGHT, 6, OPP_ENGINEER, 4
 	object_event 15,  4, SPRITE_GAMBLER, STAY, ANY_DIR, 7, OPP_GAMBLER, 12
-	object_event 51,  5, SPRITE_POKE_BALL, STAY, NONE, 8, TM_THUNDER_WAVE
+	object_event 60,  3, SPRITE_POKE_BALL, STAY, NONE, 8, TM_THUNDER_WAVE
+	object_event 52,  6, SPRITE_GRANNY, STAY, DOWN, 9
+	object_event 72,  6, SPRITE_LAWNCRETE, STAY, UP, 10
+
 
 	def_warps_to ROUTE_24
