@@ -87,7 +87,8 @@ _Route14EndBattleText5::
 
 _Route14AfterBattleText5::
 	text "After what went"
-	line "down in SAFFRON,"
+	line "down in METAL"
+	cont "METROPOLIS,"
 	cont "we're taking law"
 	cont "enforcement extra"
 	cont "seriously."

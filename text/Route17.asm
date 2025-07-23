@@ -13,11 +13,15 @@ _Route17AfterBattleText1::
 	text "These creepy"
 	line "GHOST whisperers"
 	cont "won't leave!"
+
+	para "Ain't they got"
+	line "anywhere's to go"
+	cont "besides the GYM?"
 	done
 
 _Route17BattleText2::
-	text "I won big at the"
-	line "GAME CORNER!"
+	text "I won big at"
+	line "RHINESTONE!"
 
 	para "I'm the luckiest"
 	line "son-of-a-gun in"
@@ -103,7 +107,7 @@ _Route17EndBattleText5::
 _Route17AfterBattleText5::
 	text "I was astral"
 	line "projecting into"
-	cont "the ocean, and"
+	cont "the water, and"
 	cont "having a damn"	
 	cont "good time until"
 	cont "YOU came along!"
@@ -201,9 +205,8 @@ _Route17AfterBattleText9::
 _Route17BattleText10::
 	text "Be silent."
 	line "I'm trying to"
-	cont "heat up this"
-	cont "water with my"
-	cont "mind..."
+	cont "practice my"
+	cont "pyrokinesis..."
 	done
 
 _Route17EndBattleText10::
@@ -217,6 +220,14 @@ _Route17AfterBattleText10::
 	cont "in quite some"
 	cont "time now, and I"
 	cont "miss it."
+
+	para "..."
+
+	para "The waters here"
+	line "just reminded me"
+	cont "of that desire."
+
+	para "That's all."
 	done
 
 _Route17Text11::
@@ -248,9 +259,10 @@ _Route17Text13::
 	done
 
 _Route17Text14::
-	text "ROUTE 17"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "CYCLING ROAD"
+
+	para "TRAILER PARK -"
+	line "PERIDOT PRECINCT"
 	done
 
 _Route17Text15::

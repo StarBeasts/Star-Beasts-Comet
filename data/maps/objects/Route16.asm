@@ -19,7 +19,7 @@ Route16_Object:
 	object_event 33, 35, SPRITE_MBIKER, STAY, UP, 3, OPP_CHANNELER, 4
 	object_event 38, 35, SPRITE_MBIKER, STAY, ANY_DIR, 4, OPP_CHANNELER, 2
 	object_event 23, 33, SPRITE_MBIKER, STAY, DOWN, 5, OPP_CHANNELER, 13
-	object_event 26, 36, SPRITE_MBIKER, STAY, UP, 6, OPP_CHANNELER, 11
+	object_event 26, 36, SPRITE_MBIKER, STAY, UP, 6, OPP_CHANNELER, 15
 	object_event 50, 12, SPRITE_SNORLAX, STAY, DOWN, 7 ; person
 
 	def_warps_to ROUTE_16
