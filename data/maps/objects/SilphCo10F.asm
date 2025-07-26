@@ -7,7 +7,7 @@ SilphCo10F_Object:
 	warp_event  8,  0, RANGER_STATION, 5
 	warp_event  9,  0, RANGER_STATION, 5
 	warp_event  1,  0, RANGER_STATION, 5
-	warp_event 17,  0, RANGER_STATION, 5
+	warp_event 16,  0, RANGER_STATION, 5
 
 
 	def_bg_events
@@ -20,7 +20,7 @@ SilphCo10F_Object:
 	object_event 16,  7, SPRITE_POKE_BALL, STAY, NONE, 5, RARE_CANDY
 	object_event  5, 17, SPRITE_POKE_BALL, STAY, NONE, 6, X_ACCURACY
 	object_event  1, 1, SPRITE_GUARD, STAY, NONE, 7
-	object_event  17, 1, SPRITE_GUARD, STAY, NONE, 8
+	object_event 16,  1, SPRITE_GUARD, STAY, NONE, 8
 	object_event  6, 10, SPRITE_PAPER, STAY, NONE,  9
 	object_event 11, 10, SPRITE_PAPER, STAY, NONE, 10
 
