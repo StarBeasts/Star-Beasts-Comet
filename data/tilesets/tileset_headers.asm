@@ -18,10 +18,10 @@ Tilesets:
 	tileset Pokecenter,  $18,$19,$1E,  -1, TILEANIM_NONE
 	tileset Gym,         $3A, -1, -1,  -1, TILEANIM_WATER_FLOWER
 	tileset House,        -1, -1, -1,  -1, TILEANIM_NONE
-	tileset ForestGate,  $17,$32, -1,  -1, TILEANIM_NONE
-	tileset Museum,      $17,$32, -1,  -1, TILEANIM_NONE
+	tileset ForestGate,  $17,$65, $66,  -1, TILEANIM_NONE
+	tileset Museum,      $17,$65, $66,  -1, TILEANIM_NONE
 	tileset Underground,  -1, -1, -1,  -1, TILEANIM_NONE
-	tileset Gate,        $17,$32, -1,  -1, TILEANIM_NONE
+	tileset Gate,        $17,$65, $66,  -1, TILEANIM_NONE
 	tileset Ship,         -1, -1, -1,  -1, TILEANIM_WATER
 	tileset ShipPort,     -1, -1, -1,  -1, TILEANIM_WATER
 	tileset Cemetery,    $12, -1, -1,  -1, TILEANIM_NONE
