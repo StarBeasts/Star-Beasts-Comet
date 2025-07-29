@@ -57,20 +57,28 @@ _Route15AfterBattleText3::
 	done
 
 _Route15BattleText4::
-	text "Stop right there,"
-	line "criminal scum!"
+	text "It's a beautiful"
+	line "day outside."
+	
+	para "Birds are singing,"
+	line "flowers are"
+	cont "blooming..."
+
+	para "Days like these,"
+	line "kids like you..."
+
+	para "..."
+	
+	para "Shouldn't be here."
 	done
 
 _Route15EndBattleText4::
-	text "Kidding!"
-	line "I'm kidding!"
+	text "Well."
 	prompt
 
 _Route15AfterBattleText4::
-	text "Wish I was in"
-	line "the SAFARI ZONE"
-	cont "instead of being"
-	cont "stuck out here..."
+	text "I'm bored out of"
+	line "my mind."
 	done
 
 _Route15BattleText5::

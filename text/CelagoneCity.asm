@@ -10,7 +10,58 @@ _CelagoneCity1Text1::
 	para "is static."
 	done
 
-_CelagoneCity1Text2::
+_CelagoneCity_Question::
+	text "It's a tree, ripe"
+	line "with peaches."
+
+	para "The pungent aroma"
+	line "wafts into your"
+	cont "nostrils."
+
+	para "Will you take one?"
+	prompt
+
+_CelagoneCity_Yes::
+	text "You take a peach"
+	line "and bite down"
+	cont "into it, filling"
+	cont "your mouth with a"
+	cont "warm liquid that"
+	cont "tastes of metal."
+
+	para "you can feel the"
+	line "blood from your"
+	cont "brain leaking"
+	cont "into the rest of"
+	cont "your body"
+
+	para "it's warm"
+
+	para "it's making you sad"
+	done
+
+_CelagoneCity_No::
+	text "No, you decide."
+
+	para "I shall return"
+	line "here when my"
+	cont "adventure ends,"
+	cont "you affirmed."
+
+	para "What?"
+
+	para "You didn't say"
+	line "any of that?"
+
+	para "Your head throbs"
+	line "with a dull ache."
+
+	para "The sooner you"
+	line "leave here, the"
+	cont "better."
+	done
+
+_CelagoneCity1Text3::
 	text "The sign speaks!"
 
 	para "SIGN: HURRY!"
@@ -27,7 +78,7 @@ _CelagoneCity1Text2::
 	line "good sign."
 	done
 
-_CelagoneCity1Text3::
+_CelagoneCity1Text4::
 	text "A dark red"
 	line "liquid oozes out"
 	cont "of the hole in"
@@ -45,13 +96,13 @@ _CelagoneCity1Text3::
 	para "NOW."
 	done
 
-_CelagoneCity1Text4::
+_CelagoneCity1Text5::
 	text "The inside of"
 	line "this house doesn't"
 	cont "make sense..."
 	done
 
-_CelagoneCity1Text5::
+_CelagoneCity1Text6::
 	text "The sign pulsates"
 	line "in and out, like"
 	cont "a human heart."
@@ -62,7 +113,7 @@ _CelagoneCity1Text5::
 	para "Better not."
 	done
 
-_CelagoneCity1Text6::
+_CelagoneCity1Text7::
 	text "..."
 
 	para "Shouldn't there"
@@ -71,7 +122,7 @@ _CelagoneCity1Text6::
 	para "You felt uneasy..."
 	done
 
-_CelagoneCity1Text7::
+_CelagoneCity1Text8::
 	text "You reluctantly"
 	line "looked inside..."
 
@@ -79,6 +130,17 @@ _CelagoneCity1Text7::
 
 	para "A toy store...?"
 	done
+
+_CelagoneCity1Text9::
+	text "SEA OF STARS"
+
+	para "ONCE YOU ENTER"
+
+	para "YOU MAY NEVER"
+	
+	para "RETURN"
+	done
+
 
 
 

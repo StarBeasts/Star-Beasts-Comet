@@ -1288,16 +1288,6 @@ INCLUDE "scripts/GoldenGate.asm"
 INCLUDE "data/maps/objects/GoldenGate.asm"
 GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
 
-INCLUDE "data/maps/headers/BloodstoneBay.asm"
-INCLUDE "scripts/BloodstoneBay.asm"
-INCLUDE "data/maps/objects/BloodstoneBay.asm"
-BloodstoneBay_Blocks: INCBIN "maps/BloodstoneBay.blk"
-
-INCLUDE "data/maps/headers/RangerStation.asm"
-INCLUDE "scripts/RangerStation.asm"
-INCLUDE "data/maps/objects/RangerStation.asm"
-RangerStation_Blocks: INCBIN "maps/RangerStation.blk"
-
 INCLUDE "data/maps/headers/BikeGate.asm"
 INCLUDE "scripts/BikeGate.asm"
 INCLUDE "data/maps/objects/BikeGate.asm"
@@ -1334,6 +1324,17 @@ INCLUDE "data/maps/headers/DevilsCanyon.asm"
 INCLUDE "scripts/DevilsCanyon.asm"
 INCLUDE "data/maps/objects/DevilsCanyon.asm"
 DevilsCanyon_Blocks: INCBIN "maps/DevilsCanyon.blk"
+
+INCLUDE "data/maps/headers/BloodstoneBay.asm"
+INCLUDE "scripts/BloodstoneBay.asm"
+INCLUDE "data/maps/objects/BloodstoneBay.asm"
+BloodstoneBay_Blocks: INCBIN "maps/BloodstoneBay.blk"
+
+INCLUDE "data/maps/headers/RangerStation.asm"
+INCLUDE "scripts/RangerStation.asm"
+INCLUDE "data/maps/objects/RangerStation.asm"
+RangerStation_Blocks: INCBIN "maps/RangerStation.blk"
+
 
 
 

@@ -561,6 +561,7 @@ INCLUDE "crysaudio/music/new/meetfemaletrainer.asm"
 INCLUDE "crysaudio/music/new/meetmaletrainer.asm"
 INCLUDE "crysaudio/music/new/quartzquarry.asm"
 INCLUDE "crysaudio/music/new/adventure.asm"
+INCLUDE "crysaudio/music/new/ezioalt.asm"
 
 SECTION "Sound Effects", ROMX
 
