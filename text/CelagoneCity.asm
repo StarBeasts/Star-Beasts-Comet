@@ -16,7 +16,9 @@ _CelagoneCity_Question::
 
 	para "The pungent aroma"
 	line "wafts into your"
-	cont "nostrils."
+	cont "nostrils, causing"
+	cont "your stomach"
+	cont "to growl."
 
 	para "Will you take one?"
 	prompt
@@ -38,6 +40,13 @@ _CelagoneCity_Yes::
 	para "it's warm"
 
 	para "it's making you sad"
+
+	para "one day, it'll all"
+	line "be over, and you"
+	cont "will be nothing"
+
+	para "should that be a"
+	line "blessed day ?"
 	done
 
 _CelagoneCity_No::
@@ -54,7 +63,11 @@ _CelagoneCity_No::
 	line "any of that?"
 
 	para "Your head throbs"
-	line "with a dull ache."
+	line "with a dull ache"
+	cont "as you taste a"
+	cont "hint of blood at"
+	cont "the back of your"
+	cont "throat."
 
 	para "The sooner you"
 	line "leave here, the"
