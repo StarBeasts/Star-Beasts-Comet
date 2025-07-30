@@ -13,6 +13,7 @@
 	const SPRITESET_CYCLING_ROAD    ; 09
 	const SPRITESET_FUCHSIA         ; 0a
 	const SPRITESET_TRAILER_PARK    ; 0b
+	const SPRITESET_FELDSPAR_FLATS    ; 0c
 DEF NUM_SPRITE_SETS EQU const_value - 1
 
 ; split sprite set ids
