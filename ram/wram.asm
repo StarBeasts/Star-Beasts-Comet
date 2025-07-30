@@ -2083,7 +2083,7 @@ wPowerPlantCurScript:: ; overload
 wRoute7GateCurScript:: db ; currently unused
 	ds 1
 wSSAnne2FCurScript:: db
-wSeafoamIslandsB3FCurScript:: db
+wCinnabarLabTradeRoomCurScript:: db
 wRoute23CurScript:: db
 wSeafoamIslandsB4FCurScript:: db
 wRoute18Gate1FCurScript:: db

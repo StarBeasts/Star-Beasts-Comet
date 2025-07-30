@@ -109,7 +109,7 @@ MapHSPointers:
 	dw SSAnne2FRoomsHS
 	dw SSAnneB1FRoomsHS
 	dw MoleHoleHS
-	dw NoHS
+	dw CelagoneCityHS
 	dw NoHS
 	dw VictoryRoad1FHS
 	dw OwaiHotelHS
@@ -609,5 +609,7 @@ FuchsiaMartHS:
 	db FUCHSIA_MART, $01, HIDE
 	db FUCHSIA_MART, $04, SHOW
 	db FUCHSIA_MART, $05, HIDE
+CelagoneCityHS:
+	db CELAGONE_CITY, $02, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

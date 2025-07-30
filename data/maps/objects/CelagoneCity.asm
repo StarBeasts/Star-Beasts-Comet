@@ -18,7 +18,7 @@ CelagoneCity_Object:
 
 	def_object_events
 	object_event 26, 18, SPRITE_NOFACE, STAY, UP, 1 ; person
-	object_event 11, 7, SPRITE_SCIENTIST_DEAD, STAY, DOWN, 2 ; person
+	object_event 11, 7, SPRITE_RUINED_SIGN, STAY, DOWN, 2 ; person
 
 	def_warps_to CELAGONE_CITY
 

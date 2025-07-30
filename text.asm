@@ -205,7 +205,6 @@ INCLUDE "text/FuchsiaGoodRodHouse.asm"
 INCLUDE "text/PokemonMansion1F.asm"
 INCLUDE "text/CinnabarGym.asm"
 INCLUDE "text/CinnabarLab.asm"
-INCLUDE "text/CinnabarLabTradeRoom.asm"
 INCLUDE "text/CinnabarLabMetronomeRoom.asm"
 INCLUDE "text/CinnabarLabFossilRoom.asm"
 INCLUDE "text/CinnabarPokecenter.asm"
@@ -309,6 +308,7 @@ INCLUDE "text/RocketHideoutB4F.asm"
 SECTION "Text 14", ROMX
 
 INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
+INCLUDE "text/CinnabarLabTradeRoom.asm"
 
 SECTION "Pokédex Text", ROMX
 
