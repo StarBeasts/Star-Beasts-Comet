@@ -121,7 +121,6 @@ INCLUDE "text/Route24.asm"
 SECTION "Text 6", ROMX
 
 INCLUDE "text/Route24_2.asm"
-INCLUDE "text/Route25.asm"
 
 INCLUDE "data/text/text_3.asm"
 
@@ -309,6 +308,7 @@ SECTION "Text 14", ROMX
 
 INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/CinnabarLabTradeRoom.asm"
+INCLUDE "text/Route25.asm"
 
 SECTION "Pokédex Text", ROMX
 

@@ -1,5 +1,5 @@
 _Route25BattleText1::
-	text "Local trainers"
+	text "Elijah"
 	line "come here to"
 	cont "practice!"
 
@@ -19,7 +19,7 @@ _Route25AfterBattleText1::
 	done
 
 _Route25BattleText2::
-	text "Dad took me to a"
+	text "Sayori!"
 	line "great party on"
 	cont "S.S.ANNE at"
 	cont "VERMILION CITY!"
@@ -37,7 +37,7 @@ _Route25AfterBattleText2::
 	done
 
 _Route25BattleText3::
-	text "I must defend"
+	text "Natsuki"
 	line "the honor of my"
 	cont "fair maiden!"
 	done
@@ -53,7 +53,7 @@ _Route25AfterBattleText3::
 	done
 
 _Route25BattleText4::
-	text "Oh, FLINT... why"
+	text "Monika"
 	line "are you like"
 	cont "this...?"
 
@@ -72,7 +72,7 @@ _Route25AfterBattleText4::
 	done
 
 _Route25BattleText5::
-	text "I knew I had to"
+	text "Yuri"
 	line "fight you!"
 	done
 
@@ -89,56 +89,78 @@ _Route25AfterBattleText5::
 	done
 
 _Route25BattleText6::
-	text "My friend has a"
-	line "cute BEAST."
-	cont "I'm so jealous!"
+	text "Agh... It hurts..."
+
+	para "Prying into my"
+	line "brain, like a"
+	cont "parasite..."
+
+	para "...!"
+
+	para "Oh, it's YOU!"
+	line "You're causing my"
+	cont "suffering!"
+
+	para "Then, if I tear"
+	line "you to pieces,"
+	cont "that infernal"
+	cont "sound will stop!"
 	done
 
 _Route25EndBattleText6::
-	text "I'm"
-	line "not so jealous!"
+	text "Ghh!"
+	line "Aaaaauuugggh!!!"
 	prompt
 
 _Route25AfterBattleText6::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a WHIRLIE?"
+	text "Even with these"
+	line "crystals, I can't"
+	cont "make the wretched"
+	cont "music leave my"
+	cont "head..."
+
+	para "PLEASE! PLEASE"
+	line "TELL ME YOU"
+	cont "HEAR IT, TOO!"
 	done
 
 _Route25BattleText7::
-	text "I'm a FUCHSIA"
-	line "CITY man looking"
-	cont "for a SAFFRON"
-	cont "CITY woman!"
+	text "Hey, you!"
+
+	para "Don't put your"
+	line "hands on my BUTT-"
+	cont "ON!"
 	done
 
 _Route25EndBattleText7::
-	text "You"
-	line "did pretty good!"
+	text "No!!"
+	line "Not my BUTTON!"
 	prompt
 
 _Route25AfterBattleText7::
-	text "Dagnabbit..."
-	line "Why ain't I got"
-	cont "one of them"
-	cont "flying BEASTS?"
+	text "Fine, press it!"
+
+	para "See if I care!"
 	done
 
 _Route25BattleText8::
-	text "I'm off to see a"
-	line "BEAST collector"
-	cont "at the cape!"
+	text "Don'tuseMUSCLE"
+	line "onDWAYNE!"
+	
+	para "Nothingwillhappen!"
 	done
 
 _Route25EndBattleText8::
-	text "You"
-	line "got me."
+	text "Huff..."
+	line "Huff, puff..."
 	prompt
 
 _Route25AfterBattleText8::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of BEASTS."
+	text "DON'T USE MUSCLE"
+	line "ON DWAYNE!"
+
+	para "NOTHING WILL"
+	line "HAPPEN!"
 	done
 
 _Route25BattleText9::

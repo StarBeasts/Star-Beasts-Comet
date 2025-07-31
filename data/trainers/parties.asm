@@ -263,6 +263,8 @@ HikerData:
 	db 19, GEODUDE, MACHOP, WEEZING, HORSEA, 0
 	db 20, ONIX, HORSEA, NIDORAN_F, 0
 	db 21, GEODUDE, GOLEM, 0
+; Jim
+	db 31, DROWZEE, ELECTRODE, CHARMELEON, DROWZEE, 0
 
 BikerData:
 ; Route 13
@@ -318,6 +320,8 @@ EngineerData:
 	db 18, VOLTORB, MAGNEMITE, MAGNETON, 0
 ; Trailer Park
 	db 31, MAGNEMITE, TANGELA, NIDORAN_F, 0
+; Elijah
+	db 32, MAGNETON, KANGASKHAN, 0
 
 RemnantData:
 ; Underground Burnt Lab
@@ -415,6 +419,8 @@ GamblerData:
 ; Trailer Park
 	db 31, ODDISH, GOLDUCK, ABRA, 0
 	db 26, TENTACRUEL, TENTACRUEL, TENTACRUEL, TENTACRUEL, TENTACRUEL, TENTACRUEL, 0
+; Feldspar Flats
+	db 32, ONIX, WEEZING, 0
 BeautyData:
 ; Celadon Gym
 	db 24, POLIWAG, BELLSPROUT, DROWZEE, BULBASAUR, 0
@@ -453,11 +459,11 @@ PsychicData:
 	db 22,SCYTHER, SPEAROW, 0
 	db 25,VENONAT, FEAROW,0
 	db 30,HORSEA, 0
+; Feldspar Flats
+	db 33, SLOWPOKE, SLOWPOKE, SLOWPOKE, SLOWBRO, 0
 RockerData:
 ; Saffron Gym
 	db $FF,37,VICTREEBEL,38,PARASECT,39,NIDOQUEEN,40,RAPIDASH,41,PRIMEAPE,0
-; DO NOT USE
-	db 29, VOLTORB, ELECTRODE, 0
 
 JugglerData:
 ; Silph Co. 5F
@@ -486,8 +492,8 @@ TamerData:
 	db 39, TAUROS, 0
 ; Victory Road 2F
 	db 44, TANGELA, KANGASKHAN, 0
-; Unused
-	db 42, RHYHORN, PRIMEAPE, ARBOK, TAUROS, 0
+; Feldspar Flats
+	db 32, ODDISH, TAUROS, 0
 
 BirdKeeperData:
 ; Route 13
