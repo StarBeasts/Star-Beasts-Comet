@@ -14,7 +14,7 @@ TradeMons:
 	db TENTACOOL,  HITMONLEE,   TRADE_DIALOGSET_HAPPY,  "ZOOK HERO@@" ; implemented, in new location
 	db PIKACHU, BULBASAUR, TRADE_DIALOGSET_EVOLUTION, "THE LAD@@@@" ; implemented, in new location
 	db EXEGGCUTE,  EEVEE, TRADE_DIALOGSET_EVOLUTION,     "ZEUS@@@@@@@" ; implemented, in new location
-	db MAGMAR,     EEVEE,   TRADE_DIALOGSET_HAPPY,       "BENEDICT@@@" ; implemented, not in new location yet (Apartment Complex)
+	db MAGMAR,     EEVEE,   TRADE_DIALOGSET_HAPPY,       "BENEDICT@@@" ; implemented, in new location yet (Apartment Complex)
 	db BUTTERFREE, CHARMANDER,   TRADE_DIALOGSET_HAPPY,  "FLAMEHEDGE@" ; implemented, in new location
 	db PSYDUCK,    LICKITUNG, TRADE_DIALOGSET_GANON,     "HOG@@@@@@@@" ; implemented, in new location
 	db MAGIKARP,    DODUO,   TRADE_DIALOGSET_EVOLUTION,  "MEATLOAF@@@" ; implemented, in new location

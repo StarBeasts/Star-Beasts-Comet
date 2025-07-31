@@ -11,16 +11,16 @@ UndergroundPathRoute6_Object:
 	warp_event 29, 79, UNDERGROUND_PATH_ROUTE_6, 5
 	warp_event 28, 66, UNDERGROUND_PATH_ROUTE_6, 9
 	warp_event 32, 40, UNDERGROUND_PATH_ROUTE_6, 8
-	warp_event 28, 46, ROUTE_7_GATE, 2
-	warp_event 20, 46, ROUTE_7_GATE, 2
+	warp_event 28, 46, ROUTE_25, 3
+	warp_event 20, 46, ROUTE_25, 1
 	warp_event  6, 40, UNDERGROUND_PATH_ROUTE_6, 13
 	warp_event 32, 24, UNDERGROUND_PATH_ROUTE_6, 12
-	warp_event 20, 30, ROUTE_7_GATE, 2
-	warp_event 12, 30, ROUTE_7_GATE, 2
+	warp_event 20, 30, ROUTE_25, 5
+	warp_event 12, 30, ROUTE_25, 7
 	warp_event  6, 24, UNDERGROUND_PATH_ROUTE_6, 17
 	warp_event  6,  6, UNDERGROUND_PATH_ROUTE_6, 16
-	warp_event 12, 12, ROUTE_7_GATE, 2
-	warp_event 20, 12, ROUTE_7_GATE, 2
+	warp_event 12, 12, ROUTE_25, 11
+	warp_event 20, 12, ROUTE_25, 9
 	warp_event 28, 12, VICTORY_ROAD_3F, 1
 	warp_event 20,  6, ROUTE_8_GATE, 1
 

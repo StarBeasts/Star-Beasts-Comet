@@ -5,14 +5,12 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
+Music_HomeDepot:
 	channel_count 2
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_HomeDepot_Ch1
+	channel 2, Music_HomeDepot_Ch2
 
-Music_Placeholder_Ch1:
+Music_HomeDepot_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 10, 7
@@ -537,7 +535,7 @@ Music_Placeholder_Ch1:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_HomeDepot_Ch2:
 	duty_cycle 0
 	note_type 12, 10, 7
 ;Bar 1

@@ -53,11 +53,13 @@ _UndergroundPathEntranceRoute6Text8::
 	done
 
 _UndergroundPathEntranceRoute6Text9::
-	text "FELDSPAR FLATS 4"
+	text "WORLD FAMOUS"
+	line "TALKING BOULDER"
+	cont "DWAYNE('S ROOM)"
 	done
 
 _UndergroundPathEntranceRoute6Text10::
-	text "FELDSPAR FLATS 5"
+	text "STORAGE CLOSET"
 	done
 
 _UndergroundPathEntranceRoute6Text11::
@@ -78,7 +80,8 @@ _UndergroundPathEntranceRoute6Text13::
 	done
 
 _UndergroundPathEntranceRoute6Text14::
-	text "FELDSPAR FLATS 9"
+	text "THE ROOM WHERE WE"
+	line "KEEP THE BUTTON"
 	done
 
 _UndergroundPathEntranceRoute6Text15::
@@ -92,11 +95,12 @@ _UndergroundPathEntranceRoute6Text16::
 	done
 
 _UndergroundPathEntranceRoute6Text17::
-	text "FELDSPAR FLATS 12"
+	text "PSIONIC CRYSTAL"
+	line "CULTIVATION ROOM"
 	done
 
 _UndergroundPathEntranceRoute6Text18::
-	text "FELDSPAR FLATS 13"
+	text "JIM'S ROOM"
 	done
 
 _UndergroundPathEntranceRoute6Text19::

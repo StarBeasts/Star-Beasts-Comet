@@ -142,35 +142,38 @@ _Route25AfterBattleText8::
 	done
 
 _Route25BattleText9::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Howdy damn howdy!"
+
+	para "I'm JIM!"
+
+	para "I love a good"
+	line "battle, but I"
+	cont "love a good"
+	cont "meatball sub"
+	cont "even more!"
 	done
 
 _Route25EndBattleText9::
-	text "You're"
-	line "something."
+	text "That'sa"
+	line "spicy meatball!"
 	prompt
 
 _Route25AfterBattleText9::
-	text "The trail below"
-	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	text "If my sandwich"
+	line "doesn't get here"
+	cont "on time, I'm"
+	cont "choking that"
+	cont "bastard to death."
 
-	para "Just be sure to"
-	line "watch yer step,"
-	cont "eh?"
+	para "Don't mess around"
+	line "with a man's meal."
 	done
 
 _Route25Text11::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "!"
 	done
 
 _Route25Text12::
-	text "BILL'S SECRET"
-	line "GARDEN"
-
-	para "KEEP OUT"
-	done
+	text "It's JIM's mixtape!"
+	prompt
 
