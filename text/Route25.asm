@@ -1,21 +1,36 @@
 _Route25BattleText1::
-	text "Elijah"
-	line "come here to"
-	cont "practice!"
+	text "Once I've found"
+	line "all the secrets"
+	cont "of this cursed"
+	cont "place, I can use"
+	cont "its power to take"
+	cont "over RELAS!"
 
-	para "What about you?"
+	para "Whuh? What's that?"
+
+	para "Child! You cannot"
+	line "be allowed here!"
+
+	para "I will snuff"
+	line "you out!"
 	done
 
 _Route25EndBattleText1::
-	text "You're"
-	line "decent."
+	text "Tch."
+	line "Damnit."
 	prompt
 
 _Route25AfterBattleText1::
-	text "All BEASTS have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "A minor setback."
+	
+	para "It doesn't matter."
+
+	para "Once I know the"
+	line "everything about"
+	cont "this place, not"
+	cont "one soul will"
+	cont "stand a chance"
+	cont "against me again."
 	done
 
 _Route25BattleText2::
