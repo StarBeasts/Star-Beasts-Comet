@@ -414,8 +414,8 @@ RockTunnelPokecenterHiddenObjects:
 	db -1 ; end
 
 ViridianForestHiddenObjects:
-	hidden_object  1, 18, ULTRA_BALL, HiddenItems
-	hidden_object 17, 42, STEELY_GENE, HiddenItems
+	hidden_object  9, 31, ULTRA_BALL, HiddenItems
+	hidden_object  9, 17, STEELY_GENE, HiddenItems
 	db -1 ; end
 
 MtMoon3HiddenObjects:
@@ -429,12 +429,12 @@ IndigoPlateauHiddenObjects:
 	db -1 ; end
 
 Route25HiddenObjects:
-	hidden_object 38,  3, ETHER, HiddenItems
-	hidden_object 10,  1, ELIXER, HiddenItems
+	hidden_object 2,  4, ETHER, HiddenItems
+	hidden_object 12,  6, FULL_HEAL, HiddenItems
 	db -1 ; end
 
 Route9HiddenObjects:
-	hidden_object 14,  7, ETHER, HiddenItems
+	hidden_object 22,  8, MAX_ELIXER, HiddenItems
 	db -1 ; end
 
 SSAnne6HiddenObjects:
@@ -448,20 +448,20 @@ SSAnne10HiddenObjects:
 	db -1 ; end
 
 Route10HiddenObjects:
-	hidden_object  9, 17, SUPER_POTION, HiddenItems
-	hidden_object 16, 53, MAX_ETHER, HiddenItems
+	hidden_object 12, 23, SUPER_POTION, HiddenItems
+	hidden_object 13, 18, MAX_ETHER, HiddenItems
 	db -1 ; end
 
 RocketHideout1HiddenObjects:
-	hidden_object 21, 15, PP_UP, HiddenItems
+	hidden_object 16, 14, PP_UP, HiddenItems
 	db -1 ; end
 
 RocketHideout3HiddenObjects:
-	hidden_object 27, 17, NUGGET, HiddenItems
+	hidden_object 4, 22, NUGGET, HiddenItems
 	db -1 ; end
 
 RocketHideout4HiddenObjects:
-	hidden_object 25,  1, SUPER_POTION, HiddenItems
+	hidden_object 3,  13, REVIVE, HiddenItems
 	db -1 ; end
 
 SaffronPokecenterHiddenObjects:
@@ -470,16 +470,16 @@ SaffronPokecenterHiddenObjects:
 	db -1 ; end
 
 PokemonTower5HiddenObjects:
-	hidden_object  4, 12, ELIXER, HiddenItems
+	hidden_object  9, 2, GREAT_BALL, HiddenItems
 	db -1 ; end
 
 Route13HiddenObjects:
-	hidden_object  1, 14, PP_UP, HiddenItems
-	hidden_object 16, 13, CALCIUM, HiddenItems
+	hidden_object 19, 36, PP_UP, HiddenItems
+	hidden_object 40, 25, CALCIUM, HiddenItems
 	db -1 ; end
 
 SafariZoneEntranceHiddenObjects:
-	hidden_object 10,  1, NUGGET, HiddenItems ; inaccessible
+	hidden_object 0,  6, NUGGET, HiddenItems
 	db -1 ; end
 
 SafariZoneWestHiddenObjects:
@@ -487,36 +487,36 @@ SafariZoneWestHiddenObjects:
 	db -1 ; end
 
 SilphCo5FHiddenObjects:
-	hidden_object 12,  3, ELIXER, HiddenItems
+	hidden_object 30,  2, ELIXER, HiddenItems
 	db -1 ; end
 
 SilphCo9FHiddenObjects:
-	hidden_object  2, 15, MAX_POTION, HiddenItems
+	hidden_object  24, 13, FULL_RESTORE, HiddenItems
 	db -1 ; end
 
 CopycatsHouse2FHiddenObjects:
-	hidden_object  1,  1, NUGGET, HiddenItems
+	hidden_object  6,  7, NUGGET, HiddenItems
 	db -1 ; end
 
 CeruleanCave1HiddenObjects:
-	hidden_object 14, 11, RARE_CANDY, HiddenItems
+	hidden_object 14, 11, RARE_CANDY, HiddenItems ; do this later
 	db -1 ; end
 
 CeruleanCave3HiddenObjects:
-	hidden_object 27,  3, ULTRA_BALL, HiddenItems
+	hidden_object 27,  3, ULTRA_BALL, HiddenItems ; do this later
 	db -1 ; end
 
 PowerPlantHiddenObjects:
-	hidden_object 17, 16, MAX_ELIXER, HiddenItems
-	hidden_object 12,  1, PP_UP, HiddenItems
+	hidden_object 22, 24, THUNDER_STONE, HiddenItems
+	hidden_object 35, 21, PP_UP, HiddenItems
 	db -1 ; end
 
 SeafoamIslands3HiddenObjects:
-	hidden_object 15, 15, NUGGET, HiddenItems
+	hidden_object 32, 9, NUGGET, HiddenItems
 	db -1 ; end
 
 SeafoamIslands5HiddenObjects:
-	hidden_object 25, 17, ULTRA_BALL, HiddenItems
+	hidden_object 23, 25, FULL_RESTORE, HiddenItems
 	db -1 ; end
 
 Mansion1HiddenObjects:
@@ -540,9 +540,9 @@ Mansion4HiddenObjects:
 	db -1 ; end
 
 Route23HiddenObjects:
-	hidden_object  9, 44, FULL_RESTORE, HiddenItems
-	hidden_object 19, 70, ULTRA_BALL, HiddenItems
-	hidden_object  8, 90, MAX_ETHER, HiddenItems
+	hidden_object  21, 94, FULL_RESTORE, HiddenItems
+	hidden_object  4, 85, ULTRA_BALL, HiddenItems
+	hidden_object  2, 61, MAX_ETHER, HiddenItems
 	db -1 ; end
 
 VictoryRoad2HiddenObjects:
@@ -559,7 +559,7 @@ BillsHouseHiddenObjects:
 	db -1 ; end
 
 ViridianCityHiddenObjects:
-	hidden_object 15,  4, POTION, HiddenItems
+	hidden_object 36,  2, POTION, HiddenItems
 	db -1 ; end
 
 SafariZoneRestHouse2HiddenObjects:
@@ -619,11 +619,11 @@ BikeShopHiddenObjects:
 	db -1 ; end
 
 Route11HiddenObjects:
-	hidden_object 48,  5, ESCAPE_ROPE, HiddenItems
+	hidden_object 33, 19, ESCAPE_ROPE, HiddenItems
 	db -1 ; end
 
 Route12HiddenObjects:
-	hidden_object  2, 63, HYPER_POTION, HiddenItems
+	hidden_object  31, 9, HYPER_POTION, HiddenItems
 	db -1 ; end
 
 SilphCo11FHiddenObjects:
@@ -631,11 +631,11 @@ SilphCo11FHiddenObjects:
 	db -1 ; end
 
 Route17HiddenObjects:
-	hidden_object 15,  14, RARE_CANDY, HiddenItems
-	hidden_object  8,  45, FULL_RESTORE, HiddenItems
-	hidden_object 17,  72, PP_UP, HiddenItems
-	hidden_object  4,  91, MAX_REVIVE, HiddenItems
-	hidden_object  8, 121, MAX_ELIXER, HiddenItems
+	hidden_object 16,  48, RARE_CANDY, HiddenItems
+	hidden_object 14,  64, FULL_RESTORE, HiddenItems
+	hidden_object 19,  64, PP_UP, HiddenItems
+	hidden_object 16,  79, MAX_REVIVE, HiddenItems
+	hidden_object 20,  90, ELIXER, HiddenItems
 	db -1 ; end
 
 UndergroundPathNsHiddenObjects:
@@ -650,15 +650,15 @@ UndergroundPathWeHiddenObjects:
 	db -1 ; end
 
 CeladonCityHiddenObjects:
-	hidden_object 48, 15, PP_UP, HiddenItems
+	hidden_object 6, 4, PP_UP, HiddenItems
 	db -1 ; end
 
 SeafoamIslands4HiddenObjects:
-	hidden_object  9, 16, MAX_ELIXER, HiddenItems
+	hidden_object  26, 8, RARE_CANDY, HiddenItems
 	db -1 ; end
 
 VermilionCityHiddenObjects:
-	hidden_object 14, 11, MAX_ETHER, HiddenItems
+	hidden_object 10, 3, FULL_HEAL, HiddenItems
 	db -1 ; end
 
 CeruleanCityHiddenObjects:
@@ -666,5 +666,5 @@ CeruleanCityHiddenObjects:
 	db -1 ; end
 
 Route4HiddenObjects:
-	hidden_object 40,  3, GREAT_BALL, HiddenItems
+	hidden_object 16,  2, GREAT_BALL, HiddenItems
 	db -1 ; end
