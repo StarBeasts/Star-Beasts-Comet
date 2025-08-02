@@ -1,15 +1,15 @@
 SafariZoneWestWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 24, NIDORAN_F
+	db 25, NIDORAN_M
 	db 26, DODUO
-	db 22, PARAS
-	db 25, EXEGGCUTE
-	db 33, NIDORINA
-	db 23, EXEGGCUTE
-	db 24, NIDORAN_M
-	db 25, PARASECT
-	db 25, KANGASKHAN
-	db 26,TAUROS
+	db 23, DITTO
+	db 24, PERSIAN
+	db 33, NIDORINO
+	db 26, RATICATE
+	db 24, VENONAT
+	db 30, KABUTO
+	db 30, OMANYTE
+	db 26, TAUROS
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

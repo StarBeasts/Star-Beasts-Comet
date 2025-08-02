@@ -1,14 +1,14 @@
 SafariZoneNorthWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 22, NIDORAN_F
-	db 26, RHYHORN
-	db 23, PARAS
-	db 25, EXEGGCUTE
-	db 30, NIDORINA
-	db 27, EXEGGCUTE
-	db 30, NIDORINO
-	db 32, GOLDUCK
-	db 26, JYNX
+	db 24, NIDORAN_M
+	db 26, DODUO
+	db 22, PARAS
+	db 25, POLIWHIRL
+	db 33, DITTO
+	db 23, ARBOK
+	db 24, NIDORINO
+	db 25, PARASECT
+	db 25, JYNX
 	db 28, TAUROS
 	end_grass_wildmons
 

@@ -76,9 +76,9 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
+	dw Route7GateWildMons
 	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw PurpleForestWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -334,3 +334,4 @@ INCLUDE "data/wild/maps/RocketHideoutB1F.asm"
 INCLUDE "data/wild/maps/RocketHideoutB2F.asm"
 INCLUDE "data/wild/maps/RocketHideoutB3F.asm"
 INCLUDE "data/wild/maps/RocketHideoutB4F.asm"
+INCLUDE "data/wild/maps/Route7Gate.asm"
