@@ -23,6 +23,7 @@ CinnabarLabTradeRoom_TextPointers:
 	dw Lab2Text8
 	dw Lab2Text9
 	dw Lab2Text10
+	dw Lab2Text11
 
 CinnabarLabTradeRoomTrainerHeaders:
 	def_trainers 6
@@ -82,4 +83,8 @@ Lab2Text9:
 
 Lab2Text10:
 	text_far _Lab2Text10
+	text_end
+
+Lab2Text11:
+	text_far _Lab2Text11
 	text_end

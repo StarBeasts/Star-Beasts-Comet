@@ -10,10 +10,6 @@ _SeafoamIslands2Text1::
 	done
 
 _SeafoamIslands2Text2::
-	text "!"
-	done
-
-_SeafoamIslands2Text3::
 	text "There's a gnarled"
 	line "old sign that"
 	cont "looks like it was"
@@ -30,7 +26,7 @@ _SeafoamIslands2Text3::
 	line "MORE THAN A DREAM"
 	done
 
-_SeafoamIslands2Text4::
+_SeafoamIslands2Text3::
 	text "RED GOLD REEF"
 	line "GAI CO. # BALL"
 	cont "RESEARCH AND"
@@ -40,3 +36,8 @@ _SeafoamIslands2Text4::
 	line "IN THE PALM OF"
 	cont "YOUR HAND"
 	done
+
+_SeafoamIslands2Text4::
+	text "!"
+	done
+

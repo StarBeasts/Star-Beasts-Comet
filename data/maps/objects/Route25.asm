@@ -17,6 +17,7 @@ Route25_Object:
 
 	def_bg_events
 	bg_event 13,  3, 12 ; Route25Text12
+	bg_event 12,  6, 13 ; Route25Text13
 
 	def_object_events
 	object_event  3, 22, SPRITE_MR_FUJI, STAY, DOWN, 1, OPP_ENGINEER, 5

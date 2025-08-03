@@ -214,3 +214,18 @@ _Route25Text12::
 	text "It's JIM's mixtape!"
 	prompt
 
+_Route25Text13::
+	text "<PLAYER> found"
+	line "AWAKENING!"
+
+	para "..."
+
+	para "But it was empty..."
+
+	para "You get the"
+	line "sneaking sensation"
+	cont "that JIM might've"
+	cont "used it..."
+	done
+
+

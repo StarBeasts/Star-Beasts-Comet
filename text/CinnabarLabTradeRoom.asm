@@ -97,14 +97,7 @@ _Lab2Text5::
 	done
 
 _Lab2Text6::
-	text "6 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
-
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	text "!"
 	done
 
 _Lab2Text7::
@@ -149,4 +142,8 @@ _Lab2Text10::
 	line "ebb to it, like"
 	cont "the belly of a"
 	cont "pregnant demon..."
+	done
+
+_Lab2Text11::
+	text "11 placeholder"
 	done

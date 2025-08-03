@@ -25,6 +25,7 @@ Route25_TextPointers:
 	dw PickUpItemText
 	dw Route25Text11
 	dw Route25Text12
+	dw Route25Text13
 
 Route25TrainerHeaders:
 	def_trainers
@@ -223,5 +224,9 @@ Route25Text12:
 	ld a, MUSIC_HOME_DEPOT
 	call PlayMusic
 	jp TextScriptEnd
+	text_end
+
+Route25Text13:
+	text_far _Route25Text13
 	text_end
 
