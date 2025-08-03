@@ -562,8 +562,8 @@ ScientistData:
 ; Unused
 	db 34, KOFFING, VOLTORB, 0
 ; Silph Co. 2F
-	db 26, DEWGONG, SLOWPOKE, NIDORAN_F, PONYTA, 0
-	db 28, MAGNEMITE, VOLTORB, MAGNETON, 0
+	db 28, DEWGONG, SLOWPOKE, NIDORAN_F, PONYTA, 0
+	db 29, MAGNEMITE, VOLTORB, MAGNETON, 0
 ; Silph Co. 3F/Mansion 1F
 	db 29, TANGELA, KANGASKHAN, 0
 ; Silph Co. 4F
@@ -580,10 +580,6 @@ ScientistData:
 	db 28, VOLTORB, TANGELA, MAGNETON, 0
 ; Silph Co. 10F
 	db 29, MAGNEMITE, TANGELA, 0
-; Mansion 3F
-	db 33, MAGNEMITE, MAGNETON, VOLTORB, 0
-; Mansion B1F
-	db 34, MAGNEMITE, ELECTRODE, 0
 
 GiovanniData:
 ; SS Rubin
@@ -638,8 +634,8 @@ RocketData:
 	db 30, MACHOKE, GOLBAT, 0
 	db 28, ARBOK, PIDGEOTTO, CUBONE, 0
 ; Silph Co. 5F
-	db 33, ARBOK, 0
-	db 33, HYPNO, 0
+	db $FF, 30, EKANS, 28, ARBOK, 0
+	db $FF, 30, DROWZEE, 28, HYPNO, 0
 ; Silph Co. 6F
 	db 29, MACHOP, MACHOKE, 0
 	db 28, GOLBAT, GOLDUCK, NIDORINO, 0
@@ -660,6 +656,8 @@ RocketData:
 ; Miserite Rockets
 	db 24, DROWZEE, ELECTRODE, 0
 	db 26, TANGELA, NIDORAN_F, 0
+; fossil guy
+	db 30, OMANYTE, KABUTO, 0
 
 
 CooltrainerMData:

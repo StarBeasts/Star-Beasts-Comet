@@ -487,7 +487,7 @@ SafariZoneWestHiddenObjects:
 	db -1 ; end
 
 SilphCo5FHiddenObjects:
-	hidden_object 30,  2, ELIXER, HiddenItems
+	hidden_object 30,  2, FULL_HEAL, HiddenItems
 	db -1 ; end
 
 SilphCo9FHiddenObjects:
