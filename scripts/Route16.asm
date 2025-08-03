@@ -44,6 +44,9 @@ Route16Script0:
 	ld a, HS_SAFFRON_CITY_F
 	ld [wMissableObjectIndex], a
 	predef ShowObject
+	ld a, HS_GAME_CORNER_ROCKET
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	call UpdateSprites
 	ld a, $3
 	ld [wRoute16CurScript], a
