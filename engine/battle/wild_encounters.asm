@@ -25,7 +25,7 @@ TryDoWildEncounter:
 .next
 ; determine if wild pokemon can appear in the half-block we're standing in
 ; is the bottom right tile (9,9) of the half-block we're standing in a grass/water tile?
-	hlcoord 9, 9
+	hlcoord 8, 9
 	ld c, [hl]
 	ld a, [wGrassTile]
 	cp c
@@ -38,12 +38,20 @@ TryDoWildEncounter:
 ; even if not in grass/water, standing anywhere we can encounter pokemon
 ; so long as the map is "indoor" and has wild pokemon defined.
 ; ...as long as it's not Viridian Forest or Safari Zone.
-	ld a, [wCurMapTileset]
-	cp HILL ; Viridian Forest/Safari Zone
-	jr z, .CanEncounter
+
+; Maps with Hill Tileset that shouldn't spawn encounters
 	ld a, [wCurMap]
+	cp ROUTE_8_GATE
+	jr z, .CantEncounter2
+
+	ld a, [wCurMapTileset]
+	cp HILL
+	jr z, .CanEncounter
+
+	ld a, [wCurMapTileset]
 	cp FIRST_INDOOR_MAP ; is this an indoor map?
 	jr c, .CantEncounter2
+	ld a, [wCurMapTileset]
 	cp FOREST ; Viridian Forest/Safari Zone
 	jr z, .CantEncounter2
 	ld a, [wGrassRate]
