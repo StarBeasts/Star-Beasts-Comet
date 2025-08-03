@@ -78,5 +78,5 @@ SaffronTileset_Coll::
 	coll_tiles $01, $0d, $0e, $12, $1b, $1d, $1e, $20, $22, $2c, $2d, $2e, $2f, $3c, $3d, $3e, $3f, $54
 
 HillTileset_Coll::
-	coll_tiles $16, $1c, $3c, $48, $49, $58, $59, $53, $5e, $63, $6c, $41, $60, $6e
+	coll_tiles $16, $1c, $36, $3c, $41, $48, $49, $53, $58, $59, $60, $63, $6c, $6e
 
