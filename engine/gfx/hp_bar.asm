@@ -142,8 +142,8 @@ UpdateHPBar_AnimateHPBar:
 .barAnimationLoop
 	push af
 	push de
-;	ld d, $5
-;	call DrawHPBarHudless
+	ld d, $6
+	call DrawHPBarHudless
 	ld c, 2
 	call DelayFrames
 	pop de
@@ -216,7 +216,7 @@ UpdateHPBar_PrintHPNumber:
 	ldh a, [hUILayoutFlags]
 	bit 0, a
 	jr z, .hpBelowBar
-	ld de, $7
+	ld de, 8
 	jr .next
 .hpBelowBar
 	ld de, $14

@@ -1062,7 +1062,7 @@ ItemUseMedicine:
 	ld [wHPBarNewHP+1], a
 	hlcoord 5, 1
 	ld a, [wWhichPokemon]
-	ld bc, 2 * SCREEN_WIDTH
+	ld bc, 2 * SCREEN_WIDTH - 1
 	call AddNTimes ; calculate coordinates of HP bar of pokemon that used Softboiled
 	ld a, SFX_HEAL_HP
 	call PlaySoundWaitForCurrent
@@ -1195,7 +1195,7 @@ ItemUseMedicine:
 .calculateHPBarCoords
 	ld hl, wShadowOAMSprite36
 	inc hl
-	ld bc, 2 * SCREEN_WIDTH
+	ld bc, 2 * SCREEN_WIDTH - 1
 	inc d
 .calculateHPBarCoordsLoop
 	add hl, bc
