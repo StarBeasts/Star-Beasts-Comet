@@ -132,9 +132,13 @@ Mansion4Text12:
 	text_far _Mansion4Text12
 	text_asm
 	call GBFadeOutToBlack
-	; ld a, HS_VELID
-	; ld [wMissableObjectIndex], a
-	; predef HideObject dummied out for now
+	ld a, HS_VELID
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	call Delay3
+	ld a, SFX_GO_INSIDE
+	call PlaySound
+	call Delay3
 	call GBFadeInFromBlack
  	jp TextScriptEnd
 

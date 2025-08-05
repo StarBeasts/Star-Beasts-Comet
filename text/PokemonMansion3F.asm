@@ -46,3 +46,74 @@ _Mansion3Text5::
 	para "They didn't make"
 	line "it..."
 	done
+
+_Mansion3Text7::
+	text "Log: I narrowly"
+	line "escaped my"
+	cont "encounter with"
+	cont "ALVARIS."
+
+	para "The rest of my"
+	line "research team..."
+
+	para "They didn't make"
+	line "it..."
+	done
+
+_Mansion3Text8::
+	text "Log: I narrowly"
+	line "escaped my"
+	cont "encounter with"
+	cont "ALVARIS."
+
+	para "The rest of my"
+	line "research team..."
+
+	para "They didn't make"
+	line "it..."
+	done
+
+_Mansion3Text9::
+	text "Log: I narrowly"
+	line "escaped my"
+	cont "encounter with"
+	cont "ALVARIS."
+
+	para "The rest of my"
+	line "research team..."
+
+	para "They didn't make"
+	line "it..."
+	done
+
+_Mansion3Text10::
+	text "Water, water..."
+	
+	para "Everywhere..."
+
+	para "Huh? Why don't we"
+	line "ever go outside?"
+
+	para "Why don't we leave?"
+
+	para "I'm touched that"
+	line "you care, child,"
+	cont "but have you seen"
+	cont "the way we look?"
+
+	para "Nobody would..."
+
+	para "Accept us..."
+
+	para "Or maybe that's"
+	line "just what we"
+	cont "tell ourselves..."
+
+	para "But I still really"
+	line "appreciate your"
+	cont "concern."
+
+	para "Sigh..."
+
+	para "It's kind of you."
+	done

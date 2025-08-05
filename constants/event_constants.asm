@@ -589,13 +589,12 @@
 
 ; Victory Road 3F events
 	const_next $660
-	const EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH1
+	const_skip
 	const EVENT_BEAT_VICTORY_ROAD_3_TRAINER_0
 	const EVENT_BEAT_VICTORY_ROAD_3_TRAINER_1
 	const EVENT_BEAT_VICTORY_ROAD_3_TRAINER_2
 	const EVENT_BEAT_VICTORY_ROAD_3_TRAINER_3
-	const_skip
-	const EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH2
+	const_skip 2
 
 ; Rocket Hideout events
 	const_next $670

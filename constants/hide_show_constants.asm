@@ -208,6 +208,7 @@ DEF SHOW EQU $15
 	const HS_POKEMON_MANSION_B1F_ITEM_3    ; C0 X
 	const HS_POKEMON_MANSION_B1F_ITEM_4    ; C1 X
 	const HS_POKEMON_MANSION_B1F_ITEM_5    ; C2 X
+	const HS_VELID
 	const HS_SAFARI_ZONE_EAST_ITEM_1       ; C3 X
 	const HS_SAFARI_ZONE_EAST_ITEM_2       ; C4 X
 	const HS_SAFARI_ZONE_EAST_ITEM_3       ; C5 X
@@ -256,7 +257,6 @@ DEF SHOW EQU $15
 	const HS_VARIK_2
 	const HS_INDIGO_PLATEAU_ITEM_1        ; 78 X
 	const HS_INDIGO_PLATEAU_ITEM_2        ; 79 X
-	const HS_VICTORY_ROAD_3F_BOULDER       ; 7A
 	const HS_MOLTRES                       ; 5B X
 	const HS_VICTORY_ROAD_NEPTO_JEWEL       ; 7A
 	const HS_FARFROMTILE_1

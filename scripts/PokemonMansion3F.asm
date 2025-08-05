@@ -89,6 +89,10 @@ PokemonMansion3F_TextPointers:
 	dw PickUpItemText
 	dw Mansion3Text5
 	dw Mansion3Text6
+	dw Mansion3Text7
+	dw Mansion3Text8
+	dw Mansion3Text9
+	dw Mansion3Text10
 
 Mansion3TrainerHeaders:
 	def_trainers
@@ -137,3 +141,20 @@ Mansion3AfterBattleText2:
 Mansion3Text5:
 	text_far _Mansion3Text5
 	text_end
+
+Mansion3Text7:
+	text_far _Mansion3Text7
+	text_end
+
+Mansion3Text8:
+	text_far _Mansion3Text8
+	text_end
+
+Mansion3Text9:
+	text_far _Mansion3Text9
+	text_end
+
+Mansion3Text10:
+	text_far _Mansion3Text10
+	text_end
+
