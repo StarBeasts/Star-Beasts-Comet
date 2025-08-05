@@ -35,7 +35,6 @@ INCLUDE "text/SilphCo9F.asm"
 INCLUDE "text/SilphCo11F.asm"
 INCLUDE "text/PokemonMansion2F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
-INCLUDE "text/PokemonMansionB1F.asm"
 INCLUDE "text/SafariZoneEast.asm"
 INCLUDE "text/SafariZoneNorth.asm"
 INCLUDE "text/SafariZoneWest.asm"
@@ -309,6 +308,7 @@ SECTION "Text 14", ROMX
 INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/CinnabarLabTradeRoom.asm"
 INCLUDE "text/Route25.asm"
+INCLUDE "text/PokemonMansionB1F.asm"
 
 SECTION "Pokédex Text", ROMX
 

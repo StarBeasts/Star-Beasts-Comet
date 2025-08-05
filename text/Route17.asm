@@ -233,8 +233,12 @@ _Route17AfterBattleText10::
 _Route17Text11::
 	text "It's a notice!"
 
-	para "Watch out for"
-	line "discarded items!"
+	para "Don't be mean,"
+	line "keep RELAS clean!"
+
+	para "Please don't throw"
+	line "away your items"
+	cont "on CYCLING ROAD."
 	done
 
 _Route17Text12::

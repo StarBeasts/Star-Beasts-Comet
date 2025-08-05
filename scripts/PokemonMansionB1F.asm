@@ -68,6 +68,9 @@ PokemonMansionB1F_TextPointers:
 	dw Mansion4Text7
 	dw PickUpItemText
 	dw Mansion3Text6
+	dw Mansion4Text10
+	dw Mansion4Text11
+	dw Mansion4Text12
 
 Mansion4TrainerHeaders:
 	def_trainers
@@ -116,3 +119,22 @@ Mansion4AfterBattleText2:
 Mansion4Text7:
 	text_far _Mansion4Text7
 	text_end
+
+Mansion4Text10:
+	text_far _Mansion4Text10
+	text_end
+
+Mansion4Text11:
+	text_far _Mansion4Text11
+	text_end
+
+Mansion4Text12:
+	text_far _Mansion4Text12
+	text_asm
+	call GBFadeOutToBlack
+	; ld a, HS_VELID
+	; ld [wMissableObjectIndex], a
+	; predef HideObject dummied out for now
+	call GBFadeInFromBlack
+ 	jp TextScriptEnd
+

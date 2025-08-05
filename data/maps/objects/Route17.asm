@@ -4,12 +4,12 @@ Route17_Object:
 	def_warp_events
 
 	def_bg_events
-	bg_event 15, 29, 11 ; Route17Text11
-	bg_event 15, 41, 12 ; Route17Text12
-	bg_event 15, 53, 13 ; Route17Text13
-	bg_event 15, 65, 14 ; Route17Text14
-	bg_event 15, 89, 15 ; Route17Text15
-	bg_event 15, 119, 16 ; Route17Text16
+	bg_event 17, 29, 11 ; Route17Text11
+	bg_event  5, 37, 12 ; Route17Text12
+	bg_event  5, 11, 13 ; Route17Text13
+	bg_event 17,  5, 14 ; Route17Text14
+	bg_event 35, 18, 15 ; Route17Text15
+	bg_event 17, 95, 16 ; Route17Text16
 
 	def_object_events
 	object_event 17, 42, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 1, OPP_CUE_BALL, 4
