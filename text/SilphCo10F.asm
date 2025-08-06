@@ -1,34 +1,51 @@
 _SilphCo10BattleText1::
-	text "Welcome to the"
-	line "10F! So nice of"
-	cont "you to join me!"
+	text "Aren't you a"
+	line "little green"
+	cont "behind the ears"
+	cont "to hang with us?"
 	done
 
 _SilphCo10EndBattleText1::
-	text "I'm"
-	line "stunned!"
+	text "Haha!"
+	line "I guess not!"
 	prompt
 
 _SilphCo10AfterBattleText1::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "It's not often"
+	line "we see someone as"
+	cont "talented as you"
+	cont "at your age!"
+
+	para "Maybe you DO"
+	line "belong here,"
+	cont "after all!"
 	done
 
 _SilphCo10BattleText2::
-	text "Enough of your"
-	line "silly games!"
+	text "Hey, I'm bored!"
+
+	para "Let's fight!"
 	done
 
 _SilphCo10EndBattleText2::
-	text "No"
-	line "continues left!"
+	text "Yeaaah!"
+
+	para "Great way to"
+	line "pass the time!"
 	prompt
 
 _SilphCo10AfterBattleText2::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "Having too much"
+	line "to do, not having"
+	cont "enough to do..."
+
+	para "Both of them,"
+	line "they gnaw at my"
+	line "soul for opposite"
+	cont "reasons..."
+
+	para "Alas, the chaos"
+	line "of adult life..."
 	done
 
 _SilphCo10Text3::

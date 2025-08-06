@@ -17,5 +17,6 @@ Route18Gate2F_Object:
 	def_object_events
 	object_event  6, 18, SPRITE_COOLTRAINER_M, STAY, LEFT, 1 ; person
 	object_event  3,  1, SPRITE_GUARD, STAY, DOWN, 2 ; person
+	object_event  0, 17, SPRITE_PSYCHIC, STAY, RIGHT, 3 ; person
 
 	def_warps_to ROUTE_18_GATE_2F
