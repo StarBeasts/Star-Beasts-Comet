@@ -173,8 +173,9 @@ _Route13AfterBattleText11::
 _Route13Text11::
 	text "TRAINER TIPS"
 
-	para "Check the post"
-	line "next to this sign!"
+	para "Check the area"
+	line "to the north"
+	cont "of this sign!"
 	done
 
 _Route13Text12::

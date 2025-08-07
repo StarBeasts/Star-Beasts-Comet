@@ -7,7 +7,7 @@ Route13_Object:
 	warp_event  6, 5, UNDERGROUND_PATH_ROUTE_7, 2
 
 	def_bg_events
-	bg_event 47, 39, 11 ; Route13Text11
+	bg_event 41, 39, 11 ; Route13Text11
 	bg_event  5,  7, 12 ; Route13Text12
 	bg_event 51, 31, 13 ; Route13Text13
 

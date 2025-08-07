@@ -54,8 +54,7 @@ _SilphCo9AfterBattleText1::
 
 _SilphCo9BattleText2::
 	text "Hey, someone I"
-	line "haven't fought,"
-	cont "yet!"
+	line "haven't fought!"
 
 	para "You're on, rookie!"
 	done
