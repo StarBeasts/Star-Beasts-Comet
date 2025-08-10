@@ -31,18 +31,23 @@ _Route11AfterBattleText2::
 	done
 
 _Route11BattleText3::
-	text "Let's go, but"
-	line "don't cheat!"
+	text "When I grow up,"
+	line "I wanna be a"
+	cont "RANGER!"
 	done
 
 _Route11EndBattleText3::
-	text "Huh?"
-	line "That's not right!"
+	text "Eeep!"
+	line "Still got a ways"
+	cont "to go, I guess."
 	prompt
 
 _Route11AfterBattleText3::
-	text "I did my best! I"
-	line "have no regrets!"
+	text "RANGERs are so"
+	line "cool! Imagine"
+	cont "having everybody"
+	cont "look up to you,"
+	cont "like that..."
 	done
 
 _Route11BattleText4::

@@ -5,9 +5,9 @@ Route7GateWildMons:
 	db 24, EKANS
 	db 25, DROWZEE
 	db 25, KRABBY
-	db 24, VOLTORB
+	db 24, TANGELA
 	db 24, DIGLETT
-	db 25, VOLTORB
+	db 25, TANGELA
 	db 25, DITTO
 	db 24, ARBOK
 	end_grass_wildmons

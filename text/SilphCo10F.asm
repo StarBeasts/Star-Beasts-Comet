@@ -41,7 +41,7 @@ _SilphCo10AfterBattleText2::
 
 	para "Both of them,"
 	line "they gnaw at my"
-	line "soul for opposite"
+	cont "soul for opposite"
 	cont "reasons..."
 
 	para "Alas, the chaos"

@@ -43,9 +43,14 @@ _Route13EndBattleText4::
 	prompt
 
 _Route13AfterBattleText4::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "There's not any"
+	line "GYM LEADERs out"
+	cont "here, so what"
+	cont "are you doing"
+	cont "out here?"
+
+	para "Are you on an"
+	line "adventure?"
 	done
 
 _Route13BattleText5::
@@ -109,10 +114,9 @@ _Route13EndBattleText8::
 	prompt
 
 _Route13AfterBattleText8::
-	text "My friend over"
-	line "here thinks those"
-	cont "stuffy OFFICERs"
-	cont "are cute..."
+	text "Some people find"
+	line "those stuffy"
+	cont "OFFICERs cute..."
 
 	para "Can you believe"
 	line "that!?"
@@ -130,13 +134,12 @@ _Route13EndBattleText9::
 	prompt
 
 _Route13AfterBattleText9::
-	text "My friend over"
-	line "here thinks those"
-	cont "mean BIKERs are"
-	cont "hot..."
+	text "Some people find"
+	line "those mean"
+	cont "BIKERs hot..."
 
-	para "Some people just"
-	line "have no taste..."
+	para "And those people"
+	line "have no taste."
 	done
 
 _Route13BattleText10::
