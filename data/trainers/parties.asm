@@ -73,10 +73,10 @@ YoungsterData:
 ; SS Anne 1F Rooms
 	db 21, NIDORINO, 0
 ; Route 11
-	db 21, EKANS, 0
-	db 19, SANDSHREW, ZUBAT, 0
+	db 31, DRATINI, PONYTA, KRABBY, 0
+	db 31, PIKACHU, GROWLITHE, SHELLDER, POLIWAG,  0
 	db 17, PSYDUCK, GOLDUCK, 0
-	db 18, NIDORAN_M, NIDORINO, 0
+	db 30, NIDORAN_M, MEOWTH, NIDORINO, GOLDUCK, 0
 ; Cobalt Cave
 	db 9, HORSEA, 0 ; used, Cobalt Cave
 ; Route 3 overflow
@@ -191,7 +191,7 @@ JrTrainerFData:
 ; Route 13
 	db 30, PIDGEOTTO, MEOWTH, GOLDUCK, PIKACHU, PARAS, 0
 	db 33, POLIWAG, POLIWHIRL, 0
-	db 32, PIDGEY, MEOWTH, PIDGEOTTO, 0
+	db 32, PIDGEY, MEOWTH, RHYDON, 0
 	db 33, VENONAT, POLIWAG, DIGLETT, 0
 ; Route 20
 	db 31, ARBOK, SLOWBRO, 0
@@ -212,15 +212,17 @@ PokemaniacData:
 	db 30, RHYHORN, KOFFING, 0
 	db 20, NIDORINO, 0
 ; Rock Tunnel B1F
-	db 20, SLOWPOKE, SPEAROW, SANDSHREW, 0
-	db 22, CHARMANDER, OMANYTE, 0
-	db 25, FEAROW, 0
+	db 40, SLOWBRO, FEAROW, SANDSLASH, 0
+	db 42, CHARIZARD, OMASTAR, 0
+	db 45, ALAKAZAM, 0
 ; Victory Road 2F
 	db 40, CHARIZARD, LAPRAS, POLIWRATH, 0
 ; Rock Tunnel 1F
 	db 23, TENTACRUEL, SLOWPOKE, 0
 ; Viridian Forest
 	db 8, VENONAT, 0
+; Ranger Station Outskirts
+	db 33, SEEL, GRAVELER, RAPIDASH, 0
 
 SuperNerdData:
 ; Mt. Moon 1F
@@ -241,6 +243,8 @@ SuperNerdData:
 	db 34, GROWLITHE, CHARMANDER, CHARMELEON, 0
 	db 41, FLAREON, 0
 	db 37, LAPRAS, 0
+; Ranger Station Outskirts
+	db 31, NIDORINO, ARBOK, BEEDRILL, DEWGONG, 0
 
 HikerData:
 ; Mt. Moon 1F
@@ -399,10 +403,10 @@ CueBallData:
 	db 30, PARASECT, MACHOKE, 0
 GamblerData:
 ; Route 11
-	db 18, GOLDEEN, SHELLDER, 0
-	db 18, BELLSPROUT, ODDISH, 0
-	db 18, VOLTORB, MAGNEMITE, 0
-	db 18, MEOWTH, RHYHORN, 0
+	db 31, SANDSLASH, SHELLDER, 0
+	db 31, WEEPINBELL, ODDISH, 0
+	db 31, ELECTRODE, MAGNEMITE, 0
+	db 31, MEOWTH, RHYHORN, 0
 ; Route 8
 	db 19, SPEAROW, ABRA, 0
 ; Viridian Gym
@@ -467,8 +471,8 @@ RockerData:
 	db $FF,37,VICTREEBEL,38,PARASECT,39,NIDOQUEEN,40,RAPIDASH,41,PRIMEAPE,0
 
 JugglerData:
-; Silph Co. 5F, not used anymore
-	db 29, OMANYTE, KABUTO, 0
+; Route 11
+	db $FF, 8, TANGELA, 16, TANGELA, 24, TANGELA, 32, KANGASKHAN, 0
 ; Victory Road 2F
 	db 41, RAPIDASH, HYPNO, HAUNTER, WIGGLYTUFF, 0
 ; Fuchsia Gym
@@ -483,6 +487,8 @@ JugglerData:
 	db 32, GOLDUCK, NIDORINO, 0
 ; Trailer Park
 	db 32, WEEPINBELL, CHARMELEON, 0
+; Route 11, other one
+	db 32, KADABRA, MACHOKE, WEEPINBELL, 0
 
 TamerData:
 ; Fuchsia Gym

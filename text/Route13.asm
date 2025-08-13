@@ -46,8 +46,7 @@ _Route13AfterBattleText4::
 	text "There's not any"
 	line "GYM LEADERs out"
 	cont "here, so what"
-	cont "are you doing"
-	cont "out here?"
+	cont "are you up to?"
 
 	para "Are you on an"
 	line "adventure?"
@@ -143,7 +142,7 @@ _Route13AfterBattleText9::
 	done
 
 _Route13BattleText10::
-	text "What're you"
+	text "Hell're you"
 	line "lookin' at?"
 	done
 
@@ -153,7 +152,8 @@ _Route13EndBattleText10::
 	prompt
 
 _Route13AfterBattleText10::
-	text "Get lost!"
+	text "Beat it!"
+	line "Get lost!"
 	done
 
 _Route13BattleText11::

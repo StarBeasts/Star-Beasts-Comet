@@ -1,5 +1,11 @@
 _Route11BattleText1::
-	text "Win, lose or draw!"
+	text "I win sometimes,"
+	line "I lose sometimes!"
+
+	para "Let's see what"
+	line "Lady Luck has in"
+	cont "store for me,"
+	cont "today!"
 	done
 
 _Route11EndBattleText1::
@@ -8,26 +14,39 @@ _Route11EndBattleText1::
 	prompt
 
 _Route11AfterBattleText1::
-	text "BEASTS are life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "Gambling is life!"
+
+	para "And the chaos of"
+	line "gambling is what"
+	cont "makes it so fun,"
+	cont "just like in life!"
 	done
 
 _Route11BattleText2::
-	text "Competition! I"
-	line "can't get enough!"
+	text "Those who can't"
+	line "feel the rhythm"
+	cont "are so lost."
+
+	para "How about you?"
+	
+	para "Can YOU feel"
+	line "the rhythm?"
 	done
 
 _Route11EndBattleText2::
-	text "I had"
-	line "a chance!"
+	text "Haha!"
+	line "What a dance,"
+	cont "what a show!"
 	prompt
 
 _Route11AfterBattleText2::
-	text "You can't be a"
-	line "coward in the"
-	cont "world of"
-	cont "# BEASTS!"
+	text "MANDOLIN and"
+	line "SABRANTIS love"
+	cont "to dance, and"
+	cont "ROLLEN loves to"
+	cont "make its melody!"
+
+	para "My kinda company!"
 	done
 
 _Route11BattleText3::
@@ -39,53 +58,74 @@ _Route11BattleText3::
 _Route11EndBattleText3::
 	text "Eeep!"
 	line "Still got a ways"
-	cont "to go, I guess."
+	cont "to go, I guess..."
 	prompt
 
 _Route11AfterBattleText3::
 	text "RANGERs are so"
 	line "cool! Imagine"
 	cont "having everybody"
-	cont "look up to you,"
+	cont "look up to you"
 	cont "like that..."
 	done
 
 _Route11BattleText4::
-	text "Careful!"
-	line "I'm laying down"
-	cont "some cables!"
+	text "Round and round,"
+	line "my balls go!"
+
+	para "What's inside them?"
+	
+	para "Nobody knows!"
 	done
 
 _Route11EndBattleText4::
-	text "That"
-	line "was electric!"
+	text "..."
+	line "There go my"
+	cont "balls..."
 	prompt
 
 _Route11AfterBattleText4::
-	text "Go green and"
-	line "save the"
-	cont "environment!"
+	text "When it comes to"
+	line "handling balls,"
+	cont "I'm a master!"
+	
+	para "Juggling. I'm"
+	line "talking about"
+	cont "juggling."
 	done
 
 _Route11BattleText5::
-	text "I just became a"
-	line "trainer! But, I"
-	cont "think I can win!"
+	text "I love POISON"
+	line "types! Doesn't"
+	cont "everyone?"
 	done
 
 _Route11EndBattleText5::
-	text "My"
-	line "BEASTS couldn't!"
+	text "You"
+	line "scoundrel!"
 	prompt
 
 _Route11AfterBattleText5::
-	text "What do you want?"
-	line "Leave me alone!"
+	text "Why does everyone"
+	line "pick on me for"
+	cont "liking POISON"
+	cont "types...?"
+
+	para "Is it because I'm"
+	line "a girl or because"
+	cont "POISON types are"
+	cont "'icky and weird'?"
+
+	para "Sniff..."
 	done
 
 _Route11BattleText6::
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "I'm a born winner!"
+
+	para "Everything I try,"
+	line "I win at!"
+
+	para "Just watch!"
 	done
 
 _Route11EndBattleText6::
@@ -94,13 +134,21 @@ _Route11EndBattleText6::
 	prompt
 
 _Route11AfterBattleText6::
-	text "Luck of the draw!"
-	line "Just luck!"
+	text "Gambling's not"
+	line "about winning,"
+	cont "anyway!"
+
+	para "It's the thrill"
+	line "of the game!"
 	done
 
 _Route11BattleText7::
-	text "I have never won"
-	line "before..."
+	text "I'm a born loser..."
+
+	para "Everything I try,"
+	line "I lose at."
+
+	para "Just watch..."
 	done
 
 _Route11EndBattleText7::
@@ -109,8 +157,11 @@ _Route11EndBattleText7::
 	prompt
 
 _Route11AfterBattleText7::
-	text "It's just luck."
-	line "Luck of the draw."
+	text "Some people have"
+	line "all the luck."
+
+	para "And I am NOT"
+	line "some people."
 	done
 
 _Route11BattleText8::
@@ -119,9 +170,9 @@ _Route11BattleText8::
 	done
 
 _Route11EndBattleText8::
-	text "Darn!"
-	line "I need to make my"
-	cont "BEASTS stronger!"
+	text "What!?"
+	line "But I had great"
+	cont "TYPE coverage!"
 	prompt
 
 _Route11AfterBattleText8::
@@ -135,6 +186,7 @@ _Route11AfterBattleText8::
 	done
 
 _Route11BattleText9::
-	text "Watch out for"
-	line "live wires!"
+	text "I've got some"
+	line "tricks up my"
+	cont "sleeve!"
 	done
