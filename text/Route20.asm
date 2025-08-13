@@ -13,8 +13,10 @@ _Route20AfterBattleText1::
 	done
 
 _Route20BattleText2::
-	text "SEAFOAM is a"
-	line "quiet getaway!"
+	text "Not a lot of"
+	line "loud people"
+	cont "here. Nice,"
+	cont "isn't it?"
 	done
 
 _Route20EndBattleText2::
@@ -23,8 +25,8 @@ _Route20EndBattleText2::
 
 _Route20AfterBattleText2::
 	text "There's a huge"
-	line "cavern underneath"
-	cont "this island."
+	line "cavern to the"
+	cont "north of here."
 
 	para "According to the"
 	line "legends, an"
@@ -45,38 +47,52 @@ _Route20EndBattleText3::
 	prompt
 
 _Route20AfterBattleText3::
-	text "Want to float"
-	line "with me?"
+	text "Float like a"
+	line "jellyfiiish!"
 	done
 
 _Route20BattleText4::
-	text "Are you on"
-	line "vacation too?"
+	text "To be a true"
+	line "triathlete,"
+	cont "one must master"
+	cont "the seas in"
+	cont "addition to"
+	cont "the land!"
 	done
 
 _Route20EndBattleText4::
-	text "No"
-	line "mercy at all!"
+	text "Broken as"
+	line "a world record!"
 	prompt
 
 _Route20AfterBattleText4::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "Nobody disturbs"
+	line "me out here."
+
+	para "If only that"
+	line "were true every-"
+	cont "where I went..."
 	done
 
 _Route20BattleText5::
-	text "Check out my buff"
-	line "physique!"
+	text "Check me out!"
+	line "I'm like a DRAGON!"
+
+	para "Strong and sleek!"
 	done
 
 _Route20EndBattleText5::
-	text "Wimpy!"
+	text "..."
+	
+	para "My skills in"
+	line "battle, on the"
+	cont "other hand,"
+	cont "are dragging..."
 	prompt
 
 _Route20AfterBattleText5::
-	text "I shoulda been"
-	line "buffing up my"
-	cont "BEASTS, not me!"
+	text "Maybe I shouldn't"
+	line "be BRAGGON..."
 	done
 
 _Route20BattleText6::
@@ -116,8 +132,8 @@ _Route20AfterBattleText7::
 
 _Route20BattleText8::
 	text "My boyfriend gave"
-	line "me a pearl"
-	cont "necklace!"
+	line "me a necklace of"
+	cont "pearls!"
 	done
 
 _Route20EndBattleText8::
@@ -132,8 +148,14 @@ _Route20AfterBattleText8::
 	done
 
 _Route20BattleText9::
-	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	text "I love swimming"
+	line "all across RELAS!"
+
+	para "Did you know"
+	line "there are some"
+	cont "places you can"
+	cont "only get to via"
+	cont "the water?"
 	done
 
 _Route20EndBattleText9::
@@ -142,16 +164,23 @@ _Route20EndBattleText9::
 	prompt
 
 _Route20AfterBattleText9::
-	text "BEASTS have"
-	line "taken over an"
-	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	text "RED GOLD REEF, way"
+	line "south of here,"
+	cont "was built on top"
+	cont "of a different"
+	cont "building!"
+
+	para "I'd go look myself,"
+	line "but I'm just a kid!"
 	done
 
 _Route20BattleText10::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for BEASTS."
+	text "The water here"
+	line "is really acidic!"
+
+	para "That's why we"
+	line "call it the"
+	cont "VINEGAR SEA!"
 	done
 
 _Route20EndBattleText10::
@@ -161,7 +190,7 @@ _Route20EndBattleText10::
 _Route20AfterBattleText10::
 	text "I wonder what's in"
 	line "that big building"
-	cont "next to us..."
+	cont "over there..."
 	done
 
 _Route20Text11::
