@@ -113,7 +113,7 @@ _RockTunnel1AfterBattleText7::
 	done
 
 _RockTunnel1Text8::
-	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+	text "IF YOU CAN READ"
+	line "THIS, YOU'RE"
+	cont "STILL ALIVE"
 	done
