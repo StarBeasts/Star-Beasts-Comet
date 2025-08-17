@@ -1,158 +1,243 @@
 _Route9BattleText1::
-	text "You have BEASTS"
-	line "with you!"
-	cont "You're mine!"
+	text "Hey, hey!"
+	
+	para "Civvie against"
+	line "a pro! Haha!"
+
+	para "I'm ALL about that!"
 	done
 
 _Route9EndBattleText1::
-	text "You"
-	line "deceived me!"
+	text "Whoa..."
+
+	para "Turns out I"
+	line "was wrong about"
+	cont "who the pro was!"
 	prompt
 
 _Route9AfterBattleText1::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "Word of warning,"
+	line "civvie."
+
+	para "You'll need a"
+	line "light of some"
+	cont "sort to navigate"
+	cont "EXILED ABYSS."
+
+	para "You'd have to be"
+	line "nuts to go in"
+	cont "there without one!"
 	done
 
 _Route9BattleText2::
-	text "Nice hat. Mind if"
-	line "I have it?"
+	text "Yes, yes!"
+
+	para "Let us see who"
+	line "will be the"
+	cont "first in!"
 	done
 
 _Route9EndBattleText2::
+	text "Urgh!"
+
+	para "Guess that'll be"
+	line "you then, huh?"
+	prompt
+
+_Route9AfterBattleText2::
+	text "I should report"
+	line "back to base..."
+	done
+
+_Route9BattleText3::
+	text "Whoa!"
+
+	para "Forget the DRAGON!"
+
+	para "I want your hat!"
+	done
+
+_Route9EndBattleText3::
 	text "Swing"
 	line "and a miss!"
 	prompt
 
-_Route9AfterBattleText2::
-	text "Guess not, huh?"
-	done
-
-_Route9BattleText3::
-	text "I'm taking ROCK"
-	line "TUNNEL to go to"
-	cont "LAVENDER..."
-	done
-
-_Route9EndBattleText3::
-	text "Can't"
-	line "measure up!"
-	prompt
-
 _Route9AfterBattleText3::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "You ARE here to"
+	line "try and catch"
+	cont "the DRAGON, right?"
 	done
 
 _Route9BattleText4::
-	text "Don't you dare"
-	line "go easy on me!"
+	text "Gosh..."
+
+	para "Nobody's found me,"
+	line "yet..."
+
+	para "Oh, what? You"
+	line "wanna battle me?"
+
+	para "Oh, alright..."
+
+	para "But I have to"
+	line "warn you, I'm not"
+	cont "that good, so I"
+	cont "probably won't be"
+	cont "a big challenge..."
 	done
 
 _Route9EndBattleText4::
-	text "No!"
-	line "You're too much!"
+	text "Drat!"
+	line "My prank didn't"
+	cont "work on you!"
 	prompt
 
 _Route9AfterBattleText4::
-	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	text "They underestimate"
+	line "kids like us,"
+	cont "don't they?"
+
+	para "Just goes to show"
+	line "you should never"
+	cont "judge a book"
+	cont "by its cover!"
+
+	para "I love to humble"
+	line "people who think"
+	cont "I'm a harmless"
+	cont "little girl!"
 	done
 
 _Route9BattleText5::
 	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	line "Get in line, kid!"
+	cont "Me 'n FLORATRESS"
+	cont "here are gonna"
+	cont "take a crack at"
+	cont "that DRAGON,"
+	cont "first!"
 	done
 
 _Route9EndBattleText5::
-	text "Keep it"
-	line "coming, eh!"
-
-	para "Oh wait. I'm out"
-	line "of BEASTS!"
+	text "Feh..."
+	line "The FLORATRESS"	
+	cont "came down!"
 	prompt
 
 _Route9AfterBattleText5::
-	text "You sure showed"
-	line "me what you're"
-	cont "aboot, eh?"
+	text "Well, I guess"
+	line "it's settled then,"
+	cont "ain't it?"
+
+	para "Good luck in"
+	line "there!"
 	done
 
 _Route9BattleText6::
-	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	text "Hahaha! Lookat ya!"
+
+	para "All the way out"
+	line "here by yerself!"
+
+	para "Gonna go in that"
+	line "cave, little"
+	cont "toughie?"
 	done
 
 _Route9EndBattleText6::
-	text "What's"
-	line "that?"
+	text "Whew!"
+	line "Steamrolled!"
+
+	para "And by a young'n,"
+	line "no less! Hahaha!"
 	prompt
 
 _Route9AfterBattleText6::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Heheh! Good to"
+	line "know kids these"
+	cont "days can still"
+	cont "be tough!"
 	done
 
 _Route9BattleText7::
-	text "I got up early"
-	line "every day to"
-	cont "raise my BEASTS"
-	cont "from cocoons!"
+	text "I'm here to get"
+	line "that fabled last"
+	cont "team member!"
+
+	para "That DRAGON..."
+
+	para "With enough hard"
+	line "work, even lowly"
+	cont "BUGs can surpass"
+	cont "a mighty DRAGON!"
+
+	para "Let me show you!"
 	done
 
 _Route9EndBattleText7::
-	text "WHAT?"
+	text "Wow."
 
-	para "What a total"
-	line "waste of time!"
+	para "You... really"
+	line "got me..."
 	prompt
 
 _Route9AfterBattleText7::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "Even as strong"
+	line "as I am, I guess"
+	cont "I still have a"
+	cont "ways to go..."
 	done
 
 _Route9BattleText8:: ; used in route 8 / 12
-	text "Aaaah!"
-	line "B-b-boss!"
-	cont "I-I was just..."
+	text "Bwahaha!"
+	line "You look a little"
+	cont "lost, kid!"
+
+	para "Why don'tcha run"
+	line "back home to yer"
+	cont "Momma?"
 	done
 
 _Route9EndBattleText8::
-	text "Wait..."
-	line "You're not my"
-	cont "boss..."
+	text "Sheesh!"
+	line "Lords have mercy!"
 	prompt
 
 _Route9AfterBattleText8::
-	text "I was hired to"
-	line "fix ELEKSI, but"
-	cont "I couldn't do it!"
+	text "Heheh! You ain't"
+	line "no ordinary kid,"
+	cont "are ya? Yer one"
+	cont "of them..."
 
-	para "Now I'm hiding"
-	line "out here hoping"
-	cont "she'll fix herself!"
+	para "Child prophecies,"
+	line "er whatever they"
+	cont "call 'em!"
+
+	para "Well, butter my"
+	line "biscuits and call"
+	cont "me breakfast!"
 	done
 
 _Route9BattleText9::
-	text "Go, my super bug"
-	line "# BEASTS!"
+	text "Hwiii-yaaaah!"
+
+	para "To be the greatest"
+	line "warrior, I must"
+	cont "tame the greatest"
+	cont "of BEASTS!"
 	done
 
 _Route9EndBattleText9::
-	text "My"
-	line "bugs..."
+	text "..."
+	line "Hwiii-owww..."
 	prompt
 
 _Route9AfterBattleText9::
-	text "If you don't like"
-	line "bug BEASTS, you"
-	cont "bug me!"
+	text "Still, I must go"
+	line "further beyond!"
+	cont "I must ascend to"
+	cont "a higher level"
+	cont "of power!"
 	done
 
 _Route9Text11::

@@ -103,8 +103,9 @@ BugCatcherData:
 	db 20, KINGLER, 0
 ; Unused
 	db 35, KINGLER, RAPIDASH, SCYTHER, 0
-; Route 9
-	db 19, BUTTERFREE, BEEDRILL, 0
+; X Isle Xterior
+	db 38, BUTTERFREE, BEEDRILL, RAPIDASH, KINGLER, SCYTHER, 0
+; not used for X Isle Xterior
 	db 35, KINGLER, RAPIDASH, SCYTHER, 0
 
 LassData:
@@ -165,7 +166,7 @@ JrTrainerMData:
 	db 18, DIGLETT, DIGLETT, SANDSHREW, 0
 ; Route 9
 	db 21, OMANYTE, CHARMANDER, 0
-	db 19, PSYDUCK, DIGLETT, EKANS, SANDSHREW, 0
+	db 38, GOLDUCK, STARMIE, ARBOK, 0
 ; Route 12 ; no longer used
 	db 29, NIDORAN_M, NIDORINO, 0
 
@@ -179,7 +180,8 @@ JrTrainerFData:
 	db 22, BULBASAUR, 0
 ; Route 9
 	db 18, POLIWAG, BELLSPROUT, BULBASAUR, 0
-	db 23, WEEPINBELL, 0
+; X Isle Xterior
+	db 48, PIDGEOT, VAPOREON, CHARIZARD, VENOMOTH, RAICHU, KABUTOPS,  0
 ; Route 10
 	db 20, PIKACHU, SEAKING, 0
 	db 21, EEVEE, RATICATE, 0
@@ -252,16 +254,16 @@ HikerData:
 	db 13, NIDORAN_F, SANDSHREW, MACHOP, PARAS, 0
 	db 17, ONIX, 0
 ; Route 9
-	db 21, GEODUDE, ONIX, 0
-	db 20, GEODUDE, MACHOP, HORSEA, 0
+	db $FF, 41, VENUSAUR, 28, JOLTEON, 0
+	db 38, GOLEM, MACHOKE, SANDSLASH, 0
 ; Route 10
 	db 21, NIDORAN_F, SANDSHREW, 0
 	db 19, IVYSAUR, TENTACRUEL, 0
 ; Rock Tunnel B1F
 	db 21, GEODUDE, SANDSHREW, MACHOP, 0
 	db 25, SANDSLASH, 0
-; Route 9/Rock Tunnel B1F
-	db 20, MACHOP, ONIX, 0
+; Route 9
+	db 38, MACHOKE, ONIX, 0
 ; Rock Tunnel 1F
 	db 19, GEODUDE, MACHOP, WEEZING, HORSEA, 0
 	db 20, ONIX, HORSEA, NIDORAN_F, 0
@@ -544,6 +546,8 @@ BlackbeltData:
 	db 38,MACHOP,MACHOKE,MACHAMP,0
 ; Victory Road 2F
 	db 43,MACHOKE,RATICATE,MACHOKE,0
+; X Isle
+	db 39, PARASECT, CLOYSTER, CLEFAIRY, 0
 
 Green1Data:
 	db 5, SQUIRTLE, 0
@@ -674,8 +678,8 @@ CooltrainerMData:
 ; Victory Road 3F
 	db 43, VICTREEBEL, CLOYSTER, ARCANINE, 0
 	db 43, KINGLER, JOLTEON, TENTACOOL, 0
-; should go somewhere
-	db 35, KINGLER, STARMIE, 0
+; X Isle Xterior
+	db 40, MAGMAR, ELECTABUZZ, 0
 ; Indigo Entrance
 	db 42,VENUSAUR,BLASTOISE,CHARIZARD,0
 ; Unused
@@ -702,6 +706,8 @@ CooltrainerFData:
 ; Ranger Station
 	db 35, CLEFAIRY, RATICATE, 0
 	db 34, SEAKING, ARCANINE, GLOOM, 0
+; X Isle Xterior
+	db 39, FARFETCHD, KANGASKHAN, SEADRA, 0
 
 BrunoData:
 	db $FF, 48, ARBOK, 50, KINGLER, 50, EXEGGCUTE, 51, MUK, 53, SNORLAX, 0

@@ -570,6 +570,8 @@ TangelaEvosMoves:
 	db EV_LEVEL, 38, KANGASKHAN
 	db 0
 ; Learnset
+	db 14, THUNDERSHOCK
+	db 20, TAKE_DOWN
 	db 28, THUNDER_WAVE
 	db 30, SELFDESTRUCT
 	db 36, THUNDERBOLT
