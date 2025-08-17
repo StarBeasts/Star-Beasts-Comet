@@ -4,8 +4,8 @@ RockTunnel1F_Object:
 	def_warp_events
 	warp_event  9, 31, LAST_MAP, 3
 	warp_event 32,  8, ROUTE_9, 3
-	warp_event 50, 35, ROUTE_9, 4
-	warp_event 51, 35, ROUTE_9, 4
+	warp_event 49, 17, ROCK_TUNNEL_B1F, 3
+	warp_event 51, 33, LAST_MAP, 4
 	warp_event 14,  4, ROCK_TUNNEL_B1F, 1
 	warp_event  7,  6, ROCK_TUNNEL_B1F, 2
 	warp_event  5, 22, ROCK_TUNNEL_B1F, 3
