@@ -306,6 +306,10 @@ SetPal_Overworld:
 	jr z, .grey
 	cp CELADON_MANSION_2F
 	jr z, .bloodstone
+	cp ROCK_TUNNEL_1F
+	jr z, .black
+	cp ROCK_TUNNEL_B1F
+	jr z, .abyss
 .caveDefault
 	ld a, PAL_CYANMON - 1
 	jr .town
@@ -359,7 +363,10 @@ SetPal_Overworld:
 	jr .town
 .malachite
 	ld a, PAL_MALACHITE - 1
-	jr .town
+	jp .town
+.abyss
+	ld a, PAL_BLACK - 1
+	jp .town
 
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame
