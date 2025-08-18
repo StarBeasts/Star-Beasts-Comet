@@ -5,7 +5,7 @@ Route9_Object:
 	warp_event 18, 51, VILLA_1F, 7
 	warp_event  19, 51, VILLA_1F, 7
 	warp_event 16, 13, ROCK_TUNNEL_1F, 1
-	warp_event 20, 21, ROCK_TUNNEL_1F, 3
+	warp_event 20, 21, ROCK_TUNNEL_1F, 4
 
 	def_bg_events
 	bg_event 15, 15, 11 ; Route9Text11

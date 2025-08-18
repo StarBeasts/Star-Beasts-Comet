@@ -22,6 +22,7 @@ RockTunnelB1F_TextPointers:
 	dw RockTunnel2Text7
 	dw RockTunnel2Text8
 	dw MoltresText
+	dw RockTunnel2Text10
 
 RockTunnel2TrainerHeaders:
 	def_trainers
@@ -98,6 +99,10 @@ MoltresText:
 	ld hl, MoltresTrainerHeader
 	call TalkToTrainer
 	jp TextScriptEnd
+
+RockTunnel2Text10:
+	text_far _RockTunnel2Text10
+	text_end
 
 MoltresBattleText:
 	text_far _MoltresBattleText

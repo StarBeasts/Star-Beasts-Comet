@@ -1,15 +1,17 @@
 RockTunnel1F_Object:
-	db $3 ; border block
+	db $76 ; border block
 
 	def_warp_events
 	warp_event  9, 31, LAST_MAP, 3
-	warp_event 32,  8, ROUTE_9, 3
-	warp_event 49, 17, ROCK_TUNNEL_B1F, 3
+	warp_event 33,  9, ROCK_TUNNEL_B1F, 1
+	warp_event 49, 17, ROCK_TUNNEL_B1F, 8
 	warp_event 51, 33, LAST_MAP, 4
-	warp_event 14,  4, ROCK_TUNNEL_B1F, 1
-	warp_event  7,  6, ROCK_TUNNEL_B1F, 2
-	warp_event  5, 22, ROCK_TUNNEL_B1F, 3
-	warp_event 27,  5, ROCK_TUNNEL_B1F, 4
+	warp_event 15,  5, ROCK_TUNNEL_B1F, 3
+	warp_event  9,  7, ROCK_TUNNEL_B1F, 4
+	warp_event 49,  3, ROCK_TUNNEL_B1F, 6
+	warp_event 59,  5, ROCK_TUNNEL_B1F, 7
+	warp_event  5, 23, ROCK_TUNNEL_B1F, 5
+	warp_event 27,  5, ROCK_TUNNEL_B1F, 2
 
 	def_bg_events
 	bg_event 11, 29, 8 ; RockTunnel1Text8

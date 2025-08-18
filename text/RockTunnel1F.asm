@@ -114,6 +114,6 @@ _RockTunnel1AfterBattleText7::
 
 _RockTunnel1Text8::
 	text "IF YOU CAN READ"
-	line "THIS, YOU'RE"
+	line "THIS SIGN, YOU'RE"
 	cont "STILL ALIVE"
 	done

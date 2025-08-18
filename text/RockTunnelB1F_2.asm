@@ -44,3 +44,10 @@ _MoltresBattleText::
 
 	para "BEWARE, MORTAL.@"
 	text_end
+
+_RockTunnel2Text10::
+	text "IF YOU CAN'T READ"
+	line "THIS SIGN, YOU'RE"
+	cont "EITHER DEAD OR"
+	cont "ILLITERATE"
+	done
