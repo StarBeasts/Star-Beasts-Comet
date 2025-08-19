@@ -271,7 +271,6 @@ INCLUDE "text/Route1.asm"
 INCLUDE "text/Route2.asm"
 INCLUDE "text/Route3.asm"
 INCLUDE "text/Route4.asm"
-INCLUDE "text/Route5.asm"
 INCLUDE "text/Route6.asm"
 INCLUDE "text/Route6Gate.asm"
 INCLUDE "text/Route7.asm"
@@ -299,6 +298,7 @@ INCLUDE "text/VictoryRoad3F.asm"
 INCLUDE "text/SSAnneB1FRooms.asm"
 INCLUDE "text/CeladonMansion2F.asm"
 INCLUDE "text/RocketHideoutB4F.asm"
+INCLUDE "text/Route5.asm"
 
 SECTION "Text 14", ROMX
 

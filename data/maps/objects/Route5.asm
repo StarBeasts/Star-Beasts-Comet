@@ -10,10 +10,11 @@ Route5_Object:
 	warp_event 26, 31, ROUTE_2_GATE, 7
 
 	def_bg_events
-	bg_event 23, 15, 3 ; Route5Text3
-	bg_event 15, 51, 4 ; Route5Text3
+	bg_event 23, 15, 4 ; Route5Text4
+	bg_event 15, 51, 5 ; Route5Text5
 
 	def_object_events
 	object_event 17, 50, SPRITE_SCIENTIST, STAY, DOWN, 1 ; person
 	object_event 25, 14, SPRITE_SCIENTIST, STAY, DOWN, 2 ; person
+	object_event 42, 50, SPRITE_SCIENTIST, STAY, UP, 3 ; person
 	def_warps_to ROUTE_5
