@@ -34,9 +34,9 @@ _RockTunnel1AfterBattleText2::
 	done
 
 _RockTunnel1BattleText3::
-	text "Why's a little"
-	line "twig like you"
-	cont "out here, eh?"
+	text "Now, ain't you"
+	line "a long ways from"
+	cont "home! Aheheh!"
 	done
 
 _RockTunnel1EndBattleText3::
@@ -44,15 +44,20 @@ _RockTunnel1EndBattleText3::
 	prompt
 
 _RockTunnel1AfterBattleText3::
-	text "I take it back!"
+	text "It's dark in here."
 
-	para "You're talented"
-	line "enough to hike!"
+	para "Darker than..."
+
+	para "Somethin' that's"
+	line "really dark!"
 	done
 
 _RockTunnel1BattleText4::
-	text "# BEAST fight!"
-	line "Ready, go!"
+	text "I heard the"
+	line "legends!"
+
+	para "SIVAK is as good"
+	line "as mine!"
 	done
 
 _RockTunnel1EndBattleText4::
@@ -61,25 +66,43 @@ _RockTunnel1EndBattleText4::
 	prompt
 
 _RockTunnel1AfterBattleText4::
-	text "Oh well, I'll get"
-	line "an EPILEPSIA as I"
-	cont "go!"
+	text "What do I want"
+	line "an ancient DRAGON"
+	cont "for?"
+
+	para "I'm a thief!"
+
+	para "We're basically"
+	line "kindred spirits,"
+	cont "what with the"
+	cont "'hoarding wealth'"
+	cont "thing and all!"
 	done
 
 _RockTunnel1BattleText5::
-	text "Eek! Don't try"
-	line "anything funny in"
-	cont "the dark!"
+	text "Beat it, kid!"
+	line "That treasure's"
+	cont "as good as mine!"
 	done
 
 _RockTunnel1EndBattleText5::
-	text "It"
-	line "was too dark!"
+	text "What?"
+	line "Whaddaya mean,"
+	cont "it's not an"
+	cont "actual treasure!?"
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a CROMAG"
-	line "in this tunnel!"
+	text "A DRAGON?"
+
+	para "The 'treasure' is"
+	line "A DRAGON???"
+
+	para "The Hell am I"
+	line "supposed to do"
+	cont "with a DRAGON?"
+
+	para "What a bust!"
 	done
 
 _RockTunnel1BattleText6::
@@ -98,18 +121,20 @@ _RockTunnel1AfterBattleText6::
 	done
 
 _RockTunnel1BattleText7::
-	text "You have #BIEs!"
-	line "Let's start!"
+	text "I'm the great"
+	line "equine equalizer!"
 	done
 
 _RockTunnel1EndBattleText7::
-	text "You"
-	line "play hard!"
+	text "I say"
+	line "'neigh' to that!"
 	prompt
 
 _RockTunnel1AfterBattleText7::
-	text "Whew! I'm all"
-	line "sweaty now!"
+	text "Whew! Put my"
+	line "horses through"
+	cont "their paces,"
+	cont "didn't ya?"
 	done
 
 _RockTunnel1Text8::

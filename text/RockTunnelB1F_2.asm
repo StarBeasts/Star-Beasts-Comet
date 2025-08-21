@@ -5,18 +5,33 @@ _RockTunnel2AfterBattleText8::
 	done
 
 _RockTunnel2BattleText9::
-	text "I draw BEASTS"
-	line "when I'm home."
+	text "They say SIVAK"
+	line "is immortal,"
+	cont "you know."
+
+	para "Oh, what a fine"
+	line "specimen he'd"
+	cont "make! Think of"
+	cont "what I could"
+	cont "discover from"
+	cont "dissecting him!"
 	done
 
 _RockTunnel2EndBattleText9::
-	text "Whew!"
-	line "I'm exhausted!"
+	text "A-aah!"
+	line "Good gracious!"
+
+	para "You little"
+	line "barbarian!"
 	prompt
 
 _RockTunnel2AfterBattleText9::
-	text "I'm an artist,"
-	line "not a fighter."
+	text "Alas, my skill as"
+	line "a SCIENTIST far"
+	cont "eclipses my skill"
+	cont "in both battle"
+	cont "and raising #"
+	cont "BEASTS..."
 	done
 
 _MoltresBattleText::
