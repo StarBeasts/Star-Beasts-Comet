@@ -839,9 +839,9 @@ MagmarEvosMoves:
 	db 0
 ; Learnset
 	db 36, GLARE
-	db 43, ICE_PUNCH
-	db 43, FIRE_PUNCH
-	db 48, FIRE_BLAST
+	db 41, ICE_PUNCH
+	db 41, FIRE_PUNCH
+	db 47, FIRE_BLAST
 	db 52, BLIZZARD
 	db 55, EXPLOSION
 	db 0

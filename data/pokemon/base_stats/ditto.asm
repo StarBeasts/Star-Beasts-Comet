@@ -1,6 +1,6 @@
 	db DEX_DITTO ; pokedex id
 
-	db  96,  8,  96,  144,  96
+	db  96,  48,  96,  144,  96
 	;   hp  atk  def  spd  spc
 
 	db GRASS, FIGHTING ; type
