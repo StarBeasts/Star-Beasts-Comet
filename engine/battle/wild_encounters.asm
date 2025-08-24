@@ -48,7 +48,7 @@ TryDoWildEncounter:
 	cp HILL
 	jr z, .CanEncounter
 
-	ld a, [wCurMapTileset]
+	ld a, [wCurMap]
 	cp FIRST_INDOOR_MAP ; is this an indoor map?
 	jr c, .CantEncounter2
 	ld a, [wCurMapTileset]
