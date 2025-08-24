@@ -310,6 +310,10 @@ IvysaurEvosMoves:
 	db 42, COUNTER
 	db 46, SLEEP_POWDER
 	db 54, SOLARBEAM
+	db 101, EARTHQUAKE
+	db 101, GAEAS_WRATH
+	db 101, SOUL_SHRED
+	db 101, SPIRIT_BOMB ; ultimatum?
 	db 0
 
 ExeggutorEvosMoves:
@@ -566,6 +570,8 @@ TangelaEvosMoves:
 	db EV_LEVEL, 38, KANGASKHAN
 	db 0
 ; Learnset
+	db 14, THUNDERSHOCK
+	db 20, TAKE_DOWN
 	db 28, THUNDER_WAVE
 	db 30, SELFDESTRUCT
 	db 36, THUNDERBOLT
@@ -833,9 +839,9 @@ MagmarEvosMoves:
 	db 0
 ; Learnset
 	db 36, GLARE
-	db 43, ICE_PUNCH
-	db 43, FIRE_PUNCH
-	db 48, FIRE_BLAST
+	db 41, ICE_PUNCH
+	db 41, FIRE_PUNCH
+	db 47, FIRE_BLAST
 	db 52, BLIZZARD
 	db 55, EXPLOSION
 	db 0
@@ -917,10 +923,10 @@ DiglettEvosMoves:
 	db EV_LEVEL, 26, DUGTRIO
 	db 0
 ; Learnset
-	db 15, GROWL
+	db 15, SCREECH
 	db 19, SAND_ATTACK
 	db 24, REFLECT
-	db 31, TIME_STOP
+	db 28, TIME_STOP
 	db 40, EARTHQUAKE
 	db 0
 
@@ -957,7 +963,7 @@ FarfetchdEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, DIG
+	db 19, DIG
 	db 24, DRILL_PECK
 	db 32, DRILL_RUN
 	db 38, SPIKE_CANNON
@@ -1027,7 +1033,8 @@ PoliwagEvosMoves:
 	db EV_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 16, TAKE_DOWN
+	db 10, THUNDER_WAVE
+	db 15, TAKE_DOWN
 	db 19, THUNDERSHOCK
 	db 25, GROWTH
 	db 31, BODY_SLAM
@@ -1399,6 +1406,7 @@ VaporeonEvosMoves:
 	db 44, PLAY_ROUGH
 	db 48, MIST
 	db 54, HYDRO_PUMP
+	db 101, BLIZZARD
 	db 0
 
 MachopEvosMoves:
@@ -2128,6 +2136,7 @@ AerodactylEvosMoves:
 	db 45, PLAY_ROUGH
 	db 54, HYPER_BEAM
 	db 60, GAEAS_WRATH
+	db 101, JUMP_KICK
 	db 0
 
 MissingNoACEvosMoves:
@@ -2141,6 +2150,7 @@ MagnemiteEvosMoves:
 	db EV_ITEM, THUNDER_STONE, 1, MAGNETON
 	db 0
 ; Learnset
+	db 16, SLAM
 	db 21, THUNDER_WAVE
 	db 25, TAKE_DOWN
 	db 29, HYPNOSIS

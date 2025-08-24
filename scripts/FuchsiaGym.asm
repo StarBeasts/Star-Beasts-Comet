@@ -67,6 +67,9 @@ FuchsiaGymReceiveTM06:
 	ld hl, wBeatGymFlags
 	set BIT_SOULBADGE, [hl]
 
+	ld a, HS_GAME_CORNER_ROCKET
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, HS_HAZMAT_GUY_1
 	ld [wMissableObjectIndex], a
 	predef HideObject

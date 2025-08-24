@@ -12,10 +12,11 @@ Route12Gate2F_Object:
 	warp_event  7, 21, ROUTE_19, 2
 
 	def_bg_events
-	bg_event  1, 10, 2 ; Route12GateUpstairsText2
-	bg_event  6, 10, 3 ; Route12GateUpstairsText3
 
 	def_object_events
-	object_event  3, 12, SPRITE_BRUNETTE_GIRL, WALK, UP_DOWN, 1 ; person
+	object_event  3,  1, SPRITE_SOLDIER, STAY,  DOWN, 1 ; person
+	object_event  3,  7, SPRITE_OFFICER, STAY, UP, 2 ; person
+	object_event  3, 18, SPRITE_SAILOR, STAY, DOWN, 3 ; person
+	object_event  4, 23, SPRITE_GAMBLER, STAY, UP, 4 ; person
 
 	def_warps_to ROUTE_12_GATE_2F

@@ -2,7 +2,7 @@ _SecretPath1Text1::
 	text "TEARWULF: Bowooww!@"
 	text_end
 
-_SecretPath1Text2::
+_SecretPath_Question::
 	text "BUM: My WULF says"
 	line "you can't be"
 	cont "trusted."
@@ -12,12 +12,10 @@ _SecretPath1Text2::
 	cont "person."
 
 	para "Are you?"
+	prompt
 
-	para "..."
-
-	para "...Yes?"
-
-	para "I see."
+_SecretPath_Yes::
+	text "I see."
 
 	para "My WULF was right,"
 	line "after all!"
@@ -28,5 +26,26 @@ _SecretPath1Text2::
 	line "you're a bad"
 	cont "person and you're"
 	cont "honest about it."
+	done
+
+_SecretPath_No::
+	text "I see."
+
+	para "Well, my WULF is"
+	line "never wrong, but"
+	cont "I guess there's"
+	cont "a first time"
+	cont "for everything."
+
+	para "Me, on the other"
+	line "hand, I AM a bad"
+	cont "person."
+
+	para "Yep."
+
+	para "Killing people and"
+	line "taking over the"
+	cont "world, that's what"
+	cont "I'm all about."
 	done
 

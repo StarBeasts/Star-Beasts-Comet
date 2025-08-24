@@ -10,7 +10,8 @@ FuchsiaBillsGrandpasHouse_TextPointers:
 	dw FuchsiaHouse1Text5
 	dw FuchsiaHouse1Text6
 	dw FuchsiaHouse1Text7
-
+	dw FuchsiaHouse1Text8
+	dw FuchsiaHouse1Text9
 
 FuchsiaHouse1Text1:
 	text_far _FuchsiaHouse1Text1
@@ -61,4 +62,12 @@ FuchsiaHouse1Text6:
 
 FuchsiaHouse1Text7:
 	text_far _FuchsiaHouse1Text7
+	text_end
+
+FuchsiaHouse1Text8:
+	text_far _FuchsiaHouse1Text8
+	text_end
+
+FuchsiaHouse1Text9:
+	text_far _FuchsiaHouse1Text9
 	text_end

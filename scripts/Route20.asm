@@ -31,17 +31,11 @@ Route20Script_50cc6:
 	db HS_SEAFOAM_ISLANDS_B1F_BOULDER_2
 	db HS_SEAFOAM_ISLANDS_B2F_BOULDER_1
 	db HS_SEAFOAM_ISLANDS_B2F_BOULDER_2
-	db HS_SEAFOAM_ISLANDS_B3F_BOULDER_3
-	db HS_SEAFOAM_ISLANDS_B3F_BOULDER_4
 	db -1 ; end
 
 .asm_50cef
 	CheckBothEventsSet EVENT_SEAFOAM4_BOULDER1_DOWN_HOLE, EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE
 	ret z
-	ld a, HS_SEAFOAM_ISLANDS_B3F_BOULDER_1
-	call Route20Script_50d0c
-	ld a, HS_SEAFOAM_ISLANDS_B3F_BOULDER_2
-	call Route20Script_50d0c
 	ld a, HS_SEAFOAM_ISLANDS_B4F_BOULDER_1
 	call Route20Script_50d14
 	ld a, HS_SEAFOAM_ISLANDS_B4F_BOULDER_2
@@ -285,9 +279,12 @@ Route20Text11:
 	text_far _Route20Text11
 	text_end
 
-Route20Text13:
 Route20Text12:
 	text_far _Route20Text12
+	text_end
+
+Route20Text13:
+	text_far _Route20Text13
 	text_end
 
 Route20Text14:

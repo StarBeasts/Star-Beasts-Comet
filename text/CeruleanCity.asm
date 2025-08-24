@@ -214,7 +214,7 @@ _CeruleanCityText_1977e::
 	cont "attention..."
 	done
 
-_CeruleanCityText9::
+_CeruleanCityReviveText::
 	text "Oh, to feel the"
 	line "wind rushing"
 	cont "past you..."
@@ -224,17 +224,43 @@ _CeruleanCityText9::
 	cont "afford one..."
 	done
 
-_CeruleanCityText10::
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong BEASTS"
-	cont "live in there!"
+_CeruleanCityNuggetText::
+	text "Oh? You got a"
+	line "BICYCLE?"
 
-	para "The #BST LEAGUE"
-	line "champion is the"
-	cont "only person who"
-	cont "is allowed in!"
+	para "Congratulations!"
+
+	para "What...?"
+
+	para "You'd let me..."
+	line "Ride with you?"
+
+	para "Thanks, but I'm"
+	line "not interested."
+
+	para "It just wouldn't"
+	line "be the same..."
 	done
+
+_CeruleanCityText10::
+	text "!"
+	done
+
+_CeruleanCityText11::
+	text "What a suspicious"
+	line "ground patch..."
+
+	para "And hideous, too!"
+
+	para "This SHOULD be"
+	line "illegal, but"
+	cont "bad taste isn't"
+	cont "a crime..."
+
+	para "It really needs"
+	line "to be one, though."
+	done
+
 
 _CeruleanCityText12::
 	text "SAPPHIRE SANDS"

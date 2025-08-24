@@ -124,6 +124,8 @@ InternalMapEntries:
 	internal_map CELADON_HOTEL,                  3,  5, CeladonCityName
 	internal_map LAVENDER_POKECENTER,           2,  7, LavenderTownName
 	internal_map POKEMON_TOWER_7F,              2,  8, PokemonTowerName
+	internal_map MR_FUJIS_HOUSE,           2,  7, LavenderTownName
+	internal_map LAVENDER_MART,           12,  11, RegentName
 	internal_map LAVENDER_CUBONE_HOUSE,         2,  7, LavenderTownName 
 	internal_map FUCHSIA_MART,    				3,  5, CeladonCityName
 	internal_map FUCHSIA_BILLS_GRANDPAS_HOUSE,   14,  8, SeafoamIslandsName
@@ -138,6 +140,7 @@ InternalMapEntries:
 	internal_map FUCHSIA_GOOD_ROD_HOUSE,         7,  6, CeruleanCityName
 	internal_map POKEMON_MANSION_1F,             7, 12, MacrobiaName
 	internal_map CINNABAR_LAB,             14, 12, CinnabarIslandName
+	internal_map CINNABAR_LAB_METRONOME_ROOM,    12, 10, CeruleanCaveName
 	internal_map CINNABAR_LAB_FOSSIL_ROOM,      12, 2, Route4Name
 	internal_map CINNABAR_MART,             14, 12, CinnabarIslandName
 	internal_map GAS_STATION,             12, 2, Route4Name
@@ -168,7 +171,7 @@ InternalMapEntries:
 	internal_map SILPH_CO_8F,                   10,  5, SilphCoName
 	internal_map POKEMON_MANSION_B1F,            7, 12, MacrobiaName
 	internal_map SAFARI_ZONE_NORTH_REST_HOUSE,   8, 10, SafariZoneName
-	internal_map CERULEAN_CAVE_1F,               9,  1, CeruleanCaveName
+	internal_map CERULEAN_CAVE_1F,               12, 10, CeruleanCaveName
 	internal_map NAME_RATERS_HOUSE,             2,  7, LavenderTownName
 	internal_map CERULEAN_BADGE_HOUSE,          7,  6, CeruleanCityName
 	internal_map GOLDEN_GATE,                   12, 2, Route4Name

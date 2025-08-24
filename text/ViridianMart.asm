@@ -30,6 +30,20 @@ _ViridianMartText2::
 	done
 
 _ViridianMartText3::
-	text "Crap! POTIONs are"
-	line "all sold out."
+	text "I swear, inflation"
+	line "has wrecked our"
+	cont "economy!"
+
+	para "The RELAS DOLLAR"
+	line "is practically"
+	cont "worthless, now!"
+
+	para "I remember when"
+	line "POTIONs used to"
+	cont "cost ¥50!"
+
+	para "Heck, I remember"
+	line "when they still"
+	cont "sold POTIONs at"
+	cont "this store!"
 	done

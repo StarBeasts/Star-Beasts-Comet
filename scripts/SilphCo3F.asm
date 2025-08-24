@@ -60,6 +60,7 @@ SilphCo3F_TextPointers:
 	dw SilphCo3Text2
 	dw SilphCo3Text3
 	dw PickUpItemText
+	dw SilphCo3Text5
 
 SilphCo3TrainerHeaders:
 	def_trainers 2
@@ -121,4 +122,8 @@ SilphCo3EndBattleText2:
 
 SilphCo3AfterBattleText2:
 	text_far _SilphCo3AfterBattleText2
+	text_end
+
+SilphCo3Text5:
+	text_far _SilphCo3Text5
 	text_end

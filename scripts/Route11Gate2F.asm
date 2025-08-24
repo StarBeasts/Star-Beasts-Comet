@@ -5,6 +5,7 @@ Route11Gate2F_TextPointers:
 	dw Route11GateUpstairsText1
 	dw Route11GateUpstairsText2
 	dw Route11GateUpstairsText3
+	dw Route11GateUpstairsText4
 
 Route11GateUpstairsText1:
 	text_far _Route11GateUpstairsText1
@@ -16,4 +17,8 @@ Route11GateUpstairsText2:
 
 Route11GateUpstairsText3:
 	text_far _Route11GateUpstairsText3
+	text_end
+
+Route11GateUpstairsText4:
+	text_far _Route11GateUpstairsText4
 	text_end

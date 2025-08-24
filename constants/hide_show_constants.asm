@@ -17,7 +17,6 @@ DEF SHOW EQU $15
 	const HS_CERULEAN_RIVAL                ; 05
 	const HS_CERULEAN_ROCKET               ; 06
 	const HS_CERULEAN_GUARD_1              ; 07
-	const HS_CERULEAN_CAVE_GUY             ; 08
 	const HS_CERULEAN_GUARD_2              ; 09
 	const HS_GARNET_GARDEN_GUARD_1
 	const HS_GARNET_GARDEN_GUARD_2
@@ -48,6 +47,7 @@ DEF SHOW EQU $15
 	const HS_ROUTE_12_ITEM_2               ; 1F X
 	const HS_ROUTE_15_LORELEI              ; 20 
 	const HS_ROUTE_15_ITEM                 ; 20 X
+	const HS_ROUTE_15_GUARD             ; 20 
 	const HS_ROUTE_16_SNORLAX              ; 21
 	const HS_ROUTE_22_RIVAL_1              ; 22
 	const HS_ROUTE_22_RIVAL_2              ; 23
@@ -208,6 +208,7 @@ DEF SHOW EQU $15
 	const HS_POKEMON_MANSION_B1F_ITEM_3    ; C0 X
 	const HS_POKEMON_MANSION_B1F_ITEM_4    ; C1 X
 	const HS_POKEMON_MANSION_B1F_ITEM_5    ; C2 X
+	const HS_VELID
 	const HS_SAFARI_ZONE_EAST_ITEM_1       ; C3 X
 	const HS_SAFARI_ZONE_EAST_ITEM_2       ; C4 X
 	const HS_SAFARI_ZONE_EAST_ITEM_3       ; C5 X
@@ -234,10 +235,6 @@ DEF SHOW EQU $15
 	const HS_SEAFOAM_ISLANDS_B1F_BOULDER_2 ; DA
 	const HS_SEAFOAM_ISLANDS_B2F_BOULDER_1 ; DB
 	const HS_SEAFOAM_ISLANDS_B2F_BOULDER_2 ; DC
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_1 ; DD
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_2 ; DE
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_3 ; DF
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_4 ; E0
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; E1
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; E2
 	const HS_ARTICUNO                      ; E3 X
@@ -260,9 +257,12 @@ DEF SHOW EQU $15
 	const HS_VARIK_2
 	const HS_INDIGO_PLATEAU_ITEM_1        ; 78 X
 	const HS_INDIGO_PLATEAU_ITEM_2        ; 79 X
-	const HS_VICTORY_ROAD_3F_BOULDER       ; 7A
 	const HS_MOLTRES                       ; 5B X
 	const HS_VICTORY_ROAD_NEPTO_JEWEL       ; 7A
 	const HS_FARFROMTILE_1
 	const HS_FARFROMTILE_2
+	const HS_TEA_SHOP_GRANNY
+	const HS_TEA_SHOP_LADY_1
+	const HS_TEA_SHOP_LADY_2
+	const HS_CELAGONE_TREE
 DEF NUM_HS_OBJECTS EQU const_value

@@ -1,6 +1,6 @@
 	db DEX_SEADRA ; pokedex id
 
-	db  75, 115,  65,  120, 75
+	db  75, 115,  65,  130, 75
 	;   hp  atk  def  spd  spc
 
 	db ICE, ICE ; type

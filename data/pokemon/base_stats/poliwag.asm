@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/poliwag.pic", 0, 1 ; sprite dimensions
 	dw PoliwagPicFront, PoliwagPicBack
 
-	db THUNDER_WAVE, ABSORB, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, ABSORB, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

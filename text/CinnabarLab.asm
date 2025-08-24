@@ -252,8 +252,8 @@ _Lab1Text22::
 	line "are unknown."
 
 	para "We plan to explore"
-	line "the cavern in"
-	cont "SAPPHIRE SANDS."
+	line "MT. VALOR on"
+	cont "ROUTE 11."
 
 	para "From: # BEAST"
 	line "RESEARCH TEAM"

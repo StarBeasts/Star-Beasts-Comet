@@ -9,7 +9,7 @@ Route14_Object:
 
 	def_object_events
 	object_event  4, 13, SPRITE_OFFICER, STAY, DOWN, 1, OPP_BIRD_KEEPER, 14
-	object_event  9, 21, SPRITE_OFFICER, STAY, DOWN, 2, OPP_BIRD_KEEPER, 15
+	object_event  9, 21, SPRITE_OFFICER, STAY, DOWN, 2, OPP_BIRD_KEEPER, 7
 	object_event  4, 32, SPRITE_OFFICER, STAY, DOWN, 3, OPP_BIRD_KEEPER, 16
 	object_event  9, 41, SPRITE_OFFICER, STAY, UP, 4, OPP_BIRD_KEEPER, 17
 	object_event  9, 10, SPRITE_OFFICER, STAY, LEFT, 5, OPP_BIRD_KEEPER, 4

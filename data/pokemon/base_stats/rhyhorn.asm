@@ -1,6 +1,6 @@
 	db DEX_RHYHORN ; pokedex id
 
-	db  50,  50,  120, 30, 120
+	db  75,  45,  105, 30, 120
 	;   hp  atk  def  spd  spc
 
 	db FIRE, STEEL ; type

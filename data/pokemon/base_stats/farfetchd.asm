@@ -1,6 +1,6 @@
 	db DEX_FARFETCHD ; pokedex id
 
-	db  85, 110,  90,  97, 65
+	db  85, 110,  70,  95, 65
 	;   hp  atk  def  spd  spc
 
 	db GROUND, STEEL ; type

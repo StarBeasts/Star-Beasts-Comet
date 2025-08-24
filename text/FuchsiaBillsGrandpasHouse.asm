@@ -80,3 +80,34 @@ _FuchsiaHouse1Text7::
 	cont "again! I'm being"
 	cont "weird, aren't I?"
 	done
+
+_FuchsiaHouse1Text8::
+	text "TRA LA LA..."
+
+	para "SUCH A LOVELY"
+	line "BRIDGE YOU HAVE"
+	cont "MADE, SUCH A"
+	cont "LOVELY SIGHT."
+
+	para "YOU ARE CAPABLE OF"
+	line "TERRIBLE THINGS."
+
+	para "TERRIBLE BUT"
+	line "GREAT THINGS, YES."
+	done
+
+_FuchsiaHouse1Text9::
+	text "Look at that"
+	line "rushing water..."
+
+	para "You ever just"
+	line "have a bad day"
+	cont "and need, like,"
+	cont "a sanctuary, or"
+	cont "a place to relax?"
+
+	para "That's what this"
+	line "is, I reckon."
+
+	para "My sanctuary."
+	done

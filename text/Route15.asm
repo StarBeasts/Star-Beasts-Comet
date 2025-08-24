@@ -12,7 +12,7 @@ _Route15EndBattleText1::
 _Route15AfterBattleText1::
 	text "I want to talk"
 	line "to the girl by"
-	cont "the gate, but"
+	cont "the ledge, but"
 	cont "she's really"
 	cont "scary..."
 
@@ -32,9 +32,16 @@ _Route15EndBattleText2::
 	prompt
 
 _Route15AfterBattleText2::
-	text "That lady by the"
-	line "gate makes me"
-	cont "nervous..."
+	text "I think those"
+	line "BIKERs have some"
+	cont "kind of secret"
+	cont "trick that lets"
+	cont "them jump over"
+	cont "those ledges."
+
+	para "I'm kinda jealous,"
+	line "if that rumor is"
+	cont "actually true..."
 	done
 
 _Route15BattleText3::
@@ -57,20 +64,28 @@ _Route15AfterBattleText3::
 	done
 
 _Route15BattleText4::
-	text "Stop right there,"
-	line "criminal scum!"
+	text "It's a beautiful"
+	line "day outside."
+	
+	para "Birds are singing,"
+	line "flowers are"
+	cont "blooming..."
+
+	para "Days like these,"
+	line "kids like you..."
+
+	para "..."
+	
+	para "Shouldn't be here."
 	done
 
 _Route15EndBattleText4::
-	text "Kidding!"
-	line "I'm kidding!"
+	text "Well."
 	prompt
 
 _Route15AfterBattleText4::
-	text "Wish I was in"
-	line "the SAFARI ZONE"
-	cont "instead of being"
-	cont "stuck out here..."
+	text "I'm bored out of"
+	line "my mind."
 	done
 
 _Route15BattleText5::
@@ -90,9 +105,9 @@ _Route15AfterBattleText5::
 	done
 
 _Route15BattleText6::
-	text "I raise BEASTS"
-	line "because I live"
-	cont "alone!"
+	text "You ever wonder"
+	line "what's inside"
+	cont "MT. VALOR?"
 	done
 
 _Route15EndBattleText6::
@@ -101,9 +116,17 @@ _Route15EndBattleText6::
 	prompt
 
 _Route15AfterBattleText6::
-	text "I just like going"
-	line "home to be with"
-	cont "my # BEASTS!"
+	text "I'm not some"
+	line "diehard trainer,"
+	cont "but I am too"
+	cont "nosy for my"
+	cont "own good!"
+
+	para "I'd love to take"
+	line "a peek inside"
+	cont "MT. VALOR for"
+	cont "just a minute"
+	cont "or two..."
 	done
 
 _Route15BattleText7::
@@ -116,10 +139,20 @@ _Route15EndBattleText7::
 	prompt
 
 _Route15AfterBattleText7::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "Man, where the"
+	line "hell are the rest"
+	cont "of the boys?"
+
+	para "I barely seen"
+	line "any of 'em since"
+	cont "SHAYTON broke"
+	cont "into that GYM!"
+
+	para "I'm all for the"
+	line "rebel without a"
+	cont "cause life, but"
+	cont "I'm a pack hunter,"
+	cont "not a lone wolf!"
 	done
 
 _Route15BattleText8::
@@ -150,14 +183,17 @@ _Route15EndBattleText9::
 	prompt
 
 _Route15AfterBattleText9::
-	text "I'm hiding from"
-	line "the BIKERs here!"
+	text "Sorry! You just"
+	line "have that real"
+	cont "mean, dangerous"
+	cont "vibe that those"
+	cont "BIKERs do!"
 	done
 
 _Route15BattleText10::
 	text "Freeze! This is"
 	line "LORELEI, with the"
-	cont "KANTO POLICE"
+	cont "RELAS POLICE"
 	cont "FORCE! You are"
 	cont "under arrest!"
 	done
@@ -177,13 +213,29 @@ _Route15AfterBattleText10::
 	cont "to SABRINA,"
 	cont "everyone's a"
 	cont "litte on edge."
-	cont "The heat out"
+	cont "The humidity out"
 	cont "here isn't"
 	cont "helping...@"
 	text_end
 
 _Route15Text12::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "Through this gate"
+	line "lies MT. VALOR!"
+	
+	para "Horribly"
+	line "strong BEASTS"
+	cont "dwell there!"
+
+	para "The #BST LEAGUE"
+	line "champion is the"
+	cont "only person I"
+	cont "can allow in!"
+	done
+
+_Route15Text13::
+	text "NOTICE"
+
+	para "WHEN WE SAID"
+	line "INACCESSIBLE,"
+	cont "WE MEANT IT"
 	done

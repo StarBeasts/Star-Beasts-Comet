@@ -29,8 +29,7 @@ _Mansion1Text5::
 	cont "not much is"
 	cont "legible..."
 
-	para "You try,"
-	line "anyway..."
+	para "You try, anyway..."
 
 	para "...catastrophic"
 	line "failure..."

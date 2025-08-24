@@ -25,6 +25,7 @@ Route25_TextPointers:
 	dw PickUpItemText
 	dw Route25Text11
 	dw Route25Text12
+	dw Route25Text13
 
 Route25TrainerHeaders:
 	def_trainers
@@ -211,10 +212,21 @@ Route25AfterBattleText9:
 	text_end
 
 Route25Text11:
-	text_far _Route25Text11
-	text_end
+	text_asm
+	ld a, TRADE_FOR_BENEDICT
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
 
 Route25Text12:
 	text_far _Route25Text12
+	text_asm
+	ld a, MUSIC_HOME_DEPOT
+	call PlayMusic
+	jp TextScriptEnd
+	text_end
+
+Route25Text13:
+	text_far _Route25Text13
 	text_end
 

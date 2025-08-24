@@ -11,10 +11,6 @@ Route23Script_511e9:
 	res 6, [hl]
 	ret z
 	ResetEvents EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH1, EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH2
-	ResetEvents EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH1, EVENT_VICTORY_ROAD_3_BOULDER_ON_SWITCH2
-	ld a, HS_VICTORY_ROAD_3F_BOULDER
-	ld [wMissableObjectIndex], a
-	predef ShowObject
 	ld a, HS_VICTORY_ROAD_2F_BOULDER
 	ld [wMissableObjectIndex], a
 	predef_jump HideObject

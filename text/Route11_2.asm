@@ -1,43 +1,55 @@
 _Route11EndBattleText9::
-	text "Whoa!"
-	line "You spark plug!"
+	text "Sniff..."
+	line "Doo hoo hoo..."
 	prompt
 
 _Route11AfterBattleText9::
-	text "Well, better get"
-	line "back to work."
+	text "I'm more of a"
+	line "magic act kind"
+	cont "of guy, anyway."
 	done
 
 _Route11BattleText10::
-	text "My BEASTS should"
-	line "be ready by now!"
+	text "See if you can"
+	line "handle the power"
+	cont "of dogs and cats,"
+	cont "working together!"
 	done
 
 _Route11EndBattleText10::
-	text "Too"
-	line "much, too young!"
+	text "Aw, no."
 	prompt
 
 _Route11AfterBattleText10::
-	text "I better go find"
-	line "stronger ones!"
+	text "I'm not going"
+	line "to break down"
+	cont "into hysteria"
+	cont "because I lost."
 	done
 
 _Route11Text11::
-	text "Whoo-eee!"
+	text "I'm a RANGER!"
 
-	para "Did you feel"
-	line "that awesome"
-	cont "shockwave a"
-	cont "while ago!?"
+	para "It's our duty to"
+	line "serve the people!"
 
-	para "I bet some"
-	line "stuff in the"
-	cont "cave got shifted"
-	cont "around, it did!"
+	para "We're the best"
+	line "of the best in"
+	cont "all of RELAS!"
 
-	para "Watch your step"
-	line "in there, kid!"
+	para "Well, aside from"
+	line "the ELITE FOUR,"
+	cont "that is."
+
+	para "We're always on"
+	line "the lookout for"
+	cont "powerful #"
+	cont "BEASTS to tame!"
+
+	para "They can really"
+	line "hurt people if"
+	cont "left unchecked,"
+	cont "y'know?"
 	done
 
 _Route11Text12::

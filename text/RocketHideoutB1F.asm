@@ -104,3 +104,15 @@ _RocketHideout1AfterBattleTxt6::
 	cont "focus and made me"
 	cont "drop the BARRIER!"
 	done
+
+_RocketHideout1Text6::
+	text "MISERITE MEADOW"
+
+	para "#BIES of myth"
+	line "and mystery all"
+	cont "gather, in the"
+	cont "woods below"
+
+	para "Stay aware, know"
+	line "where it is you go"
+	done

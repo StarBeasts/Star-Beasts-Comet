@@ -44,11 +44,11 @@ DEF FIRST_ROUTE_MAP EQU const_value
 	map_const ROUTE_12,                      38, 12 ; $17
 	map_const ROUTE_13,                      30, 30 ; $18
 	map_const ROUTE_14,                      7,  46 ; $19
-	map_const ROUTE_15,                      30,  10 ; $1A
+	map_const ROUTE_15,                      30,  11 ; $1A
 	map_const ROUTE_16,                      35,  20 ; $1B
 	map_const ROUTE_17,                      17,  50 ; $1C
 	map_const ROUTE_18,                      17,  24 ; $1D
-	map_const ROUTE_19,                      28, 12 ; $1E
+	map_const ROUTE_19,                      32, 20 ; $1E
 	map_const ROUTE_20,                      9,  50 ; $1F
 	map_const ROUTE_21,                      10, 45 ; $20
 	map_const ROUTE_22,                      20,  10 ; $21
@@ -101,7 +101,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROUTE_8_GATE,                   10,  20 ; $4F
 	map_const UNDERGROUND_PATH_ROUTE_8,       30,  22 ; $50
 	map_const ROCK_TUNNEL_POKECENTER,         15,  4 ; $51
-	map_const ROCK_TUNNEL_1F,                42, 18 ; $52
+	map_const ROCK_TUNNEL_1F,                31, 18 ; $52
 	map_const POWER_PLANT,                   20, 18 ; $53
 	map_const ROUTE_11_GATE_1F,               4,  13 ; $54
 	map_const DIGLETTS_CAVE_ROUTE_11,         15, 14 ; $55
@@ -160,7 +160,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CELADON_DINER,                  11,  5 ; $8A
 	map_const CELADON_CHIEF_HOUSE,            18,  22 ; $8B
 	map_const CELADON_HOTEL,                  12, 12 ; $8C
-	map_const LAVENDER_POKECENTER,            7,  4 ; $8D
+	map_const LAVENDER_POKECENTER,            15,  4 ; $8D
 	map_const POKEMON_TOWER_1F,              10,  9 ; $8E
 	map_const POKEMON_TOWER_2F,              10,  9 ; $8F
 	map_const POKEMON_TOWER_3F,              10,  9 ; $90
@@ -169,10 +169,10 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const POKEMON_TOWER_6F,              10,  9 ; $93
 	map_const POKEMON_TOWER_7F,              10,  9 ; $94
 	map_const MR_FUJIS_HOUSE,                 4,  4 ; $95
-	map_const LAVENDER_MART,                  4,  4 ; $96
+	map_const LAVENDER_MART,                  3,  8 ; $96
 	map_const LAVENDER_CUBONE_HOUSE,          4,  4 ; $97
 	map_const FUCHSIA_MART,                   4,  4 ; $98
-	map_const FUCHSIA_BILLS_GRANDPAS_HOUSE,   21, 6 ; $99
+	map_const FUCHSIA_BILLS_GRANDPAS_HOUSE,   30, 6 ; $99
 	map_const FUCHSIA_POKECENTER,             7,  4 ; $9A
 	map_const WARDENS_HOUSE,                  12,  4 ; $9B
 	map_const SAFARI_ZONE_GATE,               6,  4 ; $9C
@@ -187,8 +187,8 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const POKEMON_MANSION_1F,            15, 14 ; $A5
 	map_const CINNABAR_GYM,                  10,  9 ; $A6
 	map_const CINNABAR_LAB,                  34, 18 ; $A7
-	map_const CINNABAR_LAB_TRADE_ROOM,        4,  4 ; $A8
-	map_const CINNABAR_LAB_METRONOME_ROOM,    4,  4 ; $A9
+	map_const CINNABAR_LAB_TRADE_ROOM,        8,  80 ; $A8
+	map_const CINNABAR_LAB_METRONOME_ROOM,    21, 25 ; $A9
 	map_const CINNABAR_LAB_FOSSIL_ROOM,       4,  4 ; $AA
 	map_const CINNABAR_POKECENTER,            7,  4 ; $AB
 	map_const CINNABAR_MART,                  4,  4 ; $AC

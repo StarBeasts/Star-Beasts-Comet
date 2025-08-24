@@ -1,6 +1,6 @@
 	db DEX_EXEGGCUTE ; pokedex id
 
-	db  90,  90, 75,  110,  115
+	db  85,  85, 75,  110,  115
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, DARK ; type

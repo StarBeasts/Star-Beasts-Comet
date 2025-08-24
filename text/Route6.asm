@@ -33,25 +33,29 @@ _Route6EndBattleText2::
 	prompt
 
 _Route6BattleText3::
-	text "There aren't many"
-	line "bugs out here."
+	text "My fully evolved"
+	line "BUGS, you must:"
+
+	para "Kill."
 	done
 
 _Route6EndBattleText3::
-	text "No!"
-	line "You're kidding!"
+	text "Sent"
+	line "to the next"
+	cont "dimension!"
 	prompt
 
 _Route6AfterBattleText3::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "OLIVINE ORCHARD."
+	text "Evolved BEASTS"
+	line "are stronger than"
+	cont "basic ones!"
 	done
 
 _Route6BattleText4::
 	text "Huh? You're not"
-	line "one of those cult"
-	cont "members, are you?"
+	line "one of those"
+	cont "weird NEPUTAIL"
+	cont "fans, are you?"
 	
 	para "Oh? A battle?"
 	line "Hah, you're on!"
@@ -90,20 +94,20 @@ _Route6AfterBattleText5::
 	done
 
 _Route6BattleText6::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Eeeek!"
+
+	para "Stranger danger!"
+	line "Protect me, ROBBY!"
 	done
 
 _Route6EndBattleText6::
-	text "You"
-	line "are too good!"
+	text "ROBBY, no..."
 	prompt
 
 _Route6AfterBattleText6::
-	text "Is my BEAST"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "My Mom got that"
+	line "ROBBY for me"
+	cont "from RHINESTONE!"
 	done
 
 _Route6Text7::

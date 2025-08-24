@@ -17,28 +17,20 @@ _Route14AfterBattleText1::
 	done
 
 _Route14BattleText2::
-	text "It's a beautiful"
-	line "day outside."
-	
-	para "Birds are singing,"
-	line "flowers are"
-	cont "blooming..."
-
-	para "Days like these,"
-	line "kids like you..."
-
-	para "..."
-	
-	para "Shouldn't be here."
+	text "Stop right there,"
+	line "criminal scum!"
 	done
 
 _Route14EndBattleText2::
-	text "Well."
+	text "Kidding!"
+	line "I'm kidding!"
 	prompt
 
 _Route14AfterBattleText2::
-	text "I'm bored out of"
-	line "my mind."
+	text "Wish I was in"
+	line "the SAFARI ZONE"
+	cont "instead of being"
+	cont "stuck in here..."
 	done
 
 _Route14BattleText3::
@@ -87,7 +79,8 @@ _Route14EndBattleText5::
 
 _Route14AfterBattleText5::
 	text "After what went"
-	line "down in SAFFRON,"
+	line "down in METAL"
+	cont "METROPOLIS,"
 	cont "we're taking law"
 	cont "enforcement extra"
 	cont "seriously."

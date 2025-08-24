@@ -43,6 +43,7 @@ HallofFameRoomScript2:
 	ResetEventRange INDIGO_PLATEAU_EVENTS_START, INDIGO_PLATEAU_EVENTS_END, 1
 	ResetEvent EVENT_BEAT_VILLA_5F_TRAINER_0
 	ResetEvent EVENT_BEAT_CELADON_MANSION_2F_TRAINER_0
+	ResetEvent EVENT_BEAT_CINNABAR_LAB_TRADE_ROOM_TRAINER_0
 	xor a
 	ld [wHallOfFameCurScript], a
 	ld a, PALLET_TOWN
@@ -111,13 +112,13 @@ HallofFameRoomScript1:
 .hideStarterBall
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_CERULEAN_CAVE_GUY
+	ld a, HS_ROUTE_15_LORELEI
 	ld [wMissableObjectIndex], a
 	predef HideObject
      ld a, HS_ROUTE_20_GUARD
      ld [wMissableObjectIndex], a
      predef HideObject
-     ld a, HS_ROUTE_15_LORELEI
+     ld a, HS_ROUTE_15_GUARD
      ld [wMissableObjectIndex], a
 	predef HideObject
 	ld a, HS_VARIK_1
@@ -132,6 +133,9 @@ HallofFameRoomScript1:
 	ld a, HS_FARFROMTILE_2
 	ld [wMissableObjectIndex], a
 	predef ShowObject
+	ld a, HS_CELAGONE_TREE
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, $2
 	ld [wHallOfFameCurScript], a
 	ret

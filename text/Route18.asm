@@ -8,14 +8,29 @@ _Route18EndBattleText1::
 	prompt
 
 _Route18AfterBattleText1::
-	text "We're hiding from"
+	text "Our new boss,"
 	line "the ICE QUEEN,"
-	cont "our new boss."
+	cont "keeps breathing"
+	cont "down our necks!"
+
+	para "What a hassle!"
+
+	para "She just showed"
+	line "up one day and"
+	cont "started ordering"
+	cont "us around!"
+
+	para "Who does she"
+	line "think she is,"
+	cont "anyway!?"
 	done
 
 _Route18BattleText2::
-	text "Go away!"
-	line "Leave us alone!"
+	text "You came from"
+	line "CYCLING ROAD?"
+	
+	para "That means you're"
+	line "coming with me!"
 	done
 
 _Route18EndBattleText2::
@@ -27,21 +42,29 @@ _Route18AfterBattleText2::
 	line "boss! She forces"
 	cont "us to actually"
 	cont "do our jobs!"
+
+	para "..."
+
+	para "Sorry about that,"
+	line "by the by."
 	done
 
 _Route18BattleText3::
-	text "Oh, crap!"
-	line "We're busted!"
+	text "NOT ON MY SHIFT,"
+	line "DIRTBAG!"
 	done
 
 _Route18EndBattleText3::
-	text "Darn!"
+	text "Wuh-oh."
 	prompt
 
 _Route18AfterBattleText3::
-	text "Don't tell the"
-	line "ICE QUEEN you"
-	cont "saw us here!"
+	text "Not that many"
+	line "BIKERs have been"
+	cont "through this way"
+	cont "lately, but that's"
+	cont "no excuse not to"
+	cont "stay vigilant!"
 	done
 
 _Route18Text4::

@@ -63,22 +63,32 @@ _RockTunnel2AfterBattleText5::
 	done
 
 _RockTunnel2BattleText6::
-	text "My # BEAST"
-	line "techniques will"
-	cont "leave you in"
-	cont "the dust!"
+	text "You're like me,"
+	line "ain't you?"
+	
+	para "Wonderin' where"
+	line "that damned"
+	cont "DRAGON is!"
 	done
 
 _RockTunnel2EndBattleText6::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Ayup!"
+	line "You're better"
+	cont "at this than"
+	cont "I am, for sure!"
 	prompt
 
 _RockTunnel2AfterBattleText6::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type BEASTS."
+	text "I ain't much fer"
+	line "DRAGONs, but this"
+	cont "SIVAK figure"
+	cont "sounds mighty"
+	cont "lonely..."
+
+	para "I do sure hope"
+	line "somebody can keep"
+	cont "the critter some"
+	cont "company!"
 	done
 
 _RockTunnel2BattleText7::

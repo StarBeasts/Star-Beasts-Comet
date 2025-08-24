@@ -97,6 +97,8 @@ SilphCo2F_TextPointers:
 	dw SilphCo2Text3
 	dw SilphCo2Text4
 	dw SilphCo2Text5
+	dw SilphCo2Text6
+	dw SilphCo2Text7
 
 SilphCo2TrainerHeaders:
 	def_trainers 2
@@ -216,4 +218,12 @@ SilphCo2EndBattleText4:
 
 SilphCo2AfterBattleText4:
 	text_far _SilphCo2AfterBattleText4
+	text_end
+
+SilphCo2Text6:
+	text_far _SilphCo2Text6
+	text_end
+
+SilphCo2Text7:
+	text_far _SilphCo2Text7
 	text_end

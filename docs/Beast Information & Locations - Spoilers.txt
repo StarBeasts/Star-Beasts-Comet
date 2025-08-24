@@ -3856,7 +3856,7 @@ HP: 75
 Attack: 115
 Defense: 65
 Special: 75
-Speed: 120
+Speed: 130
 
 Location: Evolve Duhzlugg at Level 20, Rock Tunnel, Seafoam Islands
 
@@ -4204,10 +4204,10 @@ SUBSTITUTE,   CUT,          SURF,         STRENGTH,     FLASH
 Ice / Poison
 
 HP: 85
-Attack: 50
+Attack: 85
 Defense: 50
 Special: 115
-Speed: 115
+Speed: 120
 
 Location: Seafoam Islands, Fishing - Super Rod (Routes 19-21, Cinnabar Island, Seafoam Islands)
 
@@ -4536,11 +4536,11 @@ SUBSTITUTE,  CUT,          STRENGTH,     FLASH
 
 Steel / Flying
 
-HP: 99
-Attack: 99
-Defense: 99
-Special: 99
-Speed: 99
+HP: 89
+Attack: 89
+Defense: 89
+Special: 89
+Speed: 89
 
 Location: Secret lab on a Celadon City rooftop (Only one)
 

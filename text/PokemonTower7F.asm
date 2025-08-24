@@ -94,8 +94,12 @@ _PokemonTower7AfterBattleText3::
 
 	para "..."
 
-	para "It matters not. I"
-	line "have other, more"
-	cont "pressing concerns"
-	cont "to see to."
+	para "It matters not."
+	line "METAL METROPOLIS"
+	cont "is where the real"
+	cont "prize is, and my"
+	cont "men are waiting"
+	cont "there for me."
+
+	para "Sayonara."
 	done

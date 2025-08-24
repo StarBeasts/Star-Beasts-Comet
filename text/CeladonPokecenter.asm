@@ -6,14 +6,27 @@ _CeladonPokecenterText2::
 	done
 
 _CeladonPokecenterText3::
-	text "I rode uphill on"
-	line "CYCLING ROAD from"
-	cont "FUCHSIA!"
+	text "BLOODSTONE BAY"
+	line "here is one of"
+	cont "the only places"
+	cont "in RELAS where"
+	cont "DRAGONs can be"
+	cont "found naturally!"
 
-	para "There's certainly"
-	line "some colorful"
-	cont "characters there,"
-	cont "nowadays!"
+	para "Since people poach"
+	line "DRAGONs for their"
+	cont "bones because"
+	cont "they weigh next"
+	cont "to nothing and"
+	cont "are just about"
+	cont "unbreakable,"
+	cont "not just anybody"
+	cont "is allowed into"
+	cont "BLOODSTONE BAY."
+
+	para "You need like, a"
+	line "BADGE or permit,"
+	cont "or something."
 	done
 
 _CeladonPokecenterText4::

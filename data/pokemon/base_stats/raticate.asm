@@ -1,6 +1,6 @@
 	db DEX_RATICATE ; pokedex id
 
-	db  150,  75,  120,  75,  75
+	db  150,  75,  120,  65,  75
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FIGHTING ; type

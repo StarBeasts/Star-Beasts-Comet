@@ -62,13 +62,27 @@ _Route24Text_5152b::
 	prompt
 
 _Route24Text_51530::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
-	cont "TEAM ROCKET!"
+	text "So you're saying"
+	line "you're NOT that"
+	cont "troubleshooter"
+	cont "I hired?"
+
+	para "What kind of world"
+	line "are we living in,"
+	cont "where the people"
+	cont "that take care of"
+	cont "deadbeats are"
+	cont "also deadbeats!?"
+
+	para "Well, keep the"
+	line "money anyway."
+
+	para "I haven't had a"
+	line "battle that good"
+	cont "in quite a while!"
 	done
 
 _Route24BattleText1::
-	text "I saw your feat"
-	line "from the grass!"
+	text "Don't take any"
+	line "of my grass!"
 	done

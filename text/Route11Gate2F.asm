@@ -44,3 +44,40 @@ _Route11GateUpstairsText3::
 
 	para "...Yet."
 	done
+
+_Route11GateUpstairsText4::
+	text "FELDSPAR is a"
+	line "most peculiar"
+	cont "place, yes, most"
+	cont "peculiar, indeed."
+
+	para "But it is only"
+	line "the most obvious"
+	cont "symptom of a"
+	cont "larger problem."
+
+	para "Supernatural"
+	line "forces have been"
+	cont "causing various"
+	cont "disruptions all"
+	cont "across RELAS."
+
+	para "I may be the only"
+	line "PSYCHIC lucid"
+	cont "enough to realize"
+	cont "that SABRINA was"
+	cont "not always our"
+	cont "LEADER."
+
+	para "The will of the"
+	line "ringed djinn is"
+	cont "a mystery to all."
+
+	para "But, be that"
+	line "as it may..."
+
+	para "I still hope that"
+	line "wherever he ended"
+	cont "up, life is being"
+	cont "kind to him."
+	done

@@ -161,24 +161,42 @@ SetPal_Overworld:
 	jp z, .mewMon
 	cp ROUTE_18
 	jp z, .peridot
+	cp ROUTE_19
+	jp z, .caveOrBruno
 	cp ROUTE_24
-	jp z, .cerulean
+	jp z, .turquoise
+	cp ROUTE_25
+	jp z, .brownMon
 	cp FIRST_INDOOR_MAP
 	jp c, .townOrRoute
-	cp VIRIDIAN_FOREST
-	jp z, .invertColors
+	cp ROUTE_2_TRADE_HOUSE
+	jp z, .garnet
 	cp ROUTE_2_GATE
 	jp z, .mewMon
+	cp VIRIDIAN_FOREST
+	jp z, .invertColors
+	cp MT_MOON_POKECENTER
+	jp z, .caveOrBruno
 	cp UNDERGROUND_PATH_ROUTE_5
 	jp z, .mewMon
+	cp UNDERGROUND_PATH_ROUTE_6
+	jp z, .brownMon
+	cp UNDERGROUND_PATH_ROUTE_8
+	jp z, .caveOrBruno
+	cp ROUTE_11_GATE_2F
+	jp z, .brownMon
+	cp UNDERGROUND_PATH_NORTH_SOUTH
+	jp z, .malachite
 	cp UNDERGROUND_PATH_WEST_EAST
 	jp z, .peridot
 	cp BLOODSTONE_BAY
 	jp z, .bloodstone
+	cp ROUTE_7_GATE
+	jp z, .brownMon
 	cp POWER_PLANT
 	jp z, .mewMon
 	cp DIGLETTS_CAVE_ROUTE_11
-	jp z, .cerulean
+	jp z, .turquoise
 	cp CELAGONE_CITY
 	jp z, .grey
 	cp GLITCH_ROOM
@@ -201,14 +219,46 @@ SetPal_Overworld:
 	jp z, .pallet
 	cp CELADON_MANSION_ROOF
 	jp z, .garnet
+	cp CELADON_CHIEF_HOUSE
+	jp z, .malachite
+	cp FUCHSIA_BILLS_GRANDPAS_HOUSE
+	jp z, .caveOrBruno
+	cp SEAFOAM_ISLANDS_B2F
+	jp z, .redgold
+	cp SEAFOAM_ISLANDS_B3F
+	jp z, .redgold
+	cp VERMILION_OLD_ROD_HOUSE
+	jp z, .vermilion
+	cp POKEMON_MANSION_1F
+	jp z, .miserite
+	cp CINNABAR_LAB
+	jp z, .cinnabar
+	cp ROUTE_15_GATE_2F
+	jp z, .black
 	cp ROCKET_HIDEOUT_B1F
 	jp z, .miserite
 	cp ROCKET_HIDEOUT_B2F
-	jr z, .miserite
+	jp z, .miserite
 	cp ROCKET_HIDEOUT_B3F
-	jr z, .miserite
+	jp z, .miserite
+	cp SILPH_CO_1F
+	jp z, .redgold
 	cp SECRET_GARDEN
-	jr z, .blueMon
+	jp z, .blueMon
+	cp SILPH_CO_4F
+	jp z, .redgold
+	cp SILPH_CO_6F
+	jp z, .redgold
+	cp SILPH_CO_8F
+	jp z, .redgold
+	cp POKEMON_MANSION_2F
+	jp z, .miserite
+	cp POKEMON_MANSION_3F
+	jp z, .miserite
+	cp POKEMON_MANSION_B1F
+	jp z, .miserite
+	cp SILPH_CO_11F
+	jp z, .redgold
 	cp CELADON_MART_ELEVATOR
 	jr z, .blueMon
 	cp CERULEAN_CAVE_2F
@@ -256,6 +306,10 @@ SetPal_Overworld:
 	jr z, .grey
 	cp CELADON_MANSION_2F
 	jr z, .bloodstone
+	cp ROCK_TUNNEL_1F
+	jr z, .black
+	cp ROCK_TUNNEL_B1F
+	jr z, .abyss
 .caveDefault
 	ld a, PAL_CYANMON - 1
 	jr .town
@@ -275,7 +329,7 @@ SetPal_Overworld:
 	ld a, PAL_PALLET - 1
 	jr .town
 .black
-	ld a, PAL_BLACK - 1
+	ld a, PAL_LAVENDER - 1
 	jr .town
 .garnet
 	ld a, PAL_CELADON - 1
@@ -292,12 +346,27 @@ SetPal_Overworld:
 .purpleandRed
 	ld a, PAL_PURPLEANDRED - 1
 	jr .town
-.cerulean
-	ld a, PAL_CERULEAN - 1
+.turquoise
+	ld a, PAL_TURQUOISE - 1
 	jr .town
 .peridot
 	ld a, PAL_PERIDOT - 1
 	jr .town
+.redgold
+	ld a, PAL_REDGOLD - 1
+	jr .town
+.cinnabar
+	ld a, PAL_CINNABAR - 1
+	jr .town
+.vermilion
+	ld a, PAL_VERMILION - 1
+	jr .town
+.malachite
+	ld a, PAL_MALACHITE - 1
+	jp .town
+.abyss
+	ld a, PAL_BLACK - 1
+	jp .town
 
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame

@@ -1,6 +1,6 @@
 	db DEX_PORYGON ; pokedex id
 
-	db  99,  99,  99,  99,  99
+	db  89,  89,  89,  89,  89
 	;   hp  atk  def  spd  spc
 
 	db STEEL, FLYING ; type

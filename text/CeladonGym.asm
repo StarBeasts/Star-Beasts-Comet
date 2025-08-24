@@ -1,27 +1,26 @@
 _ErikaPreBattleText::
-	text "Wow!"
+	text "Hey, now!"
 	
-	para "Now ain't you a"
-	line "sight fer sore"
-	cont "eyes?"
+	para "Ain't I done"
+	line "seen you 'fore?"
 
-	para "You come here fer"
-	line "gardening advice?"
-	cont "Learnin' to talk"
-	cont "to ladies?"
+	para "Yer that up'n"
+	line "comer that was"
+	cont "in QUARTZ QUARRY,"
+	cont "ain'tcha?"
 
-	para "...?"
+	para "So if yer here,"
+	line "that'd mean"
+	cont "yer lookin' to"
+	cont "get a BADGE fer"
+	cont "the LEAGUE, huh?"
 
-	para "GYM LEADER?"
-
-	para "BADGE?"
-
-	para "Well, shucks!"
+	para "Well, shoot!"
 	line "That's parta my"
 	cont "job description,"
 	cont "ain't it?"
 
-	para "I'm LISBETH."
+	para "Name's LISBETH."
 	line "When it comes to"
 	cont "cuttin' weeds and"
 	cont "gardenin', I'm"
@@ -57,10 +56,11 @@ _ErikaPostBattleAdviceText::
 	text "Don't be a stranger"
 	line "now, y'hear?"
 
-	para "I could always use"
-	line "another cute face"
-	cont "like you to"
-	cont "keep me company!"
+	para "I really dig"
+	line "yer vibes!"
+	cont "Ain't nothin'"
+	cont "like the strong,"
+	cont "silent type!"
 	done
 
 _ErikaRainbowBadgeInfoText::
@@ -136,13 +136,16 @@ _CeladonGymEndBattleText3::
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type BEASTS"
+	text "GRASS-type BEASTS"
 	line "are tough against"
-	cont "the water-type!"
+	cont "the WATER-type!"
 
 	para "They also have an"
-	line "edge on rock and"
-	cont "ground BEASTS!"
+	line "edge on ROCK and"
+	cont "GROUND BEASTS!"
+
+	para "I'm a huge fan"
+	line "of GRASS, myself!"
 	done
 
 _CeladonGymBattleText4::
@@ -162,7 +165,7 @@ _CeladonGymAfterBattleText4::
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
+	text "Look at my GRASS"
 	line "# BEASTS!"
 
 	para "They're so easy"
@@ -174,7 +177,7 @@ _CeladonGymEndBattleText5::
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
+	text "We only use GRASS-"
 	line "type BEASTS at"
 	cont "our GYM!"
 
@@ -201,8 +204,9 @@ _CeladonGymAfterBattleText6::
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
+	text "Pleasure to meet"
+	line "you. My hobbies"
+	cont "are reading and"
 	cont "BEAST training."
 	done
 
@@ -220,7 +224,7 @@ _CeladonGymAfterBattleText7::
 
 _CeladonGymBattleText8::
 	text "Welcome to"
-	line "CELADON GYM!"
+	line "GARNET GYM!"
 
 	para "You better not"
 	line "underestimate"

@@ -82,11 +82,13 @@ SilphCo5F_TextPointers:
 	dw SilphCo5Text9
 	dw SilphCo5Text10
 	dw SilphCo5Text11
+	dw SilphCo5Text12
+	dw SilphCo5Text13
 
 SilphCo5TrainerHeaders:
 	def_trainers 2
 SilphCo5TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_0, 1, SilphCo5BattleText2, SilphCo5EndBattleText2, SilphCo5AfterBattleText2
+	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_0, 3, SilphCo5BattleText2, SilphCo5EndBattleText2, SilphCo5AfterBattleText2
 SilphCo5TrainerHeader1:
 	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_1, 2, SilphCo5BattleText3, SilphCo5EndBattleText3, SilphCo5AfterBattleText3
 SilphCo5TrainerHeader2:
@@ -193,3 +195,12 @@ SilphCo5Text10:
 SilphCo5Text11:
 	text_far _SilphCo5Text11
 	text_end
+
+SilphCo5Text12:
+	text_far _SilphCo5Text12
+	text_end
+
+SilphCo5Text13:
+	text_far _SilphCo5Text13
+	text_end
+

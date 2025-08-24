@@ -19,3 +19,26 @@ _Route18GateUpstairsText2::
 	line "might as well"
 	cont "turn around."
 	done
+
+_Route18GateUpstairsText3::
+	text "Umm..."
+
+	para "Hello."
+
+	para "I am a private"
+	line "investigator."
+
+	para "I'm not popular"
+	line "with the other"
+	cont "PSYCHICs, so I"
+	cont "work with the"
+	cont "RANGERs, instead."
+
+	para "We're supposed"
+	line "to stay neutral,"
+	cont "but I disagree."
+
+	para "Umm..."
+
+	para "That is all."
+	done

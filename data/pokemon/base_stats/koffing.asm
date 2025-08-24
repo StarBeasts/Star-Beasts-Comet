@@ -1,6 +1,6 @@
 	db DEX_KOFFING ; pokedex id
 
-	db  110,  123,  65,  65,  100
+	db  110,  123, 72,  65,  100
 	;   hp  atk  def  spd  spc
 
 	db DARK, FIGHTING ; type

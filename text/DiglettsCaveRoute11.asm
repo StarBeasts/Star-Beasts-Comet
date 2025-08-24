@@ -43,7 +43,7 @@ _DiglettsCaveEntRoute11HealerComeBackAnyTimeText::
 	done
 
 _DiglettsCaveEntRoute11Text4::
-	text "LAPIS LAZULI"
+	text "TURQUOISE"
 	line "TRAILER PARK"
 
 	para "YOU DON'T WANT"

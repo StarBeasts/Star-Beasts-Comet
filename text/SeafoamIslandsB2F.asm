@@ -10,11 +10,6 @@ _SeafoamIslands2Text1::
 	done
 
 _SeafoamIslands2Text2::
-	text "There's always"
-	line "time for coffee!"
-	done
-
-_SeafoamIslands2Text3::
 	text "There's a gnarled"
 	line "old sign that"
 	cont "looks like it was"
@@ -22,10 +17,27 @@ _SeafoamIslands2Text3::
 	cont "down sinking into"
 	cont "the sand..."
 
-	para "It says:"
+	para "The part you can"
+	line "still read says:"
 
 	para "MACROBIA MANOR"
 
 	para "ETERNAL LIFE IS"
 	line "MORE THAN A DREAM"
 	done
+
+_SeafoamIslands2Text3::
+	text "RED GOLD REEF"
+	line "GAI CO. # BALL"
+	cont "RESEARCH AND"
+	cont "DEVELOPMENT LAB"
+
+	para "GRASP THE FUTURE"
+	line "IN THE PALM OF"
+	cont "YOUR HAND"
+	done
+
+_SeafoamIslands2Text4::
+	text "!"
+	done
+

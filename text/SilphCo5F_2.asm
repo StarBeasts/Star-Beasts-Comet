@@ -1,28 +1,44 @@
 _SilphCo5EndBattleText4::
-	text "Oh"
-	line "goodness!"
+	text "Oh, what!?"
+	
+	para "But those BEASTS"
+	line "are super rare!"
 	prompt
 
 _SilphCo5AfterBattleText4::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "Speakin' of rare"
+	line "BEASTS, if you"
+	cont "want a PREDATOX"
+	cont "like BOSS has,"
+	cont "it evolves from"
+	cont "NEEDOLF!"
 	done
 
 _SilphCo5BattleText5::
-	text "Show TEAM ROCKET"
-	line "a little respect!"
+	text "Oh wow..."
+
+	para "There's no way"
+	line "I can win, but..."
+
+	para "Damnit, I have"
+	line "to try!"
 	done
 
 _SilphCo5EndBattleText5::
-	text "Grr..."
+	text "..."
+
+	para "It's all over,"
+	line "but the crying..."
 	prompt
 
 _SilphCo5AfterBattleText5::
-	text "Which reminds me."
+	text "You're crazy"
+	line "talented as a"
+	cont "trainer."
 
-	para "NEEDOLF evolves"
-	line "into PREDATOX!"
+	para "Oh, the things"
+	line "I'd do if I was"
+	cont "that good..."
 	done
 
 _SilphCo5Text9::
@@ -39,7 +55,7 @@ _SilphCo5Text10::
 	text "It's a BEAST"
 	line "REPORT!"
 
-	para "Over 200 BEAST"
+	para "Over 250 BEAST"
 	line "techniques have"
 	cont "been confirmed."
 	done
@@ -50,3 +66,12 @@ _SilphCo5Text11::
 	para "RELOCATED TO LAB"
 	line "IN GARNET GARDENS."
 	done
+
+_SilphCo5Text12::
+	text "I'm GAILON TUSK!"
+	done
+
+_SilphCo5Text13::
+	text "I'm SECRETARY!"
+	done
+

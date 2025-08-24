@@ -1,6 +1,6 @@
 	db DEX_DRAGONAIR ; pokedex id
 
-	db  95,  110,  80,  135,  100
+	db  80,  110,  80,  110,  100
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FLYING ; type

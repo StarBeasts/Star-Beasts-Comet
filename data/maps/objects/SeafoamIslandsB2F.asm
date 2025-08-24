@@ -9,10 +9,11 @@ SeafoamIslandsB2F_Object:
 	warp_event 23, 11, SILPH_CO_1F, 1
 
 	def_bg_events
+	bg_event 21, 11, 3
+	bg_event 32, 9, 4
 
 	def_object_events
 	object_event  23, 12, SPRITE_ROCKET, STAY, DOWN, 1 ; person
-	object_event  0,  0, SPRITE_COFFEE, STAY, NONE, 2 ; person
-	object_event 18,  9, SPRITE_RUINED_SIGN, STAY, NONE, 3 ; person
+	object_event 18,  9, SPRITE_RUINED_SIGN, STAY, NONE, 2 ; person
 
 	def_warps_to SEAFOAM_ISLANDS_B2F

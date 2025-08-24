@@ -28,11 +28,15 @@ _Route19EndBattleText2::
 _Route19AfterBattleText2::
 	text "Watch out for"
 	line "INFESTIN!"
+
+	para "They'll suck your"
+	line "blood if they"
+	cont "latch onto you!"
 	done
 
 _Route19BattleText3::
 	text "I love swimming!"
-	line "What about you?"
+	line "Doesn't everyone?"
 	done
 
 _Route19EndBattleText3::
@@ -46,8 +50,8 @@ _Route19AfterBattleText3::
 	done
 
 _Route19BattleText4::
-	text "What's beyond the"
-	line "horizon?"
+	text "What's past the"
+	line "bridge?"
 	done
 
 _Route19EndBattleText4::
@@ -55,23 +59,39 @@ _Route19EndBattleText4::
 	prompt
 
 _Route19AfterBattleText4::
-	text "I see a couple of"
-	line "islands!"
+	text "Past the bridge"
+	line "is SODALITE"	
+	cont "SINKHOLE, and"
+	cont "past that is"
+	cont "KUNZITE KEY!"
+
+	para "I'm a regular"
+	line "tour guide, haha!"
 	done
 
 _Route19BattleText5::
-	text "I tried diving"
-	line "for BEASTS, but"
-	cont "it was a no go!"
+	text "You have to fish"
+	line "or SURF for sea"
+	cont "# BEASTS!"
 	done
 
 _Route19EndBattleText5::
-	text "Help!"
+	text "Gulp!"
+
+	para "Washed ashore!"
 	prompt
 
 _Route19AfterBattleText5::
-	text "You have to fish"
-	line "for sea BEASTS!"
+	text "That mountain"
+	line "range behind us"
+	cont "is MT. VALOR!" 
+	
+	para "Nobody's allowed"
+	line "there but the"
+	cont "CHAMPION."
+
+	para "Wonder what's"
+	line "inside there..."
 	done
 
 _Route19BattleText6::
@@ -80,13 +100,23 @@ _Route19BattleText6::
 	done
 
 _Route19EndBattleText6::
-	text "Ooh!"
-	line "Traumatic!"
+	text "I forgot"
+	line "how to win!"
 	prompt
 
 _Route19AfterBattleText6::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "Why was I looking"
+	line "at the sea?"
+
+	para "..."
+
+	para "..."
+
+	para "..."
+
+	para "..."
+
+	para "I forget!"
 	done
 
 _Route19BattleText7::
@@ -103,7 +133,12 @@ _Route19EndBattleText7::
 _Route19AfterBattleText7::
 	text "It's still a long"
 	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	cont "KUNZITE KEY."
+
+	para "You might want to"
+	line "stop by the"
+	cont "SHACK OF LOVE on"
+	cont "your way there."
 	done
 
 _Route19BattleText8::
@@ -117,8 +152,8 @@ _Route19EndBattleText8::
 
 _Route19AfterBattleText8::
 	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	line "wanted to explore"
+	cont "SODALITE SINKHOLE."
 	done
 
 _Route19BattleText9::
@@ -153,7 +188,7 @@ _Route19AfterBattleText10::
 	done
 
 _Route19Text11::
-	text "SEA ROUTE 19"
-	line "FUCHSIA CITY -"
-	cont "SEAFOAM ISLANDS"
+	text "SEA ROUTE 12"
+	line "MILITARY BASE -"
+	cont "SODALITE SINKHOLE"
 	done

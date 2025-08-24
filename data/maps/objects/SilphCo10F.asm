@@ -13,8 +13,8 @@ SilphCo10F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  6, 12, SPRITE_ROCKET, STAY, ANY_DIR, 1, OPP_ROCKET, 39
-	object_event 12, 14, SPRITE_SCIENTIST, STAY, ANY_DIR, 2, OPP_SCIENTIST, 11
+	object_event  6, 12, SPRITE_COOLTRAINER_F, STAY, ANY_DIR, 1, OPP_COOLTRAINER_F, 7
+	object_event 12, 14, SPRITE_COOLTRAINER_M, STAY, ANY_DIR, 2, OPP_COOLTRAINER_M, 8
 	object_event  9,  5, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 3 ; person
 	object_event  5,  1, SPRITE_POKE_BALL, STAY, NONE, 4, TM_EARTHQUAKE
 	object_event 16,  7, SPRITE_POKE_BALL, STAY, NONE, 5, RARE_CANDY

@@ -43,9 +43,13 @@ _Route13EndBattleText4::
 	prompt
 
 _Route13AfterBattleText4::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "There's not any"
+	line "GYM LEADERs out"
+	cont "here, so what"
+	cont "are you up to?"
+
+	para "Are you on an"
+	line "adventure?"
 	done
 
 _Route13BattleText5::
@@ -109,10 +113,9 @@ _Route13EndBattleText8::
 	prompt
 
 _Route13AfterBattleText8::
-	text "My friend over"
-	line "here thinks those"
-	cont "stuffy OFFICERs"
-	cont "are cute..."
+	text "Some people find"
+	line "those stuffy"
+	cont "OFFICERs cute..."
 
 	para "Can you believe"
 	line "that!?"
@@ -130,17 +133,16 @@ _Route13EndBattleText9::
 	prompt
 
 _Route13AfterBattleText9::
-	text "My friend over"
-	line "here thinks those"
-	cont "mean BIKERs are"
-	cont "hot..."
+	text "Some people find"
+	line "those mean"
+	cont "BIKERs hot..."
 
-	para "Some people just"
-	line "have no taste..."
+	para "And those people"
+	line "have no taste."
 	done
 
 _Route13BattleText10::
-	text "What're you"
+	text "Hell're you"
 	line "lookin' at?"
 	done
 
@@ -150,7 +152,8 @@ _Route13EndBattleText10::
 	prompt
 
 _Route13AfterBattleText10::
-	text "Get lost!"
+	text "Beat it!"
+	line "Get lost!"
 	done
 
 _Route13BattleText11::
@@ -173,8 +176,9 @@ _Route13AfterBattleText11::
 _Route13Text11::
 	text "TRAINER TIPS"
 
-	para "Check the post"
-	line "next to this sign!"
+	para "Check the area"
+	line "to the north"
+	cont "of this sign!"
 	done
 
 _Route13Text12::

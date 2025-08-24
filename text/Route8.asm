@@ -21,29 +21,45 @@ _Route8BattleText2::
 	done
 
 _Route8EndBattleText2::
-	text "Drat!"
-	line "Came up short!"
+	text "..."
+	line "Snake eyes..."
 	prompt
 
 _Route8AfterBattleText2::
-	text "Lady Luck's not"
-	line "with me today!"
+	text "Guess I rolled a"
+	line "critical failure,"
+	cont "huh?"
 	done
 
 _Route8BattleText3::
-	text "You need strategy"
-	line "to win at this!"
+	text "Everybody needs a"
+	line "winning strategy!"
+
+	para "What's yours?"
 	done
 
 _Route8EndBattleText3::
-	text "It's"
-	line "not logical!"
+	text "Aiiiie!"
+	line "My babies!"
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with EGGEROT"
-	line "first...and..."
-	cont "...and...then..."
+	text "That gate to my"
+	line "left leads to"
+	cont "MISERITE MEADOW."
+
+	para "A bunch of creepy"
+	line "mumbly guys went"
+	cont "in there holding"
+	cont "a weird pair of"
+	cont "goggles as if it"
+	cont "was an ancient"
+	cont "cursed artifact,"
+	cont "or something!"
+
+	para "And people have"
+	line "a go at ME for"
+	cont "being weird?"
 	done
 
 _Route8BattleText4::
@@ -63,25 +79,23 @@ _Route8AfterBattleText4::
 	done
 
 _Route8BattleText5::
-	text "These girls are"
-	line "soooo boring!"
-
-	para "Someone like you"
-	line "seems more up my"
-	cont "alley!"
+	text "Get their ass,"
+	line "SCORPHIRO!"
 	done
 
 _Route8EndBattleText5::
-	text "See?"
+	text "Huh!?"
 
-	para "That was actually"
-	line "fun!"
+	para "But SCORPHIRO"
+	line "is one of the"
+	cont "best # BEASTS!"
 	prompt
 
 _Route8AfterBattleText5::
-	text "We're stuck here"
-	line "because of the"
-	cont "gates at SAFFRON."
+	text "SCORPHIRO is"
+	line "great because it's"
+	cont "STEEL type and"
+	cont "easy to train!"
 	done
 
 _Route8BattleText6::
@@ -100,38 +114,57 @@ _Route8AfterBattleText6::
 	done
 
 _Route8BattleText7::
-	text "We must look"
-	line "silly standing"
-	cont "here like this!"
+	text "Now, bear my"
+	line "ARCTIC BLAST!"
 	done
 
 _Route8EndBattleText7::
-	text "Look what"
-	line "you did!"
+	text "But..."
+	line "My team refused"
+	cont "to win..."
 	prompt
 
 _Route8AfterBattleText7::
-	text "SAFFRON's gate"
-	line "keeper won't let"
-	cont "us through."
-	cont "He's so mean!"
+	text "MAGIC MISSILE!"
+	
+	para "MAGIC MISSILE!"
+
+	para "Huh? What am I"
+	line "doing?"
+
+	para "Uh, duh?"
+
+	para "Haven't you ever"
+	line "heard of LARPing?"
 	done
 
 _Route8BattleText8::
-	text "I'm a rambling,"
-	line "gambling dude!"
+	text "I'm a GAMBLER!"
+	line "I'm a scrambler!"
+
+	para "I'm a real tough"
+	line "guy, so here's"
+	cont "a sampler!"
 	done
 
 _Route8EndBattleText8::
-	text "Missed"
-	line "the big score!"
+	text "..."
+	line "A big old loss,"
+	cont "I've come across!"
 	prompt
 
 _Route8AfterBattleText8::
-	text "Gambling and"
-	line "BEASTS are like"
-	cont "eating peanuts!"
-	cont "Just can't stop!"
+	text "My addiction!"
+	line "Isn't fiction!"
+	
+	para "I lost my home"
+	line "to the eviction!"
+
+	para "..."
+
+	para "I think I might"
+	line "seriously have a"
+	cont "problem..."
 	done
 
 _Route8BattleText9::

@@ -1,15 +1,15 @@
 VultMazeWildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 24,ODDISH
-	db 25,ODDISH
-	db 27,PIDGEOTTO
-	db 24,PIDGEOTTO
-	db 25,PIKACHU
-	db 27,PIKACHU
-	db 26,BUTTERFREE
-	db 25,BUTTERFREE
-	db 27,BUTTERFREE
-	db 30,PARASECT
+	db 14,PARAS
+	db 15,PARAS
+	db 17,PSYDUCK
+	db 16,PARAS
+	db 15,MEOWTH
+	db 16,MEOWTH
+	db 16,PIKACHU
+	db 15,BUTTERFREE
+	db 17,PIDGEOTTO
+	db 20,PARASECT
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

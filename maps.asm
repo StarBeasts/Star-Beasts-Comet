@@ -821,9 +821,9 @@ HallOfFame_Blocks: INCBIN "maps/HallOfFame.blk"
 
 SECTION "Maps 15", ROMX
 
-SaffronMart_Blocks:
-LavenderMart_Blocks:
-CeruleanMart_Blocks:
+SaffronMart_Blocks: INCBIN "maps/SaffronMart.blk"
+LavenderMart_Blocks: INCBIN "maps/LavenderMart.blk"
+CeruleanMart_Blocks: INCBIN "maps/CeruleanMart.blk"
 VermilionMart_Blocks: INCBIN "maps/VermilionMart.blk"
 
 CopycatsHouse2F_Blocks:
@@ -834,8 +834,8 @@ Museum1F_Blocks: INCBIN "maps/Museum1F.blk"
 Museum2F_Blocks: INCBIN "maps/Museum2F.blk"
 
 SaffronPokecenter_Blocks:
-VermilionPokecenter_Blocks:
-LavenderPokecenter_Blocks:
+VermilionPokecenter_Blocks:INCBIN "maps/VermilionPokecenter.blk"
+LavenderPokecenter_Blocks: INCBIN "maps/LavenderPokecenter.blk"
 PewterPokecenter_Blocks: INCBIN "maps/PewterPokecenter.blk"
 
 UndergroundPathRoute7_Blocks: INCBIN "maps/UndergroundPathRoute7.blk"
@@ -1283,6 +1283,28 @@ INCLUDE "scripts/Villa5F.asm"
 INCLUDE "data/maps/objects/Villa5F.asm"
 Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
 
+INCLUDE "data/maps/headers/GoldenGate.asm"
+INCLUDE "scripts/GoldenGate.asm"
+INCLUDE "data/maps/objects/GoldenGate.asm"
+GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
+
+INCLUDE "data/maps/headers/BikeGate.asm"
+INCLUDE "scripts/BikeGate.asm"
+INCLUDE "data/maps/objects/BikeGate.asm"
+BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
+
+SECTION "Maps 23", ROMX
+
+INCLUDE "data/maps/headers/CinnabarLab.asm"
+INCLUDE "scripts/CinnabarLab.asm"
+INCLUDE "data/maps/objects/CinnabarLab.asm"
+CinnabarLab_Blocks: INCBIN "maps/CinnabarLab.blk"
+
+INCLUDE "data/maps/headers/AmethystArchive.asm"
+INCLUDE "scripts/AmethystArchive.asm"
+INCLUDE "data/maps/objects/AmethystArchive.asm"
+AmethystArchive_Blocks: INCBIN "maps/AmethystArchive.blk"
+
 INCLUDE "data/maps/headers/SecretGarden.asm"
 INCLUDE "scripts/SecretGarden.asm"
 INCLUDE "data/maps/objects/SecretGarden.asm"
@@ -1303,11 +1325,6 @@ INCLUDE "scripts/DevilsCanyon.asm"
 INCLUDE "data/maps/objects/DevilsCanyon.asm"
 DevilsCanyon_Blocks: INCBIN "maps/DevilsCanyon.blk"
 
-INCLUDE "data/maps/headers/GoldenGate.asm"
-INCLUDE "scripts/GoldenGate.asm"
-INCLUDE "data/maps/objects/GoldenGate.asm"
-GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
-
 INCLUDE "data/maps/headers/BloodstoneBay.asm"
 INCLUDE "scripts/BloodstoneBay.asm"
 INCLUDE "data/maps/objects/BloodstoneBay.asm"
@@ -1318,22 +1335,7 @@ INCLUDE "scripts/RangerStation.asm"
 INCLUDE "data/maps/objects/RangerStation.asm"
 RangerStation_Blocks: INCBIN "maps/RangerStation.blk"
 
-INCLUDE "data/maps/headers/BikeGate.asm"
-INCLUDE "scripts/BikeGate.asm"
-INCLUDE "data/maps/objects/BikeGate.asm"
-BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
 
-SECTION "Maps 23", ROMX
-
-INCLUDE "data/maps/headers/CinnabarLab.asm"
-INCLUDE "scripts/CinnabarLab.asm"
-INCLUDE "data/maps/objects/CinnabarLab.asm"
-CinnabarLab_Blocks: INCBIN "maps/CinnabarLab.blk"
-
-INCLUDE "data/maps/headers/AmethystArchive.asm"
-INCLUDE "scripts/AmethystArchive.asm"
-INCLUDE "data/maps/objects/AmethystArchive.asm"
-AmethystArchive_Blocks: INCBIN "maps/AmethystArchive.blk"
 
 
 

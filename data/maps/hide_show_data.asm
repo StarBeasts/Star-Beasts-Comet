@@ -109,7 +109,7 @@ MapHSPointers:
 	dw SSAnne2FRoomsHS
 	dw SSAnneB1FRoomsHS
 	dw MoleHoleHS
-	dw NoHS
+	dw CelagoneCityHS
 	dw NoHS
 	dw VictoryRoad1FHS
 	dw OwaiHotelHS
@@ -155,7 +155,7 @@ MapHSPointers:
 	dw MrFujisHouseHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw FuchsiaMartHS
 	dw NoHS
 	dw NoHS
 	dw WardensHouseHS
@@ -164,7 +164,7 @@ MapHSPointers:
 	dw NoHS
 	dw SeafoamIslandsB1FHS
 	dw SeafoamIslandsB2FHS
-	dw SeafoamIslandsB3FHS
+	dw NoHS
 	dw SeafoamIslandsB4FHS
 	dw NoHS
 	dw NoHS
@@ -273,9 +273,8 @@ PewterCityHS:
 CeruleanCityHS:
 	db CERULEAN_CITY, $01, HIDE
 	db CERULEAN_CITY, $02, SHOW
-	db CERULEAN_CITY, $06, HIDE
-	db CERULEAN_CITY, $0A, SHOW
-	db CERULEAN_CITY, $0B, SHOW
+	db CERULEAN_CITY, $06, SHOW
+	db CERULEAN_CITY, $0A, HIDE
 CeladonCityHS:
 	db CELADON_CITY, $0A, SHOW
 	db CELADON_CITY, $0B, HIDE
@@ -314,6 +313,7 @@ Route12HS:
 Route15HS:
 	db ROUTE_15, $0A, SHOW
 	db ROUTE_15, $0B, SHOW
+	db ROUTE_15, $0C, SHOW
 Route16HS:
 	db ROUTE_16, $07, SHOW
 Route22HS:
@@ -524,6 +524,7 @@ PokemonMansionB1FHS:
 	db POKEMON_MANSION_B1F, $05, SHOW
 	db POKEMON_MANSION_B1F, $06, SHOW
 	db POKEMON_MANSION_B1F, $08, SHOW
+	db POKEMON_MANSION_B1F, $0B, SHOW
 SafariZoneEastHS:
 	db SAFARI_ZONE_EAST, $01, SHOW
 	db SAFARI_ZONE_EAST, $02, SHOW
@@ -561,11 +562,6 @@ SeafoamIslandsB1FHS:
 SeafoamIslandsB2FHS:
 	db SEAFOAM_ISLANDS_B2F, $01, SHOW
 	db SEAFOAM_ISLANDS_B2F, $02, SHOW
-SeafoamIslandsB3FHS:
-	db SEAFOAM_ISLANDS_B3F, $02, SHOW
-	db SEAFOAM_ISLANDS_B3F, $03, SHOW
-	db SEAFOAM_ISLANDS_B3F, $05, HIDE
-	db SEAFOAM_ISLANDS_B3F, $06, HIDE
 SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $01, HIDE
 	db SEAFOAM_ISLANDS_B4F, $02, HIDE
@@ -602,7 +598,6 @@ CeladonMansion2FHS:
 IndigoPlateauHS:
 	db INDIGO_PLATEAU, $05, SHOW
 	db INDIGO_PLATEAU, $06, SHOW
-	db INDIGO_PLATEAU, $0A, SHOW
 RockTunnelB1FHS:
 	db ROCK_TUNNEL_B1F, $09, SHOW
 VictoryRoad3FHS:
@@ -610,5 +605,11 @@ VictoryRoad3FHS:
 Route8GateHS:
 	db ROUTE_8_GATE, $01, SHOW
 	db ROUTE_8_GATE, $02, HIDE
+FuchsiaMartHS:
+	db FUCHSIA_MART, $01, HIDE
+	db FUCHSIA_MART, $04, SHOW
+	db FUCHSIA_MART, $05, HIDE
+CelagoneCityHS:
+	db CELAGONE_CITY, $02, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

@@ -17,7 +17,7 @@ MtMoonB2F_Object:
 	def_object_events
 	object_event 18, 18, SPRITE_ERIKA, STAY, RIGHT, 1, OPP_SUPER_NERD, 2
 	object_event 20, 36, SPRITE_ROCKET, STAY, DOWN, 2, OPP_ROCKET, 1
-	object_event 29, 34, SPRITE_ROCKET, STAY, RIGHT, 3, OPP_ROCKET, 2
+	object_event 29, 34, SPRITE_YOUNGSTER, STAY, RIGHT, 3, OPP_BUG_CATCHER, 7
 	object_event 35, 19, SPRITE_ROCKET, STAY, LEFT_RIGHT, 4, OPP_ROCKET, 3
 	object_event 35, 27, SPRITE_ROCKET, STAY, LEFT, 5, OPP_ROCKET, 4
 	object_event 18, 16, SPRITE_SOUL, STAY, NONE, 6 ; person

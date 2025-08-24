@@ -1,25 +1,40 @@
 _Route25BattleText1::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Once I've found"
+	line "all the secrets"
+	cont "of this cursed"
+	cont "place, I can use"
+	cont "its power to take"
+	cont "over RELAS!"
 
-	para "What about you?"
+	para "Whuh? What's that?"
+
+	para "Child! You cannot"
+	line "be allowed here!"
+
+	para "I will snuff"
+	line "you out!"
 	done
 
 _Route25EndBattleText1::
-	text "You're"
-	line "decent."
+	text "Tch."
+	line "Damnit."
 	prompt
 
 _Route25AfterBattleText1::
-	text "All BEASTS have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "A minor setback."
+	
+	para "It doesn't matter."
+
+	para "Once I know the"
+	line "everything about"
+	cont "this place, not"
+	cont "one soul will"
+	cont "stand a chance"
+	cont "against me again."
 	done
 
 _Route25BattleText2::
-	text "Dad took me to a"
+	text "Sayori!"
 	line "great party on"
 	cont "S.S.ANNE at"
 	cont "VERMILION CITY!"
@@ -37,7 +52,7 @@ _Route25AfterBattleText2::
 	done
 
 _Route25BattleText3::
-	text "I must defend"
+	text "Natsuki"
 	line "the honor of my"
 	cont "fair maiden!"
 	done
@@ -53,7 +68,7 @@ _Route25AfterBattleText3::
 	done
 
 _Route25BattleText4::
-	text "Oh, FLINT... why"
+	text "Monika"
 	line "are you like"
 	cont "this...?"
 
@@ -72,7 +87,7 @@ _Route25AfterBattleText4::
 	done
 
 _Route25BattleText5::
-	text "I knew I had to"
+	text "Yuri"
 	line "fight you!"
 	done
 
@@ -89,88 +104,128 @@ _Route25AfterBattleText5::
 	done
 
 _Route25BattleText6::
-	text "My friend has a"
-	line "cute BEAST."
-	cont "I'm so jealous!"
+	text "Agh... It hurts..."
+
+	para "Prying into my"
+	line "brain, like a"
+	cont "parasite..."
+
+	para "...!"
+
+	para "Oh, it's YOU!"
+	line "You're causing my"
+	cont "suffering!"
+
+	para "Then, if I tear"
+	line "you to pieces,"
+	cont "that infernal"
+	cont "sound will stop!"
 	done
 
 _Route25EndBattleText6::
-	text "I'm"
-	line "not so jealous!"
+	text "Ghh!"
+	line "Aaaaauuugggh!!!"
 	prompt
 
 _Route25AfterBattleText6::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a WHIRLIE?"
+	text "Even with these"
+	line "crystals, I can't"
+	cont "make the wretched"
+	cont "music leave my"
+	cont "head..."
+
+	para "PLEASE! PLEASE"
+	line "TELL ME YOU"
+	cont "HEAR IT, TOO!"
 	done
 
 _Route25BattleText7::
-	text "I'm a FUCHSIA"
-	line "CITY man looking"
-	cont "for a SAFFRON"
-	cont "CITY woman!"
+	text "Hey, you!"
+
+	para "Don't put your"
+	line "hands on my BUTT-"
+	cont "ON!"
 	done
 
 _Route25EndBattleText7::
-	text "You"
-	line "did pretty good!"
+	text "No!!"
+	line "Not my BUTTON!"
 	prompt
 
 _Route25AfterBattleText7::
-	text "Dagnabbit..."
-	line "Why ain't I got"
-	cont "one of them"
-	cont "flying BEASTS?"
+	text "Fine, press it!"
+
+	para "See if I care!"
 	done
 
 _Route25BattleText8::
-	text "I'm off to see a"
-	line "BEAST collector"
-	cont "at the cape!"
+	text "Don'tuseMUSCLE"
+	line "onDWAYNE!"
+	
+	para "Nothingwillhappen!"
 	done
 
 _Route25EndBattleText8::
-	text "You"
-	line "got me."
+	text "Huff..."
+	line "Huff, puff..."
 	prompt
 
 _Route25AfterBattleText8::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of BEASTS."
+	text "DON'T USE MUSCLE"
+	line "ON DWAYNE!"
+
+	para "NOTHING WILL"
+	line "HAPPEN!"
 	done
 
 _Route25BattleText9::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Howdy damn howdy!"
+
+	para "I'm JIM!"
+
+	para "I love a good"
+	line "battle, but I"
+	cont "love a good"
+	cont "meatball sub"
+	cont "even more!"
 	done
 
 _Route25EndBattleText9::
-	text "You're"
-	line "something."
+	text "That'sa"
+	line "spicy meatball!"
 	prompt
 
 _Route25AfterBattleText9::
-	text "The trail below"
-	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	text "If my sandwich"
+	line "doesn't get here"
+	cont "on time, I'm"
+	cont "choking that"
+	cont "bastard to death."
 
-	para "Just be sure to"
-	line "watch yer step,"
-	cont "eh?"
+	para "Don't mess around"
+	line "with a man's meal."
 	done
 
 _Route25Text11::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "!"
 	done
 
 _Route25Text12::
-	text "BILL'S SECRET"
-	line "GARDEN"
+	text "It's JIM's mixtape!"
+	prompt
 
-	para "KEEP OUT"
+_Route25Text13::
+	text "<PLAYER> found"
+	line "AWAKENING!"
+
+	para "..."
+
+	para "But it was empty..."
+
+	para "You get the"
+	line "sneaking sensation"
+	cont "that JIM might've"
+	cont "used it..."
 	done
+
 

@@ -4,10 +4,10 @@ Route12WildMons:
 	db 25, PIDGEY
 	db 23, PIDGEY
 	db 24, VENONAT
-	db 22, BELLSPROUT
-	db 26, VENONAT
 	db 26, BELLSPROUT
-	db 27, PIDGEY
+	db 26, VENONAT
+	db 22, LICKITUNG
+	db 23, LICKITUNG
 	db 28, WEEPINBELL
 	db 30, WEEPINBELL
 	end_grass_wildmons

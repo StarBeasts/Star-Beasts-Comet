@@ -16,6 +16,15 @@ SafariZoneSecretHouseText1:
 	ld hl, ReceivedHM03Text
 	call PrintText
 	SetEvent EVENT_GOT_HM03
+	ld a, HS_SAFFRON_CITY_E
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_SAFFRON_CITY_F
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	ld a, HS_GAME_CORNER_ROCKET
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	jr .done
 .bag_full
 	ld hl, HM03NoRoomText

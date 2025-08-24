@@ -54,15 +54,14 @@ _SilphCo9AfterBattleText1::
 
 _SilphCo9BattleText2::
 	text "Hey, someone I"
-	line "haven't fought,"
-	cont "yet!"
+	line "haven't fought!"
 
 	para "You're on, rookie!"
 	done
 
 _SilphCo9EndBattleText2::
-	text "You"
-	line "hammered me!"
+	text "Heh!"
+	line "You're tough!"
 	prompt
 
 _SilphCo9AfterBattleText2::
@@ -147,3 +146,62 @@ _SilphCo9Text11::
 	para "Maybe I should"
 	line "hit the hay..."
 	done
+
+_SilphCo9Text12::
+	text "THE THREE MANDATES"
+	
+	para "THESE GUIDING"
+	line "PRINCIPLES ARE"
+	cont "WHAT ALL RANGERS"
+	cont "MUST STRIVE"
+	cont "TOWARDS"
+
+	para "MANDATE 1"
+
+	para "IT IS A RANGER'S"
+	line "DUTY TO PROTECT"
+	cont "LIFE, BE IT"
+	cont "HUMAN OR BEAST"
+	done
+
+_SilphCo9Text13::
+	text "MANDATE 2"
+
+	para "RANGERS MUST NOT"
+	line "FIGHT AMONGST"
+	cont "THEMSELVES"
+
+	para "THE GREATER GOOD"
+	line "IS THE ONLY THING"
+	cont "THAT MATTERS IN"
+	cont "THIS LIFE."
+
+	para "INFIGHTING MUST"
+	line "BE QUASHED AT"
+	cont "ANY COST"
+	done
+
+_SilphCo9Text14::
+	text "MANDATE 3"
+
+	para "EACH RANGER MUST"
+	line "BE AS A LINK"
+	cont "IN THE CHAIN"
+
+	para "NO ONE RANGER MAY"
+	line "PLACE HIS OR HER"
+	cont "NEEDS ABOVE THE"
+	cont "NEEDS OF OTHER"
+	cont "RANGERS OR THE"
+	cont "GREATER GOOD"
+
+	para "SELF-INTEREST MUST"
+	line "BE PUNISHED, BOTH"
+	cont "SWIFTLY AND"
+	cont "SEVERELY"
+
+	para "Go forth, and"
+	line "serve the people,"
+	cont "your community!"
+	done
+

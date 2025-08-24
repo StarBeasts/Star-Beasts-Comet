@@ -135,6 +135,9 @@ SilphCo9F_TextPointers:
 	dw SilphCo9Text9
 	dw SilphCo9Text10
 	dw SilphCo9Text11
+	dw SilphCo9Text12
+	dw SilphCo9Text13
+	dw SilphCo9Text14
 
 SilphCo9TrainerHeaders:
 	def_trainers 2
@@ -228,4 +231,17 @@ SilphCo9Text10:
 SilphCo9Text11:
 	text_far _SilphCo9Text11
 	text_end
+
+SilphCo9Text12:
+	text_far _SilphCo9Text12
+	text_end
+
+SilphCo9Text13:
+	text_far _SilphCo9Text13
+	text_end
+
+SilphCo9Text14:
+	text_far _SilphCo9Text14
+	text_end
+
 

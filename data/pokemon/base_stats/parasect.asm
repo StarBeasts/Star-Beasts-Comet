@@ -1,6 +1,6 @@
 	db DEX_PARASECT ; pokedex id
 
-	db  30,  110,  50,  88,  135
+	db  30,  110,  67,  88,  135
 	;   hp  atk  def  spd  spc
 
 	db STEEL, FIGHTING ; type

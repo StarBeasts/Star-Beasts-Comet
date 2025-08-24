@@ -357,7 +357,6 @@ CeruleanCityText5:
 	text_far _CeruleanCityText5
 	text_end
 
-CeruleanCityText11:
 CeruleanCityText6:
 	text_far _CeruleanCityText6
 	text_end
@@ -447,11 +446,32 @@ CeruleanCityText_1977e:
 	text_end
 
 CeruleanCityText9:
-	text_far _CeruleanCityText9
+	text_asm
+	CheckEvent EVENT_GOT_BICYCLE
+	jr nz, .Nugget
+	ld hl, .ReviveText
+	call PrintText
+	jr .done
+.Nugget
+	ld hl, .NuggetText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.ReviveText
+	text_far _CeruleanCityReviveText
+	text_end
+
+.NuggetText
+	text_far _CeruleanCityNuggetText
 	text_end
 
 CeruleanCityText10:
 	text_far _CeruleanCityText10
+	text_end
+
+CeruleanCityText11:
+	text_far _CeruleanCityText11
 	text_end
 
 CeruleanCityText12:
