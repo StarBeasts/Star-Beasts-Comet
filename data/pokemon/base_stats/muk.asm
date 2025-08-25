@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/muk.pic", 0, 1 ; sprite dimensions
 	dw MukPicFront, MukPicBack
 
-	db SLUDGE, DRAGONBREATH, FLAMETHROWER, BODY_SLAM ; level 1 learnset
+	db SLUDGE, DRAGONBREATH, BODY_SLAM, FLAMETHROWER ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
