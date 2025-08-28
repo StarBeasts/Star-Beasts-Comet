@@ -43,6 +43,10 @@ TryDoWildEncounter:
 	ld a, [wCurMap]
 	cp ROUTE_8_GATE
 	jr z, .CantEncounter2
+	
+	ld a, [wCurMap]
+	cp CINNABAR_LAB_TRADE_ROOM
+	jr z, .CantEncounter2
 
 	ld a, [wCurMapTileset]
 	cp HILL

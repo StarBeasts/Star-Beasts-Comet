@@ -20,10 +20,11 @@ SuperRodData:
 	dbw MT_MOON_B1F,         .Group12
 	dbw CERULEAN_GYM,        .Group3
 	dbw BLOODSTONE_BAY,      .Group10
+	dbw UNDERGROUND_PATH_ROUTE_7,      .Group7
 	dbw UNDERGROUND_PATH_ROUTE_8,      .Group6
 	dbw VERMILION_DOCK,      .Group4
 	dbw CELADON_MART_4F,     .Group5
-	dbw SEAFOAM_ISLANDS_B3F, .Group8
+	dbw SEAFOAM_ISLANDS_B3F, .Group7
 	dbw SEAFOAM_ISLANDS_B4F, .Group8
 	dbw SAFARI_ZONE_EAST,    .Group6
 	dbw SAFARI_ZONE_NORTH,   .Group6

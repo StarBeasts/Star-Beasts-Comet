@@ -161,7 +161,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw SeafoamIslandsB1FWildMons
 	dw SeafoamIslandsB2FWildMons
-	dw SeafoamIslandsB3FWildMons
+	dw NothingWildMons
 	dw SeafoamIslandsB4FWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -305,7 +305,6 @@ INCLUDE "data/wild/maps/SeaRoutes.asm"
 INCLUDE "data/wild/maps/SeafoamIslands1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB2F.asm"
-INCLUDE "data/wild/maps/SeafoamIslandsB3F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB4F.asm"
 INCLUDE "data/wild/maps/PokemonMansion1F.asm"
 INCLUDE "data/wild/maps/PokemonMansion2F.asm"

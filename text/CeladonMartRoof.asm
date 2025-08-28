@@ -213,7 +213,7 @@ _CeladonMartRoofText13::
 	done
 
 _CeladonMartRoofText14::
-	text "A shooting game!"
+	text "An FPS game!"
 	line "Dad'll like that!"
 	done
 
