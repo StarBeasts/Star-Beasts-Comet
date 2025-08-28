@@ -675,9 +675,10 @@ RocketData:
 CooltrainerMData:
 ; Viridian Gym
 	db 39, NIDORINA, NIDOQUEEN, 0
-; Victory Road 3F
-	db 43, VICTREEBEL, CLOYSTER, ARCANINE, 0
-	db 43, KINGLER, JOLTEON, TENTACOOL, 0
+; Forest Maze(?)
+	db 44, VICTREEBEL, CLOYSTER, ARCANINE, 0
+; Indigo Hill
+	db 46, KINGLER, JOLTEON, TENTACOOL, 0
 ; X Isle Xterior
 	db 40, MAGMAR, ELECTABUZZ, 0
 ; Indigo Entrance
@@ -690,13 +691,15 @@ CooltrainerMData:
 ; Viridian Gym
 	db 39, STARYU, STARMIE, 0
 	db 43, CHANSEY, 0
+; Victory Road 1F
+	db 42, VENONAT, KADABRA, MACHOKE, HAUNTER, 0
 
 CooltrainerFData:
 ; Celadon Gym
 	db 26, WEEPINBELL, DROWZEE, IVYSAUR, 0
 ; Victory Road 3F
-	db 43,VICTREEBEL,TENTACOOL,NIDOQUEEN,0
-	db 43, PARASECT, PINSIR, CHANSEY, 0
+	db 45,VICTREEBEL,TENTACOOL,NIDOQUEEN,0
+	db 44, PARASECT, PINSIR, CHANSEY, 0
 ; Gai Co
 	db 34,GLOOM,PERSIAN,0
 ; Victory Road 1F

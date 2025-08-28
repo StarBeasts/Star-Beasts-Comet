@@ -37,7 +37,7 @@ VictoryRoad2F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  4, 34, SPRITE_HIKER, STAY, LEFT, 1, OPP_BLACKBELT, 9
+	object_event  4, 34, SPRITE_COOLTRAINER_M, STAY, LEFT, 1, OPP_COOLTRAINER_M, 2
 	object_event 55, 19, SPRITE_SUPER_NERD, STAY, ANY_DIR, 2, OPP_JUGGLER, 2
 	object_event  3, 54, SPRITE_COOLTRAINER_M, STAY, ANY_DIR, 3, OPP_TAMER, 5
 	object_event 56, 43, SPRITE_SUPER_NERD, STAY, DOWN, 4, OPP_POKEMANIAC, 6

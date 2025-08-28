@@ -32,7 +32,7 @@ VictoryRoad2TrainerHeader1:
 VictoryRoad2TrainerHeader2:
 	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_2, 3, VictoryRoad2BattleText3, VictoryRoad2EndBattleText3, VictoryRoad2AfterBattleText3
 VictoryRoad2TrainerHeader3:
-	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3, 1, VictoryRoad2BattleText4, VictoryRoad2EndBattleText4, VictoryRoad2AfterBattleText4
+	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3, 3, VictoryRoad2BattleText4, VictoryRoad2EndBattleText4, VictoryRoad2AfterBattleText4
 VictoryRoad2TrainerHeader4:
 	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_4, 3, VictoryRoad2BattleText5, VictoryRoad2EndBattleText5, VictoryRoad2AfterBattleText5
 	db -1 ; end
