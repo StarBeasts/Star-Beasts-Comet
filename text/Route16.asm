@@ -111,7 +111,7 @@ _Route16Text7::
 	done
 
 _Route16Text10::
-	text "SLOBBIX woke up!"
+	text "GOBBLORC woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
@@ -119,7 +119,7 @@ _Route16Text10::
 
 _Route16Text11::
 	text "With a big yawn,"
-	line "SLOBBIX returned"
+	line "GOBBLORC returned"
 	cont "to its swamp!"
 	done
 

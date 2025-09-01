@@ -7,7 +7,7 @@ _VermilionHouse1Text1::
 	done
 
 _VermilionHouse1Text2::
-	text "SLOBBIX: ZZZzzz...@"
+	text "GOBBLORC:ZZZzzz...@"
 	text_end
 
 _VermilionHouse1Text3::

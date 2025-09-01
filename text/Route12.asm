@@ -4,14 +4,14 @@ _Route12Text1::
 	done
 
 _Route12Text13::
-	text "SLOBBIX woke up!"
+	text "GOBBLOR woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12Text14::
-	text "SLOBBIX calmed"
+	text "GOBBLOR calmed"
 	line "down! With a big"
 	cont "yawn, it returned"
 	cont "to its swamp!"

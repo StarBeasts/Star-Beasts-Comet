@@ -163,6 +163,6 @@ _SSAnne9EndBattleText4::
 _SSAnne9AfterBattleText4::
 	text "Wonder where's"
 	line "I could get a"
-	cont "SLOBBIX like"
+	cont "GOBBLORC like"
 	cont "that guy said..."
 	done

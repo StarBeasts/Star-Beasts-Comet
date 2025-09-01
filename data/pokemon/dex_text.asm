@@ -79,13 +79,13 @@ _SlowbroDexEntry::
 	dex
 
 _IvysaurDexEntry::
-    text "Competitive by"
-    next "nature, they"
-    next "fight for mates."
+    text "Using their mighty"
+    next "fists, they all"
+    next "fashion a 'shell'"
 
-    page "The ones with"
-    next "hardier bricks"
-    next "usually win"
+    page "they wear made"
+    next "out of collected"
+    next "bricks and debris"
     dex
 _ExeggutorDexEntry::
 	text "They are GHOSTS"
@@ -626,7 +626,7 @@ _PoliwagDexEntry::
 
 	page "People have used"
 	next "them as batteries"
-	next "for centuries"
+	next "for a century"
 	dex
 
 _JynxDexEntry::
@@ -1280,13 +1280,13 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-     text "A cheerful plant"
-     next "with a pep in"
-     next "its step."
+     text "In Spring, they"
+     next "grow beautiful"
+     next "pink flowers that"
 
-     page "It likes to groom"
-     next "its leaves often"
-     next "until shiny"
+     page "wilt and produce"
+     next "thick, tart pears"
+     next "in the Summer"
      dex
 
 _VenusaurDexEntry::
@@ -1294,8 +1294,8 @@ _VenusaurDexEntry::
     next "it only moves"
     next "for sunlight."
 
-    page "Many creatures"
-    next "stow away in the"
+    page "Small animals take"
+    next "shelter in the"
     next "trees on its head"
     dex
 

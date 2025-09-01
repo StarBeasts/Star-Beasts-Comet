@@ -46,13 +46,13 @@ _SSAnne6Text4::
 
 _SSAnne6Text5::
 	text "Did you hear about"
-	line "SLOBBIX?"
+	line "GOBBLORC?"
 
 	para "All it does is"
 	line "eat and sleep!"
 
 	para "Wish I were a"
-	line "SLOBBIX..."
+	line "GOBBLORC..."
 	done
 
 _SSAnne6Text6::

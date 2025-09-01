@@ -255,9 +255,9 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SILPH_CO_9F,                   13,  15 ; $E9
 	map_const SILPH_CO_10F,                   9,  9 ; $EA
 	map_const SILPH_CO_11F,                   9,  9 ; $EB
-	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC
+	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC ; not currently used
 	map_const BIKE_GATE,                      4,  4 ; $ED
-	map_const UNUSED_MAP_EE,                  0,  0 ; $EE
+	map_const UNUSED_MAP_EE,                  0,  0 ; $EE ; this and F1 can be reserved for 4.0 if needed, probably for Ranger Station stuff
 	map_const TRADE_CENTER,                   5,  4 ; $EF
 	map_const COLOSSEUM,                      5,  4 ; $F0
 	map_const UNUSED_MAP_F1,                  0,  0 ; $F1
@@ -267,13 +267,12 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const LORELEIS_ROOM,                  5,  6 ; $F5
 	map_const BRUNOS_ROOM,                    5,  6 ; $F6
 	map_const AGATHAS_ROOM,                   5,  6 ; $F7
-	; map_const EMPTY_MAP,                   5,  6 ; $F8
-	; map_const EMPTY_MAP,                   5,  6 ; $F9
-	; map_const EMPTY_MAP,                   5,  6 ; $FA
-	; map_const EMPTY_MAP,                   5,  6 ; $FB
-	; map_const EMPTY_MAP,                   5,  6 ; $FC
-	; map_const EMPTY_MAP,                   5,  6 ; $FD
-	; map_const EMPTY_MAP,                   5,  6 ; $FE
+	; map_const MOON                   5,  6 ; $F8 ; four "planet" maps for spaceship to keep scope reasonable
+	; map_const MERCURY,                   5,  6 ; $F9
+	; map_const VENUS,                   5,  6 ; $FA
+	; map_const MARS,                   5,  6 ; $FB
+	; map_const EMPTY_MAP,                   5,  6 ; $FC ; not used, spare map
+	; map_const EMPTY_MAP,                   5,  6 ; $FD ; same, FE and FF CANNOT BE USED
 DEF NUM_MAPS EQU const_value
 
 ; Indoor maps, such as houses, use this as the Map ID in their exit warps

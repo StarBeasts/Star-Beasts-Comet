@@ -11,6 +11,13 @@ _Route2HouseText3::
 
 	para "That's basically"
 	line "a plant scientist!"
+
+	para "Did you know that"
+	line "QUINCY is the"
+	cont "only member of"
+	cont "its evolutionary"
+	cont "line that produces"
+	cont "fruit?"
 	done
 
 _Route2HouseText4::
