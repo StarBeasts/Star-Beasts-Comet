@@ -20,7 +20,7 @@ TryDoWildEncounter:
 	and a
 	jr z, .next
 	dec a
-	jr z, .lastRepelStep
+	jp z, .lastRepelStep
 	ld [wRepelRemainingSteps], a
 .next
 ; determine if wild pokemon can appear in the half-block we're standing in
@@ -42,7 +42,7 @@ TryDoWildEncounter:
 ; Maps with Hill Tileset that shouldn't spawn encounters
 	ld a, [wCurMap]
 	cp ROUTE_8_GATE
-	jr z, .CantEncounter2
+	jp z, .CantEncounter2
 	
 	ld a, [wCurMap]
 	cp CINNABAR_LAB_TRADE_ROOM
@@ -57,6 +57,16 @@ TryDoWildEncounter:
 	jr c, .CantEncounter2
 	ld a, [wCurMapTileset]
 	cp FOREST ; Viridian Forest/Safari Zone
+	jr z, .CantEncounter2
+	ld a, [wGrassRate]
+	
+	ld a, [wCurMap]
+	cp DIGLETTS_CAVE_ROUTE_11
+	jr z, .CantEncounter2
+	ld a, [wGrassRate]
+	
+	ld a, [wCurMap]
+	cp ROUTE_7_GATE
 	jr z, .CantEncounter2
 	ld a, [wGrassRate]
 .CanEncounter
