@@ -239,6 +239,7 @@ DEF SHOW EQU $15
 	const HS_OWAI					  ; E4
 	const HS_VULTURNUS			       ; E5
 	const HS_ROUTE_20_GUARD			  ; E6
+	const HS_VILLA_LUCIAN
 	const HS_VILLA_LAPRAS_GIFT		       ; E7
 	const HS_FLEWNICORN
 	const HS_DIGLETTS_CAVE_BOULDER_1

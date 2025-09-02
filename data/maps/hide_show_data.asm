@@ -115,7 +115,7 @@ MapHSPointers:
 	dw OwaiHotelHS
 	dw VultMazeHS
 	dw NoHS
-	dw NoHS
+	dw VillaB1FHS
 	dw NoHS
 	dw Villa2FHS
 	dw NoHS
@@ -569,6 +569,8 @@ VultMazeHS:
 	db VULT_MAZE, $01, SHOW
 Route20HS:
 	db ROUTE_20, $0B, SHOW ; hides if set to hide, so it clearly works to SOME extent
+VillaB1FHS:
+	db VILLA_B1F, $03, SHOW ; LUCIAN
 Villa2FHS:
 	db VILLA_2F, $01, SHOW ; mon gift
 SecretGardenHS:
