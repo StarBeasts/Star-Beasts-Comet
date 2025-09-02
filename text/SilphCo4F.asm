@@ -30,15 +30,20 @@ _SilphCo4BattleText3::
 	done
 
 _SilphCo4EndBattleText3::
-	text "Darn!"
-	line "You weak BEASTS!"
+	text "Aargh!"
+	line "My troops have"
+	cont "fallen!"
 	prompt
 
 _SilphCo4AfterBattleText3::
-	text "The doors are"
-	line "electronically"
-	cont "locked! A CARD"
-	cont "KEY opens them!"
+	text "GAI CO. built"
+	line "this place on"
+	cont "top of an old"
+	cont "underground lab!"
+
+	para "I wonder what"
+	line "they used to do"
+	cont "down there..."
 	done
 
 _SilphCo4BattleText4::

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/snorlax.pic", 0, 1 ; sprite dimensions
 	dw SnorlaxPicFront, SnorlaxPicBack
 
-	db POISON_FANG, REST, BITE, BODY_SLAM ; level 1 learnset
+	db BITE, REST, POISON_FANG, BODY_SLAM ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
