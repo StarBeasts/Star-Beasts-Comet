@@ -13,10 +13,10 @@ PokemonMansion3F_Object:
 	object_event  1, 16, SPRITE_POKE_BALL, STAY, NONE, 3, MAX_POTION
 	object_event  1, 10, SPRITE_POKE_BALL, STAY, NONE, 4, IRON
 	object_event  6, 13, SPRITE_POKEDEX, STAY, NONE, 5 ; person
-	object_event  7, 13, SPRITE_POKEDEX, STAY, NONE, 7 ; person
-	object_event 18,  5, SPRITE_POKEDEX, STAY, NONE, 8 ; person
-	object_event 19,  5, SPRITE_POKEDEX, STAY, NONE, 9 ; person
-	object_event  23, 15, SPRITE_REMNANT, STAY, LEFT, 10 ; person
+	object_event  7, 13, SPRITE_POKEDEX, STAY, NONE, 6 ; person
+	object_event 18,  5, SPRITE_POKEDEX, STAY, NONE, 7 ; person
+	object_event 19,  5, SPRITE_POKEDEX, STAY, NONE, 8 ; person
+	object_event  23, 15, SPRITE_REMNANT, STAY, LEFT, 9 ; person
 
 
 	def_warps_to POKEMON_MANSION_3F

@@ -108,9 +108,11 @@ _Mansion2Text_520c2::
 	done
 
 _Mansion2Text_520c7::
-	text "Who wouldn't?"
+	text "You hear a"
+	line "loud clank in"
+	cont "the distance."
 	prompt
 
 _Mansion2Text_520cc::
-	text "Not quite yet!"
+	text "Maybe not."
 	done

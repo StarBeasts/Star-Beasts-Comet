@@ -78,7 +78,7 @@ Mansion3Script_Switches::
 	ret nz
 	xor a
 	ldh [hJoyHeld], a
-	ld a, $6
+	ld a, $0A
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
 
@@ -142,6 +142,10 @@ Mansion3Text5:
 	text_far _Mansion3Text5
 	text_end
 
+Mansion3Text6:
+	text_far _Mansion3Text6
+	text_end
+
 Mansion3Text7:
 	text_far _Mansion3Text7
 	text_end
@@ -152,9 +156,5 @@ Mansion3Text8:
 
 Mansion3Text9:
 	text_far _Mansion3Text9
-	text_end
-
-Mansion3Text10:
-	text_far _Mansion3Text10
 	text_end
 

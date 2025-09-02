@@ -35,7 +35,20 @@ _Mansion3AfterBattleText2::
 	done
 
 _Mansion3Text5::
-	text "Log: I narrowly"
+	text "Log 5: I narrowly"
+	line "escaped my"
+	cont "encounter with"
+	cont "ALVARIS."
+
+	para "The rest of my"
+	line "research team..."
+
+	para "They didn't make"
+	line "it..."
+	done
+
+_Mansion3Text6::
+	text "Log 6: I narrowly"
 	line "escaped my"
 	cont "encounter with"
 	cont "ALVARIS."
@@ -48,7 +61,7 @@ _Mansion3Text5::
 	done
 
 _Mansion3Text7::
-	text "Log: I narrowly"
+	text "Log 7: I narrowly"
 	line "escaped my"
 	cont "encounter with"
 	cont "ALVARIS."
@@ -61,7 +74,7 @@ _Mansion3Text7::
 	done
 
 _Mansion3Text8::
-	text "Log: I narrowly"
+	text "Log 8: I narrowly"
 	line "escaped my"
 	cont "encounter with"
 	cont "ALVARIS."
@@ -74,19 +87,6 @@ _Mansion3Text8::
 	done
 
 _Mansion3Text9::
-	text "Log: I narrowly"
-	line "escaped my"
-	cont "encounter with"
-	cont "ALVARIS."
-
-	para "The rest of my"
-	line "research team..."
-
-	para "They didn't make"
-	line "it..."
-	done
-
-_Mansion3Text10::
 	text "Water, water..."
 	
 	para "Everywhere..."
