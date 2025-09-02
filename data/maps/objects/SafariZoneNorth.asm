@@ -17,6 +17,6 @@ SafariZoneNorth_Object:
 
 	def_object_events
 	object_event 21, 15, SPRITE_POKE_BALL, STAY, NONE, 1, PROTEIN
-	object_event 18, 10, SPRITE_POKE_BALL, STAY, NONE, 2, TM_SKULL_BASH
+	object_event 18, 10, SPRITE_POKE_BALL, STAY, NONE, 2, TM_HORN_DRILL
 
 	def_warps_to SAFARI_ZONE_NORTH

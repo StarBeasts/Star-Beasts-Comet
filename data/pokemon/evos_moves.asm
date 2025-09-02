@@ -2118,8 +2118,8 @@ PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 31, THUNDER_WAVE
-	db 31, AGILITY
+	db 26, AGILITY
+	db 30, THUNDER_WAVE
 	db 35, RECOVER
 	db 45, TRI_ATTACK
 	db 50, SWORDS_DANCE

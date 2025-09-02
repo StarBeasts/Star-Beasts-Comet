@@ -134,6 +134,12 @@ _RocketHideout4BattleText4::
 
 	para "Hear my call..."
 
+	para "I, by the name"
+	line "of MACKENZIE,"
+	cont "SORCERESS of"
+	cont "FIRE, do so"
+	cont "beseech you..."
+
 	para "Destroy this"
 	line "affront to your"
 	cont "plane of..."

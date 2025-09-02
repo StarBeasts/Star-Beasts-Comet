@@ -9,15 +9,15 @@ _Route2HouseText3::
 	text "I'm studying to"
 	line "be a phytologist!"
 
-	para "That's basically"
-	line "a plant scientist!"
+	para "That's basically a"
+	line "plant scientist!"
 
 	para "Did you know that"
 	line "QUINCY is the"
 	cont "only member of"
 	cont "its evolutionary"
-	cont "line that produces"
-	cont "fruit?"
+	cont "line that"
+	cont "produces fruit?"
 	done
 
 _Route2HouseText4::

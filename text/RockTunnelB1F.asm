@@ -32,12 +32,16 @@ _RockTunnel2AfterBattleText3::
 _RockTunnel2BattleText4::
 	text "You have a"
 	line "#DEX?"
-	cont "I want one too!"
+
+	para "Well, I bet you"
+	line "don't have all"
+	cont "three of these!"
 	done
 
 _RockTunnel2EndBattleText4::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "But what"
+	line "you DO have is"
+	cont "talent! Hoo boy!"
 	prompt
 
 _RockTunnel2AfterBattleText4::
@@ -47,19 +51,58 @@ _RockTunnel2AfterBattleText4::
 	done
 
 _RockTunnel2BattleText5::
-	text "Do you know about"
-	line "cosplayers?"
+	text "Oh, it's you"
+	line "again."
+
+	para "Remember me?"
+
+	para "I'm the person"
+	line "you HUMILIATED at"
+	cont "MISERITE MEADOW."
+
+	para "Once again, you"
+	line "spit upon our"
+	cont "sacred rituals."
+
+	para "And once again,"
+	line "you will suffer"
+	cont "for it, child!"
 	done
 
 _RockTunnel2EndBattleText5::
-	text "Well,"
-	line "that's that."
+	text "..."
+	line "May there be a"
+	cont "Tartarus for you."
+
+	para "May it be bleak"
+	line "and unending."
 	prompt
 
 _RockTunnel2AfterBattleText5::
-	text "Cosplayers"
-	line "dress up as"
-	cont "#BIEs for fun."
+	text "SIVAKR, or SIVAK,"
+	line "the DRAGON of the"
+	cont "ABYSS..."
+
+	para "As a MANCER, he"
+	line "should be mine"
+	cont "by birthright."
+
+	para "But fate, it"
+	line "would seem, has"
+	cont "deemed me to"
+	cont "be unworthy."
+
+	para "May he be forever"
+	line "unfulfilled in"
+	cont "your hands."
+
+	para "I return now,"
+	line "to MISERITE."
+
+	para "My duties are of"
+	line "more importance"
+	cont "than these petty"
+	cont "squabbles."
 	done
 
 _RockTunnel2BattleText6::
