@@ -163,7 +163,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw SeafoamIslandsB1FHS
-	dw SeafoamIslandsB2FHS
+	dw NoHS
 	dw NoHS
 	dw SeafoamIslandsB4FHS
 	dw NoHS
@@ -559,9 +559,6 @@ SeafoamIslands1FHS:
 SeafoamIslandsB1FHS:
 	db SEAFOAM_ISLANDS_B1F, $01, HIDE
 	db SEAFOAM_ISLANDS_B1F, $02, HIDE
-SeafoamIslandsB2FHS:
-	db SEAFOAM_ISLANDS_B2F, $01, SHOW
-	db SEAFOAM_ISLANDS_B2F, $02, SHOW
 SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $01, HIDE
 	db SEAFOAM_ISLANDS_B4F, $02, HIDE
@@ -599,6 +596,7 @@ IndigoPlateauHS:
 	db INDIGO_PLATEAU, $05, SHOW
 	db INDIGO_PLATEAU, $06, SHOW
 RockTunnelB1FHS:
+	db ROCK_TUNNEL_B1F, $04, SHOW
 	db ROCK_TUNNEL_B1F, $09, SHOW
 VictoryRoad3FHS:
 	db VICTORY_ROAD_3F, $01, SHOW

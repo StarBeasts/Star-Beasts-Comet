@@ -158,7 +158,17 @@ RockTunnel2EndBattleText5:
 
 RockTunnel2AfterBattleText5:
 	text_far _RockTunnel2AfterBattleText5
-	text_end
+	text_asm
+	call GBFadeOutToBlack
+	ld a, HS_MACKENZIE
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	call Delay3
+	ld a, SFX_GO_INSIDE
+	call PlaySound
+	call Delay3
+	call GBFadeInFromBlack
+ 	jp TextScriptEnd
 
 RockTunnel2BattleText6:
 	text_far _RockTunnel2BattleText6
