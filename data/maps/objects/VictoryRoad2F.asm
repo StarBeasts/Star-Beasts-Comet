@@ -35,6 +35,8 @@ VictoryRoad2F_Object:
 	warp_event 57,  0, INDIGO_PLATEAU, 4
 
 	def_bg_events
+	bg_event  8, 56, 10 
+	bg_event 40,  4, 11
 
 	def_object_events
 	object_event  4, 34, SPRITE_COOLTRAINER_M, STAY, LEFT, 1, OPP_COOLTRAINER_M, 2

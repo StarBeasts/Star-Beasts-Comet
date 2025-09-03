@@ -22,6 +22,9 @@ VictoryRoad2F_TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
+	dw VictoryRoad2Text10
+	dw VictoryRoad2Text11
+
 
 VictoryRoad2TrainerHeaders:
 	def_trainers
@@ -125,4 +128,12 @@ VictoryRoad2EndBattleText5:
 
 VictoryRoad2AfterBattleText5:
 	text_far _VictoryRoad2AfterBattleText5
+	text_end
+
+VictoryRoad2Text10:
+	text_far _VictoryRoad2Text10
+	text_end
+
+VictoryRoad2Text11:
+	text_far _VictoryRoad2Text11
 	text_end

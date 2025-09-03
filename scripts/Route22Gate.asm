@@ -55,6 +55,8 @@ Route22GateScript2:
 
 Route22Gate_TextPointers:
 	dw Route22GateText1
+	dw Route22GateText2
+	dw Route22GateText3
 
 Route22GateText1:
 	text_asm
@@ -91,3 +93,13 @@ Route22GateText_1e71a:
 	text_far _Route22GateText_1e71a
 	sound_get_item_1
 	text_end
+
+Route22GateText2:
+	text_far _Route22GateText2
+	text_end
+
+Route22GateText3:
+	text_far _Route22GateText3
+	text_end
+
+

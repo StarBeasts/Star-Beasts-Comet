@@ -84,3 +84,24 @@ _VictoryRoad2AfterBattleText5::
 	line "up the challenge"
 	cont "here."
 	done
+
+_VictoryRoad2Text10::
+	text "WULFENITE WOODS"
+
+	para "There are many"
+	line "paths to victory,"
+	cont "but only one will"
+	cont "carry you forward."
+	done
+
+_VictoryRoad2Text11::
+	text "If you enter this"
+	line "door, you'll be"
+	cont "taken back to"
+	cont "the beginning."
+
+	para "This is no time"
+	line "to turn back."
+	done
+
+
