@@ -6,10 +6,10 @@ PokemonMansion1FWildMons:
 	db 30, PONYTA
 	db 34, VULPIX
 	db 32, PONYTA
-	db 30, KOFFING
+	db 30, LICKITUNG
 	db 28, PONYTA
-	db 37, MUK
-	db 39, WEEZING
+	db 37, CLEFABLE
+	db 39, RHYHORN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

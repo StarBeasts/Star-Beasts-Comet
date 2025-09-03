@@ -22,6 +22,7 @@ Route21_TextPointers:
 	dw Route21Text7
 	dw Route21Text8
 	dw Route21Text9
+	dw Route21Text10
 
 Route21TrainerHeaders:
 	def_trainers
@@ -32,7 +33,7 @@ Route21TrainerHeader1:
 Route21TrainerHeader2:
 	trainer EVENT_BEAT_ROUTE_21_TRAINER_2, 4, Route21BattleText3, Route21EndBattleText3, Route21AfterBattleText3
 Route21TrainerHeader3:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_3, 4, Route21BattleText4, Route21EndBattleText4, Route21AfterBattleText4
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_3, 3, Route21BattleText4, Route21EndBattleText4, Route21AfterBattleText4
 Route21TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_21_TRAINER_4, 4, Route21BattleText5, Route21EndBattleText5, Route21AfterBattleText5
 Route21TrainerHeader5:
@@ -206,3 +207,8 @@ Route21EndBattleText9:
 Route21AfterBattleText9:
 	text_far _Route21AfterBattleText9
 	text_end
+
+Route21Text10:
+	text_far _Route21Text10
+	text_end
+

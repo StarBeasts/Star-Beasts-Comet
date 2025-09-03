@@ -14,7 +14,7 @@ SuperRodData:
 	dbw ROUTE_12,            .Group7
 	dbw ROUTE_19,            .Group8
 	dbw ROUTE_20,            .Group8
-	dbw ROUTE_21,            .Group8
+	dbw ROUTE_21,            .Group14
 	dbw ROUTE_22,            .Group3
 	dbw ROUTE_23,            .Group9
 	dbw MT_MOON_B1F,         .Group12
@@ -123,4 +123,12 @@ SuperRodData:
 	db 32,ARBOK
 	db 31,GYARADOS
 	db 33,LAPRAS
+
+.Group14:
+	db 4
+	db 25,SHELLDER
+	db 35,ARBOK
+	db 25,EKANS
+	db 20,EKANS
+
 

@@ -1,14 +1,14 @@
 Route9WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 36, VOLTORB
+	db 36, GOLDUCK
 	db 36, SPEAROW
-	db 34, VOLTORB
+	db 34, GOLDUCK
 	db 31, EKANS
-	db 33, SPEAROW
-	db 35, EKANS
-	db 37, GEODUDE
-	db 37, KRABBY
-	db 33, EKANS
+	db 33, FEAROW
+	db 35, ARBOK
+	db 33, PIDGEOTTO
+	db 37, KINGLER
+	db 37, RATTATA
 	db 15, CHARMANDER
 	end_grass_wildmons
 

@@ -1,21 +1,34 @@
 _Route21BattleText1::
-	text "You want to know"
-	line "if the fish are"
-	cont "biting?"
+	text "Ain't fishin' up"
+	line "nothin' good,"
+	cont "so how's about"
+	cont "a battle?"
 	done
 
 _Route21EndBattleText1::
-	text "Dang!"
+	text "Welp,"
+	line "tried our best,"
+	cont "didn't we?"
 	prompt
 
 _Route21AfterBattleText1::
-	text "I can't catch"
-	line "anything good!"
+	text "I raised MISTME"
+	line "here up from"
+	cont "when it was just"
+	cont "a hatchling!"
+
+	para "They're pretty"
+	line "good in a fight,"
+	cont "and not half bad"
+	cont "at catchin' fish,"
+	cont "neither!"
 	done
 
 _Route21BattleText2::
-	text "I got a big haul!"
-	line "Wanna go for it?"
+	text "Carnival's in"
+	line "town, kiddo!"
+
+	para "Wanna go for it?"
 	done
 
 _Route21EndBattleText2::
@@ -40,37 +53,50 @@ _Route21EndBattleText3::
 _Route21AfterBattleText3::
 	text "I like the"
 	line "mountains too!"
+
+	para "Have you been"
+	line "to QUARTZ QUARRY?"
 	done
 
 _Route21BattleText4::
-	text "What's wrong with"
-	line "me swimming?"
+	text "My critters are"
+	line "under attack!"
 	done
 
 _Route21EndBattleText4::
-	text "Cheap"
-	line "shot!"
+	text "Okay..."
 	prompt
 
 _Route21AfterBattleText4::
-	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	text "I loves ta sit"
+	line "wit da fishes..."
+
+	para "I ain't the"
+	line "fishin' type,"
+	cont "but the fellas"
+	cont "here don't mind."
+
+	para "It's a great way"
+	line "ta keep my head"
+	cont "cleah, boss."
 	done
 
 _Route21BattleText5::
-	text "I caught all my"
-	line "BEASTS at sea!"
+	text "I raised this"
+	line "HARLEFINN up"
+	cont "from a SILLISH!"
+
+	para "It was a lot"
+	line "of hard work!"
 	done
 
 _Route21EndBattleText5::
-	text "Diver!!"
-	line "Down!!"
+	text "Clowned!"
 	prompt
 
 _Route21AfterBattleText5::
-	text "Where'd you catch"
-	line "your BEASTS?"
+	text "How hard were your"
+	line "BEASTS to raise?"
 	done
 
 _Route21BattleText6::
@@ -79,20 +105,23 @@ _Route21BattleText6::
 	done
 
 _Route21EndBattleText6::
-	text "Pant..."
-	line "pant...pant..."
+	text "Huff..."
+	line "Phew..."
 	prompt
 
 _Route21AfterBattleText6::
 	text "I'm beat!"
-	line "But, I still have"
+	line "But I still have"
 	cont "the bike race and"
 	cont "marathon left!"
 	done
 
 _Route21BattleText7::
-	text "Ahh! Feel the sun"
-	line "and the wind!"
+	text "The water is so"
+	line "cool, and yet,"
+	cont "my skin!"
+
+	para "IT BURNS!"
 	done
 
 _Route21EndBattleText7::
@@ -106,8 +135,9 @@ _Route21AfterBattleText7::
 	done
 
 _Route21BattleText8::
-	text "Hey, don't scare"
-	line "away the fish!"
+	text "Can you NOT"
+	line "startle me when"
+	cont "I'm fishing!?"
 	done
 
 _Route21EndBattleText8::
@@ -116,9 +146,10 @@ _Route21EndBattleText8::
 	prompt
 
 _Route21AfterBattleText8::
-	text "I was just angry"
-	line "that I couldn't"
-	cont "catch anything."
+	text "I got ticked off"
+	line "because I haven't"
+	cont "caught a damned"
+	cont "thing, all day!"
 	done
 
 _Route21BattleText9::
@@ -127,11 +158,24 @@ _Route21BattleText9::
 	done
 
 _Route21EndBattleText9::
-	text "That"
-	line "killed some time."
+	text "Hah!"
+	line "Good company,"
+	cont "aren't you?"
 	prompt
 
 _Route21AfterBattleText9::
 	text "Oh wait! I got a"
 	line "bite! Yeah!"
 	done
+
+_Route21Text10::
+	text "FISHING OASIS"
+
+	para "ADVISORY: DRAKELET"
+	line "CAN LIVE IN WATER"
+	cont "AND ON LAND."
+
+	para "WATCH OUT FOR"
+	line "SNAKES!"
+	done
+

@@ -7,7 +7,7 @@ VultMazeWildMons:
 	db 15,MEOWTH
 	db 16,MEOWTH
 	db 16,PIKACHU
-	db 15,BUTTERFREE
+	db 15,BEEDRILL
 	db 17,PIDGEOTTO
 	db 20,PARASECT
 	end_grass_wildmons
