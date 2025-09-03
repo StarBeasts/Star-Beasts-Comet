@@ -33,11 +33,6 @@ Route20Script_50cc6:
 
 .asm_50cef
 	CheckBothEventsSet EVENT_SEAFOAM4_BOULDER1_DOWN_HOLE, EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE
-	ret z
-	ld a, HS_SEAFOAM_ISLANDS_B4F_BOULDER_1
-	call Route20Script_50d14
-	ld a, HS_SEAFOAM_ISLANDS_B4F_BOULDER_2
-	call Route20Script_50d14
 	ret
 
 Route20Script_50d0c:

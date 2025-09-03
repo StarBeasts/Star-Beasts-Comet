@@ -261,6 +261,9 @@ SilphCo7Script5:
 	ld a, HS_SILPH_CO_7F_RIVAL
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_SEAFOAM_ISLANDS_B2F_ROCKET
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	call PlayDefaultMusic
 	xor a
 	ld [wJoyIgnore], a

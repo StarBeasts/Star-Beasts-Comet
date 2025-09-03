@@ -163,7 +163,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw SeafoamIslandsB1FHS
-	dw NoHS
+	dw SeafoamIslandsB2FHS
 	dw NoHS
 	dw SeafoamIslandsB4FHS
 	dw NoHS
@@ -559,9 +559,9 @@ SeafoamIslands1FHS:
 SeafoamIslandsB1FHS:
 	db SEAFOAM_ISLANDS_B1F, $01, HIDE
 	db SEAFOAM_ISLANDS_B1F, $02, HIDE
+SeafoamIslandsB2FHS:
+	db SEAFOAM_ISLANDS_B1F, $01, SHOW
 SeafoamIslandsB4FHS:
-	db SEAFOAM_ISLANDS_B4F, $01, HIDE
-	db SEAFOAM_ISLANDS_B4F, $02, HIDE
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
 OwaiHotelHS:
 	db OWAI_HOTEL, $02, SHOW
