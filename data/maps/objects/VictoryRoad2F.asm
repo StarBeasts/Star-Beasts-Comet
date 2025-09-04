@@ -35,15 +35,15 @@ VictoryRoad2F_Object:
 	warp_event 57,  0, INDIGO_PLATEAU, 4
 
 	def_bg_events
-	bg_event  8, 56, 10 
+	bg_event  8, 56, 10
 	bg_event 40,  4, 11
 
 	def_object_events
 	object_event  4, 34, SPRITE_COOLTRAINER_M, STAY, LEFT, 1, OPP_COOLTRAINER_M, 2
-	object_event 55, 19, SPRITE_SUPER_NERD, STAY, ANY_DIR, 2, OPP_JUGGLER, 2
+	object_event 55, 19, SPRITE_FISHER, STAY, ANY_DIR, 2, OPP_JUGGLER, 2
 	object_event  3, 54, SPRITE_COOLTRAINER_M, STAY, ANY_DIR, 3, OPP_TAMER, 5
 	object_event 56, 43, SPRITE_SUPER_NERD, STAY, DOWN, 4, OPP_POKEMANIAC, 6
-	object_event  4,  8, SPRITE_SUPER_NERD, STAY, ANY_DIR, 5, OPP_JUGGLER, 5
+	object_event  4,  8, SPRITE_FISHER, STAY, ANY_DIR, 5, OPP_JUGGLER, 5
 	object_event 13, 26, SPRITE_POKE_BALL, STAY, NONE, 6, TM_SUBMISSION
 	object_event 13, 52, SPRITE_POKE_BALL, STAY, NONE, 7, FULL_HEAL
 	object_event 35, 48, SPRITE_POKE_BALL, STAY, NONE, 8, TM_DRAGON_CLAW

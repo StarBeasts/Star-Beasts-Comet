@@ -14,17 +14,30 @@ _VictoryRoad1AfterBattleText1::
 	done
 
 _VictoryRoad1BattleText2::
-	text "I can see you're"
-	line "good! Let me see"
-	cont "exactly how good!"
+	text "I was ordered to"
+	line "check to see if"
+	cont "you deserve to be"
+	cont "here, which means"
+	cont "I must judge you!"
 	done
 
 _VictoryRoad1EndBattleText2::
-	text "I"
-	line "had a chance..."
+	text "..."
+	line "Celebration for"
+	cont "your bravery!"
+
+	para "You deserve to"
+	line "be here!"
 	prompt
 
 _VictoryRoad1AfterBattleText2::
-	text "You're definitely"
-	line "CHAMPION material!"
+	text "I admire your"
+	line "courage."
+
+	para "You're well on"
+	line "your way to being"
+	cont "CHAMPION!"
+
+	para "Wishing you luck"
+	line "out there, kid!"
 	done

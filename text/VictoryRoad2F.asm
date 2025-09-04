@@ -1,88 +1,131 @@
 _VictoryRoad2BattleText1::
-	text "VICTORY ROAD is"
-	line "the final test"
+	text "WULFENITE WOODS"
+	line "is a test of wits"
 	cont "for trainers!"
+
+	para "You can't just"
+	line "win with brute"
+	cont "force! You have"
+	cont "to strategize!"
 	done
 
 _VictoryRoad2EndBattleText1::
-	text "Aiyah!"
+	text "Ghhhaaah!"
+
+	para "Pulverized!"
 	prompt
 
 _VictoryRoad2AfterBattleText1::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "If you're getting"
+	line "lost, try making"
+	cont "or drawing a map!"
+
+	para "This forest is"
+	line "smaller than"
+	cont "you'd think!"
 	done
 
 _VictoryRoad2BattleText2::
-	text "Ah, so you wish"
-	line "to challenge the"
-	cont "ELITE FOUR?"
+	text "So, hotshot."
+
+	para "You wanna fight"
+	line "the ELITE FOUR?"
 	done
 
 _VictoryRoad2EndBattleText2::
-	text "You"
-	line "got me!"
+	text "See you"
+	line "in my dreams..."
 	prompt
 
 _VictoryRoad2AfterBattleText2::
-	text "Some guy calling"
-	line "himself <RIVAL>"
-	cont "also came through"
-	cont "here!"
+	text "Some <RIVAL> guy"
+	line "came through"
+	cont "here, too!"
+
+	para "He had this real"
+	line "determined look"
+	cont "in his eyes, and"
+	cont "he took off this"
+	cont "turban thingy he"
+	cont "was wearing, and"
+	cont "he looked REALLY"
+	cont "cool doing it!"
 	done
 
 _VictoryRoad2BattleText3::
-	text "Come on!"
-	line "I'll whip you!"
+	text "Gotta move it,"
+	line "move it, move it!"
 	done
 
 _VictoryRoad2EndBattleText3::
-	text "I got"
-	line "whipped!"
+	text "Ka-slam!"
+	line "Unstoppable force"
+	cont "meets immovable"
+	cont "object!"
 	prompt
 
 _VictoryRoad2AfterBattleText3::
-	text "There's some"
-	line "kind of DRAGON"
-	cont "in here, but"
-	cont "we're all giving"
-	cont "it a wide berth."
+	text "Big maze, gotta"
+	line "find the way out!"
+	
+	para "Go the wrong way,"
+	line "start again!"
+
+	para "Go the right way,"
+	line "keep going!"
+
+	para "Move it, move it,"
+	line "move it!"
 	done
 
 _VictoryRoad2BattleText4::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
+	text "If you can find"
+	line "the way out of"
+	cont "here, you can go"
+	cont "challenge the"
 	cont "ELITE FOUR!"
 	done
 
 _VictoryRoad2EndBattleText4::
-	text "No!"
-	line "Unbelievable!"
+	text "No way!"
+	line "I can't believe"
+	cont "this!"
 	prompt
 
 _VictoryRoad2AfterBattleText4::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "# BEASTS!"
+	text "I'm here for the"
+	line "rare BEASTS that"
+	cont "live here, to"
+	cont "expand my already"
+	cont "huge collection!"
 	done
 
 _VictoryRoad2BattleText5::
-	text "Is VICTORY ROAD"
-	line "too tough?"
+	text "My BEAST will have"
+	line "you screaming"
+	cont "'Oh, why!?'"
 	done
 
 _VictoryRoad2EndBattleText5::
-	text "Well"
-	line "done!"
+	text "Why me..."
+	para "Why?"
 	prompt
 
 _VictoryRoad2AfterBattleText5::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "OWAI are dangerous"
+	line "because of how"
+	cont "fast they are,"
+	cont "and because of"
+	cont "their deadly"
+	cont "EXPLOSIONs!"
+
+	para "It's my favorite"
+	line "prank, and the"
+	cont "joke is on you!"
+
+	para "By the way, the"
+	line "right exit is"
+	cont "the one below me."
 	done
 
 _VictoryRoad2Text10::

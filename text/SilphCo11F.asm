@@ -54,8 +54,8 @@ _SilphCo11Text2::
 	line "you for rescuing"
 	cont "all of us!"
 
-	para "We admire your"
-	line "courage."
+	para "We all owe you a"
+	line "debt of gratitude."
 	done
 
 _SilphCo11Text3::
