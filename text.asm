@@ -22,12 +22,9 @@ INCLUDE "text/RocketHideoutElevator.asm"
 INCLUDE "text/SilphCo2F.asm"
 INCLUDE "text/SilphCo3F.asm"
 INCLUDE "text/SilphCo4F.asm"
-INCLUDE "text/SilphCo5F.asm"
-
 
 SECTION "Text 2", ROMX
 
-INCLUDE "text/SilphCo5F_2.asm"
 INCLUDE "text/SilphCo6F.asm"
 INCLUDE "text/SilphCo7F.asm"
 INCLUDE "text/SilphCo8F.asm"
@@ -309,6 +306,8 @@ INCLUDE "text/PokemonMansionB1F.asm"
 INCLUDE "text/SilphCo9F.asm"
 INCLUDE "text/SilphCo10F.asm"
 INCLUDE "text/Route11.asm"
+INCLUDE "text/SilphCo5F.asm"
+INCLUDE "text/SilphCo5F_2.asm"
 
 SECTION "Pokédex Text", ROMX
 

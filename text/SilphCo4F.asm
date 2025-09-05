@@ -9,19 +9,30 @@ _SilphCo4Text_19de5::
 	done
 
 _SilphCo4BattleText2::
-	text "TEAM ROCKET has"
-	line "taken command of"
-	cont "GAI CO.!"
+	text "Not so fast!"
+	line "These items,"
+	cont "and this whole"
+	cont "place, are now"
+	cont "the property of"
+	cont "TEAM ROCKET, you"
+	cont "little thief!"
 	done
 
 _SilphCo4EndBattleText2::
-	text "Arrgh!"
+	text "Eeeek!"
+
+	para "Hoodwinked!"
 	prompt
 
 _SilphCo4AfterBattleText2::
-	text "Fwahahaha!"
-	line "My BOSS has been"
-	cont "after this place!"
+	text "You look in the"
+	line "basement, kid?"
+
+	para "It's all flooded"
+	line "and broken down."
+
+	para "Wonder what the"
+	line "hell happened..."
 	done
 
 _SilphCo4BattleText3::
@@ -53,10 +64,10 @@ _SilphCo4BattleText4::
 _SilphCo4EndBattleText4::
 	text "A"
 	line "critical error"
-	cont "has occured..."
+	cont "has occurred..."
 	prompt
 
 _SilphCo4AfterBattleText4::
-	text "I better tell the"
-	line "BOSS on 11F!"
+	text "I really should"
+	line "upgrade my team..."
 	done

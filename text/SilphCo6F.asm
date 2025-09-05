@@ -1,7 +1,8 @@
 _SilphCo6Text_1a24a::
 	text "Urff... I snuck"
-	line "up to the 11F to"
-	cont "try and stop this" 
+	line "up to the top"
+	cont "floor to try and"
+	cont "stop all this" 
 	cont "madness, but the"
 	cont "fat man guarding"
 	cont "the door is"
@@ -30,9 +31,12 @@ _SilphCo6Text_1a278::
 	done
 
 _SilphCo6Text_1a27d::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "He's lucky that"
+	line "I love pathetic"
+	cont "men, or I would"
+	cont "have dumped him"
+	cont "after all that"
+	cont "ROCKET nonsense!"
 	done
 
 _SilphCo6Text_1a28f::
@@ -51,8 +55,7 @@ _SilphCo6Text_1a2a6::
 	text "They must have"
 	line "targeted GAI"
 	cont "CO. for our"
-	cont "# BEAST"
-	cont "products."
+	cont "# BALLS."
 	done
 
 _SilphCo6Text_1a2ab::
@@ -62,19 +65,25 @@ _SilphCo6Text_1a2ab::
 	done
 
 _SilphCo6BattleText2::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Oh, look, you"
+	line "pathetic wimps!"
+	
+	para "Your 'savior' is"
+	line "finally here!"
+
+	para "Join the rest!"
 	done
 
 _SilphCo6EndBattleText2::
-	text "Flame"
-	line "out!"
+	text "Eeeep!"
 	prompt
 
 _SilphCo6AfterBattleText2::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "You're just a"
+	line "stinkin' kid!"
+
+	para "How're you so"
+	line "strong!?"
 	done
 
 _SilphCo6BattleText3::
@@ -105,7 +114,7 @@ _SilphCo6AfterBattleText3::
 	done
 
 _SilphCo6BattleText4::
-	text "You dare betray"
+	text "You betray"
 	line "TEAM ROCKET?"
 	done
 
@@ -115,7 +124,7 @@ _SilphCo6EndBattleText4::
 	prompt
 
 _SilphCo6AfterBattleText4::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "If you won't"
+	line "betray the law,"
+	cont "you betray evil!"
 	done

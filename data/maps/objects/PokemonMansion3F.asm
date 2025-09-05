@@ -17,6 +17,7 @@ PokemonMansion3F_Object:
 	object_event 18,  5, SPRITE_POKEDEX, STAY, NONE, 7 ; person
 	object_event 19,  5, SPRITE_POKEDEX, STAY, NONE, 8 ; person
 	object_event  23, 15, SPRITE_REMNANT, STAY, LEFT, 9 ; person
+	object_event  12, 12, SPRITE_SCIENTIST_DEAD, STAY, DOWN, 10 ; person
 
 
 	def_warps_to POKEMON_MANSION_3F

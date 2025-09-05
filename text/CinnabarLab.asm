@@ -242,7 +242,7 @@ _Lab1Text22::
 	line "REGENTS."
 
 	para "SIVAK, ALVARIS,"
-	line "AEON, and..."
+	line "JAKRED, and..."
 
 	para "We have so little"
 	line "data on the last"

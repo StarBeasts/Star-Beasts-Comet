@@ -1,5 +1,5 @@
 _SilphCoPresidentText::
-	text "PRESIDENT: Thank"
+	text "HELENA: Thank"
 	line "you for saving"
 	cont "GAI CO!"
 
@@ -59,8 +59,11 @@ _SilphCo11Text2::
 	done
 
 _SilphCo11Text3::
-	text "Oh, <PLAYER>."
-	line "It's you."
+	text "Excuse me, Doctor."
+	line "We seem to have an"
+	cont "unwanted guest."
+
+	para "Hello, <PLAYER>."
 
 	para "DR. ROSENTHAL and"
 	line "I are discussing"
@@ -141,10 +144,15 @@ _SilphCo11EndBattleText2::
 	prompt
 
 _SilphCo11AfterBattleText2::
-	text "Hah! Even though"
-	line "you beat me, you"
-	cont "can't get to the"
-	cont "BOSS from here!"
+	text "Hah! You beat me,"
+	line "but I'm just the"
+	cont "backup plan!"
+
+	para "The boss has a"
+	line "bouncer for"
+	cont "people who try"
+	cont "to be heroes"
+	cont "like you!"
 	done
 
 _SilphCo10Text_6237b::

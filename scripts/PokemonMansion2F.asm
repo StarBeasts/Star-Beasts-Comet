@@ -111,7 +111,7 @@ Mansion2Text7:
 	text_far _Mansion2Text7
 	text_end
 
-Mansion3Text10:
+Mansion3Text11:
 Mansion2Text8:
 	text_asm
 	ld hl, Mansion2Text_520c2

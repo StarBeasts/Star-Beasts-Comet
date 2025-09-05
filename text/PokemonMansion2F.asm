@@ -25,7 +25,7 @@ _Mansion2AfterBattleText1::
 	done
 
 _Mansion2Text3::
-	text "research team"
+	text "VELID'S LOG (1)"
 	line "SIVAK, the"
 	cont "BLACK DRAGON."
 
@@ -42,7 +42,7 @@ _Mansion2Text3::
 	done
 
 _Mansion2Text4::
-	text "Sivak"
+	text "VELID'S LOG (2)"
 	line "destructive power"
 	cont "is beyond any"
 	cont "horrors I could"
@@ -55,7 +55,7 @@ _Mansion2Text4::
 	done
 
 _Mansion2Text5::
-	text "Aeon"
+	text "VELID'S LOG (3)"
 	line "destructive power"
 	cont "is beyond any"
 	cont "horrors I could"
@@ -68,7 +68,7 @@ _Mansion2Text5::
 	done
 
 _Mansion2Text6::
-	text "Alvaris"
+	text "VELID'S LOG (4)"
 	line "destructive power"
 	cont "is beyond any"
 	cont "horrors I could"

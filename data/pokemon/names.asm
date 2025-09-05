@@ -74,7 +74,7 @@ MonsterNames::
 	db "CHEPPI@@@@"
 	db "ALVARIS@@@"
 	db "SIVAK@@@@@"
-	db "AEON@@@@@@"
+	db "JAKRED@@@@"
 	db "REKALL@@@@"
 	db "PUMAJIN@@@"
 	db "SCORPSY@@@"

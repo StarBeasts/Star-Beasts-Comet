@@ -78,7 +78,7 @@ Mansion3Script_Switches::
 	ret nz
 	xor a
 	ldh [hJoyHeld], a
-	ld a, $0A
+	ld a, $0B
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
 
@@ -93,6 +93,7 @@ PokemonMansion3F_TextPointers:
 	dw Mansion3Text8
 	dw Mansion3Text9
 	dw Mansion3Text10
+	dw Mansion3Text11
 
 Mansion3TrainerHeaders:
 	def_trainers
@@ -157,4 +158,9 @@ Mansion3Text8:
 Mansion3Text9:
 	text_far _Mansion3Text9
 	text_end
+
+Mansion3Text10:
+	text_far _Mansion3Text10
+	text_end
+
 

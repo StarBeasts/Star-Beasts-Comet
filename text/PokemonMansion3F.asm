@@ -35,7 +35,7 @@ _Mansion3AfterBattleText2::
 	done
 
 _Mansion3Text5::
-	text "Log 5: I narrowly"
+	text "VELID'S LOG (5)"
 	line "escaped my"
 	cont "encounter with"
 	cont "ALVARIS."
@@ -48,7 +48,7 @@ _Mansion3Text5::
 	done
 
 _Mansion3Text6::
-	text "Log 6: I narrowly"
+	text "VELID'S LOG (6)"
 	line "escaped my"
 	cont "encounter with"
 	cont "ALVARIS."
@@ -61,7 +61,7 @@ _Mansion3Text6::
 	done
 
 _Mansion3Text7::
-	text "Log 7: I narrowly"
+	text "Log 7"
 	line "escaped my"
 	cont "encounter with"
 	cont "ALVARIS."
@@ -74,7 +74,7 @@ _Mansion3Text7::
 	done
 
 _Mansion3Text8::
-	text "Log 8: I narrowly"
+	text "Log 8"
 	line "escaped my"
 	cont "encounter with"
 	cont "ALVARIS."
@@ -117,3 +117,17 @@ _Mansion3Text9::
 
 	para "It's kind of you."
 	done
+
+_Mansion3Text10::
+	text "This is BEN."
+
+	para "While it seems"
+	line "like BEN drowned,"
+	cont "it's more likely"
+	cont "he was already"
+	cont "like this, and"
+	cont "the water merely"
+	cont "washed his body"
+	cont "over to here."
+	done
+
