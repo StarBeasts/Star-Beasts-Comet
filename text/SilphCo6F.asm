@@ -65,7 +65,7 @@ _SilphCo6Text_1a2ab::
 	done
 
 _SilphCo6BattleText2::
-	text "Oh, look, you"
+	text "Oh look, you"
 	line "pathetic wimps!"
 	
 	para "Your 'savior' is"

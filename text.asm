@@ -29,8 +29,6 @@ INCLUDE "text/SilphCo6F.asm"
 INCLUDE "text/SilphCo7F.asm"
 INCLUDE "text/SilphCo8F.asm"
 INCLUDE "text/SilphCo11F.asm"
-INCLUDE "text/PokemonMansion2F.asm"
-INCLUDE "text/PokemonMansion3F.asm"
 INCLUDE "text/SafariZoneEast.asm"
 INCLUDE "text/SafariZoneNorth.asm"
 INCLUDE "text/SafariZoneWest.asm"
@@ -308,6 +306,8 @@ INCLUDE "text/SilphCo10F.asm"
 INCLUDE "text/Route11.asm"
 INCLUDE "text/SilphCo5F.asm"
 INCLUDE "text/SilphCo5F_2.asm"
+INCLUDE "text/PokemonMansion2F.asm"
+INCLUDE "text/PokemonMansion3F.asm"
 
 SECTION "Pokédex Text", ROMX
 
