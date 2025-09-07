@@ -42,8 +42,8 @@ _MtMoon3Text_49f8f::
 	done
 
 _MtMoon3Text_49f94::
-	text "Far away, on"
-	line "CINNABAR ISLAND,"
+	text "Back over in"
+	line "EMERALD ACRES,"
 	cont "there's a BEAST"
 	cont "LAB."
 

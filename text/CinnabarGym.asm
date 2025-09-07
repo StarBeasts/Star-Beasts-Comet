@@ -8,7 +8,7 @@ _BlainePreBattleText::
 	para "What's that?"
 
 	para "The LEADER of"
-	line "CINNABAR GYM...?"
+	line "KUNZITE GYM...?"
 	
 	para "That's yours"
 	line "truly!"

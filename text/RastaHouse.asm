@@ -122,8 +122,8 @@ _DJText4::
 	line "amigo doin', mon?"
 
 	para "Hope you two are"
-	line "feelin' the love,"
-	cont "mon!"
+	line "feelin' the love"
+	cont "always, mon!"
 	done
 
 _YetiText::

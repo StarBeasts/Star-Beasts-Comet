@@ -66,8 +66,9 @@ _Route14AfterBattleText4::
 
 _Route14BattleText5::
 	text "I'm waiting for"
-	line "this man to"
-	cont "commit a crime."
+	line "one of those"
+	cont "BIKERs to commit"
+	cont "a crime."
 
 	para "Battle? Bring"
 	line "it, kid."
@@ -88,7 +89,7 @@ _Route14AfterBattleText5::
 
 _Route14BattleText6::
 	text "You're under arrest"
-	line "for jaywalking!"
+	line "for jaybiking!"
 	done
 
 _Route14EndBattleText6::
@@ -167,7 +168,5 @@ _Route14AfterBattleText10::
 	done
 
 _Route14Text11::
-	text "ROUTE 14"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "!"
 	done

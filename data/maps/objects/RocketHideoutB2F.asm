@@ -14,5 +14,5 @@ RocketHideoutB2F_Object:
 	object_event 25, 11, SPRITE_POKE_BALL, STAY, NONE, 3, NUGGET
 	object_event  7,  6, SPRITE_POKE_BALL, STAY, NONE, 4, TM_SKULL_BASH
 	object_event 24, 16, SPRITE_POKE_BALL, STAY, NONE, 5, SUPER_POTION
-
+	object_event 17, 20, SPRITE_PSYCHIC, STAY, DOWN, 6
 	def_warps_to ROCKET_HIDEOUT_B2F

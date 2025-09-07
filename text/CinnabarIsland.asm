@@ -4,7 +4,7 @@ _CinnabarIslandText8::
 	done
 
 _CinnabarIslandText1::
-	text "CINNABAR GYM's"
+	text "KUNZITE GYM's"
 	line "VELID is an odd"
 	cont "man who has lived"
 	cont "here for decades."
@@ -49,7 +49,7 @@ _CinnabarIslandText6::
 	done
 
 _CinnabarIslandText7::
-	text "CINNABAR ISLAND"
+	text "KUNZITE KEY"
 	line "# BEAST GYM"
 	cont "LEADER: VELID"
 
