@@ -14,7 +14,7 @@ SafariZoneEast_Object:
 	bg_event  8, 10, 7 ; SafariZoneEastText7
 
 	def_object_events
-	object_event  6,  6, SPRITE_POKE_BALL, STAY, NONE, 1, FULL_RESTORE
+	object_event 11, 21, SPRITE_POKE_BALL, STAY, NONE, 1, FULL_RESTORE
 	object_event 14,  5, SPRITE_POKE_BALL, STAY, NONE, 2, MAX_POTION
 	object_event 25,  4, SPRITE_POKE_BALL, STAY, NONE, 3, CARBOS
 	object_event  9, 15, SPRITE_POKE_BALL, STAY, NONE, 4, TM_EGG_BOMB

@@ -48,10 +48,6 @@ _Route5NuggetText::
 
 _Route5Text3::
 	text "!"
-	line "OPERATIONS CENTER"
-
-	para "AUTHORIZED"
-	line "PERSONNEL ONLY"
 	done
 
 _Route5BarbaraText1::

@@ -24,7 +24,7 @@ _SSAnne1Text2::
 
 	para "..."
 
-	para "Oh, no."
+	para "Oh. Oh no."
 
 	para "You're one of"
 	line "those kids who"
