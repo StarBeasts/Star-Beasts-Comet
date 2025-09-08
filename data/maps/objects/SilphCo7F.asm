@@ -17,7 +17,7 @@ SilphCo7F_Object:
 	object_event 15, 12, SPRITE_ERIKA, STAY, NONE, 4 ; person
 	object_event 16,  1, SPRITE_ROCKET, STAY, LEFT, 5, OPP_ROCKET, 32
 	object_event 21,  8, SPRITE_SCIENTIST, STAY, DOWN, 6, OPP_SCIENTIST, 8
-	object_event 15,  7, SPRITE_ROCKET, STAY, LEFT, 7, OPP_ROCKET, 33
+	object_event 15,  7, SPRITE_ROCKET, STAY, LEFT_RIGHT, 7, OPP_ROCKET, 33
 	object_event 20,  1, SPRITE_ROCKET, STAY, RIGHT, 8, OPP_ROCKET, 34
 	object_event  3,  7, SPRITE_BLUE, STAY, UP, 9 ; person
 	object_event 15, 10, SPRITE_POKE_BALL, STAY, NONE, 10, CALCIUM
