@@ -9,8 +9,10 @@ CinnabarLabMetronomeRoom_Object:
 	warp_event 20, 13, CERULEAN_CAVE_1F, 1
 
 	def_bg_events
-	bg_event 21, 15, 1 ; Lab3Text1
+	bg_event 21, 15, 3 ; Lab3Text3
 
 	def_object_events
+	object_event  8, 12, SPRITE_BART, STAY, DOWN, 1 ; person
+	object_event  9, 12, SPRITE_BALDING_GUY, STAY, DOWN, 2 ; person
 
 	def_warps_to CINNABAR_LAB_METRONOME_ROOM
