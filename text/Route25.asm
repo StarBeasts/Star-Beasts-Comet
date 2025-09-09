@@ -75,7 +75,7 @@ _Route25AfterBattleText2::
 	done
 
 _Route25BattleText3::
-	text "Yo, geeky!"
+	text "Hey, geeky!"
 
 	para "You don't look"
 	line "like someone that"

@@ -73,7 +73,7 @@ _Villa5FAfterBattleText1::
 	para "Go complete your"
 	line "#DEX and get"
 	cont "your reward from"
-	cont "CELADON CITY!"
+	cont "GARNET GARDENS!"
 
 	para "If you want to"
 	line "fight me again,"
@@ -225,7 +225,7 @@ _Villa5FText8::
 	done
 
 _Villa5FText9::
-	text "SEAFOAM GETAWAY"
+	text "VINEGAR GETAWAY"
 
 	para "THAT'S PARADISE!"
 	done

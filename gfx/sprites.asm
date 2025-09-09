@@ -104,6 +104,7 @@ SheriffSprite::		INCBIN "gfx/sprites/sheriff.2bpp"
 RemnantSprite::		INCBIN "gfx/sprites/remnant.2bpp"
 DragonSprite::		INCBIN "gfx/sprites/dragon.2bpp"
 ScientistDeadSprite:: INCBIN "gfx/sprites/scientist_dead.2bpp"
+FametasSprite:: INCBIN "gfx/sprites/fametas.2bpp"
 
 SECTION "NPC Sprites 4", ROMX
 

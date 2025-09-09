@@ -37,15 +37,22 @@ _VillaB1FEndBattleText1::
 	prompt
 
 _VillaB1FAfterBattleText1::
-	text "Leave me be."
+	text "It would appear"
+	line "you and I have"
+	cont "reached the end."
+
+	para "Either way, I"
+	line "have what I came"
+	cont "here for."
 
 	para "I will take my"
 	line "leave of this"
-	cont "place in time."
+	cont "place, now."
 
-	para "But, for now,"
-	line "I'd like to be"
-	cont "left alone."
+	para "Goodbye, <PLAYER>."
+
+	para "May we meet again,"
+	line "someday..."
 	done
 
 _VillaB1FText3::
@@ -248,14 +255,22 @@ _VillaB1FText11::
 
 	para "I know you need"
 	line "distractions"
-	cont "after what went"
-	cont "down with your"
-	cont "GYM, but..."
+	cont "after we were"
+	cont "taken away from"
+	cont "our home, but..."
 
 	para "The obsession you"
 	line "have with this"
 	cont "person isn't"
 	cont "healthy."
+
+	para "You're all that's"
+	line "here for me in"
+	cont "this world."
+
+	para "The only thing"
+	line "left of the life"
+	cont "I used to have."
 
 	para "I miss you."
 

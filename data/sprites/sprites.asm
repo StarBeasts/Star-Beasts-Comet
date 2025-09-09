@@ -91,6 +91,7 @@ SpriteSheetPointerTable:
 	overworld_sprite DragonSprite, 12		  ; SPRITE_DRAGON
 	overworld_sprite FarFromTileSprite, 12		  ; SPRITE_FARFROMTILE
 	overworld_sprite ScientistDeadSprite, 12		  ; SPRITE_SCIENTIST_DEAD
+	overworld_sprite FametasSprite, 12			; SPRITE_FAMETAS
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER
