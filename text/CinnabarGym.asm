@@ -1,17 +1,27 @@
 _BlainePreBattleText::
 	text "Fwa-hey!"
 	
-	para "A new contestant!"
-	line "How did you like"
-	cont "the quizzes?"
+	para "Didn't expect to"
+	line "see you again"
+	cont "so soon!"
+
+	para "How did you like"
+	line "the quizzes?"
 	
 	para "What's that?"
 
-	para "The LEADER of"
-	line "KUNZITE GYM...?"
+	para "I said I was the"
+	line "leader of"
+	cont "KUNZITE GYM...?"
 	
-	para "That's yours"
-	line "truly!"
+	para "Fwa-ha-ha!"
+
+	para "Our last meeting"
+	line "was hardly worthy"
+	cont "of a MANCER!"
+
+	para "Time for my"
+	line "proper debut!"
 
 	para "Introducing..."
 	line "The one..."
@@ -20,6 +30,9 @@ _BlainePreBattleText::
 	para "Fwooosh!"
 	
 	para "VELID!"
+
+	para "That's my name,"
+	line "FIRE's my game!"
 	
 	para "Fwa-ha-ha-hey!"
 	line "Wanna see a"
@@ -198,21 +211,14 @@ _CinnabarGymAfterBattleText5::
 	line "life to helping"
 	cont "others with his"
 	cont "research, but"
-	cont "then he saw..."
+	cont "then..."
 
-	para "Something."
-
-	para "And legends say"
-	line "he was never the"
-	cont "same, after that."
+	para "Well. You know."
 	done
 
 _CinnabarGymBattleText6::
-	text "I know VELID's"
-	line "secret, but I"
-	cont "won't tell you"
-	cont "unless you beat"
-	cont "me!"
+	text "Do you know"
+	line "VELID's story?"
 	done
 
 _CinnabarGymEndBattleText6::
@@ -228,9 +234,9 @@ _CinnabarGymAfterBattleText6::
 	cont "like us immortal!"
 	
 	para "That's why he"
-	line "spent so much of"
-	cont "his life looking"
-	cont "for the FOUR HOLY"
+	line "spent so many"
+	cont "years looking for"
+	cont "the FOUR HOLY"
 	cont "REGENTS."
 	done
 
@@ -248,13 +254,13 @@ _CinnabarGymAfterBattleText7::
 	text "Every once in a"
 	line "while, VELID will"
 	cont "wake up screaming"
-	cont "about the things"
-	cont "he saw, ages ago."
+	cont "about what he did"
+	cont "to those people."
 
-	para "There isn't really"
-	line "anything any of"
-	cont "us can do to help"
-	cont "him."
+	para "No matter what we"
+	line "tell him, he"
+	cont "always beats him"
+	cont "-self up over it."
 
 	para "Super sad, huh?"
 	done

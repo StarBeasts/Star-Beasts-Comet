@@ -26,7 +26,7 @@ WildDataPointers:
 	dw Route12WildMons         ; ROUTE_12
 	dw Route13WildMons         ; ROUTE_13
 	dw Route14WildMons         ; ROUTE_14
-	dw Route15WildMons         ; ROUTE_15
+	dw NothingWildMons         ; ROUTE_15
 	dw Route16WildMons         ; ROUTE_16
 	dw Route17WildMons         ; ROUTE_17
 	dw Route18WildMons         ; ROUTE_18

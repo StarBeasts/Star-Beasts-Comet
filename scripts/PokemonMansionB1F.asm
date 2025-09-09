@@ -131,6 +131,7 @@ Mansion4Text10:
 Mansion4Text11:
 	text_far _Mansion4Text11
 	text_asm
+	SetEvent EVENT_TALKED_TO_VELID
 	call GBFadeOutToBlack
 	ld a, HS_VELID
 	ld [wMissableObjectIndex], a

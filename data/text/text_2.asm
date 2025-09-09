@@ -335,7 +335,7 @@ _GameOverText::
 	done
 
 _CinnabarGymQuizIntroText::
-	text "# BEASTS Quiz!"
+	text "MANCER's Quiz!"
 
 	para "Get it right and"
 	line "the door opens to"
@@ -354,8 +354,10 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CUPEEDLE evolves"
-	line "into VELOCIFLEA?"
+	text "People that can"
+	line "control the"
+	cont "ELEMENTs are"
+	cont "called MANCERs?"
 	done
 
 _CinnabarQuizQuestionsText2::
@@ -367,28 +369,27 @@ _CinnabarQuizQuestionsText2::
 
 _CinnabarQuizQuestionsText3::
 	text "The FOUR"
-	line "HOLY REGENTS"
-	cont "did NOT create"
-	cont "this world?"
+	line "HOLY REGENTS are"
+	cont "SIVAK, JACRED,"
+	cont "ALVARIS and"
+	cont "VAMETAS?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Is VELID NOT"
-	line "over two hundred"
-	cont "years old?"
+	text "MANCER VELID"
+	line "isn't immortal?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "Is VELID one of"
-	line "the very last"
-	cont "WIZARDs alive"
-	cont "today?"
+	text "Are there other"
+	line "MANCERs aside"
+	cont "from VELID?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "Do you believe"
-	line "that Hell isn't"
-	cont "real?"
+	text "Do I deserve"
+	line "forgiveness for"
+	cont "what I've done?"
 	done
 
 _CinnabarGymQuizCorrectText::

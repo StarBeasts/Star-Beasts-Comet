@@ -1,4 +1,4 @@
-_CinnabarIslandText8::
+_CinnabarIslandText9::
 	text "The door is"
 	line "locked..."
 	done
@@ -9,18 +9,21 @@ _CinnabarIslandText1::
 	cont "man who has lived"
 	cont "here for decades."
 
-	para "Some people say"
-	line "he's lived here"
-	cont "for centuries!"
+	para "Apparently, he"
+	line "used to work in"
+	cont "RED GOLD REEF."
+
+	para "I wonder why he"
+	line "moved to here?"
 	done
 
-_CinnabarIslandText2::
+_CinnabarIslandReviveText::
 	text "MANCER VELID"
 	line "keeps the door"
 	cont "to this GYM"
 	cont "locked!"
 	
-	para "Apparently, he"
+	para "Word is, he"
 	line "made a bunch of"
 	cont "keys for it that"
 	cont "he only gives to"
@@ -29,10 +32,36 @@ _CinnabarIslandText2::
 
 	para "Hmm. Wonder what"
 	line "you'd have to do"
-	cont "to get into it..."
+	cont "to get a key..."
+	done
+
+_CinnabarIslandNuggetText::
+	text "What? You got"
+	line "one of the keys?"
+
+	para "How? How'd you"
+	line "get one?"
+
+	para "What? A secret"
+	line "LAB on RED GOLD"
+	cont "REEF filled with"
+	cont "zombies?"
+
+	para "On second thought,"
+	line "maybe I DON'T"
+	cont "need to know"
+	cont "what's in that"
+	cont "GYM that badly..."
 	done
 
 _CinnabarIslandText3::
+	text "SCIENTISTs of all"
+	line "disciplines are"
+	cont "hard at work in"
+	cont "that LAB there!"
+	done
+
+_CinnabarIslandText4::
 	text "KUNZITE KEY"
 	
 	para "Forget what"
@@ -45,11 +74,11 @@ _CinnabarIslandText3::
 	line "scenic ocean view!"
 	done
 
-_CinnabarIslandText6::
+_CinnabarIslandText7::
 	text "# BEAST LAB"
 	done
 
-_CinnabarIslandText7::
+_CinnabarIslandText8::
 	text "KUNZITE KEY"
 	line "# BEAST GYM"
 	cont "LEADER: VELID"

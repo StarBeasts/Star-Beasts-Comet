@@ -241,8 +241,8 @@ SuperNerdData:
 ; Cinnabar Gym
 	db 41, WEEZING, RHYHORN, WEEZING, 0
 	db 43, GROWLITHE, CHARMANDER, CHARMELEON, 0
-	db 42, FLAREON, 0
-	db 43, LAPRAS, 0
+	db 42, LAPRAS, 0
+	db 43, MAGMAR, 0
 ; Ranger Station Outskirts
 	db 31, NIDORINO, ARBOK, BEEDRILL, DEWGONG, 0
 

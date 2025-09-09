@@ -227,8 +227,6 @@ INCLUDE "text/CeladonCity.asm"
 INCLUDE "text/FuchsiaCity.asm"
 INCLUDE "text/CinnabarIsland.asm"
 INCLUDE "text/SaffronCity.asm"
-INCLUDE "text/MoleHole.asm"
-INCLUDE "text/DiglettsCave.asm"
 
 INCLUDE "data/text/text_6.asm"
 
@@ -308,6 +306,8 @@ INCLUDE "text/PokemonMansion2F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
 INCLUDE "text/RocketHideoutElevator.asm"
 INCLUDE "text/IndigoPlateau.asm"
+INCLUDE "text/MoleHole.asm"
+INCLUDE "text/DiglettsCave.asm"
 
 SECTION "Pokédex Text", ROMX
 
