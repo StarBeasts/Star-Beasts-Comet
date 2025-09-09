@@ -15,20 +15,21 @@ _CinnabarIslandText1::
 	done
 
 _CinnabarIslandText2::
-	text "I might not look"
-	line "it, but I like"
-	cont "to practice"
-	cont "parkour!"
+	text "MANCER VELID"
+	line "keeps the door"
+	cont "to this GYM"
+	cont "locked!"
 	
-	para "Sometimes, I'll"
-	line "climb up on top"
-	cont "of the GYM for"
-	cont "fun!"
+	para "Apparently, he"
+	line "made a bunch of"
+	cont "keys for it that"
+	cont "he only gives to"
+	cont "people in his"
+	cont "'inner circle.'"
 
-	para "Stick around"
-	line "long enough and"
-	cont "you might get to"
-	cont "see me do it!"
+	para "Hmm. Wonder what"
+	line "you'd have to do"
+	cont "to get into it..."
 	done
 
 _CinnabarIslandText3::

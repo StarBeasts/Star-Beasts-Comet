@@ -72,7 +72,7 @@ _Mansion4Text7::
 	cont "science..."
 	done
 
-_Mansion4Text10::
+_Mansion4Text9::
 	text "Look at what"
 	line "that bastard"
 	cont "did to us."
@@ -108,7 +108,7 @@ _Mansion4Text10::
 	cont "years ago..."
 	done
 
-_Mansion4Text11::
+_Mansion4Text10::
 	text "Oooh, a visitor!"
 
 	para "We don't get too"
@@ -122,7 +122,7 @@ _Mansion4Text11::
 	cont "would you?"
 	done
 
-_Mansion4Text12::
+_Mansion4Text11::
 	text "VELID: ..."
 
 	para "I come here to"

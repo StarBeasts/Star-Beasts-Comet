@@ -24,14 +24,15 @@ _Mansion3BattleText2::
 	done
 
 _Mansion3EndBattleText2::
-	text "We hate you!"
+	text "Hate!"
+
+	para "We hate you!"
 	prompt
 
 _Mansion3AfterBattleText2::
 	text "Get out!"
-	line "Just let me"
-	cont "exist here"
-	cont "in peace!"
+	line "Just let me exist"
+	cont "here in peace!"
 	done
 
 _Mansion3Text5::

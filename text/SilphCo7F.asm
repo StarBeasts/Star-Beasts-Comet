@@ -171,7 +171,7 @@ _SilphCo7AfterBattleText2::
 	done
 
 _SilphCo7BattleText3::
-	text "Well, lookee what"
+	text "Well, lookie what"
 	line "we have here!"
 
 	para "Another idiot who"

@@ -201,8 +201,7 @@ _SaffronGymAfterBattleText4::
 	cont "discontinued for"
 	cont "a reason, huh?"
 
-	para "I friggin' hate"
-	line "it here!"
+	para "Damn it..."
 	done
 
 _SaffronGymBattleText5::
