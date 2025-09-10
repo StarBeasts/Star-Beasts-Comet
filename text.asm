@@ -302,12 +302,15 @@ INCLUDE "text/SilphCo10F.asm"
 INCLUDE "text/Route11.asm"
 INCLUDE "text/SilphCo5F.asm"
 INCLUDE "text/SilphCo5F_2.asm"
-INCLUDE "text/PokemonMansion2F.asm"
-INCLUDE "text/PokemonMansion3F.asm"
 INCLUDE "text/RocketHideoutElevator.asm"
 INCLUDE "text/IndigoPlateau.asm"
 INCLUDE "text/MoleHole.asm"
 INCLUDE "text/DiglettsCave.asm"
+
+SECTION "Text 15", ROMX
+
+INCLUDE "text/PokemonMansion2F.asm"
+INCLUDE "text/PokemonMansion3F.asm"
 
 SECTION "Pokédex Text", ROMX
 

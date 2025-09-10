@@ -59,17 +59,67 @@ _Mansion4AfterBattleText2::
 	done
 
 _Mansion4Text7::
-	text "Log:"
+	text "I don't know if"
+	line "they can die"
+	cont "of starvation."
 
-	para "I have seen the"
-	line "face of GOD, and"
-	cont "I do not wish to"
-	cont "see any more."
+	para "I don't want to"
+	line "know."
+
+	para "I can only be"
+	line "killed. I no"
+	cont "longer age or"
+	cont "fall ill."
+
+	para "I suspect they"
+	line "are the same."
+
+	para "I will bring"
+	line "them what they"
+	cont "need to survive,"
+	cont "for as long as"
+	cont "I am able."	
+
+	para "What I did to"
+	line "these people is"
+	cont "unforgivable."
+
+	para "I deserve eternal"
+	line "damnation, but..."
+	
+	para "The only path"
+	line "there would be..."
+
+	para "Cowardly."
+
+	para "I set the REGENTS"
+	line "free. It's the"
+	cont "least I can do."
+
+	para "What more can"
+	line "I do?"
+
+	para "What more could"
+	line "I possibly do?"
+
+	para "I should have"
+	line "never started in"
+	cont "the first place."
+
+	para "For those of you"
+	line "who find these"
+	cont "journals, know"
+	cont "that I set out"
+	cont "on this accursed"
+	cont "journey with"
+	cont "the best of"
+	cont "intentions..."
 
 	para "From this day"
 	line "forward, I am no"
 	cont "longer a man of"
 	cont "science..."
+
 	done
 
 _Mansion4Text9::
@@ -137,6 +187,12 @@ _Mansion4Text11::
 
 	para "You see how"
 	line "pathetic I am?"
+
+	para "I wanted to give"
+	line "them gifts, but"
+	cont "all I bestowed"
+	cont "upon them was"
+	cont "a curse."
 
 	para "All of these"
 	line "things, I did for"
