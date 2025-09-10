@@ -48,7 +48,7 @@ _SilphCo10Text_6231c::
 	para "It's the only one"
 	line "of its kind, so"
 	cont "you should be"
-	line "quiet when it"
+	cont "quiet when it"
 	cont "comes to using it."
 	done
 

@@ -1784,7 +1784,8 @@ _OakSpeechText2A::
 	cont "creatures called"
 	cont "STAR BEASTS, but"
 	cont "most just call"
-	cont "them #BIEs!@"
+	cont "them #BIEs or"
+	cont "BEASTs!@"
 	text_end
 
 _OakSpeechText2B::

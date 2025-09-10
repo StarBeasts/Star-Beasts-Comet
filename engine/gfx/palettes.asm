@@ -235,6 +235,8 @@ SetPal_Overworld:
 	jp z, .cinnabar
 	cp ROUTE_15_GATE_2F
 	jp z, .black
+	cp VICTORY_ROAD_2F	
+	jp z, .indigo
 	cp ROCKET_HIDEOUT_B1F
 	jp z, .miserite
 	cp ROCKET_HIDEOUT_B2F
@@ -366,6 +368,9 @@ SetPal_Overworld:
 	jp .town
 .abyss
 	ld a, PAL_BLACK - 1
+	jp .town
+.indigo
+	ld a, PAL_INDIGO - 1
 	jp .town
 
 ; used when a Pokemon is the only thing on the screen

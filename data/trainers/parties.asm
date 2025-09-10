@@ -61,7 +61,7 @@ TrainerDataPointers:
 YoungsterData:
 ; Route 3
 	db 4, VOLTORB, 0
-	db 4, SPEAROW, 0
+	db 5, SPEAROW, 0
 ; Mt. Moon 1F
 	db 9, PSYDUCK, VOLTORB, ZUBAT, 0
 ; Bridge Brigade
@@ -80,7 +80,7 @@ YoungsterData:
 ; Cobalt Cave
 	db 9, HORSEA, 0 ; used, Cobalt Cave
 ; Route 3 overflow
-	db 3, EKANS, 0
+	db 4, EKANS, 0
 	db 5, DIGLETT, 0
 
 BugCatcherData:
@@ -91,7 +91,7 @@ BugCatcherData:
 ; Route 3
 	db 10, CATERPIE, WEEDLE, KRABBY, 0
 	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
-	db 3, CATERPIE, WEEDLE, 0 ; used
+	db 4, CATERPIE, WEEDLE, 0 ; used
 ; Mt. Moon 1F
 	db 15, WEEDLE, CATERPIE, 0
 	db 9, CATERPIE, METAPOD, WEEDLE, KAKUNA, 0
@@ -110,8 +110,8 @@ BugCatcherData:
 
 LassData:
 ; Route 3
-	db 3, PIDGEY, BELLSPROUT, 0
-	db 4, NIDORAN_M, 0
+	db 4, PIDGEY, BELLSPROUT, 0
+	db 5, NIDORAN_M, 0
 	db 17, RATICATE, 0 ; not actually used for route 3
 ; Route 4
 	db 6, MEOWTH, 0

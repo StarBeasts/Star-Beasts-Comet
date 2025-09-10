@@ -45,9 +45,9 @@ _VillaB1FAfterBattleText1::
 	line "have what I came"
 	cont "here for."
 
-	para "I will take my"
-	line "leave of this"
-	cont "place, now."
+	para "I think this time,"
+	line "I really am"
+	cont "leaving for good."
 
 	para "Goodbye, <PLAYER>."
 
