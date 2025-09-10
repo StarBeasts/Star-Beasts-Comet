@@ -129,7 +129,7 @@ _Route16Text8::
 	done
 
 _Route16Text9::
-	text "ROUTE 16"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "ROUTE 7"
+	line "METAL METROPOLIS"
+	cont "to TRAILER PARK"
 	done

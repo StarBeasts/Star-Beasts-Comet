@@ -1273,25 +1273,10 @@ INCLUDE "scripts/Villa3F.asm"
 INCLUDE "data/maps/objects/Villa3F.asm"
 Villa3F_Blocks: INCBIN "maps/Villa3F.blk"
 
-INCLUDE "data/maps/headers/Villa4F.asm"
-INCLUDE "scripts/Villa4F.asm"
-INCLUDE "data/maps/objects/Villa4F.asm"
-Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
-
 INCLUDE "data/maps/headers/Villa5F.asm"
 INCLUDE "scripts/Villa5F.asm"
 INCLUDE "data/maps/objects/Villa5F.asm"
 Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
-
-INCLUDE "data/maps/headers/GoldenGate.asm"
-INCLUDE "scripts/GoldenGate.asm"
-INCLUDE "data/maps/objects/GoldenGate.asm"
-GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
-
-INCLUDE "data/maps/headers/BikeGate.asm"
-INCLUDE "scripts/BikeGate.asm"
-INCLUDE "data/maps/objects/BikeGate.asm"
-BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
 
 SECTION "Maps 23", ROMX
 
@@ -1334,6 +1319,22 @@ INCLUDE "data/maps/headers/RangerStation.asm"
 INCLUDE "scripts/RangerStation.asm"
 INCLUDE "data/maps/objects/RangerStation.asm"
 RangerStation_Blocks: INCBIN "maps/RangerStation.blk"
+
+INCLUDE "data/maps/headers/GoldenGate.asm"
+INCLUDE "scripts/GoldenGate.asm"
+INCLUDE "data/maps/objects/GoldenGate.asm"
+GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
+
+INCLUDE "data/maps/headers/BikeGate.asm"
+INCLUDE "scripts/BikeGate.asm"
+INCLUDE "data/maps/objects/BikeGate.asm"
+BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
+
+INCLUDE "data/maps/headers/Villa4F.asm"
+INCLUDE "scripts/Villa4F.asm"
+INCLUDE "data/maps/objects/Villa4F.asm"
+Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
+
 
 
 
