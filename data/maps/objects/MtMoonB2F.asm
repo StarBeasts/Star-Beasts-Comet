@@ -22,7 +22,7 @@ MtMoonB2F_Object:
 	object_event 35, 27, SPRITE_ROCKET, STAY, LEFT, 5, OPP_ROCKET, 4
 	object_event 18, 16, SPRITE_SOUL, STAY, NONE, 6 ; person
 	object_event 19, 16, SPRITE_SOUL, STAY, NONE, 7 ; person
-	object_event 39, 23, SPRITE_POKE_BALL, STAY, NONE, 8, HP_UP
-	object_event 31, 31, SPRITE_POKE_BALL, STAY, NONE, 9, TM_SHADOW_CLAW
+	object_event 31, 31, SPRITE_POKE_BALL, STAY, NONE, 8, SUPER_REPEL
+	object_event 38, 23, SPRITE_POKE_BALL, STAY, NONE, 9, TM_SHADOW_CLAW
 
 	def_warps_to MT_MOON_B2F

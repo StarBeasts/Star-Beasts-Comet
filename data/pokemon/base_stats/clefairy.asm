@@ -11,7 +11,7 @@
 	dw ClefairyPicFront, ClefairyPicBack
 
 	db KARATE_CHOP, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    \
