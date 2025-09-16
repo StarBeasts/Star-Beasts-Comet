@@ -978,6 +978,7 @@ VenonatEvosMoves:
 ; Learnset
 	db 10, DIZZY_PUNCH
 	db 15, BARRIER
+	db 20, FAIRY_WIND
 	db 25, ICE_PUNCH
 	db 25, THUNDERPUNCH
 	db 25, FIRE_PUNCH
@@ -1559,6 +1560,7 @@ VenomothEvosMoves:
 ; Learnset
 	db 10, DIZZY_PUNCH
 	db 15, SUBSTITUTE
+	db 20, FAIRY_WIND
 	db 25, PSYBEAM
 	db 38, ICE_PUNCH
 	db 38, THUNDERPUNCH
