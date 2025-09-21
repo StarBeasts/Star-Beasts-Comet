@@ -194,6 +194,12 @@ _SSAnne10LilZapText1::
 	para "It seems to want"
 	line "to come with you."
 
+	para "There's a # BALL"
+	line "in the shipping"
+	cont "crates behind it,"
+	cont "so you could if"
+	cont "you wanted to."
+
 	para "Will you take it?"
 	done
 

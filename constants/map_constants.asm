@@ -122,8 +122,8 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SS_ANNE_KITCHEN,                7,  8 ; $64
 	map_const SS_ANNE_CAPTAINS_ROOM,          3,  4 ; $65
 	map_const SS_ANNE_1F_ROOMS,              12,  8 ; $66
-	map_const SS_ANNE_2F_ROOMS,              12,  8 ; $67
-	map_const SS_ANNE_B1F_ROOMS,             12,  8 ; $68
+	map_const SS_ANNE_2F_ROOMS,              27,  4 ; $67
+	map_const SS_ANNE_B1F_ROOMS,             27,  4 ; $68
 	map_const MOLE_HOLE,                      8,  7 ; $69
 	map_const CELAGONE_CITY,                  21, 18; $6A
 	map_const GLITCH_ROOM,                    5,  5 ; $6B
