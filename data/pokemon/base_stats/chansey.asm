@@ -23,7 +23,7 @@
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     EGG_BOMB,     SWIFT,       \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   \
+	     PSYWAVE,      MOONBLAST,   SUBSTITUTE,   \
 	     CUT,          FLY,          SURF,         FLASH
 	; end
 

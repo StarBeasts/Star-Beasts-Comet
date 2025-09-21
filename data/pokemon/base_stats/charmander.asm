@@ -23,7 +23,7 @@
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     FIRE_BLAST,   SWIFT,\
 	     DREAM_EATER,  REST,         THUNDER_WAVE, \
-	     PSYWAVE, TRI_ATTACK,   SUBSTITUTE,   \
+	     PSYWAVE, MOONBLAST,   SUBSTITUTE,   \
 	; end
 
 	db BANK(CharmanderPicFront)

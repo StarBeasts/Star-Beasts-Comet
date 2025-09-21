@@ -209,7 +209,7 @@ DEF TM01 EQU const_value
 	add_tm PSYWAVE      ; $F6
 	add_tm EXPLOSION    ; $F7
 	add_tm ROCK_SLIDE   ; $F8
-	add_tm TRI_ATTACK   ; $F9
+	add_tm MOONBLAST    ; $F9
 	add_tm SUBSTITUTE   ; $FA
 	add_tm SNOWGRAVE   ; $FB
 ASSERT NUM_TMS == const_value - TM01, "NUM_TMS ({d:NUM_TMS}) does not match the number of add_tm definitions"
