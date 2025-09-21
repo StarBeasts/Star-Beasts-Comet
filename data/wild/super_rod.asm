@@ -42,52 +42,52 @@ SuperRodData:
 
 .Group1:
 	db 2
-	db 15, GOLDEEN
-	db 15, SHELLDER
+	db 25, GOLDEEN
+	db 25, SHELLDER
 
 .Group2:
 	db 2
-	db 15, SHELLDER
-	db 15, GOLDEEN
+	db 25, SHELLDER
+	db 25, GOLDEEN
 
 .Group3:
 	db 3
-	db 15, GOLDEEN
-	db 15, SHELLDER
-	db 15, EKANS
+	db 25, GOLDEEN
+	db 25, SHELLDER
+	db 25, EKANS
 
 .Group4:
 	db 2
-	db 15, SLOWPOKE
-	db 15, SHELLDER
+	db 25, SLOWPOKE
+	db 25, SHELLDER
 
 .Group5:
 	db 4
 	db 23, DEWGONG
 	db 22, SLOWPOKE
 	db 24, DEWGONG
-	db 19, TENTACRUEL
+	db 20, TENTACRUEL
 
 .Group6:
 	db 4
 	db 17,WARTORTLE
 	db 28,ARBOK
-	db 15,EKANS
+	db 20,EKANS
 	db 15,SQUIRTLE
 
 .Group7:
 	db 4
-	db 15,SLOWPOKE
-	db 15,SHELLDER
-	db 15,GOLDEEN
-	db 15,MAGIKARP
+	db 25,SLOWPOKE
+	db 25,SHELLDER
+	db 25,GOLDEEN
+	db 25,MAGIKARP
 
 .Group8:
 	db 4
-	db 15,SHELLDER
-	db 15,GOLDEEN
-	db 15,ARBOK
-	db 15,EKANS
+	db 25,SHELLDER
+	db 25,GOLDEEN
+	db 25,ARBOK
+	db 25,EKANS
 
 .Group9:
 	db 4
@@ -127,7 +127,7 @@ SuperRodData:
 .Group14:
 	db 4
 	db 25,SHELLDER
-	db 35,ARBOK
+	db 40,ARBOK
 	db 25,EKANS
 	db 20,EKANS
 

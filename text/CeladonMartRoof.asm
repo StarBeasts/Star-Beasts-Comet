@@ -26,7 +26,7 @@ _CeladonMartRoofText_484fe::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
+	text " is"
 	line "ICE BEAM!"
 
 	para "It can freeze the"
@@ -55,7 +55,7 @@ _CeladonMartRoofText_4850f::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
+	text " is"
 	line "ROCK SLIDE!"
 
 	para "It can spook the"
@@ -81,8 +81,14 @@ _ReceivedTM49Text::
 _CeladonMartRoofText_48520::
 	text_start
 
-	para "TM49 contains"
-	line "TRI ATTACK!@"
+	para "@"
+	text_ram wStringBuffer
+	text " is"
+	line "MOONBLAST!"
+
+	para "It can lower a"
+	line "target's SPECIAL,"
+	cont "sometimes!@"
 	text_end
 
 _CeladonMartRoofText_48526::
