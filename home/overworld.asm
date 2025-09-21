@@ -764,7 +764,7 @@ ExtraWarpCheck::
 	cp SAFFRONTILESET
 	jr z, .useFunction2
 	cp POWERPLANT_TILESET
-	jr z, .useFunction2
+	jr z, .useFunction1
 	cp TRAILER_PARK
 	jr z, .useFunction2
 .useFunction1

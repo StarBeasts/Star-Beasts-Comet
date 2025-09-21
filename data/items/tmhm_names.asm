@@ -53,6 +53,6 @@ tmhmNames::
 	db "TM46 PSYWAVE@"	
 	db "TM47 EXPLOSN@"
 	db "TM48 ROCSLID@"
-	db "TM49 TRIATK@"
+	db "TM49 MOONBLT@"
 	db "TM50 SUBSTUT@"
 	db "NEPUTO JEWEL@"

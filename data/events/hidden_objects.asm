@@ -25,6 +25,7 @@ HiddenObjectMaps:
 	db FUCHSIA_GYM
 	db CINNABAR_GYM
 	db CINNABAR_POKECENTER
+	db GAS_STATION
 	db SAFFRON_GYM
 	db MT_MOON_POKECENTER
 	db ROCK_TUNNEL_POKECENTER
@@ -114,6 +115,7 @@ HiddenObjectPointers:
 	dw FuchsiaGymHiddenObjects
 	dw CinnabarGymHiddenObjects
 	dw CinnabarPokecenterHiddenObjects
+	dw GasStationHiddenObjects
 	dw SaffronGymHiddenObjects
 	dw MtMoonPokecenterHiddenObjects
 	dw RockTunnelPokecenterHiddenObjects
@@ -399,6 +401,10 @@ CinnabarPokecenterHiddenObjects:
 	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
+GasStationHiddenObjects:
+	hidden_object 9,  1, SPRITE_FACING_UP, OpenPokemonCenterPC
+	db -1 ; end
+
 SaffronGymHiddenObjects:
 	hidden_object  9, 15, SPRITE_FACING_UP, GymStatues
 	db -1 ; end
@@ -410,7 +416,7 @@ MtMoonPokecenterHiddenObjects:
 
 RockTunnelPokecenterHiddenObjects:
 	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText
-	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object 13,  2, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
 ViridianForestHiddenObjects:

@@ -30,7 +30,7 @@ CeladonGameCornerScript_48bec:
 	ret z
 	CheckEvent EVENT_FOUND_ROCKET_HIDEOUT
 	ret nz
-	ld a, $0E
+	ld a, $07
 	ld [wNewTileBlockID], a
 	lb bc, 2, 8
 	predef_jump ReplaceTileBlock

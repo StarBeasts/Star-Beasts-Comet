@@ -2154,7 +2154,7 @@ MagnemiteEvosMoves:
 ; Learnset
 	db 16, SLAM
 	db 21, THUNDER_WAVE
-	db 25, TAKE_DOWN
+	db 25, TRI_ATTACK
 	db 29, HYPNOSIS
 	db 35, THUNDER
 	db 41, SWIFT
