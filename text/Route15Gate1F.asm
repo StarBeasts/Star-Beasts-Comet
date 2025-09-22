@@ -53,3 +53,31 @@ _Route15GateText3::
 _Route15GateText4::
 	text "SLIMOGG: Bow-woww!@"
 	text_end
+
+_Route15GateText5::
+	text "Whew... Fishing up"
+	line "all that litter"
+	cont "really takes it"
+	cont "out of you..."
+
+	para "And no matter how"
+	line "many times I CUT"
+	cont "them damn bushes,"
+	cont "they just keep"
+	cont "coming back!"
+
+	para "Feels like I'm"
+	line "being worked down"
+	cont "to the bone,"
+	cont "lately..."
+
+	para "Oh, I know!"
+
+	para "I should go get"
+	line "some of that TEA"
+	cont "they sell in"
+	cont "GARNET GARDENS!"
+
+	para "I hear it's"
+	line "real refreshing!"
+	done

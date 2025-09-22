@@ -6,6 +6,7 @@ Route15Gate1F_TextPointers:
 	dw Route15GateText2
 	dw Route15GateText3
 	dw Route15GateText4
+	dw Route15GateText5
 
 Route15GateText1:
 	text_far _Route15GateText1
@@ -26,5 +27,10 @@ Route15GateText4:
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
+
+Route15GateText5:
+	text_far _Route15GateText5
+	text_end
+
 
 
