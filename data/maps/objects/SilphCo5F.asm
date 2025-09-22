@@ -11,12 +11,12 @@ SilphCo5F_Object:
 
 	def_object_events
 	object_event 16,  8, SPRITE_SILPH_WORKER, STAY, NONE, 1 ; person
-	object_event 24,  1, SPRITE_ROCKET, STAY, RIGHT, 2, OPP_ROCKET, 28
+	object_event 24,  3, SPRITE_ROCKET, STAY, RIGHT, 2, OPP_ROCKET, 28
 	object_event 19, 10, SPRITE_SCIENTIST, STAY, RIGHT, 3, OPP_SCIENTIST, 6
-	object_event 28,  1, SPRITE_ROCKET, STAY, LEFT, 4, OPP_ROCKET, 43
-	object_event 26,  4, SPRITE_ROCKET, STAY, UP, 5, OPP_ROCKET, 29
-	object_event 26,  6, SPRITE_POKE_BALL, STAY, NONE, 6, TM_DOUBLE_EDGE
-	object_event 18,  7, SPRITE_POKE_BALL, STAY, NONE, 7, PROTEIN
+	object_event 28,  3, SPRITE_ROCKET, STAY, LEFT, 4, OPP_ROCKET, 43
+	object_event 26,  5, SPRITE_ROCKET, STAY, UP, 5, OPP_ROCKET, 29
+	object_event 18,  7, SPRITE_POKE_BALL, STAY, NONE, 6, TM_DOUBLE_EDGE
+	object_event 24,  6, SPRITE_POKE_BALL, STAY, NONE, 7, PROTEIN
 	object_event  3,  8, SPRITE_POKE_BALL, STAY, NONE, 8, LIFT_KEY
 	object_event 22,  9, SPRITE_CLIPBOARD, STAY, NONE, 9 ; person
 	object_event 22,  7, SPRITE_CLIPBOARD, STAY, NONE, 10 ; person

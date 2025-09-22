@@ -289,7 +289,7 @@ SilphCo7F_TextPointers:
 SilphCo7TrainerHeaders:
 	def_trainers 5
 SilphCo7TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_7F_TRAINER_0, 2, SilphCo7BattleText1, SilphCo7EndBattleText1, SilphCo7AfterBattleText1
+	trainer EVENT_BEAT_SILPH_CO_7F_TRAINER_0, 3, SilphCo7BattleText1, SilphCo7EndBattleText1, SilphCo7AfterBattleText1
 SilphCo7TrainerHeader1:
 	trainer EVENT_BEAT_SILPH_CO_7F_TRAINER_1, 3, SilphCo7BattleText2, SilphCo7EndBattleText2, SilphCo7AfterBattleText2
 SilphCo7TrainerHeader2:
