@@ -69,12 +69,15 @@ PokemonTower7Script4:
 	ld a, HS_POKEMON_TOWER_7F_MR_FUJI
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_ROUTE_10_GUARD_1
+	ld a, HS_TEA_SHOP_GRANNY
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	ld a, HS_TEA_SHOP_LADY_1
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_ROUTE_10_GUARD_2
+	ld a, HS_TEA_SHOP_LADY_2
 	ld [wMissableObjectIndex], a
-	predef HideObject
+	predef ShowObject
 	ld a, HS_DOJO_GUY
 	ld [wMissableObjectIndex], a
 	predef HideObject

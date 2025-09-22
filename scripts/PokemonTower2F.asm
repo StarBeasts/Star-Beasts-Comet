@@ -123,15 +123,6 @@ PokemonTower2Script2:
 	ld a, HS_POKEMON_TOWER_2F_RIVAL
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_TEA_SHOP_GRANNY
-	ld [wMissableObjectIndex], a
-	predef ShowObject
-	ld a, HS_TEA_SHOP_LADY_1
-	ld [wMissableObjectIndex], a
-	predef HideObject
-	ld a, HS_TEA_SHOP_LADY_2
-	ld [wMissableObjectIndex], a
-	predef ShowObject
 	xor a
 	ld [wJoyIgnore], a
 	call PlayDefaultMusic

@@ -476,7 +476,7 @@ SaffronPokecenterHiddenObjects:
 	db -1 ; end
 
 PokemonTower5HiddenObjects:
-	hidden_object  9, 2, GREAT_BALL, HiddenItems
+	hidden_object  9, 2, HOLY_SOUL, HiddenItems
 	db -1 ; end
 
 Route13HiddenObjects:
