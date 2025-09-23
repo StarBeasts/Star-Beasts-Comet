@@ -23,8 +23,8 @@
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
 	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  REST, \
-	     MOONBLAST,   SUBSTITUTE,   \
-	     CUT,          FLY,          STRENGTH,     FLASH
+	     SUBSTITUTE,   \
+	     CUT
 	; end
 
 	db BANK(JigglypuffPicFront)

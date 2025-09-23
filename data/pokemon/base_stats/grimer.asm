@@ -22,7 +22,7 @@
 	       \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     SOFTBOILED,   DREAM_EATER,  REST,   \
+	     DREAM_EATER,  REST,   \
 	     EXPLOSION,    SUBSTITUTE,   \
 	     SURF,         STRENGTH
 	; end

@@ -22,7 +22,7 @@
 	     EARTHQUAKE,   FISSURE,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     SOFTBOILED,   DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
 	     SURF,         STRENGTH,     FLASH
 	; end

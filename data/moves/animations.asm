@@ -1077,12 +1077,11 @@ KinesisAnim:
 	db -1 ; end
 
 SoftboiledAnim:
-	battle_anim LEECH_SEED, SE_SLIDE_MON_HALF_OFF
-	battle_anim SOFTBOILED, SUBANIM_0_EGG_SHAKING, 0, 8
 	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim SMOG, SE_WAVY_SCREEN
+	battle_anim WATER_GUN, SE_SPIRAL_BALLS_INWARD
+	battle_anim BITE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 
 HiJumpKickAnim:

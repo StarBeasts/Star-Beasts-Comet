@@ -1961,7 +1961,7 @@ TentacruelEvosMoves:
 	db 19, SCALD
 	db 22, TOXIC
 	db 26, ACID_ARMOR
-	db 29, RECOVER
+	db 29, SOFTBOILED
 	db 35, SLUDGE_BOMB
 	db 39, HYDRO_PUMP
 	db 0

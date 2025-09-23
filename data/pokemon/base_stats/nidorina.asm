@@ -23,8 +23,8 @@
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
 	     SKY_ATTACK,   REST, \
-	     EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   \
-	     CUT,          FLY,          STRENGTH
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          FLY,          SURF,         STRENGTH
 	; end
 
 	db BANK(NidorinaPicFront)

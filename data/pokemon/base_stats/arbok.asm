@@ -22,9 +22,9 @@
 	     EARTHQUAKE,   PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     DREAM_EATER,  REST,         THUNDER_WAVE, \
-	     PSYWAVE,      ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   \
-	     CUT,          SURF,         STRENGTH,     FLASH
+	     SOFTBOILED,   DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   \
+	     SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(ArbokPicFront)

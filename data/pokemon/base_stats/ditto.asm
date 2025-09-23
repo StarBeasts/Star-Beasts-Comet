@@ -23,7 +23,7 @@
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
 	     REST,          \
-	     EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   \
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
 	     CUT,          STRENGTH
 	; end
 

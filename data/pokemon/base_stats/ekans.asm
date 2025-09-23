@@ -24,7 +24,7 @@
 	     SKULL_BASH,   \
 	     DREAM_EATER,  THUNDER_WAVE, \
 	     PSYWAVE,      SUBSTITUTE,   \
-	     CUT,          FLASH
+	     FLASH
 	; end
 
 	db BANK(EkansPicFront)
