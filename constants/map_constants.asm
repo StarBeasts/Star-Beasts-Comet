@@ -255,7 +255,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SILPH_CO_9F,                   13,  15 ; $E9
 	map_const SILPH_CO_10F,                   9,  9 ; $EA
 	map_const SILPH_CO_11F,                   9,  9 ; $EB
-	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC ; not currently used
+	map_const SILPH_CO_ELEVATOR,              2,  2 ; $EC ; not currently used, ranger station sidequest map?
 	map_const BIKE_GATE,                      4,  4 ; $ED
 	map_const UNUSED_MAP_EE,                  0,  0 ; $EE ; this and F1 can be reserved for 4.0 if needed, probably for Ranger Station stuff
 	map_const TRADE_CENTER,                   5,  4 ; $EF
