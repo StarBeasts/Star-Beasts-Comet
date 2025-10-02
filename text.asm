@@ -190,7 +190,6 @@ INCLUDE "text/FuchsiaGym.asm"
 SECTION "Text 9", ROMX
 
 INCLUDE "text/FuchsiaGym_2.asm"
-INCLUDE "text/FuchsiaMeetingRoom.asm"
 INCLUDE "text/FuchsiaGoodRodHouse.asm"
 INCLUDE "text/PokemonMansion1F.asm"
 INCLUDE "text/CinnabarGym.asm"
@@ -311,6 +310,7 @@ SECTION "Text 15", ROMX
 
 INCLUDE "text/PokemonMansion2F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
+INCLUDE "text/FuchsiaMeetingRoom.asm"
 
 SECTION "Pokédex Text", ROMX
 

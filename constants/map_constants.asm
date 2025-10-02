@@ -177,7 +177,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const WARDENS_HOUSE,                  12,  4 ; $9B
 	map_const SAFARI_ZONE_GATE,               6,  4 ; $9C
 	map_const FUCHSIA_GYM,                    30, 30 ; $9D
-	map_const FUCHSIA_MEETING_ROOM,           7,  4 ; $9E
+	map_const FUCHSIA_MEETING_ROOM,           14,  4 ; $9E
 	map_const SEAFOAM_ISLANDS_B1F,           15,  15 ; $9F
 	map_const SEAFOAM_ISLANDS_B2F,           26,  17 ; $A0
 	map_const SEAFOAM_ISLANDS_B3F,           30,  10 ; $A1
