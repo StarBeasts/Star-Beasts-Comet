@@ -14,9 +14,9 @@ SafariZoneWest_Object:
 	bg_event 26,  4, 8 ; SafariZoneWestText8
 
 	def_object_events
-	object_event 25, 21, SPRITE_POKE_BALL, STAY, NONE, 1, MAX_POTION
-	object_event 15,  2, SPRITE_POKE_BALL, STAY, NONE, 2, TM_DOUBLE_TEAM
-	object_event 12, 24, SPRITE_POKE_BALL, STAY, NONE, 3, MAX_REVIVE
+	object_event 12, 24, SPRITE_POKE_BALL, STAY, NONE, 1, MAX_POTION
+	object_event 12,  2, SPRITE_POKE_BALL, STAY, NONE, 2, TM_DOUBLE_TEAM
+	object_event 12,  6, SPRITE_POKE_BALL, STAY, NONE, 3, MAX_REVIVE
 	object_event 21, 16, SPRITE_POKE_BALL, STAY, NONE, 4, GOLD_TEETH
 
 	def_warps_to SAFARI_ZONE_WEST
