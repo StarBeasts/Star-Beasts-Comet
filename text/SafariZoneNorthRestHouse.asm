@@ -10,10 +10,8 @@ _SafariZoneRestHouse4Text1::
 	done
 
 _SafariZoneRestHouse4Text2::
-	text "Go to the deepest"
-	line "part of the"
-	cont "SAFARI ZONE. You"
-	cont "will win a prize!"
+	text "GET OFF OUR DAMNED"
+	line "PLANET, EARTH GEEK"
 	done
 
 _SafariZoneRestHouse4Text3::

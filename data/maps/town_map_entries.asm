@@ -182,4 +182,8 @@ InternalMapEntries:
 	internal_map HAND_HOUSE,                     9,  3, Route2Name
 	internal_map RASTA_HOUSE,                     7,  7, Route10Name
 	internal_map AGATHAS_ROOM,                   6,  0, PokemonLeagueName
+	internal_map MOON, 	9,  0, MysteryName
+	internal_map MERCURY, 	9,  0, MysteryName
+	internal_map VENUS, 	9,  0, MysteryName
+	internal_map MARS, 	9,  0, MysteryName
 	db -1 ; end

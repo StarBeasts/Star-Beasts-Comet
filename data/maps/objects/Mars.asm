@@ -1,13 +1,19 @@
 Mars_Object:
-	db $7d ; border block
+	db $00 ; border block
 
 	def_warp_events
-	warp_event  3,  5, DIGLETTS_CAVE, 4
-	warp_event  2,  5, DIGLETTS_CAVE, 4
+	warp_event  5, 35, ROCKET_HIDEOUT_ELEVATOR, 1
+	warp_event  4, 39, MARS, 6
+	warp_event  5, 39, MARS, 6
+	warp_event  6, 39, MARS, 6
+	warp_event  7, 39, MARS, 6
+	warp_event  5, 9, MARS, 4
+	warp_event  13, 9, SAFARI_ZONE_NORTH_REST_HOUSE, 1
+
 
 	def_bg_events
 
 	def_object_events
-	object_event  3,  1, SPRITE_SUBROSIAN, STAY, DOWN, 1
+	object_event  7, 11, SPRITE_SUBROSIAN, STAY, DOWN, 1
 
 	def_warps_to MARS

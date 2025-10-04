@@ -41,12 +41,12 @@ RocketHideoutElevatorScript_45741:
 	ret
 
 RocketHideoutElavatorFloors:
-	db 2 ; #
+	db 5 ; #
 	db FLOOR_2F
 	db FLOOR_1F
-	; db FLOOR_3F (dummied out for now)
-	; db FLOOR_4F
-	; db FLOOR_5F
+	db FLOOR_4F
+	db FLOOR_5F
+	db FLOOR_3F
 	; db FLOOR_6F
 	; db FLOOR_7F
 	; db FLOOR_8F
@@ -60,9 +60,9 @@ RocketHideoutElevatorWarpMaps:
 	; warp number, map id
 	db 0, MOON
 	db 6, ROUTE_22_GATE
-	; db 2, SILPH_CO_3F (dummied out for now)
-	; db 2, SILPH_CO_4F
-	; db 2, SILPH_CO_5F
+	db 0, VENUS
+	db 0, MARS
+	db 0, MERCURY
 	; db 2, SILPH_CO_6F
 	; db 2, SILPH_CO_7F
 	; db 2, SILPH_CO_8F

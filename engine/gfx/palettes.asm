@@ -277,6 +277,13 @@ SetPal_Overworld:
 	jr z, .caveOrBruno
 	cp MOON
 	jr z, .grey
+	cp MERCURY
+	jr z, .caveDefault
+	cp VENUS
+	jp z, .vermilion
+	cp MARS
+	jr z, .bloodstone
+	
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
 .townOrRoute

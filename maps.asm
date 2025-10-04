@@ -257,9 +257,7 @@ LavenderTown_Blocks: INCBIN "maps/LavenderTown.blk"
 ViridianPokecenter_Blocks: INCBIN "maps/ViridianPokecenter.blk"
 
 SafariZoneCenterRestHouse_Blocks:
-SafariZoneWestRestHouse_Blocks:
-SafariZoneEastRestHouse_Blocks:
-SafariZoneNorthRestHouse_Blocks: INCBIN "maps/SafariZoneCenterRestHouse.blk"
+INCBIN "maps/SafariZoneCenterRestHouse.blk"
 
 INCLUDE "scripts/LavenderTown.asm"
 
@@ -343,18 +341,6 @@ SafariZoneCenter_Blocks: INCBIN "maps/SafariZoneCenter.blk"
 INCLUDE "data/maps/headers/SafariZoneCenterRestHouse.asm"
 INCLUDE "scripts/SafariZoneCenterRestHouse.asm"
 INCLUDE "data/maps/objects/SafariZoneCenterRestHouse.asm"
-
-INCLUDE "data/maps/headers/SafariZoneWestRestHouse.asm"
-INCLUDE "scripts/SafariZoneWestRestHouse.asm"
-INCLUDE "data/maps/objects/SafariZoneWestRestHouse.asm"
-
-INCLUDE "data/maps/headers/SafariZoneEastRestHouse.asm"
-INCLUDE "scripts/SafariZoneEastRestHouse.asm"
-INCLUDE "data/maps/objects/SafariZoneEastRestHouse.asm"
-
-INCLUDE "data/maps/headers/SafariZoneNorthRestHouse.asm"
-INCLUDE "scripts/SafariZoneNorthRestHouse.asm"
-INCLUDE "data/maps/objects/SafariZoneNorthRestHouse.asm"
 
 INCLUDE "data/maps/headers/CeruleanCave2F.asm"
 INCLUDE "scripts/CeruleanCave2F.asm"
@@ -1355,10 +1341,18 @@ INCLUDE "scripts/Mars.asm"
 INCLUDE "data/maps/objects/Mars.asm"
 Mars_Blocks: INCBIN "maps/Mars.blk"
 
+INCLUDE "data/maps/headers/SafariZoneNorthRestHouse.asm"
+INCLUDE "scripts/SafariZoneNorthRestHouse.asm"
+INCLUDE "data/maps/objects/SafariZoneNorthRestHouse.asm"
+SafariZoneNorthRestHouse_Blocks: INCBIN "maps/SafariZoneNorthRestHouse.blk"
 
+INCLUDE "data/maps/headers/SafariZoneWestRestHouse.asm"
+INCLUDE "scripts/SafariZoneWestRestHouse.asm"
+INCLUDE "data/maps/objects/SafariZoneWestRestHouse.asm"
+SafariZoneWestRestHouse_Blocks: INCBIN "maps/SafariZoneWestRestHouse.blk"
 
-
-
-
-
+INCLUDE "data/maps/headers/SafariZoneEastRestHouse.asm"
+INCLUDE "scripts/SafariZoneEastRestHouse.asm"
+INCLUDE "data/maps/objects/SafariZoneEastRestHouse.asm"
+SafariZoneEastRestHouse_Blocks: INCBIN "maps/SafariZoneEastRestHouse.blk"
 
