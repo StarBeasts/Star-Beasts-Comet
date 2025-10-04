@@ -311,6 +311,7 @@ SECTION "Text 15", ROMX
 INCLUDE "text/PokemonMansion2F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
 INCLUDE "text/FuchsiaMeetingRoom.asm"
+INCLUDE "text/Moon.asm"
 
 SECTION "Pokédex Text", ROMX
 

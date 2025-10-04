@@ -262,19 +262,21 @@ SetPal_Overworld:
 	cp SILPH_CO_11F
 	jp z, .redgold
 	cp CELADON_MART_ELEVATOR
-	jr z, .blueMon
+	jp z, .blueMon
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
 	jr c, .caveOrBruno
 	cp HAND_HOUSE
-	jr z, .mewMon
+	jp z, .mewMon
 	cp RASTA_HOUSE
-	jr z, .brownMon
+	jp z, .brownMon
 	cp LORELEIS_ROOM
-	jr z, .pallet
+	jp z, .pallet
 	cp BRUNOS_ROOM
 	jr z, .caveOrBruno
+	cp MOON
+	jr z, .grey
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
 .townOrRoute

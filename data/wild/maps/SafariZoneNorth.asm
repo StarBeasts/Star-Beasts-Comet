@@ -6,8 +6,8 @@ SafariZoneNorthWildMons:
 	db 25, POLIWHIRL
 	db 33, DITTO
 	db 23, ARBOK
-	db 24, NIDORINO
 	db 25, PARASECT
+	db 24, RHYDON
 	db 25, JYNX
 	db 28, TAUROS
 	end_grass_wildmons

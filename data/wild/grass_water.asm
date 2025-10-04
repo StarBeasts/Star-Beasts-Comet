@@ -248,6 +248,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
+	dw MoonWildMons
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -336,3 +337,4 @@ INCLUDE "data/wild/maps/RocketHideoutB4F.asm"
 INCLUDE "data/wild/maps/Route7Gate.asm"
 INCLUDE "data/wild/maps/PurpleForest.asm"
 INCLUDE "data/wild/maps/DiglettsCaveRoute11.asm"
+INCLUDE "data/wild/maps/Moon.asm"

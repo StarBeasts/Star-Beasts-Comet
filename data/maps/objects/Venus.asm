@@ -1,0 +1,13 @@
+Venus_Object:
+	db $7d ; border block
+
+	def_warp_events
+	warp_event  3,  5, DIGLETTS_CAVE, 4
+	warp_event  2,  5, DIGLETTS_CAVE, 4
+
+	def_bg_events
+
+	def_object_events
+	object_event  3,  1, SPRITE_SUBROSIAN, STAY, DOWN, 1
+
+	def_warps_to VENUS

@@ -1335,6 +1335,11 @@ INCLUDE "scripts/Villa4F.asm"
 INCLUDE "data/maps/objects/Villa4F.asm"
 Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
 
+INCLUDE "data/maps/headers/Moon.asm"
+INCLUDE "scripts/Moon.asm"
+INCLUDE "data/maps/objects/Moon.asm"
+Moon_Blocks: INCBIN "maps/Moon.blk"
+
 
 
 
