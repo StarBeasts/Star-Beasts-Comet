@@ -249,6 +249,9 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw MoonWildMons
+	dw MoonWildMons
+	dw MoonWildMons
+	dw MoonWildMons
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 

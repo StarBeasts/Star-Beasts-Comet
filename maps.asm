@@ -1340,6 +1340,22 @@ INCLUDE "scripts/Moon.asm"
 INCLUDE "data/maps/objects/Moon.asm"
 Moon_Blocks: INCBIN "maps/Moon.blk"
 
+INCLUDE "data/maps/headers/Mercury.asm"
+INCLUDE "scripts/Mercury.asm"
+INCLUDE "data/maps/objects/Mercury.asm"
+Mercury_Blocks: INCBIN "maps/Mercury.blk"
+
+INCLUDE "data/maps/headers/Venus.asm"
+INCLUDE "scripts/Venus.asm"
+INCLUDE "data/maps/objects/Venus.asm"
+Venus_Blocks: INCBIN "maps/Venus.blk"
+
+INCLUDE "data/maps/headers/Mars.asm"
+INCLUDE "scripts/Mars.asm"
+INCLUDE "data/maps/objects/Mars.asm"
+Mars_Blocks: INCBIN "maps/Mars.blk"
+
+
 
 
 

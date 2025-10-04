@@ -312,6 +312,9 @@ INCLUDE "text/PokemonMansion2F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
 INCLUDE "text/FuchsiaMeetingRoom.asm"
 INCLUDE "text/Moon.asm"
+INCLUDE "text/Mercury.asm"
+INCLUDE "text/Venus.asm"
+INCLUDE "text/Mars.asm"
 
 SECTION "Pokédex Text", ROMX
 

@@ -250,4 +250,7 @@ MapHeaderPointers::
 	dw BrunosRoom_h
 	dw AgathasRoom_h
 	dw Moon_h
+	dw Mercury_h
+	dw Venus_h
+	dw Mars_h
 	assert_table_length NUM_MAPS

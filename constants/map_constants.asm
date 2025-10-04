@@ -268,9 +268,9 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const BRUNOS_ROOM,                    5,  6 ; $F6
 	map_const AGATHAS_ROOM,                   5,  6 ; $F7
 	map_const MOON,                   40,  20 ; $F8 ; four "planet" maps for spaceship to keep scope reasonable
-	; map_const MERCURY,                   40,  20 ; $F9
-	; map_const VENUS,                   40,  20 ; $FA
-	; map_const MARS,                   40,  20 ; $FB
+	map_const MERCURY,                   40,  20 ; $F9
+	map_const VENUS,                   40,  20 ; $FA
+	map_const MARS,                   40,  20 ; $FB
 	; map_const EMPTY_MAP,                   5,  6 ; $FC ; not used, spare map
 	; map_const EMPTY_MAP,                   5,  6 ; $FD ; same, FE and FF CANNOT BE USED
 DEF NUM_MAPS EQU const_value
