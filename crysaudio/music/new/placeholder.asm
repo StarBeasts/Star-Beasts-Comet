@@ -4297,17 +4297,6 @@ Music_Placeholder_Ch2:
 	note E_, 1
 	rest 16
 	rest 16
-	rest 16
-	rest 16
-	rest 4
-	volume_envelope 7, 7
-	octave 4
-	note D#, 4
-	note A_, 4
-	octave 5
-	note C_, 16
-	note C_, 3
-	rest 3
 	volume_envelope 8, 7
 	octave 4
 	note B_, 2
@@ -4382,19 +4371,7 @@ Music_Placeholder_Ch2:
 	note F#, 3
 	note G_, 3
 	note F#, 2
-	note E_, 15
-	rest 16
-	rest 5
-	volume_envelope 7, 7
-	octave 4
-	note D#, 4
-	note A_, 4
-	octave 5
-	note C_, 4
-	note D#, 16
-	volume_envelope 8, 7
-	octave 4
-	note G_, 15
+	note E_, 16
 	octave 3
 	sound_ret
 

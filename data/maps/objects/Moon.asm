@@ -12,8 +12,8 @@ Moon_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  7, 11, SPRITE_SUBROSIAN, STAY, DOWN, 1
+	object_event  8,  9, SPRITE_SUBROSIAN, STAY, DOWN, 1
 	object_event 20,  4, SPRITE_SUBROSIAN, STAY, UP, 2
-	object_event  9, 11, SPRITE_SUBROSIAN, STAY, DOWN, 3
+	object_event 28, 10, SPRITE_SUBROSIAN, STAY, DOWN, 3
 
 	def_warps_to MOON
