@@ -1507,6 +1507,15 @@ ItemUseEscapeRope:
 	and a
 	jr nz, .notUsable
 	ld a, [wCurMap]
+	cp SAFARI_ZONE_WEST_REST_HOUSE
+	jr z, .notUsable
+	ld a, [wCurMap]
+	cp SAFARI_ZONE_EAST_REST_HOUSE
+	jr z, .notUsable
+	ld a, [wCurMap]
+	cp SAFARI_ZONE_NORTH_REST_HOUSE
+	jr z, .notUsable
+	ld a, [wCurMap]
 	cp AGATHAS_ROOM
 	jr z, .notUsable
 	ld a, [wCurMapTileset]
