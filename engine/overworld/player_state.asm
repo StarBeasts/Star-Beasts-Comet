@@ -216,7 +216,7 @@ PrintSafariZoneSteps::
 	ld a, [wCurMap]
 	cp SAFARI_ZONE_EAST
 	ret c
-	cp CERULEAN_CAVE_2F
+	cp SAFARI_ZONE_WEST_REST_HOUSE
 	ret nc
 	hlcoord 0, 0
 	ld b, 3

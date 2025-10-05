@@ -170,7 +170,7 @@ InternalMapEntries:
 	internal_map DEVILS_CANYON, 	7,  4, DiglettsCaveName	
 	internal_map SILPH_CO_8F,                   10,  5, SilphCoName
 	internal_map POKEMON_MANSION_B1F,            7, 12, MacrobiaName
-	internal_map SAFARI_ZONE_NORTH_REST_HOUSE,   8, 10, SafariZoneName
+	internal_map SAFARI_ZONE_SECRET_HOUSE,   8, 10, SafariZoneName
 	internal_map CERULEAN_CAVE_1F,               12, 10, CeruleanCaveName
 	internal_map NAME_RATERS_HOUSE,             2,  7, LavenderTownName
 	internal_map CERULEAN_BADGE_HOUSE,          7,  6, CeruleanCityName

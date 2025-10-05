@@ -222,7 +222,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const ROCKET_HIDEOUT_B2F,            15, 14 ; $C8
 	map_const ROCKET_HIDEOUT_B3F,            15, 14 ; $C9
 	map_const ROCKET_HIDEOUT_B4F,            15, 12 ; $CA
-	map_const ROCKET_HIDEOUT_ELEVATOR,        3,  4 ; $CB
+	map_const ROCKET_HIDEOUT_ELEVATOR,        5,  4 ; $CB
 	map_const SECRET_GARDEN,                  14, 10 ; $CC
 	map_const SECRET_PATH,                    4,  6 ; $CD
 	map_const DEVILS_CANYON,                  3,  3 ; $CE

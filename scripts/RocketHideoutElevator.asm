@@ -78,8 +78,23 @@ RocketHideoutElevatorScript_4575f:
 
 RocketHideoutElevator_TextPointers:
 	dw RocketHideoutElevatorText1
+	dw RocketHideoutElevatorText2
+	dw RocketHideoutElevatorText3
+	dw RocketHideoutElevatorText4
 
 RocketHideoutElevatorText1:
+	text_far _RocketHideoutElevatorText1
+	text_end
+
+RocketHideoutElevatorText2:
+	text_far _RocketHideoutElevatorText2
+	text_end
+
+RocketHideoutElevatorText3:
+	text_far _RocketHideoutElevatorText3
+	text_end
+
+RocketHideoutElevatorText4:
 	text_asm
 	ld b, LIFT_KEY
 	call IsItemInBag
