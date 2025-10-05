@@ -4,38 +4,19 @@ _MoonText1::
 	done
 
 _MoonText2::
-	text "NEEDOLF, sit!"
+	text "SOME OF YOUR"
+	line "BELOVED EARTH"
+	cont "CREATURES HAIL"
+	cont "FROM HERE"
 
-	para "E-easy, girl!"
+	para "THE PINK ONE,"
+	line "DRAGLEAM, IS"
+	cont "SUCH A BEAST"
 	done
 
 _MoonText3::
-	text "Our BEAST's an"
-	line "outsider, so it's"
-	cont "hard to handle."
-
-	para "An outsider is a"
-	line "BEAST that you"
-	cont "get in a trade."
-
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
-
-	para "With no BADGEs,"
-	line "only BEASTs L15"
-	cont "and below will"
-	cont "obey you."
-
-	para "If only we had"
-	line "some BADGEs..."
-
-	para "..."
-
-	para "BAILEY, HOW MANY"
-	line "TIMES DO I HAVE"
-	cont "TO TELL YOU TO"
-	cont "LEAVE THAT DAMNED"
-	cont "THING ALONE!?"
+	text "I WISH TO MEET"
+	line "THE DUCK HUMAN"
+	cont "WHO SEEKS THE"
+	cont "MOON'S TREASURE"
 	done

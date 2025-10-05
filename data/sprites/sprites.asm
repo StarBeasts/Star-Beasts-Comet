@@ -88,6 +88,7 @@ SpriteSheetPointerTable:
 	overworld_sprite SoldierSprite, 12		  ; SPRITE_SOLDIER
 	overworld_sprite SheriffSprite, 12		  ; SPRITE_SHERIFF
 	overworld_sprite RemnantSprite, 12		  ; SPRITE_REMNANT
+	overworld_sprite SubrosianAltSprite, 12		  ; SPRITE_REMNANT
 	overworld_sprite DragonSprite, 12		  ; SPRITE_DRAGON
 	overworld_sprite FarFromTileSprite, 12		  ; SPRITE_FARFROMTILE
 	overworld_sprite ScientistDeadSprite, 12		  ; SPRITE_SCIENTIST_DEAD

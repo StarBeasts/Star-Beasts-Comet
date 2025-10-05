@@ -8,13 +8,7 @@ Mercury_TextPointers:
 
 MercuryText1:
 	text_far _MercuryText1
-	text_asm
-	ld a, NIDORINO
-	call PlayCry
-	call WaitForSoundToFinish
-	ld a, NIDORINO
-	call DisplayPokedex
-	jp TextScriptEnd
+	text_end
 
 MercuryText2:
 	text_far _MercuryText2

@@ -1,13 +1,10 @@
 _RocketHideoutElevatorText1::
-	text "CRORQ CRORQ"
-
-	para "I'M A FROG"
+	text "I TALK ABOUT"
+	line "SHIP FOR YOU!"
 	prompt
 
 _RocketHideoutElevatorText2::
-	text "CRORQ CRORQ"
-
-	para "I'M A FROG"
+	text "I HEAL YOU NOW"
 	prompt
 
 _RocketHideoutElevatorText3::

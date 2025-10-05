@@ -1,40 +1,26 @@
 _VenusText1::
-	text "NEEDOLF: Grrowr...@"
-	text_end
+	text "IT IS VERY UNWISE"
+	line "FOR YOU TO BE"
+	cont "HERE, HUMAN."
 
-_VenusText2::
-	text "NEEDOLF, sit!"
+	para "THIS PLANET IS"
+	line "INHOSPITABLE EVEN"
+	cont "TO OUR KIND"
 
-	para "E-easy, girl!"
-	done
+	para "ALL THAT LIES"
+	line "AHEAD IS THE"
+	cont "SEA OF MISERY."
 
-_VenusText3::
-	text "Our BEAST's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	para "NOTHING OF"
+	line "YOUR WORLD CAN"
+	cont "SURVIVE IN THOSE"
+	cont "HORRIBLE TOXIC"
+	cont "WATERS, INCLUDING"
+	cont "YOURSELF"
 
-	para "An outsider is a"
-	line "BEAST that you"
-	cont "get in a trade."
+	para "I IMPLORE YOU TO"
+	line "PLEASE GO HOME"
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
-
-	para "With no BADGEs,"
-	line "only BEASTs L15"
-	cont "and below will"
-	cont "obey you."
-
-	para "If only we had"
-	line "some BADGEs..."
-
-	para "..."
-
-	para "BAILEY, HOW MANY"
-	line "TIMES DO I HAVE"
-	cont "TO TELL YOU TO"
-	cont "LEAVE THAT DAMNED"
-	cont "THING ALONE!?"
+	para "FOR YOUR OWN"
+	line "SAFETY"
 	done

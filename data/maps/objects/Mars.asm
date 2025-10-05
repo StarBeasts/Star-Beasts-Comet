@@ -7,7 +7,7 @@ Mars_Object:
 	warp_event  5, 39, MARS, 6
 	warp_event  6, 39, MARS, 6
 	warp_event  7, 39, MARS, 6
-	warp_event  5, 9, MARS, 4
+	warp_event  5, 9, MARS, 3
 	warp_event  13, 9, SAFARI_ZONE_NORTH_REST_HOUSE, 1
 
 
@@ -15,5 +15,8 @@ Mars_Object:
 
 	def_object_events
 	object_event  7, 11, SPRITE_SUBROSIAN, STAY, DOWN, 1
+	object_event  8, 11, SPRITE_SUBROSIAN, STAY, DOWN, 2
+	object_event  9, 11, SPRITE_SUBROSIAN, STAY, DOWN, 3
+
 
 	def_warps_to MARS

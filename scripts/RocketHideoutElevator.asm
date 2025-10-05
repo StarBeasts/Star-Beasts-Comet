@@ -79,7 +79,7 @@ RocketHideoutElevatorScript_4575f:
 RocketHideoutElevator_TextPointers:
 	dw RocketHideoutElevatorText1
 	dw RocketHideoutElevatorText2
-	dw RocketHideoutElevatorText3
+	dw SaffronCashierText
 	dw RocketHideoutElevatorText4
 
 RocketHideoutElevatorText1:

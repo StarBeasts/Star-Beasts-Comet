@@ -8,13 +8,7 @@ Mars_TextPointers:
 
 MarsText1:
 	text_far _MarsText1
-	text_asm
-	ld a, NIDORINO
-	call PlayCry
-	call WaitForSoundToFinish
-	ld a, NIDORINO
-	call DisplayPokedex
-	jp TextScriptEnd
+	text_end
 
 MarsText2:
 	text_far _MarsText2

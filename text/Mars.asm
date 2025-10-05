@@ -1,40 +1,41 @@
 _MarsText1::
-	text "NEEDOLF: Grrowr...@"
-	text_end
+	text "WHEN THE FOURTH"
+	line "OR FIFTH REALITY"
+	cont "COME TO BE"
+
+	para "THESE WORLDS SHALL"
+	line "COME ALIVE WITH"
+	cont "BEASTS THE LIKES"
+	cont "OF WHICH YOU'VE"
+	cont "NEVER SEEN"
+	
+	para "BUT UNLESS THAT"
+	line "DAY COMES"
+	
+	para "ALL YOU SHALL FIND"
+	line "IS THE BEASTS"
+	cont "YOU ALREADY KNOW"
+	done
 
 _MarsText2::
-	text "NEEDOLF, sit!"
+	text "IS MARS ANOTHER"
+	line "NAME FOR ARES,"
+	cont "YOUR SO-CALLED"
+	cont "GOD OF WAR?"
 
-	para "E-easy, girl!"
+	para "THIS ONE WILL"
+	line "NEVER UNDERSTAND"
+	cont "WHY THE HUMANS"
+	cont "WORSHIP VIOLENCE"
+	cont "AND CONFLICT SO"
 	done
 
 _MarsText3::
-	text "Our BEAST's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "THESE DAMNABLE"
+	line "PLANG ARE PESTS"
 
-	para "An outsider is a"
-	line "BEAST that you"
-	cont "get in a trade."
-
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
-
-	para "With no BADGEs,"
-	line "only BEASTs L15"
-	cont "and below will"
-	cont "obey you."
-
-	para "If only we had"
-	line "some BADGEs..."
-
-	para "..."
-
-	para "BAILEY, HOW MANY"
-	line "TIMES DO I HAVE"
-	cont "TO TELL YOU TO"
-	cont "LEAVE THAT DAMNED"
-	cont "THING ALONE!?"
+	para "CAN'T WALK TWO"
+	line "FEET WITHOUT"
+	cont "HAVING TO PRY"
+	cont "THEM OFF OF YOU"
 	done
