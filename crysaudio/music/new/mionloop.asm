@@ -1,16 +1,16 @@
-Music_Placeholder:
+Music_Mion:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_Mion_Ch1
+	channel 2, Music_Mion_Ch2
+	channel 3, Music_Mion_Ch3
+	channel 4, Music_Mion_Ch4
 
-Music_Placeholder_Ch1:
+Music_Mion_Ch1:
 	volume 7, 7
 	note_type 12, 10, 7
 	tempo 140
 	octave 5
-.mainloop
+.mainloop:
 	duty_cycle 1
 	note E_, 1
 	rest 1
@@ -988,10 +988,10 @@ Music_Placeholder_Ch1:
 	rest 1
 	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch2:
+Music_Mion_Ch2:
 	duty_cycle 1
 	note_type 12, 15, 7
-.mainloop
+.mainloop:
 	rest 16
 	rest 16
 	rest 16
@@ -1168,12 +1168,13 @@ Music_Placeholder_Ch2:
 	rest 16
 	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch3:
+Music_Mion_Ch3:
 	note_type 12, 1, 0
-.mainloop
+.mainloop:
 	rest 16
 	rest 16
 	octave 1
+	volume_envelope 2, 0
 	note E_, 6
 	note B_, 6
 	octave 2
@@ -1536,12 +1537,12 @@ Music_Placeholder_Ch3:
 	note E_, 2
 	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch4:
+Music_Mion_Ch4:
 	toggle_noise 1
 	drum_speed 12
 	toggle_noise
 	toggle_noise 3
-.mainloop
+.mainloop:
 	drum_note 9, 2
 	drum_note 9, 2
 	drum_note 9, 2

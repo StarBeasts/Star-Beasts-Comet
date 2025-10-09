@@ -21,7 +21,7 @@ Music:
 	dba Music_RouteNew ; loops properly
 	dba Music_Ishihara
 	dba Music_BattleTowerTheme
-	dba Music_GROverworld
+	dba Music_Dojo
 	dba Music_Fort2
 	dba Music_DuelTheme2
 	dba Music_WildBeast ; loops properly
@@ -93,5 +93,8 @@ Music:
 	dba Music_Adventure
 	dba Music_EzioAlt
 	dba Music_HomeDepot
+	dba Music_Frigid
+	dba Music_Techno
+	dba Music_Mion
 
 

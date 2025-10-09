@@ -3,6 +3,9 @@ _MarsText1::
 	line "OR FIFTH REALITY"
 	cont "COME TO BE"
 
+	para "IF AND WHEN THAT"
+	line "DAY COMES"
+
 	para "THESE WORLDS SHALL"
 	line "COME ALIVE WITH"
 	cont "BEASTS THE LIKES"
@@ -10,7 +13,7 @@ _MarsText1::
 	cont "NEVER SEEN"
 	
 	para "BUT UNLESS THAT"
-	line "DAY COMES"
+	line "DAY SHOULD COME"
 	
 	para "ALL YOU SHALL FIND"
 	line "IS THE BEASTS"

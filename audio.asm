@@ -564,6 +564,14 @@ INCLUDE "crysaudio/music/new/adventure.asm"
 INCLUDE "crysaudio/music/new/ezioalt.asm"
 INCLUDE "crysaudio/music/new/hdepot.asm"
 
+SECTION "New Songs 8", ROMX
+
+INCLUDE "crysaudio/music/new/techno.asm"
+INCLUDE "crysaudio/music/new/frigid.asm"
+INCLUDE "crysaudio/music/new/dojo.asm"
+INCLUDE "crysaudio/music/new/mionloop.asm"
+
+
 SECTION "Sound Effects", ROMX
 
 INCLUDE "crysaudio/sfx.asm"

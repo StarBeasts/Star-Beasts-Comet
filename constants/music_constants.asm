@@ -100,6 +100,9 @@
 	const MUSIC_ADVENTURE
 	const MUSIC_EZIO_ALT
 	const MUSIC_HOME_DEPOT
+	const MUSIC_FRIGID
+	const MUSIC_TECHNO
+	const MUSIC_MION
 
 	const NUM_SONGS
 

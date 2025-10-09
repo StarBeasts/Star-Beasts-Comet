@@ -11,6 +11,7 @@ Music_Techno_Ch1:
 	tempo 163
 .mainloop:
 	octave 3
+	volume_envelope 10, 7
 	note C_, 4
 	note A#, 1
 	note A_, 1
@@ -205,6 +206,7 @@ Music_Techno_Ch2:
 	rest 16
 	rest 16
 	octave 3
+	volume_envelope 10, 7
 	note C_, 3
 	rest 1
 	octave 2
@@ -397,6 +399,7 @@ Music_Techno_Ch3:
 	note_type 12, 2, 0
 .mainloop:
 	octave 2
+	volume_envelope 2, 0
 	note C_, 4
 	octave 1
 	note G#, 4
