@@ -460,10 +460,20 @@ PlayTrainerMusic::
 .rocketTrainerListLoop
 	ld a, [hli]
 	cp $ff
-	jr z, .maleTrainer
+	jr z, .noRocketTrainer
 	cp b
 	jr nz, .rocketTrainerListLoop
 	ld a, MUSIC_ROCKET_THEME
+	jr .PlaySound
+.noRocketTrainer
+	ld hl, SupernaturalTrainerList
+.supernaturalTrainerListLoop
+	ld a, [hli]
+	cp $ff
+	jr z, .maleTrainer
+	cp b
+	jr nz, .supernaturalTrainerListLoop
+	ld a, MUSIC_PEPPER_STEAK
 	jr .PlaySound
 .maleTrainer
 	ld a, MUSIC_MEET_MALE_TRAINER

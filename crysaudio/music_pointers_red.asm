@@ -96,5 +96,6 @@ Music:
 	dba Music_Frigid
 	dba Music_Techno
 	dba Music_Mion
+	dba Music_PepperSteak
 
 

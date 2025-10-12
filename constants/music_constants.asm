@@ -103,6 +103,7 @@
 	const MUSIC_FRIGID
 	const MUSIC_TECHNO
 	const MUSIC_MION
+	const MUSIC_PEPPER_STEAK
 
 	const NUM_SONGS
 

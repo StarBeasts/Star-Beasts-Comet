@@ -9,7 +9,7 @@ Music_PepperSteak_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 11, 7
-	tempo 170
+	tempo 172
 	octave 3
 	note G#, 1
 	note D#, 1
@@ -263,7 +263,7 @@ Music_PepperSteak_Ch1:
 	sound_loop 0, .mainloop
 
 Music_PepperSteak_Ch2:
-	note_type 12, 8, 8
+	note_type 12, 7, 8
 	octave 1
 	duty_cycle 0
 	note G#, 2
@@ -478,7 +478,7 @@ Music_PepperSteak_Ch2:
 	sound_loop 0, .mainloop
 
 Music_PepperSteak_Ch3:
-	note_type 12, 1, 0
+	note_type 12, 3, 0
 	octave 1
 	note C#, 2
 	note G#, 2
@@ -505,6 +505,7 @@ Music_PepperSteak_Ch3:
 	note G#, 2
 	rest 16
 .mainloop:
+	volume_envelope 3, 0
 	note C#, 2
 	note G#, 2
 	note C#, 2
@@ -629,6 +630,8 @@ Music_PepperSteak_Ch4:
 	rest 16
 	rest 16
 .mainloop:
+	toggle_noise
+	toggle_noise 7
 	drum_note 1, 2
 	drum_note 9, 2
 	drum_note 1, 2
@@ -694,6 +697,9 @@ Music_PepperSteak_Ch4:
 	drum_note 1, 2
 	drum_note 9, 2
 	drum_note 1, 1
+	octave 8
+	toggle_noise
+	toggle_noise 8
 	drum_note 5, 1
 	drum_note 5, 2
 	drum_note 5, 2

@@ -1,12 +1,12 @@
 FemaleTrainerList::
 	db OPP_LASS
 	db OPP_JR_TRAINER_F
+	db OPP_SUPER_NERD
 	db OPP_BEAUTY
 	db OPP_COOLTRAINER_F
 	db -1 ; end
 
 EvilTrainerList::
-	db OPP_REMNANT
 	db OPP_BIKER
 	db OPP_BURGLAR
 	db OPP_GAMBLER
@@ -21,3 +21,8 @@ RocketTrainerList::
 	db OPP_ROCKET
 	db -1 ; end
 
+SupernaturalTrainerList::
+	db OPP_REMNANT
+	db OPP_PSYCHIC_TR
+	db OPP_CHANNELER
+	db -1 ; end

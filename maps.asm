@@ -1245,11 +1245,6 @@ INCLUDE "scripts/Villa1F.asm"
 INCLUDE "data/maps/objects/Villa1F.asm"
 Villa1F_Blocks: INCBIN "maps/Villa1F.blk"
 
-INCLUDE "data/maps/headers/VillaB1F.asm"
-INCLUDE "scripts/VillaB1F.asm"
-INCLUDE "data/maps/objects/VillaB1F.asm"
-VillaB1F_Blocks: INCBIN "maps/VillaB1F.blk"
-
 INCLUDE "data/maps/headers/Villa2F.asm"
 INCLUDE "scripts/Villa2F.asm"
 INCLUDE "data/maps/objects/Villa2F.asm"
@@ -1259,11 +1254,6 @@ INCLUDE "data/maps/headers/Villa3F.asm"
 INCLUDE "scripts/Villa3F.asm"
 INCLUDE "data/maps/objects/Villa3F.asm"
 Villa3F_Blocks: INCBIN "maps/Villa3F.blk"
-
-INCLUDE "data/maps/headers/Villa5F.asm"
-INCLUDE "scripts/Villa5F.asm"
-INCLUDE "data/maps/objects/Villa5F.asm"
-Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
 
 SECTION "Maps 23", ROMX
 
@@ -1317,10 +1307,7 @@ INCLUDE "scripts/BikeGate.asm"
 INCLUDE "data/maps/objects/BikeGate.asm"
 BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
 
-INCLUDE "data/maps/headers/Villa4F.asm"
-INCLUDE "scripts/Villa4F.asm"
-INCLUDE "data/maps/objects/Villa4F.asm"
-Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
+SECTION "Maps 24", ROMX
 
 INCLUDE "data/maps/headers/Moon.asm"
 INCLUDE "scripts/Moon.asm"
@@ -1356,4 +1343,19 @@ INCLUDE "data/maps/headers/SafariZoneEastRestHouse.asm"
 INCLUDE "scripts/SafariZoneEastRestHouse.asm"
 INCLUDE "data/maps/objects/SafariZoneEastRestHouse.asm"
 SafariZoneEastRestHouse_Blocks: INCBIN "maps/SafariZoneEastRestHouse.blk"
+
+INCLUDE "data/maps/headers/VillaB1F.asm"
+INCLUDE "scripts/VillaB1F.asm"
+INCLUDE "data/maps/objects/VillaB1F.asm"
+VillaB1F_Blocks: INCBIN "maps/VillaB1F.blk"
+
+INCLUDE "data/maps/headers/Villa4F.asm"
+INCLUDE "scripts/Villa4F.asm"
+INCLUDE "data/maps/objects/Villa4F.asm"
+Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
+
+INCLUDE "data/maps/headers/Villa5F.asm"
+INCLUDE "scripts/Villa5F.asm"
+INCLUDE "data/maps/objects/Villa5F.asm"
+Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
 
