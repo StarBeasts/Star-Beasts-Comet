@@ -1090,9 +1090,6 @@ FuchsiaBillsGrandpasHouse_Blocks: INCBIN "maps/FuchsiaBillsGrandpasHouse.blk"
 CinnabarPokecenter_Blocks:
 FuchsiaPokecenter_Blocks: INCBIN "maps/FuchsiaPokecenter.blk"
 
-CeruleanBadgeHouse_Blocks: INCBIN "maps/CeruleanBadgeHouse.blk"
-
-
 SECTION "Maps 20", ROMX
 
 INCLUDE "scripts/CeruleanCity_2.asm"
@@ -1114,7 +1111,7 @@ CeruleanCave1F_Blocks: INCBIN "maps/CeruleanCave1F.blk"
 INCLUDE "data/maps/headers/CeruleanBadgeHouse.asm"
 INCLUDE "scripts/CeruleanBadgeHouse.asm"
 INCLUDE "data/maps/objects/CeruleanBadgeHouse.asm"
-
+CeruleanBadgeHouse_Blocks: INCBIN "maps/CeruleanBadgeHouse.blk"
 
 SECTION "Maps 21", ROMX
 

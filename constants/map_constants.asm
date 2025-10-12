@@ -249,7 +249,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CERULEAN_CAVE_B1F,             16,  35 ; $E3
 	map_const CERULEAN_CAVE_1F,              15,  45 ; $E4
 	map_const NAME_RATERS_HOUSE,              4,  4 ; $E5
-	map_const CERULEAN_BADGE_HOUSE,           4,  4 ; $E6
+	map_const CERULEAN_BADGE_HOUSE,           11,  4 ; $E6
 	map_const GOLDEN_GATE,                  12,  4 ; $E7
 	map_const ROCK_TUNNEL_B1F,               20, 18 ; $E8
 	map_const SILPH_CO_9F,                   13,  15 ; $E9
