@@ -6,11 +6,11 @@ VermilionCity_Object:
 	warp_event 17,  7, POKEMON_FAN_CLUB, 1
 	warp_event  9, 19, VERMILION_MART, 1
 	warp_event 14, 13, VERMILION_GYM, 1
-	warp_event 43, 11, VERMILION_PIDGEY_HOUSE, 1
+	warp_event 43, 11, CERULEAN_TRADE_HOUSE, 3
 	warp_event 22, 19, VERMILION_DOCK, 1
 	warp_event 23, 19, VERMILION_DOCK, 1
 	warp_event 41,  5, CERULEAN_TRADE_HOUSE, 1
-	warp_event 53, 11, VERMILION_OLD_ROD_HOUSE, 3
+	warp_event 53, 11, CERULEAN_TRADE_HOUSE, 8
 	warp_event 22, 3, DIGLETTS_CAVE_ROUTE_2, 1
 	warp_event 4, 11, CELADON_MART_5F, 1
 

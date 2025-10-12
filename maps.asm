@@ -92,7 +92,6 @@ Route16FlyHouse_Blocks:
 SaffronPidgeyHouse_Blocks:
 VermilionPidgeyHouse_Blocks:
 LavenderCuboneHouse_Blocks:
-CeruleanTradeHouse_Blocks:
 PewterNidoranHouse_Blocks: INCBIN "maps/PewterNidoranHouse.blk"
 
 PewterSpeechHouse_Blocks: INCBIN "maps/PewterSpeechHouse.blk"
@@ -146,6 +145,7 @@ INCLUDE "data/maps/objects/CeruleanTrashedHouse.asm"
 INCLUDE "data/maps/headers/CeruleanTradeHouse.asm"
 INCLUDE "scripts/CeruleanTradeHouse.asm"
 INCLUDE "data/maps/objects/CeruleanTradeHouse.asm"
+CeruleanTradeHouse_Blocks: INCBIN "maps/CeruleanTradeHouse.blk"
 
 INCLUDE "data/maps/headers/BikeShop.asm"
 INCLUDE "scripts/BikeShop.asm"
