@@ -100,8 +100,6 @@ ViridianNicknameHouse_Blocks: INCBIN "maps/ViridianNicknameHouse.blk"
 CeladonMansionRoofHouse_Blocks:
 ViridianSchoolHouse_Blocks: INCBIN "maps/ViridianSchoolHouse.blk"
 
-CeruleanTrashedHouse_Blocks: INCBIN "maps/CeruleanTrashedHouse.blk"
-
 DiglettsCaveRoute11_Blocks: INCBIN "maps/DiglettsCaveRoute11.blk"
 DiglettsCaveRoute2_Blocks: INCBIN "maps/DiglettsCaveRoute2.blk"
 
@@ -141,6 +139,7 @@ INCLUDE "data/maps/objects/PewterSpeechHouse.asm"
 INCLUDE "data/maps/headers/CeruleanTrashedHouse.asm"
 INCLUDE "scripts/CeruleanTrashedHouse.asm"
 INCLUDE "data/maps/objects/CeruleanTrashedHouse.asm"
+CeruleanTrashedHouse_Blocks: INCBIN "maps/CeruleanTrashedHouse.blk"
 
 INCLUDE "data/maps/headers/CeruleanTradeHouse.asm"
 INCLUDE "scripts/CeruleanTradeHouse.asm"

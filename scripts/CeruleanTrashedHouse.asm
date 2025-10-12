@@ -6,6 +6,8 @@ CeruleanTrashedHouse_TextPointers:
 	dw CeruleanHouseTrashedText1
 	dw CeruleanHouseTrashedText2
 	dw CeruleanHouseTrashedText3
+	dw CeruleanHouseTrashedText4
+	dw CeruleanHouseTrashedText5
 
 CeruleanHouseTrashedText1:
 	text_asm
@@ -35,5 +37,16 @@ CeruleanHouseTrashedText2:
 	text_end
 
 CeruleanHouseTrashedText3:
-	text_far _CeruleanHouseTrashedText3
+	text_asm
+	ld a, TRADE_FOR_PRINCESS
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
+
+CeruleanHouseTrashedText4:
+	text_far _CeruleanHouseTrashedText4
+	text_end
+
+CeruleanHouseTrashedText5:
+	text_far _CeruleanHouseTrashedText5
 	text_end

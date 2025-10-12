@@ -13,7 +13,7 @@ CeruleanCity_Object:
 	warp_event 11, 11, CERULEAN_BADGE_HOUSE, 2
 	warp_event 11,  9, CERULEAN_BADGE_HOUSE, 1
 	warp_event 32,  5, MT_MOON_B2F, 4
-	warp_event 27, 19, VERMILION_TRADE_HOUSE, 1
+	warp_event 27, 19, CERULEAN_TRASHED_HOUSE, 4
 
 	def_bg_events
 	bg_event 31,  7, 12 ; CeruleanCityText12
