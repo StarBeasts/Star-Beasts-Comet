@@ -726,8 +726,8 @@ MrMimeEvosMoves:
 ; Learnset
 	db 15, DISABLE
 	db 22, HYPNOSIS
-	db 28, EXPLOSION
-	db 36, OMINOUS_WIND
+	db 31, EXPLOSION
+	db 37, OMINOUS_WIND
 	db 44, PLAY_ROUGH
 	db 51, HURRICANE
 	db 0
@@ -991,11 +991,7 @@ DragoniteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 31, DARK_PULSE
-	db 35, OUTRAGE
-	db 45, SHADOW_CLAW
-	db 55, FIRE_BLAST
+	db 55, DARK_PULSE
 	db 0
 
 MissingNo43EvosMoves:
@@ -1208,7 +1204,7 @@ DratiniEvosMoves:
 	db 10, THUNDER_WAVE
 	db 20, AGILITY
 	db 30, DRAGONBREATH
-	db 40, DRAGON_CLAW
+	db 40, HURRICANE
 	db 50, OUTRAGE
 	db 0
 
@@ -1221,7 +1217,7 @@ DragonairEvosMoves:
 	db 20, AGILITY
 	db 30, SKY_ATTACK
 	db 35, DRAGONBREATH
-	db 45, DRAGON_CLAW
+	db 45, HURRICANE
 	db 55, OUTRAGE
 	db 0
 

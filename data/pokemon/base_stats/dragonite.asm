@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/dragonite.pic", 0, 1 ; sprite dimensions
 	dw DragonitePicFront, DragonitePicBack
 
-	db DRAGON_CLAW, DRAGONBREATH, THUNDER_WAVE, AGILITY ; level 1 learnset
+	db THUNDER_WAVE, OUTRAGE, FIRE_BLAST, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
