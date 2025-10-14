@@ -40,3 +40,26 @@ _MercuryText3::
 	para "AH, THE NAIVETY"
 	line "OF YOUTH"
 	done
+
+_MercuryText4::
+	text "THERE IS NAUGHT"
+	line "IN THERE BUT"
+	cont "FREEZING COLD"
+	cont "AND THE BEASTS"
+	cont "KNOWN AS FANGES,"
+	cont "OR 'SWIFTILE'"
+	cont "AS YOU HUMANS"
+	cont "CALL THEM"
+
+	para "BUT THEY SHOULD"
+	line "MAKE GOOD SPORT"
+	cont "FOR YOUR #"
+	cont "BEASTS"
+
+	para "QUITE A WORTHY"
+	line "EXPERIENCE AS FAR"
+	cont "AS PREY GOES, IF"
+	cont "YOU ARE UP TO"
+	cont "THE TASK"
+	done
+

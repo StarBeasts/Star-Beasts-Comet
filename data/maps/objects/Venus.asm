@@ -8,6 +8,7 @@ Venus_Object:
 	warp_event  6, 39, VENUS, 6
 	warp_event  7, 39, VENUS, 6
 	warp_event  9,  9, VENUS, 4
+	warp_event  37,  9, VERMILION_OLD_ROD_HOUSE, 1
 
 	def_bg_events
 

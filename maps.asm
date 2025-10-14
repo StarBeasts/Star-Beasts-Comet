@@ -90,7 +90,6 @@ NameRatersHouse_Blocks:
 MrFujisHouse_Blocks:
 Route16FlyHouse_Blocks:
 SaffronPidgeyHouse_Blocks:
-VermilionPidgeyHouse_Blocks:
 LavenderCuboneHouse_Blocks:
 PewterNidoranHouse_Blocks: INCBIN "maps/PewterNidoranHouse.blk"
 
@@ -166,6 +165,7 @@ INCLUDE "data/maps/objects/NameRatersHouse.asm"
 INCLUDE "data/maps/headers/VermilionPidgeyHouse.asm"
 INCLUDE "scripts/VermilionPidgeyHouse.asm"
 INCLUDE "data/maps/objects/VermilionPidgeyHouse.asm"
+VermilionPidgeyHouse_Blocks: INCBIN "maps/VermilionPidgeyHouse.blk"
 
 INCLUDE "data/maps/headers/VermilionDock.asm"
 INCLUDE "scripts/VermilionDock.asm"
