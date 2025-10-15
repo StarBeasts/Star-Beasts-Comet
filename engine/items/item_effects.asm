@@ -103,6 +103,11 @@ ItemUsePtrTable:
 	dw ItemUseEvoStone   ; DARK_SOUL
 	dw ItemUseEvoStone   ; HOLY_SOUL
 	dw ItemUseMedicine   ; TEA
+	dw UnusableItem      ; EARTH GEM
+	dw UnusableItem      ; MOON GEM
+	dw UnusableItem      ; URANUS GEM
+	dw UnusableItem      ; VENUS GEM
+	dw UnusableItem      ; MARS GEM
 
 
 ItemUseBall:

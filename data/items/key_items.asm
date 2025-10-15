@@ -86,4 +86,9 @@ KeyItemFlags:
 	dbit FALSE ; DARK_SOUL
 	dbit FALSE ; HOLY_SOUL
 	dbit FALSE ; TEA
+	dbit TRUE  ; EARTH_GEM
+	dbit TRUE  ; MOON_GEM
+	dbit TRUE  ; URANUS_GEM
+	dbit TRUE  ; VENUS_GEM
+	dbit TRUE  ; MARS_GEM
 	end_bit_array NUM_ITEMS

@@ -86,6 +86,11 @@ ItemPrices::
 	bcd3 2100  ; DARK_SOUL
 	bcd3 2100  ; HOLY_SOUL
 	bcd3 300   ; TEA
+	bcd3 0     ; EARTH GEM
+	bcd3 0     ; MOON GEM
+	bcd3 0     ; URANUS GEM
+	bcd3 0     ; VENUS GEM
+	bcd3 0     ; MARS GEM
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F

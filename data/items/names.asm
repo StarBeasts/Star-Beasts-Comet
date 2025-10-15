@@ -86,6 +86,11 @@ ItemNames::
 	li "DARK SOUL"
 	li "HOLY SOUL"
 	li "TEA"
+	li "EARTH GEM"
+	li "MOON GEM"
+	li "URANUS GEM"
+	li "VENUS GEM"
+	li "MARS GEM"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"

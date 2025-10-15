@@ -437,6 +437,7 @@ IndigoPlateauHiddenObjects:
 Route25HiddenObjects:
 	hidden_object 2,  4, ETHER, HiddenItems
 	hidden_object 12,  6, FULL_HEAL, HiddenItems
+	hidden_object 33,  16, EARTH_GEM, HiddenItems
 	db -1 ; end
 
 Route9HiddenObjects:
