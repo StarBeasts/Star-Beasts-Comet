@@ -197,6 +197,8 @@ SetPal_Overworld:
 	jp z, .mewMon
 	cp DIGLETTS_CAVE_ROUTE_11
 	jp z, .turquoise
+	cp MOLE_HOLE
+	jp z, .invertColors
 	cp CELAGONE_CITY
 	jp z, .grey
 	cp GLITCH_ROOM
@@ -233,6 +235,8 @@ SetPal_Overworld:
 	jp z, .miserite
 	cp CINNABAR_LAB
 	jp z, .cinnabar
+	cp CINNABAR_LAB_TRADE_ROOM
+	jp z, .glitchrealm
 	cp ROUTE_15_GATE_2F
 	jp z, .black
 	cp VICTORY_ROAD_2F	
@@ -328,7 +332,7 @@ SetPal_Overworld:
 	ld a, PAL_GREYMON - 1
 	jr .town
 .invertColors
-	ld a, PAL_GREENMON - 1
+	ld a, PAL_TOWNMAP_3 - 1
 	jr .town
 .grey
 	ld a, PAL_GREY - 1
@@ -380,6 +384,9 @@ SetPal_Overworld:
 	jp .town
 .indigo
 	ld a, PAL_INDIGO - 1
+	jp .town
+.glitchrealm
+	ld a, PAL_VIRIDWOOD - 1
 	jp .town
 
 ; used when a Pokemon is the only thing on the screen
