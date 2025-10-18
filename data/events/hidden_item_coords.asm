@@ -35,7 +35,7 @@ HiddenItemCoords:
 	hidden_item POKEMON_MANSION_3F,             18,   1
 	hidden_item ROUTE_23,                       21,  94
 	hidden_item ROUTE_23,                       4,  85
-	hidden_item ROUTE_23,                       2,  61
+	hidden_item ROUTE_23,                       2,  53
 	hidden_item VICTORY_ROAD_2F,                7,  13
 	hidden_item VICTORY_ROAD_2F,               45,  12
 	hidden_item VILLA_1F,      	           9,    2

@@ -59,7 +59,7 @@ Route23Script0:
 YCoordsData_51255:
 	db 11
 	db 32
-	db 58
+	db 59
 	db 72
 	db 81
 	db 95

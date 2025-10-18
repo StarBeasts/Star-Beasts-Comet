@@ -283,7 +283,6 @@ INCLUDE "text/AmethystArchive.asm"
 INCLUDE "text/Route8Gate.asm"
 INCLUDE "text/CeladonMansionRoof.asm"
 INCLUDE "text/SSAnne3F.asm"
-INCLUDE "text/Route7Gate.asm"
 INCLUDE "text/VictoryRoad3F.asm"
 INCLUDE "text/SSAnneB1FRooms.asm"
 INCLUDE "text/CeladonMansion2F.asm"
@@ -305,6 +304,7 @@ INCLUDE "text/RocketHideoutElevator.asm"
 INCLUDE "text/IndigoPlateau.asm"
 INCLUDE "text/MoleHole.asm"
 INCLUDE "text/DiglettsCave.asm"
+INCLUDE "text/Route7Gate.asm"
 
 SECTION "Text 15", ROMX
 

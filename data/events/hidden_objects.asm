@@ -549,7 +549,7 @@ Mansion4HiddenObjects:
 Route23HiddenObjects:
 	hidden_object  21, 94, FULL_RESTORE, HiddenItems
 	hidden_object  4, 85, ULTRA_BALL, HiddenItems
-	hidden_object  2, 61, MAX_ETHER, HiddenItems
+	hidden_object  2, 53, MAX_ETHER, HiddenItems
 	db -1 ; end
 
 VictoryRoad2HiddenObjects:

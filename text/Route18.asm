@@ -68,6 +68,14 @@ _Route18AfterBattleText3::
 	done
 
 _Route18Text4::
+	text "Sorry, pal."
+
+	para "I only heal"
+	line "members of the"
+	cont "POLICE FORCE."
+	done
+
+_Route18Text5::
 	text "PERIDOT PRECINCT"
 	
 	para "KEEPING RELAS"	
@@ -75,7 +83,7 @@ _Route18Text4::
 	cont "CRIMINAL"
 	done
 
-_Route18Text5::
+_Route18Text6::
 	text "PERIDOT HOLDING"
 	line "CELLS"
 	done

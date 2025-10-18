@@ -53,7 +53,22 @@ _Route7GateText3::
 	para "Now, go away."
 	done
 
-_Route7GateText4::
+_Route7GateHealerImAHealerText::
+	text "Healer, I am!"
+	line "Heal your BEASTS,"
+	cont "I will!"
+	prompt
+
+_Route7GateHealerComeBackAnyTimeText::
+	text "Leave immediately?"
+
+	para "Hahahahahahahaha!"
+
+	para "What a story,"
+	line "<PLAYER>."
+	done
+
+_Route7GateText5::
 	text "FELDSPAR FLATS"
 
 	para "ONCE YOU LIVE"
@@ -62,16 +77,16 @@ _Route7GateText4::
 	cont "LIVE ANYWHERE ELSE"
 	done
 
-_Route7GateText5::
+_Route7GateText6::
 	text "CYCLING UNDERPASS"
 	done
 
-_Route7GateText6::
+_Route7GateText7::
 	text "GATE TO"
 	line "EASTERN CANAL"
 	done
 
-_Route7GateText7::
+_Route7GateText8::
 	text "NOTICE: ROUTE 11"
 	line "IS INACCESSIBLE"
 	cont "FROM HERE"
