@@ -51,3 +51,17 @@ _GoldenGateText4::
 	line "day to take care"
 	cont "of them!"
 	done
+
+_GoldenGateHealerImAHealerText::
+	text "I may not look"
+	line "like it, but I'm"
+	cont "a healer."
+
+	para "Here, rest a bit."
+	prompt
+
+_GoldenGateHealerComeBackAnyTimeText::
+	text "Always a pleasure"
+	line "to be of service."
+	done
+

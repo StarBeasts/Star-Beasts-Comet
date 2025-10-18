@@ -78,7 +78,7 @@ RocketHideoutElevatorScript_4575f:
 
 RocketHideoutElevator_TextPointers:
 	dw RocketHideoutElevatorText1
-	dw RocketHideoutElevatorText2
+	dw RocketHideoutElevatorHealerText
 	dw SaffronCashierText
 	dw RocketHideoutElevatorText4
 
@@ -86,8 +86,30 @@ RocketHideoutElevatorText1:
 	text_far _RocketHideoutElevatorText1
 	text_end
 
-RocketHideoutElevatorText2:
-	text_far _RocketHideoutElevatorText2
+RocketHideoutElevatorHealerText:
+	text_asm
+	ld hl, .ImAHealerText
+	call PrintText
+	predef HealParty
+	call GBFadeOutToWhite
+	ld a, MUSIC_PKMN_HEALED
+	call PlayMusic
+
+	call WaitForSongToFinish
+
+	call GBFadeInFromWhite
+	ld a, [wMapMusicSoundID]
+	call PlayMusic
+	ld hl, .ComeBackAnyTimeText
+	call PrintText
+	jp TextScriptEnd
+
+.ImAHealerText:
+	text_far _RocketHideoutElevatorHealerImAHealerText
+	text_end
+
+.ComeBackAnyTimeText:
+	text_far _RocketHideoutElevatorHealerComeBackAnyTimeText
 	text_end
 
 RocketHideoutElevatorText3:

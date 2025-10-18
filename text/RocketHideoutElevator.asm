@@ -7,9 +7,9 @@ _RocketHideoutElevatorText1::
 	cont "TRAVEL SHUTTLE"
 
 	para "TO NAVIGATE,"
-	line "INTERACT WITH THE"
-	cont "CONTROL PANEL NEXT"
-	cont "TO THE DOORS"
+	line "INTERACT WITH"
+	cont "THE CONTROL PANEL"
+	cont "BY THE DOORS"
 
 	para "THE SHIP HAS AN"
 	line "ATMOSPHERIC FIELD"
@@ -38,8 +38,14 @@ _RocketHideoutElevatorText1::
 	cont "'USER NAME HERE.'"
 	prompt
 
-_RocketHideoutElevatorText2::
-	text "I HEAL YOU NOW"
+_RocketHideoutElevatorHealerImAHealerText::
+	text "THIS UNIT WILL"
+	line "PROCEED TO HEAL"
+	cont "YOUR # BEASTS."
+	prompt
+
+_RocketHideoutElevatorHealerComeBackAnyTimeText::
+	text "PLEASE COME AGAIN."
 	prompt
 
 _RocketHideoutElevatorText3::
