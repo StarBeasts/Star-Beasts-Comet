@@ -6,7 +6,7 @@ Music:
 	dba Music_Hometown ; loops properly
 	dba Music_Pokedex
 	dba Music_Club3
-	dba Music_SeelStage
+	dba Music_Avenue
 	dba Music_Club2
 	dba Music_BlueField
 	dba Music_Cinnabar

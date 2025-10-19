@@ -571,6 +571,7 @@ INCLUDE "crysaudio/music/new/frigid.asm"
 INCLUDE "crysaudio/music/new/dojo.asm"
 INCLUDE "crysaudio/music/new/mionloop.asm"
 INCLUDE "crysaudio/music/new/peppersteak.asm"
+INCLUDE "crysaudio/music/new/avenue.asm"
 
 SECTION "Sound Effects", ROMX
 

@@ -1,13 +1,13 @@
 DevilsCanyonWildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 18, FARFETCHD
-	db 19, FARFETCHD
-	db 17, FARFETCHD
-	db 20, FARFETCHD
-	db 16, FARFETCHD
-	db 15, FARFETCHD
-	db 21, FARFETCHD
-	db 22, FARFETCHD
+	db 27, FARFETCHD
+	db 28, FARFETCHD
+	db 29, FARFETCHD
+	db 30, FARFETCHD
+	db 26, FARFETCHD
+	db 32, FARFETCHD
+	db 33, FARFETCHD
+	db 34, FARFETCHD
 	db 30, STARYU
 	db 31, DUGTRIO
 	end_grass_wildmons
