@@ -10,7 +10,7 @@ Music:
 	dba Music_Club2
 	dba Music_BlueField
 	dba Music_Cinnabar
-	dba Music_RedField
+	dba Music_Legrandito
 	dba Music_Lavender
 	dba Music_Obla ; loops semi-properly
 	dba Music_MuseumGuy
