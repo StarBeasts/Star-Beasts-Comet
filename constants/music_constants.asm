@@ -104,6 +104,7 @@
 	const MUSIC_TECHNO
 	const MUSIC_MION
 	const MUSIC_PEPPER_STEAK
+	const MUSIC_JASON
 
 	const NUM_SONGS
 
