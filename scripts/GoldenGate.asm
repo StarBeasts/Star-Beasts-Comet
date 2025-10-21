@@ -7,6 +7,7 @@ GoldenGate_TextPointers:
 	dw GoldenGateText3
 	dw GoldenGateText4
 	dw GoldenGateHealerText
+	dw GoldenGateText6
 
 GoldenGateText1:
 	text_far _GoldenGateText1
@@ -48,4 +49,8 @@ GoldenGateHealerText:
 
 .ComeBackAnyTimeText:
 	text_far _GoldenGateHealerComeBackAnyTimeText
+	text_end
+
+GoldenGateText6:
+	text_far _GoldenGateText6
 	text_end

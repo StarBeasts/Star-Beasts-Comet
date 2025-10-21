@@ -152,7 +152,7 @@ _SaffronCityText22::
 	done
 
 _SaffronCityText24::
-	text "MR.PSYCHIC's"
+	text "PSYCHIC BROTHER's"
 	line "HOUSE"
 	done
 

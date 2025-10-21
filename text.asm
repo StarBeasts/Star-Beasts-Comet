@@ -315,6 +315,7 @@ INCLUDE "text/Moon.asm"
 INCLUDE "text/Mercury.asm"
 INCLUDE "text/Venus.asm"
 INCLUDE "text/Mars.asm"
+INCLUDE "text/move_deleter.asm"
 
 SECTION "Pokédex Text", ROMX
 

@@ -85,7 +85,6 @@ UndergroundPathRoute8_Blocks: INCBIN "maps/UndergroundPathRoute8.blk"
 
 OaksLab_Blocks: INCBIN "maps/OaksLab.blk"
 
-MrPsychicsHouse_Blocks:
 NameRatersHouse_Blocks:
 MrFujisHouse_Blocks:
 Route16FlyHouse_Blocks:
@@ -184,10 +183,6 @@ FuchsiaMart_Blocks: INCBIN "maps/FuchsiaMart.blk"
 INCLUDE "data/maps/headers/SaffronPidgeyHouse.asm"
 INCLUDE "scripts/SaffronPidgeyHouse.asm"
 INCLUDE "data/maps/objects/SaffronPidgeyHouse.asm"
-
-INCLUDE "data/maps/headers/MrPsychicsHouse.asm"
-INCLUDE "scripts/MrPsychicsHouse.asm"
-INCLUDE "data/maps/objects/MrPsychicsHouse.asm"
 
 INCLUDE "data/maps/headers/DiglettsCaveRoute2.asm"
 INCLUDE "scripts/DiglettsCaveRoute2.asm"
@@ -1354,4 +1349,10 @@ INCLUDE "data/maps/headers/Villa5F.asm"
 INCLUDE "scripts/Villa5F.asm"
 INCLUDE "data/maps/objects/Villa5F.asm"
 Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
+
+INCLUDE "data/maps/headers/MrPsychicsHouse.asm"
+INCLUDE "scripts/MrPsychicsHouse.asm"
+INCLUDE "data/maps/objects/MrPsychicsHouse.asm"
+MrPsychicsHouse_Blocks: INCBIN "maps/MrPsychicsHouse.blk"
+INCLUDE "scripts/move_deleter.asm"
 

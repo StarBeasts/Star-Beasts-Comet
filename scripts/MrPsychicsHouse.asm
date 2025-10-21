@@ -3,6 +3,7 @@ MrPsychicsHouse_Script:
 
 MrPsychicsHouse_TextPointers:
 	dw SaffronHouse2Text1
+	dw MoveDeleterText1
 
 SaffronHouse2Text1:
 	text_asm

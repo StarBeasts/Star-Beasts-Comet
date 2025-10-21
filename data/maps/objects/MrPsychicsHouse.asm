@@ -9,5 +9,6 @@ MrPsychicsHouse_Object:
 
 	def_object_events
 	object_event  5,  3, SPRITE_PSYCHIC, STAY, LEFT, 1 ; person
+	object_event  2,  3, SPRITE_PSYCHIC, STAY, RIGHT, 2 ; person
 
 	def_warps_to MR_PSYCHICS_HOUSE

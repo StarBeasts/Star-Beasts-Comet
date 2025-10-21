@@ -65,3 +65,18 @@ _GoldenGateHealerComeBackAnyTimeText::
 	line "to be of service."
 	done
 
+_GoldenGateText6::
+	text "I hear there's a"
+	line "feller down in"
+	cont "METAL METROPOLIS"
+	cont "that uses his"
+	cont "PSYCHIC powers ta"
+	cont "make # BEASTS"
+	cont "forget moves!"
+
+	para "Why the heck would"
+	line "ya ever wanna do"
+	cont "that kinda thing?"
+	done
+
+
