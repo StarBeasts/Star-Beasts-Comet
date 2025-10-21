@@ -121,4 +121,5 @@ SpriteSheetPointerTable:
 	overworld_sprite GuitarSprite, 4		  ; SPRITE_GUITAR
 	overworld_sprite RuinedSignSprite, 4		  ; SPRITE_RUINED_SIGN
 	overworld_sprite CoffeeSprite, 4		  ; SPRITE_COFFEE
+	overworld_sprite UrnSprite, 4		  ; SPRITE_URN
 	assert_table_length NUM_SPRITES

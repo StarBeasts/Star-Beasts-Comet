@@ -152,8 +152,8 @@ _SaffronCityText22::
 	done
 
 _SaffronCityText24::
-	text "PSYCHIC BROTHER's"
-	line "HOUSE"
+	text "HOUSE OF THE"
+	line "PSYCHIC TWINS"
 	done
 
 _SaffronCityText25::
