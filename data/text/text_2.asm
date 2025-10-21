@@ -1150,12 +1150,7 @@ _MonName1Text::
 	text "<USER>@"
 	text_end
 
-_Used1Text::
-	text_start
-	line "used @"
-	text_end
-
-_Used2Text::
+_UsedText::
 	text_start
 	line "used @"
 	text_end
@@ -1169,23 +1164,7 @@ _MoveNameText::
 	text_ram wcd6d
 	text "@"
 
-_ExclamationPoint1Text::
-	text "!"
-	done
-
-_ExclamationPoint2Text::
-	text "!"
-	done
-
-_ExclamationPoint3Text::
-	text "!"
-	done
-
-_ExclamationPoint4Text::
-	text "!"
-	done
-
-_ExclamationPoint5Text::
+_ExclamationPointText::
 	text "!"
 	done
 
@@ -1198,11 +1177,6 @@ _KeptGoingAndCrashedText::
 	text "<USER>"
 	line "kept going and"
 	cont "crashed!"
-	prompt
-
-_UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
 	prompt
 
 _DoesntAffectMonText::
