@@ -8,7 +8,7 @@ Moon_Object:
 	warp_event  6, 39, MOON, 6
 	warp_event  7, 39, MOON, 6
 	warp_event  5, 9, MOON, 3
-	warp_event  7, 17, SAFARI_ZONE_EAST_REST_HOUSE, 1
+	warp_event  33, 5, FUCHSIA_GOOD_ROD_HOUSE, 1
 
 	def_bg_events
 

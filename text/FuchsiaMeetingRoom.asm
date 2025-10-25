@@ -121,7 +121,7 @@ _FuchsiaMeetingRoomText8::
 	cont "fishing with"
 	cont "great passion."
 
-	para "After closer"
+	para "Upon closer"
 	line "inspection, you"
 	cont "see a radio the"
 	cont "speakers are"

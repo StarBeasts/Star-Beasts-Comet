@@ -183,7 +183,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SEAFOAM_ISLANDS_B3F,           30,  10 ; $A1
 	map_const SEAFOAM_ISLANDS_B4F,           24,  31 ; $A2
 	map_const VERMILION_OLD_ROD_HOUSE,        5,  40 ; $A3
-	map_const FUCHSIA_GOOD_ROD_HOUSE,         4,  4 ; $A4
+	map_const FUCHSIA_GOOD_ROD_HOUSE,         30, 30 ; $A4
 	map_const POKEMON_MANSION_1F,            15, 14 ; $A5
 	map_const CINNABAR_GYM,                  10,  9 ; $A6
 	map_const CINNABAR_LAB,                  34, 18 ; $A7
@@ -242,7 +242,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SAFARI_ZONE_CENTER,            15, 13 ; $DC
 	map_const SAFARI_ZONE_CENTER_REST_HOUSE,  18,  4 ; $DD
 	map_const SAFARI_ZONE_SECRET_HOUSE,       11,  4 ; $DE
-	map_const SAFARI_ZONE_WEST_REST_HOUSE,    40,  10 ; $DF
+	map_const SAFARI_ZONE_WEST_REST_HOUSE,    9,  20 ; $DF
 	map_const SAFARI_ZONE_EAST_REST_HOUSE,    40,  10 ; $E0
 	map_const SAFARI_ZONE_NORTH_REST_HOUSE,   40,  10 ; $E1
 	map_const CERULEAN_CAVE_2F,              15,  55 ; $E2
