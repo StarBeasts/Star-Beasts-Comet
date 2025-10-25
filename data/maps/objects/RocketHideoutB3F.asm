@@ -3,7 +3,7 @@ RocketHideoutB3F_Object:
 
 	def_warp_events
 	warp_event  6, 21, ROCKET_HIDEOUT_B2F, 2
-	warp_event 16,  7, ROCKET_HIDEOUT_B4F, 1
+	warp_event 16,  7, ROCKET_HIDEOUT_B4F, 3
 
 	def_bg_events
 

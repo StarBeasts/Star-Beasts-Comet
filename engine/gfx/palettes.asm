@@ -175,6 +175,8 @@ SetPal_Overworld:
 	jp z, .mewMon
 	cp VIRIDIAN_FOREST
 	jp z, .invertColors
+	cp CERULEAN_TRADE_HOUSE
+	jp z, .vermilion
 	cp MT_MOON_POKECENTER
 	jp z, .caveOrBruno
 	cp UNDERGROUND_PATH_ROUTE_5
@@ -231,6 +233,8 @@ SetPal_Overworld:
 	jp z, .redgold
 	cp VERMILION_OLD_ROD_HOUSE
 	jp z, .vermilion
+	cp FUCHSIA_GOOD_ROD_HOUSE
+	jp z, .cinnabar
 	cp POKEMON_MANSION_1F
 	jp z, .miserite
 	cp CINNABAR_LAB
@@ -247,6 +251,8 @@ SetPal_Overworld:
 	jp z, .miserite
 	cp ROCKET_HIDEOUT_B3F
 	jp z, .miserite
+	cp ROCKET_HIDEOUT_ELEVATOR
+	jp z, .grey
 	cp SILPH_CO_1F
 	jp z, .redgold
 	cp SECRET_GARDEN
@@ -263,6 +269,8 @@ SetPal_Overworld:
 	jp z, .miserite
 	cp POKEMON_MANSION_B1F
 	jp z, .miserite
+	cp SAFARI_ZONE_WEST_REST_HOUSE	
+	jp z, .caveDefault
 	cp SILPH_CO_11F
 	jp z, .redgold
 	cp CELADON_MART_ELEVATOR
@@ -321,6 +329,10 @@ SetPal_Overworld:
 	jr z, .grey
 	cp CELADON_MANSION_2F
 	jr z, .bloodstone
+	cp SAFARI_ZONE_EAST_REST_HOUSE	
+	jp z, .grey
+	cp SAFARI_ZONE_NORTH_REST_HOUSE	
+	jp z, .bloodstone
 	cp ROCK_TUNNEL_1F
 	jr z, .black
 	cp ROCK_TUNNEL_B1F
@@ -367,15 +379,15 @@ SetPal_Overworld:
 .peridot
 	ld a, PAL_PERIDOT - 1
 	jr .town
-.redgold
-	ld a, PAL_REDGOLD - 1
-	jr .town
 .cinnabar
 	ld a, PAL_CINNABAR - 1
 	jr .town
+.redgold
+	ld a, PAL_REDGOLD - 1
+	jp .town
 .vermilion
 	ld a, PAL_VERMILION - 1
-	jr .town
+	jp .town
 .malachite
 	ld a, PAL_MALACHITE - 1
 	jp .town

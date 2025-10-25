@@ -751,7 +751,7 @@ ExtraWarpCheck::
 	cp ROCKET_HIDEOUT_B2F
 	jr z, .useFunction2
 	cp ROCKET_HIDEOUT_B4F
-	jr z, .useFunction2
+	jr z, .useFunction1
 	cp ROCK_TUNNEL_1F
 	jr z, .useFunction2
 	ld a, [wCurMapTileset]
