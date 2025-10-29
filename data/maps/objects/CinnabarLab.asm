@@ -17,7 +17,7 @@ CinnabarLab_Object:
 	warp_event 65, 35, CINNABAR_ISLAND, 1
 	warp_event 64, 28, ROUTE_21, 4
 	warp_event 20,  0, ROUTE_15, 3
-	warp_event 38,  0, CINNABAR_ISLAND, 6
+	warp_event 36,  0, CINNABAR_ISLAND, 6
 
 
 	def_bg_events
@@ -31,7 +31,7 @@ CinnabarLab_Object:
 	bg_event  50, 32, 16 ; Lab1Text5
 	bg_event  49, 30, 17 ; Lab1Text5
 	bg_event  21, 0, 18 ; Lab1Text5
-	bg_event  39, 0, 19 ; Lab1Text5
+	bg_event 37,  0, 19 ; Lab1Text5
 	bg_event  65, 28, 20 ; Lab1Text5
 	bg_event  22, 29, 21 ; Lab1Text5
 	bg_event  54, 32, 22 ; Lab1Text5

@@ -93,7 +93,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw VermilionPidgeyHouseWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -163,8 +163,8 @@ WildDataPointers:
 	dw SeafoamIslandsB2FWildMons
 	dw NothingWildMons
 	dw SeafoamIslandsB4FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw VermilionOldRodHouseWildMons
+	dw FuchsiaGoodRodHouseWildMons
 	dw PokemonMansion1FWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -341,3 +341,6 @@ INCLUDE "data/wild/maps/Route7Gate.asm"
 INCLUDE "data/wild/maps/PurpleForest.asm"
 INCLUDE "data/wild/maps/DiglettsCaveRoute11.asm"
 INCLUDE "data/wild/maps/Moon.asm"
+INCLUDE "data/wild/maps/VermilionPidgeyHouse.asm"
+INCLUDE "data/wild/maps/FuchsiaGoodRodHouse.asm"
+INCLUDE "data/wild/maps/VermilionOldRodHouse.asm"

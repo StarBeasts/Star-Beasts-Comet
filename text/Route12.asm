@@ -57,7 +57,7 @@ _Route12AfterBattleText2::
 	cont "but I've never"
 	cont "been able to"
 	cont "find one with"
-	cont "with my ROD..."
+	cont "my ROD..."
 
 	para "Maybe I need a"
 	line "better one...?"

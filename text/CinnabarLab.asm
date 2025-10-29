@@ -82,8 +82,10 @@ _Lab1Text7::
 	done
 
 _Lab1Text8::
-	text "Welcome to"	
-	line "KUNZITE KEY."
+	text "Hnh?"
+
+	para "Haven't seen you"
+	line "here, before."	
 
 	para "If you're clocking"
 	line "in, you'll need"
@@ -97,7 +99,8 @@ _Lab1Text8::
 	cont "research team,"
 	cont "please."
 
-	para "Enjoy your visit."
+	para "Enjoy your visit"
+	line "to KUNZITE KEY."
 	done
 
 _Lab1Text9::
