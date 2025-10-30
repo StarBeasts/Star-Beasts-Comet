@@ -91,6 +91,50 @@ _CeladonMartRoofText_48520::
 	cont "sometimes!@"
 	text_end
 
+_CeladonMartRoofText_GiveTea::
+	text "Woah...!"
+
+	para "This drink..."
+
+	para "What the heck"
+	line "did you give me?"
+
+	para "I've never tasted"
+	line "anything like it!"
+
+	para "I think in return,"
+	line "I'll give you"
+	cont "something really"
+	cont "special!"
+
+	para "Here, have this!@"
+	text_end
+
+_CeladonMartRoofText_GivenGem::
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer
+	text "!@"
+	text_end
+
+
+_CeladonMartRoofText_GotGem::
+	text_start
+
+	para "That's a pretty"
+	line "GEM I found while"
+	cont "I was in STEVE's"
+	cont "SECRET GARDEN!"
+
+	para "It looks like a"
+	line "rainbow!"
+
+	para "No clue what it"
+	line "does, but I hope"
+	cont "you like it!@"
+	text_end
+
+
 _CeladonMartRoofText_48526::
 	text "You don't have"
 	line "space for this!@"

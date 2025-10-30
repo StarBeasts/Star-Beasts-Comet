@@ -38,6 +38,7 @@ CeladonMartRoofDrinkList:
 	db FRESH_WATER
 	db SODA_POP
 	db LEMONADE
+	db TEA
 	db 0 ; end
 
 CeladonMartRoofScript_GiveDrinkToGirl:
@@ -84,9 +85,11 @@ CeladonMartRoofScript_GiveDrinkToGirl:
 	jr z, .gaveFreshWater
 	cp SODA_POP
 	jr z, .gaveSodaPop
+	cp TEA
+	jr z, .gaveTea
 ; gave Lemonade
 	CheckEvent EVENT_GOT_TM49
-	jr nz, .alreadyGaveDrink
+	jp nz, .alreadyGaveDrink
 	ld hl, CeladonMartRoofText_48515
 	call PrintText
 	call RemoveItemByIDBank12
@@ -122,6 +125,19 @@ CeladonMartRoofScript_GiveDrinkToGirl:
 	ld hl, CeladonMartRoofText_484f9
 	call PrintText
 	SetEvent EVENT_GOT_TM13
+	ret
+.gaveTea
+	CheckEvent EVENT_INFINITY_GEM
+	jr nz, .alreadyGaveDrink
+	ld hl, CeladonMartRoofText_GiveTea
+	call PrintText
+	call RemoveItemByIDBank12
+	lb bc, EARTH_GEM, 1
+	call GiveItem
+	jr nc, .bagFull
+	ld hl, CeladonMartRoofText_GotGem
+	call PrintText
+	SetEvent EVENT_INFINITY_GEM
 	ret
 .bagFull
 	ld hl, CeladonMartRoofText_48526
@@ -170,6 +186,18 @@ ReceivedTM49Text:
 	text_far _ReceivedTM49Text
 	sound_get_item_1
 	text_far _CeladonMartRoofText_48520
+	text_waitbutton
+	text_end
+	
+CeladonMartRoofText_GiveTea:
+	text_far _CeladonMartRoofText_GiveTea
+	text_waitbutton
+	text_end
+	
+CeladonMartRoofText_GotGem:
+	text_far _CeladonMartRoofText_GivenGem
+	sound_get_item_1
+	text_far _CeladonMartRoofText_GotGem
 	text_waitbutton
 	text_end
 

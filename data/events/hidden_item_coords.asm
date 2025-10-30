@@ -23,10 +23,11 @@ HiddenItemCoords:
 	hidden_item SAFARI_ZONE_GATE,              0,   6
 	hidden_item SAFARI_ZONE_WEST,               6,   5
 	hidden_item SILPH_CO_5F,                   30,   2
+	hidden_item ROCK_TUNNEL_B1F,			2, 33
 	hidden_item SILPH_CO_9F,                    24,  13
 	hidden_item COPYCATS_HOUSE_2F,              6,   7
-	hidden_item CERULEAN_CAVE_1F,              14,  11 ; later
-	hidden_item CERULEAN_CAVE_B1F,             27,   3 ; later
+	hidden_item CERULEAN_CAVE_1F,              11,  42
+	hidden_item CERULEAN_CAVE_B1F,             21,  43
 	hidden_item POWER_PLANT,                   22,  24
 	hidden_item POWER_PLANT,                   35,   21
 	hidden_item SEAFOAM_ISLANDS_B2F,           32,  9

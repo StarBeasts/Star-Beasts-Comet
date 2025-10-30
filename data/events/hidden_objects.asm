@@ -47,6 +47,7 @@ HiddenObjectMaps:
 	db SAFARI_ZONE_GATE
 	db SAFARI_ZONE_WEST
 	db SILPH_CO_5F
+	db ROCK_TUNNEL_B1F
 	db SILPH_CO_9F
 	db COPYCATS_HOUSE_2F
 	db CERULEAN_CAVE_1F
@@ -137,6 +138,7 @@ HiddenObjectPointers:
 	dw SafariZoneEntranceHiddenObjects
 	dw SafariZoneWestHiddenObjects
 	dw SilphCo5FHiddenObjects
+	dw RockTunnelB1FHiddenObjects
 	dw SilphCo9FHiddenObjects
 	dw CopycatsHouse2FHiddenObjects
 	dw CeruleanCave1HiddenObjects
@@ -497,6 +499,11 @@ SilphCo5FHiddenObjects:
 	hidden_object 30,  2, FULL_HEAL, HiddenItems
 	db -1 ; end
 
+RockTunnelB1FHiddenObjects:
+	hidden_object 2,  33, EARTH_GEM, HiddenItems
+	db -1 ; end
+
+
 SilphCo9FHiddenObjects:
 	hidden_object  24, 13, FULL_RESTORE, HiddenItems
 	db -1 ; end
@@ -506,11 +513,11 @@ CopycatsHouse2FHiddenObjects:
 	db -1 ; end
 
 CeruleanCave1HiddenObjects:
-	hidden_object 14, 11, RARE_CANDY, HiddenItems ; do this later
+	hidden_object 11, 42, RARE_CANDY, HiddenItems
 	db -1 ; end
 
 CeruleanCave3HiddenObjects:
-	hidden_object 27,  3, ULTRA_BALL, HiddenItems ; do this later
+	hidden_object 21,  43, ULTRA_BALL, HiddenItems
 	db -1 ; end
 
 PowerPlantHiddenObjects:

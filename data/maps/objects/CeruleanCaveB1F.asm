@@ -15,7 +15,7 @@ CeruleanCaveB1F_Object:
 
 	def_object_events
 	object_event 14,  6, SPRITE_FAMETAS, STAY, UP, 1, MEWTWO, 70 | OW_POKEMON
-	object_event 15, 45, SPRITE_POKE_BALL, STAY, NONE, 2, ULTRA_BALL
+	object_event 25, 26, SPRITE_POKE_BALL, STAY, NONE, 2, ULTRA_BALL
 	object_event  5, 20, SPRITE_POKE_BALL, STAY, NONE, 3, MAX_REVIVE
 
 	def_warps_to CERULEAN_CAVE_B1F

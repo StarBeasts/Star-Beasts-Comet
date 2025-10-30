@@ -86,7 +86,7 @@ ItemNames::
 	li "DARK SOUL"
 	li "HOLY SOUL"
 	li "TEA"
-	li "EARTH GEM"
+	li "INFINITY GEM"
 	li "MOON GEM"
 	li "URANUS GEM"
 	li "VENUS GEM"
