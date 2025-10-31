@@ -717,7 +717,6 @@ INCLUDE "scripts/Route12SuperRodHouse.asm"
 INCLUDE "data/maps/objects/Route12SuperRodHouse.asm"
 Route12SuperRodHouse_Blocks: INCBIN "maps/Route12SuperRodHouse.blk"
 
-
 INCLUDE "data/maps/headers/SilphCo8F.asm"
 INCLUDE "scripts/SilphCo8F.asm"
 INCLUDE "data/maps/objects/SilphCo8F.asm"

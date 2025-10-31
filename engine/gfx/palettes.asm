@@ -325,6 +325,8 @@ SetPal_Overworld:
 	jr z, .grey
 	cp DEVILS_CANYON
 	jr z, .bloodstone
+	cp ROUTE_12_SUPER_ROD_HOUSE	
+	jr z, .bloodstone
 	cp DIGLETTS_CAVE_ROUTE_2
 	jr z, .grey
 	cp CELADON_MANSION_2F
@@ -381,7 +383,7 @@ SetPal_Overworld:
 	jr .town
 .cinnabar
 	ld a, PAL_CINNABAR - 1
-	jr .town
+	jp .town
 .redgold
 	ld a, PAL_REDGOLD - 1
 	jp .town

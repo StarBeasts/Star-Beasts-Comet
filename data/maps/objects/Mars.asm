@@ -8,6 +8,7 @@ Mars_Object:
 	warp_event  6, 39, MARS, 6
 	warp_event  7, 39, MARS, 6
 	warp_event  5, 9, MARS, 3
+	warp_event 63, 9, ROUTE_12_SUPER_ROD_HOUSE, 1
 	warp_event 13, 13, SAFARI_ZONE_NORTH_REST_HOUSE, 1
 
 

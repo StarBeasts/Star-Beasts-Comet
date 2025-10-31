@@ -189,7 +189,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw Route12SuperRodHouseWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw SeafoamIslands1FWildMons
@@ -344,3 +344,4 @@ INCLUDE "data/wild/maps/Moon.asm"
 INCLUDE "data/wild/maps/VermilionPidgeyHouse.asm"
 INCLUDE "data/wild/maps/FuchsiaGoodRodHouse.asm"
 INCLUDE "data/wild/maps/VermilionOldRodHouse.asm"
+INCLUDE "data/wild/maps/Route12SuperRodHouse.asm"
