@@ -30,13 +30,16 @@ HiddenItemCoords:
 	hidden_item CERULEAN_CAVE_B1F,             21,  43
 	hidden_item POWER_PLANT,                   22,  24
 	hidden_item POWER_PLANT,                   35,   21
+	hidden_item VERMILION_PIDGEY_HOUSE,        30,  3
 	hidden_item SEAFOAM_ISLANDS_B2F,           32,  9
 	hidden_item SEAFOAM_ISLANDS_B4F,           23,  25
+	hidden_item FUCHSIA_GOOD_ROD_HOUSE,        28,  40
 	hidden_item POKEMON_MANSION_1F,             2,  4
 	hidden_item POKEMON_MANSION_3F,             18,   1
 	hidden_item ROUTE_23,                       21,  94
 	hidden_item ROUTE_23,                       4,  85
 	hidden_item ROUTE_23,                       2,  53
+	hidden_item ROUTE_12_SUPER_ROD_HOUSE,       18,  5
 	hidden_item VICTORY_ROAD_2F,                7,  13
 	hidden_item VICTORY_ROAD_2F,               45,  12
 	hidden_item VILLA_1F,      	           9,    2
@@ -52,6 +55,7 @@ HiddenItemCoords:
 	hidden_item UNDERGROUND_PATH_NORTH_SOUTH,  18,  17
 	hidden_item UNDERGROUND_PATH_WEST_EAST,    18,   2
 	hidden_item UNDERGROUND_PATH_WEST_EAST,    18,  14
+	hidden_item CELADON_MANSION_2F,			5, 4
 	hidden_item CELADON_CITY,                  6,  4
 	hidden_item ROUTE_25,                      26,   8
 	hidden_item MT_MOON_B2F,                   15,   30
@@ -60,4 +64,6 @@ HiddenItemCoords:
 	hidden_item CERULEAN_CITY,                 11,   6
 	hidden_item ROUTE_4,                       16,   2
 	hidden_item ROUTE_25,                      33,   16
+	hidden_item VENUS,					21,   19
+	hidden_item MARS,					33,   35
 	db -1 ; end

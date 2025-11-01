@@ -43,7 +43,7 @@ ItemPrices::
 	bcd3 0     ; DOME_FOSSIL
 	bcd3 0     ; HELIX_FOSSIL
 	bcd3 0     ; SECRET_KEY
-	bcd3 0     ; XXX
+	bcd3 200000 ; SOLID_GOLD
 	bcd3 0     ; BIKE_VOUCHER
 	bcd3 1200  ; X_ACCURACY
 	bcd3 2100  ; LEAF_STONE
@@ -74,7 +74,7 @@ ItemPrices::
 	bcd3 0     ; SILPH_SCOPE
 	bcd3 0     ; POKE_FLUTE
 	bcd3 0     ; LIFT_KEY
-	bcd3 0     ; EXP_ALL
+	bcd3 20000 ; EXP_ALL
 	bcd3 0     ; OLD_ROD
 	bcd3 0     ; GOOD_ROD
 	bcd3 0     ; SUPER_ROD

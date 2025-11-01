@@ -43,7 +43,7 @@ ItemNames::
 	li "ANGEL SOUL"
 	li "FIEND SOUL"
 	li "HELL'S KEY"
-	li "?????"
+	li "SOLID GOLD"
 	li "BIKE VOUCHER"
 	li "X ACCURACY"
 	li "STEELY GENE"

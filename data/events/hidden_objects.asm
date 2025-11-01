@@ -53,11 +53,14 @@ HiddenObjectMaps:
 	db CERULEAN_CAVE_1F
 	db CERULEAN_CAVE_B1F
 	db POWER_PLANT
+	db VERMILION_PIDGEY_HOUSE
 	db SEAFOAM_ISLANDS_B2F
 	db SEAFOAM_ISLANDS_B4F
+	db FUCHSIA_GOOD_ROD_HOUSE
 	db POKEMON_MANSION_1F
 	db POKEMON_MANSION_3F
 	db ROUTE_23
+	db ROUTE_12_SUPER_ROD_HOUSE
 	db VICTORY_ROAD_2F
 	db VILLA_1F
 	db BILLS_HOUSE
@@ -86,6 +89,8 @@ HiddenObjectMaps:
 	db VERMILION_CITY
 	db CERULEAN_CITY
 	db ROUTE_4
+	db VENUS
+	db MARS
 	db -1 ; end
 
 HiddenObjectPointers:
@@ -144,11 +149,14 @@ HiddenObjectPointers:
 	dw CeruleanCave1HiddenObjects
 	dw CeruleanCave3HiddenObjects
 	dw PowerPlantHiddenObjects
+	dw VermilionPidgeyHouseHiddenObjects
 	dw SeafoamIslands3HiddenObjects
 	dw SeafoamIslands5HiddenObjects
+	dw FuchsiaGoodRodHouseHiddenObjects
 	dw Mansion1HiddenObjects
 	dw Mansion3HiddenObjects
 	dw Route23HiddenObjects
+	dw Route12SuperRodHouseHiddenObjects
 	dw VictoryRoad2HiddenObjects
 	dw Villa1FHiddenObjects
 	dw BillsHouseHiddenObjects
@@ -177,6 +185,8 @@ HiddenObjectPointers:
 	dw VermilionCityHiddenObjects
 	dw CeruleanCityHiddenObjects
 	dw Route4HiddenObjects
+	dw VenusHiddenObjects
+	dw MarsHiddenObjects
 
 MACRO hidden_object
 	db \2 ; y coord
@@ -308,7 +318,7 @@ VermilionGymHiddenObjects:
 	db -1 ; end
 
 CeladonMansion2HiddenObjects:
-	hidden_object  0,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object 5,  4, EARTH_GEM, HiddenItems
 	db -1 ; end
 
 CeladonPokecenterHiddenObjects:
@@ -525,12 +535,20 @@ PowerPlantHiddenObjects:
 	hidden_object 35, 21, PP_UP, HiddenItems
 	db -1 ; end
 
+VermilionPidgeyHouseHiddenObjects:
+	hidden_object 30, 3, EARTH_GEM, HiddenItems
+	db -1 ; end
+
 SeafoamIslands3HiddenObjects:
 	hidden_object 32, 9, NUGGET, HiddenItems
 	db -1 ; end
 
 SeafoamIslands5HiddenObjects:
 	hidden_object 23, 25, FULL_RESTORE, HiddenItems
+	db -1 ; end
+
+FuchsiaGoodRodHouseHiddenObjects:
+	hidden_object 28, 40, EARTH_GEM, HiddenItems
 	db -1 ; end
 
 Mansion1HiddenObjects:
@@ -557,6 +575,10 @@ Route23HiddenObjects:
 	hidden_object  21, 94, FULL_RESTORE, HiddenItems
 	hidden_object  4, 85, ULTRA_BALL, HiddenItems
 	hidden_object  2, 53, MAX_ETHER, HiddenItems
+	db -1 ; end
+
+Route12SuperRodHouseHiddenObjects:
+	hidden_object 18, 5, SOLID_GOLD, HiddenItems
 	db -1 ; end
 
 VictoryRoad2HiddenObjects:
@@ -682,3 +704,13 @@ CeruleanCityHiddenObjects:
 Route4HiddenObjects:
 	hidden_object 16,  2, GREAT_BALL, HiddenItems
 	db -1 ; end
+
+VenusHiddenObjects:
+	hidden_object 21,  19, EARTH_GEM, HiddenItems
+	db -1 ; end
+
+MarsHiddenObjects:
+	hidden_object 33,  35, EARTH_GEM, HiddenItems
+	db -1 ; end
+
+
