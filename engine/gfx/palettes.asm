@@ -231,8 +231,6 @@ SetPal_Overworld:
 	jp z, .redgold
 	cp SEAFOAM_ISLANDS_B3F
 	jp z, .redgold
-	cp VERMILION_OLD_ROD_HOUSE
-	jp z, .vermilion
 	cp FUCHSIA_GOOD_ROD_HOUSE
 	jp z, .cinnabar
 	cp POKEMON_MANSION_1F
@@ -319,6 +317,8 @@ SetPal_Overworld:
 	jr z, .bloodstone
 	cp ROUTE_16_GATE_2F
 	jr z, .mewMon
+	cp VERMILION_OLD_ROD_HOUSE
+	jp z, .vermilion
 	cp DIGLETTS_CAVE
 	jr z, .brownMon
 	cp ANCIENT_CAVE
@@ -380,7 +380,7 @@ SetPal_Overworld:
 	jr .town
 .peridot
 	ld a, PAL_PERIDOT - 1
-	jr .town
+	jp .town
 .cinnabar
 	ld a, PAL_CINNABAR - 1
 	jp .town

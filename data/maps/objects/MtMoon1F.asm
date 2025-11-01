@@ -27,6 +27,6 @@ MtMoon1F_Object:
 	object_event  5, 48, SPRITE_POKE_BALL, STAY, NONE, 10, RARE_CANDY
 	object_event  7, 24, SPRITE_POKE_BALL, STAY, NONE, 11, ESCAPE_ROPE
 	object_event 30, 16, SPRITE_POKE_BALL, STAY, NONE, 12, POTION
-	object_event  7, 39, SPRITE_POKE_BALL, STAY, NONE, 13, TM_WATER_GUN
+	object_event  7, 39, SPRITE_POKE_BALL, STAY, NONE, 13, SUPER_REPEL
 
 	def_warps_to MT_MOON_1F
