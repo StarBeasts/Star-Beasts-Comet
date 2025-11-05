@@ -63,3 +63,52 @@ _MercuryText4::
 	cont "THE TASK"
 	done
 
+_MercuryText5::
+	text "NOT A LOT OF"
+	line "PEOPLE OUTSIDE"
+	cont "ON ACCOUNT OF"
+	cont "HOW COLD IT IS"
+
+	para "THEY'RE ALL IN"
+	line "THE RESEARCH"
+	cont "FACILITY"
+
+	para "LIKELY CONDUCTING"
+
+	para "YOU KNOW"
+
+	para "RESEARCH"
+	done
+
+_MercuryText6::
+	text "SORRY TO SAY,"
+	line "BUT THERE ISN'T"
+	cont "MUCH TO SEE ON"
+	cont "URANUS"
+
+	para "URANUS IS JUST"
+	line "UNREMARKABLE IN"
+	cont "GENERAL"
+	done
+
+_MercuryText7::
+	text "SCIENTISTS AND"
+	line "STUDENTS CONDUCT"
+	cont "EXPERIMENTS IN"
+	cont "THE BIG BUILDING"
+	cont "NEXT TO ME"
+	
+	para "SADLY, I DOUBT"
+	line "YOU'LL GET TO"
+	cont "SEE MUCH OF IT"
+	cont "ON ACCOUNT OF"
+	cont "BEING A HUMAN"
+
+	para "IT'S OKAY"
+
+	para "I THINK YOUR"
+	line "KIND ARE COOL"
+
+	para "PUN FULLY"
+	line "INTENDED"
+	done

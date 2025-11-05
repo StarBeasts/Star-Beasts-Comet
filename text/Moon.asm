@@ -20,3 +20,11 @@ _MoonText3::
 	cont "WHO SEEKS THE"
 	cont "MOON'S TREASURE"
 	done
+
+_MoonText4::
+	text "DRAGLEAM DWELLS"
+	line "IN THIS DOMAIN"
+
+	para "THAT PINK COLOUR"
+	line "IS AN EYESORE"
+	done

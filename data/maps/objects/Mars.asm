@@ -17,13 +17,13 @@ Mars_Object:
 	object_event  2, 10, SPRITE_SUBROSIAN, STAY, DOWN, 1
 	object_event 15, 14, SPRITE_SUBROSIAN, STAY, DOWN, 2
 	object_event 30, 18, SPRITE_SUBROSIAN, WALK, LEFT_RIGHT, 3
-	object_event 16, 21, SPRITE_SUBROSIAN, STAY, DOWN, 4
-	object_event 17, 21, SPRITE_SUBROSIAN, STAY, DOWN, 5
-	object_event 18, 21, SPRITE_SUBROSIAN, STAY, DOWN, 6
-	object_event 19, 21, SPRITE_SUBROSIAN, STAY, DOWN, 7
-	object_event 20, 21, SPRITE_SUBROSIAN, STAY, DOWN, 8
-	object_event 21, 21, SPRITE_SUBROSIAN, STAY, DOWN, 9
-	object_event 22, 21, SPRITE_SUBROSIAN, STAY, DOWN, 10
-	object_event 23, 21, SPRITE_SUBROSIAN, STAY, DOWN, 11
+	object_event 62, 10, SPRITE_SUBROSIAN, STAY, DOWN, 4
+	object_event 38, 12, SPRITE_SUBROSIAN, WALK, ANY_DIR, 5
+	object_event 20,  4, SPRITE_SUBROSIAN, STAY, UP, 6
+	object_event 21,  4, SPRITE_SUBROSIAN, STAY, UP, 7
+	object_event 65, 16, SPRITE_SUBROSIAN, WALK, LEFT_RIGHT, 8
+	object_event 40,  6, SPRITE_SUBROSIAN, STAY, ANY_DIR, 9
+	object_event 80, 35, SPRITE_SUBROSIAN, STAY, DOWN, 10
+	object_event 80, 36, SPRITE_SUBROSIAN, STAY, DOWN, 11
 
 	def_warps_to MARS
