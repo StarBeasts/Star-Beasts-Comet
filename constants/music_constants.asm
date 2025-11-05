@@ -105,6 +105,7 @@
 	const MUSIC_MION
 	const MUSIC_PEPPER_STEAK
 	const MUSIC_JASON
+	const MUSIC_OUTTATOUCH
 
 	const NUM_SONGS
 

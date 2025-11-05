@@ -574,6 +574,7 @@ INCLUDE "crysaudio/music/new/peppersteak.asm"
 INCLUDE "crysaudio/music/new/avenue.asm"
 INCLUDE "crysaudio/music/new/legrandito.asm"
 INCLUDE "crysaudio/music/new/jason.asm"
+INCLUDE "crysaudio/music/new/outtatouch.asm"
 
 SECTION "Sound Effects", ROMX
 
