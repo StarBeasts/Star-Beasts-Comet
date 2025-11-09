@@ -10,6 +10,11 @@ Mars_Object:
 	warp_event  5, 9, MARS, 3
 	warp_event 63, 9, ROUTE_12_SUPER_ROD_HOUSE, 1
 	warp_event 13, 13, SAFARI_ZONE_NORTH_REST_HOUSE, 1
+	warp_event 31, 13, SAFARI_ZONE_NORTH_REST_HOUSE, 3
+	warp_event 41, 9, SAFARI_ZONE_NORTH_REST_HOUSE, 7
+	warp_event 49, 15, SAFARI_ZONE_NORTH_REST_HOUSE, 5
+	warp_event 32, 39, SAFARI_ZONE_NORTH_REST_HOUSE, 9
+	warp_event 33, 39, SAFARI_ZONE_NORTH_REST_HOUSE, 9
 
 	def_bg_events
 
