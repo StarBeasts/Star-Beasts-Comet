@@ -65,7 +65,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VIRIDIAN_SCHOOL_HOUSE,          4,  4 ; $2B
 	map_const VIRIDIAN_NICKNAME_HOUSE,        11,  4 ; $2C
 	map_const VIRIDIAN_GYM,                  10,  9 ; $2D
-	map_const DIGLETTS_CAVE_ROUTE_2,          11,  7 ; $2E
+	map_const DIGLETTS_CAVE_ROUTE_2,          13,  7 ; $2E
 	map_const VIRIDIAN_FOREST_NORTH_GATE,     9,  13 ; $2F
 	map_const ROUTE_2_TRADE_HOUSE,            8,  4 ; $30
 	map_const ROUTE_2_GATE,                   5,  31 ; $31

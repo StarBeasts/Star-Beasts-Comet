@@ -34,7 +34,6 @@ INCLUDE "text/SafariZoneCenter.asm"
 INCLUDE "text/SafariZoneCenterRestHouse.asm"
 INCLUDE "text/SafariZoneSecretHouse.asm"
 INCLUDE "text/SafariZoneWestRestHouse.asm"
-INCLUDE "text/SafariZoneEastRestHouse.asm"
 INCLUDE "text/SafariZoneNorthRestHouse.asm"
 INCLUDE "text/CeruleanCaveB1F.asm"
 INCLUDE "text/VictoryRoad1F.asm"
@@ -316,6 +315,7 @@ INCLUDE "text/Mercury.asm"
 INCLUDE "text/Venus.asm"
 INCLUDE "text/Mars.asm"
 INCLUDE "text/move_deleter.asm"
+INCLUDE "text/SafariZoneEastRestHouse.asm"
 
 SECTION "Pokédex Text", ROMX
 

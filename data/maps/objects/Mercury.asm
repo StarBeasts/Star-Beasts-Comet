@@ -19,7 +19,7 @@ Mercury_Object:
 	object_event 33,  5, SPRITE_SUBROSIAN, STAY, DOWN, 2
 	object_event 44,  14, SPRITE_SUBROSIAN, STAY, DOWN, 3
 	object_event 47,  6, SPRITE_SUBROSIAN, STAY, DOWN, 4
-	object_event 27, 14, SPRITE_SUBROSIAN, STAY, DOWN, 5
+	object_event 27, 14, SPRITE_SUBROSIAN, WALK, ANY_DIR, 5
 	object_event 62,  7, SPRITE_SUBROSIAN, STAY, DOWN, 6
 	object_event 21,  5, SPRITE_SUBROSIAN, STAY, DOWN, 7
 	object_event 80, 28, SPRITE_SUBROSIAN, STAY, DOWN, 8

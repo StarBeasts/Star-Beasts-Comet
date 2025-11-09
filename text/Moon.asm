@@ -41,6 +41,8 @@ _MoonText6::
 	text "SOME FREAKS LOVE"
 	line "EARTH GEEKS"
 
+	para "I AM NOT THEM"
+
 	para "GET YOUR SQUISHY"
 	line "FLESH AWAY FROM ME"
 	done
