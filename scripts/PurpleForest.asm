@@ -7,6 +7,7 @@ PurpleForest_TextPointers:
 	dw PurpleForestText2
 	dw PurpleForestText3
 	dw PurpleForestText4
+	dw PurpleForestText5
 
 PurpleForestText1:
 	text_asm
@@ -89,6 +90,10 @@ PurpleForestText3:
 
 PurpleForestText4:
 	text_far _PurpleForestText4
+	text_end
+
+PurpleForestText5:
+	text_far _PurpleForestText5
 	text_end
 
 CatText1:

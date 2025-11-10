@@ -18,10 +18,10 @@ CeruleanTradeHouse_Object:
 	object_event  1,  2, SPRITE_GAMBLER, STAY, NONE, 2 ; person
 	object_event  16,  3, SPRITE_SAILOR, STAY, RIGHT, 3 ; person
 	object_event  20,  6, SPRITE_SNORLAX, STAY, NONE, 4 ; person
-	object_event  19,  3, SPRITE_KOGA, STAY, NONE, 5 ; person
+	object_event 19,  3, SPRITE_KOGA, STAY, LEFT, 5 ; person
 	object_event  32,  3, SPRITE_FISHING_GURU, STAY, RIGHT, 6 ; person
 	object_event  35,  4, SPRITE_MIDDLE_AGED_WOMAN, STAY, LEFT, 7 ; person
-
+	object_event 35,  3, SPRITE_LITTLE_BOY, STAY, LEFT, 8 ; person
 
 
 	def_warps_to CERULEAN_TRADE_HOUSE

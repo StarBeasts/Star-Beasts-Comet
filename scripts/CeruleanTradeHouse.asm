@@ -9,6 +9,7 @@ CeruleanTradeHouse_TextPointers:
 	dw CeruleanHouse1Text5
 	dw CeruleanHouse1Text6
 	dw CeruleanHouse1Text7
+	dw CeruleanHouse1Text8
 
 CeruleanHouse1Text1:
 	text_far _CeruleanHouse1Text1
@@ -91,5 +92,9 @@ CeruleanHouse1Text_560ca:
 
 CeruleanHouse1Text7:
 	text_far _CeruleanHouse1Text7
+	text_end
+
+CeruleanHouse1Text8:
+	text_far _CeruleanHouse1Text8
 	text_end
 

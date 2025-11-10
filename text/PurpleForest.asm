@@ -55,6 +55,19 @@ _PurpleForestText4::
 	cont "type, hmm?"
 	done
 
+_PurpleForestText5::
+	text "I found a QUINCY"
+	line "in the grass!"
+
+	para "But, I went too"
+	line "hard and knocked"
+	cont "it out before I"
+	cont "could catch it!"
+
+	para "So, I won't leave"
+	line "until I find"
+	cont "another one!"
+	done
 
 _CatText1::
 	text "FOREST GUARDIAN"

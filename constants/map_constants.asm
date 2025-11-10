@@ -97,7 +97,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const BLOODSTONE_BAY,  		   23,  13 ; $4B
 	map_const ROUTE_7_GATE,                   21, 25 ; $4C
 	map_const UNDERGROUND_PATH_ROUTE_7,       8,  30 ; $4D
-	map_const PURPLE_FOREST,  			     3,  20 ; $4E
+	map_const PURPLE_FOREST,  			     13,  20 ; $4E
 	map_const ROUTE_8_GATE,                   10,  20 ; $4F
 	map_const UNDERGROUND_PATH_ROUTE_8,       30,  22 ; $50
 	map_const ROCK_TUNNEL_POKECENTER,         15,  4 ; $51

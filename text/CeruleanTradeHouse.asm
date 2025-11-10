@@ -44,6 +44,13 @@ _CeruleanHouse1Text_560b1::
 	para "I simply Looove"
 	line "fishing!"
 
+	para "I tried to get"
+	line "my kid into it,"
+	cont "but it's just"
+	cont "not his thing!"
+
+	para "What about you?"
+
 	para "Do you like to"
 	line "fish?"
 	done
@@ -105,4 +112,17 @@ _CeruleanHouse1Text7::
 
 	para "Simple but good,"
 	line "though."
+	done
+
+_CeruleanHouse1Text8::
+	text "Daddy, daddy,"
+	line "daddy!"
+
+	para "The strong guys"
+	line "next door have"
+	cont "a pet GOBBLORC!"
+
+	para "Can we get a"
+	line "GOBBLORC too,"
+	cont "Daddy?"
 	done

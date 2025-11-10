@@ -105,3 +105,15 @@ _CeladonMansion4Text6::
 	line "sinker!"
 	done
 
+_CeladonMansion4Text7::
+	text "It's a masterfully"
+	line "carved sculpture"
+	cont "of a DRAGON."
+
+	para "Seems the people"
+	line "of GARNET GARDENS"
+	cont "are real proud of"
+	cont "BLOODSTONE BAY..."
+	done
+
+

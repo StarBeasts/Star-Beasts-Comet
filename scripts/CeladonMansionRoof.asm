@@ -8,6 +8,7 @@ CeladonMansionRoof_TextPointers:
 	dw CeladonMansion4Text4
 	dw CeladonMansion4Text5
 	dw CeladonMansion4Text6
+	dw CeladonMansion4Text7
 
 CeladonMansion4Text1:
 	text_far _CeladonMansion4Text1
@@ -31,4 +32,8 @@ CeladonMansion4Text5:
 
 CeladonMansion4Text6:
 	text_far _CeladonMansion4Text6
+	text_end
+
+CeladonMansion4Text7:
+	text_far _CeladonMansion4Text7
 	text_end
