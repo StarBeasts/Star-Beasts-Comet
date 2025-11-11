@@ -4,7 +4,7 @@ Route6WildMons:
 	db 12,PIDGEY
 	db 13,PIDGEY
 	db 11,ODDISH
-	db 12,EKANS
+	db 12,DROWZEE
 	db 14,KRABBY
 	db 13,BELLSPROUT
 	db 13,DROWZEE
