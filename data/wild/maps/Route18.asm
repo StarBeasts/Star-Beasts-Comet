@@ -6,10 +6,10 @@ Route18WildMons:
 	db 24,PIKACHU
 	db 25,SPEAROW
 	db 26,PIKACHU
-	db 28,SANDSLASH
+	db 28,FEAROW
 	db 29,ELECTRODE
 	db 27,FEAROW
-	db 29,FEAROW
+	db 29,ELECTABUZZ
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

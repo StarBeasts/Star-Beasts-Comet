@@ -9,7 +9,7 @@ Route9WildMons:
 	db 33, PIDGEOTTO
 	db 37, KINGLER
 	db 37, RATTATA
-	db 15, CHARMANDER
+	db 45, RAICHU
 	end_grass_wildmons
 
 	def_water_wildmons 15 ; encounter rate

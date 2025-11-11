@@ -25,7 +25,7 @@ WildDataPointers:
 	dw Route11WildMons         ; ROUTE_11
 	dw Route12WildMons         ; ROUTE_12
 	dw Route13WildMons         ; ROUTE_13
-	dw Route14WildMons         ; ROUTE_14
+	dw NothingWildMons         ; ROUTE_14
 	dw NothingWildMons         ; ROUTE_15
 	dw Route16WildMons         ; ROUTE_16
 	dw Route17WildMons         ; ROUTE_17
@@ -35,8 +35,8 @@ WildDataPointers:
 	dw Route21WildMons         ; ROUTE_21
 	dw Route22WildMons         ; ROUTE_22
 	dw Route23WildMons         ; ROUTE_23
-	dw Route24WildMons         ; ROUTE_24
-	dw Route25WildMons         ; ROUTE_25
+	dw NothingWildMons         ; ROUTE_24
+	dw NothingWildMons         ; ROUTE_25
 	dw NothingWildMons         ; REDS_HOUSE_1F
 	dw NothingWildMons
 	dw NothingWildMons
@@ -276,8 +276,6 @@ INCLUDE "data/wild/maps/MtMoon1F.asm"
 INCLUDE "data/wild/maps/MtMoonB1F.asm"
 INCLUDE "data/wild/maps/MtMoonB2F.asm"
 INCLUDE "data/wild/maps/Route4.asm"
-INCLUDE "data/wild/maps/Route24.asm"
-INCLUDE "data/wild/maps/Route25.asm"
 INCLUDE "data/wild/maps/Route9.asm"
 INCLUDE "data/wild/maps/Route5.asm"
 INCLUDE "data/wild/maps/Route6.asm"
@@ -296,8 +294,6 @@ INCLUDE "data/wild/maps/PokemonTower5F.asm"
 INCLUDE "data/wild/maps/PokemonTower6F.asm"
 INCLUDE "data/wild/maps/PokemonTower7F.asm"
 INCLUDE "data/wild/maps/Route13.asm"
-INCLUDE "data/wild/maps/Route14.asm"
-INCLUDE "data/wild/maps/Route15.asm"
 INCLUDE "data/wild/maps/Route16.asm"
 INCLUDE "data/wild/maps/Route17.asm"
 INCLUDE "data/wild/maps/Route18.asm"

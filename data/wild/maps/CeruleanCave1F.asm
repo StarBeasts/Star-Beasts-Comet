@@ -5,11 +5,11 @@ CeruleanCave1FWildMons:
 	db 56, MAGNETON
 	db 59, DODRIO
 	db 59, VENOMOTH
-	db 62, SANDSLASH
+	db 58, SANDSLASH
 	db 59, KADABRA
-	db 62, PARASECT
-	db 63, RAICHU
-	db 63, BLASTOISE
+	db 59, PARASECT
+	db 60, RAICHU
+	db 60, BLASTOISE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

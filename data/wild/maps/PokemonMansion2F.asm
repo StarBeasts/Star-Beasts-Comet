@@ -9,7 +9,7 @@ PokemonMansion2FWildMons:
 	db 30, WEEZING
 	db 28, PONYTA
 	db 39, RAPIDASH
-	db 37, RHYHORN
+	db 37, EXEGGUTOR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

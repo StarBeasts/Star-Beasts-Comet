@@ -1,14 +1,14 @@
 PurpleForestWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 16, ZUBAT
-	db 17, ZUBAT
-	db 18, ZUBAT
-	db 17, KRABBY
-	db 16, KRABBY
-	db 14, KRABBY
-	db 16, MANKEY
-	db 17, MANKEY
-	db 18, MANKEY
+	db 20, ZUBAT
+	db 21, ZUBAT
+	db 22, ZUBAT
+	db 20, KRABBY
+	db 19, KRABBY
+	db 18, KRABBY
+	db 20, MANKEY
+	db 19, MANKEY
+	db 21, MANKEY
 	db 15, BULBASAUR
 	end_grass_wildmons
 

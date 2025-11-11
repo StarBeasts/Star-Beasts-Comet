@@ -8,8 +8,8 @@ RocketHideoutB1FWildMons:
 	db 18, ODDISH
 	db 17, MEOWTH
 	db 16, MEOWTH
-	db 11, ABRA
-	db 12, ABRA
+	db 15, ONIX
+	db 16, ONIX
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

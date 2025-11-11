@@ -12,5 +12,15 @@ SeafoamIslandsB1FWildMons:
 	db 37, KINGLER
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 10 ; encounter rate
+	db 30, SHELLDER
+	db 30, GOLDEEN
+	db 32, SHELLDER
+	db 32, ARBOK
+	db 28, HORSEA
+	db 30, SEAKING
+	db 30, DEWGONG
+	db 28, SHELLDER
+	db 38, CLOYSTER
+	db 37, VAPOREON
 	end_water_wildmons

@@ -7,8 +7,8 @@ PokemonMansion3FWildMons:
 	db 34, MAGMAR
 	db 40, GRIMER
 	db 34, WEEZING
-	db 38, RHYHORN
-	db 36, RAPIDASH
+	db 38, RAPIDASH
+	db 36, EXEGGUTOR
 	db 42, MAGMAR
 	end_grass_wildmons
 

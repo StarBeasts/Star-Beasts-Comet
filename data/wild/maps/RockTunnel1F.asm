@@ -1,15 +1,15 @@
 RockTunnel1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 16,NIDORAN_F
-	db 17,ZUBAT
-	db 17,GEODUDE
-	db 15,MACHOP
-	db 16,GEODUDE
-	db 18,WEEZING
-	db 15,WEEZING
-	db 17,MACHOP
-	db 13,ONIX
-	db 15,ONIX
+	db 36, STARYU
+	db 37, GOLBAT
+	db 37, STARYU
+	db 35, MACHOKE
+	db 36, NIDORINA
+	db 38, WEEZING
+	db 35, WEEZING
+	db 37, MACHOKE
+	db 38, ONIX
+	db 45, STARMIE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

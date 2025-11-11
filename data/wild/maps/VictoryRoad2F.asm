@@ -1,8 +1,8 @@
 VictoryRoad2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 38,MR_MIME
 	db 40,MR_MIME
 	db 42,MR_MIME
+	db 44,MR_MIME
 	db 46,MACHOKE
 	db 49,GOLEM
 	db 52,ONIX

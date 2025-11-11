@@ -12,5 +12,16 @@ SeafoamIslandsB4FWildMons:
 	db 32, VAPOREON
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 10 ; encounter rate
+	db 31, SHELLDER
+	db 31, GOLDEEN
+	db 33, SEAKING
+	db 33, SHELLDER
+	db 29, GOLDEEN
+	db 31, SEAKING
+	db 31, HORSEA
+	db 29, SHELLDER
+	db 39, CLOYSTER
+	db 37, VAPOREON
+
 	end_water_wildmons

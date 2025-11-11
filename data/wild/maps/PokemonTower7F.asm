@@ -7,8 +7,8 @@ PokemonTower7FWildMons:
 	db 20,CUBONE
 	db 28,HAUNTER
 	db 22,CUBONE
-	db 24,VILEPLUME
 	db 28,CLEFABLE
+	db 24,VILEPLUME
 	db 30,GENGAR
 	end_grass_wildmons
 

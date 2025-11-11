@@ -1,14 +1,14 @@
 SecretGardenWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 15, PSYDUCK
-	db 17, PARAS
-	db 16, PARAS
-	db 17, DIGLETT
-	db 15, DIGLETT
-	db 17, MANKEY
-	db 15, MANKEY
+	db 18, PSYDUCK
+	db 20, PARAS
+	db 19, PARAS
+	db 19, DIGLETT
+	db 18, DIGLETT
+	db 19, MANKEY
 	db 13, ABRA
 	db 12, ABRA
+	db 18, MEOWTH
 	db 15, EEVEE
 	end_grass_wildmons
 
