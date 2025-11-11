@@ -563,6 +563,7 @@ INCLUDE "crysaudio/music/new/quartzquarry.asm"
 INCLUDE "crysaudio/music/new/adventure.asm"
 INCLUDE "crysaudio/music/new/ezioalt.asm"
 INCLUDE "crysaudio/music/new/hdepot.asm"
+INCLUDE "crysaudio/music/new/starbeasttitle.asm"
 
 SECTION "New Songs 8", ROMX
 

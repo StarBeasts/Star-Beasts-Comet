@@ -8,10 +8,11 @@ SuperRodData:
 	dbw CELADON_CITY,        .Group3
 	dbw CINNABAR_ISLAND,     .Group8
 	dbw ROUTE_4,             .Group1
-	dbw ROUTE_5,             .Group8
+	dbw ROUTE_8,             .Group7
 	dbw ROUTE_9,             .Group13
 	dbw ROUTE_10,            .Group5
 	dbw ROUTE_12,            .Group7
+	dbw ROUTE_17,            .Group3
 	dbw ROUTE_19,            .Group8
 	dbw ROUTE_20,            .Group8
 	dbw ROUTE_21,            .Group14
@@ -20,12 +21,17 @@ SuperRodData:
 	dbw MT_MOON_B1F,         .Group12
 	dbw CERULEAN_GYM,        .Group3
 	dbw BLOODSTONE_BAY,      .Group10
+	dbw ROUTE_7_GATE,      .Group5
 	dbw UNDERGROUND_PATH_ROUTE_7,      .Group7
 	dbw UNDERGROUND_PATH_ROUTE_8,      .Group6
 	dbw VERMILION_DOCK,      .Group4
 	dbw CELADON_MART_4F,     .Group5
+	dbw SEAFOAM_ISLANDS_1F, .Group2
+	dbw SEAFOAM_ISLANDS_B1F, .Group2
+	dbw SEAFOAM_ISLANDS_B2F, .Group4
 	dbw SEAFOAM_ISLANDS_B3F, .Group7
-	dbw SEAFOAM_ISLANDS_B4F, .Group8
+	dbw SEAFOAM_ISLANDS_B4F, .Group2
+	dbw CINNABAR_LAB_METRONOME_ROOM, .Group9
 	dbw SAFARI_ZONE_EAST,    .Group6
 	dbw SAFARI_ZONE_NORTH,   .Group6
 	dbw SAFARI_ZONE_WEST,    .Group6
@@ -33,7 +39,13 @@ SuperRodData:
 	dbw CERULEAN_CAVE_2F,    .Group9
 	dbw CERULEAN_CAVE_B1F,   .Group9
 	dbw CERULEAN_CAVE_1F,    .Group9
+	dbw GLITCH_ROOM,	   .Group15
+	dbw POKEMON_MANSION_1F,    .Group16
+	dbw POKEMON_MANSION_2F,    .Group16
+	dbw POKEMON_MANSION_3F,    .Group16
+	dbw VICTORY_ROAD_1F,	   .Group13
 	dbw VILLA_3F,		   .Group11
+	dbw CELADON_CHIEF_HOUSE, .Group3
 	dbw SECRET_GARDEN,		.Group7
 	db -1 ; end
 
@@ -80,7 +92,7 @@ SuperRodData:
 	db 25,SLOWPOKE
 	db 25,SHELLDER
 	db 25,GOLDEEN
-	db 25,MAGIKARP
+	db 15,MAGIKARP
 
 .Group8:
 	db 4
@@ -130,5 +142,17 @@ SuperRodData:
 	db 40,ARBOK
 	db 25,EKANS
 	db 20,EKANS
+
+.Group15:
+	db 1
+	db 15,SARPAL
+
+.Group16:
+	db 4
+	db 33,GRIMER
+	db 33,ARBOK
+	db 33,SLOWBRO
+	db 31,CLEFABLE
+
 
 
