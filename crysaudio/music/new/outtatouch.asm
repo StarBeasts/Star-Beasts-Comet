@@ -193,10 +193,10 @@ Music_OuttaTouch_Ch2:
 	duty_cycle 1
 	note_type 12, 7, 7
 .mainloop:
-	octave 4
 	volume_envelope 12, 7
-	note F_, 2
 	octave 3
+	duty_cycle 1
+	note F_, 2
 	note F_, 2
 	octave 4
 	note E_, 2
@@ -219,9 +219,7 @@ Music_OuttaTouch_Ch2:
 	note E_, 2
 	octave 3
 	note G_, 2
-	octave 4
 	note A_, 2
-	octave 3
 	note A_, 2
 	note A_, 2
 	note A_, 2
@@ -264,9 +262,7 @@ Music_OuttaTouch_Ch2:
 	note E_, 2
 	octave 3
 	note G_, 2
-	octave 4
 	note A_, 2
-	octave 3
 	note A_, 2
 	note A_, 2
 	note A_, 2
@@ -288,9 +284,7 @@ Music_OuttaTouch_Ch2:
 	note B_, 4
 	note A_, 4
 	note F_, 2
-	octave 4
 	note F_, 2
-	octave 3
 	note F_, 2
 	note F_, 2
 	note G_, 2
@@ -298,8 +292,8 @@ Music_OuttaTouch_Ch2:
 	octave 4
 	note D_, 2
 	note D_, 4
+	octave 3
 	note G_, 4
-	octave 3
 	note G_, 2
 	octave 4
 	note C_, 2
@@ -330,26 +324,20 @@ Music_OuttaTouch_Ch2:
 	note F_, 2
 	note F_, 2
 	note E_, 2
-	octave 2
 	note D_, 2
-	octave 3
 	note C_, 2
 	octave 2
 	note A_, 2
 	octave 3
 	note D_, 2
-	octave 2
 	note D_, 2
-	octave 3
 	note F_, 2
 	note G_, 2
 	note E_, 2
 	note C_, 2
 	note D_, 4
 	note E_, 2
-	octave 2
 	note E_, 2
-	octave 3
 	note D_, 2
 	note D_, 2
 	note D_, 2
@@ -368,9 +356,7 @@ Music_OuttaTouch_Ch2:
 	note E_, 2
 	note E_, 2
 	note F_, 2
-	octave 2
 	note D_, 2
-	octave 3
 	note E_, 2
 	note C_, 2
 	note C_, 4
@@ -402,26 +388,20 @@ Music_OuttaTouch_Ch2:
 	note G_, 2
 	note E_, 2
 	note A_, 2
-	octave 2
 	note G_, 2
-	octave 3
 	note G_, 2
-	octave 2
 	note G_, 2
-	octave 3
 	note E_, 2
 	note F_, 2
-	octave 2
 	note F_, 2
-	octave 3
 	note E_, 2
 	note C_, 2
 	note C_, 2
 	note C_, 2
 	octave 2
 	note A_, 2
-	note E_, 2
 	octave 3
+	note E_, 2
 	note F_, 2
 	note G_, 2
 	note E_, 2
@@ -444,9 +424,7 @@ Music_OuttaTouch_Ch2:
 	note A_, 4
 	note G_, 2
 	note E_, 2
-	octave 2
 	note F_, 2
-	octave 3
 	note D_, 2
 	note E_, 2
 	octave 2
@@ -457,6 +435,8 @@ Music_OuttaTouch_Ch3:
 	note_type 12, 2, 0
 	octave 3
 .mainloop:
+	octave 3
+	volume_envelope 2, 0
 	note A_, 16
 	note A_, 4
 	note B_, 12

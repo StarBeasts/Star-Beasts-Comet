@@ -71,8 +71,8 @@ _SilphCo5Text12::
 	text "GAILON TUSK: Oh!"
 	line "It's you!"
 	
-	para "Uhh... whatever"
-	line "your name was!"
+	para "Whatever your"
+	line "name was!"
 
 	para "Thank you for"
 	line "helping me to"
@@ -98,12 +98,17 @@ _SilphCo5Text12::
 	cont "our experimental"
 	cont "SPACE SHUTTLE!"
 
-	para "The boys might"
-	line "still be working"
-	cont "on it, but I"
-	cont "figure you'll"
-	cont "enjoy it once"
-	cont "it's ready!"
+	para "It's an incredible"
+	line "machine, one that"
+	cont "wouldn't exist"
+	cont "without me and"
+	cont "my genius!"
+
+	para "Oh, and I guess"
+	line "the genius of"
+	cont "the people who"
+	cont "actually designed"
+	cont "and built it, too."
 	done
 
 _SilphCo5Text13::
