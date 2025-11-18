@@ -1610,13 +1610,14 @@ MetapodEvosMoves:
 	db EV_LEVEL, 10, BUTTERFREE
 	db 0
 ; Learnset
-	db 8, HEADBUTT
+	db 7, HARDEN
 	db 0
 
 ButterfreeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, SLAM
 	db 12, METAL_CLAW
 	db 15, BUG_BITE
 	db 16, WING_ATTACK
@@ -1942,8 +1943,8 @@ VenusaurEvosMoves:
 	db 32, THRASH
 	db 36, BRICK_BREAK
 	db 43, WOOD_HAMMER
-	db 47, GROWTH
-	db 50, COUNTER
+	db 47, COUNTER
+	db 50, GROWTH
 	db 55, SLEEP_POWDER
 	db 60, SOLARBEAM
 	db 65, EARTHQUAKE

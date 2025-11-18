@@ -24,7 +24,7 @@
 	     FIRE_BLAST,   SWIFT,  \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,       SUBSTITUTE,   \
-	     CUT,          FLY, FLASH
+	     FLY, FLASH
 	; end
 
 	db BANK(BeedrillPicFront)
