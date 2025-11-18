@@ -58,7 +58,7 @@ InternalMapEntries:
 	; maximum map id subject to this rule, x, y, name
 	internal_map OAKS_LAB,                       8, 3, PalletTownName
 	internal_map VIRIDIAN_GYM,                   10,  3, ViridianCityName
-	internal_map DIGLETTS_CAVE_ROUTE_2,          6,  3, Route22Name
+	internal_map DIGLETTS_CAVE_ROUTE_2,          6,  3, UndergroundPathName
 	internal_map VIRIDIAN_FOREST_NORTH_GATE,     12,  2, Route4Name
 	internal_map ROUTE_2_TRADE_HOUSE,     4,  5, Route8Name
 	internal_map ROUTE_2_GATE,     14,  2, Route5Name

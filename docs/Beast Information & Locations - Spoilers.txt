@@ -77,7 +77,7 @@ Defense: 140
 Special: 65
 Speed: 20
 
-Location: Evolve Lawncrete at Level 32, Mt. Valor (Second Area), Nature Preserve
+Location: Evolve Lawncrete at Level 32, Mt. Valor (Area 2), Nature Preserve
 
 Starting Moves:
 BRICK_BREAK, WOOD_HAMMER, HARDEN, MACH_PUNCH
@@ -495,7 +495,7 @@ HURRICANE,BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,
 COUNTER,      SHADOW_CLAW,         
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    EGG_BOMB,   SWIFT, 
-SKY_ATTACK,   REST, MOONBLAST,   SUBSTITUTE,   
+SKY_ATTACK,   REST,  SUBSTITUTE,   
 CUT,          FLY
 
 #17 - Tomaroc
@@ -508,7 +508,7 @@ Defense: 70
 Special: 70
 Speed: 71
 
-Location: Evolve Roc at Level 18, Route 6, Windwalker's Cave, Route 14, Route 15, Route 21 
+Location: Evolve Roc at Level 18, X Isle Xterior, Sea Route 13
 
 Starting Moves:
 GUST, SAND_ATTACK
@@ -517,8 +517,8 @@ Learnset
 5, SAND_ATTACK
 12, QUICK_ATTACK
 18, HEADBUTT
-21, SKULL_BASH
-31, WING_ATTACK
+21, WING_ATTACK
+31, SKULL_BASH
 40, AGILITY
 49, MIRROR_MOVE
 
@@ -528,7 +528,7 @@ TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,
 COUNTER,      SHADOW_CLAW,         MIMIC, 
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 EGG_BOMB,     SWIFT,        SKULL_BASH,   SKY_ATTACK,   REST, 
-MOONBLAST,   SUBSTITUTE,   CUT,          FLY,          STRENGTH
+SUBSTITUTE,   CUT,          FLY,          STRENGTH
 
 #18 - Gryphern
 
@@ -540,7 +540,7 @@ Defense: 90
 Special: 101
 Speed: 91
 
-Location: Evolve Tomaroc (Fire Stone), Route 15, Route 23
+Location: Evolve Tomaroc (Fire Stone), Route 14 North
 
 Starting Moves:
 GUST, SAND_ATTACK, QUICK_ATTACK
@@ -578,7 +578,7 @@ Defense: 30
 Special: 81
 Speed: 141
 
-Location: Evolve Tomaroc (Dark Soul), Route 14
+Location: Evolve Tomaroc (Dark Soul), X Isle Xterior
 
 Starting Moves:
 WING_ATTACK, BITE
@@ -610,9 +610,9 @@ HP: 150
 Attack: 75
 Defense: 120
 Special: 75
-Speed: 75
+Speed: 65
 
-Location: Celadon Game Corner (Prize), Safari Zone, Route 23
+Location: Rhinestone Casino (Prize), Safari Zone, Route 14 North
 
 Starting Moves:
 COMET_PUNCH
@@ -621,9 +621,9 @@ Learnset
 9, DIZZY_PUNCH
 14, MACH_PUNCH
 19, ROLLING_KICK
-24, ICE_PUNCH
-24, FIRE_PUNCH
-24, THUNDERPUNCH
+26, ICE_PUNCH
+26, FIRE_PUNCH
+26, THUNDERPUNCH
 29, REST
 34, BRICK_BREAK
 39, DOUBLE_EDGE
@@ -635,8 +635,8 @@ DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,
 SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   
 DRAGONBREATH, EARTHQUAKE,   MIMIC, 
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
-SKULL_BASH,   REST,   ROCK_SLIDE,   MOONBLAST,   
-SUBSTITUTE,   CUT,          SURF,         STRENGTH
+SKULL_BASH,   REST,   ROCK_SLIDE, SUBSTITUTE,
+CUT,          SURF,         STRENGTH
 
 
 #21 - Aspiro
@@ -658,7 +658,7 @@ Learnset
 9, DOUBLESLAP
 15, METRONOME
 22, MIMIC
-26, MOONBLAST
+26, TRI_ATTACK
 29, LIGHT_SCREEN
 36, CONVERSION
 
@@ -666,7 +666,8 @@ TM / HM
 HURRICANE,   SWORDS_DANCE, FLASH_CANNON,
 TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
 BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,
-PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   THUNDERBOLT,  THUNDER,  PSYCHIC,    WARP,  
+PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   
+THUNDERBOLT,  THUNDER,  PSYCHIC,    WARP,  
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    FIRE_BLAST,   SWIFT,  DREAM_EATER, 
 SKY_ATTACK,   REST,         THUNDER_WAVE,
@@ -683,7 +684,7 @@ Defense: 65
 Special: 101
 Speed: 100
 
-Location: Evolve Aspiro at Level 20, Route 18, Route 23
+Location: Evolve Aspiro at Level 20, Peridot Precinct, X Isle Xterior, Route 14 North
 
 Starting Moves:
 SLAM, MIRROR_MOVE, MIMIC
@@ -692,7 +693,7 @@ Learnset
 9, DOUBLESLAP
 15, METRONOME
 25, MIMIC
-30, MOONBLAST
+30, TRI_ATTACK
 34, LIGHT_SCREEN
 43, CONVERSION
 
@@ -719,7 +720,7 @@ Defense: 50
 Special: 50
 Speed: 38
 
-Location: Route 4, Route 8, Route 9, Route 11, Route 22, Fishing - Super Rod (Cerulean City, Cerulean Gym)
+Location: Route 3, Route 14 South, Sea Route 13, X Isle Xterior, Mt. Valor Exterior, Fishing - Super Rod (Too common to list)
 
 Starting Moves:
 WRAP, GLARE
@@ -737,7 +738,7 @@ BUBBLEBEAM,   WATER_GUN, COUNTER,  MEGA_DRAIN,
 DRAGONBREATH,  MIMIC, DOUBLE_TEAM,  BIDE,         
 METRONOME, SKULL_BASH,   DREAM_EATER,  
 THUNDER_WAVE,  PSYWAVE, 
-SUBSTITUTE,   CUT,  FLASH
+SUBSTITUTE,   FLASH
 
 #24 - Ardyhydra
 
@@ -749,7 +750,7 @@ Defense: 70
 Special: 75
 Speed: 80
 
-Location: Evolve Drakelet at Level 26, Route 9, Route 23, Safari Zone, Fishing - Super Rod (Safari Zone, Route 23, Cerulean Cave)
+Location: Evolve Drakelet at Level 26, Safari Zone (Area 2), Feldspar Flats Exterior, Sea Route 13, Platinum Path, X Isle Xterior, Fishing - Super Rod (Too common to list)
 
 Starting Moves:
 WRAP, GLARE, POISON_STING, DRAGONBREATH
@@ -768,10 +769,10 @@ TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,
  BLIZZARD,     HYPER_BEAM,   COUNTER,  MEGA_DRAIN,   
 DRAGONBREATH,  THUNDERBOLT,  THUNDER,  EARTHQUAKE,   
 PSYCHIC,   MIMIC, DOUBLE_TEAM,  BIDE,  METRONOME,    
-FIRE_BLAST,   SWIFT, SKULL_BASH,   
+FIRE_BLAST,   SWIFT, SKULL_BASH, NOURISH   
 DREAM_EATER,  REST,  THUNDER_WAVE, 
-PSYWAVE,      ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   
-CUT,          SURF,         STRENGTH,     FLASH
+PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   
+SURF,         STRENGTH,     FLASH
 
 #25 - Joltybara
 
@@ -783,7 +784,7 @@ Defense: 32
 Special: 60
 Speed: 76
 
-Location: Viridian Forest, Route 10, Windwalker's Cave, Route 18, Power Plant
+Location: Olivine Orchard, Emerald Acres, Windwalker's Way, Peridot Precinct, Dolomite Dam Interior
 
 Starting Moves:
 TAIL_WHIP, THUNDERSHOCK
@@ -817,10 +818,10 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Evolve Joltybara at Level 30, Route 16, Power Plant, Cerulean Cave
+Location: Evolve Joltybara at Level 30, Dolomite Dam Interior, X Isle Xterior, Mt. Valor (Area 1)
 
 Starting Moves:
-THUNDERSHOCK, GROWL, THUNDER_WAVE, TAKE_DOWN
+GROWL, THUNDERSHOCK, THUNDER_WAVE, STOMP
 
 Learnset
 8, THUNDER_WAVE
@@ -854,7 +855,7 @@ Defense: 50
 Special: 62
 Speed: 40
 
-Location: Too common to list
+Location: Underground Path, Route 14 South, Route 5, Route 9, Peridot Precinct, Route 14 North
 
 Starting Moves:
 RAGE, GROWL
@@ -885,7 +886,7 @@ Defense: 115
 Special: 92
 Speed: 60
 
-Location: Evolve Bokongo at Level 22, Route 18, Cerulean Cave
+Location: Evolve Bokongo at Level 22, Route 14 North, Mt. Valor
 
 Starting Moves:
 POUND, WATER_GUN, REST
@@ -905,8 +906,8 @@ BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,
 COUNTER, MEGA_DRAIN,   DRAGONBREATH,  EARTHQUAKE,   
 FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME, 
 SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
-REST,EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
-SURF,         STRENGTH
+NOURISH, REST, EXPLOSION,    ROCK_SLIDE,   
+SUBSTITUTE,   SURF,         STRENGTH
 
 #29 - Whirlie
 
@@ -918,7 +919,7 @@ Defense: 80
 Special: 40
 Speed: 50
 
-Location: Viridian Cave, Mt. Moon, Route 4, Rock Tunnel, Safari Zone
+Location: Underground Path, Cobalt Cave
 
 Starting Moves:
 GUST
@@ -938,7 +939,7 @@ TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,
 DOUBLE_EDGE,  COUNTER, EARTHQUAKE,   
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    SELFDESTRUCT, SWIFT,        SKULL_BASH,    
-REST,    EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
+REST,    EXPLOSION,    ROCK_SLIDE, 
 SUBSTITUTE,   CUT,          STRENGTH
 
 #30 - Warnado
@@ -951,7 +952,7 @@ Defense: 120
 Special: 50
 Speed: 60
 
-Location: Evolve Whirlie at Level 30, Safari Zone, Beast Mansion
+Location: Evolve Whirlie at Level 30, Turquoise Trailer Park, Exiled Abyss (Top Floor)
 
 Starting Moves:
 HORN_ATTACK, GUST, SPIKE_CANNON
@@ -970,9 +971,9 @@ HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,
 TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    
 DOUBLE_EDGE, COUNTER,      SHADOW_CLAW,  EARTHQUAKE, 
  MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
-SELFDESTRUCT, SWIFT,        SKULL_BASH,   SKY_ATTACK,   REST, 
-EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   
-CUT,          FLY,          STRENGTH
+SELFDESTRUCT, SWIFT,        SKULL_BASH,   SKY_ATTACK,   
+REST,  EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
+CUT,          FLY,  	SURF,         STRENGTH
 
 #31 - Eradicane
 
