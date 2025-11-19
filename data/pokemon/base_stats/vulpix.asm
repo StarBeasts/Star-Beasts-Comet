@@ -24,7 +24,7 @@
 	     SKULL_BASH,   \
 	     REST, \
 	     SUBSTITUTE,   \
-	     CUT,          SURF
+	     CUT
 	; end
 
 	db BANK(VulpixPicFront)

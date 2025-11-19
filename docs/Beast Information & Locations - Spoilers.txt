@@ -1021,7 +1021,7 @@ Defense: 40
 Special: 40
 Speed: 50
 
-Location: Route 2, Safari Zone, Route 22
+Location: Route 2, Route 14 South, Miserite Meadow, Safari Zone
 
 Starting Moves:
 GROWL, LICK, SCRATCH
@@ -1052,7 +1052,7 @@ Defense: 65
 Special: 60
 Speed: 65
 
-Location: Evolve Slimogg at Level 16, Safari Zone, Beast Mansion
+Location: Evolve Slimogg at Level 16, Safari Zone
 
 Starting Moves:
 BITE, METAL_CLAW, POISON_FANG
@@ -1117,7 +1117,7 @@ Defense: 90
 Special: 85
 Speed: 100
 
-Location: Evolve Needolf (Moon Stone), Beast Mansion
+Location: Evolve Needolf (Moon Stone)
 
 Starting Moves:
 KARATE_CHOP, GROWL
@@ -1152,10 +1152,10 @@ Defense: 63
 Special: 91
 Speed: 104
 
-Location: Beast Tower, Beast Mansion
+Location: Galena Graveyard, Macrobia Ruins
 
 Starting Moves:
-SHADOW_CLAW, HYPER_VOICE, SELFDESTRUCT, SING 
+HYPER_VOICE, SELFDESTRUCT, SHADOW_CLAW,  SING 
 
 Learnset
 30, SCREECH
@@ -1183,7 +1183,7 @@ Defense: 50
 Special: 60
 Speed: 82
 
-Location: Mt. Moon, Route 10 (Gift), Beast Mansion, Seafoam Islands
+Location: Cobalt Cave, Route 6 (Gift), Macrobia Ruins
 
 Starting Moves:
 POWDER_SNOW, ROAR
@@ -1203,7 +1203,7 @@ BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,
 SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
 DRAGONBREATH, DIG,          MIMIC,  
 DOUBLE_TEAM,  BIDE,         METRONOME,    SKULL_BASH,   
-REST, SUBSTITUTE,   CUT,          SURF
+REST, SUBSTITUTE,   CUT
 
 #38 - Heavieddi
 
@@ -1215,7 +1215,7 @@ Defense: 90
 Special: 85
 Speed: 75
 
-Location: Evolve Tinieddi at Level 28, Seafoam Islands
+Location: Evolve Tinieddi at Level 28, Exiled Abyss (Bottom Floor)
 
 Starting Moves:
 BITE, SLASH, ICE_PUNCH, ROAR 
@@ -1235,7 +1235,7 @@ BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,
 SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
 DRAGONBREATH, EARTHQUAKE,   FISSURE,      DIG,          
 MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
-SKULL_BASH,   REST,  ROCK_SLIDE,   SUBSTITUTE,   
+SKULL_BASH,   REST,  ROCK_SLIDE,  MOONBLAST,  SUBSTITUTE,   
 CUT,          SURF,         STRENGTH
 
 #39 - Leeghoul
@@ -1248,7 +1248,7 @@ Defense: 125
 Special: 58
 Speed: 30
 
-Location: Beast Tower
+Location: Galena Graveyard
 
 Starting Moves:
 SCRATCH, LEER
@@ -1264,12 +1264,11 @@ Learnset
 TM / HM
 SWORDS_DANCE, DRAGON_CLAW,    
 TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
-COUNTER,      SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      
+COUNTER,      SHADOW_CLAW,  THUNDERBOLT,  THUNDER,      
 FISSURE,      PSYCHIC,    MIMIC, 
 DOUBLE_TEAM,  BIDE,         METRONOME,    
-SELFDESTRUCT, SWIFT,        SKULL_BASH,   
-DREAM_EATER,  REST, MOONBLAST,   SUBSTITUTE,   
-CUT,          FLY,          STRENGTH,     FLASH
+SELFDESTRUCT, SWIFT, DREAM_EATER,
+REST, MOONBLAST,   SUBSTITUTE,   CUT
 
 #40 - Verbeden
 
@@ -1281,7 +1280,7 @@ Defense: 165
 Special: 65
 Speed: 50
 
-Location: Evolve Leeghoul (Fire Stone), Beast Tower
+Location: Evolve Leeghoul (Fire Stone), Galena Graveyard
 
 Starting Moves:
 FIRE_SPIN, AERIAL_ACE, METAL_CLAW, SHADOW_CLAW 
@@ -1297,9 +1296,9 @@ HYPER_BEAM,   COUNTER,      SHADOW_CLAW,
 SOLARBEAM,    THUNDERBOLT,  THUNDER,      
 FISSURE,      PSYCHIC,    WARP,     MIMIC, 
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
-SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
-DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    MOONBLAST,   SUBSTITUTE,   
+SELFDESTRUCT, FIRE_BLAST,   SWIFT, DREAM_EATER, 
+SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE, 
+EXPLOSION,    MOONBLAST,   SUBSTITUTE,   
 CUT,          FLY,          STRENGTH,     FLASH
 
 
@@ -1313,7 +1312,7 @@ Defense: 30
 Special: 55
 Speed: 55
 
-Location: Caves and Route 10
+Location: Underground Path, Cobalt Cave, Miserite Meadow, Anguish Glade, Sodalite Sinkhole
 
 Starting Moves:
 CONFUSION, THUNDERSHOCK
@@ -1334,7 +1333,7 @@ PSYCHIC,    WARP,     MIMIC,
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SELFDESTRUCT, SWIFT,        SKULL_BASH,   
 DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    SUBSTITUTE,   
+PSYWAVE,      EXPLOSION,   MOONBLAST,    SUBSTITUTE,   
 FLASH
 
 #42 - Convulsia
@@ -1347,7 +1346,7 @@ Defense: 40
 Special: 95
 Speed: 95
 
-Location: Evolve Epilepsia at Level 22, Seafoam Islands, Victory Road, Cerulean Cave
+Location: Evolve Epilepsia at Level 22, Sodalite Sinkhole, Exiled Abyss, Platinum Path, Wulfenite Woods, Adamantium Apex, Mt. Valor (Area 1)
 
 Starting Moves:
 CONFUSION, THUNDERSHOCK, GLARE
@@ -1363,14 +1362,14 @@ Learnset
 TM / HM
 HURRICANE,   FLASH_CANNON, 
 TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
-ICE_BEAM,     HYPER_BEAM,   
-COUNTER, SOLARBEAM,    THUNDERBOLT,  THUNDER,      
+ICE_BEAM,     HYPER_BEAM,   COUNTER,
+SOLARBEAM,    THUNDERBOLT,  THUNDER,      
 PSYCHIC,    WARP,     MIMIC, 
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SELFDESTRUCT, SWIFT,        SKULL_BASH,   
 DREAM_EATER,  SKY_ATTACK,   REST,         
 THUNDER_WAVE, PSYWAVE,      EXPLOSION,   
-SUBSTITUTE,   FLY,          FLASH
+MOONBLAST,  SUBSTITUTE,   FLY,          FLASH
 
 #43 - Sackran
 
@@ -1382,7 +1381,7 @@ Defense: 65
 Special: 65
 Speed: 95
 
-Location: Routes 5-7, Routes 12-15, Windwalker's Cave, Route 21, Routes 24-25
+Location: Route 4, Route 5, Steve's House Yard, Miserite Meadow, Turquoise Trailer Park
 
 Starting Moves:
 WARP, LETS_PLAY, QUICK_ATTACK
@@ -1408,11 +1407,11 @@ Grass / Dark
 
 HP: 95
 Attack: 115
-Defense: 100
+Defense: 95
 Special: 65
-Speed: 120
+Speed: 115
 
-Location: Evolve Sackran (Holy Soul), Route 15
+Location: Evolve Sackran (Holy Soul)
 
 Starting Moves:
 KARATE_CHOP, TAKE_DOWN, QUICK_ATTACK
@@ -1442,10 +1441,10 @@ Ghost / Fairy
 HP: 95
 Attack: 65
 Defense: 65
-Special: 120
+Special: 115
 Speed: 115
 
-Location: Evolve Sackran (Dark Soul), Route 14, Beast Tower
+Location: Evolve Sackran (Dark Soul), Galena Graveyard
 
 Starting Moves:
 TAKE_DOWN, CONFUSION, OMINOUS_WIND, PAY_DAY
@@ -1467,9 +1466,10 @@ DRAGONBREATH,  THUNDERBOLT,  THUNDER,  PSYCHIC,
 WARP,     MIMIC,        DOUBLE_TEAM,  REFLECT,      
 BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   
 DREAM_EATER,  REST,         THUNDER_WAVE, PSYWAVE,     
- ROCK_SLIDE,   SUBSTITUTE,   CUT,          FLY,           FLASH
+ROCK_SLIDE,  MOONBLAST,  SUBSTITUTE,   
+CUT,          FLY,           FLASH
 
-#46 - Speakeasy
+#46 - Klawnival
 
 Fighting
 

@@ -1,6 +1,6 @@
 	db DEX_VILEPLUME ; pokedex id
 
-	db  95,  65,  65, 115, 120
+	db  95,  65,  65, 115, 115
 	;   hp  atk  def  spd  spc
 
 	db GHOST, FAIRY ; type

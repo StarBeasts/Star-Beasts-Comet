@@ -185,7 +185,7 @@ InternalMapEntries:
 	internal_map CERULEAN_CAVE_1F,               12, 10, CeruleanCaveName
 	internal_map NAME_RATERS_HOUSE,             2,  7, LavenderTownName
 	internal_map CERULEAN_BADGE_HOUSE,          7,  6, CeruleanCityName
-	internal_map GOLDEN_GATE,                   12, 2, Route4Name
+	internal_map GOLDEN_GATE,                   7, 5, Route6Name
 	internal_map ROCK_TUNNEL_B1F,               0,  2, RockTunnelName
 	internal_map SILPH_CO_10F,             3,  10, RangerStationName
 	internal_map SILPH_CO_11F,             7,  12, ShadowstoneName
