@@ -11,7 +11,7 @@ CeladonMartRoof_Object:
 	bg_event 19,  1, 9 ; CeladonMartRoofText9
 	bg_event 20,  2, 10 ; CeladonMartRoofText10
 	bg_event 21,  2, 11 ; CeladonMartRoofText11
-	bg_event 0,  1, 12 ; CeladonMartRoofText12
+	bg_event  0,  1, 12 ; CeladonMartRoofText12
 	bg_event 10, 1, 13 ; CeladonMartRoofText13
 	bg_event 6, 6, 14 ; CeladonMartRoofText14
 	bg_event 9, 6, 15 ; CeladonMartRoofText15
