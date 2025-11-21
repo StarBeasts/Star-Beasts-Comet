@@ -118,7 +118,10 @@ DisplayNamingScreen:
 	ld [wAnimCounter], a
 .selectReturnPoint
 	call PrintAlphabet
-	call GBPalNormal
+	ld a, %11100100 ; 3210
+	ldh [rBGP], a
+	ld a, %11100100 ; 3100
+	ldh [rOBP0], a
 .ABStartReturnPoint
 	ld a, [wNamingScreenSubmitName]
 	and a
