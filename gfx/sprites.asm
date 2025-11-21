@@ -107,6 +107,7 @@ DragonSprite::		INCBIN "gfx/sprites/dragon.2bpp"
 ScientistDeadSprite:: INCBIN "gfx/sprites/scientist_dead.2bpp"
 FametasSprite:: INCBIN "gfx/sprites/fametas.2bpp"
 
+
 SECTION "NPC Sprites 4", ROMX
 
 MomSprite::              INCBIN "gfx/sprites/mom.2bpp"
@@ -120,3 +121,18 @@ GuitarSprite:: INCBIN "gfx/sprites/guitar.2bpp"
 RuinedSignSprite:: INCBIN "gfx/sprites/ruinedsign.2bpp"
 CoffeeSprite:: INCBIN "gfx/sprites/coffee.2bpp"
 UrnSprite:: INCBIN "gfx/sprites/urn.2bpp"
+
+
+
+SECTION "Party Icons", ROMX
+
+AngelIcon::     INCBIN "gfx/icons/icon_angel.2bpp"
+BallIcon::      INCBIN "gfx/icons/icon_ball.2bpp"
+BlobIcon::      INCBIN "gfx/icons/icon_blob.2bpp"
+FireIcon::      INCBIN "gfx/icons/icon_fire.2bpp"
+GhostIcon::     INCBIN "gfx/icons/icon_ghost.2bpp"
+GrassIcon::     INCBIN "gfx/icons/icon_grass.2bpp"
+HumanIcon::     INCBIN "gfx/icons/icon_human.2bpp"
+WaterIcon::     INCBIN "gfx/icons/icon_water.2bpp"
+QuadrupedIcon:: INCBIN "gfx/icons/icon_quadruped.2bpp"
+DragonIcon::    INCBIN "gfx/icons/icon_dragon.2bpp"

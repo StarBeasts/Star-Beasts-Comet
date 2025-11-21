@@ -122,4 +122,14 @@ SpriteSheetPointerTable:
 	overworld_sprite RuinedSignSprite, 4		  ; SPRITE_RUINED_SIGN
 	overworld_sprite CoffeeSprite, 4		  ; SPRITE_COFFEE
 	overworld_sprite UrnSprite, 4		  ; SPRITE_URN
+	overworld_sprite AngelIcon, 4
+	overworld_sprite BallIcon,  4
+	overworld_sprite BlobIcon,  4
+	overworld_sprite FireIcon,  4
+	overworld_sprite GhostIcon, 4
+	overworld_sprite GrassIcon, 4
+	overworld_sprite HumanIcon, 4
+	overworld_sprite WaterIcon, 4
+	overworld_sprite QuadrupedIcon, 4
+	overworld_sprite DragonIcon, 4
 	assert_table_length NUM_SPRITES

@@ -56,13 +56,6 @@ GetAnimationSpeed:
 	ld a, [wCurrentMenuItem]
 	call AddNTimes
 	ld c, ICONOFFSET
-	ld a, [hl]
-	cp ICON_BALL << 2
-	jr z, .editCoords
-	cp ICON_HELIX << 2
-	jr nz, .editTileIDS
-; ICON_BALL and ICON_HELIX only shake up and down
-.editCoords
 	dec hl
 	dec hl ; dec hl to the OAM y coord
 	ld c, $1 ; amount to increase the y coord by
@@ -243,11 +236,6 @@ WriteMonPartySpriteOAM:
 	add $10
 	ld b, a
 	pop af
-	cp ICON_HELIX << 2
-	jr z, .helix
-	call WriteSymmetricMonPartySpriteOAM
-	jr .makeCopy
-.helix
 	call WriteAsymmetricMonPartySpriteOAM
 ; Make a copy of the OAM buffer with the first animation frame written so that
 ; we can flip back to it from the second frame by copying it back.
@@ -282,16 +270,5 @@ INCLUDE "data/pokemon/menu_icons.asm"
 
 DEF INC_FRAME_1 EQUS "0, $20"
 DEF INC_FRAME_2 EQUS "$20, $20"
-
-BugIconFrame1:       INCBIN "gfx/icons/bug.2bpp", INC_FRAME_1
-PlantIconFrame1:     INCBIN "gfx/icons/plant.2bpp", INC_FRAME_1
-BugIconFrame2:       INCBIN "gfx/icons/bug.2bpp", INC_FRAME_2
-PlantIconFrame2:     INCBIN "gfx/icons/plant.2bpp", INC_FRAME_2
-SnakeIconFrame1:     INCBIN "gfx/icons/snake.2bpp", INC_FRAME_1
-QuadrupedIconFrame1: INCBIN "gfx/icons/quadruped.2bpp", INC_FRAME_1
-SnakeIconFrame2:     INCBIN "gfx/icons/snake.2bpp", INC_FRAME_2
-QuadrupedIconFrame2: INCBIN "gfx/icons/quadruped.2bpp", INC_FRAME_2
-DragonIconFrame1: INCBIN "gfx/icons/dragon.2bpp", INC_FRAME_1
-DragonIconFrame2: INCBIN "gfx/icons/dragon.2bpp", INC_FRAME_2
 
 TradeBubbleIconGFX:  INCBIN "gfx/trade/bubble.2bpp"

@@ -12,6 +12,9 @@
 	const ICON_SNAKE     ; $8
 	const ICON_QUADRUPED ; $9
 	const ICON_DRAGON    ; $0A
+	const ICON_TEST1
+	const ICON_TEST2
+	const ICON_TEST3
 
 DEF ICON_TRADEBUBBLE EQU $e
 
