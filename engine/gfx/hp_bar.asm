@@ -142,7 +142,7 @@ UpdateHPBar_AnimateHPBar:
 .barAnimationLoop
 	push af
 	push de
-	ld d, $6
+	ld d, 6
 	call DrawHPBarHudless
 	ld c, 2
 	call DelayFrames
