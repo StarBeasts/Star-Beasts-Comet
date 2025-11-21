@@ -13,6 +13,7 @@ DoorTileIDPointers:
 	dbw FACILITY,    .FacilityDoorTileIDs
 	dbw PLATEAU,     .PlateauDoorTileIDs
 	dbw SAFFRONTILESET, .SaffronDoorTileIDs
+	dbw INTERIOR,       .InteriorDoorTileIDs
 	dbw HILL, .HillTilesetDoorTileIDs
 	db -1 ; end
 
@@ -51,7 +52,7 @@ ENDM
 	door_tiles $34
 
 .FacilityDoorTileIDs:
-	door_tiles $43, $58, $1b
+	door_tiles $58, $1b, $6a, $6c
 
 .PlateauDoorTileIDs:
 	door_tiles $3b, $1b, $46, $56
@@ -61,3 +62,6 @@ ENDM
 
 .HillTilesetDoorTileIDs
 	door_tiles $63, $6e
+
+.InteriorDoorTileIDs
+	door_tiles $04
