@@ -53,47 +53,53 @@ _CinnabarLabTradeRoomAfterBattleText1::
 	done
 
 _Lab2Text2::
-	text "2 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "NO ONE WILL EVER"
+	line "SEE THIS, YOU"
+	cont "KNOW..."
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "HOW MUCH OF YOUR"
+	line "FINITE TIME ON"
+	cont "THIS EARTH HAVE"
+	cont "YOU WASTED"
 	done
 
 _Lab2Text3::
-	text "3 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "IT TAKES YOU SO"
+	line "LONG TO DO"
+	cont "ANYTHING"
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "Why even bother"
+	line "trying? Who are"
+	cont "you kidding?"
 	done
 
 _Lab2Text4::
-	text "4 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "THEY'RE RIGHT,"
+	line "YOU KNOW."
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "NOTHING YOU HAVE"
+	line "EVER CREATED HAS"
+	cont "ANY VALUE."
+	
+	para "IT WILL BE"
+	line "FORGOTTEN"
+
+	para "JUST LIKE YOU"
 	done
 
 _Lab2Text5::
-	text "5 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "YOU'RE SO ANGRY"
+	line "ALL THE TIME,"
+	cont "BUT YOUR LIFE"
+	cont "ISN'T HARD ENOUGH"
+	cont "TO JUSTIFY IT"
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "YOU ARE ANGRY"
+	line "BECAUSE THINGS"
+	cont "AREN'T JUST"
+	cont "HANDED TO YOU"
+	cont "WITH ZERO EFFORT"
+	cont "ON YOUR PART"
 	done
 
 _Lab2Text6::
@@ -101,49 +107,71 @@ _Lab2Text6::
 	done
 
 _Lab2Text7::
-	text "7 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "LOOK AT YOU"
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "TIRED ALL THE TIME"
+	
+	para "HOW MANY STARVING,"
+	line "DESPERATE PEOPLE"
+	cont "WOULD KILL TO BE"
+	cont "WHERE YOU ARE"
 	done
 
 _Lab2Text8::
-	text "8 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "NOBODY ACTUALLY"
+	line "LIKES YOU, THEY"
+	cont "JUST LIKE WHAT"
+	cont "YOU CAN PROVIDE"
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "THEY WANT SOMEONE"
+	line "TO LIE TO THEM"
+	cont "AND MAKE THEM"
+	cont "FEEL GOOD ABOUT"
+	cont "THEMSELVES"
+
+	para "AND LOOK AT THAT,"
+	line "THE ONE THING YOU"
+	cont "ARE GOOD AT:"
+
+	para "BEING A LIAR"
 	done
 
 _Lab2Text9::
-	text "9 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "YOU BELIEVE THE"
+	line "SUPPOSED 'RIGHT'"
+	cont "THING, NOT"
+	cont "BECAUSE YOU HAVE"
+	cont "ANY ACTUAL, REAL"
+	cont "CONVICTIONS, BUT"
+	cont "BECAUSE IT IS"
+	cont "THE PATH OF LEAST"
+	cont "RESISTANCE"
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "COWARD"
 	done
 
 _Lab2Text10::
-	text "10 placeholder"
-	line "strange soul in"
-	cont "MT.MOON!"
+	text "NOSTALGIA MEANS"
+	line "NOTHING TO YOU"
+	cont "BECAUSE YOU"
+	cont "HAVEN'T GROWN AS"
+	cont "A PERSON AT ALL"
 
-	para "There's a kind of"
-	line "ebb to it, like"
-	cont "the belly of a"
-	cont "pregnant demon..."
+	para "AND YOU KNOW YOU"
+	line "NEVER WILL"
 	done
 
 _Lab2Text11::
-	text "11 placeholder"
+	text "can you hear it"
+
+	para "the doubt in my"
+	line "head"
+	
+	para "nobody will ever"
+	line "be proud of me"
+
+	para "i will never be"
+	line "proud of myself"
+
+	para "this is my curse"
 	done

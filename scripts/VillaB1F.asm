@@ -56,7 +56,17 @@ VillaB1FEndBattleText1:
 
 VillaB1FAfterBattleText1:
 	text_far _VillaB1FAfterBattleText1
-	text_end
+	text_asm
+	call GBFadeOutToBlack
+	ld a, HS_VILLA_LUCIAN
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	call Delay3
+	ld a, SFX_GO_INSIDE
+	call PlaySound
+	call Delay3
+	call GBFadeInFromBlack
+ 	jp TextScriptEnd
 
 VillaB1FText4:	
 	text_far _VillaB1FText4

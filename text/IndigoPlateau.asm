@@ -4,28 +4,44 @@ _IndigoPlateauBattleText2::
 	done
 
 _IndigoPlateauEndBattleText2::
-	text "The"
-	line "rumors were true!"
+	text "Wicked!"
+
+	para "You kicked my ass!"
+
+	para "That was awesome!"
 	prompt
 
 _IndigoPlateauAfterBattleText2::
-	text "You beat LUCIAN"
-	line "of TEAM ROCKET?"
+	text "You're the kid"
+	line "that beat LUCIAN"
+	cont "of TEAM ROCKET?"
+
+	para "That's really you?"
+	line "No kidding!"
+
+	para "Well, the ELITE"
+	line "FOUR await you,"
+	cont "so I guess we'll"
+	cont "see if you live"
+	cont "up to the hype!"
 	done
 
 _IndigoPlateauBattleText3::
-	text "I'll show you just"
-	line "how good you are!"
+	text "So close to the"
+	line "finish line,"
+	cont "only to end up"
+	cont "in second place!"
 	done
 
 _IndigoPlateauEndBattleText3::
-	text "I'm"
-	line "furious!"
+	text "Tripped"
+	line "up right before"
+	cont "the finish line!"
 	prompt
 
 _IndigoPlateauAfterBattleText3::
-	text "You showed me just"
-	line "how good I was!"
+	text "I've just gotta"
+	line "keep training!"
 	done
 
 _IndigoPlateauBattleText4::
@@ -34,30 +50,33 @@ _IndigoPlateauBattleText4::
 	done
 
 _IndigoPlateauEndBattleText4::
-	text "I"
-	line "don't believe it!"
+	text "I don't"
+	line "believe it!"
 	prompt
 
 _IndigoPlateauAfterBattleText4::
-	text "All trainers here"
-	line "are headed to the"
+	text "Everybody here"
+	line "is headed to the"
 	cont "#BEAST LEAGUE!"
-	cont "Be careful!"
+
+	para "Think you've got"
+	line "what it takes?"
 	done
 
 _IndigoPlateauBattleText5::
-	text "Trainers live for"
-	line "the thrill of"
-	cont "combat!"
+	text "I long for combat!"
 	done
 
 _IndigoPlateauEndBattleText5::
-	text "Oh!"
-	line "So strong!"
+	text "Grr!"
+	line "Rrrrroooaaarrr!!!"
+
+	para "Oh yeah, baby!"
 	prompt
 
 _IndigoPlateauAfterBattleText5::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "Fighting's like"
+	line "breathing to me!"
+
+	para "If I stop, I die!"
 	done

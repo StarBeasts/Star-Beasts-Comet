@@ -25,8 +25,8 @@ WildDataPointers:
 	dw Route11WildMons         ; ROUTE_11
 	dw Route12WildMons         ; ROUTE_12
 	dw Route13WildMons         ; ROUTE_13
-	dw Route14WildMons         ; ROUTE_14
-	dw Route15WildMons         ; ROUTE_15
+	dw NothingWildMons         ; ROUTE_14
+	dw NothingWildMons         ; ROUTE_15
 	dw Route16WildMons         ; ROUTE_16
 	dw Route17WildMons         ; ROUTE_17
 	dw Route18WildMons         ; ROUTE_18
@@ -35,8 +35,8 @@ WildDataPointers:
 	dw Route21WildMons         ; ROUTE_21
 	dw Route22WildMons         ; ROUTE_22
 	dw Route23WildMons         ; ROUTE_23
-	dw Route24WildMons         ; ROUTE_24
-	dw Route25WildMons         ; ROUTE_25
+	dw NothingWildMons         ; ROUTE_24
+	dw NothingWildMons         ; ROUTE_25
 	dw NothingWildMons         ; REDS_HOUSE_1F
 	dw NothingWildMons
 	dw NothingWildMons
@@ -85,6 +85,7 @@ WildDataPointers:
 	dw RockTunnel1FWildMons
 	dw PowerPlantWildMons
 	dw NothingWildMons
+	dw DiglettsCaveRoute11WildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -92,8 +93,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw VermilionPidgeyHouseWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -161,14 +161,15 @@ WildDataPointers:
 	dw NothingWildMons
 	dw SeafoamIslandsB1FWildMons
 	dw SeafoamIslandsB2FWildMons
-	dw SeafoamIslandsB3FWildMons
+	dw NothingWildMons
 	dw SeafoamIslandsB4FWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw VermilionOldRodHouseWildMons
+	dw FuchsiaGoodRodHouseWildMons
 	dw PokemonMansion1FWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
+	dw CinnabarLabMetronomeRoomWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -188,8 +189,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
-	dw NothingWildMons
+	dw Route12SuperRodHouseWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw SeafoamIslands1FWildMons
@@ -248,6 +248,10 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
+	dw MoonWildMons
+	dw MoonWildMons
+	dw MoonWildMons
+	dw MoonWildMons
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -272,8 +276,6 @@ INCLUDE "data/wild/maps/MtMoon1F.asm"
 INCLUDE "data/wild/maps/MtMoonB1F.asm"
 INCLUDE "data/wild/maps/MtMoonB2F.asm"
 INCLUDE "data/wild/maps/Route4.asm"
-INCLUDE "data/wild/maps/Route24.asm"
-INCLUDE "data/wild/maps/Route25.asm"
 INCLUDE "data/wild/maps/Route9.asm"
 INCLUDE "data/wild/maps/Route5.asm"
 INCLUDE "data/wild/maps/Route6.asm"
@@ -292,8 +294,6 @@ INCLUDE "data/wild/maps/PokemonTower5F.asm"
 INCLUDE "data/wild/maps/PokemonTower6F.asm"
 INCLUDE "data/wild/maps/PokemonTower7F.asm"
 INCLUDE "data/wild/maps/Route13.asm"
-INCLUDE "data/wild/maps/Route14.asm"
-INCLUDE "data/wild/maps/Route15.asm"
 INCLUDE "data/wild/maps/Route16.asm"
 INCLUDE "data/wild/maps/Route17.asm"
 INCLUDE "data/wild/maps/Route18.asm"
@@ -305,7 +305,6 @@ INCLUDE "data/wild/maps/SeaRoutes.asm"
 INCLUDE "data/wild/maps/SeafoamIslands1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB2F.asm"
-INCLUDE "data/wild/maps/SeafoamIslandsB3F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB4F.asm"
 INCLUDE "data/wild/maps/PokemonMansion1F.asm"
 INCLUDE "data/wild/maps/PokemonMansion2F.asm"
@@ -336,3 +335,10 @@ INCLUDE "data/wild/maps/RocketHideoutB3F.asm"
 INCLUDE "data/wild/maps/RocketHideoutB4F.asm"
 INCLUDE "data/wild/maps/Route7Gate.asm"
 INCLUDE "data/wild/maps/PurpleForest.asm"
+INCLUDE "data/wild/maps/DiglettsCaveRoute11.asm"
+INCLUDE "data/wild/maps/Moon.asm"
+INCLUDE "data/wild/maps/VermilionPidgeyHouse.asm"
+INCLUDE "data/wild/maps/FuchsiaGoodRodHouse.asm"
+INCLUDE "data/wild/maps/VermilionOldRodHouse.asm"
+INCLUDE "data/wild/maps/Route12SuperRodHouse.asm"
+INCLUDE "data/wild/maps/CinnabarLabMetronomeRoom.asm"

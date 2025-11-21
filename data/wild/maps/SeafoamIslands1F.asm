@@ -12,5 +12,15 @@ SeafoamIslands1FWildMons:
 	db 38, SLOWBRO
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 15 ; encounter rate
+	db 30, HORSEA
+	db 30, SLOWPOKE
+	db 30, GOLDEEN
+	db 30, SHELLDER
+	db 28, SHELLDER
+	db 21, ZUBAT
+	db 29, GOLBAT
+	db 28, SLOWPOKE
+	db 28, SEAKING
+	db 38, SLOWBRO
 	end_water_wildmons

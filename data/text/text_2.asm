@@ -127,7 +127,7 @@ _DexSeenOwnedText::
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "#DEX Rating:"
 	done
 
 _GymStatueText1::
@@ -335,7 +335,7 @@ _GameOverText::
 	done
 
 _CinnabarGymQuizIntroText::
-	text "# BEASTS Quiz!"
+	text "MANCER's Quiz!"
 
 	para "Get it right and"
 	line "the door opens to"
@@ -354,8 +354,10 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CUPEEDLE evolves"
-	line "into VELOCIFLEA?"
+	text "People that can"
+	line "control the"
+	cont "ELEMENTs are"
+	cont "called MANCERs?"
 	done
 
 _CinnabarQuizQuestionsText2::
@@ -367,28 +369,27 @@ _CinnabarQuizQuestionsText2::
 
 _CinnabarQuizQuestionsText3::
 	text "The FOUR"
-	line "HOLY REGENTS"
-	cont "did NOT create"
-	cont "this world?"
+	line "HOLY REGENTS are"
+	cont "SIVAK, JACRED,"
+	cont "ALVARIS and"
+	cont "VAMETAS?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Is VELID NOT"
-	line "over two hundred"
-	cont "years old?"
+	text "MANCER VELID"
+	line "isn't immortal?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "Is VELID one of"
-	line "the very last"
-	cont "WIZARDs alive"
-	cont "today?"
+	text "Are there other"
+	line "MANCERs aside"
+	cont "from VELID?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "Do you believe"
-	line "that Hell isn't"
-	cont "real?"
+	text "Do I deserve"
+	line "forgiveness for"
+	cont "what I've done?"
 	done
 
 _CinnabarGymQuizCorrectText::
@@ -1149,12 +1150,7 @@ _MonName1Text::
 	text "<USER>@"
 	text_end
 
-_Used1Text::
-	text_start
-	line "used @"
-	text_end
-
-_Used2Text::
+_UsedText::
 	text_start
 	line "used @"
 	text_end
@@ -1168,23 +1164,7 @@ _MoveNameText::
 	text_ram wcd6d
 	text "@"
 
-_ExclamationPoint1Text::
-	text "!"
-	done
-
-_ExclamationPoint2Text::
-	text "!"
-	done
-
-_ExclamationPoint3Text::
-	text "!"
-	done
-
-_ExclamationPoint4Text::
-	text "!"
-	done
-
-_ExclamationPoint5Text::
+_ExclamationPointText::
 	text "!"
 	done
 
@@ -1197,11 +1177,6 @@ _KeptGoingAndCrashedText::
 	text "<USER>"
 	line "kept going and"
 	cont "crashed!"
-	prompt
-
-_UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
 	prompt
 
 _DoesntAffectMonText::
@@ -1783,7 +1758,8 @@ _OakSpeechText2A::
 	cont "creatures called"
 	cont "STAR BEASTS, but"
 	cont "most just call"
-	cont "them #BIEs!@"
+	cont "them #BIEs or"
+	cont "BEASTs!@"
 	text_end
 
 _OakSpeechText2B::

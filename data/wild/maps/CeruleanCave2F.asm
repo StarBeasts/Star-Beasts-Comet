@@ -1,14 +1,14 @@
 CeruleanCave2FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 51,DODRIO
-	db 51,VENOMOTH
-	db 51,KADABRA
-	db 52,CHANSEY
-	db 52,MAROWAK
-	db 52,EXEGGCUTE
-	db 56,JYNX
-	db 54,LAPRAS
-	db 55,VENUSAUR
+	db 60,DODRIO
+	db 60,VENOMOTH
+	db 60,KADABRA
+	db 59,CHANSEY
+	db 59,MAROWAK
+	db 59,EXEGGCUTE
+	db 62,JYNX
+	db 63,LAPRAS
+	db 60,VENUSAUR
 	db 60,DRAGONITE
 	end_grass_wildmons
 

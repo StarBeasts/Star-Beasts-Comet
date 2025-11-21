@@ -19,3 +19,30 @@ _RocketHideout2AfterBattleTxt2::
 	cont "way out of my"
 	cont "depth!"
 	done
+
+_RocketHideout2Text6::
+	text "Be careful."
+
+	para "Because this is"
+	line "their home turf,"
+	cont "the BEASTs here"
+	cont "don't like"
+	cont "sticking to the"
+	cont "grass, so you"
+	cont "could be jumped"
+	cont "at any time."
+
+	para "What's that?"
+
+	para "I'm a PSYCHIC, and"
+	line "we're trying to"
+	cont "stop you?"
+
+	para "..."
+
+	para "Haha."
+
+	para "Well, this can"
+	line "just be a secret"
+	cont "to everybody, yes?"
+	done

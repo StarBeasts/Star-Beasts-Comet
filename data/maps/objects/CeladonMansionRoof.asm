@@ -8,6 +8,8 @@ CeladonMansionRoof_Object:
 	warp_event  3,  7, BLOODSTONE_BAY, 1
 
 	def_bg_events
+	bg_event  4,  2, 7
+	bg_event  14,  2, 7
 
 	def_object_events
 	object_event  9,  1, SPRITE_FISHING_GURU, STAY, LEFT, 1,

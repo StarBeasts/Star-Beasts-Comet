@@ -1,6 +1,9 @@
 _Route20BattleText1::
-	text "The water is"
-	line "shallow here."
+	text "I stick close"
+	line "to the CANAL"
+	cont "entrance so"
+	cont "I can REST if"
+	cont "I get tired."
 	done
 
 _Route20EndBattleText1::
@@ -14,9 +17,8 @@ _Route20AfterBattleText1::
 
 _Route20BattleText2::
 	text "Not a lot of"
-	line "loud people"
-	cont "here. Nice,"
-	cont "isn't it?"
+	line "loud people here."
+	cont "Nice, isn't it?"
 	done
 
 _Route20EndBattleText2::

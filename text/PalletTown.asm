@@ -21,7 +21,7 @@ _OakWalksUpText::
 	line "me!"
 	done
 
-_PalletTownText2::
+_PalletReviveText::
 	text "Oh, <PLAYER>!"
 	line "Are you well?"
 
@@ -29,6 +29,30 @@ _PalletTownText2::
 	line "your dog? I hope"
 	cont "the poor thing is"
 	cont "doing alright..."
+	done
+
+_PalletNuggetText::
+	text "Hi, <PLAYER>!"
+
+	para "What's that?"
+
+	para "You got your"
+	line "dog back?"
+
+	para "Oh, that's"
+	line "wonderful!"
+
+	para "Huh? It became"
+	line "a # BEAST?"
+
+	para "..."
+
+	para "How... nice?"
+
+	para "Well, all that"
+	line "matters is that"
+	cont "it's safe and"
+	cont "you're happy."
 	done
 
 _PalletTownText3::

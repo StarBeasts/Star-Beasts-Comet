@@ -43,7 +43,7 @@ KeyItemFlags:
 	dbit TRUE  ; DOME_FOSSIL
 	dbit TRUE  ; HELIX_FOSSIL
 	dbit TRUE  ; SECRET_KEY
-	dbit TRUE  ; UNUSED_ITEM
+	dbit FALSE  ; UNUSED_ITEM
 	dbit TRUE  ; BIKE_VOUCHER
 	dbit FALSE ; X_ACCURACY
 	dbit FALSE ; STEELY_GENE
@@ -86,4 +86,9 @@ KeyItemFlags:
 	dbit FALSE ; DARK_SOUL
 	dbit FALSE ; HOLY_SOUL
 	dbit FALSE ; TEA
+	dbit FALSE ; EARTH_GEM
+	dbit FALSE  ; MOON_GEM
+	dbit FALSE  ; URANUS_GEM
+	dbit FALSE  ; VENUS_GEM
+	dbit FALSE  ; MARS_GEM
 	end_bit_array NUM_ITEMS

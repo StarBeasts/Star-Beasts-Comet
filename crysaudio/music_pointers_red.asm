@@ -6,11 +6,11 @@ Music:
 	dba Music_Hometown ; loops properly
 	dba Music_Pokedex
 	dba Music_Club3
-	dba Music_SeelStage
+	dba Music_Avenue
 	dba Music_Club2
 	dba Music_BlueField
 	dba Music_Cinnabar
-	dba Music_RedField
+	dba Music_Legrandito
 	dba Music_Lavender
 	dba Music_Obla ; loops semi-properly
 	dba Music_MuseumGuy
@@ -21,7 +21,7 @@ Music:
 	dba Music_RouteNew ; loops properly
 	dba Music_Ishihara
 	dba Music_BattleTowerTheme
-	dba Music_GROverworld
+	dba Music_Dojo
 	dba Music_Fort2
 	dba Music_DuelTheme2
 	dba Music_WildBeast ; loops properly
@@ -30,7 +30,7 @@ Music:
 	dba Music_MatchVictory
 	dba Music_BoosterPack
 	dba Music_EndCredits
-	dba Music_ChallengeHall
+	dba Music_StarBeastTitle
 	dba Music_Chala
 	dba Music_NameEntry
 	dba Music_Cherry ; loops semi-properly
@@ -93,5 +93,11 @@ Music:
 	dba Music_Adventure
 	dba Music_EzioAlt
 	dba Music_HomeDepot
+	dba Music_Frigid
+	dba Music_Techno
+	dba Music_Mion
+	dba Music_PepperSteak
+	dba Music_Jason
+	dba Music_OuttaTouch
 
 

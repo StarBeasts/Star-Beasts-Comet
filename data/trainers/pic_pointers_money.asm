@@ -19,7 +19,7 @@ TrainerPicAndMoneyPointers::
 	pic_money BikerPic,        2000
 	pic_money BurglarPic,      9000
 	pic_money EngineerPic,     5000
-	pic_money RemnantPic,      3500
+	pic_money RemnantPic,       100
 	pic_money FisherPic,       3500
 	pic_money SwimmerPic,       500
 	pic_money CueBallPic,      2500
@@ -32,8 +32,8 @@ TrainerPicAndMoneyPointers::
 	pic_money BirdKeeperPic,   2500
 	pic_money BlackbeltPic,    2500
 	pic_money Rival1Pic,       3500
-	pic_money ProfOakPic,      9999
-	pic_money ChiefPic,        9999
+	pic_money ProfOakPic,      999900
+	pic_money ChiefPic,        999900
 	pic_money ScientistPic,    5000
 	pic_money GiovanniPic,     9900
 	pic_money RocketPic,       3000
@@ -47,13 +47,13 @@ TrainerPicAndMoneyPointers::
 	pic_money KogaPic,         9900
 	pic_money BlainePic,       9900
 	pic_money SabrinaPic,      9900
-	pic_money GentlemanPic,    7000
+	pic_money GentlemanPic,    9000
 	pic_money Rival2Pic,       6500
 	pic_money Rival3Pic,       9999
 	pic_money LoreleiPic,      9999
 	pic_money ChannelerPic,    3000
 	pic_money AgathaPic,       9999
 	pic_money LancePic,        9999
-	pic_money VarikPic,        9999
-	pic_money FarFromTilePic,  9999
+	pic_money VarikPic,        999900
+	pic_money FarFromTilePic,  999900
 	assert_table_length NUM_TRAINERS

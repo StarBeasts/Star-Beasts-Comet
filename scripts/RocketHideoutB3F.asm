@@ -59,7 +59,7 @@ RocketHideout3TrainerHeaders:
 RocketHideout3TrainerHeader0:
 	trainer EVENT_BEAT_ROCKET_HIDEOUT_3_TRAINER_0, 2, RocketHideout3BattleText2, RocketHideout3EndBattleText2, RocketHideout3AfterBattleTxt2
 RocketHideout3TrainerHeader1:
-	trainer EVENT_BEAT_ROCKET_HIDEOUT_3_TRAINER_1, 4, RocketHideout3BattleTxt, RocketHideout3EndBattleText3, RocketHideout3AfterBattleText3
+	trainer EVENT_BEAT_ROCKET_HIDEOUT_3_TRAINER_1, 2, RocketHideout3BattleTxt, RocketHideout3EndBattleText3, RocketHideout3AfterBattleText3
 	db -1 ; end
 
 RocketHideout3Text1:

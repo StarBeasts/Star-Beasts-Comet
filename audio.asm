@@ -563,6 +563,19 @@ INCLUDE "crysaudio/music/new/quartzquarry.asm"
 INCLUDE "crysaudio/music/new/adventure.asm"
 INCLUDE "crysaudio/music/new/ezioalt.asm"
 INCLUDE "crysaudio/music/new/hdepot.asm"
+INCLUDE "crysaudio/music/new/starbeasttitle.asm"
+
+SECTION "New Songs 8", ROMX
+
+INCLUDE "crysaudio/music/new/techno.asm"
+INCLUDE "crysaudio/music/new/frigid.asm"
+INCLUDE "crysaudio/music/new/dojo.asm"
+INCLUDE "crysaudio/music/new/mionloop.asm"
+INCLUDE "crysaudio/music/new/peppersteak.asm"
+INCLUDE "crysaudio/music/new/avenue.asm"
+INCLUDE "crysaudio/music/new/legrandito.asm"
+INCLUDE "crysaudio/music/new/jason.asm"
+INCLUDE "crysaudio/music/new/outtatouch.asm"
 
 SECTION "Sound Effects", ROMX
 

@@ -23,7 +23,7 @@ CinnabarIslandScript0:
 	ret nz
 	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
-	ld a, $8
+	ld a, $9
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	xor a
@@ -53,14 +53,15 @@ CinnabarIsland_TextPointers:
 	dw CinnabarIslandText1
 	dw CinnabarIslandText2
 	dw CinnabarIslandText3
+	dw CinnabarIslandText4
 	dw MartSignText
 	dw PokeCenterSignText
-	dw CinnabarIslandText6
 	dw CinnabarIslandText7
 	dw CinnabarIslandText8
+	dw CinnabarIslandText9
 
-CinnabarIslandText8:
-	text_far _CinnabarIslandText8
+CinnabarIslandText9:
+	text_far _CinnabarIslandText9
 	text_end
 
 CinnabarIslandText1:
@@ -68,17 +69,38 @@ CinnabarIslandText1:
 	text_end
 
 CinnabarIslandText2:
-	text_far _CinnabarIslandText2
+	text_asm
+	CheckEvent EVENT_TALKED_TO_VELID
+	jr nz, .Nugget
+	ld hl, .ReviveText
+	call PrintText
+	jr .done
+.Nugget
+	ld hl, .NuggetText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.ReviveText
+	text_far _CinnabarIslandReviveText
+	text_end
+
+.NuggetText
+	text_far _CinnabarIslandNuggetText
 	text_end
 
 CinnabarIslandText3:
 	text_far _CinnabarIslandText3
 	text_end
 
-CinnabarIslandText6:
-	text_far _CinnabarIslandText6
+CinnabarIslandText4:
+	text_far _CinnabarIslandText4
 	text_end
 
 CinnabarIslandText7:
 	text_far _CinnabarIslandText7
+	text_end
+
+CinnabarIslandText8:
+	text_far _CinnabarIslandText8
 	text_end

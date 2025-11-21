@@ -102,8 +102,10 @@ RobotSprite::		INCBIN "gfx/sprites/robot.2bpp"
 SoldierSprite::		INCBIN "gfx/sprites/soldier.2bpp"
 SheriffSprite::		INCBIN "gfx/sprites/sheriff.2bpp"
 RemnantSprite::		INCBIN "gfx/sprites/remnant.2bpp"
+SubrosianAltSprite:: INCBIN "gfx/sprites/subrosianalt.2bpp"
 DragonSprite::		INCBIN "gfx/sprites/dragon.2bpp"
 ScientistDeadSprite:: INCBIN "gfx/sprites/scientist_dead.2bpp"
+FametasSprite:: INCBIN "gfx/sprites/fametas.2bpp"
 
 SECTION "NPC Sprites 4", ROMX
 
@@ -117,3 +119,4 @@ FrozenRocketSprite:: INCBIN "gfx/sprites/frozen_rocket.2bpp"
 GuitarSprite:: INCBIN "gfx/sprites/guitar.2bpp"
 RuinedSignSprite:: INCBIN "gfx/sprites/ruinedsign.2bpp"
 CoffeeSprite:: INCBIN "gfx/sprites/coffee.2bpp"
+UrnSprite:: INCBIN "gfx/sprites/urn.2bpp"

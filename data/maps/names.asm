@@ -67,7 +67,9 @@ ShadowstoneName:	db "RED GOLD REEF@"
 MacrobiaName:		db "MACROBIA RUINS@"
 SpaceshipName:		db "SPACESHIP@"
 RegentName:          db "<PLAYER>'S REST@"
+ValorOutskirtsName:      db "VALOR BASIN@"
 ValorPeakName:       db "MT. VALOR PEAK@"
+PersonalHellName: 	db "This is my hell.@"
 
 
 

@@ -11,7 +11,7 @@ CeladonMansion5Text1:
 
 CeladonMansion5Text2:
 	text_asm
-	lb bc, PORYGON, 30
+	lb bc, PORYGON, 25
 	call GivePokemon
 	jr nc, .party_full
 	ld a, HS_CELADON_MANSION_EEVEE_GIFT

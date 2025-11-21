@@ -261,7 +261,7 @@ SilphCo7Script5:
 	ld a, HS_SILPH_CO_7F_RIVAL
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	ld a, HS_SEAFOAM_ISLANDS_B2F_BOULDER_1
+	ld a, HS_SEAFOAM_ISLANDS_B2F_ROCKET
 	ld [wMissableObjectIndex], a
 	predef HideObject
 	call PlayDefaultMusic
@@ -289,7 +289,7 @@ SilphCo7F_TextPointers:
 SilphCo7TrainerHeaders:
 	def_trainers 5
 SilphCo7TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_7F_TRAINER_0, 2, SilphCo7BattleText1, SilphCo7EndBattleText1, SilphCo7AfterBattleText1
+	trainer EVENT_BEAT_SILPH_CO_7F_TRAINER_0, 3, SilphCo7BattleText1, SilphCo7EndBattleText1, SilphCo7AfterBattleText1
 SilphCo7TrainerHeader1:
 	trainer EVENT_BEAT_SILPH_CO_7F_TRAINER_1, 3, SilphCo7BattleText2, SilphCo7EndBattleText2, SilphCo7AfterBattleText2
 SilphCo7TrainerHeader2:
@@ -312,7 +312,7 @@ SilphCo7Text1:
 .givelapras
 	ld hl, .MeetLaprasGuyText
 	call PrintText
-	lb bc, LAPRAS, 15
+	lb bc, LAPRAS, 30
 	call GivePokemon
 	jr nc, .done
 	ld a, [wSimulatedJoypadStatesEnd]

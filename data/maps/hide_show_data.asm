@@ -115,7 +115,7 @@ MapHSPointers:
 	dw OwaiHotelHS
 	dw VultMazeHS
 	dw NoHS
-	dw NoHS
+	dw VillaB1FHS
 	dw NoHS
 	dw Villa2FHS
 	dw NoHS
@@ -239,6 +239,10 @@ MapHSPointers:
 	dw SilphCo9FHS
 	dw SilphCo10FHS
 	dw SilphCo11FHS
+	dw NoHS
+	dw NoHS
+	dw NoHS
+	dw NoHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -561,10 +565,7 @@ SeafoamIslandsB1FHS:
 	db SEAFOAM_ISLANDS_B1F, $02, HIDE
 SeafoamIslandsB2FHS:
 	db SEAFOAM_ISLANDS_B2F, $01, SHOW
-	db SEAFOAM_ISLANDS_B2F, $02, SHOW
 SeafoamIslandsB4FHS:
-	db SEAFOAM_ISLANDS_B4F, $01, HIDE
-	db SEAFOAM_ISLANDS_B4F, $02, HIDE
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
 OwaiHotelHS:
 	db OWAI_HOTEL, $02, SHOW
@@ -572,6 +573,8 @@ VultMazeHS:
 	db VULT_MAZE, $01, SHOW
 Route20HS:
 	db ROUTE_20, $0B, SHOW ; hides if set to hide, so it clearly works to SOME extent
+VillaB1FHS:
+	db VILLA_B1F, $03, SHOW ; LUCIAN
 Villa2FHS:
 	db VILLA_2F, $01, SHOW ; mon gift
 SecretGardenHS:
@@ -599,6 +602,7 @@ IndigoPlateauHS:
 	db INDIGO_PLATEAU, $05, SHOW
 	db INDIGO_PLATEAU, $06, SHOW
 RockTunnelB1FHS:
+	db ROCK_TUNNEL_B1F, $04, SHOW
 	db ROCK_TUNNEL_B1F, $09, SHOW
 VictoryRoad3FHS:
 	db VICTORY_ROAD_3F, $01, SHOW

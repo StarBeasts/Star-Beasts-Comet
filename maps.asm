@@ -85,14 +85,11 @@ UndergroundPathRoute8_Blocks: INCBIN "maps/UndergroundPathRoute8.blk"
 
 OaksLab_Blocks: INCBIN "maps/OaksLab.blk"
 
-MrPsychicsHouse_Blocks:
 NameRatersHouse_Blocks:
 MrFujisHouse_Blocks:
 Route16FlyHouse_Blocks:
 SaffronPidgeyHouse_Blocks:
-VermilionPidgeyHouse_Blocks:
 LavenderCuboneHouse_Blocks:
-CeruleanTradeHouse_Blocks:
 PewterNidoranHouse_Blocks: INCBIN "maps/PewterNidoranHouse.blk"
 
 PewterSpeechHouse_Blocks: INCBIN "maps/PewterSpeechHouse.blk"
@@ -100,8 +97,6 @@ ViridianNicknameHouse_Blocks: INCBIN "maps/ViridianNicknameHouse.blk"
 
 CeladonMansionRoofHouse_Blocks:
 ViridianSchoolHouse_Blocks: INCBIN "maps/ViridianSchoolHouse.blk"
-
-CeruleanTrashedHouse_Blocks: INCBIN "maps/CeruleanTrashedHouse.blk"
 
 DiglettsCaveRoute11_Blocks: INCBIN "maps/DiglettsCaveRoute11.blk"
 DiglettsCaveRoute2_Blocks: INCBIN "maps/DiglettsCaveRoute2.blk"
@@ -142,10 +137,12 @@ INCLUDE "data/maps/objects/PewterSpeechHouse.asm"
 INCLUDE "data/maps/headers/CeruleanTrashedHouse.asm"
 INCLUDE "scripts/CeruleanTrashedHouse.asm"
 INCLUDE "data/maps/objects/CeruleanTrashedHouse.asm"
+CeruleanTrashedHouse_Blocks: INCBIN "maps/CeruleanTrashedHouse.blk"
 
 INCLUDE "data/maps/headers/CeruleanTradeHouse.asm"
 INCLUDE "scripts/CeruleanTradeHouse.asm"
 INCLUDE "data/maps/objects/CeruleanTradeHouse.asm"
+CeruleanTradeHouse_Blocks: INCBIN "maps/CeruleanTradeHouse.blk"
 
 INCLUDE "data/maps/headers/BikeShop.asm"
 INCLUDE "scripts/BikeShop.asm"
@@ -167,6 +164,7 @@ INCLUDE "data/maps/objects/NameRatersHouse.asm"
 INCLUDE "data/maps/headers/VermilionPidgeyHouse.asm"
 INCLUDE "scripts/VermilionPidgeyHouse.asm"
 INCLUDE "data/maps/objects/VermilionPidgeyHouse.asm"
+VermilionPidgeyHouse_Blocks: INCBIN "maps/VermilionPidgeyHouse.blk"
 
 INCLUDE "data/maps/headers/VermilionDock.asm"
 INCLUDE "scripts/VermilionDock.asm"
@@ -185,10 +183,6 @@ FuchsiaMart_Blocks: INCBIN "maps/FuchsiaMart.blk"
 INCLUDE "data/maps/headers/SaffronPidgeyHouse.asm"
 INCLUDE "scripts/SaffronPidgeyHouse.asm"
 INCLUDE "data/maps/objects/SaffronPidgeyHouse.asm"
-
-INCLUDE "data/maps/headers/MrPsychicsHouse.asm"
-INCLUDE "scripts/MrPsychicsHouse.asm"
-INCLUDE "data/maps/objects/MrPsychicsHouse.asm"
 
 INCLUDE "data/maps/headers/DiglettsCaveRoute2.asm"
 INCLUDE "scripts/DiglettsCaveRoute2.asm"
@@ -257,9 +251,7 @@ LavenderTown_Blocks: INCBIN "maps/LavenderTown.blk"
 ViridianPokecenter_Blocks: INCBIN "maps/ViridianPokecenter.blk"
 
 SafariZoneCenterRestHouse_Blocks:
-SafariZoneWestRestHouse_Blocks:
-SafariZoneEastRestHouse_Blocks:
-SafariZoneNorthRestHouse_Blocks: INCBIN "maps/SafariZoneCenterRestHouse.blk"
+INCBIN "maps/SafariZoneCenterRestHouse.blk"
 
 INCLUDE "scripts/LavenderTown.asm"
 
@@ -343,18 +335,6 @@ SafariZoneCenter_Blocks: INCBIN "maps/SafariZoneCenter.blk"
 INCLUDE "data/maps/headers/SafariZoneCenterRestHouse.asm"
 INCLUDE "scripts/SafariZoneCenterRestHouse.asm"
 INCLUDE "data/maps/objects/SafariZoneCenterRestHouse.asm"
-
-INCLUDE "data/maps/headers/SafariZoneWestRestHouse.asm"
-INCLUDE "scripts/SafariZoneWestRestHouse.asm"
-INCLUDE "data/maps/objects/SafariZoneWestRestHouse.asm"
-
-INCLUDE "data/maps/headers/SafariZoneEastRestHouse.asm"
-INCLUDE "scripts/SafariZoneEastRestHouse.asm"
-INCLUDE "data/maps/objects/SafariZoneEastRestHouse.asm"
-
-INCLUDE "data/maps/headers/SafariZoneNorthRestHouse.asm"
-INCLUDE "scripts/SafariZoneNorthRestHouse.asm"
-INCLUDE "data/maps/objects/SafariZoneNorthRestHouse.asm"
 
 INCLUDE "data/maps/headers/CeruleanCave2F.asm"
 INCLUDE "scripts/CeruleanCave2F.asm"
@@ -697,7 +677,6 @@ INCLUDE "data/maps/objects/Route21.asm"
 Route21_Blocks: INCBIN "maps/Route21.blk"
 
 VermilionOldRodHouse_Blocks: INCBIN "maps/VermilionOldRodHouse.blk"
-Route12SuperRodHouse_Blocks:
 Daycare_Blocks: INCBIN "maps/Daycare.blk"
 
 FuchsiaGoodRodHouse_Blocks: INCBIN "maps/FuchsiaGoodRodHouse.blk"
@@ -736,6 +715,7 @@ INCLUDE "data/maps/objects/Daycare.asm"
 INCLUDE "data/maps/headers/Route12SuperRodHouse.asm"
 INCLUDE "scripts/Route12SuperRodHouse.asm"
 INCLUDE "data/maps/objects/Route12SuperRodHouse.asm"
+Route12SuperRodHouse_Blocks: INCBIN "maps/Route12SuperRodHouse.blk"
 
 INCLUDE "data/maps/headers/SilphCo8F.asm"
 INCLUDE "scripts/SilphCo8F.asm"
@@ -1103,9 +1083,6 @@ FuchsiaBillsGrandpasHouse_Blocks: INCBIN "maps/FuchsiaBillsGrandpasHouse.blk"
 CinnabarPokecenter_Blocks:
 FuchsiaPokecenter_Blocks: INCBIN "maps/FuchsiaPokecenter.blk"
 
-CeruleanBadgeHouse_Blocks: INCBIN "maps/CeruleanBadgeHouse.blk"
-
-
 SECTION "Maps 20", ROMX
 
 INCLUDE "scripts/CeruleanCity_2.asm"
@@ -1127,7 +1104,7 @@ CeruleanCave1F_Blocks: INCBIN "maps/CeruleanCave1F.blk"
 INCLUDE "data/maps/headers/CeruleanBadgeHouse.asm"
 INCLUDE "scripts/CeruleanBadgeHouse.asm"
 INCLUDE "data/maps/objects/CeruleanBadgeHouse.asm"
-
+CeruleanBadgeHouse_Blocks: INCBIN "maps/CeruleanBadgeHouse.blk"
 
 SECTION "Maps 21", ROMX
 
@@ -1258,11 +1235,6 @@ INCLUDE "scripts/Villa1F.asm"
 INCLUDE "data/maps/objects/Villa1F.asm"
 Villa1F_Blocks: INCBIN "maps/Villa1F.blk"
 
-INCLUDE "data/maps/headers/VillaB1F.asm"
-INCLUDE "scripts/VillaB1F.asm"
-INCLUDE "data/maps/objects/VillaB1F.asm"
-VillaB1F_Blocks: INCBIN "maps/VillaB1F.blk"
-
 INCLUDE "data/maps/headers/Villa2F.asm"
 INCLUDE "scripts/Villa2F.asm"
 INCLUDE "data/maps/objects/Villa2F.asm"
@@ -1272,26 +1244,6 @@ INCLUDE "data/maps/headers/Villa3F.asm"
 INCLUDE "scripts/Villa3F.asm"
 INCLUDE "data/maps/objects/Villa3F.asm"
 Villa3F_Blocks: INCBIN "maps/Villa3F.blk"
-
-INCLUDE "data/maps/headers/Villa4F.asm"
-INCLUDE "scripts/Villa4F.asm"
-INCLUDE "data/maps/objects/Villa4F.asm"
-Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
-
-INCLUDE "data/maps/headers/Villa5F.asm"
-INCLUDE "scripts/Villa5F.asm"
-INCLUDE "data/maps/objects/Villa5F.asm"
-Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
-
-INCLUDE "data/maps/headers/GoldenGate.asm"
-INCLUDE "scripts/GoldenGate.asm"
-INCLUDE "data/maps/objects/GoldenGate.asm"
-GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
-
-INCLUDE "data/maps/headers/BikeGate.asm"
-INCLUDE "scripts/BikeGate.asm"
-INCLUDE "data/maps/objects/BikeGate.asm"
-BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
 
 SECTION "Maps 23", ROMX
 
@@ -1335,8 +1287,71 @@ INCLUDE "scripts/RangerStation.asm"
 INCLUDE "data/maps/objects/RangerStation.asm"
 RangerStation_Blocks: INCBIN "maps/RangerStation.blk"
 
+INCLUDE "data/maps/headers/GoldenGate.asm"
+INCLUDE "scripts/GoldenGate.asm"
+INCLUDE "data/maps/objects/GoldenGate.asm"
+GoldenGate_Blocks: INCBIN "maps/GoldenGate.blk"
 
+INCLUDE "data/maps/headers/BikeGate.asm"
+INCLUDE "scripts/BikeGate.asm"
+INCLUDE "data/maps/objects/BikeGate.asm"
+BikeGate_Blocks: INCBIN "maps/BikeGate.blk"
 
+SECTION "Maps 24", ROMX
 
+INCLUDE "data/maps/headers/Moon.asm"
+INCLUDE "scripts/Moon.asm"
+INCLUDE "data/maps/objects/Moon.asm"
+Moon_Blocks: INCBIN "maps/Moon.blk"
 
+INCLUDE "data/maps/headers/Mercury.asm"
+INCLUDE "scripts/Mercury.asm"
+INCLUDE "data/maps/objects/Mercury.asm"
+Mercury_Blocks: INCBIN "maps/Mercury.blk"
+
+INCLUDE "data/maps/headers/Venus.asm"
+INCLUDE "scripts/Venus.asm"
+INCLUDE "data/maps/objects/Venus.asm"
+Venus_Blocks: INCBIN "maps/Venus.blk"
+
+INCLUDE "data/maps/headers/Mars.asm"
+INCLUDE "scripts/Mars.asm"
+INCLUDE "data/maps/objects/Mars.asm"
+Mars_Blocks: INCBIN "maps/Mars.blk"
+
+INCLUDE "data/maps/headers/SafariZoneNorthRestHouse.asm"
+INCLUDE "scripts/SafariZoneNorthRestHouse.asm"
+INCLUDE "data/maps/objects/SafariZoneNorthRestHouse.asm"
+SafariZoneNorthRestHouse_Blocks: INCBIN "maps/SafariZoneNorthRestHouse.blk"
+
+INCLUDE "data/maps/headers/SafariZoneWestRestHouse.asm"
+INCLUDE "scripts/SafariZoneWestRestHouse.asm"
+INCLUDE "data/maps/objects/SafariZoneWestRestHouse.asm"
+SafariZoneWestRestHouse_Blocks: INCBIN "maps/SafariZoneWestRestHouse.blk"
+
+INCLUDE "data/maps/headers/SafariZoneEastRestHouse.asm"
+INCLUDE "scripts/SafariZoneEastRestHouse.asm"
+INCLUDE "data/maps/objects/SafariZoneEastRestHouse.asm"
+SafariZoneEastRestHouse_Blocks: INCBIN "maps/SafariZoneEastRestHouse.blk"
+
+INCLUDE "data/maps/headers/VillaB1F.asm"
+INCLUDE "scripts/VillaB1F.asm"
+INCLUDE "data/maps/objects/VillaB1F.asm"
+VillaB1F_Blocks: INCBIN "maps/VillaB1F.blk"
+
+INCLUDE "data/maps/headers/Villa4F.asm"
+INCLUDE "scripts/Villa4F.asm"
+INCLUDE "data/maps/objects/Villa4F.asm"
+Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
+
+INCLUDE "data/maps/headers/Villa5F.asm"
+INCLUDE "scripts/Villa5F.asm"
+INCLUDE "data/maps/objects/Villa5F.asm"
+Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
+
+INCLUDE "data/maps/headers/MrPsychicsHouse.asm"
+INCLUDE "scripts/MrPsychicsHouse.asm"
+INCLUDE "data/maps/objects/MrPsychicsHouse.asm"
+MrPsychicsHouse_Blocks: INCBIN "maps/MrPsychicsHouse.blk"
+INCLUDE "scripts/move_deleter.asm"
 

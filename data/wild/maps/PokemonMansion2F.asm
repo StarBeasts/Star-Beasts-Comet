@@ -6,10 +6,10 @@ PokemonMansion2FWildMons:
 	db 30, PONYTA
 	db 30, GRIMER
 	db 32, PONYTA
-	db 30, KOFFING
+	db 30, WEEZING
 	db 28, PONYTA
-	db 39, MUK
-	db 37, WEEZING
+	db 39, RAPIDASH
+	db 37, EXEGGUTOR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

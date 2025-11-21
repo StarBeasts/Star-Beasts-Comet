@@ -352,8 +352,8 @@ _OaksLabText25::
 	line "and <RIVAL>! Take"
 	cont "these with you!"
 
-	para "<PLAYER> got #DEX"
-	line "from CHERRY!@"
+	para "CHERRY gave you"
+	line "#DEX!@"
 	text_end
 
 _OaksLabText26::

@@ -8,7 +8,7 @@ Route12_Object:
 	warp_event 67, 17, ROUTE_12_GATE_2F, 2
 
 	def_bg_events
-	bg_event 65, 15, 11 ; Route12Text11
+	bg_event  7, 15, 11 ; Route12Text11
 	bg_event 17, 13, 12 ; Route12Text12
 
 	def_object_events

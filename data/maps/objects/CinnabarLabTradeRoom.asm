@@ -1,5 +1,5 @@
 CinnabarLabTradeRoom_Object:
-	db $0 ; border block
+	db $00 ; border block
 
 	def_warp_events
 	warp_event  6, 159, LAVENDER_TOWN, 2
@@ -15,7 +15,7 @@ CinnabarLabTradeRoom_Object:
 	object_event  9, 138, SPRITE_SUBROSIAN, STAY, LEFT_RIGHT, 3 ; person
 	object_event  6, 121, SPRITE_SUBROSIAN, STAY, LEFT_RIGHT, 4 ; person
 	object_event  9, 106, SPRITE_SUBROSIAN, STAY, LEFT_RIGHT, 5 ; person
-	object_event  15, 101, SPRITE_NONE, STAY, LEFT_RIGHT, 6 ; person
+	object_event  15, 101, SPRITE_SUBROSIAN, STAY, LEFT_RIGHT, 6 ; person
 	object_event  9, 77, SPRITE_SUBROSIAN, STAY, LEFT_RIGHT, 7 ; person
 	object_event  6, 63, SPRITE_SUBROSIAN, STAY, LEFT_RIGHT, 8 ; person
 	object_event  9, 43, SPRITE_SUBROSIAN, STAY, LEFT_RIGHT, 9 ; person

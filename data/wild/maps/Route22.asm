@@ -4,8 +4,8 @@ Route22WildMons:
 	db 3,EKANS
 	db 4,VOLTORB
 	db 4,NIDORAN_M
-	db 2,VOLTORB
-	db 2,NIDORAN_M
+	db 3,VOLTORB
+	db 3,NIDORAN_M
 	db 3,SPEAROW
 	db 5,SPEAROW
 	db 3,BELLSPROUT

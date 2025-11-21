@@ -1,22 +1,30 @@
 _SilphCoPresidentText::
-	text "PRESIDENT: Thank"
+	text "HELENA: Thank"
 	line "you for saving"
 	cont "GAI CO!"
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "The ROCKETs"
+	line "wanted what we"
+	cont "were working on:"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "A BALL that can"
+	line "catch any #"
+	cont "BEAST, no matter"
+	cont "how strong."
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Now I realize that"
+	line "such a thing may"
+	cont "be dangerous in"
+	cont "the wrong hands."
 
-	para "Here, maybe this"
-	line "will do!"
+	para "As of today, we"
+	line "are formally"
+	cont "discontinuing the"
+	cont "program."
+
+	para "I want you to have"
+	line "this: the only"
+	cont "prototype."
 	prompt
 
 _ReceivedSilphCoMasterBallText::
@@ -27,21 +35,21 @@ _ReceivedSilphCoMasterBallText::
 	text_end
 
 _SilphCo10Text_6231c::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "DR. ROSENTHAL: You"
+	line "can use that once"
+	cont "to catch any"
+	cont "# BEAST"
+	cont "without fail."
 
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	para "I'd reserve it for"
+	line "something truly"
+	cont "powerful."
 
-	para "It will catch any"
-	line "BEAST without"
-	cont "fail!"
-
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "It's the only one"
+	line "of its kind, so"
+	cont "you should be"
+	cont "quiet when it"
+	cont "comes to using it."
 	done
 
 _SilphCoMasterBallNoRoomText::
@@ -50,17 +58,20 @@ _SilphCoMasterBallNoRoomText::
 	done
 
 _SilphCo11Text2::
-	text "SECRETARY: Thank"
+	text "ASSISTANT: Thank"
 	line "you for rescuing"
 	cont "all of us!"
 
-	para "We admire your"
-	line "courage."
+	para "We're forever in"
+	line "your debt."
 	done
 
 _SilphCo11Text3::
-	text "Oh, <PLAYER>."
-	line "It's you."
+	text "Excuse me, Doctor."
+	line "We have an"
+	cont "unwanted guest."
+
+	para "Hello, <PLAYER>."
 
 	para "DR. ROSENTHAL and"
 	line "I are discussing"
@@ -141,10 +152,15 @@ _SilphCo11EndBattleText2::
 	prompt
 
 _SilphCo11AfterBattleText2::
-	text "Hah! Even though"
-	line "you beat me, you"
-	cont "can't get to the"
-	cont "BOSS from here!"
+	text "Hah! You beat me,"
+	line "but I'm just the"
+	cont "backup plan!"
+
+	para "The boss has a"
+	line "bouncer for"
+	cont "people who try"
+	cont "to be heroes"
+	cont "like you!"
 	done
 
 _SilphCo10Text_6237b::

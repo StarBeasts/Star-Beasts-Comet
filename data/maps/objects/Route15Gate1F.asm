@@ -19,5 +19,6 @@ Route15Gate1F_Object:
 	object_event  2,  8, SPRITE_MIDDLE_AGED_WOMAN, STAY, UP, 2 ; person
 	object_event  7, 20, SPRITE_ERIKA, STAY, LEFT, 3 ; person
 	object_event  7, 21, SPRITE_MONSTER, STAY, LEFT, 4 ; person
+	object_event  2, 3, SPRITE_SAFARI_ZONE_WORKER, STAY, DOWN, 5 ; person
 
 	def_warps_to ROUTE_15_GATE_1F

@@ -726,8 +726,8 @@ MrMimeEvosMoves:
 ; Learnset
 	db 15, DISABLE
 	db 22, HYPNOSIS
-	db 28, EXPLOSION
-	db 36, OMINOUS_WIND
+	db 31, EXPLOSION
+	db 37, OMINOUS_WIND
 	db 44, PLAY_ROUGH
 	db 51, HURRICANE
 	db 0
@@ -978,6 +978,7 @@ VenonatEvosMoves:
 ; Learnset
 	db 10, DIZZY_PUNCH
 	db 15, BARRIER
+	db 20, FAIRY_WIND
 	db 25, ICE_PUNCH
 	db 25, THUNDERPUNCH
 	db 25, FIRE_PUNCH
@@ -990,11 +991,7 @@ DragoniteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 31, DARK_PULSE
-	db 35, OUTRAGE
-	db 45, SHADOW_CLAW
-	db 55, FIRE_BLAST
+	db 55, DARK_PULSE
 	db 0
 
 MissingNo43EvosMoves:
@@ -1207,7 +1204,7 @@ DratiniEvosMoves:
 	db 10, THUNDER_WAVE
 	db 20, AGILITY
 	db 30, DRAGONBREATH
-	db 40, DRAGON_CLAW
+	db 40, HURRICANE
 	db 50, OUTRAGE
 	db 0
 
@@ -1220,7 +1217,7 @@ DragonairEvosMoves:
 	db 20, AGILITY
 	db 30, SKY_ATTACK
 	db 35, DRAGONBREATH
-	db 45, DRAGON_CLAW
+	db 45, HURRICANE
 	db 55, OUTRAGE
 	db 0
 
@@ -1559,6 +1556,7 @@ VenomothEvosMoves:
 ; Learnset
 	db 10, DIZZY_PUNCH
 	db 15, SUBSTITUTE
+	db 20, FAIRY_WIND
 	db 25, PSYBEAM
 	db 38, ICE_PUNCH
 	db 38, THUNDERPUNCH
@@ -1612,13 +1610,14 @@ MetapodEvosMoves:
 	db EV_LEVEL, 10, BUTTERFREE
 	db 0
 ; Learnset
-	db 8, HEADBUTT
+	db 7, HARDEN
 	db 0
 
 ButterfreeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, SLAM
 	db 12, METAL_CLAW
 	db 15, BUG_BITE
 	db 16, WING_ATTACK
@@ -1944,8 +1943,8 @@ VenusaurEvosMoves:
 	db 32, THRASH
 	db 36, BRICK_BREAK
 	db 43, WOOD_HAMMER
-	db 47, GROWTH
-	db 50, COUNTER
+	db 47, COUNTER
+	db 50, GROWTH
 	db 55, SLEEP_POWDER
 	db 60, SOLARBEAM
 	db 65, EARTHQUAKE
@@ -1959,7 +1958,7 @@ TentacruelEvosMoves:
 	db 19, SCALD
 	db 22, TOXIC
 	db 26, ACID_ARMOR
-	db 29, RECOVER
+	db 29, SOFTBOILED
 	db 35, SLUDGE_BOMB
 	db 39, HYDRO_PUMP
 	db 0
@@ -2118,8 +2117,8 @@ PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 31, THUNDER_WAVE
-	db 31, AGILITY
+	db 26, AGILITY
+	db 30, THUNDER_WAVE
 	db 35, RECOVER
 	db 45, TRI_ATTACK
 	db 50, SWORDS_DANCE
@@ -2152,7 +2151,7 @@ MagnemiteEvosMoves:
 ; Learnset
 	db 16, SLAM
 	db 21, THUNDER_WAVE
-	db 25, TAKE_DOWN
+	db 25, TRI_ATTACK
 	db 29, HYPNOSIS
 	db 35, THUNDER
 	db 41, SWIFT

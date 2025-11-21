@@ -36,7 +36,7 @@ _Route19AfterBattleText2::
 
 _Route19BattleText3::
 	text "I love swimming!"
-	line "Doesn't everyone?"
+	line "Who doesn't?"
 	done
 
 _Route19EndBattleText3::

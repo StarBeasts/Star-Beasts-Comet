@@ -17,7 +17,7 @@ RocketHideout1Script_44be0:
 	jr nz, .asm_44c01
 	CheckEventReuseA EVENT_BEAT_ROCKET_HIDEOUT_1_TRAINER_4
 	jr nz, .asm_44bf7
-	ld a, $2D
+	ld a, $28
 	jr .asm_44c03
 .asm_44bf7
 	ld a, SFX_GO_INSIDE

@@ -1,12 +1,9 @@
 CeruleanBadgeHouse_Script:
-	ld a, TRUE
-	ld [wAutoTextBoxDrawingControl], a
-	dec a
-	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
-	ret
+	jp EnableAutoTextBoxDrawing
 
 CeruleanBadgeHouse_TextPointers:
 	dw CeruleanHouse2Text1
+	dw CeruleanHouse2Text2
 
 CeruleanHouse2Text1:
 	text_asm
@@ -116,3 +113,55 @@ CeruleanHouse2Text_74eb4:
 CeruleanHouse2Text_74eb9:
 	text_far _CeruleanHouse2Text_74eb9
 	text_end
+
+CeruleanHouse2Text2:
+	text_asm
+	ld a, [wd728]
+	bit 4, a ; got good rod?
+	jr nz, .got_item
+	ld hl, CeruleanHouse2Text_561bd
+	call PrintText
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	jr nz, .refused
+	lb bc, GOOD_ROD, 1
+	call GiveItem
+	jr nc, .bag_full
+	ld hl, wd728
+	set 4, [hl] ; got good rod
+	ld hl, CeruleanHouse2Text_561c2
+	jr .done
+.bag_full
+	ld hl, CeruleanHouse2Text_5621c
+	jr .done
+.refused
+	ld hl, CeruleanHouse2Text_56212
+	jr .done
+.got_item
+	ld hl, CeruleanHouse2Text_56217
+.done
+	call PrintText
+	jp TextScriptEnd
+
+CeruleanHouse2Text_561bd:
+	text_far _CeruleanHouse2Text_561bd
+	text_end
+
+CeruleanHouse2Text_561c2:
+	text_far _CeruleanHouse2Text_561c2
+	sound_get_item_1
+	text_end
+
+CeruleanHouse2Text_56212:
+	text_far _CeruleanHouse2Text_56212
+	text_end
+
+CeruleanHouse2Text_56217:
+	text_far _CeruleanHouse2Text_56217
+	text_end
+
+CeruleanHouse2Text_5621c:
+	text_far _CeruleanHouse2Text_5621c
+	text_end
+

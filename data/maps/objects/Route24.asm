@@ -2,22 +2,31 @@ Route24_Object:
 	db $0F ; border block
 
 	def_warp_events
-	warp_event  2,  9, DIGLETTS_CAVE_ROUTE_11, 5
-	warp_event  3,  9, DIGLETTS_CAVE_ROUTE_11, 5
-	warp_event  14,  9, DIGLETTS_CAVE_ROUTE_11, 6
-	warp_event  15,  9, DIGLETTS_CAVE_ROUTE_11, 6
-	warp_event  26,  9, DIGLETTS_CAVE_ROUTE_11, 7
-	warp_event  27,  9, DIGLETTS_CAVE_ROUTE_11, 7
-	warp_event  38,  9, DIGLETTS_CAVE_ROUTE_11, 8
-	warp_event  39,  9, DIGLETTS_CAVE_ROUTE_11, 8
-	warp_event  50,  9, DIGLETTS_CAVE_ROUTE_11, 9
-	warp_event  51,  9, DIGLETTS_CAVE_ROUTE_11, 9
-	warp_event  62,  9, DIGLETTS_CAVE_ROUTE_11, 10
-	warp_event  63,  9, DIGLETTS_CAVE_ROUTE_11, 10
-	warp_event  74,  9, DIGLETTS_CAVE_ROUTE_11, 11
-	warp_event  75,  9, DIGLETTS_CAVE_ROUTE_11, 11
-	warp_event  86,  9, DIGLETTS_CAVE_ROUTE_11, 12
-	warp_event  87,  9, DIGLETTS_CAVE_ROUTE_11, 12
+	warp_event  2,  9, DIGLETTS_CAVE_ROUTE_11, 6
+	warp_event  3,  9, DIGLETTS_CAVE_ROUTE_11, 6
+	warp_event  2,  8, DIGLETTS_CAVE_ROUTE_11, 6
+	warp_event  14,  9, DIGLETTS_CAVE_ROUTE_11, 8
+	warp_event  15,  9, DIGLETTS_CAVE_ROUTE_11, 8
+	warp_event  14,  8, DIGLETTS_CAVE_ROUTE_11, 8
+	warp_event  26,  9, DIGLETTS_CAVE_ROUTE_11, 10
+	warp_event  27,  9, DIGLETTS_CAVE_ROUTE_11, 10
+	warp_event  26,  8, DIGLETTS_CAVE_ROUTE_11, 10
+	warp_event  38,  9, DIGLETTS_CAVE_ROUTE_11, 12
+	warp_event  39,  9, DIGLETTS_CAVE_ROUTE_11, 12
+	warp_event  38,  8, DIGLETTS_CAVE_ROUTE_11, 12
+	warp_event  50,  9, DIGLETTS_CAVE_ROUTE_11, 14
+	warp_event  51,  9, DIGLETTS_CAVE_ROUTE_11, 14
+	warp_event  50,  8, DIGLETTS_CAVE_ROUTE_11, 14
+	warp_event  62,  9, DIGLETTS_CAVE_ROUTE_11, 16
+	warp_event  63,  9, DIGLETTS_CAVE_ROUTE_11, 16
+	warp_event  62,  8, DIGLETTS_CAVE_ROUTE_11, 16
+	warp_event  74,  9, DIGLETTS_CAVE_ROUTE_11, 18
+	warp_event  75,  9, DIGLETTS_CAVE_ROUTE_11, 18
+	warp_event  74,  8, DIGLETTS_CAVE_ROUTE_11, 18
+	warp_event  86,  9, DIGLETTS_CAVE_ROUTE_11, 20
+	warp_event  87,  9, DIGLETTS_CAVE_ROUTE_11, 20
+	warp_event  86,  8, DIGLETTS_CAVE_ROUTE_11, 20
+
 
 	def_bg_events
 

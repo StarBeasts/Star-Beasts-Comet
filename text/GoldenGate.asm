@@ -51,3 +51,32 @@ _GoldenGateText4::
 	line "day to take care"
 	cont "of them!"
 	done
+
+_GoldenGateHealerImAHealerText::
+	text "I may not look"
+	line "like it, but I'm"
+	cont "a healer."
+
+	para "Here, rest a bit."
+	prompt
+
+_GoldenGateHealerComeBackAnyTimeText::
+	text "Always a pleasure"
+	line "to be of service."
+	done
+
+_GoldenGateText6::
+	text "I hear there's a"
+	line "feller down in"
+	cont "METAL METROPOLIS"
+	cont "that uses his"
+	cont "PSYCHIC powers ta"
+	cont "make # BEASTS"
+	cont "forget moves!"
+
+	para "Why the heck would"
+	line "ya ever wanna do"
+	cont "that kinda thing?"
+	done
+
+

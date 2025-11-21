@@ -18,6 +18,7 @@ Route18_TextPointers:
 	dw Route18Text3
 	dw Route18Text4
 	dw Route18Text5
+	dw Route18Text6
 
 Route18TrainerHeaders:
 	def_trainers
@@ -89,4 +90,8 @@ Route18Text4:
 
 Route18Text5:
 	text_far _Route18Text5
+	text_end
+
+Route18Text6:
+	text_far _Route18Text6
 	text_end

@@ -251,10 +251,11 @@ _CeladonGameCornerText_48ed3::
 	prompt
 
 _CeladonGameCornerText_48ed8::
-	text "Hahaha! Yeah,"
-	line "I bet you can"
-	cont "beat her, no"
-	cont "sweat!"
+	text "Hahaha! She's"
+	line "pretty tough, but"
+	cont "you're pretty"
+	cont "tough too, so I"
+	cont "bet you can win!"
 
 	para "Anyways, I have to"
 	line "keep on trucking!"

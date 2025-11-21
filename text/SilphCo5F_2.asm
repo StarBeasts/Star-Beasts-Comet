@@ -68,10 +68,59 @@ _SilphCo5Text11::
 	done
 
 _SilphCo5Text12::
-	text "I'm GAILON TUSK!"
+	text "GAILON TUSK: Oh!"
+	line "It's you!"
+	
+	para "Whatever your"
+	line "name was!"
+
+	para "Thank you for"
+	line "helping me to"
+	cont "save GAI CO.!"
+
+	para "I've already got"
+	line "people lining up"
+	cont "to hear the story"
+	cont "of how I almost"
+	cont "singlehandedly"
+	cont "saved GAI CO.!"
+
+	para "(With your help,"
+	line " of course.)"
+
+	para "I couldn't have"
+	line "been such a hero"
+	cont "and rescued every"
+	cont "-one without you!"
+
+	para "So, as a reward,"
+	line "take the key to"
+	cont "our experimental"
+	cont "SPACE SHUTTLE!"
+
+	para "It's an incredible"
+	line "machine, one that"
+	cont "wouldn't exist"
+	cont "without me and"
+	cont "my genius!"
+
+	para "Oh, and I guess"
+	line "the genius of"
+	cont "the people who"
+	cont "actually designed"
+	cont "and built it, too."
 	done
 
 _SilphCo5Text13::
-	text "I'm SECRETARY!"
+	text "SECRETARY: ..."
+
+	para "We appreciate what"
+	line "you did for us,"
+	cont "<PLAYER>."
+
+	para "And... MR. TUSK"
+	line "does, too."
+
+	para "In his own way."
 	done
 

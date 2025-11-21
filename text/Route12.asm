@@ -4,14 +4,14 @@ _Route12Text1::
 	done
 
 _Route12Text13::
-	text "SLOBBIX woke up!"
+	text "GOBBLORC woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12Text14::
-	text "SLOBBIX calmed"
+	text "GOBBLORC calmed"
 	line "down! With a big"
 	cont "yawn, it returned"
 	cont "to its swamp!"
@@ -57,7 +57,7 @@ _Route12AfterBattleText2::
 	cont "but I've never"
 	cont "been able to"
 	cont "find one with"
-	cont "with my ROD..."
+	cont "my ROD..."
 
 	para "Maybe I need a"
 	line "better one...?"

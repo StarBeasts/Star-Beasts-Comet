@@ -1,15 +1,15 @@
 Route11WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 14, SANDSHREW
-	db 15, SPEAROW
-	db 12, SANDSHREW
-	db  9, DROWZEE
-	db 13, SPEAROW
-	db 13, DROWZEE
-	db 15, SANDSHREW
-	db 17,KRABBY
-	db 9,DROWZEE
-	db 15,DROWZEE
+	db 22, SANDSHREW
+	db 23, SPEAROW
+	db 25, DIGLETT
+	db 22, DROWZEE
+	db 26, DIGLETT
+	db 25, DROWZEE
+	db 27, SANDSHREW
+	db 23, KRABBY
+	db 26, DROWZEE
+	db 30, DROWZEE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -2,9 +2,10 @@ RocketHideoutB4F_Object:
 	db $03 ; border block
 
 	def_warp_events
-	warp_event 15, 19, ROCKET_HIDEOUT_B3F, 2
+	warp_event  0,  9, ROCKET_HIDEOUT_B1F, 3
 	warp_event  3,  3, VULT_MAZE, 2
-	warp_event 22,  2, ROCKET_HIDEOUT_ELEVATOR, 2
+	warp_event 12, 23, ROCKET_HIDEOUT_B3F, 2
+	warp_event 13, 23, ROCKET_HIDEOUT_B3F, 2
 
 	def_bg_events
 

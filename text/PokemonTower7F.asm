@@ -36,8 +36,14 @@ _PokemonTower7EndBattleText1::
 	prompt
 
 _PokemonTower7AfterBattleText1::
-	text "One day, you'll"
-	line "regret this!"
+	text "First I get stuck"
+	line "in that stupid"
+	cont "uniform, and"
+	cont "now this!"
+
+	para "One day, you'll"
+	line "regret standing"
+	cont "in our way!"
 	done
 
 _PokemonTower7BattleText2::

@@ -23,7 +23,7 @@
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SWIFT, \
 	     SKY_ATTACK,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   \
+	     PSYWAVE,      SUBSTITUTE,   \
 	     CUT,          FLY,    FLASH
 	; end
 

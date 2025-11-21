@@ -1,12 +1,12 @@
 RocketHideoutB4FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 18, ZUBAT
-	db 18, PSYDUCK
-	db 17, PSYDUCK
-	db 16, NIDORAN_M
-	db 15, NIDORAN_M
-	db 16, MEOWTH
-	db 15, MEOWTH
+	db 22, ZUBAT
+	db 22, PSYDUCK
+	db 19, PSYDUCK
+	db 20, NIDORAN_M
+	db 21, MEOWTH
+	db 19, MEOWTH
+	db 18, GEODUDE
 	db 12, ABRA
 	db 11, ABRA
 	db 19, GOLDUCK

@@ -16,7 +16,7 @@ Route2GateText1:
 	text_asm
 	CheckEvent EVENT_GOT_HM05
 	jr nz, .got_item
-	ld a, 50
+	ld a, 40
 	ldh [hOaksAideRequirement], a
 	ld a, HM_FLASH
 	ldh [hOaksAideRewardItem], a

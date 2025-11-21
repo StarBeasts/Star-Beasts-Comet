@@ -21,10 +21,10 @@
 	     THUNDERBOLT,  THUNDER,      \
 	     FISSURE,      PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
-	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
+	     SELFDESTRUCT, SWIFT, \
 	     DREAM_EATER,  REST, \
-	     TRI_ATTACK,   SUBSTITUTE,   \
-	     CUT,          FLY,          STRENGTH,     FLASH
+	     SUBSTITUTE,   \
+	     CUT
 	; end
 
 	db BANK(JigglypuffPicFront)

@@ -5,10 +5,12 @@ _MewtwoBattleText::
 	cont "majestic wings."
 
 	para "In an instant,"
-	line "the entire"
-	cont "cavern is lit"
-	cont "with His divine"
-	cont "energy."
+	line "the glow of the"
+	cont "sun becomes but"
+	cont "a candle compared"
+	cont "to the radiance"
+	cont "of His divine"
+	cont "majesty."
 
 	para "He turns toward"
 	line "you, a sad but"

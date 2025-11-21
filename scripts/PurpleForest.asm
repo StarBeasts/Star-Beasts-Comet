@@ -7,9 +7,27 @@ PurpleForest_TextPointers:
 	dw PurpleForestText2
 	dw PurpleForestText3
 	dw PurpleForestText4
+	dw PurpleForestText5
 
 PurpleForestText1:
-	text_far _PurpleForestText1
+	text_asm
+	CheckEvent EVENT_GOT_CAT
+	jr nz, .Nugget
+	ld hl, .ReviveText
+	call PrintText
+	jr .done
+.Nugget
+	ld hl, .NuggetText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.ReviveText
+	text_far _PurpleForestReviveText
+	text_end
+
+.NuggetText
+	text_far _PurpleForestNuggetText
 	text_end
 
 PurpleForestText2:
@@ -72,6 +90,10 @@ PurpleForestText3:
 
 PurpleForestText4:
 	text_far _PurpleForestText4
+	text_end
+
+PurpleForestText5:
+	text_far _PurpleForestText5
 	text_end
 
 CatText1:

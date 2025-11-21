@@ -23,7 +23,7 @@
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
 	     FIRE_BLAST,   SKULL_BASH,   \
 	     REST, \
-	     ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     ROCK_SLIDE,   SUBSTITUTE,   \
 	     CUT,          SURF,         STRENGTH 
 	; end
 

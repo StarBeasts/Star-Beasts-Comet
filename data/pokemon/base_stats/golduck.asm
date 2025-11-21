@@ -23,7 +23,7 @@
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   \
+	     MOONBLAST, SUBSTITUTE,   \
 	     CUT,          STRENGTH,     FLASH
 	; end
 

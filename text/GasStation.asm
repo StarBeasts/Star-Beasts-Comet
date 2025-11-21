@@ -37,6 +37,11 @@ _GasStationText3::
 	cont "would've been a"
 	cont "disaster!"
 
+	para "DOLOMITE DAM"
+	line "supplies power"
+	cont "to places all"
+	cont "over the region!"
+
 	para "That's why it's"
 	line "up to us, the"
 	cont "POLICE FORCE,"

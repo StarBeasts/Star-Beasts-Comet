@@ -190,7 +190,24 @@ OakWalksUpText:
 	text_end
 
 PalletTownText2: ; girl
-	text_far _PalletTownText2
+	text_asm
+	CheckEvent EVENT_BOUGHT_MAGIKARP
+	jr nz, .Nugget
+	ld hl, .ReviveText
+	call PrintText
+	jr .done
+.Nugget
+	ld hl, .NuggetText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.ReviveText
+	text_far _PalletReviveText
+	text_end
+
+.NuggetText
+	text_far _PalletNuggetText
 	text_end
 
 PalletTownText3: ; fat man

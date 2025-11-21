@@ -1,4 +1,4 @@
-_SSAnne2Text1::
+_SSAnne2ReviveText::
 	text "The ROCKETs took"
 	line "the CAPTAIN as a"
 	cont "hostage!"
@@ -10,6 +10,21 @@ _SSAnne2Text1::
 	cont "looking for here,"
 	cont "but none of them"
 	cont "will listen to me!"
+	done
+
+_SSAnne2NuggetText::
+	text "I just saw the"
+	line "leader of the"
+	cont "ROCKETs storm"
+	cont "out of here, and"
+	cont "he looked pretty"
+	cont "steamed!"
+
+	para "Did you really"
+	line "win against him,"
+	cont "all by yourself?"
+
+	para "You're awesome!"
 	done
 
 _SSAnneRivalBeforeBattleText::

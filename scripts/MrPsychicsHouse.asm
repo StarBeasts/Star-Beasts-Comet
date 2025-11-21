@@ -3,6 +3,8 @@ MrPsychicsHouse_Script:
 
 MrPsychicsHouse_TextPointers:
 	dw SaffronHouse2Text1
+	dw MoveDeleterText1
+	dw SaffronHouse2Text3
 
 SaffronHouse2Text1:
 	text_asm
@@ -43,3 +45,8 @@ TM29ExplanationText:
 TM29NoRoomText:
 	text_far _TM29NoRoomText
 	text_end
+
+SaffronHouse2Text3:
+	text_far _SaffronHouse2Text3
+	text_end
+

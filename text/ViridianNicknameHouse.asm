@@ -98,7 +98,13 @@ _ViridianHouseText_494a3::
 	cont "you, even if they"
 	cont "don't fight."
 
-	para "If you don't need"
-	line "it, you should "
-	cont "store it via PC."
+	para "Unfortunately, I"
+	line "gave away my last"
+	cont "one, so that"
+	cont "RARE CANDY will"
+	cont "have to do."
+
+	; para "If you don't need"
+	; line "it, you should "
+	; cont "store it via PC."
 	done

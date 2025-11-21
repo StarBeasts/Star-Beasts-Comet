@@ -13,12 +13,13 @@ Route18_Object:
 	warp_event 27, 27, ROUTE_11_GATE_1F, 6
 
 	def_bg_events
-	bg_event 17, 27, 4 ; Route18Text4
-	bg_event 17, 37, 5 ; Route18Text5
+	bg_event 17, 27, 5 ; Route18Text5
+	bg_event 17, 37, 6 ; Route18Text6
 
 	def_object_events
 	object_event  7, 19, SPRITE_OFFICER, STAY, ANY_DIR, 1, OPP_BIRD_KEEPER, 8
 	object_event 21, 32, SPRITE_OFFICER, STAY, UP_DOWN, 2, OPP_BIRD_KEEPER, 9
 	object_event 19, 14, SPRITE_OFFICER, STAY, LEFT, 3, OPP_BIRD_KEEPER, 10
+	object_event 11, 24, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 4
 
 	def_warps_to ROUTE_18

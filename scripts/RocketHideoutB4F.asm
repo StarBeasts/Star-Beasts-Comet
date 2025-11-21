@@ -61,6 +61,12 @@ RocketHideout4Script3:
 	ld a, HS_ROCKET_HIDEOUT_B4F_ITEM_4
 	ld [wMissableObjectIndex], a
 	predef ShowObject
+	ld a, HS_ROUTE_10_GUARD_1
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_ROUTE_10_GUARD_2
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	call UpdateSprites
 	call GBFadeInFromBlack
 	xor a

@@ -55,6 +55,8 @@ Route22GateScript2:
 
 Route22Gate_TextPointers:
 	dw Route22GateText1
+	dw Route22GateText2
+	dw Route22GateText3
 
 Route22GateText1:
 	text_asm
@@ -91,3 +93,38 @@ Route22GateText_1e71a:
 	text_far _Route22GateText_1e71a
 	sound_get_item_1
 	text_end
+
+Route22GateText2:
+	text_asm
+	ld hl, Route22Gate_Question
+	call PrintText
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	jr nz, .no
+	ld hl, Route22Gate_Yes
+	call PrintText
+	jr .done
+.no
+	ld hl, Route22Gate_No
+	call PrintText
+.done
+	jp TextScriptEnd
+
+Route22Gate_Question:
+	text_far _Route22Gate_Question
+	text_end
+
+Route22Gate_Yes:
+	text_far _Route22Gate_Yes
+	text_end
+
+Route22Gate_No:
+	text_far _Route22Gate_No
+	text_end
+
+Route22GateText3:
+	text_far _Route22GateText3
+	text_end
+
+

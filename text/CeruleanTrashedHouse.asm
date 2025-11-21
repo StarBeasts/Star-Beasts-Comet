@@ -31,5 +31,24 @@ _CeruleanHouseTrashedText2::
 	done
 
 _CeruleanHouseTrashedText3::
+	text "!"
+	done
+
+_CeruleanHouseTrashedText4::
+	text "My daughter has"
+	line "an obssesion with"
+	cont "knights, DRAGONs,"
+	cont "and other things"
+	cont "like that..."
+
+	para "Part of me hopes"
+	line "she'll grow out"
+	cont "of it one day,"
+	cont "but all I really"
+	cont "want is for her"
+	cont "to be happy."
+	done
+
+_CeruleanHouseTrashedText5::
 	text "Holey moley..."
 	done

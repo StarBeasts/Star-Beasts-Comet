@@ -21,10 +21,10 @@
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
 	     FISSURE,      PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,\
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   \
-	     CUT,          FLY,          STRENGTH,     FLASH
+	     PSYWAVE,      EXPLOSION,   MOONBLAST,    SUBSTITUTE,   \
+	     CUT,          STRENGTH,     FLASH
 	; end
 
 	db BANK(WigglytuffPicFront)

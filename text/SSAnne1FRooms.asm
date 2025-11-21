@@ -73,11 +73,19 @@ _SSAnne8EndBattleText3::
 	prompt
 
 _SSAnne8AfterBattleText3::
-	text "Let me be your"
-	line "friend, OK?"
+	text "Listen, don't"
+	line "take what I"
+	cont "said personally."
 
-	para "Then we can trade"
-	line "# BEASTS!"
+	para "We're just under"
+	line "a whole lot of"
+	cont "pressure, here."
+
+	para "I'm a criminal,"
+	line "but I'm not"
+	cont "usually a guy"
+	cont "who threatens"
+	cont "kids. Honest!"
 	done
 
 _SSAnne8BattleText4::

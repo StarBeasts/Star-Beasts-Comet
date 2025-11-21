@@ -24,3 +24,21 @@ _TM29NoRoomText::
 	text "Where do you plan"
 	line "to put this?"
 	done
+
+_SaffronHouse2Text3::
+	text "It's a cremation"
+	line "urn, with text"
+	cont "inscribed on it"
+	cont "that reads:"
+
+	para "'MOVE RELEARNER'"
+	line "Melvin"
+
+	para "Husband, Father,"
+	line "Friend"
+
+	para "Gone, but always"
+	line "remembered"
+
+	para "..."
+	done

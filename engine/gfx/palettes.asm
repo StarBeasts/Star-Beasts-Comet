@@ -175,6 +175,8 @@ SetPal_Overworld:
 	jp z, .mewMon
 	cp VIRIDIAN_FOREST
 	jp z, .invertColors
+	cp CERULEAN_TRADE_HOUSE
+	jp z, .vermilion
 	cp MT_MOON_POKECENTER
 	jp z, .caveOrBruno
 	cp UNDERGROUND_PATH_ROUTE_5
@@ -197,6 +199,8 @@ SetPal_Overworld:
 	jp z, .mewMon
 	cp DIGLETTS_CAVE_ROUTE_11
 	jp z, .turquoise
+	cp MOLE_HOLE
+	jp z, .invertColors
 	cp CELAGONE_CITY
 	jp z, .grey
 	cp GLITCH_ROOM
@@ -227,20 +231,26 @@ SetPal_Overworld:
 	jp z, .redgold
 	cp SEAFOAM_ISLANDS_B3F
 	jp z, .redgold
-	cp VERMILION_OLD_ROD_HOUSE
-	jp z, .vermilion
+	cp FUCHSIA_GOOD_ROD_HOUSE
+	jp z, .cinnabar
 	cp POKEMON_MANSION_1F
 	jp z, .miserite
 	cp CINNABAR_LAB
 	jp z, .cinnabar
+	cp CINNABAR_LAB_TRADE_ROOM
+	jp z, .glitchrealm
 	cp ROUTE_15_GATE_2F
 	jp z, .black
+	cp VICTORY_ROAD_2F	
+	jp z, .indigo
 	cp ROCKET_HIDEOUT_B1F
 	jp z, .miserite
 	cp ROCKET_HIDEOUT_B2F
 	jp z, .miserite
 	cp ROCKET_HIDEOUT_B3F
 	jp z, .miserite
+	cp ROCKET_HIDEOUT_ELEVATOR
+	jp z, .grey
 	cp SILPH_CO_1F
 	jp z, .redgold
 	cp SECRET_GARDEN
@@ -257,22 +267,33 @@ SetPal_Overworld:
 	jp z, .miserite
 	cp POKEMON_MANSION_B1F
 	jp z, .miserite
+	cp SAFARI_ZONE_WEST_REST_HOUSE	
+	jp z, .caveDefault
 	cp SILPH_CO_11F
 	jp z, .redgold
 	cp CELADON_MART_ELEVATOR
-	jr z, .blueMon
+	jp z, .blueMon
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
 	jr c, .caveOrBruno
 	cp HAND_HOUSE
-	jr z, .mewMon
+	jp z, .mewMon
 	cp RASTA_HOUSE
-	jr z, .brownMon
+	jp z, .brownMon
 	cp LORELEIS_ROOM
-	jr z, .pallet
+	jp z, .pallet
 	cp BRUNOS_ROOM
 	jr z, .caveOrBruno
+	cp MOON
+	jr z, .grey
+	cp MERCURY
+	jr z, .caveDefault
+	cp VENUS
+	jp z, .vermilion
+	cp MARS
+	jr z, .bloodstone
+	
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
 .townOrRoute
@@ -296,16 +317,24 @@ SetPal_Overworld:
 	jr z, .bloodstone
 	cp ROUTE_16_GATE_2F
 	jr z, .mewMon
+	cp VERMILION_OLD_ROD_HOUSE
+	jp z, .vermilion
 	cp DIGLETTS_CAVE
 	jr z, .brownMon
 	cp ANCIENT_CAVE
 	jr z, .grey
 	cp DEVILS_CANYON
 	jr z, .bloodstone
+	cp ROUTE_12_SUPER_ROD_HOUSE	
+	jr z, .bloodstone
 	cp DIGLETTS_CAVE_ROUTE_2
 	jr z, .grey
 	cp CELADON_MANSION_2F
 	jr z, .bloodstone
+	cp SAFARI_ZONE_EAST_REST_HOUSE	
+	jp z, .grey
+	cp SAFARI_ZONE_NORTH_REST_HOUSE	
+	jp z, .bloodstone
 	cp ROCK_TUNNEL_1F
 	jr z, .black
 	cp ROCK_TUNNEL_B1F
@@ -317,7 +346,7 @@ SetPal_Overworld:
 	ld a, PAL_GREYMON - 1
 	jr .town
 .invertColors
-	ld a, PAL_GREENMON - 1
+	ld a, PAL_TOWNMAP_3 - 1
 	jr .town
 .grey
 	ld a, PAL_GREY - 1
@@ -351,21 +380,27 @@ SetPal_Overworld:
 	jr .town
 .peridot
 	ld a, PAL_PERIDOT - 1
-	jr .town
-.redgold
-	ld a, PAL_REDGOLD - 1
-	jr .town
+	jp .town
 .cinnabar
 	ld a, PAL_CINNABAR - 1
-	jr .town
+	jp .town
+.redgold
+	ld a, PAL_REDGOLD - 1
+	jp .town
 .vermilion
 	ld a, PAL_VERMILION - 1
-	jr .town
+	jp .town
 .malachite
 	ld a, PAL_MALACHITE - 1
 	jp .town
 .abyss
 	ld a, PAL_BLACK - 1
+	jp .town
+.indigo
+	ld a, PAL_INDIGO - 1
+	jp .town
+.glitchrealm
+	ld a, PAL_VIRIDWOOD - 1
 	jp .town
 
 ; used when a Pokemon is the only thing on the screen

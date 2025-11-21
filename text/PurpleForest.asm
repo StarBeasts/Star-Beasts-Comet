@@ -1,4 +1,4 @@
-_PurpleForestText1::
+_PurpleForestReviveText::
 	text "They say a BEAST"
 	line "watches over this"
 	cont "FOREST."
@@ -11,6 +11,24 @@ _PurpleForestText1::
 	para "Perhaps, if it"
 	line "were to meet"
 	cont "a worthy soul..."
+	done
+
+_PurpleForestNuggetText::
+	text "How peculiar..."
+
+	para "The legendary"
+	line "guardian of this"
+	cont "FOREST has freely"
+	cont "chosen to be"
+	cont "your partner..."
+
+	para "This is a most"
+	line "unusal affair."
+
+	para "You must be"
+	line "destined for"
+	cont "great things,"
+	cont "young one."
 	done
 
 _PurpleForestText2::
@@ -37,6 +55,19 @@ _PurpleForestText4::
 	cont "type, hmm?"
 	done
 
+_PurpleForestText5::
+	text "I found a QUINCY"
+	line "in the grass!"
+
+	para "But, I went too"
+	line "hard and knocked"
+	cont "it out before I"
+	cont "could catch it!"
+
+	para "So, I won't leave"
+	line "until I find"
+	cont "another one!"
+	done
 
 _CatText1::
 	text "FOREST GUARDIAN"

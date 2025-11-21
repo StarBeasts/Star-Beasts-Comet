@@ -34,73 +34,151 @@ _Route25AfterBattleText1::
 	done
 
 _Route25BattleText2::
-	text "Sayori!"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	text "Hiiiii!"
+
+	para "Welcome to the"
+	line "LITERATURE CLUB!"
+
+	para "Wanna share poems?"
+
+	para "Oh... you want..."
+	line "to battle...?"
+
+	para "Uhh, okay!"
+
+	para "Sure, that"
+	line "sounds like fun!"
 	done
 
 _Route25EndBattleText2::
-	text "Ain't"
-	line "even mad!"
+	text "Ehehe..."
+	line "I'm... not good"
+	cont "at battles..."
+
+	para "Or a lot of"
+	line "things, really..."
 	prompt
 
 _Route25AfterBattleText2::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "I like you!"
+
+	para "Can we be friends?"
+
+	para "What? You're on"
+	line "an adventure?"
+
+	para "Ooooooo!"
+
+	para "Can we be friends"
+	line "after your big"
+	cont "adventure is over?"
 	done
 
 _Route25BattleText3::
-	text "Natsuki"
-	line "the honor of my"
-	cont "fair maiden!"
+	text "Hey, geeky!"
+
+	para "You don't look"
+	line "like someone that"
+	cont "reads manga!"
+
+	para "What? Battle?"
+
+	para "Eeeehhh?!"
+
+	para "Uhh..."
+
+	para "You're on!"
+
+	para "Don't take me"
+	line "lightly just"
+	cont "'cause I'm a girl!"
+
+	para "I'm gonna knock"
+	line "you down!"
 	done
 
 _Route25EndBattleText3::
-	text "Aww,"
-	line "darn..."
+	text "Eyaaaah!"
 	prompt
 
 _Route25AfterBattleText3::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "I'm not into shonen"
+	line "manga or battles."
+
+	para "They're so not"
+	line "my thing. Total"
+	cont "snoozefest."
 	done
 
 _Route25BattleText4::
-	text "Monika"
-	line "are you like"
-	cont "this...?"
+	text "Hi there, <PLAYER>!"
 
-	para "Anyways, how does"
-	line "a battle sound?"
+	para "You're not here"
+	line "for LITERATURE,"
+	cont "right?"
+
+	para "You're here for"
+	line "battles!"
+
+	para "Not my thing,"
+	line "but that IS how"
+	cont "this world works,"
+	cont "so let's do it!"
 	done
 
 _Route25EndBattleText4::
-	text "I was in"
-	line "bad condition!"
+	text "What"
+	line "good are words,"
+	cont "when that jingle"
+	cont "says it all..."
 	prompt
 
 _Route25AfterBattleText4::
-	text "I wish FLINT was"
-	line "as good as you!"
+	text "Okay, everyone!"
+
+	para "Let's all be very"
+	line "nice to <PLAYER>."
+
+	para "They're the"
+	line "protagonist,"
+	cont "after all!"
 	done
 
 _Route25BattleText5::
-	text "Yuri"
-	line "fight you!"
+	text "Umm..."
+
+	para "Do you wish"
+	line "to read or to"
+	cont "fight?"
+
+	para "..."
+
+	para "I see..."
+
+	para "You know, violence"
+	line "can be as much of"
+	cont "a thrill as a"
+	cont "good book..."
 	done
 
 _Route25EndBattleText5::
-	text "I knew"
-	line "I'd lose too!"
+	text "You"
+	line "cut me down"
+	cont "where I stood..."
 	prompt
 
 _Route25AfterBattleText5::
-	text "If your BEAST"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Every time I get"
+	line "into a battle,"
+	cont "my heart can't"
+	cont "stop racing..."
+
+	para "Oh, it's so..."
+
+	para "It's fun, but..."
+
+	para "It's too much"
+	line "for me..."
 	done
 
 _Route25BattleText6::

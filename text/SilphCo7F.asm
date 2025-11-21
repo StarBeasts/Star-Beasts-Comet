@@ -83,9 +83,9 @@ _LaprasGuySavedText::
 	done
 
 _SilphCo7Text_51e00::
-	text "TEAM ROCKET was"
+	text "TEAM ROCKET is"
 	line "after the MASTER"
-	cont "BALL which will"
+	cont "BALL, which will"
 	cont "catch any BEAST!"
 	done
 
@@ -122,69 +122,103 @@ _SilphCo7Text_51e4b::
 	done
 
 _SilphCo7BattleText1::
-	text "Oh ho! I smell a"
-	line "little rat!"
+	text "Little brat!"
+
+	para "Trying to be"
+	line "a hero, eh!?"
+
+	para "Well, here's what"
+	line "I think of your"
+	cont "so-called justice!"
 	done
 
 _SilphCo7EndBattleText1::
-	text "Lights"
-	line "out!"
+	text "Crushed"
+	line "by the wheels"
+	cont "of justice..."
 	prompt
 
 _SilphCo7AfterBattleText1::
 	text "You won't find my"
-	line "BOSS by just"
-	cont "scurrying around!"
+	line "BOSS here!"
+
+	para "We're making this"
+	line "place our new"
+	cont "HQ, but the REAL"
+	cont "prize is over in"
+	cont "RED GOLD REEF!"
 	done
 
 _SilphCo7BattleText2::
-	text "Heheh!"
+	text "A GAI CO. worker?"
+	
+	para "Me?"
 
-	para "You mistook me for"
-	line "a GAI CO. worker?"
+	para "You wish!"
 	done
 
 _SilphCo7EndBattleText2::
 	text "I'm"
-	line "done!"
+	line "cooked!"
 	prompt
 
 _SilphCo7AfterBattleText2::
-	text "Despite your age,"
-	line "you are a skilled"
-	cont "trainer!"
+	text "A good trainer?"
+
+	para "Me?"
+
+	para "I wish..."
 	done
 
 _SilphCo7BattleText3::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Well, lookie what"
+	line "we have here!"
+
+	para "Another idiot who"
+	line "thinks they've"
+	cont "got what it"
+	cont "takes to stop"
+	cont "TEAM ROCKET!"
+
+	para "Here's your"
+	line "reality check!"
 	done
 
 _SilphCo7EndBattleText3::
-	text "Aack!"
-	line "Brothers, I lost!"
+	text "Here's..."
+
+	para "My reality check."
 	prompt
 
 _SilphCo7AfterBattleText3::
 	text "Doesn't matter."
-	line "My brothers will"
-	cont "repay the favor!"
+	line "This place is"
+	cont "only part of"
+	cont "our plan, so all"
+	cont "you've done is"
+	cont "slow us down,"
+	cont "not stop us!"
+
+	para "TEAM ROCKET's still"
+	line "burning bright!"
 	done
 
 _SilphCo7BattleText4::
-	text "A child intruder?"
-	line "That must be you!"
+	text "The hell's a kid"
+	line "doin' here?"
 	done
 
 _SilphCo7EndBattleText4::
-	text "Fine!"
-	line "I lost!"
+	text "Fine! I'm"
+	line "not happy about"
+	cont "it, but I lost!"
 	prompt
 
 _SilphCo7AfterBattleText4::
-	text "Go on home"
-	line "before my BOSS"
-	cont "gets ticked off!"
+	text "Shouldn't you be"
+	line "in school, or"
+	cont "literally any-"
+	cont "where else, kid?"
 	done
 
 _SilphCo7Text_51ebe::

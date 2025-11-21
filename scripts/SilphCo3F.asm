@@ -65,7 +65,7 @@ SilphCo3F_TextPointers:
 SilphCo3TrainerHeaders:
 	def_trainers 2
 SilphCo3TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_3F_TRAINER_0, 3, SilphCo3BattleText1, SilphCo3EndBattleText1, SilphCo3AfterBattleText1
+	trainer EVENT_BEAT_SILPH_CO_3F_TRAINER_0, 5, SilphCo3BattleText1, SilphCo3EndBattleText1, SilphCo3AfterBattleText1
 SilphCo3TrainerHeader1:
 	trainer EVENT_BEAT_SILPH_CO_3F_TRAINER_1, 1, SilphCo3BattleText2, SilphCo3EndBattleText2, SilphCo3AfterBattleText2
 	db -1 ; end

@@ -14,5 +14,7 @@ Route22Gate_Object:
 
 	def_object_events
 	object_event  6,  2, SPRITE_GUARD, STAY, LEFT, 1 ; person
+	object_event 19,  2, SPRITE_SCIENTIST, STAY, DOWN, 2 ; person
+	object_event 21,  3, SPRITE_SILPH_WORKER, STAY, DOWN, 3 ; person
 
 	def_warps_to ROUTE_22_GATE

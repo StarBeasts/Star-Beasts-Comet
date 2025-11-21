@@ -101,12 +101,12 @@ ENDM
 .Overworld2WarpTileIDs:
 	warp_tiles $1B, $58
 
-.SaffronTilesetWarpTileIDs
+.SaffronTilesetWarpTileIDs:
 	warp_tiles $01
 
-.PowerplantWarpTileIDs
+.PowerplantWarpTileIDs:
 	warp_tiles $52, $53, $54
 
-.HillTilesetWarpTileIDs
+.HillTilesetWarpTileIDs:
 	warp_tiles $08, $09, $2A, $2B, $36, $37, $63
 

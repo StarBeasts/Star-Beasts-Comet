@@ -16,14 +16,14 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \
 	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     HYPER_BEAM,   \
 	     PAY_DAY,      COUNTER,      SHADOW_CLAW,         \
-	     SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
 	     DIG,          PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  REST,         THUNDER_WAVE, \
-	     PSYWAVE,      SUBSTITUTE,  SNOWGRAVE,   \
+	     PSYWAVE,      MOONBLAST,   SUBSTITUTE,  SNOWGRAVE,   \
 	     CUT,          SURF,         STRENGTH,     FLASH
 	; end
 

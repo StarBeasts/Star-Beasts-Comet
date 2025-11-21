@@ -15,20 +15,6 @@ Mansion4Script_523cf:
 	ret z
 	CheckEvent EVENT_MANSION_SWITCH_ON
 	jr nz, .asm_523ff
-	ld a, $e
-	ld bc, $80d
-	call Mansion2Script_5202f
-	ld a, $e
-	ld bc, $b06
-	call Mansion2Script_5202f
-	ld a, $5f
-	ld bc, $304
-	call Mansion2Script_5202f
-	ld a, $54
-	ld bc, $808
-	call Mansion2Script_5202f
-	ret
-.asm_523ff
 	ld a, $2d
 	ld bc, $80d
 	call Mansion2Script_5202f
@@ -42,6 +28,20 @@ Mansion4Script_523cf:
 	ld bc, $808
 	call Mansion2Script_5202f
 	ret
+.asm_523ff
+	ld a, $e
+	ld bc, $80d
+	call Mansion2Script_5202f
+	ld a, $e
+	ld bc, $b06
+	call Mansion2Script_5202f
+	ld a, $5f
+	ld bc, $304
+	call Mansion2Script_5202f
+	ld a, $54
+	ld bc, $808
+	call Mansion2Script_5202f
+	ret
 
 Mansion4Script_Switches::
 	ld a, [wSpritePlayerStateData1FacingDirection]
@@ -49,7 +49,7 @@ Mansion4Script_Switches::
 	ret nz
 	xor a
 	ldh [hJoyHeld], a
-	ld a, $9
+	ld a, $0C
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
 
@@ -67,10 +67,10 @@ PokemonMansionB1F_TextPointers:
 	dw PickUpItemText
 	dw Mansion4Text7
 	dw PickUpItemText
-	dw Mansion3Text6
+	dw Mansion4Text9
 	dw Mansion4Text10
 	dw Mansion4Text11
-	dw Mansion4Text12
+	dw Mansion3Text11
 
 Mansion4TrainerHeaders:
 	def_trainers
@@ -120,17 +120,18 @@ Mansion4Text7:
 	text_far _Mansion4Text7
 	text_end
 
+Mansion4Text9:
+	text_far _Mansion4Text9
+	text_end
+
 Mansion4Text10:
 	text_far _Mansion4Text10
 	text_end
 
 Mansion4Text11:
 	text_far _Mansion4Text11
-	text_end
-
-Mansion4Text12:
-	text_far _Mansion4Text12
 	text_asm
+	SetEvent EVENT_TALKED_TO_VELID
 	call GBFadeOutToBlack
 	ld a, HS_VELID
 	ld [wMissableObjectIndex], a

@@ -3,6 +3,9 @@ SafariZoneSecretHouse_Script:
 
 SafariZoneSecretHouse_TextPointers:
 	dw SafariZoneSecretHouseText1
+	dw SafariZoneSecretHouseText2
+	dw SafariZoneSecretHouseText3
+	dw SafariZoneSecretHouseText4
 
 SafariZoneSecretHouseText1:
 	text_asm
@@ -52,3 +55,16 @@ HM03ExplanationText:
 HM03NoRoomText:
 	text_far _HM03NoRoomText
 	text_end
+
+SafariZoneSecretHouseText2:
+	text_far _SafariZoneSecretHouseText2
+	text_end
+
+SafariZoneSecretHouseText3:
+	text_far _SafariZoneSecretHouseText3
+	text_end
+
+SafariZoneSecretHouseText4:
+	text_far _SafariZoneSecretHouseText4
+	text_end
+

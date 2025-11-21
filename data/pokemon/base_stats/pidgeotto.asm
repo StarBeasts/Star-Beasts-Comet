@@ -23,7 +23,7 @@
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     EGG_BOMB,     SWIFT,        SKULL_BASH,   \
 	     SKY_ATTACK,   REST, \
-	     TRI_ATTACK,   SUBSTITUTE,   \
+	     SUBSTITUTE,   \
 	     CUT,          FLY,          STRENGTH
 	; end
 

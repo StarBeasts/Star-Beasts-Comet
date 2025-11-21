@@ -52,7 +52,7 @@ DEF SAFARI_ROCK EQU $16 ; overload
 	const DOME_FOSSIL   ; $29
 	const HELIX_FOSSIL  ; $2A
 	const SECRET_KEY    ; $2B
-	const UNUSED_ITEM   ; $2C "?????"
+	const SOLID_GOLD    ; $2C
 	const BIKE_VOUCHER  ; $2D
 	const X_ACCURACY    ; $2E
 	const STEELY_GENE   ; $2F
@@ -95,24 +95,29 @@ DEF SAFARI_ROCK EQU $16 ; overload
 	const DARK_SOUL     ; $54
 	const HOLY_SOUL     ; $55
 	const TEA		    ; $56
+	const EARTH_GEM	    ; $57
+	const MOON_GEM	    ; $58
+	const URANUS_GEM    ; $59
+	const VENUS_GEM	    ; $5A
+	const MARS_GEM	    ; $5B
 
 DEF NUM_ITEMS EQU const_value - 1
 
 ; elevator floors use item IDs
-	const FLOOR_B2F     ; $57
-	const FLOOR_B1F     ; $58
-	const FLOOR_1F      ; $59
-	const FLOOR_2F      ; $5A
-	const FLOOR_3F      ; $5B
-	const FLOOR_4F      ; $5C
-	const FLOOR_5F      ; $5D
-	const FLOOR_6F      ; $5E
-	const FLOOR_7F      ; $5F
-	const FLOOR_8F      ; $60
-	const FLOOR_9F      ; $61
-	const FLOOR_10F     ; $62
-	const FLOOR_11F     ; $63
-	const FLOOR_B4F     ; $64
+	const FLOOR_B2F     ; $5C
+	const FLOOR_B1F     ; $5D
+	const FLOOR_1F      ; $5E
+	const FLOOR_2F      ; $5F
+	const FLOOR_3F      ; $60
+	const FLOOR_4F      ; $61
+	const FLOOR_5F      ; $62
+	const FLOOR_6F      ; $63
+	const FLOOR_7F      ; $64
+	const FLOOR_8F      ; $65
+	const FLOOR_9F      ; $66
+	const FLOOR_10F     ; $67
+	const FLOOR_11F     ; $68
+	const FLOOR_B4F     ; $69
 DEF NUM_FLOORS EQU const_value - 1 - NUM_ITEMS
 
 	const_next $C4
@@ -209,7 +214,7 @@ DEF TM01 EQU const_value
 	add_tm PSYWAVE      ; $F6
 	add_tm EXPLOSION    ; $F7
 	add_tm ROCK_SLIDE   ; $F8
-	add_tm TRI_ATTACK   ; $F9
+	add_tm MOONBLAST    ; $F9
 	add_tm SUBSTITUTE   ; $FA
 	add_tm SNOWGRAVE   ; $FB
 ASSERT NUM_TMS == const_value - TM01, "NUM_TMS ({d:NUM_TMS}) does not match the number of add_tm definitions"

@@ -166,7 +166,24 @@ SilphCo8AfterBattleText3:
 	text_end
 
 SilphCo8Text6:
-	text_far _SilphCo8Text6
+	text_asm
+	CheckEvent EVENT_BEAT_SILPH_CO_GIOVANNI
+	jr nz, .Nugget
+	ld hl, .ReviveText
+	call PrintText
+	jr .done
+.Nugget
+	ld hl, .NuggetText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.ReviveText
+	text_far _SilphCo8ReviveText
+	text_end
+
+.NuggetText
+	text_far _SilphCo8NuggetText
 	text_end
 
 SilphCo8Text7:

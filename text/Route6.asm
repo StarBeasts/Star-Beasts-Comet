@@ -125,8 +125,8 @@ _Route6Text7::
 	done
 
 _Route6Text8::
-	text "ROUTE 6 -"
-	line "ROUTE 7"
+	text "ROUTE 4 -"
+	line "ROUTE 5"
 	done
 
 _Route6Text9::

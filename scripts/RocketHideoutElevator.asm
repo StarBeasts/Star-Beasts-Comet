@@ -41,12 +41,12 @@ RocketHideoutElevatorScript_45741:
 	ret
 
 RocketHideoutElavatorFloors:
-	db 2 ; #
-	db FLOOR_1F
+	db 5 ; #
 	db FLOOR_2F
-	; db FLOOR_3F (dummied out for now)
-	; db FLOOR_4F
-	; db FLOOR_5F
+	db FLOOR_1F
+	db FLOOR_4F
+	db FLOOR_5F
+	db FLOOR_3F
 	; db FLOOR_6F
 	; db FLOOR_7F
 	; db FLOOR_8F
@@ -58,11 +58,11 @@ RocketHideoutElavatorFloors:
 ; These specify where the player goes after getting out of the elevator.
 RocketHideoutElevatorWarpMaps:
 	; warp number, map id
+	db 0, MOON
 	db 6, ROUTE_22_GATE
-	db 2, SILPH_CO_2F
-	; db 2, SILPH_CO_3F (dummied out for now)
-	; db 2, SILPH_CO_4F
-	; db 2, SILPH_CO_5F
+	db 0, VENUS
+	db 0, MARS
+	db 0, MERCURY
 	; db 2, SILPH_CO_6F
 	; db 2, SILPH_CO_7F
 	; db 2, SILPH_CO_8F
@@ -78,8 +78,45 @@ RocketHideoutElevatorScript_4575f:
 
 RocketHideoutElevator_TextPointers:
 	dw RocketHideoutElevatorText1
+	dw RocketHideoutElevatorHealerText
+	dw SaffronCashierText
+	dw RocketHideoutElevatorText4
 
 RocketHideoutElevatorText1:
+	text_far _RocketHideoutElevatorText1
+	text_end
+
+RocketHideoutElevatorHealerText:
+	text_asm
+	ld hl, .ImAHealerText
+	call PrintText
+	predef HealParty
+	call GBFadeOutToWhite
+	ld a, MUSIC_PKMN_HEALED
+	call PlayMusic
+
+	call WaitForSongToFinish
+
+	call GBFadeInFromWhite
+	ld a, [wMapMusicSoundID]
+	call PlayMusic
+	ld hl, .ComeBackAnyTimeText
+	call PrintText
+	jp TextScriptEnd
+
+.ImAHealerText:
+	text_far _RocketHideoutElevatorHealerImAHealerText
+	text_end
+
+.ComeBackAnyTimeText:
+	text_far _RocketHideoutElevatorHealerComeBackAnyTimeText
+	text_end
+
+RocketHideoutElevatorText3:
+	text_far _RocketHideoutElevatorText3
+	text_end
+
+RocketHideoutElevatorText4:
 	text_asm
 	ld b, LIFT_KEY
 	call IsItemInBag

@@ -3,7 +3,7 @@ Route1_Object:
 
 	def_warp_events
 	warp_event 40,  7, VIRIDIAN_FOREST, 1
-	warp_event 4, 11, VERMILION_OLD_ROD_HOUSE, 2
+	warp_event  4, 11, CERULEAN_TRADE_HOUSE, 6
 	warp_event 40, 8, VIRIDIAN_FOREST, 1
 
 	def_bg_events

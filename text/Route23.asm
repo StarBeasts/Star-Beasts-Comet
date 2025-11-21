@@ -39,3 +39,9 @@ _Route23Text8::
 	text "PLATINUM PATH -"
 	line "# BEAST LEAGUE"
 	done
+
+_Route23Text9::
+	text "GAI CO. SHUTTLE"
+	line "LAUNCH DECK"
+	done
+

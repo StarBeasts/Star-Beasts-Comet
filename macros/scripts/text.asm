@@ -136,11 +136,6 @@ MACRO sound_cry_pidgeot
 	db TX_SOUND_CRY_PIDGEOT
 ENDM
 
-	const TX_SOUND_CRY_DEWGONG ; $16
-MACRO sound_cry_dewgong
-	db TX_SOUND_CRY_DEWGONG
-ENDM
-
 	const TX_FAR ; $17
 MACRO text_far
 	db TX_FAR

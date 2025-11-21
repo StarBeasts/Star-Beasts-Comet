@@ -17,6 +17,7 @@
 	tmhm FALCON_PUNCH, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     COUNTER,      SEISMIC_TOSS, MEGA_DRAIN,   SOLARBEAM,    \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SKULL_BASH,   \
+		 SOFTBOILED,   \
 	     REST, 		   SUBSTITUTE,   CUT, 		   STRENGTH
 	; end
 

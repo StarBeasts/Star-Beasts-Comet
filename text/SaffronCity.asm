@@ -63,8 +63,8 @@ _SaffronCityText11::
 	text "I flew here on my"
 	line "GRYPHERN when I"
 	cont "read about what"
-	cont "was happening with"
-	cont "GAI CO.!"
+	cont "was happening"
+	cont "with GAI CO.!"
 
 	para "It's already over?"
 	line "I missed the"
@@ -152,8 +152,8 @@ _SaffronCityText22::
 	done
 
 _SaffronCityText24::
-	text "MR.PSYCHIC's"
-	line "HOUSE"
+	text "HOUSE OF THE"
+	line "PSYCHIC TWINS"
 	done
 
 _SaffronCityText25::

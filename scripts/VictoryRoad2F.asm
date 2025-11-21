@@ -22,6 +22,9 @@ VictoryRoad2F_TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
+	dw VictoryRoad2Text10
+	dw VictoryRoad2Text11
+
 
 VictoryRoad2TrainerHeaders:
 	def_trainers
@@ -32,7 +35,7 @@ VictoryRoad2TrainerHeader1:
 VictoryRoad2TrainerHeader2:
 	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_2, 3, VictoryRoad2BattleText3, VictoryRoad2EndBattleText3, VictoryRoad2AfterBattleText3
 VictoryRoad2TrainerHeader3:
-	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3, 1, VictoryRoad2BattleText4, VictoryRoad2EndBattleText4, VictoryRoad2AfterBattleText4
+	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3, 3, VictoryRoad2BattleText4, VictoryRoad2EndBattleText4, VictoryRoad2AfterBattleText4
 VictoryRoad2TrainerHeader4:
 	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_4, 3, VictoryRoad2BattleText5, VictoryRoad2EndBattleText5, VictoryRoad2AfterBattleText5
 	db -1 ; end
@@ -125,4 +128,12 @@ VictoryRoad2EndBattleText5:
 
 VictoryRoad2AfterBattleText5:
 	text_far _VictoryRoad2AfterBattleText5
+	text_end
+
+VictoryRoad2Text10:
+	text_far _VictoryRoad2Text10
+	text_end
+
+VictoryRoad2Text11:
+	text_far _VictoryRoad2Text11
 	text_end

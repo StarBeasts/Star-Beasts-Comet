@@ -10,7 +10,7 @@ Route23Script_511e9:
 	bit 6, [hl]
 	res 6, [hl]
 	ret z
-	ResetEvents EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH1, EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH2
+	ResetEvents EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH1
 	ld a, HS_VICTORY_ROAD_2F_BOULDER
 	ld [wMissableObjectIndex], a
 	predef_jump HideObject
@@ -59,7 +59,7 @@ Route23Script0:
 YCoordsData_51255:
 	db 11
 	db 32
-	db 58
+	db 59
 	db 72
 	db 81
 	db 95
@@ -143,6 +143,7 @@ Route23_TextPointers:
 	dw Route23Text6
 	dw Route23Text7
 	dw Route23Text8
+	dw Route23Text9
 
 Route23Text1:
 	text_asm
@@ -237,3 +238,8 @@ VictoryRoadGuardText2:
 Route23Text8:
 	text_far _Route23Text8
 	text_end
+
+Route23Text9:
+	text_far _Route23Text9
+	text_end
+

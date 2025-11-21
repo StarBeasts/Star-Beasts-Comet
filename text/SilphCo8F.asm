@@ -91,7 +91,7 @@ _SilphCo8AfterBattleText3::
 	line "'tour', kid?"
 	done
 
-_SilphCo8Text6::
+_SilphCo8ReviveText::
 	text "Never a dull"
 	line "moment around"
 	cont "here, I swear."
@@ -106,6 +106,44 @@ _SilphCo8Text6::
 	para "Nooooo!!"
 	line "Of course not!"
 	done
+
+_SilphCo8NuggetText::
+	text "You're the kid"
+	line "who booted out"
+	cont "the ROCKETs! Hah!"
+
+	para "Damned shame"
+	line "when a volunteer"
+	cont "child can do what"
+	cont "a whole bunch of"
+	cont "grown-ass adults"
+	cont "can't, but life's"
+	cont "funny like that!"
+
+	para "Anyway, feel free"
+	line "to look around,"
+	cont "but I'd stay out"
+	cont "of the basement"
+	cont "if I were you."
+
+	para "It's filled with"
+	line "these... things,"
+	cont "and water's crept"
+	cont "in over time."
+
+	para "I was curious and"
+	line "went down there,"
+	cont "and I ran for my"
+	cont "life as soon as"
+	cont "one of those"
+	cont "abominations"
+	cont "spotted me."
+
+	para "Some things are"
+	line "just better off"
+	cont "left alone."
+	done
+
 
 _SilphCo8Text7::
 	text "It's a # BALL!"

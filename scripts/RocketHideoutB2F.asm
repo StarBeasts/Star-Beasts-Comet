@@ -57,6 +57,7 @@ RocketHideoutB2F_TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
+	dw RocketHideout2Text6
 
 RocketHideout2TrainerHeaders:
 	def_trainers
@@ -80,4 +81,8 @@ RocketHideout2EndBattleText2:
 
 RocketHideout2AfterBattleTxt2:
 	text_far _RocketHideout2AfterBattleTxt2
+	text_end
+
+RocketHideout2Text6:
+	text_far _RocketHideout2Text6
 	text_end

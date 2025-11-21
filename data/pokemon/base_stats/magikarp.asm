@@ -1,6 +1,6 @@
 	db DEX_MAGIKARP ; pokedex id
 
-	db  20,  60,  60,  80,  20
+	db  20,  60,  40,  80,  20
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type

@@ -282,10 +282,6 @@ CometPunchAnim:
 FalconPunchAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
 	battle_anim THUNDER, SE_SHOOT_MANY_BALLS_UPWARD
-	battle_anim THUNDER, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
-	battle_anim THUNDER, SE_SPIRAL_BALLS_INWARD
-	battle_anim ROCK_SLIDE, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_WAVY_SCREEN
 	battle_anim HYPER_BEAM, SUBANIM_1_FLAME_COLUMN_3, 1, 6
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
@@ -1081,12 +1077,11 @@ KinesisAnim:
 	db -1 ; end
 
 SoftboiledAnim:
-	battle_anim LEECH_SEED, SE_SLIDE_MON_HALF_OFF
-	battle_anim SOFTBOILED, SUBANIM_0_EGG_SHAKING, 0, 8
 	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
+	battle_anim SMOG, SE_WAVY_SCREEN
+	battle_anim WATER_GUN, SE_SPIRAL_BALLS_INWARD
+	battle_anim BITE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 
 HiJumpKickAnim:
@@ -1509,8 +1504,7 @@ MoonblastAnim:
 	battle_anim BARRAGE, SUBANIM_1_SPHERE_BIG, 1, 1
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim RECOVER, SUBANIM_1_SPHERE_BIG_RISE, 1, 2
-	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD
-	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim PSYBEAM, 	SUBANIM_0_BEAM, 0, 3
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_WAVY_SCREEN

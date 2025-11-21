@@ -2,11 +2,11 @@ SafariZoneEastWildMons:
 	def_grass_wildmons 30 ; encounter rate
 	db 25, NIDORAN_M
 	db 26, DODUO
-	db 23, DITTO
+	db 24, DITTO
 	db 24, PERSIAN
 	db 28, NIDORINO
 	db 26, RATICATE
-	db 30, GOLDUCK
+	db 30, EXEGGCUTE
 	db 10, CHARMANDER
 	db 30, JYNX
 	db 26, TAUROS

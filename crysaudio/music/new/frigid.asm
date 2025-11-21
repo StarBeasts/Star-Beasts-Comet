@@ -1,2806 +1,2828 @@
-Music_Placeholder:
+Music_Frigid:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_Frigid_Ch1
+	channel 2, Music_Frigid_Ch2
+	channel 3, Music_Frigid_Ch3
+	channel 4, Music_Frigid_Ch4
 
-Music_Placeholder_Ch1:
+Music_Frigid_Ch1:
 	volume 7, 7
-	note_type 12, 5, 7
+	note_type 12, 12, 7
 	tempo 127
 	octave 1
 	duty_cycle 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	rest 16
-	rest 16
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	rest 16
-	rest 16
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note D_, 1
-	octave 1
-	note E_, 1
-	octave 2
-	note E_, 1
-	note B_, 1
-	note E_, 1
-	note A_, 1
-	note D_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note E_, 1
-	octave 1
-	note B_, 1
-	note A_, 1
-	rest 16
-	volume_envelope 4, 7
-	octave 2
-	note D#, 1
-	note D#, 1
-	note D#, 1
-	volume_envelope 5, 7
-	note D#, 1
-	note D#, 1
-	note D#, 1
-	volume_envelope 6, 7
-	note D#, 1
-	note D#, 1
-	note D#, 1
-	note D#, 1
+.mainloop:
 	volume_envelope 7, 7
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	rest 16
+	rest 16
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	rest 16
+	rest 16
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note D_, 1
+	octave 1
+	note E_, 1
+	octave 2
+	note E_, 1
+	note B_, 1
+	note E_, 1
+	note A_, 1
+	note D_, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note E_, 1
+	octave 1
+	note B_, 1
+	note A_, 1
+	rest 16
+	octave 2
 	note D#, 1
 	note D#, 1
 	note D#, 1
-	volume_envelope 8, 7
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
+	note D#, 1
 	note D#, 1
 	note D#, 1
 	note D#, 1
 	octave 3
 	note E_, 16
-	octave 4
-	sound_ret
+	octave 1
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 14
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch2:
+Music_Frigid_Ch2:
 	note_type 12, 8, 7
+.mainloop:
 	rest 16
 	rest 16
 	rest 16
@@ -4297,17 +4319,6 @@ Music_Placeholder_Ch2:
 	note E_, 1
 	rest 16
 	rest 16
-	rest 16
-	rest 16
-	rest 4
-	volume_envelope 7, 7
-	octave 4
-	note D#, 4
-	note A_, 4
-	octave 5
-	note C_, 16
-	note C_, 3
-	rest 3
 	volume_envelope 8, 7
 	octave 4
 	note B_, 2
@@ -4382,25 +4393,15 @@ Music_Placeholder_Ch2:
 	note F#, 3
 	note G_, 3
 	note F#, 2
-	note E_, 15
-	rest 16
-	rest 5
-	volume_envelope 7, 7
-	octave 4
-	note D#, 4
-	note A_, 4
-	octave 5
-	note C_, 4
-	note D#, 16
-	volume_envelope 8, 7
-	octave 4
-	note G_, 15
+	note E_, 16
 	octave 3
-	sound_ret
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch3:
+Music_Frigid_Ch3:
 	note_type 12, 1, 0
+.mainloop:
 	octave 1
+	volume_envelope 2, 0
 	note E_, 16
 	note E_, 14
 	rest 2
@@ -5490,13 +5491,40 @@ Music_Placeholder_Ch3:
 	rest 2
 	octave 3
 	note E_, 15
-	sound_ret
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 15
+	sound_loop 0, .mainloop
 
-Music_Placeholder_Ch4:
+Music_Frigid_Ch4:
 	toggle_noise 1
 	drum_speed 12
+.mainloop:
 	rest 16
 	rest 14
+	toggle_noise
+	toggle_noise 6
 	drum_note 5, 1
 	drum_note 5, 1
 	drum_note 5, 14
@@ -5681,4 +5709,28 @@ Music_Placeholder_Ch4:
 	drum_note 12, 8
 	drum_note 12, 8
 	drum_note 5, 4
-	sound_ret
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 10
+	sound_loop 0, .mainloop

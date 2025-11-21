@@ -196,9 +196,12 @@ _SaffronGymEndBattleText4::
 	prompt
 
 _SaffronGymAfterBattleText4::
-	text "Guess nobody's"
-	line "gonna come and"
-	cont "help us..."
+	text "Guess those warp"
+	line "panels were"
+	cont "discontinued for"
+	cont "a reason, huh?"
+
+	para "Damn it..."
 	done
 
 _SaffronGymBattleText5::

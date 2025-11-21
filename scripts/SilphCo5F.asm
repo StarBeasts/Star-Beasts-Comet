@@ -94,7 +94,7 @@ SilphCo5TrainerHeader1:
 SilphCo5TrainerHeader2:
 	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_2, 4, SilphCo5BattleText4, SilphCo5EndBattleText4, SilphCo5AfterBattleText4
 SilphCo5TrainerHeader3:
-	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_3, 3, SilphCo5BattleText5, SilphCo5EndBattleText5, SilphCo5AfterBattleText5
+	trainer EVENT_BEAT_SILPH_CO_5F_TRAINER_3, 2, SilphCo5BattleText5, SilphCo5EndBattleText5, SilphCo5AfterBattleText5
 	db -1 ; end
 
 SilphCo5Text1:
