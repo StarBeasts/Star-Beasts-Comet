@@ -3,9 +3,9 @@ MonPartyData:
 	nybble ICON_GRASS     ; Bulbasaur
 	nybble ICON_GRASS     ; Ivysaur
 	nybble ICON_GRASS     ; Venusaur
-	nybble ICON_FAIRY     ; Charmander
-	nybble ICON_FAIRY     ; Charmeleon
-	nybble ICON_FAIRY     ; Charizard
+	nybble ICON_FIRE      ; Charmander
+	nybble ICON_FIRE      ; Charmeleon
+	nybble ICON_FIRE      ; Charizard
 	nybble ICON_WATER     ; Squirtle
 	nybble ICON_WATER     ; Wartortle
 	nybble ICON_WATER     ; Blastoise
@@ -15,10 +15,10 @@ MonPartyData:
 	nybble ICON_BUG       ; Weedle
 	nybble ICON_BUG       ; Kakuna
 	nybble ICON_BUG       ; Beedrill
-	nybble ICON_BIRD      ; Pidgey
-	nybble ICON_BIRD      ; Pidgeotto
-	nybble ICON_DRAGON    ; Pidgeot
-	nybble ICON_BIRD      ; Rattata
+	nybble ICON_FAIRY     ; Pidgey
+	nybble ICON_FAIRY     ; Pidgeotto
+	nybble ICON_FAIRY     ; Pidgeot
+	nybble ICON_FAIRY     ; Rattata
 	nybble ICON_MON       ; Raticate
 	nybble ICON_FAIRY     ; Spearow
 	nybble ICON_FAIRY     ; Fearow
