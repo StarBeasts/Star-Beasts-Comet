@@ -45,25 +45,25 @@ Cemetery_Coll::
 	coll_tiles $01, $10, $13, $1b, $22, $42, $52
 
 Interior_Coll::
-	coll_tiles $04, $0f, $15, $1f, $3b, $45, $47, $55, $56
+	coll_tiles $04, $0f, $15, $1f, $3b, $45, $66, $6a
 
 Cavern_Coll::
 	coll_tiles $05, $15, $18, $19, $1a, $20, $21, $22, $2a, $2d, $30, $44, $45, $4d, $4e, $54, $55, $5d, $5e
 
 Lobby_Coll::
-	coll_tiles $14, $17, $1a, $1c, $20, $38, $45
+	coll_tiles $17, $1a, $1c, $20, $38, $45, $68, $69, $6e, $73
 
 Mansion_Coll::
 	coll_tiles $01, $04, $05, $11, $12, $14, $1a, $1c, $2c, $53, $6b, $6c, $6d, $6e, $6f
 
 Lab_Coll::
-	coll_tiles $0c, $26, $16, $1e, $34, $37
+	coll_tiles $01, $0c, $16, $1e, $34, $66, $67
 
 Club_Coll::
 	coll_tiles $0f, $1f, $26, $28, $29, $2c, $2d, $41, $54, $55
 
 Facility_Coll::
-	coll_tiles $01, $10, $11, $13, $1b, $20, $21, $22, $30, $31, $32, $42, $43, $48, $52, $55, $58, $5e
+	coll_tiles $01, $10, $11, $13, $1b, $20, $21, $22, $30, $31, $32, $48, $55, $63, $6a, $6c, $70, $72
 
 Plateau_Coll::
 	coll_tiles $1b, $23, $2c, $2d, $3b, $45, $46, $48, $4a, $4b, $54, $55, $56

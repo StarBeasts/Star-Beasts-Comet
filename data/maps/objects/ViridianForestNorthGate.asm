@@ -15,7 +15,7 @@ ViridianForestNorthGate_Object:
 
 	def_bg_events
 	bg_event  16,  21, 6 ; Text6
-	bg_event  16,  4, 7 ; Text7
+	bg_event 16,  5, 7 ; Text7
 	bg_event  13,  4, 8 ; Text8
 	bg_event  5,  20, 9 ; Text9
 	bg_event  9,  20, 10 ; Text10
