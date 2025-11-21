@@ -133,4 +133,6 @@ SpriteSheetPointerTable:
 	overworld_sprite QuadrupedIcon, 4
 	overworld_sprite DragonIcon, 4
 	overworld_sprite MonsterIcon, 4
+	overworld_sprite SnakeIcon, 4
+
 	assert_table_length NUM_SPRITES
