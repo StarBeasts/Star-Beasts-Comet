@@ -201,5 +201,12 @@ _ViridianForestText17::
 	text "OLIVINE ORCHARD"
 	line "REST STOP"
 
-	para "COBALT CAVE AHEAD"
+	para "TAKE CARE BEFORE"
+	line "HEADING INTO"
+	cont "COBALT CAVE"
 	done
+
+_ViridianForestText18::
+	text "COBALT CAVE AHEAD"
+	done
+

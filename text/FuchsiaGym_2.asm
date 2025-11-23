@@ -173,7 +173,7 @@ _FuchsiaGymGuidePreBattleText::
 
 	para "I hate this place!"
 
-	para "FUCHSIA GYM is"
+	para "RHINESTONE GYM is"
 	line "a rather grave"
 	cont "maze!"
 

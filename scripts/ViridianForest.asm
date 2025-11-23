@@ -30,6 +30,7 @@ ViridianForest_TextPointers:
 	dw ViridianForestText15
 	dw ViridianForestText16
 	dw ViridianForestText17
+	dw ViridianForestText18
 
 ViridianForestTrainerHeaders:
 	def_trainers 2
@@ -169,4 +170,8 @@ ViridianForestText16:
 
 ViridianForestText17:
 	text_far _ViridianForestText17
+	text_end
+
+ViridianForestText18:
+	text_far _ViridianForestText18
 	text_end

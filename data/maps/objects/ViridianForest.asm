@@ -15,6 +15,7 @@ ViridianForest_Object:
 	bg_event 42, 12, 15 ; ViridianForestText12
 	bg_event 10, 12, 16 ; ViridianForestText13
 	bg_event 26,  5, 17 ; ViridianForestText14
+	bg_event 24,  10, 18 ; ViridianForestText14
 
 	def_object_events
 	object_event 19, 26, SPRITE_YOUNGSTER, STAY, NONE, 1 ; person
