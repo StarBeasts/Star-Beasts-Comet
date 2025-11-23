@@ -13,7 +13,7 @@ Route2_Object:
 	bg_event  5,  5, 5 ; Route2Text4
 
 	def_object_events
-	object_event 4, 19, SPRITE_POKE_BALL, STAY, NONE, 1, NUGGET
+	object_event  4, 19, SPRITE_POKE_BALL, STAY, NONE, 1, TM_SHADOW_CLAW
 	object_event  4,  4, SPRITE_POKE_BALL, STAY, NONE, 2, PARLYZ_HEAL
 	object_event  6,  10, SPRITE_YOUNGSTER, STAY, LEFT, 3
 ; grass guy

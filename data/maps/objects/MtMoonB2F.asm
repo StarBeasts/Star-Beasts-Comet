@@ -23,6 +23,6 @@ MtMoonB2F_Object:
 	object_event 18, 16, SPRITE_SOUL, STAY, NONE, 6 ; person
 	object_event 19, 16, SPRITE_SOUL, STAY, NONE, 7 ; person
 	object_event 31, 31, SPRITE_POKE_BALL, STAY, NONE, 8, TM_WATER_GUN
-	object_event 38, 23, SPRITE_POKE_BALL, STAY, NONE, 9, TM_SHADOW_CLAW
+	object_event 38, 23, SPRITE_POKE_BALL, STAY, NONE, 9, NUGGET
 
 	def_warps_to MT_MOON_B2F

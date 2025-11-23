@@ -109,6 +109,11 @@ _BillsHouseText_1e8cb::
 	line "could go and see"
 	cont "what's going on?"
 
+	para "You can detour"
+	line "through CRACTURE"
+	cont "CHASM to get"
+	cont "there fast."
+
 	para "Thanks a million,"
 	line "kid."
 	done
