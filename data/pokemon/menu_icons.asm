@@ -154,4 +154,5 @@ MonPartyData:
 	nybble ICON_BUG ; Sarpal
 	nybble ICON_BUG ; Helpme
 	nybble ICON_BUG ; Please
+	nybble ICON_GHOST     ; Hoverpop
 	end_nybble_array NUM_POKEMON

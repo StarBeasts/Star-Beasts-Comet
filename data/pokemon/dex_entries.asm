@@ -51,7 +51,7 @@ PokedexEntryPointers:
 	dw GolemDexEntry
 	dw PleaseDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw HoverpopDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
@@ -552,6 +552,14 @@ MagmarDexEntry:
 	dw 3920
 	text_far _MagmarDexEntry
 	text_end
+
+HoverpopDexEntry:
+	db "DEFLATED@"
+	db 3,3
+	dw 100
+	text_far _HoverpopDexEntry
+	text_end
+
 
 ElectabuzzDexEntry:
 	db "SENTRY@"

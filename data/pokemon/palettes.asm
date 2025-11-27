@@ -155,4 +155,5 @@ MonsterPalettes:
 	db PAL_PURPLEANDRED    ; SARPAL
 	db PAL_PURPLEANDRED    ; HELPME
 	db PAL_PURPLEANDRED    ; PLEASE
+	db PAL_GREY    ; HOVERPOP
 	assert_table_length NUM_POKEMON + 1

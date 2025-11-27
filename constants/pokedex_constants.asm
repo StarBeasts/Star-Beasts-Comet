@@ -158,5 +158,6 @@
 	const DEX_SARPAL     ; 152
 	const DEX_HELPME	; 153
 	const DEX_PLEASE	; 154
+	const DEX_HOVERPOP; 155
 
 DEF NUM_POKEMON EQU const_value - 1

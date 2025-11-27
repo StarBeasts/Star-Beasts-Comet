@@ -154,4 +154,5 @@ INCLUDE "data/pokemon/base_stats/mew.asm"
 INCLUDE "data/pokemon/base_stats/sarpal.asm"
 INCLUDE "data/pokemon/base_stats/helpme.asm"
 INCLUDE "data/pokemon/base_stats/please.asm"
+INCLUDE "data/pokemon/base_stats/hoverpop.asm"
 	assert_table_length NUM_POKEMON

@@ -2086,7 +2086,7 @@ wRoute16Gate1FCurScript:: db
 wBillsHouseCurScript:: db
 wRoute5GateCurScript:: db
 wPowerPlantCurScript:: ; overload
-wRoute7GateCurScript:: db ; currently unused
+wVermilionOldRodHouseCurScript:: db ; hoverpop
 	ds 1
 wSSAnne2FCurScript:: db
 wCinnabarLabTradeRoomCurScript:: db

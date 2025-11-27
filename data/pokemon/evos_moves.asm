@@ -54,7 +54,7 @@ EvosMovesPointerTable:
 	dw GolemEvosMoves
 	dw PleaseEvosMoves
 	dw MagmarEvosMoves
-	dw MissingNo34EvosMoves
+	dw HoverpopEvosMoves
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw KoffingEvosMoves
@@ -570,7 +570,7 @@ TangelaEvosMoves:
 	db EV_LEVEL, 38, KANGASKHAN
 	db 0
 ; Learnset
-	db 14, THUNDERSHOCK
+	db 12, THUNDERSHOCK
 	db 20, TAKE_DOWN
 	db 28, THUNDER_WAVE
 	db 30, SELFDESTRUCT
@@ -846,10 +846,16 @@ MagmarEvosMoves:
 	db 55, EXPLOSION
 	db 0
 
-MissingNo34EvosMoves:
+HoverpopEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 36, GLARE
+	db 41, ICE_PUNCH
+	db 41, FIRE_PUNCH
+	db 47, FIRE_BLAST
+	db 52, BLIZZARD
+	db 55, EXPLOSION
 	db 0
 
 ElectabuzzEvosMoves:

@@ -495,8 +495,6 @@ _PleaseDexEntry::
 	page "AAAAAAAAAAAAAAAAAAAA"
 	next "AAAAAAAAAAAAAAAAAAAA"
 	next "AAAAAAAAAAAAAAAAAAAA"
-
-	page ""
 	dex
 
 _MagmarDexEntry::
@@ -507,6 +505,16 @@ _MagmarDexEntry::
 	page "thing keeping its"
 	next "impossibly hot"
 	next "flames at bay"
+	dex
+
+_HoverpopDexEntry::
+	text "my body hurts..."
+	next "<PLAYER>..."
+	next "it hurts so much"
+
+	page "you being here is"
+	next "the only reason I"
+	next "can stand it"
 	dex
 
 _ElectabuzzDexEntry::

@@ -8,6 +8,6 @@ VermilionOldRodHouse_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  4,  3, SPRITE_FAMETAS, STAY, DOWN, 1 ; person
+	object_event  4, 3, SPRITE_GHOST, STAY, DOWN, 1, HOVERPOP, 45 | OW_POKEMON
 
 	def_warps_to VERMILION_OLD_ROD_HOUSE
