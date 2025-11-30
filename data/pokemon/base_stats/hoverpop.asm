@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/hoverpop.pic", 0, 1 ; sprite dimensions
 	dw HoverpopPicFront, HoverpopPicBack
 
-	db ACID, BARRAGE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCREECH, HYPER_VOICE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

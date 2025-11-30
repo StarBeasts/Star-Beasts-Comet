@@ -11,12 +11,16 @@ _VenusText1::
 	line "AHEAD IS THE"
 	cont "SEA OF MISERY."
 
-	para "NOTHING OF"
-	line "YOUR WORLD CAN"
-	cont "SURVIVE IN THOSE"
-	cont "HORRIBLE TOXIC"
-	cont "WATERS, INCLUDING"
-	cont "YOURSELF"
+	para "I WOULDN'T GO IN"
+	line "THERE, WERE I TO"
+	cont "BE YOU"
+
+	para "THERE IS NAUGHT"
+	line "BUT A STRANGE, SAD"
+	cont "CREATURE IN THERE,"
+	cont "WAILING AND HOWLING"
+	cont "INCOHERENTLY, FOR A"
+	cont "REASON I DO NOT KNOW"
 
 	para "I IMPLORE YOU TO"
 	line "PLEASE GO HOME"

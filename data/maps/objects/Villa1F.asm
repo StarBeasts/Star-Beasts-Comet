@@ -11,9 +11,9 @@ Villa1F_Object:
 	warp_event 19,  1, ROUTE_9, 1
 
 	def_bg_events
-	bg_event  6,  1, 9 ; Villa1FText8
-	bg_event  2,  1, 10 ; Villa1FText9
-	bg_event  20,  1, 11 ; Villa1FText10
+	bg_event  6,  1, 10 ; Villa1FText8
+	bg_event  2,  1, 11 ; Villa1FText9
+	bg_event  20,  1, 12 ; Villa1FText10
 
 	def_object_events
 	object_event  2,  3, SPRITE_CLERK, STAY, RIGHT, 1 ; person
@@ -24,5 +24,6 @@ Villa1F_Object:
 	object_event  1,  7, SPRITE_FAIRY, STAY, DOWN, 4 ; person
 	object_event  3,  7, SPRITE_LAWNCRETE, STAY, DOWN, 4 ; person
 	object_event  18, 2, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 8 ; person
+	object_event  5, 2, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 9 ; person
 
 	def_warps_to VILLA_1F

@@ -156,10 +156,10 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,     1102,  323 ; DRAGONITE - Done
 	mon_cry CRY_AMPHAROS,       4298,  466 ; MEWTWO - Done
 	mon_cry CRY_GROWLITHE,     116,  168 ; MEW - Done
-	mon_cry CRY_CYNDAQUIL,   839,  128 ; CHIKORITA
-	mon_cry CRY_CYNDAQUIL,   801,  288 ; BAYLEEF
-	mon_cry CRY_TYPHLOSION, 3840,  212 ; MEGANIUM
-	mon_cry CRY_CYNDAQUIL,   839,  128 ; CYNDAQUIL
+	mon_cry CRY_CYNDAQUIL,   839,  128 ; CHIKORITA - Hurry
+	mon_cry CRY_CYNDAQUIL,   801,  288 ; BAYLEEF - Helpme
+	mon_cry CRY_TYPHLOSION, 3840,  212 ; MEGANIUM - Please
+	mon_cry CRY_PIDGEY,      104,  224 ; Hoverpop
 	mon_cry CRY_CYNDAQUIL,   801,  288 ; QUILAVA
 	mon_cry CRY_TYPHLOSION, 3840,  212 ; TYPHLOSION
 	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE

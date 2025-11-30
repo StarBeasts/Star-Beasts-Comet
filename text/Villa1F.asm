@@ -29,12 +29,12 @@ _Villa1FHealerComeBackAnyTimeText::
 	line "there."
 	done
 
-_Villa1FText9::
+_Villa1FText10::
 	text "ELITE FOUR TM"
 	line "MARKET"
 	done
 
-_Villa1FText10::
+_Villa1FText11::
 	text "WALKING THROUGH"
 	line "WALLS"
 
@@ -45,7 +45,7 @@ _Villa1FText10::
 	line "ON 010138CD TODAY!"
 	done
 
-_Villa1FText11::
+_Villa1FText12::
 	text "X ISLE AHEAD"
 
 	para "THE ISLAND UPON"

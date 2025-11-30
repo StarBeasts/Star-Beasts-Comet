@@ -10,9 +10,10 @@ Villa1F_TextPointers:
 	dw Villa1FText6
 	dw Villa1FText7
 	dw Villa1FHealerText
-	dw Villa1FText9
+	dw Villa1FHealerText
 	dw Villa1FText10
 	dw Villa1FText11
+	dw Villa1FText12
 
 Villa1FText3:
 	text_far _Villa1FText3
@@ -51,14 +52,14 @@ Villa1FHealerText:
 	text_far _Villa1FHealerComeBackAnyTimeText
 	text_end
 
-Villa1FText9:
-	text_far _Villa1FText9
-	text_end
-
 Villa1FText10:
 	text_far _Villa1FText10
 	text_end
 
 Villa1FText11:
 	text_far _Villa1FText11
+	text_end
+
+Villa1FText12:
+	text_far _Villa1FText12
 	text_end
