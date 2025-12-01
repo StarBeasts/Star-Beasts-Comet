@@ -850,12 +850,13 @@ HoverpopEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 36, GLARE
-	db 41, ICE_PUNCH
-	db 41, FIRE_PUNCH
-	db 47, FIRE_BLAST
-	db 52, BLIZZARD
-	db 55, EXPLOSION
+	db 46, SING
+	db 46, OMINOUS_WIND
+	db 46, RECOVER
+	db 46, PLAY_ROUGH
+	db 52, LOVELY_KISS
+	db 58, SOUL_SHRED
+	db 66, SNOWGRAVE
 	db 0
 
 ElectabuzzEvosMoves:

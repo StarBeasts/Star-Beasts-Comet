@@ -159,7 +159,7 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   839,  128 ; CHIKORITA - Hurry
 	mon_cry CRY_CYNDAQUIL,   801,  288 ; BAYLEEF - Helpme
 	mon_cry CRY_TYPHLOSION, 3840,  212 ; MEGANIUM - Please
-	mon_cry CRY_PIDGEY,      104,  224 ; Hoverpop
+	mon_cry CRY_PIDGEY,      76,  288 ; Hoverpop
 	mon_cry CRY_CYNDAQUIL,   801,  288 ; QUILAVA
 	mon_cry CRY_TYPHLOSION, 3840,  212 ; TYPHLOSION
 	mon_cry CRY_TOTODILE,   1132,  232 ; TOTODILE

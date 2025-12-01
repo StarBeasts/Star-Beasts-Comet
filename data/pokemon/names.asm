@@ -51,7 +51,7 @@ MonsterNames::
 	db "ROCKOWT@@@"
 	db "PLEASE!@@@"
 	db "HELLBRAND@"
-	db "HOVERPOP@@"
+	db "OVERPUFFED"
 	db "WESPE@@@@@"
 	db "THREEMIND@"
 	db "AGAHNON@@@"

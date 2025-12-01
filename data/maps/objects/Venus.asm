@@ -13,6 +13,6 @@ Venus_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 37, 10, SPRITE_SUBROSIAN_ALT, STAY, DOWN, 1
+	object_event 36, 10, SPRITE_SUBROSIAN_ALT, STAY, DOWN, 1
 
 	def_warps_to VENUS

@@ -166,7 +166,7 @@ MapHSPointers:
 	dw SeafoamIslandsB2FHS
 	dw NoHS
 	dw SeafoamIslandsB4FHS
-	dw NoHS
+	dw VermilionOldRodHouseHS
 	dw NoHS
 	dw PokemonMansion1FHS
 	dw NoHS
@@ -615,5 +615,7 @@ FuchsiaMartHS:
 	db FUCHSIA_MART, $05, HIDE
 CelagoneCityHS:
 	db CELAGONE_CITY, $02, SHOW
+VermilionOldRodHouseHS:
+	db VERMILION_OLD_ROD_HOUSE, $01, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
