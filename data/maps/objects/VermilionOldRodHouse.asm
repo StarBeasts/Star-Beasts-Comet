@@ -2,8 +2,8 @@ VermilionOldRodHouse_Object:
 	db $03 ; border block
 
 	def_warp_events
-	warp_event  7, 59, VENUS, 7
 	warp_event  6, 59, VENUS, 7
+	warp_event  7, 59, VENUS, 7
 
 	def_bg_events
 

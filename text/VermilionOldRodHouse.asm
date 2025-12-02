@@ -17,7 +17,9 @@ _HoverpopBattleText::
 	cont "piercing shriek"
 	cont "so loud, it"
 	cont "causes the entire"
-	cont "cave to shake."
+	cont "cave to shake,"
+	cont "splashing water"
+	cont "everywhere."
 
 	para "You're not sure"
 	line "if it can see"

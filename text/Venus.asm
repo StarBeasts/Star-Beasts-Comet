@@ -1,4 +1,4 @@
-_VenusText1::
+_VenusReviveText::
 	text "IT IS VERY UNWISE"
 	line "FOR YOU TO BE"
 	cont "HERE, HUMAN."
@@ -27,4 +27,22 @@ _VenusText1::
 
 	para "FOR YOUR OWN"
 	line "SAFETY"
+	done
+
+_VenusNuggetText::
+	text "You got rid of the"
+	line "DRAGON? You're the"
+	cont "best! Thank you!"
+
+	para "The government"
+	line "won't have an"	
+	cont "excuse to ignore"
+	cont "me, any more!"
+
+	para "You might not even"
+	line "realize it yet,"
+	cont "but you may have"
+	cont "just saved"
+	cont "JELLEYE as a"
+	cont "species!"
 	done
