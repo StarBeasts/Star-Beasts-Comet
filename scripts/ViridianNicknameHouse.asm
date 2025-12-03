@@ -45,7 +45,7 @@ ViridianHouseText5:
 	jr nz, .got_item
 	ld a, 6
 	ldh [hOaksAideRequirement], a
-	ld a, RARE_CANDY ; REVERT THIS FOR RELEASE BUILD!!!
+	ld a, EXP_ALL
 	ldh [hOaksAideRewardItem], a
 	ld [wd11e], a
 	call GetItemName

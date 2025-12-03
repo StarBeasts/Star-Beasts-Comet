@@ -30,7 +30,7 @@ _VenusReviveText::
 	done
 
 _VenusNuggetText::
-	text "You got rid of the"
+	text "PLEASE CHANGE THIS"
 	line "DRAGON? You're the"
 	cont "best! Thank you!"
 
