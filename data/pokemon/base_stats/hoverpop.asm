@@ -14,17 +14,17 @@
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,   \ 
+	tmhm SWORDS_DANCE, \
 	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD, \
-	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
-	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
-	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     SOFTBOILED,   DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   \
-	     CUT,          FLY,          STRENGTH,     FLASH
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT, \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      EXPLOSION,    MOONBLAST,   SUBSTITUTE, SNOWGRAVE,   \
+	     FLY,          SURF,         FLASH
 	; end
 
 	db BANK(HoverpopPicFront)

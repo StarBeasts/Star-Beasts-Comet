@@ -30,7 +30,7 @@ DirectorText:
 	ld b, wPokedexOwnedEnd - wPokedexOwned
 	call CountSetBits
 	ld a, [wNumSetBits]
-	cp NUM_POKEMON - 4 ; discount glitchmons, 150 needed
+	cp NUM_POKEMON - 5 ; discount glitchmons, 150 needed
 	jr nc, .completed_dex
 	ld hl, .GameDesignerText
 	jr .done
