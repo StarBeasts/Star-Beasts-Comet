@@ -69,7 +69,7 @@ _Route9AfterBattleText3::
 	done
 
 _Route9BattleText4::
-	text "Gosh..."
+	text "LUMI: Gosh..."
 
 	para "Nobody's found me,"
 	line "yet..."
@@ -93,9 +93,10 @@ _Route9EndBattleText4::
 	prompt
 
 _Route9AfterBattleText4::
-	text "They underestimate"
-	line "kids like us,"
-	cont "don't they?"
+	text "LUMI: They don't"
+	line "take girls like"
+	cont "me seriously,"
+	cont "do they?"
 
 	para "Just goes to show"
 	line "you should never"
@@ -104,8 +105,8 @@ _Route9AfterBattleText4::
 
 	para "I love to humble"
 	line "people who think"
-	cont "I'm a harmless"
-	cont "little girl!"
+	cont "I'm nothing but"
+	cont "a harmless girl!"
 	done
 
 _Route9BattleText5::
