@@ -599,6 +599,7 @@ HelpmeEvosMoves:
 	db 14, BUG_BITE
 	db 20, SLUDGE
 	db 26, CRUNCH
+	db 30, WATER_GUN
 	db 32, SUPERGLITCH
 	db 38, SKY_ATTACK
 	db 46, REST

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/sarpal.pic", 0, 1 ; sprite dimensions
 	dw SarpalPicFront, SarpalPicBack
 
-	db BARRAGE, ACID, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BARRAGE, ACID, WATER_GUN, NO_MOVE ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

@@ -18,7 +18,7 @@ MonPartyData:
 	nybble ICON_FAIRY     ; ROC
 	nybble ICON_FAIRY     ; TOMAROC
 	nybble ICON_FAIRY     ; GRYPHERN
-	nybble ICON_FAIRY     ; BATABAYU
+	nybble ICON_GHOST     ; BATABAYU
 	nybble ICON_MON       ; ROBBY
 	nybble ICON_FAIRY     ; ASPIRO
 	nybble ICON_FAIRY     ; MAELSTRO
@@ -39,7 +39,7 @@ MonPartyData:
 	nybble ICON_HUMAN     ; TINIEDDI
 	nybble ICON_HUMAN     ; HEAVIEDDI
 	nybble ICON_GHOST     ; LEEGHOUL
-	nybble ICON_GHOST     ; VERBEDEN
+	nybble ICON_FIRE     ; VERBEDEN
 	nybble ICON_BALL      ; EPILEPSIA
 	nybble ICON_BALL      ; CONVULSIA
 	nybble ICON_GHOST     ; SACKRAN
@@ -47,7 +47,7 @@ MonPartyData:
 	nybble ICON_GHOST     ; BAGAVOND
 	nybble ICON_MON       ; KLAWNIVAL
 	nybble ICON_MON       ; ARKKADE
-	nybble ICON_DRAGON    ; DRAGLEAM
+	nybble ICON_FAIRY    ; DRAGLEAM
 	nybble ICON_DRAGON    ; ARDORAGON
 	nybble ICON_BUG       ; TICOLYTE
 	nybble ICON_BUG       ; MAGUSAND
@@ -94,7 +94,7 @@ MonPartyData:
 	nybble ICON_GHOST     ; STRANGHOST
 	nybble ICON_GHOST     ; SILEKNIGHT
 	nybble ICON_GHOST     ; DECAPALON
-	nybble ICON_MON       ; MOSSTACHE
+	nybble ICON_GRASS       ; MOSSTACHE
 	nybble ICON_MON       ; VEILUMBER
 	nybble ICON_MON       ; BALISADE
 	nybble ICON_BUG       ; SCORPSY
