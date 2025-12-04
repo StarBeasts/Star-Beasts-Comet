@@ -15,34 +15,68 @@ _VenusReviveText::
 	line "THERE, WERE I TO"
 	cont "BE YOU"
 
-	para "THERE IS NAUGHT"
-	line "BUT A STRANGE, SAD"
-	cont "CREATURE IN THERE,"
-	cont "WAILING AND HOWLING"
-	cont "INCOHERENTLY, FOR A"
-	cont "REASON I DO NOT KNOW"
+	para "THERE ARE FOUL"
+	line "CREATURES OF ROT"
+	cont "AND SLUDGE THAT"
+	cont "FESTER IN THAT"
+	cont "WRETCHED HOLE"
 
-	para "I IMPLORE YOU TO"
-	line "PLEASE GO HOME"
+	para "BUT THE WORST AND"
+	line "SADDEST OF THEM"
+	cont "ALL IS THIS"
+	cont "PITIABLE THING,"
+	cont "THIS MONSTROSITY"
+	cont "OF ANOTHER WORLD,"
+	cont "WHOSE SCREAMS OF"
+	cont "AGONY AND SORROW"
+	cont "FILL THE CAVERN,"
+	cont "AND CAN BE HEARD"
+	cont "EVEN OUT HERE"
 
+	para "EVEN THOUGH I KNOW"
+	line "NOT HOW IT CAME"
+	cont "TO BE HERE, I"
+	cont "WEEP FOR THE"
+	cont "POOR THING"
+
+	para "EITHER WAY"
+
+	para "IT WOULD BE IN"
+	line "YOUR OWN BEST"
+	cont "INTEREST TO LEAVE"
+	cont "AND GO HOME"
+	
 	para "FOR YOUR OWN"
 	line "SAFETY"
 	done
 
 _VenusNuggetText::
-	text "PLEASE CHANGE THIS"
-	line "DRAGON? You're the"
-	cont "best! Thank you!"
+	text "IT IS SILENT, NOW"
 
-	para "The government"
-	line "won't have an"	
-	cont "excuse to ignore"
-	cont "me, any more!"
+	para "THE ACCURSED"
+	line "SCREAMING HAS"
+	cont "CEASED"
 
-	para "You might not even"
-	line "realize it yet,"
-	cont "but you may have"
-	cont "just saved"
-	cont "JELLEYE as a"
-	cont "species!"
+	para "AM I TO ASSUME YOU"
+	line "ARE RESPONSIBLE?"
+
+	para "WELL, I HOPE"
+	line "WHATEVER YOU DID,"
+	cont "THAT POOR THING"
+	cont "IS IN A BETTER"
+	cont "PLACE NOW"
+
+	para "NOT THAT IT'LL"
+	line "IMPROVE TOURISM"	
+	cont "AROUND HERE!"
+
+	para "HAHAHA!"
+
+	para "..."
+
+	para "THAT'S"
+
+	para "THAT'S JUST UH"
+	
+	para "JUST A LITTLE JOKE"
 	done
