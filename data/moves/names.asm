@@ -191,6 +191,8 @@ MoveNames::
 	li "STRANGESTEAM"
 	li "SHADOW PURGE"
 	li "DEEP FREEZE"
+	li "TM50"
+	li "ULTIMATUM"
 	li "METAL CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

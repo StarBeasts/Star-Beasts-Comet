@@ -313,7 +313,7 @@ IvysaurEvosMoves:
 	db 101, EARTHQUAKE
 	db 101, GAEAS_WRATH
 	db 101, SOUL_SHRED
-	db 101, SPIRIT_BOMB ; ultimatum?
+	db 101, ULTIMATUM
 	db 0
 
 ExeggutorEvosMoves:
@@ -586,7 +586,7 @@ SarpalEvosMoves:
 ; Learnset
 	db 14, BUG_BITE
 	db 20, CRUNCH
-	db 26, SCREECH
+	db 26, SUPERGLITCH
 	db 32, SKY_ATTACK
 	db 38, REST
 	db 0
@@ -599,9 +599,10 @@ HelpmeEvosMoves:
 	db 14, BUG_BITE
 	db 20, SLUDGE
 	db 26, CRUNCH
-	db 32, SCREECH
+	db 32, SUPERGLITCH
 	db 38, SKY_ATTACK
 	db 46, REST
+	db 54, HYDRO_PUMP
 	db 0
 
 GrowlitheEvosMoves:
@@ -827,10 +828,11 @@ PleaseEvosMoves:
 	db 14, BUG_BITE
 	db 20, SLUDGE
 	db 26, CRUNCH
-	db 32, SCREECH
-	db 38, WATER_GUN
+	db 32, WATER_GUN
+	db 38, SUPERGLITCH
 	db 46, SKY_ATTACK
 	db 52, REST
+	db 58, HYDRO_PUMP
 	db 0
 
 

@@ -202,6 +202,8 @@ Moves:
 	move STRANGESTEAM,  CONFUSION_SIDE_EFFECT,          90, FAIRY, 95, 10	;
 	move SHADOW_PURGE,  SWIFT_EFFECT,          60, FAIRY, 100, 20	;
 	move SNOWGRAVE,  FREEZE_EFFECT,          0, ICE, 40, 5	;
+	move SUPERGLITCH,  SUPER_FANG_EFFECT,          1, BIRD, 100, 15	;
+	move ULTIMATUM,  NO_ADDITIONAL_EFFECT,          250, MYSTIC, 100, 10	;
 	move METAL_CLAW,   DEFENSE_DOWN_SIDE_EFFECT,    50, STEEL, 100, 35  ; done
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

@@ -12,12 +12,23 @@ _Route2HouseText3::
 	para "That's basically a"
 	line "plant scientist!"
 
+	para "I also know about"
+	line "plant #BEASTS!"
+
 	para "Did you know that"
 	line "QUINCY is the"
 	cont "only member of"
 	cont "its evolutionary"
 	cont "line that"
 	cont "produces fruit?"
+
+	para "And LAWNCRETE use"
+	line "this gluelike sap"
+	cont "they secrete to"
+	cont "keep their shells"
+	cont "on their bodies?"
+
+	para "Isn't that amazing?"
 	done
 
 _Route2HouseText4::
