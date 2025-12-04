@@ -54,52 +54,52 @@ _CinnabarLabTradeRoomAfterBattleText1::
 
 _Lab2Text2::
 	text "NO ONE WILL EVER"
-	line "SEE THIS, YOU"
-	cont "KNOW..."
+	line "SEE THIS, HE"
+	cont "KNOWS..."
 
-	para "HOW MUCH OF YOUR"
+	para "HOW MUCH OF HIS"
 	line "FINITE TIME ON"
-	cont "THIS EARTH HAVE"
-	cont "YOU WASTED"
+	cont "THIS EARTH HAS"
+	cont "HE WASTED"
 	done
 
 _Lab2Text3::
-	text "IT TAKES YOU SO"
+	text "IT TAKES HIM SO"
 	line "LONG TO DO"
 	cont "ANYTHING"
 
 	para "Why even bother"
-	line "trying? Who are"
-	cont "you kidding?"
+	line "trying? Who is"
+	cont "he kidding?"
 	done
 
 _Lab2Text4::
 	text "THEY'RE RIGHT,"
-	line "YOU KNOW."
+	line "HE KNOWS."
 
-	para "NOTHING YOU HAVE"
+	para "NOTHING HE HAS"
 	line "EVER CREATED HAS"
 	cont "ANY VALUE."
 	
 	para "IT WILL BE"
 	line "FORGOTTEN"
 
-	para "JUST LIKE YOU"
+	para "JUST LIKE HIM"
 	done
 
 _Lab2Text5::
-	text "YOU'RE SO ANGRY"
+	text "HE'S SO ANGRY"
 	line "ALL THE TIME,"
-	cont "BUT YOUR LIFE"
+	cont "BUT HIS LIFE"
 	cont "ISN'T HARD ENOUGH"
 	cont "TO JUSTIFY IT"
 
-	para "YOU ARE ANGRY"
+	para "HE IS ANGRY"
 	line "BECAUSE THINGS"
 	cont "AREN'T JUST"
-	cont "HANDED TO YOU"
+	cont "HANDED TO HIM,"
 	cont "WITH ZERO EFFORT"
-	cont "ON YOUR PART"
+	cont "ON HIS PART"
 	done
 
 _Lab2Text6::
@@ -107,21 +107,21 @@ _Lab2Text6::
 	done
 
 _Lab2Text7::
-	text "LOOK AT YOU"
+	text "LOOK AT HIM"
 
 	para "TIRED ALL THE TIME"
 	
 	para "HOW MANY STARVING,"
 	line "DESPERATE PEOPLE"
 	cont "WOULD KILL TO BE"
-	cont "WHERE YOU ARE"
+	cont "WHERE HE IS"
 	done
 
 _Lab2Text8::
 	text "NOBODY ACTUALLY"
-	line "LIKES YOU, THEY"
+	line "LIKES HIM, THEY"
 	cont "JUST LIKE WHAT"
-	cont "YOU CAN PROVIDE"
+	cont "HE CAN PROVIDE"
 
 	para "THEY WANT SOMEONE"
 	line "TO LIE TO THEM"
@@ -130,17 +130,17 @@ _Lab2Text8::
 	cont "THEMSELVES"
 
 	para "AND LOOK AT THAT,"
-	line "THE ONE THING YOU"
-	cont "ARE GOOD AT:"
+	line "THE ONE THING HE"
+	cont "IS GOOD AT:"
 
 	para "BEING A LIAR"
 	done
 
 _Lab2Text9::
-	text "YOU BELIEVE THE"
+	text "HE BELIEVES THE"
 	line "SUPPOSED 'RIGHT'"
 	cont "THING, NOT"
-	cont "BECAUSE YOU HAVE"
+	cont "BECAUSE HE HAS"
 	cont "ANY ACTUAL, REAL"
 	cont "CONVICTIONS, BUT"
 	cont "BECAUSE IT IS"
@@ -152,12 +152,12 @@ _Lab2Text9::
 
 _Lab2Text10::
 	text "NOSTALGIA MEANS"
-	line "NOTHING TO YOU"
-	cont "BECAUSE YOU"
-	cont "HAVEN'T GROWN AS"
+	line "NOTHING TO HIM"
+	cont "BECAUSE HE"
+	cont "HASN'T GROWN AS"
 	cont "A PERSON AT ALL"
 
-	para "AND YOU KNOW YOU"
+	para "AND HE KNOWS HE"
 	line "NEVER WILL"
 	done
 

@@ -48,7 +48,7 @@ MonPartyData:
 	nybble ICON_MON       ; KLAWNIVAL
 	nybble ICON_MON       ; ARKKADE
 	nybble ICON_FAIRY    ; DRAGLEAM
-	nybble ICON_DRAGON    ; ARDORAGON
+	nybble ICON_FAIRY    ; ARDORAGON
 	nybble ICON_BUG       ; TICOLYTE
 	nybble ICON_BUG       ; MAGUSAND
 	nybble ICON_FIRE      ; PUMAJIN
