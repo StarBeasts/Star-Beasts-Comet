@@ -20,7 +20,7 @@ Route25_Object:
 	bg_event 12,  6, 13 ; Route25Text13
 
 	def_object_events
-	object_event  3, 22, SPRITE_MR_FUJI, STAY, DOWN, 1, OPP_ENGINEER, 5
+	object_event  3, 22, SPRITE_GRAMPS, STAY, DOWN, 1, OPP_ENGINEER, 5
 	object_event 27, 20, SPRITE_GIRL, STAY, RIGHT, 2, OPP_COOLTRAINER_F, 6
 	object_event 29, 23, SPRITE_ERIKA, STAY, RIGHT, 3, OPP_SUPER_NERD, 7
 	object_event 31, 17, SPRITE_DAISY, STAY, DOWN, 4, OPP_BEAUTY, 11
