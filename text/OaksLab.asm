@@ -190,9 +190,11 @@ _OaksLabText_1d31d::
 	prompt
 
 _OaksLabText_1d32c::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "What's this?"
+	line "It looks like a"
+	cont "PAGER of sorts."
+	para "Looks like it has"
+	line "no power!"
 	done
 
 _OaksLabText8::
@@ -343,8 +345,10 @@ _OaksLabText24::
 	cont "#BIEs you've"
 	cont "seen or caught!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "It's a modified"
+	line "PAGER that works"
+	cont "like an encyclo-"
+	cont "pedia!"
 	done
 
 _OaksLabText25::

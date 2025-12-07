@@ -121,6 +121,9 @@ GuitarSprite:: INCBIN "gfx/sprites/guitar.2bpp"
 RuinedSignSprite:: INCBIN "gfx/sprites/ruinedsign.2bpp"
 CoffeeSprite:: INCBIN "gfx/sprites/coffee.2bpp"
 UrnSprite:: INCBIN "gfx/sprites/urn.2bpp"
+ClerkJustinSprite:: INCBIN "gfx/sprites/clerk_justin.2bpp"
+OldManSprite:: INCBIN "gfx/sprites/old_man.2bpp"
+HealerSprite:: INCBIN "gfx/sprites/healer.2bpp"
 
 
 
