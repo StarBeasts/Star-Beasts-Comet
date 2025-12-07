@@ -31,7 +31,7 @@ DiglettsCaveRoute11_Object:
 	def_object_events
 	object_event 13, 14, SPRITE_ROCKER, STAY, NONE, 1 ; person
 	object_event 9, 10, SPRITE_LITTLE_GIRL, STAY, NONE, 2 ; person
-	object_event 13, 6, SPRITE_BIKE_SHOP_CLERK, STAY, NONE, 3 ; person
+	object_event 13, 6, SPRITE_HEALER, STAY, NONE, 3 ; person
 
 
 	def_warps_to DIGLETTS_CAVE_ROUTE_11

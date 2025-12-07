@@ -98,6 +98,7 @@ SpriteSheetPointerTable:
 	overworld_sprite OldManSprite, 12            ; SPRITE_CLERK
 	overworld_sprite HealerSprite, 12            ; SPRITE_HEALER
 	overworld_sprite GlassesGuySprite, 12            ; SPRITE_GLASSES_GUY
+	overworld_sprite MizuSprite, 12            ; SPRITE_MIZU
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

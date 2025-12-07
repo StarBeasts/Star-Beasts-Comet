@@ -15,10 +15,10 @@ GoldenGate_Object:
 
 	def_object_events
 	object_event  1,  4, SPRITE_OFFICER, STAY, RIGHT, 1 ; person
-	object_event 17,  1, SPRITE_OFFICER, STAY, 	DOWN, 2 ; person
-	object_event 18,  3, SPRITE_MIDDLE_AGED_MAN, STAY, UP, 3 ; person
+	object_event 17,  1, SPRITE_OFFICER, STAY, DOWN, 2 ; person
+	object_event 18,  3, SPRITE_CUE_BALL, STAY, UP, 3 ; person
 	object_event 17,  7, SPRITE_BEAUTY, STAY, LEFT, 4 ; person
-	object_event 14,  2, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 5 ; person
+	object_event 14,  2, SPRITE_HEALER, STAY, DOWN, 5 ; person
 	object_event  6,  4, SPRITE_HIKER, STAY, LEFT, 6 ; person
 
 	def_warps_to GOLDEN_GATE

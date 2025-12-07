@@ -9,7 +9,7 @@ BillsHouse_Object:
 
 	def_object_events
 	object_event  6,  5, SPRITE_MONSTER, STAY, NONE, 1 ; person
-	object_event  4,  4, SPRITE_SUPER_NERD, STAY, NONE, 2 ; person
-	object_event  6,  5, SPRITE_SUPER_NERD, STAY, NONE, 3 ; person
+	object_event  4,  4, SPRITE_JUSTIN, STAY, NONE, 2 ; person
+	object_event  6,  5, SPRITE_JUSTIN, STAY, NONE, 3 ; person
 
 	def_warps_to BILLS_HOUSE

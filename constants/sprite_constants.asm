@@ -93,6 +93,7 @@
 	const SPRITE_OLD_MAN
 	const SPRITE_HEALER
 	const SPRITE_GLASSES_GUY
+	const SPRITE_MIZU
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e

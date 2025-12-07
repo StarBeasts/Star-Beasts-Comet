@@ -25,10 +25,10 @@ SSAnneB1FRooms_Object:
 	object_event  2,  4, SPRITE_ROCKET, STAY, DOWN, 5, OPP_ROCKET, 8
 	object_event 51,  4, SPRITE_ROCKET, STAY, RIGHT, 6, OPP_ROCKET, 12
 	object_event 11,  3, SPRITE_SUPER_NERD, STAY, RIGHT, 7 ; person
-	object_event 12,  3, SPRITE_MONSTER, STAY, NONE, 8 ; person
+	object_event 12,  3, SPRITE_FAIRY, STAY, NONE, 8 ; person
 	object_event 30,  4, SPRITE_POKE_BALL, STAY, NONE, 9, ETHER
 	object_event 41,  4, SPRITE_POKE_BALL, STAY, NONE, 10, TM_REST
 	object_event 31,  4, SPRITE_POKE_BALL, STAY, NONE, 11, MAX_POTION
-	object_event 22,  5, SPRITE_FAIRY, STAY, NONE, 12 ; person
+	object_event 22,  5, SPRITE_MONSTER, STAY, NONE, 12 ; person
 
 	def_warps_to SS_ANNE_B1F_ROOMS

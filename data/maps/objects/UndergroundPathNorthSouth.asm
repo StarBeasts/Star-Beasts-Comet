@@ -16,7 +16,7 @@ UndergroundPathNorthSouth_Object:
 	object_event  5,  11, SPRITE_CHEPPER, STAY, DOWN, 4 ; person
 	object_event 10, 12, SPRITE_SOLDIER, STAY, RIGHT, 5 ; person
 	object_event 17,  4, SPRITE_SOLDIER, STAY, LEFT, 6 ; person
-	object_event  4,  8, SPRITE_BIKE_SHOP_CLERK, STAY, ANY_DIR, 7 ; person
+	object_event  4,  8, SPRITE_HEALER, STAY, ANY_DIR, 7 ; person
 	object_event 17,  8, SPRITE_SOLDIER, STAY, LEFT_RIGHT, 8 ; person
 	object_event  3, 13, SPRITE_SOLDIER, STAY, ANY_DIR, 9 ; person
 	object_event  3,  4, SPRITE_SOLDIER, STAY, UP, 10 ; person

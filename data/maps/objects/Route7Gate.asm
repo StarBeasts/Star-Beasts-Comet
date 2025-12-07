@@ -19,6 +19,6 @@ Route7Gate_Object:
 	object_event 19, 17, SPRITE_GUARD, STAY, DOWN, 1 ; person
 	object_event 30, 26, SPRITE_GIRL, WALK, ANY_DIR, 2 ; person
 	object_event 25, 42, SPRITE_SUBROSIAN, STAY, ANY_DIR, 3 ; person
-	object_event 22, 34, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 4 ; person
+	object_event 22, 34, SPRITE_HEALER, STAY, DOWN, 4 ; person
 
 	def_warps_to ROUTE_7_GATE
