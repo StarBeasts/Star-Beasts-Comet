@@ -25,8 +25,8 @@ CeruleanCity_Object:
 
 	def_object_events
 	object_event 20,  0, SPRITE_BLUE, STAY, DOWN, 1 ; person
-	object_event 20,  6, SPRITE_COOLTRAINER_M, STAY, LEFT, 2, OPP_ROCKET, 5
-	object_event 18, 24, SPRITE_COOLTRAINER_M, STAY, DOWN, 3 ; person
+	object_event 20,  6, SPRITE_JUSTIN, STAY, LEFT, 2, OPP_ROCKET, 5
+	object_event 18, 24, SPRITE_JUSTIN, STAY, DOWN, 3 ; person
 	object_event 12, 20, SPRITE_HIKER, WALK, UP_DOWN, 4 ; person
 	object_event 31, 24, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 5 ; person
 	object_event 22, 12, SPRITE_GUARD, STAY, DOWN, 6 ; person

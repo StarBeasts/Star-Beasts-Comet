@@ -13,6 +13,6 @@ CeruleanPokecenter_Object:
 	object_event  8,  3, SPRITE_GENTLEMAN, STAY, DOWN, 3 ; person
 	object_event 11,  2, SPRITE_LINK_RECEPTIONIST, STAY, DOWN, 4 ; person
 	object_event 4,  1, SPRITE_CHEPPER, STAY, DOWN, 5 ; person
-	object_event  4,  3, SPRITE_FISHER, STAY, DOWN, 6 ; person
+	object_event  4,  3, SPRITE_CUE_BALL, STAY, DOWN, 6 ; person
 
 	def_warps_to CERULEAN_POKECENTER

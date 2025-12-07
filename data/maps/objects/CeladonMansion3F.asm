@@ -14,7 +14,7 @@ CeladonMansion3F_Object:
 
 	def_object_events
 	object_event  2,  9, SPRITE_SOUL_VALOR_DUDE, STAY, UP, 1 ; person
-	object_event  5,  2, SPRITE_CLERK, STAY, UP, 2 ; person
+	object_event  5,  2, SPRITE_JUSTIN, STAY, UP, 2 ; person
 	object_event  0,  5, SPRITE_SUPER_NERD, STAY, UP, 3 ; person
 	object_event  4,  5, SPRITE_SILPH_WORKER, STAY, NONE, 4 ; person
 

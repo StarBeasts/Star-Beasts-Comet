@@ -9,7 +9,7 @@ SecretPath_Object:
 
 	def_object_events
 	object_event  4,  7, SPRITE_MONSTER, STAY, NONE, 1 ; person
-	object_event  5,  6, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 2 ; person
+	object_event  5,  6, SPRITE_CUE_BALL, STAY, LEFT, 2 ; person
 
 
 	def_warps_to SECRET_PATH

@@ -9,7 +9,7 @@ HandHouse_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  3, SPRITE_ROCKER, STAY, DOWN, 1 
+	object_event  2,  3, SPRITE_CUE_BALL, STAY, DOWN, 1 
 	object_event  5,  3, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 2 
 	object_event  1,  1, SPRITE_HIKER, STAY, DOWN, 3 
 

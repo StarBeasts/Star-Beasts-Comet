@@ -8,7 +8,7 @@ PewterMart_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  0,  5, SPRITE_CLERK, STAY, RIGHT, 1 ; person
+	object_event  0,  5, SPRITE_GLASSES_GUY, STAY, RIGHT, 1 ; person
 	object_event  3,  3, SPRITE_YOUNGSTER, WALK, UP_DOWN, 2 ; person
 	object_event  5,  5, SPRITE_SUPER_NERD, STAY, NONE, 3 ; person
 

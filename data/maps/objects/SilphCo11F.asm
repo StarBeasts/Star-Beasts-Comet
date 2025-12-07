@@ -11,9 +11,9 @@ SilphCo11F_Object:
 
 	def_object_events
 	object_event  7,  5, SPRITE_ERIKA, STAY, DOWN, 1 ; person
-	object_event 10,  5, SPRITE_CLERK, STAY, DOWN, 2 ; person
+	object_event 10,  5, SPRITE_GLASSES_GUY, STAY, DOWN, 2 ; person
 	object_event  6,  9, SPRITE_GIOVANNI, STAY, DOWN, 3, OPP_GIOVANNI, 2
-	object_event  5, 14, SPRITE_MIDDLE_AGED_MAN, STAY, RIGHT, 4, OPP_CUE_BALL, 13
+	object_event  5, 14, SPRITE_CUE_BALL, STAY, RIGHT, 4, OPP_CUE_BALL, 13
 	object_event 15,  3, SPRITE_ROCKET, STAY, LEFT, 5, OPP_ROCKET, 40
 
 	def_warps_to SILPH_CO_11F

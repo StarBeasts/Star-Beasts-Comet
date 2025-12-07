@@ -15,6 +15,6 @@ UndergroundPathRoute7_Object:
 
 	def_object_events
 	object_event  7, 29, SPRITE_OFFICER, STAY, NONE, 1 ; person
-	object_event  9, 57, SPRITE_CLERK, STAY, UP, 2 ; person
+	object_event  9, 57, SPRITE_GLASSES_GUY, STAY, UP, 2 ; person
 
 	def_warps_to UNDERGROUND_PATH_ROUTE_7

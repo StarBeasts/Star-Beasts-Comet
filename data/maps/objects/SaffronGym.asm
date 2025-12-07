@@ -41,7 +41,7 @@ SaffronGym_Object:
 	object_event 9, 8, SPRITE_BIKER, STAY, DOWN, 1, OPP_ROCKER, 1
 	object_event 10, 1, SPRITE_GAMBLER, STAY, DOWN, 2, OPP_GAMBLER, 10
 	object_event 17, 1, SPRITE_BIKER, STAY, DOWN, 3, OPP_BIKER, 9
-	object_event 3, 7, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 4, OPP_CUE_BALL, 11
+	object_event 3, 7, SPRITE_CUE_BALL, STAY, DOWN, 4, OPP_CUE_BALL, 11
 	object_event 17, 7, SPRITE_BIKER, STAY, DOWN, 5, OPP_BIKER, 11
 	object_event 3, 13, SPRITE_BIKER, STAY, DOWN, 6, OPP_BIKER, 12
 	object_event 17, 13, SPRITE_BIKER, STAY, DOWN, 7, OPP_BIKER, 10

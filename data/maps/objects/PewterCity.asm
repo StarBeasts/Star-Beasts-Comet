@@ -25,7 +25,7 @@ PewterCity_Object:
 
 	def_object_events
 	object_event 21, 37, SPRITE_COOLTRAINER_F, STAY, NONE, 1 ; person
-	object_event 22, 28, SPRITE_COOLTRAINER_M, STAY, NONE, 2 ; person
+	object_event 22, 28, SPRITE_JUSTIN, STAY, NONE, 2 ; person
 	object_event 33, 26, SPRITE_SCIENTIST, STAY, NONE, 3 ; person
 	object_event 17, 36, SPRITE_HIKER, WALK, LEFT_RIGHT, 4 ; person
 	object_event  6, 20, SPRITE_LISBETH, STAY, DOWN, 5 ; person

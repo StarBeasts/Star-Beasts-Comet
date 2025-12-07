@@ -8,7 +8,7 @@ CeladonMartElevator_Object:
 
 	def_object_events
 	object_event 6, 2, SPRITE_FROZEN_ROCKET, STAY, NONE, 1 ; person
-	object_event 5, 2, SPRITE_MONSTER, STAY, DOWN, 2, PINSIR, 35 | OW_POKEMON
+	object_event 5, 2, SPRITE_FAIRY, STAY, DOWN, 2, PINSIR, 35 | OW_POKEMON
 	object_event  7, 31, SPRITE_POKE_BALL, STAY, NONE, 3, TM_SUBSTITUTE
 
 

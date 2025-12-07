@@ -10,7 +10,7 @@ SSAnneBow_Object:
 	def_object_events
 	object_event  5,  5, SPRITE_SUPER_NERD, STAY, RIGHT, 1 ; person
 	object_event  5,  8, SPRITE_SAILOR, STAY, RIGHT, 2 ; person
-	object_event 11, 11, SPRITE_CLERK, STAY, ANY_DIR, 3 ; person
+	object_event 11, 11, SPRITE_GLASSES_GUY, STAY, ANY_DIR, 3 ; person
 	object_event 11,  5, SPRITE_SAILOR, STAY, DOWN, 4, OPP_SAILOR, 1
 	object_event 11,  8, SPRITE_SAILOR, STAY, UP, 5, OPP_SAILOR, 2
 

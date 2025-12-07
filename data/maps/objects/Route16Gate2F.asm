@@ -12,10 +12,10 @@ Route16Gate2F_Object:
 	object_event 36, 18, SPRITE_LITTLE_BOY, STAY, DOWN, 1 ; person
 	object_event 37, 18, SPRITE_ROCKY, STAY, NONE, 2 ; person
 	object_event 38, 18, SPRITE_BEAUTY, STAY, DOWN, 3 ; person
-	object_event 37, 22, SPRITE_ROCKER, STAY, UP, 4 ; person
+	object_event 37, 22, SPRITE_FISHER, STAY, UP, 4 ; person
 	object_event  5, 27, SPRITE_SCIENTIST, STAY, NONE, 5 ; person
 	object_event 12, 27, SPRITE_SILPH_WORKER, STAY, NONE, 6 ; person
-	object_event 20, 27, SPRITE_CLERK, STAY, NONE, 7 ; person
+	object_event 20, 27, SPRITE_GLASSES_GUY, STAY, NONE, 7 ; person
 	object_event 30, 28, SPRITE_SCIENTIST, STAY, NONE, 8 ; person
 	object_event 45, 27, SPRITE_SCIENTIST, STAY, DOWN, 9 ; person
 	object_event 38, 10, SPRITE_HIKER, STAY, DOWN, 11 ; person

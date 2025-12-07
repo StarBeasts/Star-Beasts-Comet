@@ -26,7 +26,7 @@ SSAnne1FRooms_Object:
 	object_event  0, 11, SPRITE_MIDDLE_AGED_MAN, STAY, NONE, 6 ; person
 	object_event  1, 11, SPRITE_LITTLE_GIRL, STAY, DOWN, 7 ; person
 	object_event  2, 12, SPRITE_FAIRY, STAY, DOWN, 8 ; person
-	object_event 13,  2, SPRITE_CLERK, STAY, DOWN, 9 ; person
+	object_event 13,  2, SPRITE_GLASSES_GUY, STAY, DOWN, 9 ; person
 	object_event 13, 12, SPRITE_POKE_BALL, STAY, NONE, 10, TM_BODY_SLAM
 	object_event 20, 11, SPRITE_GENTLEMAN, STAY, LEFT_RIGHT, 11 ; person
 

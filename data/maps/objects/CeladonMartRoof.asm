@@ -28,7 +28,7 @@ CeladonMartRoof_Object:
 	def_object_events
 	object_event 17, 12, SPRITE_SUPER_NERD, STAY, RIGHT, 1 ; person
 	object_event 20, 10, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 2 ; person
-	object_event 8, 13, SPRITE_CLERK, STAY, ANY_DIR, 3 ; person
+	object_event 8, 13, SPRITE_GLASSES_GUY, STAY, ANY_DIR, 3 ; person
 	object_event 1, 2, SPRITE_GAMEBOY_KID, STAY, RIGHT, 4 ; person
 	object_event 2, 2, SPRITE_GAMEBOY_KID, STAY, LEFT, 5 ; person
 	object_event 17, 4, SPRITE_COOK, STAY, RIGHT, 6 ; person

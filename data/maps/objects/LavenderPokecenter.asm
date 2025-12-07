@@ -15,9 +15,9 @@ LavenderPokecenter_Object:
 	object_event  2,  6, SPRITE_LITTLE_GIRL, WALK, UP_DOWN, 3 ; person
 	object_event 11,  2, SPRITE_LINK_RECEPTIONIST, STAY, DOWN, 4 ; person
 	object_event 4,  1, SPRITE_GHOST, STAY, DOWN, 5 ; person
-	object_event 22,  5, SPRITE_CLERK, STAY, RIGHT, 6 ; person
+	object_event 22,  5, SPRITE_CHANNELER, STAY, RIGHT, 6 ; person
 	object_event 25,  4, SPRITE_BALDING_GUY, STAY, NONE, 7 ; person
-	object_event 29,  2, SPRITE_COOLTRAINER_M, STAY, NONE, 8 ; person
+	object_event 29,  2, SPRITE_JUSTIN, STAY, NONE, 8 ; person
 
 
 	def_warps_to LAVENDER_POKECENTER

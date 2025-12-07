@@ -10,7 +10,7 @@ ViridianPokecenter_Object:
 	def_object_events
 	object_event  3,  1, SPRITE_NURSE, STAY, DOWN, 1 ; person
 	object_event 10,  5, SPRITE_GENTLEMAN, WALK, UP_DOWN, 2 ; person
-	object_event  4,  3, SPRITE_COOLTRAINER_M, STAY, NONE, 3 ; person
+	object_event  4,  3, SPRITE_GLASSES_GUY, STAY, NONE, 3 ; person
 	object_event  7,  3, SPRITE_COOLTRAINER_F, STAY, NONE, 4 ; person
 	object_event 11,  2, SPRITE_LINK_RECEPTIONIST, STAY, DOWN, 5 ; person
 	object_event 4,  1, SPRITE_CHEPPER, STAY, DOWN, 6 ; person

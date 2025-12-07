@@ -10,7 +10,7 @@ PewterPokecenter_Object:
 	def_object_events
 	object_event  3,  1, SPRITE_NURSE, STAY, DOWN, 1 ; person
 	object_event 11,  7, SPRITE_GENTLEMAN, STAY, LEFT, 2 ; person
-	object_event  1,  3, SPRITE_MONSTER, STAY, DOWN, 3 ; person
+	object_event  1,  3, SPRITE_FAIRY, STAY, DOWN, 3 ; person
 	object_event 11,  2, SPRITE_LINK_RECEPTIONIST, STAY, DOWN, 4 ; person
 	object_event 4,  1, SPRITE_CHEPPER, STAY, DOWN, 5 ; person
 

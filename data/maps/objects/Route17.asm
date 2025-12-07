@@ -12,7 +12,7 @@ Route17_Object:
 	bg_event 17, 95, 16 ; Route17Text16
 
 	def_object_events
-	object_event 17, 42, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 1, OPP_CUE_BALL, 4
+	object_event 17, 42, SPRITE_CUE_BALL, STAY, LEFT, 1, OPP_CUE_BALL, 4
 	object_event 16, 14, SPRITE_GAMBLER, STAY, ANY_DIR, 2, OPP_GAMBLER, 8
 	object_event  9, 24, SPRITE_MBIKER, STAY, LEFT, 3, OPP_CHANNELER, 24
 	object_event  9, 53, SPRITE_MBIKER, STAY, LEFT, 4, OPP_CHANNELER, 22

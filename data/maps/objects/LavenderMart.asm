@@ -10,7 +10,7 @@ LavenderMart_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  0, 12, SPRITE_CLERK, STAY, RIGHT, 1 ; person
+	object_event  0, 12, SPRITE_GLASSES_GUY, STAY, RIGHT, 1 ; person
 	object_event  0, 3, SPRITE_SPEAKO, STAY, RIGHT, 2 ; person
 	object_event  5,  7, SPRITE_COOLTRAINER_M, STAY, LEFT, 3 ; person
 

@@ -25,7 +25,7 @@ ViridianCity_Object:
 	object_event 27, 16, SPRITE_GAMBLER, STAY, NONE, 2 ; person
 	object_event 10,  5, SPRITE_YOUNGSTER, WALK, ANY_DIR, 3 ; person
 	object_event 22, 28, SPRITE_GIRL, STAY, DOWN, 4 ; person
-	object_event 37, 30, SPRITE_COOLTRAINER_M, STAY, LEFT, 5 ; person
+	object_event 37, 30, SPRITE_COOLTRAINER_F, STAY, LEFT, 5 ; person
 	object_event  6, 23, SPRITE_FISHER, STAY, DOWN, 6 ; person
 	object_event 26, 29, SPRITE_GAMBLER, WALK, LEFT_RIGHT, 7 ; person
 

@@ -11,7 +11,7 @@ Route1_Object:
 	bg_event 37,  5, 5 ; Route1Text4
 
 	def_object_events
-	object_event 37,  8, SPRITE_COOLTRAINER_M, STAY, DOWN, 1 ; person
+	object_event 37,  8, SPRITE_JUSTIN, STAY, DOWN, 1 ; person
 	object_event 18,  6, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 2 ; person
 	object_event  6,  9, SPRITE_FISHER, STAY, ANY_DIR, 3 ; person
 

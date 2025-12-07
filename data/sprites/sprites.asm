@@ -86,6 +86,8 @@ SpriteSheetPointerTable:
 	overworld_sprite GailonSprite, 12		  ; SPRITE_GAILON
 	overworld_sprite RobotSprite, 12		  ; SPRITE_ROBOT
 	overworld_sprite SoldierSprite, 12		  ; SPRITE_SOLDIER
+	overworld_sprite JustinSprite, 12       ; SPRITE_JUSTIN
+	overworld_sprite CueBallSprite, 12       ; SPRITE_CUE_BALL
 	overworld_sprite SheriffSprite, 12		  ; SPRITE_SHERIFF
 	overworld_sprite RemnantSprite, 12		  ; SPRITE_REMNANT
 	overworld_sprite SubrosianAltSprite, 12		  ; SPRITE_REMNANT
@@ -93,9 +95,9 @@ SpriteSheetPointerTable:
 	overworld_sprite FarFromTileSprite, 12		  ; SPRITE_FARFROMTILE
 	overworld_sprite ScientistDeadSprite, 12		  ; SPRITE_SCIENTIST_DEAD
 	overworld_sprite FametasSprite, 12			 ; SPRITE_FAMETAS
-	overworld_sprite ClerkJustinSprite, 12       ; SPRITE_CLERK
 	overworld_sprite OldManSprite, 12            ; SPRITE_CLERK
-	overworld_sprite HealerSprite, 12            ; SPRITE_CLERK
+	overworld_sprite HealerSprite, 12            ; SPRITE_HEALER
+	overworld_sprite GlassesGuySprite, 12            ; SPRITE_GLASSES_GUY
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

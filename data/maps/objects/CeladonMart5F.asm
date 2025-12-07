@@ -15,7 +15,7 @@ CeladonMart5F_Object:
 	object_event  10, 11, SPRITE_HIKER, STAY, LEFT, 4 ; person
 	object_event  1,  11, SPRITE_SAILOR, STAY, RIGHT, 5 ; person
 	object_event  7,  9, SPRITE_SAILOR, STAY, RIGHT, 6 ; person
-	object_event  1,  7, SPRITE_SAILOR, STAY, RIGHT, 7 ; person
+	object_event  1,  7, SPRITE_CUE_BALL, STAY, RIGHT, 7 ; person
 	object_event  10,  7, SPRITE_SAILOR, STAY, LEFT, 8 ; person
 	object_event  2,  11, SPRITE_BEERLEFT, STAY, NONE, 9 ; person
 

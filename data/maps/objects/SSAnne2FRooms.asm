@@ -21,7 +21,7 @@ SSAnne2FRooms_Object:
 	object_event 30,  5, SPRITE_ROCKET, STAY, RIGHT, 1, OPP_ROCKET, 15
 	object_event 51,  5, SPRITE_ROCKET, STAY, RIGHT, 2, OPP_ROCKET, 14
 	object_event  2,  3, SPRITE_ROCKET, STAY, DOWN, 3, OPP_ROCKET, 13
-	object_event 40,  5, SPRITE_MIDDLE_AGED_MAN, STAY, RIGHT, 4, OPP_CUE_BALL, 12
+	object_event 40,  5, SPRITE_CUE_BALL, STAY, RIGHT, 4, OPP_CUE_BALL, 12
 	object_event 41,  4, SPRITE_GENTLEMAN, STAY, DOWN, 5 ; person
 	object_event 52,  3, SPRITE_POKE_BALL, STAY, NONE, 6, MAX_ETHER
 	object_event 31,  4, SPRITE_GENTLEMAN, STAY, DOWN, 7 ; person

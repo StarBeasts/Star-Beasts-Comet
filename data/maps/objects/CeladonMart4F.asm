@@ -9,7 +9,7 @@ CeladonMart4F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 16, 34, SPRITE_BALDING_GUY, STAY, NONE, 1 ; person
+	object_event 16, 34, SPRITE_MIDDLE_AGED_MAN, STAY, NONE, 1 ; person
 	object_event 10, 21, SPRITE_HAZMAT, WALK, UP_DOWN, 2 ; person
 	object_event 5, 19, SPRITE_HAZMAT, STAY, UP, 3 ; person
 	object_event 3, 29, SPRITE_HAZMAT, STAY, UP, 4 ; person

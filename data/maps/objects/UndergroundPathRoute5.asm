@@ -16,7 +16,7 @@ UndergroundPathRoute5_Object:
 	object_event 34,  4, SPRITE_PSYCHIC, STAY, DOWN, 6 ; person
 	object_event 44,  3, SPRITE_SAFARI_ZONE_WORKER, STAY, ANY_DIR, 7 ; person
 	object_event 54,  4, SPRITE_ROCKET, STAY, DOWN, 8 ; person
-	object_event 65,  4, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 9 ; person
+	object_event 65,  4, SPRITE_CUE_BALL, STAY, DOWN, 9 ; person
 
 
 

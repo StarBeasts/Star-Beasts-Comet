@@ -16,7 +16,7 @@ CeladonDiner_Object:
 	object_event  5,  1, SPRITE_GYM_GUIDE, STAY, DOWN, 5 ; person
 	object_event 12,  4, SPRITE_WAITER, STAY, RIGHT, 6 ; person
 	object_event 17,  1, SPRITE_GENTLEMAN, STAY, DOWN, 7 ; person
-	object_event 17,  4, SPRITE_CLERK, STAY, UP, 8 ; person
+	object_event 17,  4, SPRITE_JUSTIN, STAY, UP, 8 ; person
 	object_event 17,  2, SPRITE_PAPER, STAY, NONE, 9 ; person
 	object_event 20,  1, SPRITE_OFFICER, STAY, LEFT_RIGHT, 10 ; person
 	object_event 16,  3, SPRITE_PAPER, STAY, NONE, 11 ; person

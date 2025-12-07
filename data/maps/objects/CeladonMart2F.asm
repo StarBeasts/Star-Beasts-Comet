@@ -18,8 +18,8 @@ CeladonMart2F_Object:
 
 	def_object_events
 	object_event  4, 21, SPRITE_CLERK, STAY, RIGHT, 1 ; person
-	object_event 11, 21, SPRITE_CLERK, STAY, LEFT, 2 ; person
-	object_event  4, 15, SPRITE_CLERK, STAY, DOWN, 3 ; person
+	object_event 11, 21, SPRITE_GLASSES_GUY, STAY, LEFT, 2 ; person
+	object_event  4, 15, SPRITE_GLASSES_GUY, STAY, DOWN, 3 ; person
 	object_event 11, 15, SPRITE_CLERK, STAY, DOWN, 4 ; person
 	object_event  8,  5, SPRITE_CLERK, STAY, DOWN, 5 ; person
 	object_event 14, 17, SPRITE_GENTLEMAN, STAY, NONE, 6 ; person
