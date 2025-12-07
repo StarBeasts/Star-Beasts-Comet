@@ -245,7 +245,7 @@ ViridianMartHiddenObjects:
 	db -1 ; end
 
 ViridianSchoolHiddenObjects:
-	hidden_text_predef  3,  4, ViridianSchoolNotebook, PrintNotebookText
+	hidden_text_predef  5,  4, ViridianSchoolNotebook, PrintNotebookText
 	hidden_text_predef  3,  0, ViridianSchoolBlackboard, PrintBlackboardLinkCableText
 	db -1 ; end
 
