@@ -1,5 +1,5 @@
 AskName:
-	call SaveScreenTilesToBuffer1
+	call SaveScreenTilesToBuffer2
 	call GetPredefRegisters
 	push hl
 	ld a, [wIsInBattle]
@@ -36,7 +36,7 @@ AskName:
 	call ReloadMapSpriteTilePatterns
 	call ReloadMapData
 .inBattle
-	call LoadScreenTilesFromBuffer1
+	call LoadScreenTilesFromBuffer2
 	pop hl
 	pop af
 	ld [wUpdateSpritesEnabled], a
