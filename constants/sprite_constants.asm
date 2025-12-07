@@ -88,6 +88,9 @@
 	const SPRITE_FAR_FROM_TILE
 	const SPRITE_SCIENTIST_DEAD
 	const SPRITE_FAMETAS
+	const SPRITE_CLERK_JUSTIN
+	const SPRITE_OLD_MAN
+	const SPRITE_HEALER
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e
