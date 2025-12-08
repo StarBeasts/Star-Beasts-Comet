@@ -10,6 +10,6 @@ PokemonTower7F_Object:
 	object_event  9, 11, SPRITE_ROCKET, STAY, RIGHT, 1, OPP_ROCKET, 19
 	object_event 12,  9, SPRITE_ROCKET, STAY, LEFT, 2, OPP_ROCKET, 20
 	object_event  9,  7, SPRITE_GIOVANNI, STAY, RIGHT, 3, OPP_GIOVANNI, 4
-	object_event 10,  3, SPRITE_GRAMPS, STAY, DOWN, 4 ; person
+	object_event 10,  3, SPRITE_OLD_MAN, STAY, DOWN, 4 ; person
 
 	def_warps_to POKEMON_TOWER_7F

@@ -95,7 +95,7 @@ SpriteSheetPointerTable:
 	overworld_sprite FarFromTileSprite, 12		  ; SPRITE_FARFROMTILE
 	overworld_sprite ScientistDeadSprite, 12		  ; SPRITE_SCIENTIST_DEAD
 	overworld_sprite FametasSprite, 12			 ; SPRITE_FAMETAS
-	overworld_sprite OldManSprite, 12            ; SPRITE_CLERK
+	overworld_sprite OldManSprite, 12            ; SPRITE_OLD_MAN
 	overworld_sprite HealerSprite, 12            ; SPRITE_HEALER
 	overworld_sprite GlassesGuySprite, 12            ; SPRITE_GLASSES_GUY
 	overworld_sprite MizuSprite, 12            ; SPRITE_MIZU

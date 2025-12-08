@@ -9,8 +9,8 @@ VermilionGym_Object:
 
 	def_object_events
 	object_event  5,  2, SPRITE_COOLTRAINER_F, STAY, DOWN, 1, OPP_LT_SURGE, 1
-	object_event  5,  6, SPRITE_GRAMPS, STAY, LEFT, 2, OPP_GAMBLER, 11
-	object_event  5,  8, SPRITE_GAMBLER, STAY, LEFT, 3, OPP_CUE_BALL, 10
+	object_event  5,  6, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 2, OPP_GAMBLER, 11
+	object_event  5,  8, SPRITE_CUE_BALL, STAY, LEFT, 3, OPP_CUE_BALL, 10
 	object_event  3, 10, SPRITE_ROCKET, STAY, RIGHT, 4, OPP_ROCKET, 6
 	object_event  4, 14, SPRITE_SPEAKO, STAY, DOWN, 5 ; person
 

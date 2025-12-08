@@ -12,7 +12,7 @@ MrFujisHouse_Object:
 	object_event  6,  3, SPRITE_LITTLE_GIRL, STAY, DOWN, 2 ; person
 	object_event  6,  4, SPRITE_FAIRY, STAY, UP, 3 ; person
 	object_event  1,  3, SPRITE_BIRD, STAY, NONE, 4 ; person
-	object_event  3,  1, SPRITE_GRAMPS, STAY, NONE, 5 ; person
-	object_event  3,  3, SPRITE_POKEDEX, STAY, NONE, 6 ; person
+	object_event  3,  1, SPRITE_OLD_MAN, STAY, NONE, 5 ; person
+	object_event  3,  3, SPRITE_PAPER, STAY, NONE, 6 ; person
 
 	def_warps_to MR_FUJIS_HOUSE

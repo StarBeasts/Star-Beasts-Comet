@@ -35,3 +35,15 @@ _PewterHouse2Text3::
 	cont "breathing FIRE,"
 	cont "now wouldja?"
 	done
+
+_PewterHouse2Text4::
+	text "Bro, I am not"
+	line "losing it!"
+
+	para "That cat over"
+	line "there is talking!"
+
+	para "Oh, they hooked"
+	line "me UP with the"
+	cont "good stuff!"
+	done

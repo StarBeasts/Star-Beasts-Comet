@@ -11,8 +11,8 @@ Route19_Object:
 	bg_event 27,  7, 11 ; Route19Text11
 
 	def_object_events
-	object_event 41,  8, SPRITE_COOLTRAINER_M, STAY, RIGHT, 1, OPP_SWIMMER, 2
-	object_event  9, 14, SPRITE_COOLTRAINER_M,STAY, LEFT, 2, OPP_SWIMMER, 3
+	object_event 41,  8, SPRITE_JUSTIN, STAY, RIGHT, 1, OPP_SWIMMER, 2
+	object_event  9, 14, SPRITE_JUSTIN,STAY, LEFT, 2, OPP_SWIMMER, 3
 	object_event 44, 17, SPRITE_SWIMMER, STAY, ANY_DIR, 3, OPP_SWIMMER, 4
 	object_event 15, 12, SPRITE_SWIMMER, STAY, UP_DOWN, 4, OPP_SWIMMER, 5
 	object_event 20, 18, SPRITE_SWIMMER, STAY, ANY_DIR, 5, OPP_SWIMMER, 6

@@ -8,11 +8,13 @@ _Route25BattleText1::
 
 	para "Whuh? What's that?"
 
-	para "Child! You cannot"
-	line "be allowed here!"
+	para "Who's there?"
 
-	para "I will snuff"
-	line "you out!"
+	para "You little"
+	line "bastard!"
+
+	para "I'll tear your"
+	line "body in half!"
 	done
 
 _Route25EndBattleText1::

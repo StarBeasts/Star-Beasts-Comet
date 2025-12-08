@@ -19,6 +19,6 @@ CinnabarIsland_Object:
 	def_object_events
 	object_event 26, 35, SPRITE_GIRL, WALK, LEFT_RIGHT, 1 ; person
 	object_event 21, 27, SPRITE_GAMBLER, STAY, NONE, 2 ; person
-	object_event 21, 46, SPRITE_COOLTRAINER_M, WALK, LEFT_RIGHT, 3 ; person
+	object_event 21, 46, SPRITE_JUSTIN, WALK, LEFT_RIGHT, 3 ; person
 
 	def_warps_to CINNABAR_ISLAND

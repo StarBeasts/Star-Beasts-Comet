@@ -15,12 +15,12 @@ PokemonMansionB1F_Object:
 	object_event  6, 20, SPRITE_POKE_BALL, STAY, NONE, 4, FULL_RESTORE
 	object_event 28,  1, SPRITE_POKE_BALL, STAY, NONE, 5, TM_BLIZZARD
 	object_event  8,  1, SPRITE_POKE_BALL, STAY, NONE, 6, TM_SOLARBEAM
-	object_event 16, 21, SPRITE_POKEDEX, STAY, NONE, 7 ; person
+	object_event 16, 21, SPRITE_PAPER, STAY, NONE, 7 ; person
 	object_event  5, 12, SPRITE_POKE_BALL, STAY, NONE, 8, SECRET_KEY
 	object_event 15, 11, SPRITE_REMNANT, WALK, ANY_DIR, 9
 
 	object_event 20, 12, SPRITE_REMNANT, WALK, ANY_DIR, 10
 
-	object_event  5,  8, SPRITE_GENTLEMAN, STAY, DOWN, 11
+	object_event  5,  8, SPRITE_MR_FUJI, STAY, DOWN, 11
 
 	def_warps_to POKEMON_MANSION_B1F

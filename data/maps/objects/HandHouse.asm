@@ -10,8 +10,8 @@ HandHouse_Object:
 
 	def_object_events
 	object_event  2,  3, SPRITE_CUE_BALL, STAY, DOWN, 1 
-	object_event  5,  3, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 2 
-	object_event  1,  1, SPRITE_HIKER, STAY, DOWN, 3 
+	object_event  5,  3, SPRITE_HIKER, STAY, LEFT, 2 
+	object_event  1,  1, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 3 
 
 	def_warps_to HAND_HOUSE
 
