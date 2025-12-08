@@ -16,7 +16,7 @@ Museum2F_Object:
 	object_event  0,  5, SPRITE_GRAMPS, STAY, DOWN, 2 ; person
 	object_event  7,  5, SPRITE_SCIENTIST, STAY, DOWN, 3 ; person
 	object_event 11,  5, SPRITE_BRUNETTE_GIRL, STAY, NONE, 4 ; person
-	object_event 12,  5, SPRITE_HIKER, STAY, DOWN, 5 ; person
+	object_event 12,  5, SPRITE_CUE_BALL, STAY, DOWN, 5 ; person
 	object_event 10,  5, SPRITE_MONSTER, STAY, DOWN, 6 ; person
 	object_event 5,  1, SPRITE_SILPH_WORKER, STAY, DOWN, 7 ; person
 

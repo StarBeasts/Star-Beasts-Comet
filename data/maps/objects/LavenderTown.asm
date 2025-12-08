@@ -23,7 +23,7 @@ LavenderTown_Object:
 
 	def_object_events
 	object_event 14,  8, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person
-	object_event 13, 14, SPRITE_COOLTRAINER_M, STAY, NONE, 2 ; person
+	object_event 13, 14, SPRITE_JUSTIN, STAY, NONE, 2 ; person
 	object_event  9, 22, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 3 ; person
 	object_event  6,  8, SPRITE_GAMBLER, STAY, DOWN, 4 ; person
 

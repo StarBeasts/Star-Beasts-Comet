@@ -41,8 +41,8 @@ _PewterHouse1Text3::
 
 _PewterHouse1Text4::
 	text "I hate how small"
-	line "my husband makes"
-	cont "me look..."
+	line "I look next to"
+	cont "my husband..."
 
 	para "Part of me likes"
 	line "it, but part of"
