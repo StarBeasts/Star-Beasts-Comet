@@ -5,6 +5,7 @@ PewterNidoranHouse_TextPointers:
 	dw PewterHouse1Text1
 	dw PewterHouse1Text2
 	dw PewterHouse1Text3
+	dw PewterHouse1Text4
 
 PewterHouse1Text1:
 	text_far _PewterHouse1Text1
@@ -22,4 +23,8 @@ PewterHouse1Text2:
 
 PewterHouse1Text3:
 	text_far _PewterHouse1Text3
+	text_end
+
+PewterHouse1Text4:
+	text_far _PewterHouse1Text4
 	text_end

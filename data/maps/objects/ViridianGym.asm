@@ -10,11 +10,11 @@ ViridianGym_Object:
 	def_object_events
 	object_event  2,  1, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 3
 	object_event 19,  1, SPRITE_COOLTRAINER_M, STAY, ANY_DIR, 2, OPP_COOLTRAINER_M, 9
-	object_event 11,  9, SPRITE_HIKER, STAY, UP, 3, OPP_BLACKBELT, 6
+	object_event 11,  9, SPRITE_KOGA, STAY, UP, 3, OPP_BLACKBELT, 6
 	object_event  8,  4, SPRITE_GAMBLER, STAY, UP_DOWN, 4, OPP_GAMBLER, 6
-	object_event  7, 12, SPRITE_HIKER, STAY, DOWN, 5, OPP_BLACKBELT, 7
+	object_event  7, 12, SPRITE_KOGA, STAY, DOWN, 5, OPP_BLACKBELT, 7
 	object_event 14,  4, SPRITE_OFFICER, STAY, DOWN, 6, OPP_BIRD_KEEPER, 13
-	object_event  6,  1, SPRITE_HIKER, STAY, DOWN, 7, OPP_BLACKBELT, 8
+	object_event  6,  1, SPRITE_KOGA, STAY, DOWN, 7, OPP_BLACKBELT, 8
 	object_event  4, 16, SPRITE_ROCKER, STAY, DOWN, 8, OPP_TAMER, 4
 	object_event  5,  6, SPRITE_COOLTRAINER_M, STAY, DOWN, 9, OPP_COOLTRAINER_M, 1
 	object_event 16, 15, SPRITE_SPEAKO, STAY, DOWN, 10 ; person

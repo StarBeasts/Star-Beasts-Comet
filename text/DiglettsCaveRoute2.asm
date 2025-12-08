@@ -1,7 +1,7 @@
 _DiglettsCaveRoute2Text1::
 	text "You sure you know"
 	line "where you're"
-	cont "headed?"
+	cont "headed, trainer?"
 
 	para "This path sets"
 	line "you on the road"

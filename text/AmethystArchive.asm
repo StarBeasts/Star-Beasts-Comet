@@ -16,7 +16,7 @@ _AmethystArchiveText2::
 	line "homework!"
 
 	para "Why's everybody"
-	line "so obssessed with"
+	line "so obsessed with"
 	cont "# BEASTS," 
 	cont "anyway!?"
 	done

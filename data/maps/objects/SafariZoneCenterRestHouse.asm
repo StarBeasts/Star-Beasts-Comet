@@ -14,7 +14,7 @@ SafariZoneCenterRestHouse_Object:
 	def_object_events
 	object_event 17,  2, SPRITE_GIRL, STAY, DOWN, 1 ; person
 	object_event 15,  4, SPRITE_OFFICER, WALK, UP_DOWN, 2 ; person
-	object_event 18,  2, SPRITE_FAIRY, STAY, DOWN, 3 ; person
+	object_event 18,  2, SPRITE_GHOST, STAY, DOWN, 3 ; person
 	object_event  4,  4, SPRITE_SCIENTIST, WALK, ANY_DIR, 4 ; person
 	object_event  0,  2, SPRITE_SAFARI_ZONE_WORKER, STAY, RIGHT, 5 ; person
 	object_event  6,  2, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 6 ; person

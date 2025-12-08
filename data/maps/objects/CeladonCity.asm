@@ -24,10 +24,10 @@ CeladonCity_Object:
 
 	def_object_events
 	object_event 44, 17, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person
-	object_event 22,  6, SPRITE_GRAMPS, STAY, UP, 2 ; person
+	object_event 22,  6, SPRITE_GRAMPALT, STAY, UP, 2 ; person
 	object_event 31, 10, SPRITE_GUARD, STAY, DOWN, 3 ; person
-	object_event 21, 20, SPRITE_GRAMPS, STAY, DOWN, 4 ; person
-	object_event 13,  6, SPRITE_GRAMPS, STAY, DOWN, 5 ; person
+	object_event 21, 20, SPRITE_GRAMPALT, STAY, DOWN, 4 ; person
+	object_event 13,  6, SPRITE_GRAMPALT, STAY, DOWN, 5 ; person
 	object_event 13, 30, SPRITE_FISHER, STAY, LEFT, 6 ; person
 	object_event 10, 30, SPRITE_MONSTER, STAY, RIGHT, 7 ; person
 	object_event 32, 28, SPRITE_LITTLE_BOY, STAY, DOWN, 8 ; person

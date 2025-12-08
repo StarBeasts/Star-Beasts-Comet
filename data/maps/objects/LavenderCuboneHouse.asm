@@ -9,6 +9,6 @@ LavenderCuboneHouse_Object:
 
 	def_object_events
 	object_event  3,  5, SPRITE_GHOST, STAY, UP, 1 ; person
-	object_event  2,  4, SPRITE_BRUNETTE_GIRL, STAY, RIGHT, 2 ; person
+	object_event  2,  4, SPRITE_WIFE, STAY, RIGHT, 2 ; person
 
 	def_warps_to LAVENDER_CUBONE_HOUSE

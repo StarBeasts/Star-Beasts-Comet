@@ -121,12 +121,15 @@ GuitarSprite:: INCBIN "gfx/sprites/guitar.2bpp"
 RuinedSignSprite:: INCBIN "gfx/sprites/ruinedsign.2bpp"
 CoffeeSprite:: INCBIN "gfx/sprites/coffee.2bpp"
 UrnSprite:: INCBIN "gfx/sprites/urn.2bpp"
+MapSprite:: INCBIN "gfx/sprites/map.2bpp"
 JustinSprite:: INCBIN "gfx/sprites/justin.2bpp"
 CueBallSprite:: INCBIN "gfx/sprites/cue_ball.2bpp"
+WifeSprite:: INCBIN "gfx/sprites/wife.2bpp"
 OldManSprite:: INCBIN "gfx/sprites/old_man.2bpp"
 HealerSprite:: INCBIN "gfx/sprites/healer.2bpp"
 GlassesGuySprite:: INCBIN "gfx/sprites/glasses_guy.2bpp"
 MizuSprite:: INCBIN "gfx/sprites/mizu.2bpp"
+GrampaltSprite:: INCBIN "gfx/sprites/grampalt.2bpp"
 
 
 SECTION "Party Icons", ROMX

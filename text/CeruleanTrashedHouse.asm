@@ -36,7 +36,7 @@ _CeruleanHouseTrashedText3::
 
 _CeruleanHouseTrashedText4::
 	text "My daughter has"
-	line "an obssesion with"
+	line "an obsession with"
 	cont "knights, DRAGONs,"
 	cont "and other things"
 	cont "like that..."

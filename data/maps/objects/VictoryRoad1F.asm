@@ -12,10 +12,10 @@ VictoryRoad1F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 29,  8, SPRITE_COOLTRAINER_F, STAY, RIGHT, 1, OPP_COOLTRAINER_F, 5
+	object_event 15,  8, SPRITE_COOLTRAINER_F, STAY, RIGHT, 1, OPP_COOLTRAINER_F, 5
 	object_event 50,  6, SPRITE_COOLTRAINER_M, STAY, LEFT,  2, OPP_COOLTRAINER_M, 11
-	object_event 47,  9, SPRITE_POKE_BALL, STAY, NONE, 3, TM_SKY_ATTACK
-	object_event  5,  6, SPRITE_POKE_BALL, STAY, NONE, 4, RARE_CANDY
+	object_event 48, 10, SPRITE_POKE_BALL, STAY, NONE, 3, TM_SKY_ATTACK
+	object_event  7,  6, SPRITE_POKE_BALL, STAY, NONE, 4, RARE_CANDY
 	object_event  0, 17, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 5 ; person
 	object_event  1, 17, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 6 ; person
 	object_event  0, 16, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 7 ; person

@@ -19,7 +19,7 @@ WardensHouse_Object:
 	object_event  8,  3, SPRITE_POKE_BALL, STAY, NONE, 2, RARE_CANDY
 	object_event  8,  4, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 3 ; person
 	object_event 19,  2, SPRITE_MIDDLE_AGED_WOMAN, STAY, DOWN, 4 ; person
-	object_event 21,  2, SPRITE_GAMBLER, STAY, DOWN, 5 ; person
+	object_event 21,  2, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 5 ; person
 	object_event 19,  5, SPRITE_YOUNGSTER, STAY, NONE, 6 ; person
 
 

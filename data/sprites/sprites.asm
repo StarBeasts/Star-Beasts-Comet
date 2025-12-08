@@ -88,6 +88,7 @@ SpriteSheetPointerTable:
 	overworld_sprite SoldierSprite, 12		  ; SPRITE_SOLDIER
 	overworld_sprite JustinSprite, 12       ; SPRITE_JUSTIN
 	overworld_sprite CueBallSprite, 12       ; SPRITE_CUE_BALL
+	overworld_sprite WifeSprite, 12       ; SPRITE_WIFE
 	overworld_sprite SheriffSprite, 12		  ; SPRITE_SHERIFF
 	overworld_sprite RemnantSprite, 12		  ; SPRITE_REMNANT
 	overworld_sprite SubrosianAltSprite, 12		  ; SPRITE_REMNANT
@@ -99,6 +100,7 @@ SpriteSheetPointerTable:
 	overworld_sprite HealerSprite, 12            ; SPRITE_HEALER
 	overworld_sprite GlassesGuySprite, 12            ; SPRITE_GLASSES_GUY
 	overworld_sprite MizuSprite, 12            ; SPRITE_MIZU
+	overworld_sprite GrampaltSprite, 12			; SPRITE_GRAMPALT
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER
@@ -128,6 +130,7 @@ SpriteSheetPointerTable:
 	overworld_sprite RuinedSignSprite, 4		  ; SPRITE_RUINED_SIGN
 	overworld_sprite CoffeeSprite, 4		  ; SPRITE_COFFEE
 	overworld_sprite UrnSprite, 4		  ; SPRITE_URN
+	overworld_sprite MapSprite, 4		  ; SPRITE_MAP
 	overworld_sprite AngelIcon, 4
 	overworld_sprite BallIcon,  4
 	overworld_sprite BlobIcon,  4

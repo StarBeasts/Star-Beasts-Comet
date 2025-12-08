@@ -30,7 +30,7 @@ Route25_TextPointers:
 Route25TrainerHeaders:
 	def_trainers
 Route25TrainerHeader0:
-	trainer EVENT_BEAT_ROUTE_25_TRAINER_0, 2, Route25BattleText1, Route25EndBattleText1, Route25AfterBattleText1
+	trainer EVENT_BEAT_ROUTE_25_TRAINER_0, 1, Route25BattleText1, Route25EndBattleText1, Route25AfterBattleText1
 Route25TrainerHeader1:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_1, 3, Route25BattleText2, Route25EndBattleText2, Route25AfterBattleText2
 Route25TrainerHeader2:

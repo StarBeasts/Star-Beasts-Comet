@@ -29,7 +29,7 @@ SSAnne2FRooms_Object:
 	object_event  1,  4, SPRITE_POKE_BALL, STAY, NONE, 9, RARE_CANDY
 	object_event 13,  4, SPRITE_GENTLEMAN, STAY, DOWN, 10 ; person
 	object_event 10,  4, SPRITE_LITTLE_BOY, STAY, NONE, 11 ; person
-	object_event 23,  4, SPRITE_BRUNETTE_GIRL, STAY, LEFT, 12 ; person
+	object_event 23,  4, SPRITE_WIFE, STAY, LEFT, 12 ; person
 	object_event 22,  4, SPRITE_BEAUTY, STAY, RIGHT, 13 ; person
 
 	def_warps_to SS_ANNE_2F_ROOMS

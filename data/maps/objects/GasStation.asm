@@ -12,7 +12,7 @@ GasStation_Object:
 	object_event  0,  5, SPRITE_CLERK, STAY, RIGHT, 2 ; person
 	object_event  2,  3, SPRITE_SCIENTIST, STAY, DOWN, 3 ; person
 	object_event 12,  2, SPRITE_OFFICER, STAY, UP, 4 ; person
-	object_event 14,  5, SPRITE_GRAMPS, STAY, UP, 5 ; person
+	object_event 14,  5, SPRITE_GRAMPALT, STAY, UP, 5 ; person
 	object_event  6,  1, SPRITE_CHEPPER, STAY, DOWN, 6 ; person
 
 	def_warps_to GAS_STATION

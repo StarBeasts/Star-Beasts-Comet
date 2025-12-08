@@ -5,7 +5,7 @@ _VermilionHouse3Text1::
 
 _VermilionHouse3Text2::
 	text "My daughter has"
-	line "an obssesion with"
+	line "an obsession with"
 	cont "knights, DRAGONs,"
 	cont "and other things"
 	cont "like that..."

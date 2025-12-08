@@ -38,3 +38,15 @@ _PewterHouse1Text3::
 	cont "LEAVE THAT DAMNED"
 	cont "THING ALONE!?"
 	done
+
+_PewterHouse1Text4::
+	text "I hate how small"
+	line "my husband makes"
+	cont "me look..."
+
+	para "Part of me likes"
+	line "it, but part of"
+	cont "me wishes I was"
+	cont "the bigger one..."
+	done
+
