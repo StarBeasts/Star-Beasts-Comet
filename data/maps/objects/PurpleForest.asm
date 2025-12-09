@@ -6,6 +6,10 @@ PurpleForest_Object:
 	warp_event 13, 39, VIRIDIAN_CITY, 8
 
 	def_bg_events
+	bg_event  4, 32,  6 
+	bg_event  6, 34,  7 
+	bg_event  18, 34,  8 
+	bg_event  20, 32,  9 
 
 	def_object_events
 	object_event 10,  8, SPRITE_CHANNELER, STAY, DOWN, 1 ; person

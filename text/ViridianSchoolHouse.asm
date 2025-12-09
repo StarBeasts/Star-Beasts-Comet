@@ -29,3 +29,13 @@ _SchoolText2::
 	para "Tee-hee!"
 	line "My baaaaaaddd!"
 	done
+
+_SchoolText3::
+	text "It's filled with"
+	line "snacks!"
+	done
+
+_SchoolText4::
+	text "Watch your sodium,"
+	line "it's a podium."
+	done
