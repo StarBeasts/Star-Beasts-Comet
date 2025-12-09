@@ -14,6 +14,8 @@
 	const SPRITESET_FUCHSIA         ; 0a
 	const SPRITESET_TRAILER_PARK    ; 0b
 	const SPRITESET_FELDSPAR_FLATS    ; 0c
+	const SPRITESET_X_ISLE   ; 0d
+	const SPRITESET_RANGER_EXTERIOR   ; 0e
 DEF NUM_SPRITE_SETS EQU const_value - 1
 
 ; split sprite set ids
