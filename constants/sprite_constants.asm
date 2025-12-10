@@ -96,6 +96,7 @@
 	const SPRITE_GLASSES_GUY
 	const SPRITE_MIZU
 	const SPRITE_GRAMPALT
+	const SPRITE_TEARWULF
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e

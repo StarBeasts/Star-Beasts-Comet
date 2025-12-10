@@ -9,6 +9,7 @@ FemaleTrainerList::
 EvilTrainerList::
 	db OPP_BIKER
 	db OPP_BURGLAR
+	db OPP_CUE_BALL
 	db OPP_GAMBLER
 	db OPP_ROCKER
 	db OPP_JUGGLER

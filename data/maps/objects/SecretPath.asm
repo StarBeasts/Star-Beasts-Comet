@@ -8,7 +8,7 @@ SecretPath_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  4,  7, SPRITE_MONSTER, STAY, NONE, 1 ; person
+	object_event  4,  7, SPRITE_TEARWULF, STAY, NONE, 1 ; person
 	object_event  5,  6, SPRITE_CUE_BALL, STAY, LEFT, 2 ; person
 
 

@@ -13,12 +13,12 @@ VillaB1F_Object:
 	object_event  4,  2, SPRITE_GHOST, STAY, DOWN, 1, ; doll
 	object_event  4,  6, SPRITE_FAIRY, STAY, DOWN, 2, ; doll
 	object_event  6,  1, SPRITE_GIOVANNI, STAY, RIGHT, 3, OPP_GIOVANNI, 5
-	object_event  7,  5, SPRITE_POKEDEX, STAY, RIGHT, 4
-	object_event  8,  5, SPRITE_POKEDEX, STAY, RIGHT, 5
-	object_event  9,  5, SPRITE_POKEDEX, STAY, RIGHT, 6
-	object_event  7,  6, SPRITE_POKEDEX, STAY, RIGHT, 7
-	object_event  8,  6, SPRITE_POKEDEX, STAY, RIGHT, 8
-	object_event  9,  6, SPRITE_POKEDEX, STAY, RIGHT, 9
+	object_event  7,  5, SPRITE_CLIPBOARD, STAY, RIGHT, 4
+	object_event  8,  5, SPRITE_CLIPBOARD, STAY, RIGHT, 5
+	object_event  9,  5, SPRITE_CLIPBOARD, STAY, RIGHT, 6
+	object_event  7,  6, SPRITE_CLIPBOARD, STAY, RIGHT, 7
+	object_event  8,  6, SPRITE_CLIPBOARD, STAY, RIGHT, 8
+	object_event  9,  6, SPRITE_CLIPBOARD, STAY, RIGHT, 9
 
 
 	def_warps_to VILLA_B1F

@@ -101,6 +101,7 @@ SpriteSheetPointerTable:
 	overworld_sprite GlassesGuySprite, 12            ; SPRITE_GLASSES_GUY
 	overworld_sprite MizuSprite, 12            ; SPRITE_MIZU
 	overworld_sprite GrampaltSprite, 12			; SPRITE_GRAMPALT
+	overworld_sprite TearwulfSprite, 12			; SPRITE_TEARWULF
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

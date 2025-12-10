@@ -130,7 +130,7 @@ HealerSprite:: INCBIN "gfx/sprites/healer.2bpp"
 GlassesGuySprite:: INCBIN "gfx/sprites/glasses_guy.2bpp"
 MizuSprite:: INCBIN "gfx/sprites/mizu.2bpp"
 GrampaltSprite:: INCBIN "gfx/sprites/grampalt.2bpp"
-
+TearwulfSprite:: INCBIN "gfx/sprites/tearwulf.2bpp"
 
 SECTION "Party Icons", ROMX
 
