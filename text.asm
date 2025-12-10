@@ -53,7 +53,6 @@ INCLUDE "text/SeafoamIslandsB4F.asm"
 
 INCLUDE "data/text/text_2.asm"
 
-INCLUDE "text/DiglettsCaveRoute2.asm"
 INCLUDE "text/ViridianForestNorthGate.asm"
 INCLUDE "text/Route2TradeHouse.asm"
 INCLUDE "text/Route2Gate.asm"
@@ -316,6 +315,7 @@ INCLUDE "text/Venus.asm"
 INCLUDE "text/Mars.asm"
 INCLUDE "text/move_deleter.asm"
 INCLUDE "text/SafariZoneEastRestHouse.asm"
+INCLUDE "text/DiglettsCaveRoute2.asm"
 
 SECTION "Pokédex Text", ROMX
 

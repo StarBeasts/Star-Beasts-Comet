@@ -11,5 +11,6 @@ DiglettsCaveRoute2_Object:
 
 	def_object_events
 	object_event 19,  6, SPRITE_COOLTRAINER_M, STAY, NONE, 1 ; person
+	object_event 5,  4, SPRITE_COOK, STAY, DOWN, 2 ; person
 
 	def_warps_to DIGLETTS_CAVE_ROUTE_2
