@@ -1479,7 +1479,7 @@ Defense: 50
 Special: 80
 Speed: 88
 
-Location: Mt. Moon, Cerulean Cape, Safari Zone
+Location: Cobalt Cave, Secret Garden, Windwalker's Way, Safari Zone
 
 Starting Moves:
 SCRATCH, LOW_KICK
@@ -1503,13 +1503,13 @@ SUBSTITUTE,    CUT,          STRENGTH
 
 Steel / Fighting
 
-HP: 30
-Attack: 110
+HP: 40
+Attack: 105
 Defense: 50
-Special: 135
+Special: 130
 Speed: 88
 
-Location: Evolve Speakeasy at Level 24, Windwalker's Cave, Safari Zone, Cerulean Cave
+Location: Evolve Speakeasy at Level 24, Safari Zone, Exiled Abyss, Mt. Valor
 
 Starting Moves:
 METAL_CLAW, SLAM, LOW_KICK
@@ -1546,7 +1546,7 @@ Defense: 55
 Special: 85
 Speed: 55
 
-Location: Viridian Forest, Celadon Game Corner (Prize), Safari Zone, Beast Mansion
+Location: Olivine Orchard, Rhinestone Casino (Prize), Safari Zone (Area 4)
 
 Starting Moves:
 POUND, DISABLE, ABSORB, CONFUSION
@@ -1554,6 +1554,7 @@ POUND, DISABLE, ABSORB, CONFUSION
 Learnset
 10, DIZZY_PUNCH
 15, BARRIER
+20, FAIRY_WIND
 25, ICE_PUNCH
 25, THUNDERPUNCH
 25, FIRE_PUNCH
@@ -1579,12 +1580,12 @@ CUT,          SURF,         STRENGTH,     FLASH
 Dragon / Fairy
 
 HP: 85
-Attack: 100
+Attack: 80
 Defense: 60
 Special: 135
 Speed: 105
 
-Location: Evolve Dragleam at Level 40, Cerulean Cave, Nature Preserve
+Location: Evolve Dragleam at Level 40, Mt. Valor, Nature Preserve
 
 Starting Moves:
 PSYBEAM, FLAMETHROWER, THUNDERBOLT, ICE_BEAM 
@@ -1592,6 +1593,7 @@ PSYBEAM, FLAMETHROWER, THUNDERBOLT, ICE_BEAM
 Learnset
 10, DIZZY_PUNCH
 15, SUBSTITUTE
+20, FAIRY_WIND
 25, PSYBEAM
 38, ICE_PUNCH
 38, THUNDERPUNCH
@@ -1628,16 +1630,16 @@ Defense: 25
 Special: 55
 Speed: 125
 
-Location: Route 5, Cerulean Cape, Route 11
+Location: Route 9, Secret Garden, Feldspar Flats Exterior
 
 Starting Moves:
 POUND, DISABLE
 
 Learnset
-15, GROWL
+15, SCREECH
 19, SAND_ATTACK
 24, REFLECT
-31, TIME_STOP
+28, TIME_STOP
 40, EARTHQUAKE
 
 TM / HM
@@ -1647,7 +1649,7 @@ PAY_DAY,      COUNTER, THUNDERBOLT,  THUNDER,
 PSYCHIC,    WARP,     MIMIC,        DOUBLE_TEAM, 
 REFLECT,      BIDE,         METRONOME,    SWIFT,         
 DREAM_EATER,  REST,         THUNDER_WAVE, 
-PSYWAVE,      MOONBLAST,   SUBSTITUTE,   FLASH
+PSYWAVE,      SUBSTITUTE,   FLASH
 
 #51 - Magusand
 

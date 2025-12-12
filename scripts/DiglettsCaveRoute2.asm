@@ -33,7 +33,7 @@ StoveSalesmanText:
 	ld hl, .NoMoneyText
 	jr .printText
 .enoughMoney
-	lb bc, WEEZING, 15
+	lb bc, WEEZING, 13
 	call GivePokemon
 	jr nc, .done
 	xor a
