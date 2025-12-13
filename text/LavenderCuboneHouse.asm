@@ -4,8 +4,8 @@ _LavenderHouse2Text1::
 
 _LavenderHouse2Text_1d9dc::
 	text "I wish those"
-	line "horrible ROCKETs"
-	cont "would leave!"
+	line "horrible SIDUS"
+	cont "jerks would leave!"
 
 	para "They're desecrating"
 	line "holy land, and"

@@ -14,7 +14,7 @@ _IndigoPlateauEndBattleText2::
 _IndigoPlateauAfterBattleText2::
 	text "You're the kid"
 	line "that beat LUCIAN"
-	cont "of TEAM ROCKET?"
+	cont "of SIDUS?"
 
 	para "That's really you?"
 	line "No kidding!"

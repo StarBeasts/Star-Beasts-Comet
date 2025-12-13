@@ -154,13 +154,14 @@ _CeruleanCityText6::
 	line "were robbed."
 
 	para "It's obvious that"
-	line "TEAM ROCKET is"
-	cont "behind this most"
-	cont "heinous crime!"
+	line "SIDUS INDUSTRIES"
+	cont "are to blame for"
+	cont "this most heinous"
+	cont "crime!"
 
 	para "Even our POLICE"
 	line "force has trouble"
-	cont "with the ROCKETs!"
+	cont "with SIDUS!"
 	done
 
 _CeruleanCityText_19730::

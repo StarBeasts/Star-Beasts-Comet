@@ -17,14 +17,14 @@
 	tmhm HURRICANE,   DRAGON_CLAW,    \
 	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BLIZZARD,     HYPER_BEAM,   \
-	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
 	     MEGA_DRAIN,   SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
 	     DIG,   PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      MOONBLAST,   SUBSTITUTE,   \
-	     CUT,          FLY,          STRENGTH,     FLASH
+	     CUT,          FLY,          FLASH
 	; end
 
 	db BANK(PersianPicFront)

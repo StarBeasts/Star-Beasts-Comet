@@ -448,12 +448,12 @@ _ArbokDexEntry::
 	dex
 
 _ParasectDexEntry::
-	text "Its tiny metal"
-	next "body houses"
-	next "incredible power."
+	text "It has an infinite"
+	next "energy reactor in"
+	next "lieu of a heart."
 
-	page "Its infinite"
-	next "energy reactor is"
+	page "Its small metal"
+	next "body is hollow and"
 	next "fragile, however"
 	dex
 

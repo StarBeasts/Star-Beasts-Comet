@@ -67,7 +67,7 @@ _Route1Text3::
 	cont "through here"
 	cont "a while ago,"
 	cont "muttering about"
-	cont "rockets or"
+	cont "sawdust or"
 	cont "something..."
 
 	para "They seemed"

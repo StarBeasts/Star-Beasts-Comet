@@ -279,14 +279,15 @@ _CinnabarPokecenterGuyText::
 _SaffronCityPokecenterGuyText1::
 	text "It would be great"
 	line "if the ELITE FOUR"
-	cont "came and stomped"
-	cont "TEAM ROCKET!"
+	cont "came and kicked"
+	cont "SIDUS INDUSTRIES"
+	cont "to the curb!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
-	line "off! We can go"
-	cont "out safely again!"
+	text "SIDUS took off!"
+	line "We can go out"
+	cont "safely again!"
 	cont "That's great!"
 	done
 
