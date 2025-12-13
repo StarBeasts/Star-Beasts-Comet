@@ -28,7 +28,7 @@ TrainerNames::
 	db "PROF.CHERRY@"
 	db "SCIENTIST@"
 	db "LUCIAN@"
-	db "ROCKET@"
+	db "SIDUS@"
 	db "RANGER♂@"
 	db "RANGER♀@"
 	db "REVICHE@"
