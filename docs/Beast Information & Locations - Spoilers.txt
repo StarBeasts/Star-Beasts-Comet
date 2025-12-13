@@ -2512,7 +2512,7 @@ Defense: 65
 Special: 60
 Speed: 80
 
-Location: Viridian Cave (Only one), Routes 12-15, Safari Zone, Beast Mansion
+Location: Olivine Orchard (Only one), Safari Zone, Western Cycling Road, Route 10, Macrobia Ruins
 
 Starting Moves:
 DOUBLE_KICK, SCRATCH
@@ -2522,7 +2522,7 @@ Learnset
 20, METAL_CLAW
 25, BUG_BITE
 29, SLASH
-33, DRAIN_KISS
+35, DRAIN_KISS
 38, GUILLOTINE
 
 TM / HM
@@ -2543,7 +2543,7 @@ Defense: 80
 Special: 65
 Speed: 100
 
-Location: Evolve Slashopper at Level 34, Beast Mansion
+Location: Evolve Slashopper at Level 34, Macrobia Ruins
 
 Starting Moves:
 SCRATCH, DOUBLE_KICK, LEECH_LIFE, SLASH 
@@ -2577,7 +2577,7 @@ Defense: 62
 Special: 52
 Speed: 45
 
-Location: Too common to list (Any body of water, Seafoam Islands)
+Location: Too common to list (Any body of water), Fishing - Good Rod (Everywhere), Fishing - Super Rod (Too common to list)
 
 Starting Moves:
 LEECH_LIFE, PIN_MISSILE, POISON_STING
@@ -2611,7 +2611,7 @@ Defense: 136
 Special: 122
 Speed: 35
 
-Location: Evolve Infestin at Level 30, Any body of water, Seafoam Islands, Fishing - Good Rod (Everywhere), Fishing - Super Rod (Route 23, Cerulean Cave)
+Location: Evolve Infestin at Level 30, Red Gold Reef, Sodalite Sinkhole, Sea Route 13, Platinum Path (Water), Mt. Valor Exterior, Fishing - Super Rod (Sodalite Sinkhole, Macrobia Ruins, Route 14 North, Mt. Valor and Mt. Valor Exterior)
 
 Starting Moves:
 POISON_STING, PIN_MISSILE, WATER_GUN
@@ -2647,14 +2647,15 @@ Defense: 80
 Special: 80
 Speed: 60
 
-Location: Routes 7-8, Route 10, Power Plant, Beast Mansion
+Location: Steve's House Yard, Dolomite Dam Interior
 
 Starting Moves:
 THUNDERSHOCK, SCREECH
 
 Learnset
+16, SLAM
 21, THUNDER_WAVE
-25, TAKE_DOWN
+25, TRI_ATTACK
 29, HYPNOSIS
 35, THUNDER
 41, SWIFT
@@ -2679,7 +2680,7 @@ Defense: 100
 Special: 120
 Speed: 80
 
-Location: Evolve Electrio (Thunder Stone), Power Plant, Cerulean Cave
+Location: Evolve Electrio (Thunder Stone), Dolomite Dam Interior, Mt. Valor (Area 1)
 
 Starting Moves:
 THUNDERSHOCK, SCREECH, HYPNOSIS
@@ -2710,9 +2711,9 @@ Ground / Steel
 
 HP: 85
 Attack: 110
-Defense: 90
+Defense: 70
 Special: 65
-Speed: 97
+Speed: 95
 
 Location: Cracture Chasm
 
@@ -2720,7 +2721,7 @@ Starting Moves:
 PECK, HORN_ATTACK, SAND_ATTACK
 
 Learnset
-16, DIG
+19, DIG
 24, DRILL_PECK
 32, DRILL_RUN
 38, SPIKE_CANNON
@@ -2747,7 +2748,7 @@ Defense: 95
 Special: 95
 Speed: 23
 
-Location: Route 13, Routes 16-18, Safari Zone
+Location: In-game trade (Dolomite Dam Observation Deck), Safari Zone, Route 7, Western Cycling Road, Peridot Precinct
 
 Starting Moves:
 LICK
@@ -2776,7 +2777,7 @@ Defense: 135
 Special: 135
 Speed: 33
 
-Location: Evolve Tungoon at Level 31, Cerulean Cave
+Location: Evolve Tungoon at Level 31, Mt. Valor
 
 Starting Moves:
 LICK, CONFUSE_RAY, BIDE
@@ -2807,7 +2808,7 @@ Defense: 75
 Special: 95
 Speed: 95
 
-Location: Seafoam Islands
+Location: Sodalite Sinkhole
 
 Starting Moves:
 GROWL, LICK, SING
@@ -2840,7 +2841,7 @@ Defense: 60
 Special: 50
 Speed: 30
 
-Location: Route 7, Beast Mansion, Fishing - Super Rod (Route 15, Celadon City)
+Location: Wastewater Plant, Sodalite Sinkhole, Fishing - Super Rod (Route 6, Wastewater Plant, Feldspar Flats Exterior)
 
 Starting Moves:
 SMOG, POISON_GAS
@@ -2859,9 +2860,8 @@ TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,
 BUBBLEBEAM,   WATER_GUN,     COUNTER, DRAGONBREATH,  
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    SELFDESTRUCT, EGG_BOMB,     
-FIRE_BLAST,   SWIFT,        SOFTBOILED,
-DREAM_EATER,  REST, EXPLOSION,
-SUBSTITUTE,   SURF
+FIRE_BLAST,   SWIFT, DREAM_EATER,  REST, 
+EXPLOSION, SUBSTITUTE,   SURF
 
 #88 - Reekoon
 
@@ -2873,7 +2873,7 @@ Defense: 80
 Special: 75
 Speed: 60
 
-Location: Evolve Eggerot at Level 30, Beast Mansion
+Location: Evolve Eggerot at Level 30, Macrobia Ruins, Fishing - Super Rod (Macrobia Ruins)
 
 Starting Moves: 
 SLUDGE, HARDEN, POISON_GAS
@@ -2893,7 +2893,7 @@ BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,
 COUNTER, DRAGONBREATH,  MIMIC,DOUBLE_TEAM,
 REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT,
  EGG_BOMB,     FIRE_BLAST,   SWIFT,        
-SKULL_BASH,   SOFTBOILED,   DREAM_EATER,  
+SKULL_BASH,   DREAM_EATER,  
 REST,   EXPLOSION,    SUBSTITUTE,   
 SURF,         STRENGTH
 
@@ -2907,10 +2907,10 @@ Defense: 92
 Special: 125
 Speed: 90
 
-Location: Evolve Reekoon at Level 50, Cerulean Cave
+Location: Evolve Reekoon at Level 50, ???
 
 Starting Moves:
-SLUDGE, DRAGONBREATH, FLAMETHROWER, BODY_SLAM
+SLUDGE, DRAGONBREATH, BODY_SLAM, FLAMETHROWER
 
 Learnset
 50, DRAGONBREATH
@@ -2927,7 +2927,7 @@ DRAGONBREATH,  THUNDERBOLT,  THUNDER,
 EARTHQUAKE,   FISSURE,      MIMIC,
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        
-SKULL_BASH,   SOFTBOILED,   DREAM_EATER,  REST,         
+SKULL_BASH,   DREAM_EATER,  REST,         
 THUNDER_WAVE, EXPLOSION,    ROCK_SLIDE,   
 SUBSTITUTE,  SURF,         STRENGTH,     FLASH
 
@@ -2941,7 +2941,7 @@ Defense: 85
 Special: 64
 Speed: 32
 
-Location: In-game trade (Building leading to Viridian Forest), Route 21, Seafoam Islands, Any body of water, Fishing - Good Rod (Everywhere), 
+Location: In-game trade (Emerald Acres), Sea Route 13, Sodalite Sinkhole, Any body of water, Fishing - Good Rod (Everywhere), 
 Fishing - Super Rod (Too common to list)
 
 Starting Moves:
@@ -2974,7 +2974,7 @@ Defense: 105
 Special: 85
 Speed: 52
 
-Location: Evolve Climpale (Water Stone), Any body of water
+Location: Evolve Climpale (Water Stone), Sodalite Sinkhole, Sea Route 13 (Water), Platinum Path (Water), Mt. Valor Exterior
 
 Starting Moves:
 CLAMP, BUBBLEBEAM, BRICK_BREAK, AURA_SPHERE
@@ -2994,7 +2994,7 @@ MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  EARTHQUAKE,
 FISSURE,        MIMIC,        DOUBLE_TEAM,  
 REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT,
 SWIFT,        SKULL_BASH,   REST,         EXPLOSION,
- ROCK_SLIDE,   SUBSTITUTE,   CUT,          SURF,         STRENGTH
+ROCK_SLIDE,   SUBSTITUTE,   CUT,          SURF,         STRENGTH
 
 #92 - Stranghost
 

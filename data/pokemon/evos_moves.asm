@@ -2037,7 +2037,7 @@ PonytaEvosMoves:
 	db 20, METAL_CLAW
 	db 25, BUG_BITE
 	db 29, SLASH
-	db 33, DRAIN_KISS
+	db 35, DRAIN_KISS
 	db 38, GUILLOTINE
 	db 0
 
