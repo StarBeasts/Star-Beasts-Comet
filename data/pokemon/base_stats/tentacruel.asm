@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,          \
 	     SOFTBOILED,   DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         FLASH
+	     SURF
 	; end
 
 	db BANK(TentacruelPicFront)

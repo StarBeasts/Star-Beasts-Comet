@@ -2150,7 +2150,7 @@ Defense: 58
 Special: 30
 Speed: 40
 
-Location: Mt. Moon, Rock Tunnel, Victory Road
+Location: Cobalt Cave
 
 Starting Moves:
 BITE, LOW_KICK
@@ -2181,7 +2181,7 @@ Defense: 58
 Special: 50
 Speed: 40
 
-Location: Evolve Cromag at Level 28, Victory Road
+Location: Evolve Cromag at Level 28, Exiled Abyss, Platinum Path
 
 Starting Moves:
 BITE, LOW_KICK, LEER
@@ -2212,7 +2212,7 @@ Defense: 70
 Special: 65
 Speed: 55
 
-Location: Evolve Luzonen at Level 40, Victory Road
+Location: Evolve Luzonen at Level 40, Platinum Path
 
 Starting Moves:
 SUBMISSION, LOW_KICK, ROCK_THROW
@@ -2232,7 +2232,7 @@ DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,
 SEISMIC_TOSS, SHADOW_CLAW,         DRAGONBREATH, 
 EARTHQUAKE,   FISSURE, MIMIC,        DOUBLE_TEAM, 
 BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,  
-REST, ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   
+REST, ROCK_SLIDE,   SUBSTITUTE,   
 CUT,          SURF,         STRENGTH 
 
 #69 - Spriggle
@@ -2245,7 +2245,7 @@ Defense: 80
 Special: 28
 Speed: 45
 
-Location: Routes 5-7, Routes 12-15, Route 21, Route 22, Route 24
+Location: Too common to list
 
 Starting Moves:
 SCRATCH, SHARPEN
@@ -2278,7 +2278,7 @@ Defense: 110
 Special: 45
 Speed: 49
 
-Location: Evolve Spriggle at Level 21, Route 6, Routes 12-15, Route 23
+Location: Evolve Spriggle at Level 21, Route 8, Route 9, Route 14 North
 
 Starting Moves:
 SCRATCH, SHARPEN, METAL_CLAW
@@ -2337,12 +2337,12 @@ SUBSTITUTE,   CUT, STRENGTH
 Steel / Normal
 
 HP: 60
-Attack: 185
+Attack: 185 (not a typo)
 Defense: 80
 Special: 40
 Speed: 70
 
-Location: Evolve Weedimp (Holy Soul), Routes 12-13, Cerulean Cave
+Location: Evolve Weedimp (Holy Soul), Mt. Valor Peak
 
 Starting Moves:
 METAL_CLAW, SHARPEN
@@ -2373,7 +2373,7 @@ Defense: 60
 Special: 110
 Speed: 55
 
-Location: Seafoam Islands, Fishing - Super Rod (Route 15, Celadon City)
+Location: Fishing - Super Rod (Route 6, Wastewater Plant, Feldspar Flats Exterior), Ranger Station (Only one)
 
 Starting Moves:
 SLUDGE, WATER_GUN
@@ -2382,7 +2382,7 @@ Learnset
 19, SCALD
 22, TOXIC
 26, ACID_ARMOR
-29, RECOVER
+29, NOURISH
 35, SLUDGE_BOMB
 39, HYDRO_PUMP
 
@@ -2392,10 +2392,10 @@ BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,
 HYPER_BEAM,   PAY_DAY,      COUNTER,  MEGA_DRAIN,   
 DRAGONBREATH,  FISSURE,     PSYCHIC,    WARP,     
 MIMIC,  DOUBLE_TEAM,  REFLECT,      BIDE,   METRONOME,    
-SELFDESTRUCT, FIRE_BLAST,   SWIFT,   SOFTBOILED,
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,   NOURISH,
 DREAM_EATER,  REST,         THUNDER_WAVE, 
 PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   
-MOONBLAST,   SUBSTITUTE,   SURF,         FLASH
+SUBSTITUTE,   SURF
 
 #74 - Rocken
 
@@ -2407,13 +2407,13 @@ Defense: 80
 Special: 30
 Speed: 60
 
-Location: Mt. Moon, Rock Tunnel, Victory Road
+Location: Cobalt Cave, Miserite Meadow, Platinum Path
 
 Starting Moves:
 TACKLE, GROWL
 
 Learnset
-13, SING
+15, SING
 17, ROCK_THROW
 21, SELFDESTRUCT
 26, HYPER_VOICE
@@ -2438,7 +2438,7 @@ Defense: 100
 Special: 130
 Speed: 60
 
-Location: Evolve Rocken (Holy Soul), Victory Road
+Location: Evolve Rocken (Holy Soul), Platinum Path, Adamantium Apex
 
 Starting Moves:
 SING, MEDITATE, RECOVER
@@ -2464,7 +2464,7 @@ DIG,          PSYCHIC,    WARP,     MIMIC,
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE,
 SUBSTITUTE,   CUT,          STRENGTH,     FLASH
 
 #76 - Rockowt
@@ -2477,14 +2477,14 @@ Defense: 100
 Special: 60
 Speed: 45
 
-Location: Evolve Rocken (Steely Gene), Victory Road
+Location: Evolve Rocken (Steely Gene), Platinum Path (Wulfenite Woods)
 
 Starting Moves:
 RAGE, GROWL
 
 Learnset
-15, SCREECH
-16, ROCK_THROW
+17, SCREECH
+18, ROCK_THROW
 21, SELFDESTRUCT
 29, HYPER_VOICE
 36, SKULL_BASH
