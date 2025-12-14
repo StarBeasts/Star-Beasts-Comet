@@ -24,7 +24,7 @@
 	     SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     SUBSTITUTE,   \
-	     CUT,          STRENGTH,     FLASH
+	     STRENGTH
 	; end
 
 	db BANK(EeveePicFront)

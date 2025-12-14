@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
 	     REST,          \
 	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
-	     CUT,          STRENGTH
+	     STRENGTH
 	; end
 
 	db BANK(DittoPicFront)

@@ -24,7 +24,7 @@
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     PSYWAVE,      ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE, SNOWGRAVE,   \
-	     CUT,          FLY,          SURF,         STRENGTH,     FLASH
+	     CUT,          SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(PinsirPicFront)

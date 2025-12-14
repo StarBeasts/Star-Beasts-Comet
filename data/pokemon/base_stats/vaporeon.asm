@@ -24,7 +24,7 @@
 	     SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     PSYWAVE,      SUBSTITUTE,   \
-	     CUT,          SURF,         STRENGTH,     FLASH
+	     SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(VaporeonPicFront)
