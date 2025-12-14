@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, SKULL_BASH,   \
 	     REST,          \
 	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
-	     CUT,          FLASH
+	     CUT
 	; end
 
 	db BANK(DrowzeePicFront)

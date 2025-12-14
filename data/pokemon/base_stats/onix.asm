@@ -21,7 +21,7 @@
 	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,    \
 	     EARTHQUAKE,   FISSURE,      DIG,   \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SELFDESTRUCT, FIRE_BLAST,   SKULL_BASH,   \
+	     SELFDESTRUCT, SKULL_BASH,   \
 	     SOFTBOILED,   REST,         THUNDER_WAVE, \
 	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
 	     CUT,          STRENGTH

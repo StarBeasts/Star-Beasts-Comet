@@ -3006,7 +3006,7 @@ Defense: 63
 Special: 33
 Speed: 63
 
-Location: Beast Tower
+Location: Galena Graveyard
 
 Starting Moves:
 SCRATCH, DOUBLE_TEAM, NIGHT_SHADE
@@ -3027,10 +3027,9 @@ COUNTER,       SHADOW_CLAW,         MEGA_DRAIN,   DRAGONBREATH,
 WARP,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    SELFDESTRUCT, FIRE_BLAST,   SWIFT,      
 DREAM_EATER,  REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
-SUBSTITUTE,   CUT,          FLASH
+PSYWAVE,      EXPLOSION, SUBSTITUTE,   CUT,          FLASH
 
-#93 - Slasher
+#93 - Sileknight
 
 Ghost / Steel
 
@@ -3040,7 +3039,7 @@ Defense: 83
 Special: 45
 Speed: 83
 
-Location: Evolve Stranghost at Level 25, Beast Tower
+Location: Evolve Stranghost at Level 25, Galena Graveyard
 
 Starting Moves:
 SCRATCH, DOUBLE_TEAM, NIGHT_SHADE, SHADOW_CLAW
@@ -3060,8 +3059,7 @@ THUNDER,      FISSURE,      DIG,          PSYCHIC,    WARP,
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
-SUBSTITUTE,   CUT,          FLASH
+PSYWAVE,      EXPLOSION, SUBSTITUTE,   CUT,          FLASH
 
 #94 - Decapalon
 
@@ -3073,7 +3071,7 @@ Defense: 103
 Special: 63
 Speed: 113
 
-Location: Evolve Slasher at Level 40, Beast Tower
+Location: Evolve Slasher at Level 40, Galena Graveyard (Bottom Floor)
 
 Starting Moves:
 METAL_CLAW, AERIAL_ACE, SLASH, SHADOW_CLAW
@@ -3092,20 +3090,19 @@ FISSURE,      DIG,          PSYCHIC,    WARP,     MIMIC,
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
-SUBSTITUTE,   CUT,          FLASH
+PSYWAVE,      EXPLOSION,  SUBSTITUTE,   CUT,          FLASH
 
-#95 - Mosston
+#95 - Mosstache
 
 Rock / Grass
 
 HP: 60
-Attack: 50
+Attack: 60
 Defense: 120
 Special: 80
 Speed: 30
 
-Location: Rock Tunnel, Victory Road
+Location: Underground Path, Miserite Meadow, Exiled Abyss, Platinum Path (Wulfenite Woods), Adamantium Apex
 
 Starting Moves:
 TACKLE, SCREECH, REST
@@ -3125,10 +3122,9 @@ TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   COUNTER,
 SHADOW_CLAW,         MEGA_DRAIN,   SOLARBEAM,    
 DRAGONBREATH,    EARTHQUAKE,   FISSURE,      DIG,   
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
-METRONOME,    SELFDESTRUCT, FIRE_BLAST, 
-SKULL_BASH,   REST,         THUNDER_WAVE, 
-EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
-SUBSTITUTE,   CUT,          STRENGTH
+METRONOME,    SELFDESTRUCT,SKULL_BASH,   REST,         
+THUNDER_WAVE, EXPLOSION,    ROCK_SLIDE, 
+SUBSTITUTE,   CUT,  STRENGTH
 
 #96 - Veilumber
 
@@ -3140,7 +3136,7 @@ Defense: 118
 Special: 65
 Speed: 84
 
-Location: Route 11, Route 15
+Location: Route 4, Route 9, Feldspar Flats Exterior
 
 Starting Moves:
 WITHDRAW, VICEGRIP
@@ -3159,7 +3155,7 @@ DOUBLE_EDGE, COUNTER, MEGA_DRAIN,
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    SELFDESTRUCT, SKULL_BASH,   
 REST,          EXPLOSION,    ROCK_SLIDE,   
-SUBSTITUTE,   CUT,          FLASH
+SUBSTITUTE,   CUT
 
 #97 - Balisade
 
@@ -3171,7 +3167,7 @@ Defense: 168
 Special: 92
 Speed: 52
 
-Location: Evolve Veilumber at Level 29, Route 23, Victory Road, Cerulean Cave
+Location: Evolve Veilumber at Level 29, Adamantium Apex, Mt. Valor (Area 1)
 
 Starting Moves:
 CLAMP, WITHDRAW, HORN_ATTACK, COUNTER
@@ -3194,7 +3190,7 @@ DOUBLE_TEAM,  REFLECT,      BIDE,
 METRONOME, SELFDESTRUCT, SKULL_BASH,   
 REST,         THUNDER_WAVE, EXPLOSION,    
 ROCK_SLIDE,   SUBSTITUTE,   
-CUT,          STRENGTH,     FLASH
+CUT,          STRENGTH
 
 #98 - Scorpsy
 
@@ -3206,7 +3202,7 @@ Defense: 90
 Special: 35
 Speed: 65
 
-Location: Route 1, Route 22, Route 9, Route 11, Route 16
+Location: Too common to list
 
 Starting Moves:
 POISON_STING, HARDEN
@@ -3239,7 +3235,7 @@ Defense: 115
 Special: 75
 Speed: 95
 
-Location: Evolve Scorpsy (Steely Gene)
+Location: Evolve Scorpsy (Steely Gene), Sodalite Sinkhole, X Isle Xterior
 
 Starting Moves:
 POISON_STING, METAL_CLAW, VICEGRIP
@@ -3264,7 +3260,7 @@ DRAGONBREATH, EARTHQUAKE,   FISSURE,
 DIG,  MIMIC,        DOUBLE_TEAM,  BIDE,         
 METRONOME,   SWIFT,        SKULL_BASH,   
 REST,         THUNDER_WAVE, ROCK_SLIDE,
-MOONBLAST,   SUBSTITUTE,   CUT,          STRENGTH
+SUBSTITUTE,   CUT,          STRENGTH
 
 #100 - Zapodi
 
@@ -3276,7 +3272,7 @@ Defense: 40
 Special: 55
 Speed: 45
 
-Location: Too common to list
+Location: S.S. Rubin (Only one), Too common to list
 
 Starting Moves:
 BITE, SCREECH
@@ -3308,7 +3304,7 @@ Defense: 70
 Special: 85
 Speed: 77
 
-Location: Evolve Zapodi at Level 21, Route 10, Route 16, Route 18, Beast Mansion
+Location: Evolve Zapodi at Level 21, Route 7, Turquoise Trailer Park, Peridot Precinct
 
 Starting Moves:
 BITE, SCREECH, THUNDERSHOCK
@@ -3336,13 +3332,13 @@ CUT,          FLASH
 
 Electric / Dark
 
-HP: 90
-Attack: 90
+HP: 85
+Attack: 85
 Defense: 75
 Special: 115
 Speed: 110
 
-Location: Evolve Shochran (Dark Soul), Safari Zone, Cerulean Cave
+Location: Evolve Shochran (Dark Soul), Safari Zone, Mt. Valor
 
 Starting Moves:
 BITE, METAL_CLAW, THUNDERSHOCK, NIGHT_SHADE
@@ -3373,13 +3369,13 @@ CUT,          SURF,         STRENGTH,     FLASH
 
 Psychic / Ghost
 
-HP: 160
+HP: 158
 Attack: 1
 Defense: 1
-Special: 166
+Special: 145
 Speed: 145
 
-Location: In-game trade (Celadon City), Beast Mansion
+Location: In-game trade (Rhinestone?), Macrobia Ruins
 
 Starting Moves:
 CONFUSE_RAY, PSYBEAM, HYPNOSIS, SCREECH 
@@ -3403,7 +3399,7 @@ THUNDERBOLT,  THUNDER,      PSYCHIC,    WARP,
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME, SELFDESTRUCT, FIRE_BLAST,   SWIFT, 
 DREAM_EATER,  REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    SUBSTITUTE,   
+PSYWAVE,      EXPLOSION, MOONBLAST,    SUBSTITUTE,   
 FLY,          SURF,         FLASH
 
 #104 - Trapestry
@@ -3416,7 +3412,7 @@ Defense: 30
 Special: 35
 Speed: 95
 
-Location: Beast Tower
+Location: Galena Graveyard
 
 Starting Moves:
 SCRATCH, GROWL, DISABLE
@@ -3450,7 +3446,7 @@ Defense: 145
 Special: 95
 Speed: 30
 
-Location: Evolve Trapestry at Level 28, Beast Tower, Cerulean Cave
+Location: Evolve Trapestry at Level 28, Galena Graveyard, Mt. Valor
 
 Starting Moves:
 SCREECH, SHADOW_CLAW, WRAP, HEADBUTT
@@ -3473,8 +3469,8 @@ EARTHQUAKE,   FISSURE,      DIG,            MIMIC,
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  REST,         THUNDER_WAVE, 
-EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
-CUT,          STRENGTH,     FLASH
+EXPLOSION,    ROCK_SLIDE,  MOONBLAST,  
+SUBSTITUTE,   CUT,          STRENGTH,     FLASH
 
 #106 - Shadolos
 

@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, SKULL_BASH,   \
 	     REST,         THUNDER_WAVE, \
 	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
-	     CUT,          STRENGTH,     FLASH
+	     CUT,          STRENGTH
 	; end
 
 	db BANK(HypnoPicFront)
