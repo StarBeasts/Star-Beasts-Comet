@@ -24,7 +24,7 @@
 	     SWIFT,        SKULL_BASH,   \
 	     REST,         THUNDER_WAVE, \
 	     PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   \
-	     CUT,          SURF,         STRENGTH,     FLASH
+	     CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(SeadraPicFront)

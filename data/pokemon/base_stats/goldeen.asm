@@ -24,7 +24,7 @@
 	        \
 	     DREAM_EATER,  REST,          \
 	     PSYWAVE,       SUBSTITUTE,   \
-	     SURF,         FLASH
+	     SURF
 	; end
 
 	db BANK(GoldeenPicFront)

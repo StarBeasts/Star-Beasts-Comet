@@ -532,7 +532,7 @@ StaryuEvosMoves:
 	db 17, ROCK_THROW
 	db 22, MIMIC
 	db 27, RECOVER
-	db 32, EARTHQUAKE
+	db 33, EARTHQUAKE
 	db 37, SHADOW_CLAW
 	db 42, SKULL_BASH
 	db 47, EXPLOSION
@@ -1919,10 +1919,10 @@ StarmieEvosMoves:
 	db 17, ROCK_THROW
 	db 22, MIMIC
 	db 27, WING_ATTACK
-	db 32, EARTHQUAKE
+	db 32, ROCK_SLIDE
 	db 37, HURRICANE
 	db 42, AURA_SPHERE
-	db 47, ROCK_SLIDE
+	db 47, EARTHQUAKE
 	db 0
 
 BulbasaurEvosMoves:

@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   \
-	     CUT,          STRENGTH,     FLASH
+	     CUT,          STRENGTH
 	; end
 
 	db BANK(StaryuPicFront)

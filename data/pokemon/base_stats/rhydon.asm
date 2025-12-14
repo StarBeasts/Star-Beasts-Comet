@@ -24,7 +24,7 @@
 	     SWIFT,       \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      SUBSTITUTE,   \
-	     CUT,          FLASH
+	     FLASH
 	; end
 
 	db BANK(RhydonPicFront)

@@ -3482,7 +3482,7 @@ Defense: 80
 Special: 90
 Speed: 125
 
-Location: In-game trade (Second floor of building on Route 18), Dojo (choose between Shadolos or Auraklos), Victory Road, Nature Preserve
+Location: Yin-Yang Dojo (choose between Shadolos or Auraklos), In-game trade (Peridot Precinct Interior),  Platinum Path (Wulfenite Woods), Nature Preserve
 
 Starting Moves:
 SCREECH, SWORDS_DANCE, JUMP_KICK, SHADOW_CLAW
@@ -3490,7 +3490,7 @@ SCREECH, SWORDS_DANCE, JUMP_KICK, SHADOW_CLAW
 Learnset
 30, SHADOW_PURGE
 35, MINIMIZE
-40, DOUBLE_EDGE
+40, SPIRIT_BREAK
 45, CRUNCH
 50, SUBMISSION
 53, LIMB_STRIKE
@@ -3506,8 +3506,8 @@ EARTHQUAKE,   FISSURE,      PSYCHIC,    WARP,
 MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
 SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
-PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
-CUT,          FLY,          STRENGTH,     FLASH
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE, MOONBLAST,
+SUBSTITUTE,   CUT,          FLY,          STRENGTH,     FLASH
 
 #107 - Auraklos
 
@@ -3519,7 +3519,7 @@ Defense: 90
 Special: 125
 Speed: 125
 
-Location: In-game trade (Windwalker's Cave), Dojo (choose between Auraklos or Shadolos), Victory Road, Nature Preserve
+Location: In-game trade (Windwalker's Way), Yin-Yang Dojo (choose between Auraklos or Shadolos), Adamantium Apex, Nature Preserve
 
 Starting Moves:
 BRICK_BREAK, PSYBEAM, LIGHT_SCREEN, REFLECT
@@ -3555,7 +3555,7 @@ Defense: 50
 Special: 75
 Speed: 70
 
-Location: In-game trade (House to the east of Mt. Moon), Route 6, Route 17
+Location: In-game trade (Route 2 House), Route 8, Western Cycling Road, Macrobia Ruins
 
 Starting Moves:
 SHADOW_CLAW, FIRE_PUNCH
@@ -3587,11 +3587,11 @@ Dark / Fighting
 
 HP: 110
 Attack: 123
-Defense: 65
+Defense: 72
 Special: 100
 Speed: 65
 
-Location: Evolve Agahnoblin at Level 28
+Location: Evolve Agahnoblin at Level 28, Macrobia Ruins (Bottom Floor)
 
 Starting Moves:
 AURA_SPHERE, MACH_PUNCH, SHADOW_CLAW, FIRE_PUNCH
@@ -3622,13 +3622,13 @@ CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
 Rock / Steel
 
-HP: 50
+HP: 75
 Attack: 90
-Defense: 160
-Special: 30
+Defense: 140
+Special: 50
 Speed: 20
 
-Location: Evolve Charkonro (Water Stone), Rock Tunnel
+Location: Purchase (Underground Path, only one), Evolve Charkonro (Water Stone), Macrobia Ruins, Exiled Abyss
 
 Starting Moves:
 SMOG
@@ -3639,7 +3639,7 @@ Learnset
 18, EGG_BOMB
 22, ROCK_THROW
 27, SKULL_BASH
-33, SOFTBOILED
+33, NOURISH
 40, EARTHQUAKE
 48, ROCK_SLIDE
 
@@ -3649,20 +3649,20 @@ TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,
 COUNTER, SOLARBEAM, EARTHQUAKE,   FISSURE, 
 MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
 SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SKULL_BASH,
-SOFTBOILED,   REST, EXPLOSION,    ROCK_SLIDE,   
+NOURISH,   REST, EXPLOSION,    ROCK_SLIDE,   
 SUBSTITUTE,   STRENGTH,     FLASH
 
 #111 - Charkonro
 
 Fire / Steel
 
-HP: 50
-Attack: 50
-Defense: 120
+HP: 75
+Attack: 45
+Defense: 105
 Special: 120
 Speed: 30
 
-Location: Evolve Charcold (Fire Stone), Victory Road
+Location: Evolve Charcold (Fire Stone), Macrobia Ruins, Platinum Path (Wulfenite Woods)
 
 Starting Moves:
 SMOG, POISON_GAS, EMBER
@@ -3673,7 +3673,7 @@ Learnset
 18, EGG_BOMB
 22, SELFDESTRUCT
 27, SKULL_BASH
-35, SOFTBOILED
+35, NOURISH
 43, SCALD
 50, FLAMETHROWER
 
@@ -3696,7 +3696,7 @@ Defense: 65
 Special: 80
 Speed: 65
 
-Location: In-game trade (Second floor of building on Route 11), Mt. Moon, Rock Tunnel, Safari Zone, Route 21, Beast Mansion, Seafoam Islands
+Location: Cobalt Cave, In-game trade (Malachite Military Base Surplus Office), Safari Zone (Area 2), Sea Routes 12 & 13 (Water),  Fishing - Super Rod (Cobalt Cave)
 
 Starting Moves:
 POWDER_SNOW
@@ -3720,7 +3720,7 @@ DRAGONBREATH,  THUNDERBOLT,  THUNDER,
 PSYCHIC,    WARP,     MIMIC,        DOUBLE_TEAM,  
 REFLECT,      BIDE,         METRONOME,    SWIFT,       
 DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
-PSYWAVE,      SUBSTITUTE,   CUT,          FLASH
+PSYWAVE,      SUBSTITUTE,   FLASH
 
 #113 - Mistme
 
@@ -3728,11 +3728,11 @@ Ice / Dragon
 
 HP: 170
 Attack: 80
-Defense: 75
+Defense: 65
 Special: 90
 Speed: 65
 
-Location: Evolve Inoyu at Level 34, Seafoam Islands, Cerulean Cave
+Location: Evolve Inoyu at Level 34, Mt. Valor (Area 2)
 
 Starting Moves:
 MIST, POISON_GAS, SMOG, HAZE
@@ -3755,8 +3755,7 @@ THUNDER,   DIG,          PSYCHIC,    WARP,
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    EGG_BOMB,     SWIFT,       DREAM_EATER,
 SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,
-MOONBLAST,   SUBSTITUTE,   CUT,          
-FLY,          SURF,         FLASH
+SUBSTITUTE,   CUT,          FLY,          SURF,         FLASH
 
 #114 - Shocknroll
 
@@ -3768,12 +3767,14 @@ Defense: 40
 Special: 75
 Speed: 125
 
-Location: Power Plant
+Location: Dolomite Dam Exterior (Only one), Feldspar Flats Exterior, Dolomite Dam Interior
 
 Starting Moves:
-THUNDERSHOCK, SCREECH
+THUNDER_WAVE, TACKLE, SCREECH
 
 Learnset
+12, THUNDERSHOCK
+20, TAKE_DOWN
 28, THUNDER_WAVE
 30, SELFDESTRUCT
 36, THUNDERBOLT
@@ -3799,7 +3800,7 @@ Defense: 50
 Special: 100
 Speed: 150
 
-Location: Evolve Shocknroll at Level 38, Power Plant
+Location: Evolve Shocknroll at Level 38, Dolomite Dam Interior (Only two)
 
 Starting Moves:
 THUNDERSHOCK, SCREECH, SELFDESTRUCT
@@ -3819,7 +3820,8 @@ COUNTER,  THUNDERBOLT,  THUNDER,
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    SELFDESTRUCT, SWIFT,        
 SKULL_BASH,   REST,         THUNDER_WAVE,  
-PSYWAVE,      EXPLOSION,    SUBSTITUTE,   FLASH
+PSYWAVE,      EXPLOSION,  MOONBLAST,   
+SUBSTITUTE,   FLASH
 
 #116 - Duhzlugg
 
@@ -3831,7 +3833,7 @@ Defense: 65
 Special: 55
 Speed: 40
 
-Location: Mt. Moon, Rock Tunnel, Seafoam Islands
+Location: Cobalt Cave, Feldspar Cellar, Sodalite Sinkhole
 
 Starting Moves:
 PSYWAVE
@@ -3856,7 +3858,7 @@ Defense: 65
 Special: 75
 Speed: 130
 
-Location: Evolve Duhzlugg at Level 20, Rock Tunnel, Seafoam Islands
+Location: Evolve Duhzlugg at Level 20, Feldspar Cellar, Exiled Abyss (Bottom floor)
 
 Starting Moves:
 SWIFT, AERIAL_ACE
@@ -3878,7 +3880,7 @@ EARTHQUAKE,   FISSURE,      DIG,          WARP,
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SWIFT,        SKULL_BASH,    REST,         THUNDER_WAVE, 
 PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   
-CUT,          SURF,         STRENGTH,     FLASH
+CUT,          SURF,         STRENGTH
 
 #118 - Splashee
 
@@ -3890,7 +3892,7 @@ Defense: 55
 Special: 65
 Speed: 68
 
-Location: Any body of water, Seafoam Islands, Fishing - Super Rod (Too common to list)
+Location: Wastewater Plant, Sodalite Sinkhole (Water), Sea Routes 12 & 13 (Water), Fishing - Super Rod (Too common to list)
 
 Starting Moves:
 WATER_GUN, MIST
@@ -3911,7 +3913,7 @@ COUNTER,      SHADOW_CLAW,     MEGA_DRAIN,
 PSYCHIC,    WARP,     MIMIC,
 DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,    DREAM_EATER,  REST,          
-PSYWAVE,       SUBSTITUTE,   SURF,         FLASH
+PSYWAVE,       SUBSTITUTE,   SURF
 
 #119 - Tidermaid
 
@@ -3923,7 +3925,7 @@ Defense: 75
 Special: 110
 Speed: 75
 
-Location: Evolve Splashee at Level 30, Any body of water, Fishing - Super Rod (Route 23, Cerulean Cave)
+Location: Evolve Splashee at Level 30, Wastewater Plant, Sodalite Sinkhole (Water), Sea Routes 12 & 13 (Water), Platinum Path (Water), Mt. Valor Exterior, Fishing - Super Rod (Route 14 North, Mt. Valor and Mt. Valor Exterior)
 
 Starting Moves:
 BUBBLEBEAM, ACID, SING
@@ -3945,8 +3947,8 @@ MEGA_DRAIN,   DRAGONBREATH,  THUNDERBOLT,
 THUNDER,      PSYCHIC    WARP,     
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
 METRONOME,   FIRE_BLAST,   SWIFT,        SKULL_BASH, 
-DREAM_EATER,  REST,         THUNDER_WAVE, 
-PSYWAVE,      SUBSTITUTE,   SURF,         FLASH
+DREAM_EATER,  REST,         THUNDER_WAVE,  PSYWAVE,
+MOONBLAST,    SUBSTITUTE,   SURF,         FLASH
 
 #120 - Sculpitar
 
@@ -3958,7 +3960,7 @@ Defense: 55
 Special: 55
 Speed: 55
 
-Location: Mt. Moon, Cracture Chasm, Seafoam Islands
+Location: Cobalt Cave, Cracture Chasm, Sodalite Sinkhole, Exiled Abyss
 
 Starting Moves:
 HEADBUTT
@@ -3967,7 +3969,7 @@ Learnset
 17, ROCK_THROW
 22, MIMIC
 27, RECOVER
-32, EARTHQUAKE
+33, EARTHQUAKE
 37, SHADOW_CLAW
 42, SKULL_BASH
 47, EXPLOSION
@@ -3981,7 +3983,7 @@ DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,
 SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  REST,         THUNDER_WAVE, 
 PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
-SUBSTITUTE,   CUT,          STRENGTH,     FLASH
+SUBSTITUTE,   CUT,          STRENGTH
 
 #121 - Marbitar
 
@@ -3993,7 +3995,7 @@ Defense: 120
 Special: 75
 Speed: 75
 
-Location: Evolve Sculpitar at Level 27
+Location: Evolve Sculpitar at Level 27, Exiled Abyss
 
 Starting Moves:
 HEADBUTT, ROCK_THROW, RECOVER, WING_ATTACK
@@ -4002,10 +4004,10 @@ Learnset
 17, ROCK_THROW
 22, MIMIC
 27, WING_ATTACK
-32, EARTHQUAKE
+32, ROCK_SLIDE
 37, HURRICANE
 42, AURA_SPHERE
-47, ROCK_SLIDE
+47, EARTHQUAKE
 
 TM / HM
 FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
