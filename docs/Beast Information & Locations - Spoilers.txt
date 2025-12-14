@@ -4234,7 +4234,7 @@ DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,
 FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  REST,         THUNDER_WAVE, 
 PSYWAVE,      ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   
-CUT,          SURF,         STRENGTH,     FLASH
+DEEP_FREEZE,       CUT,           FLY,      SURF,       STRENGTH,     FLASH
 
 #128 - Vulturnus
 
@@ -4566,14 +4566,16 @@ Defense: 66
 Special: 77
 Speed: 66
 
-Location: Revive Fiend Soul at Cinnabar Lab Soul Room (Only one), Cracture Chasm (Only one, if you chose Angel Soul), Safari Zone, Nature Preserve
+Location: Revive Fiend Soul at Emerald Acres Soul Lab (Only one), Cracture Chasm (Only one, if you chose Angel Soul), Safari Zone (Area 4), Nature Preserve
 
 Starting Moves:
-BITE, WING_ATTACK, EMBER, POISON_FANG
+BITE, EMBER
 
 Learnset
-34, BODY_SLAM
-39, FIRE_SPIN
+20, WING_ATTACK
+26, POISON_FANG
+32, BODY_SLAM
+38, FIRE_SPIN
 44, FLAMETHROWER
 49, DARK_PULSE
 
@@ -4588,7 +4590,7 @@ REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT,
 FIRE_BLAST,   SWIFT,        SKULL_BASH,   DREAM_EATER,
 SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,
 EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
-SUBSTITUTE,  FLY,          STRENGTH,     FLASH
+SUBSTITUTE,  FLY,         FLASH
 
 #139 - Descubus
 
@@ -4636,7 +4638,7 @@ Defense: 77
 Special: 66
 Speed: 77
 
-Location: Revive Angel Soul at Cinnabar Lab Soul Room (Only one), Cracture Chasm (Only one, if you chose Fiend Soul), Safari Zone, Nature Preserve
+Location: Revive Angel Soul at Emerald Acres Soul Lab (Only one), Cracture Chasm (Only one, if you chose Fiend Soul), Safari Zone (Area 4), Nature Preserve
 
 Starting Moves:
 GLARE, FAIRY_WIND
@@ -4650,17 +4652,17 @@ Learnset
 49, MOONBLAST
 
 TM / HM
-FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
-DRAGON_CLAW,    TOXIC,       BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+TOXIC,       BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
 BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,PAY_DAY,
-SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
-MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+SUBMISSION,   COUNTER,      SEISMIC_TOSS,     MEGA_DRAIN,
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
 EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC,    WARP,     
 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 FIRE_BLAST,   SWIFT,        SKULL_BASH,   
 DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
  PSYWAVE,       ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   
-CUT,          FLY,          STRENGTH,     FLASH
+FLY,          FLASH
 
 #141 - Pheras
 
@@ -4669,7 +4671,7 @@ Fairy / Flying
 HP: 93
 Attack: 132
 Defense: 93
-Special: 93
+Special: 77
 Speed: 93
 
 Location: Evolve Niviah at Level 40
@@ -4695,7 +4697,7 @@ MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,
 FIRE_BLAST,   SWIFT,        SKULL_BASH, 
 DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
 PSYWAVE,      ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   
-CUT,          FLY,          STRENGTH,     FLASH
+FLY,          STRENGTH,     FLASH
 
 #142 - Drudeer
 
@@ -4707,7 +4709,7 @@ Defense: 75
 Special: 95
 Speed: 125
 
-Location: Revive Odd Skull at Cinnabar Lab Soul Room (Only one), Cerulean Cave, Nature Preserve
+Location: Revive Odd Skull at Emerald Acres Soul Lab (Only one), Mt. Valor Peak, Nature Preserve
 
 Starting Moves:
 FAIRY_WIND, MEGA_DRAIN
@@ -4741,7 +4743,7 @@ Defense: 53
 Special: 97
 Speed: 43
 
-Location: Route 12 (Only one), Route 16 (Only one), Cerulean Cave
+Location: Route 7 (Only one), Route 8 (Only one), Mt. Valor Peak
 
 Starting Moves:
 POISON_FANG, REST, BITE, BODY_SLAM
@@ -4776,7 +4778,7 @@ Defense: 135
 Special: 135
 Speed: 65
 
-Location: Bottom floor of Seafoam Islands (Only one)
+Location: Exiled Abyss (Bottom floor, only one)
 
 Starting Moves:
 OMINOUS_WIND, HURRICANE, SMOKESCREEN, GLARE
@@ -4799,7 +4801,7 @@ DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE,
 PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   
 SUBSTITUTE,   CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
-#145 - Aeon
+#145 - Jakred
 
 Dragon / Fighting
 
@@ -4809,7 +4811,7 @@ Defense: 90
 Special: 90
 Speed: 140
 
-Location: Power Plant (Only one)
+Location: Dolomite Dam Interior (Only one)
 
 Starting Moves:
 FLAMETHROWER, WING_ATTACK, SKULL_BASH, EARTHQUAKE
@@ -4842,10 +4844,10 @@ Defense: 90
 Special: 150
 Speed: 100
 
-Location: Victory Road (Only one)
+Location: Sodalite Sinkhole (Bottom floor, only one)
 
 Starting Moves:
-DRAGONBREATH, FIRE_SPIN, WING_ATTACK
+EGG_BOMB, DRAGONBREATH, FIRE_SPIN, WING_ATTACK
 
 Learnset
 51, DOUBLE_EDGE
@@ -4875,7 +4877,7 @@ Defense: 60
 Special: 60
 Speed: 50
 
-Location: Celadon Game Corner (Prize), Fishing - Super Rod (Fuchsia City)
+Location: Fishing - Super Rod (Bloodstone Bay)
 
 Starting Moves:
 WING_ATTACK, BITE
@@ -4884,7 +4886,7 @@ Learnset
 10, THUNDER_WAVE
 20, AGILITY
 30, DRAGONBREATH
-40, DRAGON_CLAW
+40, HURRICANE
 50, OUTRAGE
 
 TM / HM
@@ -4903,23 +4905,23 @@ SUBSTITUTE,   CUT,          SURF,         STRENGTH,     FLASH
 
 Dragon / Flying
 
-HP: 95
+HP: 80
 Attack: 110
 Defense: 80
 Special: 100
-Speed: 135
+Speed: 110
 
-Location: Evolve Xiaolong at Level 30, Route 21, Fishing - Super Rod (Fuchsia City)
+Location: Evolve Xiaolong at Level 30, Fishing - Super Rod (Bloodstone Bay)
 
 Starting Moves:
-BITE, WING_ATTACK, THUNDER_WAVE, DRAGONBREATH
+DRAGONBREATH, WING_ATTACK, THUNDER_WAVE, BITE
 
 Learnset
 10, THUNDER_WAVE
 20, AGILITY
 30, SKY_ATTACK
 35, DRAGONBREATH
-45, DRAGON_CLAW
+45, HURRICANE
 55, OUTRAGE
 
 TM / HM
@@ -4941,21 +4943,17 @@ Dragon / Ghost
 
 HP: 95
 Attack: 90
-Defense: 65
+Defense: 45
 Special: 145
 Speed: 135
 
-Location: Evolve Feilong (Dark Soul), Cerulean Cave, Fishing - Super Rod (Nature Preserve)
+Location: Evolve Feilong (Dark Soul), Mt. Valor (Area 2), Fishing - Super Rod (Nature Preserve)
 
 Starting Moves:
-DRAGON_CLAW, DRAGONBREATH, THUNDER_WAVE, AGILITY
+THUNDER_WAVE, OUTRAGE, FIRE_BLAST
 
 Learnset
-10, THUNDER_WAVE
-31, DARK_PULSE
-35, OUTRAGE
-45, SHADOW_CLAW
-55, FIRE_BLAST
+55, DARK_PULSE
 
 TM / HM
 HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
@@ -4980,7 +4978,7 @@ Defense: 101
 Special: 180
 Speed: 115
 
-Location: Bottom floor of Cerulean Cave (Only one)
+Location: Mt. Valor Peak (Only one)
 
 Starting Moves: ???
 
@@ -5000,7 +4998,7 @@ Defense: 65
 Special: 75
 Speed: 65
 
-Location: Purchase (Mt. Moon Star Beast Center, only one)
+Location: Purchase (Olivine Orchard Rest Stop, only one)
 
 Starting Moves:
 SCRATCH, BITE, GROWL, LICK
@@ -5020,5 +5018,5 @@ SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,
 THUNDER,      DIG,          PSYCHIC,    WARP,     MIMIC,
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         
-THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   
-CUT,          SURF,         STRENGTH,     FLASH
+THUNDER_WAVE,    PSYWAVE,    MOONBLAST,      SUBSTITUTE, 
+DEEP_FREEZE,   CUT,          SURF,         STRENGTH,     FLASH

@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   \
-	     FLY,          STRENGTH,     FLASH
+	     FLY,          FLASH
 	; end
 
 	db BANK(OmanytePicFront)

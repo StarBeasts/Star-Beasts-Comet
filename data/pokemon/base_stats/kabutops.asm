@@ -24,7 +24,7 @@
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      ROCK_SLIDE,   MOONBLAST,   SUBSTITUTE,   \
-	     CUT,          FLY,          STRENGTH,     FLASH
+	     FLY,          STRENGTH,     FLASH
 	; end
 
 	db BANK(KabutopsPicFront)
