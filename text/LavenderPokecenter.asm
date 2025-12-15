@@ -11,8 +11,8 @@ _LavenderPokecenterText3::
 	line "of GHOST haunting"
 	cont "GALENA GRAVEYARD!"
 	
-	para "Apparently, SIDUS"
-	line "INDUSTRIES'S LEADER"
+	para "Apparently, the"
+	line "LEADER of SIRIUS"
 	cont "is searching"
 	cont "for it?"
 	done

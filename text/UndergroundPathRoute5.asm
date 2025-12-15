@@ -126,7 +126,8 @@ _UndergroundPathEntranceRoute5Text8::
 	line "these cops!"
 
 	para "They accused ME of"
-	line "being a ROCKET."
+	line "being a member of"
+	cont "SIRIUS."
 
 	para "ME!"
 

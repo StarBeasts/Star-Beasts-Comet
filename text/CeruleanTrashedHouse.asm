@@ -1,6 +1,6 @@
 _CeruleanTrashedText_1d6ab::
 	text "Those miserable"
-	line "SIDUS vandals!"
+	line "SIRIUS vandals!"
 
 	para "Look what they"
 	line "did here!"
@@ -24,10 +24,10 @@ _CeruleanTrashedText_1d6b0::
 	done
 
 _CeruleanHouseTrashedText2::
-	text "SIDUS must"
+	text "SIRIUS must"
 	line "be trying to DIG"
-	cont "their way into no"
-	cont "good!"
+	cont "their way into"
+	cont "serious trouble!"
 	done
 
 _CeruleanHouseTrashedText3::

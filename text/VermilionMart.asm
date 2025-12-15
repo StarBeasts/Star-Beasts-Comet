@@ -4,9 +4,10 @@ _VermilionMartText2::
 	cont "use BEASTS for"
 	cont "criminal acts."
 
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "# BEASTS."
+	para "SIRIUS traffics"
+	line "in rare #"
+	cont "BEASTS and other"
+	cont "valuable goods."
 
 	para "They also abandon"
 	line "BEASTS that they"

@@ -37,8 +37,8 @@ _Route11GateUpstairsText3::
 	text "Despite all the"
 	line "trouble they've"
 	cont "been causing, the"
-	cont "BIKERs and the"
-	cont "ROCKETs haven't"
+	cont "BIKERs and"
+	cont "SIRIUS haven't"
 	cont "been around here"
 	cont "much, yet."
 

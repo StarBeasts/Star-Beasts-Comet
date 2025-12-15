@@ -14,7 +14,7 @@ _IndigoPlateauEndBattleText2::
 _IndigoPlateauAfterBattleText2::
 	text "You're the kid"
 	line "that beat LUCIAN"
-	cont "of SIDUS?"
+	cont "of SIRIUS?"
 
 	para "That's really you?"
 	line "No kidding!"

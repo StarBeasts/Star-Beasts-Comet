@@ -1,8 +1,8 @@
 _PewterPokecenterText2::
 	text "What!?"
 
-	para "TEAM ROCKET is"
-	line "at COBALT? Huh?"
+	para "SIRIUS is at"
+	line "COBALT CAVE? Huh?"
 	cont "I'm on the phone!"
 
 	para "Scram!"

@@ -61,8 +61,8 @@ _SSAnne10BattleText3::
 	text "HAH! GOTCHA!"
 
 	para "GIMME ALL YOUR"
-	line "MONEY, ROCKET"
-	cont "BREATH!"
+	line "MONEY, YOU"
+	cont "SIRIUS CHUMP!"
 	done
 
 _SSAnne10EndBattleText3::
@@ -76,7 +76,8 @@ _SSAnne10AfterBattleText3::
 	line "barely pays at"
 	cont "all, and there"
 	cont "are so many"
-	cont "ROCKETs onboard!"
+	cont "members of"
+	cont "SIRIUS onboard!"
 	
 	para "Stealing from"
 	line "criminals?"
@@ -113,7 +114,7 @@ _SSAnne10BattleText5::
 	para "What? Hey!"
 
 	para "This ship belongs"
-	line "to TEAM ROCKET!"
+	line "to SIRIUS!"
 
 	para "You're trespassing!"
 	done
@@ -166,8 +167,8 @@ _SSAnne10Text7::
 	cont "rocks!"
 
 	para "I won't make him"
-	line "do it for the"
-	cont "ROCKETs, though."
+	line "do it for SIRIUS,"
+	cont "though."
 	done
 
 SSAnne10Text9::

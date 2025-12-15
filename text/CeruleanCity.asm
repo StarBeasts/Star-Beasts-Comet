@@ -154,14 +154,13 @@ _CeruleanCityText6::
 	line "were robbed."
 
 	para "It's obvious that"
-	line "SIDUS INDUSTRIES"
-	cont "are to blame for"
-	cont "this most heinous"
-	cont "crime!"
+	line "SIRIUS are to"
+	cont "blame for this"
+	cont "serious crime!"
 
 	para "Even our POLICE"
 	line "force has trouble"
-	cont "with SIDUS!"
+	cont "with SIRIUS!"
 	done
 
 _CeruleanCityText_19730::

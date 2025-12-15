@@ -125,8 +125,8 @@ _SilphCo9Text10::
 
 	para "You're that kid"
 	line "that's been"
-	cont "giving the"
-	cont "ROCKETs hell!"
+	cont "giving SIRIUS"
+	cont "hell!"
 
 	para "Glad to see you"
 	line "made it up here!"

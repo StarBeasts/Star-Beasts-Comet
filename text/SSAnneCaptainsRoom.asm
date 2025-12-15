@@ -66,7 +66,7 @@ _SSAnne7Text_61932::
 	cont "moving, for one."
 
 	para "Don't worry about"
-	line "the ROCKETs. My"
+	line "SIRIUS, okay? My"
 	cont "men and I will"
 	cont "make sure they're"
 	cont "turned over to"

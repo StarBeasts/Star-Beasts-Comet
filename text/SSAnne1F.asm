@@ -1,11 +1,13 @@
 _SSAnne1Text1::
 	text "I am offended!"
 
+	para "Offended, I say!"
+
 	para "Those miserable"
-	line "ROCKETs took one"
-	cont "look at me and"
-	cont "decided I wasn't"
-	cont "a threat!"
+	line "SIRIUS mooks took"
+	cont "one look at me"
+	cont "and decided I"
+	cont "wasn't a threat!"
 
 	para "How dare they"
 	line "say I'm not"

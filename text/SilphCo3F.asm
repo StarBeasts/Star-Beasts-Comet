@@ -72,8 +72,8 @@ _SilphCo3EndBattleText2::
 _SilphCo3AfterBattleText2::
 	text "Humph..."
 
-	para "TEAM ROCKET said"
-	line "that if I helped"
+	para "SIRIUS said that"
+	line "if I helped"
 	cont "them, they'd let"
 	cont "me study BEASTS!"
 

@@ -7,8 +7,8 @@ _MeetLaprasGuyText::
 
 	para "Were you with that"
 	line "guy? He came to"
-	cont "save us from the"
-	cont "ROCKETs!"
+	cont "save us from"
+	cont "SIRIUS!"
 
 	para "You didn't, but"
 	line "you're still here"
@@ -21,8 +21,8 @@ _MeetLaprasGuyText::
 	para "But we have a"
 	line "bigger problem!"
 
-	para "TEAM ROCKET's"
-	line "BOSS went to"
+	para "SIRIUS's BOSS"
+	line "went over to"
 	cont "RED GOLD REEF"
 	cont "to seize our"
 	cont "main # BALL"
@@ -60,8 +60,8 @@ _HeresYourLaprasText::
 	done
 
 _LaprasGuyText::
-	text "TEAM ROCKET's"
-	line "BOSS is at RED"
+	text "SIRIUS's BOSS"
+	line "is at RED"
 	cont "GOLD REEF!"
 
 	para "You can find it"
@@ -83,30 +83,30 @@ _LaprasGuySavedText::
 	done
 
 _SilphCo7Text_51e00::
-	text "TEAM ROCKET is"
-	line "after the MASTER"
-	cont "BALL, which will"
-	cont "catch any BEAST!"
+	text "SIRIUS is after"
+	line "the MASTER BALL,"
+	cont "which will catch"
+	cont "any BEAST!"
 	done
 
 _CanceledMasterBallText::
 	text "We canceled the"
 	line "MASTER BALL"
 	cont "project because"
-	cont "of TEAM ROCKET."
+	cont "of SIRIUS."
 	done
 
 _SilphCo7Text_51e23::
 	text "It would be bad"
-	line "if TEAM ROCKET"
-	cont "took over GAI CO."
+	line "if SIRIUS took"
+	cont "over GAI CO."
 	cont "or our BEASTS!"
 	done
 
 _SilphCo7Text_51e28::
 	text "Wow! You chased"
-	line "off TEAM ROCKET"
-	cont "all by yourself?"
+	line "off SIRIUS all"
+	cont "by yourself?"
 	done
 
 _SilphCo7Text_51e46::
@@ -178,7 +178,7 @@ _SilphCo7BattleText3::
 	line "thinks they've"
 	cont "got what it"
 	cont "takes to stop"
-	cont "TEAM ROCKET!"
+	cont "SIRIUS!"
 
 	para "Here's your"
 	line "reality check!"
@@ -199,7 +199,7 @@ _SilphCo7AfterBattleText3::
 	cont "slow us down,"
 	cont "not stop us!"
 
-	para "TEAM ROCKET's still"
+	para "SIRIUS's still"
 	line "burning bright!"
 	done
 

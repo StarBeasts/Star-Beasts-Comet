@@ -34,7 +34,8 @@ _LavenderTownText3::
 	para "I think they're"
 	line "the spirits of"
 	cont "BEASTS that the"
-	cont "ROCKETs killed."
+	cont "members of"
+	cont "SIRIUS killed."
 	done
 
 _LavenderTownText4::
@@ -46,9 +47,9 @@ _LavenderTownText4::
 	cont "but they refuse"
 	cont "to take on new"
 	cont "challengers until"
-	cont "those ROCKETS"
-	cont "are gone from the"
-	cont "GRAVEYARD."
+	cont "those SIRIUS"
+	cont "crooks gone from"
+	cont "the GRAVEYARD."
 	done
 
 _LavenderTownText5::

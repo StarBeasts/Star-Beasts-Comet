@@ -228,8 +228,8 @@ _ViridianGymBattleText8::
 	text "AMETHYST GYM was"
 	line "closed for a long"
 	cont "time, but now it's"
-	cont "going to be TEAM"
-	cont "ROCKET's new"
+	cont "going to be"
+	cont "SIRIUS's new"
 	cont "headquarters!"
 	done
 

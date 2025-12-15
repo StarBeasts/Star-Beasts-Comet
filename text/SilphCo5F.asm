@@ -1,16 +1,16 @@
 _SilphCo5Text_1a010::
 	text "I saw you beat all"
-	line "of those ROCKETs"
-	cont "by yourself!"
+	line "of those SIRIUS"
+	cont "guys by yourself!"
 
 	para "You're something"
 	line "else!"
 	done
 
 _SilphCo5Text_1a015::
-	text "TEAM ROCKET took"
-	line "off! You're our"
-	cont "hero! Thank you!"
+	text "SIRIUS took off!"
+	line "You're our hero!"
+	cont "Thank you!"
 	done
 
 _SilphCo5BattleText2::

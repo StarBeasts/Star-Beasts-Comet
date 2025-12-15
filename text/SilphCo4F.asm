@@ -4,7 +4,7 @@ _SilphCo4Text_19de0::
 	done
 
 _SilphCo4Text_19de5::
-	text "Huh? TEAM ROCKET"
+	text "Huh? SIRIUS"
 	line "is gone?"
 	done
 
@@ -14,7 +14,7 @@ _SilphCo4BattleText2::
 	cont "and this whole"
 	cont "place, are now"
 	cont "the property of"
-	cont "TEAM ROCKET, you"
+	cont "SIRIUS, you"
 	cont "little thief!"
 	done
 

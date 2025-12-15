@@ -1,5 +1,6 @@
 _SilphCo8Text_565be::
-	text "Uff... the ROCKETs"
+	text "Uff... those"
+	line "SIRIUS grunts"
 	line "stole a bunch of"
 	cont "# BALLS off of"
 	cont "the production"
@@ -110,7 +111,7 @@ _SilphCo8ReviveText::
 _SilphCo8NuggetText::
 	text "You're the kid"
 	line "who booted out"
-	cont "the ROCKETs! Hah!"
+	cont "SIRIUS! Hah!"
 
 	para "Damned shame"
 	line "when a volunteer"

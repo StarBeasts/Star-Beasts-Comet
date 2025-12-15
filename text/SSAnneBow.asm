@@ -8,8 +8,8 @@ _SSAnne5Text2::
 	text "If their BOSS"
 	line "wasn't so scary,"
 	cont "I'd have already"
-	cont "run the ROCKETs"
-	cont "off, myself!"
+	cont "run SIRIUS off,"
+	cont "myself!"
 
 	para "But that guy,"
 	line "and his BEASTS..."
@@ -37,7 +37,7 @@ _SSAnne5EndBattleText1::
 	prompt
 
 _SSAnne5AfterBattleText1::
-	text "The ROCKETs"
+	text "SIRIUS has"
 	line "hijacked us!"
 
 	para "We're trying to"
@@ -51,7 +51,7 @@ _SSAnne5AfterBattleText1::
 
 _SSAnne5BattleText2::
 	text "Leave or die,"
-	line "ROCKET scum!"
+	line "SIRIUS scum!"
 	done
 
 _SSAnne5EndBattleText2::
@@ -61,7 +61,7 @@ _SSAnne5EndBattleText2::
 
 _SSAnne5AfterBattleText2::
 	text "We're standing"
-	line "guard to try"
-	cont "and keep the"
-	cont "ROCKETs confined."
+	line "guard to try and"
+	cont "keep these SIRIUS"
+	cont "goons confined."
 	done

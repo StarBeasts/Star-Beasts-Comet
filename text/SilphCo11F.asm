@@ -3,9 +3,9 @@ _SilphCoPresidentText::
 	line "you for saving"
 	cont "GAI CO!"
 
-	para "The ROCKETs"
-	line "wanted what we"
-	cont "were working on:"
+	para "SIRIUS wanted"
+	line "what we were"
+	cont "working on:"
 
 	para "A BALL that can"
 	line "catch any #"
@@ -107,13 +107,13 @@ _SilphCo10Text_62335::
 	line "You ruined our"
 	cont "plans for GAI CO!"
 
-	para "But, TEAM ROCKET"
-	line "will never fall!"
+	para "But, SIRIUS will"
+	line "never burn out!"
 
 	para "<PLAYER>! Never"
 	line "forget that all"
 	cont "# BEASTS exist"
-	cont "for TEAM ROCKET!"
+	cont "for SIRIUS!"
 
 	para "..."
 

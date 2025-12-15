@@ -280,12 +280,12 @@ _SaffronCityPokecenterGuyText1::
 	text "It would be great"
 	line "if the ELITE FOUR"
 	cont "came and kicked"
-	cont "SIDUS INDUSTRIES"
+	cont "SIRIUS FOUNDATION"
 	cont "to the curb!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "SIDUS took off!"
+	text "SIRIUS took off!"
 	line "We can go out"
 	cont "safely again!"
 	cont "That's great!"

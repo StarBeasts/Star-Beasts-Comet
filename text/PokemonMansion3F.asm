@@ -80,8 +80,11 @@ _Mansion3Text6::
 	para "I am excited"
 	line "beyond words."
 
-	para "DAMIAN, my friend"
-	line "and most trusted"
+	para "DAMIAN, president"
+	line "of the SIRIUS"
+	cont "FOUNDATION, my"
+	cont "personal friend"
+	cont "and most trusted"
 	cont "benefactor, has"
 	cont "brought me his"
 	cont "terminally ill"

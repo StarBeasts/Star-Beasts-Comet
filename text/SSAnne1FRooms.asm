@@ -152,8 +152,8 @@ _SSAnne8Text9::
 
 _SSAnne8Text11::
 	text "Uff... I came in"
-	line "here to stop the"
-	cont "ROCKETs, but..."
+	line "here to stop"
+	cont "SIRIUS, but..."
 
 	para "It's no use..."
 

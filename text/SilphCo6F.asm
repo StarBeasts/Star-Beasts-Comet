@@ -36,18 +36,18 @@ _SilphCo6Text_1a27d::
 	cont "men, or I would"
 	cont "have dumped him"
 	cont "after all that"
-	cont "ROCKET nonsense!"
+	cont "SIRIUS business!"
 	done
 
 _SilphCo6Text_1a28f::
-	text "TEAM ROCKET is"
-	line "trying to conquer"
-	cont "the world with"
+	text "SIRIUS are trying"
+	line "to conquer the"
+	cont "world with #"
 	cont "BEASTS!"
 	done
 
 _SilphCo6Text_1a294::
-	text "TEAM ROCKET ran"
+	text "SIRIUS ran off"
 	line "because of you!"
 	done
 
@@ -95,8 +95,7 @@ _SilphCo6BattleText3::
 	para "NOT!"
 
 	para "I'm working for"
-	line "TEAM ROCKET,"
-	cont "sucker!"
+	line "SIRIUS, sucker!"
 	done
 
 _SilphCo6EndBattleText3::
@@ -114,8 +113,9 @@ _SilphCo6AfterBattleText3::
 	done
 
 _SilphCo6BattleText4::
-	text "You betray"
-	line "TEAM ROCKET?"
+	text "You side with the"
+	line "law, and betray"
+	cont "SIRIUS?"
 	done
 
 _SilphCo6EndBattleText4::

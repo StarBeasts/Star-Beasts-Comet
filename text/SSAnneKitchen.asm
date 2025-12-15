@@ -14,8 +14,8 @@ _SSAnne6Text1::
 _SSAnne6Text2::
 	text "For a second"
 	line "there, I thought"
-	cont "you were one of"
-	cont "the ROCKETs!"
+	cont "you were a member"
+	cont "of SIRIUS!"
 
 	para "You're lucky I"
 	line "didn't have my"
@@ -95,7 +95,7 @@ _SSAnne6Text_61816::
 
 	para "But, have I enough"
 	line "meat to feed le"
-	cont "ROCKETs?"
+	cont "SIRIUS gentlemen?"
 
 	para "Wait, stupid I am!"
 

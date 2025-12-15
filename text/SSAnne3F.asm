@@ -7,7 +7,7 @@ _SSAnne3BattleText1::
 
 	para "So, get ready to"
 	line "feel the wrath"
-	cont "of TEAM ROCKET!"
+	cont "of SIRIUS!"
 	done
 
 _SSAnne3EndBattleText1::

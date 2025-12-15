@@ -1,6 +1,6 @@
 _SSAnne2ReviveText::
-	text "The ROCKETs took"
-	line "the CAPTAIN as a"
+	text "SIRIUS took the"
+	line "CAPTAIN as a"
 	cont "hostage!"
 
 	para "I've told them"
@@ -14,10 +14,10 @@ _SSAnne2ReviveText::
 
 _SSAnne2NuggetText::
 	text "I just saw the"
-	line "leader of the"
-	cont "ROCKETs storm"
-	cont "out of here, and"
-	cont "he looked pretty"
+	line "leader of SIRIUS"
+	cont "storm out of"
+	cont "here, and he"
+	cont "looked pretty"
 	cont "steamed!"
 
 	para "Did you really"
@@ -54,7 +54,7 @@ _SSAnneRivalBeforeBattleText::
 
 	para "For I am LUCIAN,"
 	line "the leader of"
-	cont "the ROCKET crime"
+	cont "the SIRIUS crime"
 	cont "syndicate!"
 
 	para "Anything I want,"

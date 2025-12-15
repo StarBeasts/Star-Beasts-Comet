@@ -94,9 +94,17 @@ _MtMoon1AfterBattleText6::
 	done
 
 _MtMoon1BattleText7::
-	text "We, TEAM ROCKET,"
-	line "are # BEAST"
-	cont "gangsters!"
+	text "I'm a member of"
+	line "SIRIUS!"
+
+	para "We here at SIRIUS"
+	line "believe that #"
+	cont "BEASTS can be"
+	cont "used for personal"
+	cont "enrichment, as"
+	cont "long as its our"
+	cont "people, and our"
+	cont "enrichment!"
 	done
 
 _MtMoon1EndBattleText7::

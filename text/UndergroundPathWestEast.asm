@@ -69,9 +69,9 @@ _UndergroundPathWestEastText5::
 
 _UndergroundPathWestEastText6::
 	text "We can deal with"
-	line "the ROCKETs or"
-	cont "the BIKERs, but"
-	cont "not both at the"
+	line "SIRIUS or the"
+	cont "BIKERs, but not"
+	cont "both at the"
 	cont "same time!"
 
 	para "We're stretched"
@@ -86,9 +86,10 @@ _UndergroundPathWestEastText7::
 	line "your cool!"
 
 	para "I know I look like"
-	line "a ROCKET, but I'm"
-	cont "actually a spy,"
-	cont "an informant!"
+	line "I'm from SIRIUS,"
+	cont "but I'm actually"
+	cont "an informant,"
+	cont "a spy! Really!"
 
 	para "I'm doing this to"
 	line "avoid doing time."
@@ -146,7 +147,8 @@ _UndergroundPathWestEastText12::
 	para "WANTED: LUCIAN"	
 
 	para "CURRENT LEADER"	
-	line "OF TEAM ROCKET"
+	line "OF THE SIRIUS"
+	cont "FOUNDATION"
 
 	para "WANTED: SHAYTON"
 

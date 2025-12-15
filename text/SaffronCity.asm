@@ -18,7 +18,7 @@ _SaffronCityText3::
 
 _SaffronCityText4::
 	text "This CITY belongs"
-	line "to TEAM ROCKET!"
+	line "to SIRIUS!"
 	done
 
 _SaffronCityText5::
@@ -39,13 +39,14 @@ _SaffronCityText7::
 	done
 
 _SaffronCityText8::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
-	cont "Astonishing!"
+	text "You beat SIRIUS"
+	line "all alone?"
+	cont "That's seriously"
+	cont "astonishing!"
 	done
 
 _SaffronCityText9::
-	text "Yeah! TEAM ROCKET"
+	text "Yeah! SIRIUS"
 	line "is gone!"
 	cont "It's safe to go"
 	cont "out again!"
@@ -55,8 +56,8 @@ _SaffronCityText10::
 	text "People should be"
 	line "flocking back to"
 	cont "METAL METROPOLIS"
-	cont "since the ROCKETs"
-	cont "are gone, now."
+	cont "since SIRIUS is"
+	cont "gone, now."
 	done
 
 _SaffronCityText11::
@@ -78,7 +79,8 @@ _SaffronCityText12::
 
 _SaffronCityText13::
 	text "What the hell did"
-	line "those ROCKETs do"
+	line "those SIRIUS"
+	cont "jackasses do"
 	cont "to my car!?"
 	done
 

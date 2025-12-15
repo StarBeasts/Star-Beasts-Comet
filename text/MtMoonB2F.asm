@@ -58,7 +58,7 @@ _MtMoon3Text_49f99::
 	text_end
 
 _MtMoon3BattleText2::
-	text "TEAM ROCKET will"
+	text "SIRIUS will"
 	line "find the souls,"
 	cont "revive and sell"
 	cont "them for cash!"
@@ -71,8 +71,15 @@ _MtMoon3EndBattleText2::
 
 _MtMoon3AfterBattleText2::
 	text "You made me mad!"
-	line "TEAM ROCKET will"
+	line "SIRIUS will"
 	cont "blacklist you!"
+
+	para "..."
+
+	para "What? Our boss"
+	line "knows how to"
+	cont "pull some very"
+	cont "important strings."
 	done
 
 _MtMoon3BattleText3::
@@ -89,7 +96,7 @@ _MtMoon3EndBattleText3::
 _MtMoon3AfterBattleText3::
 	text "I saw them! I'm"
 	line "sure they're from"
-	cont "TEAM ROCKET!"
+	cont "SIRIUS!"
 	done
 
 

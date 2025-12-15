@@ -56,7 +56,7 @@ _SSAnne9Text_61c3d::
 	cont "is pounding out"
 	cont "of my chest!"
 
-	para "What? ROCKETs?"
+	para "What? SIRIUS?"
 
 	para "Oh, right. Yeah,"
 	line "I guess they're"

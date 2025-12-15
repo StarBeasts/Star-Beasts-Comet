@@ -5,7 +5,7 @@ _SilphCo2Text_59ded::
 	cont "anything!"
 
 	para "Oh, you're not"
-	line "with TEAM ROCKET."
+	line "with SIRIUS."
 	cont "I thought..."
 	cont "I'm sorry. Here,"
 	cont "please take this!"
@@ -41,7 +41,8 @@ _SilphCo2BattleText1::
 _SilphCo2EndBattleText1::
 	text "How"
 	line "did you know I"
-	cont "was a ROCKET?"
+	cont "was a member"
+	cont "of SIRIUS?"
 	prompt
 
 _SilphCo2AfterBattleText1::
@@ -108,7 +109,7 @@ _SilphCo2EndBattleText4::
 _SilphCo2AfterBattleText4::
 	text "GAI CO. will"
 	line "be merged with"
-	cont "TEAM ROCKET!"
+	cont "SIRIUS!"
 	done
 
 _SilphCo2Text6::

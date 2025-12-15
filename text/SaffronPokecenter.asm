@@ -8,7 +8,11 @@ _SaffronPokecenterText3::
 	text "GAI CO. is very"
 	line "famous. That's"
 	cont "why it attracted"
-	cont "TEAM ROCKET!"
+	cont "SIRIUS!"
+
+	para "I heard they were"
+	line "once a legitimate"
+	cont "research group."
 	done
 
 _SaffronPokecenterText4::
