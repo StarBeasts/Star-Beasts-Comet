@@ -1,7 +1,7 @@
 _SilphCo8Text_565be::
 	text "Uff... those"
 	line "SIRIUS grunts"
-	line "stole a bunch of"
+	cont "stole a bunch of"
 	cont "# BALLS off of"
 	cont "the production"
 	cont "line..."
