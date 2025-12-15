@@ -27,7 +27,7 @@ _Route25AfterBattleText1::
 	
 	para "It doesn't matter."
 
-	para "Once I know the"
+	para "Once I know"
 	line "everything about"
 	cont "this place, not"
 	cont "one soul will"
