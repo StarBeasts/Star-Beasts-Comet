@@ -48,8 +48,8 @@ _LavenderTownText4::
 	cont "to take on new"
 	cont "challengers until"
 	cont "those SIRIUS"
-	cont "crooks gone from"
-	cont "the GRAVEYARD."
+	cont "crooks leave the"
+	cont "GRAVEYARD."
 	done
 
 _LavenderTownText5::

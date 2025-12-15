@@ -62,7 +62,7 @@ _SSAnne10BattleText3::
 
 	para "GIMME ALL YOUR"
 	line "MONEY, YOU"
-	cont "SIRIUS CHUMP!"
+	cont "SIRIUS SUCKER!"
 	done
 
 _SSAnne10EndBattleText3::
