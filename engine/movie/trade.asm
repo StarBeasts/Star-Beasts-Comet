@@ -585,7 +585,7 @@ Trade_AnimMonMoveHorizontal:
 	call DelayFrame
 	dec d
 	jr nz, .scrollLoop
-	call Trade_AnimCircledMon
+;	call Trade_AnimCircledMon
 	dec b
 	jr nz, Trade_AnimMonMoveHorizontal
 	ret
@@ -663,7 +663,7 @@ Trade_AnimMonMoveVertical:
 	ld d, $4
 .loop
 	call Trade_AddOffsetsToOAMCoords
-	call Trade_AnimCircledMon
+;	call Trade_AnimCircledMon
 	ld c, 8
 	call DelayFrames
 	dec d
