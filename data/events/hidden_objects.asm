@@ -626,7 +626,7 @@ LavenderHouse1HiddenObjects:
 CeladonMansion5HiddenObjects:
 	hidden_text_predef  3,  0, LinkCableHelp, PrintBlackboardLinkCableText
 	hidden_text_predef  4,  0, LinkCableHelp, PrintBlackboardLinkCableText
-	hidden_text_predef  3,  4, TMNotebook, PrintNotebookText
+	hidden_text_predef  5,  4, TMNotebook, PrintNotebookText
 	db -1 ; end
 
 FightingDojoHiddenObjects:

@@ -52,7 +52,7 @@ _DexRatingText_Own40To49::
 	text "Decent!"
 	line "Go chat up my"
 	cont "AIDE when you"
-	cont "get 50!"
+	cont "get 40!"
 	done
 
 _DexRatingText_Own50To59::
@@ -60,8 +60,8 @@ _DexRatingText_Own50To59::
 	line "there! Good job."
 
 	para "Be sure to get"
-	line "EXP.ALL from my"
-	cont "AIDE!"
+	line "HM05 FLASH from"
+	cont "my AIDE!"
 	done
 
 _DexRatingText_Own60To69::
@@ -97,8 +97,8 @@ _DexRatingText_Own80To89::
 
 _DexRatingText_Own90To99::
 	text "I'm impressed!"
-	line "This looks like it"
-	cont "was a ton of work!"
+	line "This must've been"
+	cont "a ton of work!"
 	done
 
 _DexRatingText_Own100To109::
@@ -131,7 +131,8 @@ _DexRatingText_Own130To139::
 
 	para "Actually, go check"
 	line "out that building"
-	cont "east of CINNABAR..."
+	cont "northwest of the"
+	cont "RANGER STATION."
 
 	para "I want to show you"
 	line "something..."
