@@ -13,6 +13,17 @@ PlayBattleMusic::
 	ld a, MUSIC_GYM_LEADER_BATTLE
 	jp .playSong
 .notGymLeaderBattle
+	ld a, [wCurOpponent]
+	cp MOLTRES
+	jp z, .mewBattle
+	cp ZAPDOS
+	jp z, .mewBattle
+	cp ARTICUNO
+	jp z, .mewBattle
+	cp PINSIR
+	jp z, .mewBattle
+	cp MEWTWO
+	jp z, .mewBattle
 	ld a, [wIsTrainerBattle]
 	and a
 	jp z, .wildBattle
@@ -61,6 +72,9 @@ PlayBattleMusic::
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_HERO; lance also plays gym leader theme
 	jr .playSong
+.mewBattle
+	ld a, MUSIC_BOSS_WILD
+	jr .playSong	
 .normalTrainerBattle
 	ld a, MUSIC_TRAINER_BATTLE
 	jr .playSong

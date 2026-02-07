@@ -553,6 +553,7 @@ INCLUDE "crysaudio/music/new/reaper.asm"
 INCLUDE "crysaudio/music/new/laworder.asm"
 INCLUDE "crysaudio/music/new/beatit.asm"
 INCLUDE "crysaudio/music/new/xisle.asm"
+INCLUDE "crysaudio/music/new/bosswild.asm"
 
 SECTION "New Songs 7", ROMX
 

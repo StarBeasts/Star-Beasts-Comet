@@ -10,10 +10,7 @@ _ItemUseBallText01::
 	text "It dodged the"
 	line "thrown BALL!"
 	
-	para "No good!"
-
-	para "Distract or"
-	line "weaken it more!"
+	para "Huh!?"
 	prompt
 
 _ItemUseBallText02::
@@ -27,8 +24,8 @@ _ItemUseBallText03::
 	prompt
 
 _ItemUseBallText04::
-	text "Argh! It was so"
-	line "close too!"
+	text "Shoot! It was so"
+	line "close, too!"
 	prompt
 
 _ItemUseBallText05::

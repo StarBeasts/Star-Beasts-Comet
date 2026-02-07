@@ -409,13 +409,16 @@ ItemUseBall:
 ; 30 ≤ Z < 70: 2 shakes
 ; 70 ≤ Z:      3 shakes
 	ldh a, [hQuotient + 3]
-	cp 30
+	cp 10
 	ld b, $61
 	jr c, .setAnimData
-	cp 70
+	cp 30
 	ld b, $62
 	jr c, .setAnimData
+	cp 70
 	ld b, $63
+	jr c, .setAnimData
+	ld b, $64
 
 .setAnimData
 	ld a, b
