@@ -24,6 +24,8 @@ PlayBattleMusic::
 	jp z, .mewBattle
 	cp MEWTWO
 	jp z, .mewBattle
+	cp HOVERPOP
+	jp z, .theGlitch
 	ld a, [wIsTrainerBattle]
 	and a
 	jp z, .wildBattle
@@ -75,6 +77,9 @@ PlayBattleMusic::
 .mewBattle
 	ld a, MUSIC_BOSS_WILD
 	jr .playSong	
+.theGlitch
+	ld a, MUSIC_THE_GLITCH
+	jr .playSong
 .normalTrainerBattle
 	ld a, MUSIC_TRAINER_BATTLE
 	jr .playSong

@@ -107,6 +107,7 @@
 	const MUSIC_JASON
 	const MUSIC_OUTTATOUCH
 	const MUSIC_BOSS_WILD
+	const MUSIC_THE_GLITCH
 
 	const NUM_SONGS
 
