@@ -858,6 +858,7 @@ FaintEnemyPokemon:
 	ld b, $7
 .halveExpDataLoop
 	srl [hl]
+	srl [hl]
 	inc hl
 	dec b
 	jr nz, .halveExpDataLoop

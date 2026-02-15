@@ -190,6 +190,7 @@ Music_BossWild_Ch1:
 	note F_, 2
 	note A_, 2
 	note B_, 2
+	duty_cycle 0
 	note A_, 14
 	note A_, 1
 	note B_, 1
