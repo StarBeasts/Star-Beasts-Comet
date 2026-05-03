@@ -2,7 +2,7 @@
 
 [This is a custom Pokémon game based on the Pokered-Crysaudio disassembly.](https://github.com/StarBeasts/Star-Beasts-Comet/releases)
 
-Patch to a clean Pokemon - Blue Version (UE) [S][!] rom. Pokemon **BLUE**, not RED.
+Patch to a clean (Pokemon - Blue Version (UE) [S][!]) rom. Pokemon **BLUE**, not RED.
 
 Worked on over the course of more than half a decade, Star Beasts is a Gen 1 total conversion and homage to the first generation of Pokémon games.
 
@@ -50,7 +50,6 @@ look at the documentation included with the zip files in the **[Releases](https:
 ![36](screenshots/comet_debug-35.png)
 ![37](screenshots/comet_debug-36.png)
 ![38](screenshots/comet_debug-37.png)
-![39](screenshots/comet_debug-38.png)
 ![40](screenshots/comet_debug-39.png)
 ![41](screenshots/comet_debug-40.png)
 ![42](screenshots/comet_debug-41.png)
