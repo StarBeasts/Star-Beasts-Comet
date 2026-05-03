@@ -2,6 +2,8 @@
 
 [This is a custom Pokémon game based on the Pokered-Crysaudio disassembly.](https://github.com/StarBeasts/Star-Beasts-Comet/releases)
 
+Patch to a clean Pokemon - Blue Version (UE) [S][!] rom. Pokemon **BLUE**, not RED.
+
 Worked on over the course of more than half a decade, Star Beasts is a Gen 1 total conversion and homage to the first generation of Pokémon games.
 
 Started as a passion project to make a playable version of Vast Fame’s Shi Kong Xing Shou for English speaking audiences, Star Beasts became its own project with entirely new fakemon designs and a new region.
@@ -86,25 +88,32 @@ look at the documentation included with the zip files in the **[Releases](https:
 
 ## __FAQ:__
 Q: The game's too hard!
+
 A: There are multiple new in-game trades and overworld encounters explicitly designed to make the game easier. If you're stuck, try taking a different path and seeing what you find.
 
 Q: I picked up Exp. All and now the game's too easy!
+
 A: Exp. All in this game works the way Exp Share does in later gens. 
      It is functionally an "easy mode." If you want a challenge, don't pick it up.
 
 Q: Is there more content than vanilla gen 1?
+
 A: There's less "mandatory" content than vanilla gen 1, but there should be considerably more to find and do.
 
 Q: How do I move that one boulder that's too heavy to move?
+
 A: You don't and can't.
 
 Q: Why does the map show Beast locations in areas I can't access?
+
 A: Engine limitations.
 
 Q: Where the heck is the Cyberscope?
+
 A: Talk to the person that has it after you defeat them and they'll drop it.
 
 Q: Where is CUT?
+
 A: On the S.S. Rubin in Legrandito.
 
 **[Beast Documentation](https://github.com/StarBeasts/Star-Beasts-Comet/blob/master/docs/Beast%20Information%20%26%20Locations%20-%20Spoilers.txt)**
