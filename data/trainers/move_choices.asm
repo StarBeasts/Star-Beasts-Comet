@@ -58,4 +58,5 @@ TrainerClassMoveChoiceModifications:
 	move_choices 1, 3    ; LANCE
 	move_choices 1, 3    ; VARIK
 	move_choices 1, 3    ; FARFROMTILE
+	move_choices 1       ; TOPDOG
 	assert_list_length NUM_TRAINERS

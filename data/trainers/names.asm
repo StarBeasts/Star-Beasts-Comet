@@ -48,4 +48,5 @@ TrainerNames::
 	db "ARCTURUS@"
 	db "LEGEND VARIK@"
 	db "TILE@"
+	db "TOP DOG@"
 

@@ -316,6 +316,26 @@ BurglarData:
 	db 45, PIDGEOT, 0
 	db 48, CHARMELEON, 0
 	db 45, RHYHORN, GROWLITHE, 0
+; Caravan Enemies, Easy
+	db 25, NIDORINO, 0
+	db 25, CHARMELEON, 0
+	db 25, PIDGEOTTO, 0
+	db 25, ELECTRODE, 0
+; Caravan Enemies, Medium
+	db 40, NIDORINO, 0
+	db 40, CHARMELEON, 0
+	db 40, PIDGEOTTO, 0
+	db 40, ELECTRODE, 0
+; Caravan Enemies, Hard
+	db 55, NIDORINO, 0
+	db 55, CHARMELEON, 0
+	db 55, PIDGEOTTO, 0
+	db 55, ELECTRODE, 0
+; Caravan Enemies, Impossible
+	db 70, NIDORINO, 0
+	db 70, CHARMELEON, 0
+	db 70, PIDGEOTTO, 0
+	db 70, ELECTRODE, 0
 
 EngineerData:
 ; Route 9

@@ -53,4 +53,5 @@ TrainerAIPointers:
 	dbw 1, LanceAI ; lance
 	dbw 1, Rival3AI ; Varik
 	dbw 1, Rival3AI ; farfromtile
+	dbw 3, SabrinaAI ; Top Dogs
 	assert_table_length NUM_TRAINERS

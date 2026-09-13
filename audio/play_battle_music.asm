@@ -31,9 +31,9 @@ PlayBattleMusic::
 	jp z, .wildBattle
 	ld a, [wCurOpponent]
 	cp OPP_RIVAL3
-	jr z, .finalBattle
+	jp z, .finalBattle
 	cp OPP_RIVAL1
-	jr z, .ronald
+	jp z, .ronald
 	cp OPP_RIVAL2
 	jr z, .ronald
 	cp OPP_LASS
@@ -70,6 +70,8 @@ PlayBattleMusic::
 	jp z, .reaper
 	cp OPP_FARFROMTILE
 	jp z, .touhou
+	cp OPP_TOPDOG
+	jp z, .gymLeaderBattle
 	cp OPP_LANCE
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_HERO; lance also plays gym leader theme

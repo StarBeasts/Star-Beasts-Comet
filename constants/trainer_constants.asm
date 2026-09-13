@@ -64,4 +64,5 @@ ENDM
 	trainer_const LANCE          ; $2F
 	trainer_const VARIK          ; $30
 	trainer_const FARFROMTILE    ; $31
+	trainer_const TOPDOG
 DEF NUM_TRAINERS EQU const_value - 1
