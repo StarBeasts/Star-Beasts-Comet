@@ -23,7 +23,7 @@ Music:
 	dba Music_BattleTowerTheme
 	dba Music_Dojo
 	dba Music_Fort2
-	dba Music_DuelTheme2
+	dba Music_RelasGym
 	dba Music_WildBeast ; loops properly
 	dba Music_BeastBattle
 	dba Music_Nuzzles ; LOOPS PROPERLY LETS FUCKING GOOOOO

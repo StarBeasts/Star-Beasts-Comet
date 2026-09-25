@@ -20,8 +20,8 @@ GameCorner_Object:
 	object_event  8, 11, SPRITE_ROCKER, STAY, LEFT, 6 ; person
 	object_event  8, 14, SPRITE_RASTA, STAY, LEFT, 7 ; person
 	object_event 11, 15, SPRITE_GAMBLER, STAY, RIGHT, 8 ; person
-	object_event 14, 11, SPRITE_GLASSES_GUY, STAY, LEFT, 9 ; person
+	object_event 14, 11, SPRITE_ROCKER, STAY, LEFT, 9 ; person
 	object_event 17, 13, SPRITE_GENTLEMAN, STAY, RIGHT, 10 ; person
-	object_event 10,  6, SPRITE_BLUE, STAY, DOWN, 11
+	object_event 10,  6, SPRITE_BLUE, STAY, DOWN, 11 ;
 
 	def_warps_to GAME_CORNER

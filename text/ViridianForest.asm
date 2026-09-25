@@ -208,5 +208,10 @@ _ViridianForestText17::
 
 _ViridianForestText18::
 	text "COBALT CAVE AHEAD"
+
+	para "COBALT CAVE"
+	line "CONNECTS QUARTZ"
+	cont "QUARRY AND"
+	cont "SAPPHIRE SANDS."
 	done
 

@@ -52,17 +52,34 @@ _Route4Text4::
 	done
 
 _Route4Text5::
+	text "Wuzzat?"
+
+	line "GYM BADGEs?"
+
+	para "I'm 'fraid you're"
+	line "in the wrong"
+	cont "place, stranger."
+
+	para "You'll wanna"
+	line "go back west"
+	cont "and go through"
+	cont "COBALT CAVE!"
+
+	para "Safe travels!"
+	done
+
+_Route4Text6::
 	text "EMERALD ACRES -"
 	line "DOLOMITE DAM"
 	done
 
-_Route4Text6::
+_Route4Text7::
 	text "EMERALD ACRES"
 	line "ASSISTED LIVING"
 	cont "FACILITY"
 	done
 
-_Route4Text7::
+_Route4Text8::
 	text "EMERALD ACRES"
 	line "STAR BEAST CENTER"
 	cont "AND CONVENIENCE"
@@ -70,11 +87,11 @@ _Route4Text7::
 	done
 
 
-_Route4Text8::
+_Route4Text9::
 	text "STAR BEAST DAYCARE"
 	done
 
-_Route4Text9::
+_Route4Text10::
 	text "SOUL RESURRECTION"
 	line "LABORATORY"
 	done

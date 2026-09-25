@@ -194,7 +194,7 @@ _CeladonGameCornerText_48e31::
 	done
 
 _CeladonGameCornerText_48e36::
-	text "Darn! I need more"
+	text "DANG! I need more"
 	line "coins for the"
 	cont "BEAST I want!"
 	done
