@@ -23,6 +23,7 @@ Route4_TextPointers:
 	dw Route4Text7
 	dw Route4Text8
 	dw Route4Text9
+	dw Route4Text10
 
 Route4TrainerHeaders:
 	def_trainers 2
@@ -74,5 +75,9 @@ Route4Text8:
 
 Route4Text9:
 	text_far _Route4Text9
+	text_end
+
+Route4Text10:
+	text_far _Route4Text10
 	text_end
 

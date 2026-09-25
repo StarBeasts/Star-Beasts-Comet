@@ -63,7 +63,8 @@ _Route4Text5::
 	para "You'll wanna"
 	line "go back west"
 	cont "and go through"
-	cont "COBALT CAVE!"
+	cont "COBALT CAVE in"
+	cont "OLIVINE ORCHARD!"
 
 	para "Safe travels!"
 	done
