@@ -462,6 +462,8 @@ ItemUseBall:
 	cp $63
 	ld hl, ItemUseBallText04
 	jp z, .printMessage
+	cp $64 ; failed catch with the most shakes
+	jp z, .printMessage
 
 ; Save current HP.
 	ld hl, wEnemyMonHP
