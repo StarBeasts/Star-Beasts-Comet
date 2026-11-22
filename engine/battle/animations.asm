@@ -1747,7 +1747,7 @@ popo
 MinimizedMonSpriteEnd:
 
 AnimationSlideMonDownAndHide:
-; Slides the mon's sprite down and disappears. Used in Acid Armor.
+; Slides the mon's sprite down, hides it briefly, and shows it again.
 	ld a, TILEMAP_SLIDE_DOWN_MON_PIC_7X5
 	ld c, 2
 .loop
@@ -1767,11 +1767,9 @@ AnimationSlideMonDownAndHide:
 	dec c
 	jr nz, .loop
 	call AnimationHideMonPic
-	ld hl, wTempPic
-	ld bc, 7 * 7 tiles
-	xor a
-	call FillMemory
-	jp CopyTempPicToMonPic
+	ld c, 8
+	call DelayFrames
+	jp AnimationShowMonPic
 
 _AnimationSlideMonOff:
 ; Slides the mon's sprite off the screen horizontally by e tiles and waits
